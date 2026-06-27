@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-06-28",
-  "node_count": 325,
-  "edge_count": 1946,
+  "updated": "2026-06-27",
+  "node_count": 328,
+  "edge_count": 1971,
   "edge_types": [
     "is-a",
     "part-of",
@@ -2967,6 +2967,33 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/attention.md"
+    },
+    {
+      "id": "blindsight",
+      "title": "盲视",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/blindsight.md"
+    },
+    {
+      "id": "affective-blindsight",
+      "title": "情绪性盲视",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/affective-blindsight.md"
+    },
+    {
+      "id": "attention-consciousness-dissociation",
+      "title": "注意-意识解离",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/attention-consciousness-dissociation.md"
     }
   ],
   "edges": [
@@ -13869,6 +13896,156 @@
       "to": "attention",
       "type": "related",
       "note": "DAN是注意力系统的高层控制节点"
+    },
+    {
+      "from": "blindsight",
+      "to": "attention-consciousness-dissociation",
+      "type": "supports",
+      "note": "盲视是注意-意识双向解离的核心证据：感知处理（注意样效应）与意识觉知完全分离"
+    },
+    {
+      "from": "blindsight",
+      "to": "v1-primary-visual-cortex",
+      "type": "related",
+      "note": "V1损毁是盲视发生的解剖前提；V1通路完整性决定有意识视觉"
+    },
+    {
+      "from": "blindsight",
+      "to": "superior-colliculus",
+      "type": "related",
+      "note": "SC→丘脑枕→V5皮下旁路是盲视中残留感觉处理的神经基础"
+    },
+    {
+      "from": "blindsight",
+      "to": "amygdala",
+      "type": "related",
+      "note": "情绪性盲视中SC→丘脑枕→杏仁核通路支撑无意识恐惧面孔处理"
+    },
+    {
+      "from": "blindsight",
+      "to": "consciousness-ignition",
+      "type": "related",
+      "note": "盲视中V1缺失导致GWT全局广播无法启动——盲视验证了点燃需要V1通路参与"
+    },
+    {
+      "from": "blindsight",
+      "to": "attention",
+      "type": "supports",
+      "note": "盲视证明注意样感觉处理可以独立于意识觉知存在"
+    },
+    {
+      "from": "blindsight",
+      "to": "global-workspace-theory",
+      "type": "supports",
+      "note": "盲视为GWT提供自然实验：无V1广播→无通路意识，但感觉加工可继续"
+    },
+    {
+      "from": "v1-primary-visual-cortex",
+      "to": "blindsight",
+      "type": "related",
+      "note": "V1损毁是产生盲视的必要解剖条件"
+    },
+    {
+      "from": "superior-colliculus",
+      "to": "blindsight",
+      "type": "mechanism-of",
+      "note": "SC是盲视皮下旁路的关键中继节点；直接接受视网膜神经节细胞投射（约10%）"
+    },
+    {
+      "from": "blindsight",
+      "to": "affective-blindsight",
+      "type": "related",
+      "note": "情绪性盲视是盲视的情绪专属子形式（SC→杏仁核子通路）"
+    },
+    {
+      "from": "affective-blindsight",
+      "to": "blindsight",
+      "type": "is-a",
+      "note": "情绪性盲视是盲视的特殊情绪专属子类型"
+    },
+    {
+      "from": "affective-blindsight",
+      "to": "amygdala",
+      "type": "mechanism-of",
+      "note": "杏仁核是情绪性盲视的主要效应位点；fMRI证实无V1激活时杏仁核仍对恐惧面孔响应"
+    },
+    {
+      "from": "affective-blindsight",
+      "to": "superior-colliculus",
+      "type": "mechanism-of",
+      "note": "SC是情绪性盲视皮下通路（SC→丘脑枕→杏仁核）的起始节点"
+    },
+    {
+      "from": "affective-blindsight",
+      "to": "attention-consciousness-dissociation",
+      "type": "supports",
+      "note": "情绪性盲视是情绪信息在无意识下完整处理的极端示例"
+    },
+    {
+      "from": "amygdala",
+      "to": "affective-blindsight",
+      "type": "related",
+      "note": "杏仁核SCR和fMRI激活是情绪性盲视的核心指标（Tamietto & de Gelder 2010）"
+    },
+    {
+      "from": "attention-consciousness-dissociation",
+      "to": "attention",
+      "type": "related",
+      "note": "注意力是解离的一侧；注意力不等于意识"
+    },
+    {
+      "from": "attention-consciousness-dissociation",
+      "to": "blindsight",
+      "type": "related",
+      "note": "盲视提供最极端的解离形式（V1损毁实现注意样加工完全脱离意识）"
+    },
+    {
+      "from": "attention-consciousness-dissociation",
+      "to": "consciousness-ignition",
+      "type": "related",
+      "note": "通路意识所需的全局广播（GWT点燃）需要注意力参与，但注意力不等于意识本身"
+    },
+    {
+      "from": "attention-consciousness-dissociation",
+      "to": "global-workspace-theory",
+      "type": "related",
+      "note": "解离说明GWT的广播（注意力激活）不等于所有形式的意识"
+    },
+    {
+      "from": "attention-consciousness-dissociation",
+      "to": "alpha-oscillations",
+      "type": "related",
+      "note": "注意力通过α抑制实现门控，与意识覆盖范围不完全重叠"
+    },
+    {
+      "from": "attention-consciousness-dissociation",
+      "to": "thalamic-reticular-nucleus",
+      "type": "related",
+      "note": "TRN门控处于注意层面，与意识的关系仍在争议（Q-attention-03）"
+    },
+    {
+      "from": "attention-consciousness-dissociation",
+      "to": "v1-primary-visual-cortex",
+      "type": "related",
+      "note": "V1反馈循环加工支撑现象意识；注意力主要控制通路意识（Lamme 2003）"
+    },
+    {
+      "from": "attention",
+      "to": "attention-consciousness-dissociation",
+      "type": "related",
+      "note": "注意-意识解离揭示注意力系统的独立性：注意可先于或脱离意识觉知运作"
+    },
+    {
+      "from": "neural-correlates-of-consciousness",
+      "to": "attention-consciousness-dissociation",
+      "type": "related",
+      "note": "NCC研究的核心问题之一：注意力增强的神经活动是否等于NCC"
+    },
+    {
+      "from": "consciousness-ignition",
+      "to": "attention-consciousness-dissociation",
+      "type": "related",
+      "note": "点燃需要注意力激活，但注意力并不充分引发点燃（解离的神经基础）"
     }
   ],
   "dangling_references": [

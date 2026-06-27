@@ -6,13 +6,13 @@ type: concept
 status: established
 confidence: high
 created: 2026-06-28
-updated: 2026-06-28
-revision_count: 1
+updated: 2026-06-27
+revision_count: 2
 dimensions: [microcircuit, brain-region, whole-brain-network, cognition, behavior]
-related: [dorsal-attention-network, alpha-oscillations, thalamic-reticular-nucleus, lateral-geniculate-nucleus, working-memory, predictive-coding, biased-competition, consciousness-ignition, normalization-model, global-workspace-theory, attentional-blink, transformer-self-attention]
+related: [dorsal-attention-network, alpha-oscillations, thalamic-reticular-nucleus, lateral-geniculate-nucleus, working-memory, predictive-coding, biased-competition, consciousness-ignition, normalization-model, global-workspace-theory, attentional-blink, transformer-self-attention, blindsight, attention-consciousness-dissociation]
 prerequisites: [thalamocortical-circuit, thalamic-reticular-nucleus, alpha-oscillations, dorsal-attention-network]
 opens_questions: [Q-attention-01, Q-attention-02, Q-attention-03]
-source_articles: [2026-06-28-attention-neural-mechanisms-spotlight]
+source_articles: [2026-06-28-attention-neural-mechanisms-spotlight, 2026-06-27-blindsight-attention-consciousness-dissociation]
 key_sources: ["PMID:11994752", "PMID:18849967", "PMC2888515", "PMID:19186161", "PMC6725538", "PMID:21119777", "PMC6772495", "PMID:11584308"]
 ---
 

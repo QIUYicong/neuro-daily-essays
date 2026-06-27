@@ -4,6 +4,31 @@
 
 ---
 
+## 2026-06-27（#179）：注意力的暗面——盲视与注意-意识解离
+
+**文章**：《注意力的暗面：盲视如何证明大脑在意识之外感知世界》（#179）
+
+**类型**：注意力系列延伸（Q-attention-03 直接响应）；意识神经科学前沿；层级：brain-region × whole-brain-network × cognition × behavior
+
+**新创建页面（3）**：
+- `wiki/concepts/blindsight.md`（rev1）：盲视综合概念页，整合 Weiskrantz 1974 原始发现、Cowey & Stoerig 1995 猴子模型、Derrien 2022 三类型分类、Sahraie 2010 Type II 一阶意识；皮下旁路解剖（SC→丘脑枕→V5/MT/杏仁核）；未解问题 Q-blindsight-01/02；4 个关键来源
+- `wiki/concepts/affective-blindsight.md`（rev1）：情绪性盲视专页，SC→丘脑枕→杏仁核皮下情绪通路；无意识 SCR/EMG/fMRI 三层证据；Tamietto & de Gelder 2010 系统综述；1 个关键来源
+- `wiki/concepts/attention-consciousness-dissociation.md`（rev1）：注意-意识解离概念页，Koch & Tsuchiya 2007 双向解离证据（4 实验范式）；Lamme 2003 现象意识 vs 通路意识框架；盲视极端解离形式；未解问题 Q-attention-03/Q-blindsight-01；4 个关键来源
+
+**修订页面（1）**：
+- `wiki/concepts/attention.md`（rev1→rev2）：related 列表新增 blindsight、attention-consciousness-dissociation；source_articles 新增 2026-06-27 文章；updated → 2026-06-27
+
+**图谱变更**：
+- 新增节点（3）：blindsight（concepts/established/high）、affective-blindsight（concepts/mainstream/high）、attention-consciousness-dissociation（concepts/mainstream/high）
+- 新增边（25条）：覆盖新节点与 v1-primary-visual-cortex、superior-colliculus、amygdala、consciousness-ignition、global-workspace-theory、attention、alpha-oscillations、thalamic-reticular-nucleus、neural-correlates-of-consciousness 的双向连接
+- 更新：_graph.json → 328 节点 / 1971 边
+
+**填补悬空引用**：blindsight（已填补）、affective-blindsight（已填补）、attention-consciousness-dissociation（已填补）
+
+**未解问题新增**：Q-blindsight-01（TRN 门控在 V1 损毁患者中是否仍然产生意识种子）、Q-blindsight-02（皮下情绪通路的刺激选择性与可训练性）
+
+---
+
 ## 2026-06-28（#178）：注意力的神经机制——三级联动门控系统
 
 **文章**：《注意力的神经机制：三级联动门控系统如何在皮层前就开始选择世界》（#178）

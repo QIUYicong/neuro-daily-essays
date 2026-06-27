@@ -1930,6 +1930,23 @@
 
 ---
 
+## 2026-06-27（#179）日摘要
+
+**主题**：盲视与注意-意识解离——感知处理在意识之外如何运行
+
+**核心发现**：V1损毁的盲视现象揭示了大脑中两条并行视觉通路的功能分离——有意识通路（视网膜→LGN→V1→腹侧流）与皮下旁路（SC→丘脑枕→V5/MT/杏仁核）。Cowey & Stoerig 1995（猴子）排除了"退化视觉"假说，证明盲视确实是无意识感知而非弱意识。Koch & Tsuchiya 2007 系统证明注意力与意识是可双向解离的独立机制（4个实验范式）；Lamme 2003区分现象意识（V1反馈循环）与通路意识（前额叶全局广播），解释了为何注意力主要控制通路意识而非现象意识本身。
+
+**知识地图贡献**：
+- 注意力系列从机制（#178：三级门控系统）下沉到极端边界（#179：注意-意识解离）
+- 意识神经科学子图正式形成：blindsight ↔ affective-blindsight ↔ attention-consciousness-dissociation ↔ consciousness-ignition ↔ global-workspace-theory
+- 图谱从 325节点/1946边 扩展至 328节点/1971边
+
+**图谱**：328节点/1971边（+3节点：blindsight/affective-blindsight/attention-consciousness-dissociation；+25边）
+
+**新增未解问题（2个）**：Q-blindsight-01（TRN在V1损毁患者中的意识种子，高）、Q-blindsight-02（皮下情绪通路选择性，中）
+
+---
+
 ## 2026-06-27（#177）日摘要
 
 **主题**：REM睡眠、IL皮层与情绪记忆的夜间重构

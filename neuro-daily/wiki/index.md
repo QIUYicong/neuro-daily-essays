@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-06-28（第178篇·注意力的神经机制：三级联动门控系统）· 主题页总数：**319**（新建1页：concepts/attention；修订2页：alpha-oscillations rev2, thalamic-reticular-nucleus source更新；图谱325节点/1946边）
+> 最后更新：2026-06-27（第179篇·盲视与注意-意识解离）· 主题页总数：**322**（新建3页：concepts/blindsight, concepts/affective-blindsight, concepts/attention-consciousness-dissociation；修订1页：concepts/attention rev2；图谱328节点/1971边）
 
 ---
 
@@ -177,6 +177,9 @@
 - 🟢 [注意力](concepts/attention.md) — 三级联动门控系统：DAN（高级控制层）→ TRN（皮层前 4ms 门控）→ α 振荡（持续抑制维持）；规范化模型统一对比度增益/反应增益矛盾（Reynolds & Heeger 2009）；DAN/VAN 双系统（Corbetta & Shulman 2002）；填补图谱悬空引用 **[NEW 2026-06-28]**
 - 🟢 [背侧注意网络（DAN）](concepts/dorsal-attention-network.md) — FEF+IPS 构成目标驱动注意控制系统；LIP 优先级地图整合视觉/扫视/认知信号；FEF 微电刺激因果增强对应视野区感知（Moore & Fallah 2004）；V4→V1 反馈是注意调制必要通道（Debes & Dragoi 2023）；乘法性增益调制（Treue & Trujillo 1999）；与 VAN（TPJ/VFC）构成双网络架构（Corbetta & Shulman 2002）**[NEW 2026-07-01]**
 - 🟢 [偏置竞争模型](concepts/biased-competition.md) — 多刺激竞争有限皮层表征资源；注意通过 DAN 提供自上而下偏置信号倾斜竞争；乘法增益是偏置的计算形式；Desimone & Duncan 1995 经典理论框架 **[NEW 2026-07-01]**
+- 🟢 [盲视](concepts/blindsight.md) — V1损毁后感知处理（SC→丘脑枕→V5/MT/杏仁核皮下旁路）与意识觉知完全分离；Weiskrantz 1974 患者D.B.原始发现；Cowey & Stoerig 1995 猴子盲视排除退化视觉解释；盲视三类型（Type I无觉知/Type II模糊感/Blindsense）；证明注意样加工可独立于意识运作 **[NEW 2026-06-27]**
+- 🔵 [情绪性盲视](concepts/affective-blindsight.md) — 盲视患者对盲域内恐惧面孔产生无意识生理/行为反应（皮肤电增强/面部EMG模仿/杏仁核激活）；神经基础：SC→丘脑枕→杏仁核皮下情绪通路；约100ms速度优势用于应急防御 **[NEW 2026-06-27]**
+- 🔵 [注意-意识解离](concepts/attention-consciousness-dissociation.md) — 注意力与意识觉知是可双向独立的两套系统（Koch & Tsuchiya 2007）；意识但无注意：周边视野现象/图像记忆；注意但无意识：阈下空间提示效应/CFS语义加工；Lamme 2003区分现象意识（V1反馈循环）vs通路意识（前额叶广播） **[NEW 2026-06-27]**
 - 🟢 [脑源性神经营养因子（BDNF）](concepts/bdnf.md) — 神经活动诱导释放的关键成长信号；TrkB三通路（PLCγ/ERK/Akt）；proBDNF→p75NTR与成熟BDNF→TrkB的双向开关；L-LTP的催化分子；SGZ神经发生的存活驱动力；AD早期受损靶点；Val66Met多态性；**rev3新增**：HD中BDNF-REST轴断裂（mHTT→REST入核→BDNF转录↓→MSN营养饥饿；Zuccato 2001/2005） **[NEW 2026-06-28 · 修订 rev3 2026-09-07]**（填补多页悬空引用）
 - 🟡 [SGK3 介导的神经干细胞自噬性死亡](concepts/sgk3-autophagic-nsc-death.md) — 慢性应激/CORT→GR→SGK3→LC3→TRP53 降解→NSC 自噬性死亡（非凋亡）；TRP53 是 NSC 的存活守护蛋白；Atg7 KO 对应激诱导的 AHN 下降具有抗性；单实验室证据（Jung et al.），需独立复现 **[NEW 2026-08-27]**
 - 🔵 [FKBP51（糖皮质激素受体伴侣蛋白）](concepts/fkbp51.md) — FKBP51 降低 GR 对 CORT 的亲和力并阻碍核转位；GR→FKBP5 转录→FKBP51 增加的超短负反馈环；*FKBP5* rs1360780 T 等位基因×童年创伤×成年 PTSD 三重交互（人类遗传最强证据之一）；SAFit2 体外促 NPC 增殖（>BDNF），体内应激弹性但体内神经发生效应不显著 **[NEW 2026-08-27]**

@@ -1,0 +1,63 @@
+# 每日运行日志 2026-06-27 · 文章 #179（盲视与注意-意识解离）
+
+## 运行概要
+
+- **文章编号**：#179
+- **日期**：2026-06-27
+- **主题**：盲视与注意-意识解离
+- **触发来源**：Q-attention-03（注意与意识精确分离条件）← 来自#178（注意力神经机制）
+- **运行状态**：完成
+
+## 选题决策
+
+从 `state/unresolved_questions.md` 中识别 Q-attention-03（中优先级）直接触发本日主题。盲视（Blindsight）是注意-意识解离最极端、最直接的证据来源，且图谱中 `blindsight`、`affective-blindsight`、`attention-consciousness-dissociation` 均为悬空引用节点，填补价值高。
+
+## 文献来源
+
+| 来源 | 类型 | 访问方式 |
+|------|------|----------|
+| PMID:4417164 (Weiskrantz 1974) | 原始研究 | 摘要 |
+| PMID:7715718 (Cowey & Stoerig 1995) | 原始研究 | 摘要 |
+| PMID:17234498 (Koch & Tsuchiya 2007) | 综述 | 摘要 |
+| PMID:12593134 (Lamme 2003) | 综述 | 摘要 |
+| PMID:35237447 PMC9196108 (Derrien 2022) | 综述 | **开放全文 ✅** |
+| PMID:21078979 PMC3000284 (Sahraie 2010) | 原始研究 | **开放全文 ✅** |
+| PMID:20571578 (Tamietto & de Gelder 2010) | 综述 | 摘要 |
+
+开放全文：2/7（28.6%）
+
+## 创建/修订文件
+
+### 新建文件
+- `neuro-daily/articles/2026-06-27-blindsight-attention-consciousness-dissociation.md`（主文章，#179）
+- `neuro-daily/notes/2026-06-27-blindsight-reading-notes.md`（阅读笔记）
+- `neuro-daily/sources/2026-06-27-blindsight-sources.json`（来源结构化记录）
+- `neuro-daily/wiki/concepts/blindsight.md`（rev1）
+- `neuro-daily/wiki/concepts/affective-blindsight.md`（rev1）
+- `neuro-daily/wiki/concepts/attention-consciousness-dissociation.md`（rev1）
+
+### 修订文件
+- `neuro-daily/wiki/concepts/attention.md`（rev1→rev2，related新增2个节点）
+- `neuro-daily/wiki/_graph.json`（325节点/1946边 → 328节点/1971边）
+- `neuro-daily/wiki/index.md`（主题页总数319→322，新增3条目）
+- `neuro-daily/wiki/CHANGELOG.md`（新增#179条目）
+- `neuro-daily/state/topic_ledger.json`（total_articles 178→179）
+- `neuro-daily/state/unresolved_questions.md`（新增Q-blindsight-01/02）
+- `neuro-daily/state/source_registry.json`（新增7个来源）
+- `neuro-daily/state/monthly_synthesis.md`（新增#179日摘要）
+
+## 图谱变更
+
+- 新增节点：3（blindsight, affective-blindsight, attention-consciousness-dissociation）
+- 新增边：25条
+- 最终：328节点 / 1971边
+
+## 质量检查
+
+- [x] 来源全部真实（PMID/PMCID可核查）
+- [x] 无编造数据或结论
+- [x] 开放全文来源正确标注
+- [x] 悬空引用已消除（3个新节点）
+- [x] wiki页面前置条件节点均已存在
+- [x] 矛盾来源无（本日未产生新矛盾）
+- [x] 无医学诊断/治疗建议

@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-28",
-  "total_articles": 178,
+  "last_updated": "2026-06-27",
+  "total_articles": 179,
   "entries": [
     {
       "date": "2026-10-05",
@@ -11036,6 +11036,67 @@
         "normalization-model——规范化计算作为皮层通用运算；与本篇Reynolds & Heeger 2009直接连接",
         "月度综合（#151-#180第6周期）——当前进入#178，距#180还有2篇",
         "视觉注意与失读症/ADHD临床连接——注意力系列的疾病应用延伸（脊柱11）"
+      ]
+    },
+    {
+      "date": "2026-06-27",
+      "title": "注意力的暗面：盲视如何证明大脑在意识之外感知世界",
+      "filename": "2026-06-27-blindsight-attention-consciousness-dissociation.md",
+      "article_number": 179,
+      "wiki_pages_created": [
+        "wiki/concepts/blindsight.md",
+        "wiki/concepts/affective-blindsight.md",
+        "wiki/concepts/attention-consciousness-dissociation.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/attention.md (rev1→rev2, related新增blindsight/attention-consciousness-dissociation)"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "V1损毁后，大脑通过SC→丘脑枕→V5/MT/杏仁核的皮下旁路仍可对视觉刺激（运动/位置/情绪面孔）进行感知处理，但完全丧失有意识觉知——这一「盲视」现象如何在神经回路层面证明注意力（感觉处理资源的主动分配）与意识觉知（可报告的主观体验）是两套可以双向独立运作的机制？",
+      "open_questions_added": [
+        "Q-blindsight-01（高优先级）：TRN 门控在 V1 损毁患者中是否仍然正常工作？TRN 门控是否产生任何形式的意识种子？",
+        "Q-blindsight-02（中优先级）：SC→杏仁核皮下情绪通路对哪类情绪刺激有选择性（负性面孔/威胁物体/社会信号）？这种选择性能否通过训练扩展？"
+      ],
+      "layer": [
+        "brain-region",
+        "whole-brain-network",
+        "cognition",
+        "behavior"
+      ],
+      "topics": [
+        "blindsight",
+        "affective-blindsight",
+        "attention-consciousness-dissociation",
+        "visual consciousness",
+        "subcortical visual pathway"
+      ],
+      "search_terms": [
+        "blindsight V1 lesion subcortical pathway SC pulvinar",
+        "affective blindsight amygdala fear faces subcortical",
+        "attention consciousness dissociation double dissociation Koch Tsuchiya",
+        "Lamme phenomenal consciousness access consciousness V1 feedback",
+        "blindsight types TypeI TypeII blindsense Derrien 2022"
+      ],
+      "main_sources": [
+        "PMID:4417164 - Weiskrantz L et al. 1974 Brain (患者D.B.盲视原始发现，摘要)",
+        "PMID:7715718 - Cowey A, Stoerig P 1995 Nature (猴子盲视，排除退化视觉，摘要)",
+        "PMID:17234498 - Koch C, Tsuchiya N 2007 Trends Cogn Sci (注意-意识双向解离综述，摘要)",
+        "PMID:12593134 - Lamme VAF 2003 Trends Cogn Sci (现象意识vs通路意识区分，摘要)",
+        "PMID:35237447 (PMC9196108) - Derrien D et al. 2022 Neurosci Conscious (盲视类型学，开放全文)",
+        "PMID:21078979 (PMC3000284) - Sahraie A et al. 2010 PNAS (TypeII意识一阶成分依赖，开放全文)",
+        "PMID:20571578 - Tamietto M, de Gelder B 2010 Nat Rev Neurosci (情绪性盲视皮下通路综述，摘要)"
+      ],
+      "unresolved_questions": [
+        "Q-blindsight-01",
+        "Q-blindsight-02",
+        "Q-attention-03"
+      ],
+      "next_suggested_topics": [
+        "sharp-wave-ripple——填补图谱悬空引用，与睡眠记忆巩固直接连接（优先级最高悬空引用之一）",
+        "normalization-model——规范化计算作为皮层通用运算（Reynolds & Heeger 2009，从#178直接延伸）",
+        "global-workspace-theory——扩展意识点燃/GWT页面，与本篇盲视直接连接",
+        "月度综合（#151-#180第6周期）——当前进入#179，距#180还有1篇"
       ]
     }
   ]
