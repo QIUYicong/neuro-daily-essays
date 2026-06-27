@@ -68,3 +68,11 @@
 - branch: main
 - commit: df98707
 - push: 成功（a73fd7a → df98707，origin/main）
+
+## 第二次运行（元数据修正）
+- 时间：2026-06-27 再次触发
+- 发现前次运行遗留元数据不一致：
+  - topic_ledger.json: last_updated=2026-10-13（应为2026-06-27），total_articles=176（应为177）
+  - wiki/index.md: 头部仍显示第176篇（2026-10-16）而非第177篇（2026-06-27）
+- 已修正以上两项，补充提交
+- wiki/CHANGELOG.md（顶部 #177 条目）、_graph.json（updated=2026-06-27）、monthly_synthesis.md（#177 摘要）、unresolved_questions.md（Q-il-rem-01/02）均已在前次运行中正确更新

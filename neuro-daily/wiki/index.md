@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-10-16（第176篇·睡眠如何修剪突触：Homer1a 与 Arc 的分子协奏）· 主题页总数：**318**（新建1页：concepts/homer1a；修订3页：arc-arg31 rev3, ampa-receptor rev4, slow-wave-sleep rev3；图谱324节点/1931边）
+> 最后更新：2026-06-27（第177篇·恐惧可以被睡眠稀释吗：REM睡眠、下边缘皮层与情绪记忆重构的因果解剖）· 主题页总数：**318**（修订3页：rem-sleep rev3, emotional-memory-depotentiation rev2, fear-extinction rev9；图谱324节点/1935边）
 
 ---
 
