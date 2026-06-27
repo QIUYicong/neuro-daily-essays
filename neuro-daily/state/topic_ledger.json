@@ -10777,6 +10777,77 @@
         "经颅交流电刺激（tACS）与睡眠优化：能否用 tACS 增强 SO 振幅以改善记忆巩固和突触稳态？Ngo 2013 等相关实验；人类转化障碍",
         "发作性睡病（Narcolepsy）专页：flip-flop switch 的人类疾病验证；食欲素丧失→状态不稳定→猝倒（REM 入侵）；已在 flip-flop-switch 页引用"
       ]
+    },
+    {
+      "date": "2026-10-15",
+      "title": "当\"稳定器\"失守：发作性睡病 1 型如何用一场疾病解码大脑的睡眠开关与自身免疫双重谜题",
+      "filename": "2026-10-15-narcolepsy-type1-orexin-autoimmune-flipflop.md",
+      "article_number": 175,
+      "wiki_pages_created": [
+        "wiki/diseases/narcolepsy.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/orexin-hypocretin.md (rev1→rev2: Latorre 2018 CD4+ T细胞直接证据+Ollila 2023 GWAS 13新位点+猝倒VMM路径细化+CSF Hcrt-1诊断数据精确化)",
+        "wiki/systems/flip-flop-switch-sleep-wake.md (rev2→rev3: NT1临床段精确化+narcolepsy交叉引用)"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "当外侧下丘脑仅仅8万个食欲素神经元被T细胞介导的自身免疫选择性消灭（85–95%丢失）时，睡眠-清醒双稳触发器的稳定器层完全崩溃，导致清醒谷谷壁坍塌（EDS+SOREMP）和REM肌张力弛缓回路在清醒时被情绪路径（杏仁核→VMM）意外激活（猝倒）——同时揭示HLA-DQB1*06:02等位基因如何通过决定MHC II肽结合槽形状使携带者对H1N1等分子拟态触发极度易感",
+      "layer": [
+        "molecular",
+        "cellular",
+        "brain-region",
+        "whole-brain-network",
+        "behavior",
+        "cognition",
+        "disease"
+      ],
+      "curriculum_track": "睡眠系列第6篇（#170 TRN→#171 SWR时序→#172 翻转开关→#173 腺苷/Process S→#174 SHY/ON-OFF→#175 NT1疾病验证）；疾病作为窗口系列；课程脊柱11（疾病）",
+      "topic_tags": [
+        "narcolepsy type1 NT1 orexin hypocretin deficiency",
+        "flip-flop switch sleep-wake stabilizer",
+        "HLA-DQB1*06:02 autoimmune 251-fold risk",
+        "CD4+ T cell Latorre 2018 Nature 19/19 patients",
+        "GWAS Ollila 2023 Nat Commun PRF1 perforin CD207 IFNAR1 TCR",
+        "Pandemrix H1N1 vaccine 5-14 fold risk molecular mimicry",
+        "cataplexy VMM spinal motor neuron atonia REM intrusion",
+        "CSF hypocretin-1 Hcrt-1 110 pg/mL diagnostic threshold",
+        "DTA mouse 95% loss cataplexy 97% 20-60 episodes dark period",
+        "sodium oxybate GHB RCT 228 patients 57-85% reduction",
+        "Danavorexton TAK-925 OX2R agonist Phase II MWT +11.1 min",
+        "ALKS 2680 oral OX2R agonist Phase II",
+        "pitolisant H3 antagonist inverse agonist histamine",
+        "modafinil DAT wake-promoting",
+        "sleep paralysis hypnagogic hypnopompic hallucination",
+        "excessive daytime sleepiness SOREMP sleep onset REM period",
+        "orexin AAV gene therapy circadian challenge",
+        "NT2 mechanism unknown CSF normal no cataplexy",
+        "MCH neuron partial loss 33% bystander damage",
+        "Streptococcus throat infection 5.4 fold risk"
+      ],
+      "main_sources": [
+        "PMID:37188663 (PMC:10185546) - Ollila et al. 2023 Nat Commun (GWAS 6073例+13新位点+PRF1/CD207/IFNAR1+TCR偏倚，开放全文)",
+        "PMID:26721620 (PMC:5114175) - Black et al. 2017 Prog Neurobiol (综合综述: 流行病学+DTA小鼠+CSF诊断+sodium oxybate RCT，开放全文)",
+        "PMID:30232458 - Latorre et al. 2018 Nature (CD4+ T细胞直接证据 19/19患者，摘要)",
+        "PMID:29855798 - Sarkanen et al. 2018 Curr Neurol Neurosci Rep (Pandemrix 5-14倍风险，摘要)",
+        "PMID:28179647 - Kornum et al. 2017 Nat Rev Dis Primers (NT1综合综述，摘要)",
+        "PMID:25728441 - Liblau et al. 2015 Lancet Neurol (食欲素生物学与NT1发病机制，摘要)",
+        "PMID:21963829 - Kornum et al. 2011 Curr Opin Neurobiol (感染触发+分子拟态框架，摘要)",
+        "PMID:40373365 - Freeman et al. 2025 Semin Immunol (最新2025综述，摘要)"
+      ],
+      "unresolved_questions": [
+        "Q-narc-01",
+        "Q-narc-02",
+        "Q-narc-03",
+        "Q-narc-04"
+      ],
+      "next_suggested_topics": [
+        "昼夜节律SCN分子振荡器（CLOCK/BMAL1/PER/CRY TTFL，Process C机制）——完成Borbély两进程模型的另一半；circadian-clock wiki页面已存在但可深化SCN分子机制",
+        "REM睡眠功能与情绪记忆巩固——睡眠系列第7篇；NT1患者REM相对保留但猝倒（情绪触发REM入侵）如何影响情绪记忆？",
+        "AMPA受体循环与突触下调分子机制（GluA1 Ser845/Ser831磷酸化-脱磷酸化开关；PICK1/NSF/AP2内吞）——SHY系列的分子层深化",
+        "甘氨酸（Glycine）与睡眠——VMM-脊髓运动神经元抑制通路的关键递质；NT1猝倒机制的分子基础",
+        "月度综合（如已达30篇）——第6周期综合（#151-#180），主题: 睡眠系列（#170-#175）如何改变我们对大脑状态控制架构的理解"
+      ]
     }
   ]
 }

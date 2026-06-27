@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-12",
+  "last_updated": "2026-10-14",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -11071,6 +11071,98 @@
         "OX1R OX2R",
         "suvorexant lemborexant"
       ]
+    },
+    {
+      "pmid": "37188663",
+      "pmcid": "PMC10185546",
+      "title": "Narcolepsy risk loci outline role of T cell autoimmunity and infectious triggers in narcolepsy",
+      "authors": "Ollila HM et al.",
+      "journal": "Nature Communications",
+      "year": 2023,
+      "full_text": true,
+      "first_used": "2026-10-15",
+      "articles": [
+        "2026-10-15-narcolepsy-type1-orexin-autoimmune-flipflop"
+      ],
+      "covers": [
+        "NT1 GWAS 6073例 13新位点 PRF1 CD207 IFNAR1 TCR偏倚 遗传架构"
+      ]
+    },
+    {
+      "pmid": "26721620",
+      "pmcid": "PMC5114175",
+      "title": "Challenges in the development of therapeutics for narcolepsy",
+      "authors": "Black SW, Yamanaka A, Kilduff TS",
+      "journal": "Progress in Neurobiology",
+      "year": 2017,
+      "full_text": true,
+      "first_used": "2026-10-15",
+      "articles": [
+        "2026-10-15-narcolepsy-type1-orexin-autoimmune-flipflop"
+      ],
+      "covers": [
+        "NT1流行病学 DTA小鼠模型 CSF Hcrt-1诊断 sodium oxybate RCT 食欲素系统综述"
+      ]
+    },
+    {
+      "pmid": "30232458",
+      "title": "T cells in patients with narcolepsy target self-antigens of hypocretin neurons",
+      "authors": "Latorre D et al.",
+      "journal": "Nature",
+      "year": 2018,
+      "full_text": false,
+      "first_used": "2026-10-15",
+      "articles": [
+        "2026-10-15-narcolepsy-type1-orexin-autoimmune-flipflop"
+      ],
+      "covers": [
+        "CD4+ T细胞直接证据 19/19患者 多克隆 HLA-DR限制 跨患者克隆型复现"
+      ]
+    },
+    {
+      "pmid": "29855798",
+      "title": "Narcolepsy Associated with Pandemrix Vaccine",
+      "authors": "Sarkanen T et al.",
+      "journal": "Curr Neurol Neurosci Rep",
+      "year": 2018,
+      "full_text": false,
+      "first_used": "2026-10-15",
+      "articles": [
+        "2026-10-15-narcolepsy-type1-orexin-autoimmune-flipflop"
+      ],
+      "covers": [
+        "Pandemrix H1N1疫苗 NT1风险5-14倍 儿童青少年 HLA-DQB1*06:02"
+      ]
+    },
+    {
+      "pmid": "28179647",
+      "title": "Narcolepsy",
+      "authors": "Kornum BR et al.",
+      "journal": "Nature Reviews Disease Primers",
+      "year": 2017,
+      "full_text": false,
+      "first_used": "2026-10-15",
+      "articles": [
+        "2026-10-15-narcolepsy-type1-orexin-autoimmune-flipflop"
+      ],
+      "covers": [
+        "NT1 NT2 综合综述 发病机制 诊断 治疗"
+      ]
+    },
+    {
+      "pmid": "40373365",
+      "title": "Unraveling the pathophysiology of narcolepsy type 1 through hypothesis-driven and hypothesis-generating approaches",
+      "authors": "Freeman SA et al.",
+      "journal": "Seminars in Immunology",
+      "year": 2025,
+      "full_text": false,
+      "first_used": "2026-10-15",
+      "articles": [
+        "2026-10-15-narcolepsy-type1-orexin-autoimmune-flipflop"
+      ],
+      "covers": [
+        "NT1发病机制最新综述2025 自身免疫假说生成方法 单细胞免疫谱图"
+      ]
     }
   ],
   "total_sources": 643,
@@ -16029,6 +16121,5 @@
     "all_dois": [
       "10.1038/s41593-026-02318-9"
     ]
-  },
-  "last_updated": "2026-10-14"
+  }
 }

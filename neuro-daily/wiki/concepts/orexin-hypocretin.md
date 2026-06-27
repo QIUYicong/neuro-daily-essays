@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-08-10
-updated: 2026-08-10
-revision_count: 1
+updated: 2026-10-15
+revision_count: 2
 dimensions: [molecular, cellular, brain-region, whole-brain-network, disease]
 related: [ascending-arousal-system, flip-flop-switch-sleep-wake, neuromodulator-systems, rem-sleep, disorders-of-consciousness]
 prerequisites: [neuromodulator-systems, synaptic-transmission]
 opens_questions: [Q-orexin-gene-therapy-timeline, Q-orexin-NT2-conversion]
-source_articles: [2026-08-10-ascending-arousal-system-brainstem-wakefulness]
-key_sources: ["PMID:41076550", "PMID:35878679", "PMID:21280045"]
+source_articles: [2026-08-10-ascending-arousal-system-brainstem-wakefulness, 2026-10-15-narcolepsy-type1-orexin-autoimmune-flipflop]
+key_sources: ["PMID:41076550", "PMID:35878679", "PMID:21280045", "PMID:37188663", "PMID:30232458", "PMID:26721620"]
 ---
 
 # 食欲素（下丘脑泌素）与发作性睡病 (Orexin/Hypocretin & Narcolepsy)
@@ -34,20 +34,30 @@ key_sources: ["PMID:41076550", "PMID:35878679", "PMID:21280045"]
 
 ### 1型发作性睡病（NT1）：食欲素缺失的自然实验
 
-NT1是食欲素神经元被T细胞介导的自身免疫选择性摧毁的结果：
+NT1是食欲素神经元被T细胞介导的自身免疫选择性摧毁的结果（详见 [[narcolepsy]]）：
 
 **关键数据**：
 - 尸检：约95%外侧下丘脑食欲素神经元丢失
-- CSF食欲素-A：>90%患者 < 110 pg/mL（诊断阈值）
-- 遗传易感性：几乎所有患者携带HLA-DQB1*06:02等位基因
+- CSF食欲素-A（Hcrt-1）：>90%患者 ≤110 pg/mL（诊断阈值，正常 >200 pg/mL）
+- 遗传易感性：82–99%患者携带HLA-DQB1*06:02等位基因（携带者风险升高251倍）
+
+**直接免疫证据（Latorre et al. 2018, Nature）**：
+- 19/19 NT1患者血液中检测到靶向食欲素神经元自身抗原的CD4+ T细胞
+- 多克隆，靶向多表位，HLA-DR限制；特定克隆型跨患者复现
+- 脑脊液中也检测到食欲素特异性CD8+ T细胞
+
+**NT1遗传架构（Ollila et al. 2023, Nat Commun，6073例GWAS）**：
+- 除HLA-DQB1*06:02外，发现13个新风险位点
+- 核心位点：PRF1（穿孔素，CD8+细胞毒性执行者）、CD207（树突状细胞病毒识别）、IFNAR1（I型干扰素受体，H1N1感染后上调）
+- TCR偏倚：TRAJ*24、TRAJ*28、TRBV*4-2 链用频率异常
 
 **临床表现（与神经机制对应）**：
 | 症状 | 神经机制 |
 |------|---------|
-| 日间过度嗜睡 | 清醒状态无法稳定维持 |
-| 猝倒（情绪触发肌无力） | REM肌张力消失机制被误激活 |
+| 日间过度嗜睡 | 翻转开关清醒谷谷壁坍塌，随机噪声触发意外入睡 |
+| 猝倒（情绪触发肌无力） | 正面情绪→杏仁核→VMM激活→REM肌张力弛缓回路被误激活 |
 | 入睡期幻觉 | REM的视觉梦境溢出至半清醒状态 |
-| 睡眠瘫痪 | 肌肉张力从REM状态延迟恢复 |
+| 睡眠瘫痪 | REM肌张力弛缓延迟恢复至清醒状态 |
 
 ### 治疗前景
 
@@ -76,3 +86,4 @@ NT1是食欲素神经元被T细胞介导的自身免疫选择性摧毁的结果�
 | 版本 | 日期 | 变化 | 来源文章 |
 |------|------|------|---------|
 | rev1 | 2026-08-10 | 初始页面；食欲素生理/NT1病理/治疗前景 | #109 |
+| rev2 | 2026-10-15 | 补充NT1自身免疫直接证据（Latorre 2018: 19/19 CD4+ T细胞）；完整GWAS遗传架构（Ollila 2023, 13新位点, PRF1/CD207/IFNAR1/TCR偏倚）；猝倒回路机制细化（VMM路径）；CSF Hcrt-1诊断数据精确化；添加 [[narcolepsy]] 交叉引用 | #175 |

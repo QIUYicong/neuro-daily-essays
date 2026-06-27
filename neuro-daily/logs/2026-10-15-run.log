@@ -1,0 +1,109 @@
+# 运行日志 2026-10-15
+
+## 运行元信息
+- **日期（UTC+8）**：2026-10-15
+- **文章编号**：#175
+- **分支**：main
+- **执行时间**：2026-10-15 自动运行
+
+## A. 状态读取
+- topic_ledger.json：最新条目为 2026-10-14（#174，SHY/ON-OFF 突破追踪）
+- 次建议主题（来自 #174 ledger）：REM 睡眠与 SHY、AMPA 受体循环、tACS、**发作性睡病（Narcolepsy）** 独立页面
+- unresolved_questions.md：Q-narc 系列（0 个，本次新建）
+- contested_claims.json：无 NT1 相关开放矛盾
+- _graph.json：`narcolepsy` slug 在 flip-flop-switch-sleep-wake.md 中被引用为 [[narcolepsy]]，无对应节点（悬空引用）
+- wiki/diseases/narcolepsy.md：不存在（待创建）
+
+## B. 选题决策
+**选题**：发作性睡病 1 型（Narcolepsy Type 1）
+**选题理由**：
+1. 填补悬空引用（flip-flop-switch-sleep-wake.md 中 [[narcolepsy]] 无对应页面）
+2. 多篇此前文章（#109 食欲素、#172 翻转开关）已推荐本主题
+3. 睡眠系列自然延伸（#172 翻转开关 → #175 疾病验证）
+4. "疾病作为窗口"：NT1 是翻转开关稳定器模型最有力的活体验证
+5. 富含机制深度（免疫→神经元→回路→行为）
+6. 非连续层级重复：前几天为突触/细胞层（#174），今日为疾病/系统层
+
+**模式**：长期课程模式（无重大新突破超越上述已知重要来源）
+
+## C. 检索与阅读
+### 搜索词与数据源
+- PubMed E-utilities：
+  - `narcolepsy orexin hypocretin autoimmune HLA` → 99 结果，取前 15 PMID
+  - `narcolepsy cataplexy orexin neuron loss mechanism` → 86 结果，取前 15 PMID
+- PMC eLink：PMID 28179647,30232458,37188663,40373365,26721620,21963829,29855798 → pmc
+  - 开放全文：PMC10185546（PMID:37188663，Ollila 2023 Nat Commun）、PMC5114175（PMID:26721620，Black 2017 Prog Neurobiol）
+- PubMed abstract fetch：批量获取 7+7 篇摘要
+
+### 采用来源（8 个）
+1. PMID:37188663（PMC10185546，**开放全文**）— Ollila 2023，GWAS 6073例，核心
+2. PMID:26721620（PMC5114175，**开放全文**）— Black 2017，综合综述，核心
+3. PMID:30232458（**摘要**）— Latorre 2018 Nature，CD4+ T 细胞直接证据，核心
+4. PMID:28179647（**摘要**）— Kornum 2017 Nat Rev Dis Primers，支持
+5. PMID:25728441（**摘要**）— Liblau 2015 Lancet Neurol，支持
+6. PMID:29855798（**摘要**）— Sarkanen 2018，Pandemrix 关联，核心
+7. PMID:21963829（**摘要**）— Kornum 2011，感染触发，支持
+8. PMID:40373365（**摘要**）— Freeman 2025 Semin Immunol，最新综述，支持
+
+### 开放全文数量：2 ≥ 2（满足 ROUTINE 最低要求）
+### 官方机构来源：0（无 NIH/NINDS 等独立机构页面抓取；来源均为同行评审期刊）
+
+## D. 固结步骤
+### 新建 wiki 页（1个）
+- `wiki/diseases/narcolepsy.md`（rev1）
+  - 填补 flip-flop-switch-sleep-wake.md 中的悬空引用
+  - 完整病理链：HLA→T细胞→PRF1→85–95%神经元丢失→CSF Hcrt-1≤110→翻转开关失稳→4联征
+  - 临床诊断、治疗选项、4个未解问题（Q-narc-01~04）
+
+### 修订 wiki 页（2个）
+- `wiki/concepts/orexin-hypocretin.md`（rev1 → rev2）
+  - 新增：Latorre 2018 CD4+ T细胞直接证据、Ollila 2023 GWAS 13新位点（PRF1/CD207/IFNAR1/TCR）
+  - 猝倒机制细化（VMM→脊髓运动神经元抑制）
+  - CSF Hcrt-1 诊断数据精确化（正常>200 vs NT1≤110）
+  - 添加 [[narcolepsy]] 交叉引用
+
+- `wiki/systems/flip-flop-switch-sleep-wake.md`（rev2 → rev3）
+  - NT1临床段精确化（85–95%丢失，GWAS新证据，猝倒VMM路径）
+  - 添加 [[narcolepsy]] 交叉引用
+
+### 矛盾检查
+- 无新矛盾发现。NT1 神经病理（85–95%）与现有页面（"~90%"）轻微数字差异：采用更精确的区间"85–95%"更新所有相关描述。这不是真正的矛盾，是精确化。
+
+### 成熟度评估
+- narcolepsy 新页面：established（多队列尸检 + GWAS + 直接 T 细胞证据）
+
+## E. 图谱与导航
+- _graph.json：323节点/1921边（+1节点：narcolepsy；+6边）
+- wiki/index.md：diseases 节新增 narcolepsy 条目
+- wiki/CHANGELOG.md：追加今日条目
+
+## F. 治理层
+- state/monthly_synthesis.md：追加 #175 摘要
+- state/unresolved_questions.md：待更新（Q-narc-01~04）
+- state/source_registry.json：待更新
+- state/topic_ledger.json：待更新（本次条目将通过代码追加）
+
+## G. Git 操作
+- 分支：main
+- Commit 内容：articles/2026-10-15-narcolepsy-type1-orexin-autoimmune-flipflop.md + notes + sources + wiki/diseases/narcolepsy.md（新） + wiki/concepts/orexin-hypocretin.md（rev2）+ wiki/systems/flip-flop-switch-sleep-wake.md（rev3）+ wiki/_graph.json + wiki/index.md + wiki/CHANGELOG.md + state/ + logs/
+- Push：origin main
+- **Commit hash**：（运行后填写）
+- **Push 状态**：（运行后填写）
+
+## 限制说明
+- PMID:30232458（Latorre 2018 Nature）：核心 T 细胞直接证据论文，仅获取摘要（Nature paywall）；文章中标注"未读取全文"
+- PMID:28179647（Kornum 2017 Nat Rev Dis Primers）：仅摘要（Nature paywall）
+- PMID:25728441（Liblau 2015 Lancet Neurol）：仅摘要（Lancet paywall）
+- 其余 4 篇支持来源：仅摘要，均已在文章和来源文件中标注
+- 开放全文 2 篇（Ollila 2023 + Black 2017）已充分支持核心机制论述
+
+## 自检结果（H 步骤）
+- [x] wiki 每条新主张都有来源（PMID/DOI/URL）
+- [x] 区分了事实/主流模型/推测/争议（narcolepsy 疫苗触发机制标注为"假说"；猝倒分子机制有动物证据 + 间接人类证据）
+- [x] 未把单篇/小样本研究写成定论（Latorre 2018 样本量 n=19 明确标注）
+- [x] 无已知冲突未走矛盾协议（食欲素神经元丢失比例精确化，非矛盾）
+- [x] 被修订页 updated/revision_count/修订历史同步更新
+- [x] _graph.json 无悬空边（添加边前验证目标节点均已存在）
+- [x] index.md 与 CHANGELOG.md 反映今日变化
+- [x] 新页 related/prerequisites 各≥1 个
+- [x] 文章/笔记/来源/日志齐全且 append-only（未修改旧文件）

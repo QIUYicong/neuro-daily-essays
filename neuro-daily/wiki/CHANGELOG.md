@@ -4004,3 +4004,28 @@
 **悬空引用（0个新增）**：无
 
 **图谱变化**：322节点/1912边 → **322节点/1915边**（+0节点；+3边：cortical-slow-oscillation→shy-hypothesis mechanism-of；cortical-slow-oscillation→ampa-receptor regulates；shy-hypothesis→up-down-state-mechanism prerequisite-for；shy-hypothesis节点confidence: medium→high）
+
+---
+
+## 2026-10-15 · 文章 #175 · 当"稳定器"失守：发作性睡病 1 型如何用一场疾病解码大脑的睡眠开关与自身免疫双重谜题
+
+**睡眠系列第 6 篇**；**疾病作为窗口系列**；课程脊柱 11（疾病）+ 脊柱 1（睡眠）
+
+**新建页面（1个）**：
+
+- `wiki/diseases/narcolepsy.md`（rev1）：NT1 完整病理机制（免疫打击链条：HLA-DQB1*06:02→T细胞识别→PRF1穿孔素→食欲素神经元丢失85–95%）；翻转开关失稳回路解释（EDS / 猝倒 VMM 路径 / 睡眠麻痹 / 入睡前幻觉）；临床诊断标准（CSF Hcrt-1 ≤110 pg/mL）；完整治疗选项（sodium oxybate RCT数据、Danavorexton OX2R激动剂 Phase II/III）；4个未解问题（Q-narc-01~04）
+
+**修订页面（2个）**：
+
+- `wiki/concepts/orexin-hypocretin.md` rev1→rev2：补充 Latorre 2018 直接细胞学证据（19/19 CD4+ T细胞）；Ollila 2023 GWAS 13新位点（PRF1/CD207/IFNAR1/TCR偏倚）；猝倒回路细化（VMM→脊髓运动神经元）；CSF Hcrt-1诊断数据精确化；添加 [[narcolepsy]] 交叉引用
+- `wiki/systems/flip-flop-switch-sleep-wake.md` rev2→rev3：NT1临床段精确化（85–95%丢失，CSF阈值，251倍风险，猝倒VMM路径），添加 [[narcolepsy]] 交叉引用
+
+**矛盾登记（0个）**：无新矛盾
+
+**悬空引用填补（1个）**：
+- `narcolepsy` slug：在 flip-flop-switch-sleep-wake.md（rev2）中已被引用但无独立页；今日创建了 wiki/diseases/narcolepsy.md 填补该悬空
+
+**新增悬空引用（1个）**：
+- `hla-autoimmunity`：narcolepsy.md related 中引用的 slug，尚无独立页面（HLA 分子与自身免疫的通用机制页面，多种疾病共用）
+
+**图谱变化**：322节点/1915边 → **323节点/1921边**（+1节点：narcolepsy；+6边：narcolepsy↔orexin-hypocretin mechanism-of/related；narcolepsy↔flip-flop-switch-sleep-wake supports/related；narcolepsy→rem-sleep related；narcolepsy→ascending-arousal-system related）

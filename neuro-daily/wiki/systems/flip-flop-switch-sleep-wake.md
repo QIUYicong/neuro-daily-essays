@@ -6,13 +6,13 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-10-12
-updated: 2026-10-13
-revision_count: 2
+updated: 2026-10-15
+revision_count: 3
 dimensions: [cellular, microcircuit, brain-region, whole-brain-network, behavior, cognition, disease]
 related: [ascending-arousal-system, vlpo-sleep-center, orexin-hypocretin, neuromodulator-systems, narcolepsy, rem-sleep, slow-wave-sleep, circadian-clock, thalamic-reticular-nucleus, adenosine]
 prerequisites: [ascending-arousal-system, neuromodulator-systems, synaptic-inhibition]
 opens_questions: [Q-ff-01, Q-ff-02, Q-ff-03, Q-ff-04]
-source_articles: [2026-10-12-flip-flop-switch-sleep-wake, 2026-10-13-adenosine-sleep-homeostasis-process-s]
+source_articles: [2026-10-12-flip-flop-switch-sleep-wake, 2026-10-13-adenosine-sleep-homeostasis-process-s, 2026-10-15-narcolepsy-type1-orexin-autoimmune-flipflop]
 key_sources: ["PMID:30297727", "PMID:33381012", "PMID:24760861", "PMID:24651580", "PMID:35201886", "PMID:16254994", "PMID:9157887", "PMID:19193874"]
 ---
 
@@ -80,7 +80,7 @@ key_sources: ["PMID:30297727", "PMID:33381012", "PMID:24760861", "PMID:24651580"
 
 ## 临床相关
 
-**发作性睡病1型（NT1）**：食欲素神经元自身免疫性选择性毁损（~90%神经元丢失）→ 触发器稳定器缺失。诊断标准：CSF orexin-A <110 pg/mL。HLA-DQB1\*06:02是遗传风险因子。
+**发作性睡病1型（NT1）**：食欲素神经元自身免疫性选择性毁损（85–95%神经元丢失）→ 触发器稳定器缺失 → 清醒谷谷壁坍塌 → 睡眠-清醒/清醒-REM 边界全面溶解。诊断标准：CSF Hcrt-1 ≤110 pg/mL（正常 >200 pg/mL）；HLA-DQB1\*06:02 携带者风险升高251倍（82–99%患者阳性）。2018年 Latorre et al. 直接证明 CD4+ T 细胞靶向食欲素神经元（19/19 NT1 患者阳性）；2023年 Ollila GWAS 揭示免疫打击的 PRF1/CD207/IFNAR1/TCR 完整通路。猝倒（cataplexy）的回路学解释：正面情绪→边缘系统→VMM（腹内侧延髓）激活→REM 脊髓运动神经元抑制，食欲素正常时拮抗该通路，缺失时则此路径被意外激活。详见 [[narcolepsy]]。
 
 **老年性睡眠碎片化**：食欲素神经元KCNQ2下降 → M电流减弱 → 过度兴奋 → 睡眠期误激活觉醒系统。KCNQ2/3激动剂（flupirtine等）可能是潜在治疗靶点（动物模型证据）。
 
@@ -114,6 +114,7 @@ key_sources: ["PMID:30297727", "PMID:33381012", "PMID:24760861", "PMID:24651580"
 |------|------|------|---------|
 | rev1 | 2026-10-12 | 初始页面建立：VLPO-TMN互抑回路、食欲素稳定器、发作性睡病、老年睡眠碎片化KCNQ2机制、药物靶点 | #172 |
 | rev2 | 2026-10-13 | 扩展"睡眠的主动性"段落：明确腺苷（A₁R）是双稳触发器从清醒→睡眠翻转的内稳态驱动力（Process S），连接 [[two-process-model]] 和 [[adenosine]] 页面；添加腺苷相关 key_sources | #173 |
+| rev3 | 2026-10-15 | 完善 NT1 临床相关段落：更新食欲素神经元丢失数据（85–95%），添加 Latorre 2018 CD4+ T 细胞直接证据和 Ollila 2023 GWAS 通路（PRF1/CD207/IFNAR1/TCR），细化猝倒回路（VMM→脊髓运动神经元抑制），添加 [[narcolepsy]] 页面交叉引用；更新 source_articles | #175 |
 
 ## 来源文章
 

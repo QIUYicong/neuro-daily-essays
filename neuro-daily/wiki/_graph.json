@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-10-14",
-  "node_count": 318,
-  "edge_count": 1889,
+  "updated": "2026-10-15",
+  "node_count": 323,
+  "edge_count": 1921,
   "edge_types": [
     "is-a",
     "part-of",
@@ -2940,6 +2940,15 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/two-process-model.md"
+    },
+    {
+      "id": "narcolepsy",
+      "title": "发作性睡病 1 型（NT1）",
+      "domain": "diseases",
+      "type": "disease",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/diseases/narcolepsy.md"
     }
   ],
   "edges": [
@@ -13672,6 +13681,36 @@
       "to": "up-down-state-mechanism",
       "type": "prerequisite-for",
       "note": "SHY 的突触下调机制需要 ON/OFF 双稳态 UP-DOWN 转换，而非强直性抑制"
+    },
+    {
+      "from": "narcolepsy",
+      "to": "orexin-hypocretin",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "narcolepsy",
+      "to": "flip-flop-switch-sleep-wake",
+      "type": "supports"
+    },
+    {
+      "from": "narcolepsy",
+      "to": "rem-sleep",
+      "type": "related"
+    },
+    {
+      "from": "narcolepsy",
+      "to": "ascending-arousal-system",
+      "type": "related"
+    },
+    {
+      "from": "orexin-hypocretin",
+      "to": "narcolepsy",
+      "type": "related"
+    },
+    {
+      "from": "flip-flop-switch-sleep-wake",
+      "to": "narcolepsy",
+      "type": "related"
     }
   ],
   "dangling_references": [

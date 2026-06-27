@@ -1893,3 +1893,20 @@
 **图谱**：322节点/1912边 → **322节点/1915边**（+3边）
 
 **新增未解问题（1个）**：Q-shy-onoff-bistability-human（高，tACS能否在人类中诱导功能性ON/OFF双稳态）
+
+---
+
+### 2026-10-15（#175）：当"稳定器"失守——发作性睡病 1 型解码大脑睡眠开关与自身免疫双重谜题
+
+**一句话**：发作性睡病 1 型（NT1）是外侧下丘脑食欲素神经元遭受 T 细胞介导的自身免疫选择性消灭（85–95% 丢失）的结果，使睡眠-清醒翻转开关的唯一稳定器失效；2018年 Latorre Nature（19/19 CD4+ T 细胞直接证据）+ 2023年 Ollila Nat Commun GWAS（6073例，13新位点含 PRF1/CD207/IFNAR1/TCR 偏倚）将 NT1 从"自身免疫假说"升级为"自身免疫证实"；临床四联征（EDS/猝倒/睡眠麻痹/入睡幻觉）完全可从翻转开关失稳和 REM 边界溶解的回路机制解释。
+
+**核心知识点**：（1）NT1 流行病学：1/2000，双峰发病（~15岁和~35岁），单卵双胞胎一致率25–30%；（2）神经病理：85–95% LH 食欲素神经元选择性丢失，CSF Hcrt-1 ≤110 pg/mL（正常 >200），MCH 神经元仅轻度受累；（3）遗传风险：HLA-DQB1*06:02（82–99% 患者阳性，251 倍风险）+ 13 新 GWAS 位点；（4）免疫打击三层：CD207 树突状细胞识别流感→HLA 呈递→CD4+ T 细胞（Latorre 2018 直接证据）→CD8+ PRF1 穿孔素杀伤；（5）环境触发：Pandemrix H1N1 疫苗（5–14倍风险，儿童青少年）、H1N1 流感（中国2009年3倍增）、链球菌（5.4倍）；（6）回路机制：猝倒=正面情绪→杏仁核→VMM→脊髓运动神经元抑制（食欲素正常时拮抗此路径）；（7）治疗：sodium oxybate（228例RCT，猝倒减少57–85%）、匹托利桑（H3拮抗）、Danavorexton OX2R激动剂 Phase II/III（MWT +11.1 min）；（8）未来：OX2R vs OX1R 猝倒控制贡献、基因治疗昼夜节律挑战、早期免疫干预窗口。
+
+**层级**：molecular / cellular / brain-region / whole-brain-network / behavior / cognition / disease
+
+**新建 wiki 页（1个）**：diseases/narcolepsy (rev1)
+**修订 wiki 页（2个）**：concepts/orexin-hypocretin (rev1→rev2, CD4+T细胞直接证据+GWAS通路+VMM猝倒回路)；systems/flip-flop-switch-sleep-wake (rev2→rev3, NT1临床相关精确化+narcolepsy交叉引用)
+
+**图谱**：323节点/1921边（+1节点：narcolepsy；+6边）
+
+**新增未解问题（4个）**：Q-narc-01（早期免疫干预窗口，高）、Q-narc-02（NT2独立机制，高）、Q-narc-03（OX2R激动剂对猝倒有效性，高）、Q-narc-04（AAV基因治疗昼夜节律重现，中）
