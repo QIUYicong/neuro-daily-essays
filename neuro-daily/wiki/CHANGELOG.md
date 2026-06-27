@@ -4,6 +4,31 @@
 
 ---
 
+## 2026-06-27（#177）：恐惧可以被睡眠稀释吗——REM睡眠、IL皮层与情绪记忆重构
+
+**文章**：《恐惧可以被睡眠稀释吗：REM睡眠、下边缘皮层与情绪记忆重构的因果解剖》（#177）
+
+**类型**：睡眠系列第8篇（#170→#176→#177）；层级跃升：从分子突触（Homer1a/Arc）→ 回路/行为/认知（REM-情绪）
+
+**新创建页面（0）**：本日无新建页面（REM和情绪去饱和化页面已存在）
+
+**修订页面（3）**：
+- `wiki/concepts/rem-sleep.md`（rev2→rev3）：新增Hong et al. 2024 IL-REM激活因果证据（76.6% REM-max神经元、4h关键窗口、NMDA依赖内在兴奋性提升）；"当前理解"段新增第三段；证据表新增2行；连接新增vmPFC；未解问题新增Q-il-rem-01/02；key_sources新增4条
+- `wiki/concepts/emotional-memory-depotentiation.md`（rev1→rev2）：status升级emerging→mainstream；新增Hong 2024机制（IL-REM激活扩展去饱和化框架至前额叶主动重构）；新增Goldstein 2014量化数据（60%杏仁核放大）；证据表新增4行；连接新增vmPFC/ptsd；未解问题新增Q-il-rem-01/02
+- `wiki/concepts/fear-extinction.md`（rev8→rev9）：当前理解节新增"Hong 2024恐惧后4h REM-IL窗口"段落——消退三步模型（创伤后REM预处理+消退训练+巩固）
+
+**图谱变更**：
+- 新增边（4条）：rem-sleep→vmPFC（regulates）、emotional-memory-depotentiation→vmPFC（related）、emotional-memory-depotentiation→ptsd（related）、fear-extinction→rem-sleep（prerequisite-for）
+- 节点状态变更：emotional-memory-depotentiation → status=mainstream
+
+**登记/裁决矛盾**：
+- 无新登记矛盾（Hong 2024与现有REM-情绪框架一致，扩展而非冲突）
+- 现有矛盾C-2026-05-31-01（IIT COGITATE冲突）和C-2026-05-31-02（GWT点燃争议）保持open
+
+**悬空引用**：sharp-wave-ripple、parallel-fiber、spike-timing-dependent-plasticity（保持待补）
+
+---
+
 ## 2026-10-16（#176）：睡眠如何修剪突触——Homer1a 与 Arc 的分子协奏
 
 **文章**：《睡眠如何修剪突触：Homer1a 与 Arc 的分子协奏》（#176）

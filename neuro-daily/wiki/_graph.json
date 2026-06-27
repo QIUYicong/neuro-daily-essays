@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-10-16",
+  "updated": "2026-06-27",
   "node_count": 324,
   "edge_count": 1931,
   "edge_types": [
@@ -874,7 +874,7 @@
       "title": "情绪记忆去饱和化",
       "domain": "concepts",
       "type": "mechanism",
-      "status": "emerging",
+      "status": "mainstream",
       "confidence": "medium",
       "page": "wiki/concepts/emotional-memory-depotentiation.md"
     },
@@ -13770,6 +13770,30 @@
       "from": "ampa-receptor",
       "to": "slow-wave-sleep",
       "type": "related"
+    },
+    {
+      "from": "rem-sleep",
+      "to": "vmPFC",
+      "type": "regulates",
+      "note": "REM期IL皮层（vmPFC同源区）76.6%神经元激活，通过NMDA依赖机制提升兴奋性（Hong 2024）"
+    },
+    {
+      "from": "emotional-memory-depotentiation",
+      "to": "vmPFC",
+      "type": "related",
+      "note": "vmPFC/IL是情绪去饱和化的前额叶执行节点"
+    },
+    {
+      "from": "emotional-memory-depotentiation",
+      "to": "ptsd",
+      "type": "related",
+      "note": "PTSD=情绪去饱和化功能障碍（LC持续激活→NE不沉默→修复失败）"
+    },
+    {
+      "from": "fear-extinction",
+      "to": "rem-sleep",
+      "type": "prerequisite-for",
+      "note": "恐惧后4h内REM-IL激活是消退能力的前提（Hong 2024因果）"
     }
   ],
   "dangling_references": [

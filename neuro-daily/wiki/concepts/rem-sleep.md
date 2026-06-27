@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-31
-updated: 2026-07-08
-revision_count: 2
+updated: 2026-06-27
+revision_count: 3
 dimensions: [molecular, cellular, brain-region, whole-brain-network, behavior, cognition]
 related: [memory-consolidation, sharp-wave-ripples, sleep-spindles, theta-oscillations, fear-extinction, norepinephrine-locus-coeruleus, hippocampal-circuit, amygdala, emotional-memory-depotentiation, circadian-clock, scn-circadian-pacemaker]
 prerequisites: [theta-oscillations, norepinephrine-locus-coeruleus, hippocampal-circuit, sleep-spindles]
 opens_questions: [Q-rem-01, Q-rem-02, Q-rem-03, Q-rem-04, Q-rem-05]
-source_articles: [2026-05-31-rem-sleep-emotional-memory, 2026-07-08-circadian-clock-scn-brain-rhythm]
-key_sources: ["PMID:27174984", "PMID:19702380", "PMC:PMC2890316", "PMID:22119526", "PMC:PMC3237718", "PMID:28100731", "PMC:PMC5242402", "PMID:28729826", "PMC:PMC5498516", "PMID:12198538", "PMID:7185792"]
+source_articles: [2026-05-31-rem-sleep-emotional-memory, 2026-07-08-circadian-clock-scn-brain-rhythm, 2026-06-27-rem-sleep-il-cortex-fear-extinction-memory]
+key_sources: ["PMID:27174984", "PMID:19702380", "PMC:PMC2890316", "PMID:22119526", "PMC:PMC3237718", "PMID:28100731", "PMC:PMC5242402", "PMID:28729826", "PMC:PMC5498516", "PMID:12198538", "PMID:7185792", "PMID:38714199", "PMC:PMC11111341", "PMID:24499013", "PMC:PMC4286245"]
 ---
 
 # REM睡眠 (REM Sleep — Rapid Eye Movement Sleep)
@@ -33,6 +33,8 @@ REM睡眠的两大神经化学特征：
 Walker（2009，PMID:19702380，PMC2890316）将REM的双重功能概括为"Sleep to Forget, Sleep to Remember"（SFSR）假说：REM同时实现情感去饱和化（遗忘情绪色彩）和记忆巩固（记住事实内容）。
 
 Boyce等人（2016，PMID:27174984）通过光遗传因果实验在小鼠中证明：仅在REM睡眠期间沉默中隔核GABA神经元（特异性削弱θ振荡）就导致情境记忆和位置记忆受损，而在NREM或清醒期间做同样操作则无任何效果。这是REM θ对记忆巩固**充分必要性**的直接因果证明。
+
+**2026-06-27更新 — IL皮层的REM专用激活（Hong et al. 2024）**：钙成像显示，**76.6%的下边缘皮层（IL皮层）锥体神经元在REM睡眠中达到活动峰值**，激活强度与θ振荡的功率和相位性θ事件正相关。闭环光遗传实验进一步证明：**恐惧条件反射后4小时内抑制IL皮层的REM活动**，次日的消退记忆显著受损；而恐惧后4小时以后做同样抑制，或消退训练后抑制，则不影响消退记忆（PMC11111341）。这意味着REM睡眠在创伤发生后的关键窗口内激活IL皮层，通过NMDA受体依赖的机制提升其内在兴奋性，为日后消退学习创造神经基础——REM不是在固化恐惧，而是在铺设情绪愈合的道路。
 
 ## 关键机制
 
@@ -63,6 +65,8 @@ Boyce等人（2016，PMID:27174984）通过光遗传因果实验在小鼠中证�
 | NE缺失是REM去饱和化的分子前提 | 电生理记录LC在各状态的发放；NE阻断实验 | PMID:28100731 | 高（动物直接记录） |
 | LA-VH θ相位差预测恐惧消退记忆 | 大鼠五区域LFP记录；恐惧条件反射+消退 | PMID:28729826 | 中（n=8，强相关） |
 | REM θ功率与情绪记忆增强正相关 | 人类fMRI+EEG；小睡范式 | PMID:19702380 | 中（间接相关） |
+| 76.6% IL神经元REM激活最高 | 钙成像（miniScope+GRIN透镜），小鼠 | PMID:38714199 | 中（动物，直接测量） |
+| 恐惧后4h内IL-REM抑制损害消退 | 闭环光遗传（ArchT），小鼠恐惧+消退范式 | PMID:38714199 | 中-高（动物因果，需人类复现） |
 
 ## 昼夜节律对 REM 睡眠的时序门控
 
@@ -86,6 +90,7 @@ REM 睡眠的时序分布并非随机——它受**昼夜节律系统**严格门
 - [[sleep-spindles]] — NREM的时序枢纽；与REM共同构成夜间记忆处理的两个专用时段
 - [[amygdala]] — 情绪记忆存储和情感反应的核心区域；REM去饱和化的主要靶点
 - [[emotional-memory-depotentiation]] — 本页描述的核心功能过程
+- [[vmPFC]] — IL皮层（大鼠）的人类同源区；REM期76.6%激活，是恐惧后消退能力的神经基础
 
 ## 未解问题
 
@@ -94,13 +99,17 @@ REM 睡眠的时序分布并非随机——它受**昼夜节律系统**严格门
 - Q-rem-03：灵长类REM θ振荡与记忆功能的因果关系是否可以像Boyce 2016在啮齿类中那样直接验证？
 - Q-rem-04：NREM→REM序列的必要性：单独NREM或单独REM是否足以实现最优巩固？
 - Q-rem-05：REM对情绪记忆的特殊处理是否是一般情境记忆巩固功能的附带产物，还是有独立专用机制？
+- Q-il-rem-01：IL皮层REM激活的4小时时间窗口在人类中是否存在对应的关键时段？干预恐惧后的第一个REM周期能否预防PTSD？
+- Q-il-rem-02：IL的REM激活增强兴奋性，是通过突触可塑性还是非突触机制实现？是否需要REM θ振荡作为触发？
 
 ## 修订历史
 
 - 2026-05-31 · 创建 · 基于《REM睡眠：大脑夜晚的情绪炼金炉》（文章#34）· 初始置信度：高
 - 2026-07-08 · 修订 rev2 · 基于《大脑的 24 小时时钟》(#76) · 新增"昼夜节律对 REM 睡眠的时序门控"小节（两过程模型、后半夜 REM 优势的 SCN 门控机制、临床意义）；related 新增 circadian-clock、scn-circadian-pacemaker；连接节重构以独立于正文；key_sources 新增 PMID:12198538、PMID:7185792
+- 2026-06-27 · 修订 rev3 · 基于《恐惧可以被睡眠稀释吗》(#177) · 新增IL皮层REM激活因果证据（Hong et al. 2024，PMC11111341）：76.6%神经元REM-max、4h关键窗口、NMDA依赖内在兴奋性；"当前理解"段新增Hong 2024机制；证据表新增两行；连接新增vmPFC；未解问题新增Q-il-rem-01/02；key_sources新增PMID:38714199/PMID:24499013及对应PMC
 
 ## 来源文章
 
 - [[2026-05-31-rem-sleep-emotional-memory]]
 - [[2026-07-08-circadian-clock-scn-brain-rhythm]]
+- [[2026-06-27-rem-sleep-il-cortex-fear-extinction-memory]]

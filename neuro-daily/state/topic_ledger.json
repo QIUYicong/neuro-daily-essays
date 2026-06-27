@@ -10913,6 +10913,71 @@
         "月度综合（#151-#180第6周期）——已入#176，距#180还有4篇，应关注月度综合准备",
         "衰老与突触稳态：蓝斑NA减少如何破坏Homer1a削减节律（老年记忆损伤新视角）"
       ]
+    },
+    {
+      "date": "2026-06-27",
+      "title": "恐惧可以被睡眠稀释吗：REM睡眠、下边缘皮层与情绪记忆重构的因果解剖",
+      "filename": "2026-06-27-rem-sleep-il-cortex-fear-extinction-memory.md",
+      "article_number": 177,
+      "wiki_pages_created": [],
+      "wiki_pages_revised": [
+        "wiki/concepts/rem-sleep.md (rev2→rev3: 新增Hong 2024 IL-REM 76.6%激活、4h窗口、NMDA机制；key_sources+4；连接新增vmPFC)",
+        "wiki/concepts/emotional-memory-depotentiation.md (rev1→rev2: status升级emerging→mainstream; Hong 2024机制整合; 证据表+4行)",
+        "wiki/concepts/fear-extinction.md (rev8→rev9: 新增Hong 2024恐惧后4h REM-IL窗口；消退三步模型)"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "恐惧形成后的REM睡眠究竟在做什么——是加固恐惧还是为情绪愈合铺路？因果证据（Hong 2024）显示：恐惧后4h内的REM睡眠激活IL皮层（76.6%神经元REM-max），通过NMDA依赖机制提升内在兴奋性，为日后消退学习创造神经底物；同时van der Helm 2011 fMRI证明REM后杏仁核激活降低、Goldstein 2014综述量化（60%放大缺失/PTSD机制/Prazosin）——REM是主动情绪愈合过程，而非被动遗忘",
+      "layer": [
+        "molecular",
+        "microcircuit",
+        "brain-region",
+        "behavior",
+        "cognition",
+        "disease"
+      ],
+      "curriculum_track": "睡眠系列第8篇（#170 TRN→#171 SWR→#172 翻转开关→#173 腺苷/Process S→#174 SHY→#175 NT1→#176 Homer1a/Arc→#177 REM情绪记忆）；层级跃升：分子突触→回路行为；课程脊柱4（学习和记忆）× 脊柱6（情绪与动机）× 脊柱11（疾病作为窗口/PTSD）",
+      "topic_tags": [
+        "REM sleep emotional memory depotentiation amygdala noradrenaline",
+        "Walker van der Helm 2009 sleep to forget sleep to remember SFSR",
+        "locus coeruleus NE silence REM sleep molecular window",
+        "van der Helm 2011 fMRI amygdala deactivation sleep",
+        "Goldstein Walker 2014 60% amygdala amplification sleep deprivation",
+        "Hong Weber 2024 infralimbic cortex REM sleep 76.6% pyramidal neurons",
+        "4h critical window fear conditioning IL suppression extinction impaired",
+        "NMDA receptor intrinsic excitability infralimbic REM plasticity",
+        "LA-VH theta phase 180 degrees antiphase extinction memory quality",
+        "Boyce Adamantidis 2016 MS-GABA REM theta contextual memory optogenetics",
+        "PTSD locus coeruleus noradrenaline REM fragmentation NE no silence",
+        "prazosin alpha1 antagonist PTSD nightmares REM restoration",
+        "REM sleep fear extinction consolidation Totty 2017 R=0.954",
+        "sleep emotional memory two-layer structure content vs affective tag",
+        "theta oscillations hippocampus amygdala prefrontal REM coordination",
+        "infralimbic cortex vmPFC homolog REM sleep excitability PTSD prevention"
+      ],
+      "main_sources": [
+        "PMID:22119526 (PMC3237718) - van der Helm et al. 2011 Curr Biol (fMRI杏仁核去激活，开放全文)",
+        "PMID:24499013 (PMC4286245) - Goldstein & Walker 2014 Ann Rev Clin Psychol (综述：60%放大+NE最低+PTSD，开放全文)",
+        "PMID:38714199 (PMC11111341) - Hong et al. 2024 Curr Biol (IL皮层REM激活76.6%+4h窗口+光遗传，开放全文)",
+        "PMID:19702380 - Walker & van der Helm 2009 Psychol Bull (SFSR假说综述，摘要)",
+        "PMID:27174984 - Boyce et al. 2016 Science (MS-GABA REM θ因果，摘要)",
+        "PMID:25894546 - Pace-Schott et al. 2015 Psychol Bull (睡眠恐惧/消退综述，摘要)",
+        "PMID:28100730 (PMC6596760) - Sara 2017 J Neurosci (LC-NE睡眠记忆；θ相位反转，开放全文)",
+        "PMID:25894359 - Brownlow et al. 2015 (PTSD睡眠干预/Prazosin综述，摘要)"
+      ],
+      "unresolved_questions": [
+        "Q-il-rem-01",
+        "Q-il-rem-02",
+        "Q-rem-01",
+        "Q-rem-02"
+      ],
+      "next_suggested_topics": [
+        "甘氨酸（Glycine）与VMM-脊髓运动神经元抑制——REM肌张力弛缓的分子基础（NT1猝倒延伸）；睡眠系列第9篇",
+        "月度综合（#151-#180第6周期）——在#180前需完成；当前进入#177，距#180还有3篇",
+        "TARP辅助亚基与AMPA受体突触锚定——AMPA分子机制系列深化（与Homer1a/Arc文章连接）",
+        "spike-timing-dependent-plasticity（STDP）——填补图谱悬空引用，基础学习机制",
+        "sharp-wave-ripple——填补图谱悬空引用，与睡眠记忆巩固直接连接"
+      ]
     }
   ]
 }

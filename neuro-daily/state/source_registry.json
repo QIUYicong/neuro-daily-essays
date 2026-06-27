@@ -11163,6 +11163,26 @@
       "covers": [
         "NT1发病机制最新综述2025 自身免疫假说生成方法 单细胞免疫谱图"
       ]
+    },
+    {
+      "pmid": "38714199",
+      "pmcid": "PMC11111341",
+      "title": "Infralimbic activity during REM sleep facilitates fear extinction memory",
+      "authors": "Hong et al. 2024",
+      "journal": "Curr Biol",
+      "year": 2024,
+      "coverage": "IL皮层REM激活；4h关键窗口；消退记忆因果",
+      "article": "2026-06-27-rem-sleep-il-cortex-fear-extinction-memory"
+    },
+    {
+      "pmid": "24499013",
+      "pmcid": "PMC4286245",
+      "title": "The role of sleep in emotional brain function",
+      "authors": "Goldstein & Walker 2014",
+      "journal": "Ann Rev Clin Psychol",
+      "year": 2014,
+      "coverage": "60%杏仁核放大；REM NE最低；PTSD机制；Prazosin",
+      "article": "2026-06-27-rem-sleep-il-cortex-fear-extinction-memory"
     }
   ],
   "total_sources": 643,
