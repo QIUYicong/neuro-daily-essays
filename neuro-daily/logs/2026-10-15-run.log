@@ -87,8 +87,8 @@
 - 分支：main
 - Commit 内容：articles/2026-10-15-narcolepsy-type1-orexin-autoimmune-flipflop.md + notes + sources + wiki/diseases/narcolepsy.md（新） + wiki/concepts/orexin-hypocretin.md（rev2）+ wiki/systems/flip-flop-switch-sleep-wake.md（rev3）+ wiki/_graph.json + wiki/index.md + wiki/CHANGELOG.md + state/ + logs/
 - Push：origin main
-- **Commit hash**：（运行后填写）
-- **Push 状态**：（运行后填写）
+- **Commit hash**：9db6e1af5f4b9837687ed13707702e4eb89e6e09
+- **Push 状态**：成功（main → origin/main，80ad97c..9db6e1a）
 
 ## 限制说明
 - PMID:30232458（Latorre 2018 Nature）：核心 T 细胞直接证据论文，仅获取摘要（Nature paywall）；文章中标注"未读取全文"
