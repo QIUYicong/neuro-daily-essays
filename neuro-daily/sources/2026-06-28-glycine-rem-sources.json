@@ -1,0 +1,209 @@
+{
+  "date": "2026-06-28",
+  "article": "2026-06-28-glycine-rem-atonia-vmm",
+  "article_number": 178,
+  "topic": "REM睡眠肌张力弛缓：VMM甘氨酸/GABA回路解剖",
+  "search_terms": [
+    "REM sleep atonia glycine GABA spinal motor neurons",
+    "ventromedial medulla REM sleep atonia glycine",
+    "sublaterodorsal nucleus SLD spinal cord REM atonia circuit",
+    "REM sleep behavior disorder RBD glycine brainstem atonia mechanism",
+    "Brooks Peever REM sleep atonia glycine GABA motoneurons",
+    "Chase Morales glycine REM sleep motoneuron inhibition postsynaptic",
+    "GABA B receptor REM sleep atonia muscle tone motoneuron",
+    "REM sleep behavior disorder synuclein neurodegeneration atonia brainstem"
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "pmid": "1968326",
+      "title": "The atonia and myoclonia of active (REM) sleep",
+      "authors": "Chase MH, Morales FR",
+      "journal": "Annual Review of Psychology",
+      "year": 1990,
+      "open_access": false,
+      "full_text_read": false,
+      "status": "abstract_only",
+      "role": "奠基：甘氨酸假说——REM期IPSP主要由甘氨酸介导",
+      "confidence": "medium-high"
+    },
+    {
+      "id": "S2",
+      "pmid": "1726063",
+      "title": "A glycinergic projection from the ventromedial lower brainstem to spinal motoneurons. An ultrastructural double labeling study in rat",
+      "authors": "Holstege JC, Bongers CM",
+      "journal": "Brain Research",
+      "year": 1991,
+      "open_access": false,
+      "full_text_read": false,
+      "status": "abstract_only",
+      "role": "电镜证明VMM→脊髓末梢含甘氨酸（15%）+GABA（>50%合计）",
+      "confidence": "high"
+    },
+    {
+      "id": "S3",
+      "pmid": "16891059",
+      "title": "Brainstem glycinergic neurons and their activation during active (rapid eye movement) sleep in the cat",
+      "authors": "Morales FR, Sampogna S, Rampon C, Luppi PH, Chase MH",
+      "journal": "Neuroscience",
+      "year": 2006,
+      "open_access": false,
+      "full_text_read": false,
+      "status": "abstract_only",
+      "role": "猫NRGc甘氨酸能神经元在REM中激活（c-fos）"
+    },
+    {
+      "id": "S4",
+      "pmid": "18385312",
+      "title": "Glycinergic and GABA(A)-mediated inhibition of somatic motoneurons does not mediate rapid eye movement sleep motor atonia",
+      "authors": "Brooks PL, Peever JH",
+      "journal": "The Journal of Neuroscience",
+      "year": 2008,
+      "open_access": false,
+      "full_text_read": false,
+      "status": "abstract_only",
+      "role": "挑战甘氨酸假说：阻断GlyR+GABA-A仍有REM肌张力弛缓",
+      "note": "关键反例；引入GABA-B+去促进化补充假说"
+    },
+    {
+      "id": "S5",
+      "pmid": "20217361",
+      "title": "GABAergic and glycinergic control of upper airway motoneurons in rapid eye movement sleep",
+      "authors": "Brooks PL, Peever JH",
+      "journal": "Advances in Experimental Medicine and Biology",
+      "year": 2010,
+      "open_access": false,
+      "full_text_read": false,
+      "status": "abstract_only",
+      "role": "GABA-B参与REM上气道肌张力抑制（与GABA-A和甘氨酸协同）"
+    },
+    {
+      "id": "S6",
+      "pmid": "19625526",
+      "title": "Medullary circuitry regulating rapid eye movement sleep and motor atonia",
+      "authors": "Vetrivelan R, Fuller PM, Tong Q, Lu J",
+      "journal": "The Journal of Neuroscience",
+      "year": 2009,
+      "open_access": false,
+      "full_text_read": false,
+      "status": "abstract_only",
+      "role": "延髓supraolivary区：谷氨酸能神经元对REM肌张力弛缓的关键作用"
+    },
+    {
+      "id": "S7",
+      "pmid": "29402935",
+      "title": "Ventromedial medulla inhibitory neuron inactivation induces REM sleep without atonia and REM sleep behavior disorder",
+      "authors": "Valencia Garcia S, Brischoux F, Clément O, Libourel PA, Arthaud S, Lazarus M, Luppi PH, Fort P",
+      "journal": "Nature Communications",
+      "year": 2018,
+      "open_access": false,
+      "full_text_read": false,
+      "status": "abstract_only",
+      "role": "遗传学证明VMM GABA/Gly神经元灭活→RBD样表型"
+    },
+    {
+      "id": "S8",
+      "pmid": "30450004",
+      "pmcid": "PMC6236475",
+      "title": "A Particular Medullary-Spinal Inhibitory Pathway is Recruited for the Expression of Muscle Atonia During REM Sleep",
+      "authors": "Valencia Garcia S, Luppi PH, Fort P",
+      "journal": "Journal of Experimental Neuroscience",
+      "year": 2018,
+      "open_access": true,
+      "full_text_read": true,
+      "status": "full_text_read",
+      "role": "VMM GABA/Gly灭活→REM减少15%（执行器非发生器）；脑桥Glu→减少30%（发生器）",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6236475/"
+    },
+    {
+      "id": "S9",
+      "pmid": "33372061",
+      "pmcid": "PMC7896014",
+      "title": "A Discrete Glycinergic Neuronal Population in the Ventromedial Medulla That Induces Muscle Atonia during REM Sleep and Cataplexy in Mice",
+      "authors": "Uchida S, Soya S, Saito YC, Hirano A, Koga K, Tsuda M, Abe M, Sakimura K, Sakurai T",
+      "journal": "The Journal of Neuroscience",
+      "year": 2021,
+      "open_access": true,
+      "full_text_read": true,
+      "status": "full_text_read",
+      "role": "关键论文：GlyVMM→Mn亚群；避开眼外肌核；猝倒减少92%；SLD-VMM-脊髓回路遗传学证明",
+      "key_findings": {
+        "SLD_vglut2_percent": "85.7%",
+        "EMG_significance": "p=0.0292",
+        "cataplexy_reduction": "92%",
+        "cataplexy_duration_reduction": "78% (p<0.0001)",
+        "cataplexy_episode_reduction": "83% (p=0.0005)"
+      },
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7896014/"
+    },
+    {
+      "id": "S10",
+      "pmid": "38060134",
+      "title": "Neural Control of REM Sleep and Motor Atonia: Current Perspectives",
+      "authors": "Vetrivelan R, Bandaru SS",
+      "journal": "Current Neurology and Neuroscience Reports",
+      "year": 2023,
+      "open_access": false,
+      "full_text_read": false,
+      "status": "abstract_only",
+      "role": "综述：SLDGlut为REM睡眠唯一发生器；现代回路框架"
+    },
+    {
+      "id": "S11",
+      "pmid": "38972672",
+      "title": "Neuronal network controlling REM sleep",
+      "authors": "Luppi PH, Malcey J, Chancel A, Duval B, Cabrera S, Fort P",
+      "journal": "Journal of Sleep Research",
+      "year": 2025,
+      "open_access": false,
+      "full_text_read": false,
+      "status": "abstract_only",
+      "role": "2025最新综述：MCH→vPAG→SLD→VMM→脊髓完整上游通路图"
+    },
+    {
+      "id": "S12",
+      "pmid": "22019718",
+      "title": "REM sleep behavior disorder: from dreams to neurodegeneration",
+      "authors": "Postuma RB, Gagnon JF, Montplaisir JY",
+      "journal": "Neurobiology of Disease",
+      "year": 2012,
+      "open_access": false,
+      "full_text_read": false,
+      "status": "abstract_only",
+      "role": "临床：RBD转化率40-65%；平均潜伏期10-15年；几乎全为突触核蛋白病"
+    },
+    {
+      "id": "S13",
+      "pmid": "25867792",
+      "title": "Rapid Eye Movement Sleep Behavior Disorder and Neurodegenerative Disease",
+      "authors": "Howell MJ, Schenck CH",
+      "journal": "JAMA Neurology",
+      "year": 2015,
+      "open_access": false,
+      "full_text_read": false,
+      "status": "abstract_only",
+      "role": "81-90% RBD→神经退行性疾病；α-突触核蛋白脑干病理"
+    }
+  ],
+  "sources_summary": {
+    "total": 13,
+    "full_text_read": 2,
+    "abstract_only": 11,
+    "open_access_available": 2,
+    "official_institution_sources": 1,
+    "reviews": 4,
+    "original_research": 9
+  },
+  "limitations": [
+    "大多数来源只读摘要（11/13），未能获得全文",
+    "Brooks & Peever 2008的原始数据依赖摘要描述",
+    "历史奠基论文（Chase & Morales 1990）只有摘要，部分细节引用间接资料",
+    "Luppi et al. 2025综述未读全文，其中的定量数据引用存在风险"
+  ],
+  "excluded_sources": [
+    {
+      "reason": "无法访问/相关性不足",
+      "sources": ["PMC搜索返回的不相关旧期刊文章（眼科、营养学等）"]
+    }
+  ]
+}

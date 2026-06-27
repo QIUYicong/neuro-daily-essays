@@ -1,0 +1,110 @@
+# 运行日志 · 2026-06-28（第#178篇）
+
+**文章编号**：#178
+**主题**：甘氨酸（Glycine）与REM睡眠肌张力弛缓：VMM-脊髓运动神经元抑制通路解析
+**系列**：睡眠神经科学系列第9篇
+**运行时间**：UTC+8 2026-06-28（系统时钟：2026-06-28 01:xx CST）
+**分支**：claude/funny-einstein-lwdq52
+
+---
+
+## 状态检查
+
+- origin/main HEAD：027ec9a（2026-06-27文章，与本分支同步）
+- 今日日期（UTC+8）：2026-06-28
+- 已存在的2026-06-28-bdnf文章：来自旧连续性日期运行（系统时钟2026-06-02时生成），不影响本次创作
+- topic_ledger最后条目：#177（2026-06-27），故本文为#178
+
+---
+
+## 搜索词与数据源
+
+**搜索词**：
+- REM sleep atonia glycine GABA spinal motor neurons
+- ventromedial medulla REM sleep atonia glycine
+- sublaterodorsal nucleus SLD spinal cord REM atonia circuit
+- REM sleep behavior disorder RBD glycine brainstem atonia mechanism
+- Brooks Peever REM sleep atonia glycine GABA motoneurons
+- Chase Morales glycine REM sleep motoneuron inhibition postsynaptic
+- GABA B receptor REM sleep atonia muscle tone motoneuron
+- REM sleep behavior disorder synuclein neurodegeneration atonia brainstem
+
+**数据源**：PubMed NCBI E-utilities, PMC (pmc.ncbi.nlm.nih.gov)
+
+**候选来源数**：约35篇（REM atonia机制类），约10篇（RBD临床类）
+
+---
+
+## 采用来源（13篇）
+
+| PMID | 类型 | 全文状态 | 关键贡献 |
+|------|------|---------|---------|
+| 1968326 | 综述 | 摘要 | 甘氨酸假说奠基（Chase & Morales 1990） |
+| 1726063 | 原始 | 摘要 | VMM→脊髓甘氨酸/GABA突触电镜证明 |
+| 16891059 | 原始 | 摘要 | 猫VMM甘氨酸神经元REM激活 |
+| 18385312 | 原始 | 摘要 | 关键挑战：阻断GlyR+GABA-A仍有REM atonia |
+| 20217361 | 原始 | 摘要 | GABA-B参与REM肌张力抑制 |
+| 19625526 | 原始 | 摘要 | 延髓回路对REM肌张力弛缓的调控 |
+| 29402935 | 原始 | 摘要 | VMM GABA/Gly灭活→RBD样表型（Nat Commun） |
+| 30450004 | 原始 | **全文（PMC6236475）** | VMM是执行器（-15% REM），SLD是发生器（-30% REM） |
+| 33372061 | 原始 | **全文（PMC7896014）** | GlyVMM→Mn亚群；避开眼外肌核；猝倒减少92% |
+| 38060134 | 综述 | 摘要 | SLDGlut为REM唯一发生器（2023综述） |
+| 38972672 | 综述 | 摘要 | 完整REM神经网络：MCH→vPAG→SLD→VMM→脊髓（2025） |
+| 22019718 | 综述 | 摘要 | RBD→PD转化率40-65%；潜伏期10-15年 |
+| 25867792 | 综述 | 摘要 | 81-90% RBD→神经退行性疾病 |
+
+**排除来源**：PMC数据库搜索返回了多篇无关的旧期刊文章（眼科、营养学等），均已排除。
+
+---
+
+## 固结的 Wiki 页面
+
+**新创建（3页+1节点）**：
+- `wiki/concepts/rem-sleep-atonia.md`（rev1）
+- `wiki/neurons/glycine-receptor.md`（rev1）
+- `wiki/circuits/vmm-inhibitory-neurons.md`（rev1）
+- `sublaterodorsal-nucleus` 节点加入 _graph.json
+
+**修订（2页）**：
+- `wiki/concepts/rem-sleep.md`（rev3→rev4）
+- `wiki/diseases/narcolepsy.md`（rev1→rev2）
+
+---
+
+## 图谱变更
+
+- 节点：324 → 328（+4）
+- 边：1935 → 1949（+14）
+
+---
+
+## 登记矛盾
+
+无新矛盾需登记（Brooks & Peever 2008 vs 甘氨酸假说的差异已在rem-sleep-atonia页以"多重叠加机制"框架呈现，非真实矛盾）。
+
+---
+
+## 治理层更新
+
+- ✅ topic_ledger.json：新增#178条目
+- ✅ unresolved_questions.md：新增Q-atonia-01/02/03
+- ✅ source_registry.json：新增13条来源记录
+- ✅ monthly_synthesis.md：新增第178篇摘要
+- ✅ wiki/CHANGELOG.md：新增2026-06-28变更记录
+
+---
+
+## 失败与限制
+
+- 大多数核心论文无PMC全文（11/13），依赖摘要
+- Brooks & Peever 2008的原始数据仅从摘要引用
+- Luppi et al. 2025综述未读全文，定量数据有风险
+- sublaterodorsal-nucleus虽加入图谱节点，但未创建对应wiki页面（创建单独wiki页面优先级较低，已加入next_suggested_topics）
+
+---
+
+## Git 提交信息
+
+branch: claude/funny-einstein-lwdq52
+commit: [待填入]
+push: [待执行]

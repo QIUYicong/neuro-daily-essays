@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-13",
-  "total_articles": 176,
+  "last_updated": "2026-06-28",
+  "total_articles": 166,
   "entries": [
     {
       "date": "2026-10-05",
@@ -10977,6 +10977,58 @@
         "TARP辅助亚基与AMPA受体突触锚定——AMPA分子机制系列深化（与Homer1a/Arc文章连接）",
         "spike-timing-dependent-plasticity（STDP）——填补图谱悬空引用，基础学习机制",
         "sharp-wave-ripple——填补图谱悬空引用，与睡眠记忆巩固直接连接"
+      ]
+    },
+    {
+      "date": "2026-06-28",
+      "title": "睡眠中的身体枷锁：甘氨酸、GABA与REM肌张力弛缓的神经回路解剖",
+      "article_number": 178,
+      "slug": "glycine-rem-atonia-vmm",
+      "core_question": "REM睡眠期间脊髓运动神经元如何被抑制？SLD→VMM→脊髓三节点回路中甘氨酸、GABA的分工是什么？",
+      "layer": "molecular-cellular-microcircuit",
+      "topic_tags": [
+        "REM睡眠",
+        "肌张力弛缓",
+        "甘氨酸",
+        "GABA",
+        "VMM",
+        "SLD",
+        "脊髓运动神经元",
+        "RBD",
+        "发作性睡病",
+        "帕金森病"
+      ],
+      "series": "睡眠神经科学系列第9篇",
+      "main_sources": [
+        "PMID:33372061 (Uchida et al. 2021, J Neuroscience, PMC7896014)",
+        "PMID:29402935 (Valencia Garcia et al. 2018, Nat Commun)",
+        "PMID:30450004 (Valencia Garcia et al. 2018, JEN, PMC6236475)",
+        "PMID:1968326 (Chase & Morales 1990)",
+        "PMID:38060134 (Vetrivelan & Bandaru 2023)",
+        "PMID:38972672 (Luppi et al. 2025)",
+        "PMID:18385312 (Brooks & Peever 2008)"
+      ],
+      "wiki_created": [
+        "rem-sleep-atonia",
+        "glycine-receptor",
+        "vmm-inhibitory-neurons",
+        "sublaterodorsal-nucleus(节点)"
+      ],
+      "wiki_revised": [
+        "rem-sleep (rev4)",
+        "narcolepsy (rev2)"
+      ],
+      "unresolved_questions": [
+        "Q-atonia-01",
+        "Q-atonia-02",
+        "Q-atonia-03"
+      ],
+      "next_suggested_topics": [
+        "REM睡眠行为障碍（RBD）专页——神经病理和临床诊断；PD前驱生物标志物",
+        "月度综合（#151-#180第6周期）——#178，距#180还有2篇",
+        "STDP（突触时序依赖可塑性）——填补图谱悬空引用",
+        "甘氨酸转运体（GlyT1/GlyT2）——从VMM回路延伸到分子基础",
+        "REM去促进化机制——NE撤退的分子细节"
       ]
     }
   ]

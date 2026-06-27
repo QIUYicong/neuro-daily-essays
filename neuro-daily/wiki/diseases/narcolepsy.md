@@ -6,14 +6,14 @@ type: disease
 status: established
 confidence: high
 created: 2026-10-15
-updated: 2026-10-15
-revision_count: 1
+updated: 2026-06-28
+revision_count: 2
 dimensions: [molecular, cellular, brain-region, whole-brain-network, behavior, cognition, disease]
-related: [orexin-hypocretin, flip-flop-switch-sleep-wake, rem-sleep, ascending-arousal-system, two-process-model, adenosine, hla-autoimmunity]
+related: [orexin-hypocretin, flip-flop-switch-sleep-wake, rem-sleep, ascending-arousal-system, two-process-model, adenosine, hla-autoimmunity, rem-sleep-atonia, vmm-inhibitory-neurons, glycine-receptor]
 prerequisites: [orexin-hypocretin, flip-flop-switch-sleep-wake, rem-sleep]
 opens_questions: [Q-narc-01, Q-narc-02, Q-narc-03, Q-narc-04]
-source_articles: [2026-10-15-narcolepsy-type1-orexin-autoimmune-flipflop]
-key_sources: ["PMID:37188663", "PMID:26721620", "PMID:30232458", "PMID:29855798"]
+source_articles: [2026-10-15-narcolepsy-type1-orexin-autoimmune-flipflop, 2026-06-28-glycine-rem-atonia-vmm]
+key_sources: ["PMID:37188663", "PMID:26721620", "PMID:30232458", "PMID:29855798", "PMID:33372061", "PMCID:PMC7896014"]
 ---
 
 # 发作性睡病 1 型 (Narcolepsy Type 1, NT1)
@@ -129,6 +129,7 @@ HLA-DQB1*06:02 基因型
 | 版本 | 日期 | 变化 | 来源文章 |
 |------|------|------|---------|
 | rev1 | 2026-10-15 | 初始页面建立：NT1 完整病理机制（免疫→神经元丢失→翻转开关失稳）、临床诊断、治疗选项（含最新 OX2R 激动剂）、关键证据表、未解问题 | #175 |
+| rev2 | 2026-06-28 | 新增猝倒的共享回路机制：Uchida et al. 2021确认猝倒与REM atonia共享GlyVMM→Mn回路（沉默该通路→猝倒减少92%）；related新增rem-sleep-atonia/vmm-inhibitory-neurons/glycine-receptor；key_sources新增PMID:33372061/PMC7896014 | #178 |
 
 ## 来源文章
 

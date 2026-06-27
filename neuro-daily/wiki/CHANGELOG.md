@@ -4,6 +4,35 @@
 
 ---
 
+## 2026-06-28（#178）：睡眠中的身体枷锁——甘氨酸、GABA与REM肌张力弛缓回路解剖
+
+**文章**：《睡眠中的身体枷锁：甘氨酸、GABA 与 REM 肌张力弛缓的神经回路解剖》（#178）
+
+**类型**：睡眠系列第9篇；层级：分子（甘氨酸受体）→ 细胞（VMM神经元）→ 回路（SLD→VMM→脊髓）→ 行为（肌张力弛缓）→ 疾病（RBD/PD前驱）
+
+**新创建页面（3）**：
+- `wiki/concepts/rem-sleep-atonia.md`（rev1）：REM肌张力弛缓的专属机制页；SLD→VMM→脊髓三节点回路完整描述；甘氨酸/GABA-A/GABA-B/去促进化多重叠加机制；Brooks & Peever 2008争议；RBD临床联系
+- `wiki/neurons/glycine-receptor.md`（rev1）：GlyR分子机制；α1/β亚基；Cys-loop家族；士的宁阻断；在REM atonia中的分子角色
+- `wiki/circuits/vmm-inhibitory-neurons.md`（rev1）：VMM GABA/甘氨酸能神经元；GlyVMM→Mn亚群；眼外肌核例外；PD/α-突触核蛋白临床相关
+
+**修订页面（2）**：
+- `wiki/concepts/rem-sleep.md`（rev3→rev4）：新增"肌张力弛缓回路"小节（SLD→VMM→脊髓机制、VMM靶点临床意义）；related新增4个slug；连接新增4条；key_sources新增4条
+- `wiki/diseases/narcolepsy.md`（rev1→rev2）：新增猝倒共享GlyVMM→Mn回路的遗传学证据（Uchida 2021猝倒减少92%）；related新增3个slug；key_sources新增2条
+
+**图谱变更**：
+- 新增节点（4）：rem-sleep-atonia、glycine-receptor、vmm-inhibitory-neurons、sublaterodorsal-nucleus
+- 新增边（12条）：rem-sleep-atonia↔vmm（mechanism-of/part-of）、sublaterodorsal-nucleus→vmm（regulates）、sublaterodorsal-nucleus→rem-sleep-atonia（mechanism-of）、rem-sleep→rem-sleep-atonia（part-of）、narcolepsy↔rem-sleep-atonia（related）、flip-flop-switch→rem-sleep-atonia（regulates）、rem-sleep-atonia→parkinsons-disease（related）、glycine-receptor→synaptic-transmission（is-a）
+- 图谱总计：328节点，1949条边
+
+**登记/裁决矛盾**：
+- 无新登记矛盾（Brooks & Peever 2008 vs 甘氨酸假说的张力已在rem-sleep-atonia页面以"多重叠加机制"框架如实呈现，无需登记为contested_claim）
+
+**新填补悬空引用**：sublaterodorsal-nucleus（之前被flip-flop-switch和narcolepsy页引用但无节点，今日新增节点）
+
+**仍待补充的悬空引用**：sharp-wave-ripple（wiki页面）、spike-timing-dependent-plasticity（wiki页面）
+
+---
+
 ## 2026-06-27（#177）：恐惧可以被睡眠稀释吗——REM睡眠、IL皮层与情绪记忆重构
 
 **文章**：《恐惧可以被睡眠稀释吗：REM睡眠、下边缘皮层与情绪记忆重构的因果解剖》（#177）

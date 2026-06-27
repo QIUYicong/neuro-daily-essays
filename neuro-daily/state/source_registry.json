@@ -11183,6 +11183,135 @@
       "year": 2014,
       "coverage": "60%杏仁核放大；REM NE最低；PTSD机制；Prazosin",
       "article": "2026-06-27-rem-sleep-il-cortex-fear-extinction-memory"
+    },
+    {
+      "pmid": "1968326",
+      "title": "The atonia and myoclonia of active (REM) sleep",
+      "authors": "Chase MH, Morales FR",
+      "journal": "Annual Review of Psychology",
+      "year": 1990,
+      "used_in": [
+        "2026-06-28-glycine-rem-atonia-vmm"
+      ],
+      "topics_covered": [
+        "REM sleep atonia",
+        "glycine hypothesis",
+        "IPSP"
+      ],
+      "access": "abstract_only"
+    },
+    {
+      "pmid": "1726063",
+      "title": "A glycinergic projection from the ventromedial lower brainstem to spinal motoneurons",
+      "authors": "Holstege JC, Bongers CM",
+      "journal": "Brain Research",
+      "year": 1991,
+      "used_in": [
+        "2026-06-28-glycine-rem-atonia-vmm"
+      ],
+      "topics_covered": [
+        "VMM glycine projections",
+        "spinal motoneurons"
+      ],
+      "access": "abstract_only"
+    },
+    {
+      "pmid": "33372061",
+      "pmcid": "PMC7896014",
+      "title": "A Discrete Glycinergic Neuronal Population in the Ventromedial Medulla That Induces Muscle Atonia during REM Sleep and Cataplexy in Mice",
+      "authors": "Uchida S et al.",
+      "journal": "Journal of Neuroscience",
+      "year": 2021,
+      "used_in": [
+        "2026-06-28-glycine-rem-atonia-vmm"
+      ],
+      "topics_covered": [
+        "GlyVMM→Mn circuit",
+        "REM atonia",
+        "cataplexy",
+        "SLD-VMM pathway"
+      ],
+      "access": "full_text_pmc"
+    },
+    {
+      "pmid": "29402935",
+      "title": "Ventromedial medulla inhibitory neuron inactivation induces REM sleep without atonia",
+      "authors": "Valencia Garcia S et al.",
+      "journal": "Nature Communications",
+      "year": 2018,
+      "used_in": [
+        "2026-06-28-glycine-rem-atonia-vmm"
+      ],
+      "topics_covered": [
+        "VMM GABA/glycine neurons",
+        "RBD",
+        "REM atonia"
+      ],
+      "access": "abstract_only"
+    },
+    {
+      "pmid": "30450004",
+      "pmcid": "PMC6236475",
+      "title": "A Particular Medullary-Spinal Inhibitory Pathway is Recruited for the Expression of Muscle Atonia During REM Sleep",
+      "authors": "Valencia Garcia S, Luppi PH, Fort P",
+      "journal": "Journal of Experimental Neuroscience",
+      "year": 2018,
+      "used_in": [
+        "2026-06-28-glycine-rem-atonia-vmm"
+      ],
+      "topics_covered": [
+        "VMM executor role",
+        "SLD generator role",
+        "REM atonia pathway"
+      ],
+      "access": "full_text_pmc"
+    },
+    {
+      "pmid": "18385312",
+      "title": "Glycinergic and GABA(A)-mediated inhibition of somatic motoneurons does not mediate rapid eye movement sleep motor atonia",
+      "authors": "Brooks PL, Peever JH",
+      "journal": "Journal of Neuroscience",
+      "year": 2008,
+      "used_in": [
+        "2026-06-28-glycine-rem-atonia-vmm"
+      ],
+      "topics_covered": [
+        "REM atonia challenge",
+        "GABA-B",
+        "disfacilitation"
+      ],
+      "access": "abstract_only",
+      "note": "Key controversial finding"
+    },
+    {
+      "pmid": "38060134",
+      "title": "Neural Control of REM Sleep and Motor Atonia: Current Perspectives",
+      "authors": "Vetrivelan R, Bandaru SS",
+      "journal": "Current Neurology and Neuroscience Reports",
+      "year": 2023,
+      "used_in": [
+        "2026-06-28-glycine-rem-atonia-vmm"
+      ],
+      "topics_covered": [
+        "SLD as sole REM generator",
+        "modern circuit framework"
+      ],
+      "access": "abstract_only"
+    },
+    {
+      "pmid": "38972672",
+      "title": "Neuronal network controlling REM sleep",
+      "authors": "Luppi PH et al.",
+      "journal": "Journal of Sleep Research",
+      "year": 2025,
+      "used_in": [
+        "2026-06-28-glycine-rem-atonia-vmm"
+      ],
+      "topics_covered": [
+        "MCH-vPAG-SLD-VMM pathway",
+        "REM neural network"
+      ],
+      "access": "abstract_only"
     }
   ],
   "total_sources": 643,

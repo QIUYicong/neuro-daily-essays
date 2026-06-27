@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-06-27",
+  "updated": "2026-06-28",
   "node_count": 324,
   "edge_count": 1931,
   "edge_types": [
@@ -2958,6 +2958,42 @@
       "status": "mainstream",
       "confidence": "high",
       "page": "wiki/concepts/homer1a.md"
+    },
+    {
+      "id": "rem-sleep-atonia",
+      "title": "REM睡眠肌张力弛缓",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/rem-sleep-atonia.md"
+    },
+    {
+      "id": "glycine-receptor",
+      "title": "甘氨酸受体",
+      "domain": "neurons",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/glycine-receptor.md"
+    },
+    {
+      "id": "vmm-inhibitory-neurons",
+      "title": "延髓腹内侧区抑制性神经元",
+      "domain": "circuits",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/circuits/vmm-inhibitory-neurons.md"
+    },
+    {
+      "id": "sublaterodorsal-nucleus",
+      "title": "被盖下背核（SLD）",
+      "domain": "circuits",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/circuits/sublaterodorsal-nucleus.md"
     }
   ],
   "edges": [
@@ -13794,6 +13830,76 @@
       "to": "rem-sleep",
       "type": "prerequisite-for",
       "note": "恐惧后4h内REM-IL激活是消退能力的前提（Hong 2024因果）"
+    },
+    {
+      "from": "rem-sleep-atonia",
+      "to": "glycine-receptor",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "rem-sleep-atonia",
+      "to": "vmm-inhibitory-neurons",
+      "type": "part-of"
+    },
+    {
+      "from": "vmm-inhibitory-neurons",
+      "to": "rem-sleep-atonia",
+      "type": "supports"
+    },
+    {
+      "from": "vmm-inhibitory-neurons",
+      "to": "glycine-receptor",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "rem-sleep",
+      "to": "rem-sleep-atonia",
+      "type": "part-of"
+    },
+    {
+      "from": "rem-sleep-atonia",
+      "to": "rem-sleep",
+      "type": "part-of"
+    },
+    {
+      "from": "narcolepsy",
+      "to": "rem-sleep-atonia",
+      "type": "related"
+    },
+    {
+      "from": "rem-sleep-atonia",
+      "to": "narcolepsy",
+      "type": "related"
+    },
+    {
+      "from": "flip-flop-switch-sleep-wake",
+      "to": "rem-sleep-atonia",
+      "type": "regulates"
+    },
+    {
+      "from": "rem-sleep-atonia",
+      "to": "parkinsons-disease",
+      "type": "related"
+    },
+    {
+      "from": "glycine-receptor",
+      "to": "synaptic-transmission",
+      "type": "is-a"
+    },
+    {
+      "from": "sublaterodorsal-nucleus",
+      "to": "vmm-inhibitory-neurons",
+      "type": "regulates"
+    },
+    {
+      "from": "sublaterodorsal-nucleus",
+      "to": "rem-sleep-atonia",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "rem-sleep",
+      "to": "sublaterodorsal-nucleus",
+      "type": "part-of"
     }
   ],
   "dangling_references": [

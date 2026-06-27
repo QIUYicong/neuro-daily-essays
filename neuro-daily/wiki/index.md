@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-10-16（第176篇·睡眠如何修剪突触：Homer1a 与 Arc 的分子协奏）· 主题页总数：**318**（新建1页：concepts/homer1a；修订3页：arc-arg31 rev3, ampa-receptor rev4, slow-wave-sleep rev3；图谱324节点/1931边）
+> 最后更新：2026-06-28（第178篇·甘氨酸与REM睡眠肌张力弛缓：VMM-脊髓抑制通路）· 主题页总数：**321**（新建3页：concepts/rem-sleep-atonia, neurons/glycine-receptor, circuits/vmm-inhibitory-neurons；修订2页：concepts/rem-sleep rev4, diseases/narcolepsy rev2；图谱328节点/1949边）
 
 ---
 
@@ -44,6 +44,7 @@
 - 🔵 [TREM2（髓系细胞触发受体2）](neurons/trem2.md) — 小胶质细胞脂质传感器/危险信号受体；DAP12→PI3K→Akt→mTOR促细胞存活/增殖/吞噬；DAM Step 2激活的分子开关；R47H变异→AD风险OR≈3-5×；INVOKE-2 Phase 2（AL002c激动抗体）阴性结果 **[NEW 2026-09-17]**
 - 🟢 [低阈值机械感受器（LTMR）](neurons/mechanoreceptor-ltmr.md) — 皮肤中专职编码轻触/振动/压力的四类感受器（SA1 Merkel/SA2 Ruffini/RA1 Meissner/RA2 Pacini）；PIEZO2通道介导机械转导；脊髓背角机械感觉柱整合信号 **[NEW 2026-07-29]**
 - 🟢 [CB1 大麻素受体](neurons/cb1-receptor.md) — 脑内最丰富的 GPCR，主要突触前定位；富集于 CCK⁺ GABA 能中间神经元（皮层/海马）；Gi/o 偶联：Gβγ→Cav2.2 抑制（DSI 短时程），Gαi→cAMP/PKA↓→RIM1α（eCB-LTD 长时程），GIRK 激活（SSI）；BLA CB1R 激活对恐惧消退因果必要 **[NEW 2026-08-05]**
+- 🟢 [甘氨酸受体（GlyR）](neurons/glycine-receptor.md) — Cys-loop Cl⁻通道，成年脊髓以α1/β异五聚体为主；突触后GlyR锚定于gephyrin骨架；REM睡眠期GlyVMM→Mn回路的效应受体；士的宁特异性拮抗剂；GLRA1/GLRB突变→遗传性痉挛症 **[NEW 2026-06-28]**
 
 ## circuits（回路）
 
@@ -61,6 +62,7 @@
 - 🟢 [内嗅皮层-CA1 双流回路](circuits/entorhinal-ca1-circuit.md) — EC 通过三突触通路（EC-II→DG→CA3→CA1 SR，联想预测流）和直接穿通径路（EC-III→CA1 SLM，当前感觉精准流）双管并行；CA1 锥体细胞是"时序 AND 门"（Schaffer 先于 TA path ~40–60 ms 开门）；MEC 传环境坐标图，LEC 传奖励目标图（Bowler & Losonczy 2023）；TA path 3 周巩固窗口；BTSP 中 MEC 驱动触发频率，LEC 决定内容 **[NEW 2026-09-24]**
 - 🟢 [穿通径路（颞氨通路）](circuits/temporoammonic-path.md) — EC 第三层（MEC-III/LEC-III）直接投射至 CA1 SLM 的回路分支；默认被 GABA_B 预突触抑制锁死；theta AND 门中 Schaffer 先激活→NMDA 去极化+GABA_B 去抑制→TA 信号穿透；MEC-III 传空间语境坐标，LEC-III 传奖励目标坐标；学习后 3 周巩固窗口（Remondes & Schuman 2004）；SLM 突触可双向可塑性 **[NEW 2026-09-24]**
 - 🔵 [皮层-纹状体STDP（多巴胺门控不对称突触可塑性）](circuits/corticostriatal-stdp.md) — 多巴胺状态不对称门控STDP规则：D1-MSN高DA时只能LTP（D1→PKA主动封锁mGluR5-CB1 LTD路径）；D2-MSN高DA时偏向LTD（D2拮抗A2a-LTP；D2→mGluR5-CB1→eCB→LTD）；帕金森病多巴胺缺失→D1-MSN全失LTP/D2-MSN失方向性；Shen 2008 Science核心证据；Kravitz 2010光遗传学因果验证 **[NEW 2026-09-28]**
+- 🟢 [延髓腹内侧区抑制性神经元（VMM）](circuits/vmm-inhibitory-neurons.md) — SLD谷氨酸投射激活的GABA/甘氨酸中继节点；GlyVMM→Mn亚群覆盖所有体运动核但系统性回避眼外肌核（III/VI），是REM期眼动保留的解剖基础；VMM灭活仅减少REM 15%（执行器而非发生器）；Braak I-II期α-突触核蛋白病变潜在靶点 **[NEW 2026-06-28]**
 
 ## concepts（概念/框架）
 
@@ -203,6 +205,7 @@
 - 🟢 [情绪调节](concepts/emotion-regulation.md) — 五类策略（认知重评/注意部署/情绪压制/习惯化消退/内感觉重估）；vmPFC 为情绪调节枢纽的前额叶-杏仁核-脑干多层级控制回路；主动推断视角（精度权重调整）；认知重评 vs 情绪压制长期代价对比 **[NEW 2026-08-25]**
 - 🟢 [认知重评](concepts/cognitive-reappraisal.md) — 通过重解释事件含义改变情绪影响；vlPFC（语义重构）→vmPFC（情绪整合）→杏仁核（抑制）三层级回路；Steward 2021 DCM 量化 vmPFC→杏仁核负向有效连接；He 2023 TMS-fMRI 因果证明；重评 vs 压制（长期代价低）；有效性边界（感官驱动情绪效果有限） **[NEW 2026-08-25]**
 - 🟢 [REM睡眠](concepts/rem-sleep.md) — 去甲肾上腺素真空（LC沉默）+θ振荡+杏仁核-海马θ同步；情绪记忆去饱和化（SFSR假说）；Boyce 2016光遗传因果证明REM θ是情境记忆必需条件；van der Helm 2011人类fMRI证实REM降低杏仁核情绪反应 **[NEW 2026-05-31]**
+- 🟢 [REM睡眠肌张力弛缓](concepts/rem-sleep-atonia.md) — SLD谷氨酸能→VMM GABA/甘氨酸→脊髓运动神经元三节点回路；GlyVMM→Mn亚群避开眼外肌核（III/VI）是快速眼动保留的解剖基础；三重抑制叠加（GlyR+GABA-A/GABA-B+去促进化）；RBD→PD/DLB转化率40-65%（潜伏期10-15年） **[NEW 2026-06-28]**
 - 🟢 [睡眠-清醒翻转开关](systems/flip-flop-switch-sleep-wake.md) — VLPO（GABA+甘丙肽）与AAS核团（LC/DRN/TMN/食欲素）的双稳互抑回路；解释睡眠-清醒为何是两个稳定极端态而非连续渐变；腺苷/PGD₂→VLPO激活→睡眠翻转；食欲素稳定清醒侧；Kroeger 2018光遗传定量证据；KCNQ2/老年碎片化机制（Li 2022 Science）**[升级至systems rev1 2026-10-12]**
 - 🟢 [食欲素（下丘脑泌素）与发作性睡病](concepts/orexin-hypocretin.md) — 外侧下丘脑8万神经元的"AAS总指挥"；缺失导致NT1（95%神经元丢失，HLA-DQB1*06:02）；OX2R激动剂danavorexton MWT改善11.1分（2024）；干细胞/基因治疗前景 **[NEW 2026-08-10]**
 - 🟡 [情绪记忆去饱和化](concepts/emotional-memory-depotentiation.md) — REM睡眠NE真空→θ相位驱动LA突触选择性LTD→情绪色彩弱化、事实内容保留；Walker SFSR假说的机制底层；PTSD可能是去饱和化失败 **[NEW 2026-05-31]**

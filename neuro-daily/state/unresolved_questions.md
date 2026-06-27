@@ -5040,3 +5040,32 @@
 **来源**：Hong et al. 2024（PMC11111341）
 **背景**：实验只证明NMDA依赖性，具体下游路径未明
 **状态**：open
+
+---
+
+## 2026-06-28 新增（来自"睡眠中的身体枷锁" 文章 #178）
+
+### Q-atonia-01（高优先级）：甘氨酸 vs GABA-B vs 去促进化的物种权重差异
+
+- **关联 wiki**：[[rem-sleep-atonia]]、[[glycine-receptor]]、[[vmm-inhibitory-neurons]]
+- **来源文章**：2026-06-28-glycine-rem-atonia-vmm
+- **问题**：Brooks & Peever 2008（大鼠，三叉神经运动核）发现阻断GlyR+GABA-A不能完全消除REM肌张力弛缓——但Uchida et al. 2021（小鼠）用遗传工具证明GlyVMM→Mn亚群对REM atonia是必要的。这两个结果是否可以调和？候选解释：(a) 不同运动核团（三叉 vs 脊髓）的甘氨酸权重不同；(b) 大鼠 vs 小鼠物种差异；(c) Brooks & Peever 的局部注射未能完全阻断所有GlyR；(d) GABA-B在Brooks & Peever的条件下提供代偿。
+- **关键实验**：在小鼠同一核团（三叉神经运动核+脊髓前角）用遗传（GlyVMM→Mn沉默）vs 药理（strychnine+bicuculline）双方法对比；或直接在GlyT2-iCre小鼠中进行Brooks & Peever 2008原实验的复现
+- **当前证据状态**：大鼠三叉神经核药理阻断残余atonia：高（PMID:18385312）；小鼠VMM甘氨酸遗传沉默→EMG升高：高（PMID:33372061）；物种/脑区差异直接比较：未测试
+
+### Q-atonia-02（中优先级）：GlyVMM→Mn神经元如何在发育中"学会"避开眼外肌运动核
+
+- **关联 wiki**：[[vmm-inhibitory-neurons]]、[[rem-sleep-atonia]]
+- **来源文章**：2026-06-28-glycine-rem-atonia-vmm
+- **问题**：Uchida et al. 2021证明GlyVMM→Mn神经元特异性避开动眼神经核（III）和外展神经核（VI），但投射到所有其他运动核团。这种选择性投射回避的发育机制是什么？候选机制：(a) 眼外肌运动神经元表达排斥信号（ephrin/semaphorin），阻止来自VMM的轴突接触；(b) 眼外肌核发育时序不同，与VMM轴突生长的时间窗不重合；(c) 眼外肌运动神经元的表面识别标记与脊髓运动神经元不同。
+- **关键实验**：对比眼外肌运动神经元 vs 脊髓运动神经元在REM atonia回路建立关键期前后的表面蛋白组；条件敲除GlyVMM→Mn神经元上的特定axon guidance受体，观察投射是否扩散到眼外肌核
+- **当前证据状态**：GlyVMM→Mn投射避开眼外肌核：高（PMC7896014）；发育机制：未研究
+
+### Q-atonia-03（中优先级）：VMM退化是否可作为PD前驱期的影像生物标志物
+
+- **关联 wiki**：[[vmm-inhibitory-neurons]]、[[rem-behavior-disorder]]、[[parkinsons-disease]]
+- **来源文章**：2026-06-28-glycine-rem-atonia-vmm
+- **问题**：特发性RBD的40-65%患者在10-15年内发展为PD/DLB（PMID:22019718）。VMM抑制性神经元是α-突触核蛋白早期靶点（Braak分期I-II）。能否用结构MRI（弥散张量成像，DTI）检测VMM的神经元密度下降？或用PET（如[18F]-FDG或靶向α-突触核蛋白的追踪剂）在活体中标记VMM退化？这可能为RBD→PD转化提供客观的影像生物标志物，早于黑质多巴胺神经元的损失。
+- **关键实验**：在已知RBD的受试者中纵向追踪VMM的DTI指标（各向异性分数FA等）与黑质DA神经元影像（DaT-SPECT）和临床表现的相关性
+- **当前证据状态**：RBD→PD转化率和潜伏期：高（PMID:22019718，PMID:25867792）；VMM影像生物标志物：未建立
+

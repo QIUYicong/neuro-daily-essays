@@ -1926,3 +1926,16 @@
 - IL/vmPFC从单纯的消退节点扩展为REM睡眠的核心活跃区
 
 **成熟度变化**：emotional-memory-depotentiation: emerging → mainstream
+
+---
+
+### 第178篇（2026-06-28）：睡眠中的身体枷锁
+
+**主题**：REM睡眠肌张力弛缓——SLD→VMM→脊髓甘氨酸/GABA回路
+
+**一句话**：REM睡眠期间的身体瘫痪由专用三节点回路精确执行，其中VMM的甘氨酸能亚群（GlyVMM→Mn）特异性避开眼外肌运动核，同时服务于猝倒机制，且其退化是帕金森病RBD前驱症状的神经解剖基础。
+
+**认知地图更新**：睡眠系列完成从"状态控制"（flip-flop switch/腺苷/SC ON-OFF）→"巩固机制"（SWR/Homer1a/Arc）→"情绪处理"（REM-IL-杏仁核）→"运动隔离机制"（VMM-甘氨酸-脊髓atonia）的完整覆盖。
+
+**新wiki节点**：rem-sleep-atonia、glycine-receptor、vmm-inhibitory-neurons、sublaterodorsal-nucleus
+
