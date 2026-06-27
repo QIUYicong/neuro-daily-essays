@@ -976,5 +976,12 @@
     "confidence": "high",
     "last_changed": "2026-10-13",
     "reason": "新建 rev1 · #173 · Borbély 1982 两进程框架已是睡眠领域最核心的理论框架；EEG SWA 预测 Process S（Borbély 1982，高）；腺苷是 Process S 分子实体（Porkka-Heiskanen 1997，高）；S-C 双向调制（Deboer 2018，中）；多项独立实验室验证；理论框架整体处于 established 水平"
+  },
+  {
+    "id": "homer1a",
+    "status": "mainstream",
+    "confidence": "high",
+    "last_changed": "2026-10-16",
+    "change_reason": "创建新页面（Diering 2017 Science 核心证据；Diering 2022综述；Suzuki 2020遗传验证）"
   }
 ]

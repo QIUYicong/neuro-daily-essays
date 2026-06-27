@@ -4,6 +4,29 @@
 
 ---
 
+## 2026-10-16（#176）：睡眠如何修剪突触——Homer1a 与 Arc 的分子协奏
+
+**文章**：《睡眠如何修剪突触：Homer1a 与 Arc 的分子协奏》（#176）
+
+**类型**：睡眠系列第 7 篇（#170→#175→#176）；SHY 分子机制深化（层级：molecular × synaptic × cellular × cognition）
+
+**新创建页面（1）**：
+- `wiki/concepts/homer1a.md`（rev1）：Homer1a 睡眠突触削减开关完整页面；NA 屏障/腺苷 A1R 双门控机制（Diering 2017 Science）；mGluR1/5-IP3R 支架瓦解；GluA1/GluA2 脱落；与 Arc 协同；记忆特异性提升实验
+
+**修订页面（2）**：
+- `wiki/concepts/arc-arg31.md`（rev2→rev3）：新增"睡眠期逆向突触标记"段落（逆向标记：Arc 靶向去磷酸化 CaMKIIβ，绕开印迹突触）；Arc KO 睡眠数据（Suzuki 2020 PMID:32350140）；related 新增 homer1a/slow-wave-sleep/homeostatic-plasticity；证据表新增 3 行
+- `wiki/concepts/ampa-receptor.md`（rev3→rev4）：新增"睡眠依赖的 GluA1 下调（Homer1a/Arc 通路）"段落；Squarcio 2024 定量数据（GluA1 31.7% 降低，p-Ser845 78.9% 升高）；GluA1 vs GluA2 通路区别；related 新增 homer1a/slow-wave-sleep
+
+**图谱变更**：
+- 新增节点（1）：homer1a（concepts/mainstream/high）
+- 新增边（10条）：homer1a→ampa-receptor(regulates)、homer1a→arc-arg31(related)、homer1a→adenosine(regulates)、norepinephrine-locus-coeruleus→homer1a(regulates)、homer1a→slow-wave-sleep(mechanism-of)、homer1a→synaptic-scaling(related)、arc-arg31→homer1a(related)、arc-arg31→slow-wave-sleep(mechanism-of)、ampa-receptor→homer1a(related)、ampa-receptor→slow-wave-sleep(related)
+- 更新：_graph.json → 324 节点 / 1931 边
+
+**登记矛盾（0）**：无新矛盾。现有证据链内部一致。  
+**新增悬空引用（待填补）**：`mglur-ltd`（homer1a.md 中引用，wiki/concepts/mglur-ltd.md 是否存在需确认）
+
+---
+
 ## 2026-10-13（#173）：困意的分子——腺苷、睡眠内稳态与 Process S
 
 **文章**：《困意的分子：腺苷如何计量你的清醒债，并最终扳动睡眠开关》（#173）

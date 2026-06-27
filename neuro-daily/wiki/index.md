@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-10-13（第173篇·腺苷与睡眠内稳态：大脑清醒计时器的分子机制）· 主题页总数：**317**（新建2页：concepts/adenosine, concepts/two-process-model；修订2页：flip-flop-switch-sleep-wake rev2, slow-wave-sleep rev2；图谱322节点/1912边）
+> 最后更新：2026-10-16（第176篇·睡眠如何修剪突触：Homer1a 与 Arc 的分子协奏）· 主题页总数：**318**（新建1页：concepts/homer1a；修订3页：arc-arg31 rev3, ampa-receptor rev4, slow-wave-sleep rev3；图谱324节点/1931边）
 
 ---
 
@@ -84,7 +84,7 @@
 - 🟢 [感觉小人](concepts/homunculus.md) — Penfield（1950）S1拓扑体图；比例失真正比于感受器密度（指尖140 SA1/cm² vs 背部1/cm²）；21世纪SEEG/fMRI揭示精细内部梯度；动态可塑小人 **[NEW 2026-07-29]**
 - 🔵 [突触时序依赖可塑性（STDP）](concepts/stdp.md) — Hebb 规则的时间分辨精化版：前先后→LTP，后先前→LTD；NMDA 受体±20ms 仲裁；θ 前进体内桥接；三因素扩展 **[NEW 2026-06-19]**（填补 hebbian-learning 悬空引用）
 - 🟢 [皮层分层结构（六层）](concepts/cortical-layers.md) — L1–L6 各层细胞类型、输入/输出投射和振荡特征；前馈（L2/3→高级L4，γ驱动型）vs 反馈（L5/6→低级L1/2/3，β调制型绕过L4）的层级不对称；L4棘突星形细胞、L5厚毛绒锥体细胞两极整合、L6 CT丘脑门控 **[NEW 2026-07-18]**
-- 🟢 [AMPA 受体](concepts/ampa-receptor.md) — 快速突触传递的执行者，LTP 权重变化的物理载体
+- 🟢 [AMPA 受体](concepts/ampa-receptor.md) — 快速突触传递的执行者，LTP 权重变化的物理载体；**睡眠依赖的 GluA1 下调**（Homer1a/Arc 通路，区别于经典突触缩放的 GluA2 通路）**[修订 rev4 2026-10-16]**
 - 🟢 [Cofilin-肌动蛋白轴（突触棘结构可塑性）](concepts/cofilin-actin-spine.md) — LTP 诱导后 CaMKII→Rac1/RhoA→LIMK→cofilin 磷酸化（Ser3 失活）→F-actin 净聚合的分子级联；Rac1 可独立于 CaMKII 激酶活性驱动结构 LTP（Saneyoshi 2025）；cofilin 磷酸化状态决定棘增大（LTP）vs 棘收缩（LTD）的结构方向 **[NEW 2026-09-23]**
 - 🟢 [行为时间尺度突触可塑性（BTSP）](concepts/btsp.md) — 秒级时间窗口的突触增强规则，单次写入场所场，与 LTP 并列的独立学习法则；分子秒表=DDSC（CaMKII延迟弥散激活，IP₃→ER驱动）；非空间BTSP已推广至嗅觉工作记忆 **[修订 rev3 2026-09-20]**
 - 🟢 [θ振荡](concepts/theta-oscillations.md) — 海马4–12 Hz探索节律；提供相位编码时间框架；θ序列压缩路径；θ/γ嵌套承载5-9项目序列；REM期LA-VH θ同步驱动情绪记忆巩固（Boyce 2016, Totty 2017）**[修订 2026-07-21 rev4]**
@@ -118,7 +118,8 @@
 - 🟢 [反弹增强（Rebound Potentiation, RP）](concepts/rebound-potentiation.md) — MLI→PC 抑制性突触的 LTP；Ca²⁺→β-CaMKII→GABARAP 磷酸化→GABA_A 受体数量增加；与 PF-PC LTD 互补，共同利用 CF 误差信号减少 PC 输出；VOR 适应因果证据（γ2 肽链转基因）；篮状细胞特异性（β2-GABA_A + CaMKII）**[NEW 2026-10-09]**
 - 🔵 [纹状体突触可塑性](concepts/striatal-plasticity.md) — 皮质-纹状体谷氨酸突触的LTP（D1-Gs-cAMP-PKA-DARPP-32-AMPA插入）和eCB-LTD（D2-mGluR-2-AG-CB1-突触前释放↓）；奖励时双向刻写；多巴胺1秒时间窗解决信用分配；NMDA受体对LTP必需 **[NEW 2026-09-01]**
 - 🟢 [钙调磷酸酶（Calcineurin / PP2B）](concepts/calcineurin.md) — 高亲和力 Ca²⁺ 磷酸酶，中低 Ca²⁺ 时激活，是 NMDA-LTD 磷酸酶级联的第一步；与 CaMKII 构成 LTP/LTD 方向性的分子开关 **[NEW 2026-06-04]**
-- 🟢 [Arc/Arg3.1（活动调控的细胞骨架相关蛋白）](concepts/arc-arg31.md) — 突触活动量规器：mGluR-LTD 的执行蛋白（dynamin/endophilin 内吞）；同时参与 L-LTP 巩固（肌动蛋白稳定）；突触稳态的分子感受器；病毒样衣壳自组装可包裹mRNA在神经元间转运（Ashley/Pastuzyn 2018）**[修订 rev2 2026-09-21]**
+- 🟢 [Arc/Arg3.1（活动调控的细胞骨架相关蛋白）](concepts/arc-arg31.md) — 突触活动量规器：mGluR-LTD 的执行蛋白（dynamin/endophilin 内吞）；同时参与 L-LTP 巩固（肌动蛋白稳定）；突触稳态的分子感受器；病毒样衣壳自组装可包裹mRNA在神经元间转运（Ashley/Pastuzyn 2018）；睡眠期**逆向突触标记**（绕开 pCaMKIIβ 印迹突触，优先内吞安静突触 AMPAR）**[修订 rev3 2026-10-16]**
+- 🔵 [Homer1a](concepts/homer1a.md) — 短亚型 Homer1 即早基因，mGluR1/5-IP3R 支架的显性负调控子；**双门控**：NA（清醒时排除 PSD）+ 腺苷 A1R（睡眠时引导入 PSD）；驱动睡眠依赖的 GluA1 特异性突触缩减（Diering 2017 Science）；与 Arc 协同实现 SHY 分子执行 **[NEW 2026-10-16]**
 - 🟢 [工作记忆](concepts/working-memory.md) — 容量~4项的临时信息维持系统；γ爆发（活动性编码）+ STP突触易化（静默储存）双机制；依赖dlPFC吸引子回路、PV-γ轴和多巴胺D1调节 **[NEW 2026-06-05]**
 - 🔵 [混合选择性](concepts/mixed-selectivity.md) — dlPFC 神经元对多变量交叉项的非线性响应；高维化表征支持任意规则组合的线性可读出；Rigotti 2013 证明维度降低预测行为错误；认知弹性的编码基础 **[NEW 2026-08-24]**
 - 🔵 [认知稳定性—弹性权衡](concepts/stability-flexibility-tradeoff.md) — 工作记忆系统的基本计算约束；BG-PFC-dACC 网络的三角解决方案；OCD/ADHD/精神分裂症/PD 的四种失调模式 **[NEW 2026-08-24]**

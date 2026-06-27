@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-26
-updated: 2026-07-03
-revision_count: 3
-dimensions: [molecular, synaptic]
-related: [nmda-receptor, ltp, ltd, camkii, calcineurin, arc-arg31, synaptic-transmission, hebbian-learning, tarp-auxiliary-subunit, synaptic-scaling, homeostatic-plasticity]
+updated: 2026-10-16
+revision_count: 4
+dimensions: [molecular, synaptic, cognition, behavior]
+related: [nmda-receptor, ltp, ltd, camkii, calcineurin, arc-arg31, synaptic-transmission, hebbian-learning, tarp-auxiliary-subunit, synaptic-scaling, homeostatic-plasticity, homer1a, slow-wave-sleep]
 prerequisites: [synaptic-transmission, action-potential]
-opens_questions: [Q-ampa-receptor-silent-synapse, Q-ampa-glua1-atd-partners]
-source_articles: [2026-05-26-nmda-receptor-ltp, 2026-06-04-ltd-long-term-depression]
-key_sources: ["PMID:30359599", "PMID:34271016", "PMID:22510460", "PMID:24183021", "PMID:19169250"]
+opens_questions: [Q-ampa-receptor-silent-synapse, Q-ampa-glua1-atd-partners, Q-homer1a-03]
+source_articles: [2026-05-26-nmda-receptor-ltp, 2026-06-04-ltd-long-term-depression, 2026-07-03-synaptic-scaling-homeostatic-plasticity, 2026-10-16-homer1a-arc-sleep-ampa-downscaling]
+key_sources: ["PMID:30359599", "PMID:34271016", "PMID:22510460", "PMID:24183021", "PMID:19169250", "PMID:38973508", "PMC:11895523", "PMID:28154077", "PMC:5382711"]
 ---
 
 # AMPA 受体 (AMPA Receptor / AMPAR)
@@ -70,6 +70,19 @@ LTD 时，AMPA 受体从突触后膜内吞，是突触权重降低的物理实�
 
 内化后受体进入早期内体：可被再循环回突触（LTP 时优先）或被溶酶体降解（LTD 维持时可能）。
 
+### 睡眠依赖的 GluA1 下调（Homer1a/Arc 通路）
+
+**2026-10-16 新增**：与经典 LTD（需要 NMDAR 激活触发）不同，NREM 睡眠期间存在一条独立的 **GluA1 特异性下调通路**，由 Homer1a 和 Arc 协同介导：
+
+1. **NA 屏障解除**：入睡时蓝斑静默，NA 水平骤降，Homer1a 进入 PSD 的障碍消失
+2. **腺苷 A1R 促进**：积累的腺苷通过 A1R 主动引导 Homer1a 向 PSD 靶向输送
+3. **Homer1a 进入 PSD**：瓦解 mGluR1/5-IP3R 支架 → GluA1/GluA2 开始从 PSD 松动
+4. **GluA1 Ser845 去磷酸化**：NA 下降→cAMP 下降→PKA 活性下降→Ser845 去磷酸化 → GluA1 横向扩散
+5. **Arc 执行内吞**：Arc 靶向去磷酸化 CaMKIIβ 的安静突触，调用 dynamin/endophilin
+6. **净效果**：皮层突触体 GluA1 在 5h 睡眠期间比剥夺状态降低约 31.7%（Squarcio 2024）；p-GluA1(845) 在睡眠剥夺后比正常睡眠高出约 78.9%
+
+**与经典突触缩放的区别**：经典突触稳态缩放（Turrigiano 1998）主要通过 GluA2 通路（GRIP/ABP 依赖），时间尺度数小时到数天，乘法性全细胞调节。睡眠依赖的削减通过 GluA1/Homer1a 通路，时间尺度数小时，且具有突触特异性（Arc 逆向标记绕过印迹突触）。两者是独立的互补机制。
+
 ## 连接
 
 - [[nmda-receptor]] — NMDA 受体 Ca²⁺ 内流激活 CaMKII，后者驱动 AMPA 受体插入；低 Ca²⁺ 时激活 PP2B，驱动内吞
@@ -81,6 +94,8 @@ LTD 时，AMPA 受体从突触后膜内吞，是突触权重降低的物理实�
 - [[synaptic-transmission]] — AMPA 受体是快速 EPSP 的主要产生者
 - [[tarp-auxiliary-subunit]] — TARP 是 AMPA 受体靶向突触的关键辅助亚基（待建页面）
 - [[synaptic-scaling]] — 突触稳态缩放专门使用 GluA2 通路（不同于 LTP 用的 GluA1），Gainey 2009 直接证明这是两套独立的受体亚型通路
+- [[homer1a]] — Homer1a 是睡眠期 GluA1 从 PSD 脱落的上游触发器；双门控由 NA（抑制）和腺苷 A1R（激活）决定
+- [[slow-wave-sleep]] — NREM 睡眠中，GluA1 皮层突触体水平在 5h 恢复睡眠后从剥夺水平降低约 31.7%（Squarcio 2024）
 
 ## 未解问题
 
@@ -89,6 +104,7 @@ LTD 时，AMPA 受体从突触后膜内吞，是突触权重降低的物理实�
 
 ## 修订历史
 
+- 2026-10-16 · 修订 rev4 · 基于《睡眠如何修剪突触：Homer1a 与 Arc 的分子协奏》(#176) · 新增"睡眠依赖的 GluA1 下调（Homer1a/Arc 通路）"段落；Squarcio 2024 定量数据（31.7%降低/78.9%升高）；GluA1 vs GluA2 通路的睡眠/缩放区别；related 新增 homer1a、slow-wave-sleep；连接新增 2 条；key_sources 新增 4 个
 - 2026-07-03 · 修订 · 基于《突触稳态》(#69) · 在连接段落新增 synaptic-scaling；明确 GluA2 通路是突触缩放（非 LTP）的特异性分子路径（Gainey 2009 PMID:19458219）；related 新增 synaptic-scaling、homeostatic-plasticity
 - 2026-05-26 · 创建 · 基于《NMDA 受体：突触的巧合检测器》一文 · 初始置信度：高
 - 2026-06-04 · 修订 · 基于《LTD 文章》· 新增"LTD 期间 AMPA 受体内吞"机制段落；GluA2 Ser880 磷酸化→PICK1 路径；Arc 在 mGluR-LTD 中的内吞执行角色；GluA2 双敲除后 LTD 正常的争议（备用内吞路径）；related 增加 ltd、calcineurin、arc-arg31；key_sources 新增 PMC4195488, PMC2694745

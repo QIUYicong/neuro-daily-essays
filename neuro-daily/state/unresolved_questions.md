@@ -1,6 +1,40 @@
 # 未解问题追踪
 
-*最后更新：2026-10-13*
+*最后更新：2026-10-16*
+
+---
+
+## 2026-10-16 新增（来自"睡眠如何修剪突触：Homer1a 与 Arc 的分子协奏" 文章 #176）
+
+### Q-homer1a-01（高优先级）：印迹突触保护窗口的时长
+
+- **关联 wiki**：[[homer1a]]、[[arc-arg31]]、[[ltp]]、[[memory-consolidation]]
+- **来源文章**：2026-10-16-homer1a-arc-sleep-ampa-downscaling
+- **问题**：Arc 的"逆向突触标记"机制依赖 LTP 后 CaMKIIβ 的磷酸化状态（pCaMKIIβ = Arc 排斥 = 印迹保护）。CaMKIIβ 在 LTP 之后保持磷酸化激活态多久？如果保护窗口只有数十分钟而非数小时，则大多数睡眠期间印迹突触已失去 pCaMKIIβ 标记，Arc 的保护效果将大打折扣。
+- **关键实验**：在 LTP 诱导后 0、30、60、120、240 分钟分别测定突触 pCaMKIIβ 水平，与 Arc 结合效率对比；同时追踪在不同 LTP-to-sleep 间隔下，睡眠期间印迹突触 GluA1 是否仍然保留。
+- **当前证据状态**：pCaMKIIβ 印记在 LTP 后维持数分钟至数十分钟：中等（体外）；体内整夜睡眠期间的维持：未知
+
+### Q-homer1a-02（中优先级）：CDK5 与 Homer1a 的关系
+
+- **关联 wiki**：[[homer1a]]、[[ampa-receptor]]
+- **来源文章**：2026-10-16-homer1a-arc-sleep-ampa-downscaling
+- **问题**：Liu 2024（下丘脑 GluA1 研究）提出 CDK5 可能与 Homer1a 共同介导睡眠期 AMPA 受体内吞。CDK5 是 Homer1a 的下游效应子、上游调控者，还是独立的并行通路？CDK5 在何种细胞背景下（神经元亚型、突触类型）发挥主导作用？
+- **关键实验**：条件性 CDK5 敲除（神经元特异）+ Homer1a 胞质竞争肽处理双因素设计，分别测定对睡眠期 GluA1 削减的影响；体内睡眠期 CDK5 活性监测（磷酸化底物谱）
+- **当前证据状态**：CDK5 参与 AMPA 受体内吞：中（细胞培养）；CDK5 在睡眠中的特异性功能：候选（Liu 2024），未直接验证
+
+### Q-homer1a-03（中优先级）：海马 CA1 的睡眠期 GluA1 动态
+
+- **关联 wiki**：[[homer1a]]、[[ampa-receptor]]、[[memory-consolidation]]、[[sharp-wave-ripples]]
+- **来源文章**：2026-10-16-homer1a-arc-sleep-ampa-downscaling
+- **问题**：Squarcio 2024 测量的是皮层，Liu 2024 测量的是下丘脑。海马 CA1——陈述性记忆编码最关键的区域——在睡眠期间的 GluA1 动态是什么？是否与皮层同步削减？SWR 事件期间 CA1 突触体 GluA1 是上调还是下调？Homer1a 在 CA1 是否以相同时程进入 PSD？
+- **当前证据状态**：皮层/下丘脑 GluA1 睡眠变化：高；CA1 直接测量：缺失
+
+### Q-homer1a-04（中优先级）：衰老中蓝斑萎缩与 Homer1a 削减失调
+
+- **关联 wiki**：[[homer1a]]、[[norepinephrine-locus-coeruleus]]、[[circadian-clock]]、[[scn-circadian-pacemaker]]、[[alzheimers-disease]]
+- **来源文章**：2026-10-16-homer1a-arc-sleep-ampa-downscaling
+- **问题**：蓝斑在衰老和 AD 早期萎缩（NE 节律减弱）。NA 是阻止 Homer1a 在清醒时进入 PSD 的关键屏障。如果 NA 水平在清醒时不足，Homer1a 是否会在错误的时间（清醒期）进入 PSD，造成非睡眠性的突触削减？反之，如果 NA 清醒期仍足够但 Homer1a 削减机制的效率因其他原因（A1R 表达降低？腺苷代谢加速？）而降低，睡眠期削减是否不充分，导致突触权重积累过剩？
+- **当前证据状态**：蓝斑在 AD 早期萎缩：高；NA 减弱对 Homer1a 门控的功能影响：推测性（尚无直接研究）
 
 ---
 

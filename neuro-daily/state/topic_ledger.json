@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-10-13",
-  "total_articles": 173,
+  "total_articles": 176,
   "entries": [
     {
       "date": "2026-10-05",
@@ -10847,6 +10847,71 @@
         "AMPA受体循环与突触下调分子机制（GluA1 Ser845/Ser831磷酸化-脱磷酸化开关；PICK1/NSF/AP2内吞）——SHY系列的分子层深化",
         "甘氨酸（Glycine）与睡眠——VMM-脊髓运动神经元抑制通路的关键递质；NT1猝倒机制的分子基础",
         "月度综合（如已达30篇）——第6周期综合（#151-#180），主题: 睡眠系列（#170-#175）如何改变我们对大脑状态控制架构的理解"
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "title": "睡眠如何修剪突触：Homer1a 与 Arc 的分子协奏",
+      "filename": "2026-10-16-homer1a-arc-sleep-ampa-downscaling.md",
+      "article_number": 176,
+      "wiki_pages_created": [
+        "wiki/concepts/homer1a.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/arc-arg31.md (rev2→rev3: 睡眠期逆向突触标记+Suzuki 2020 Arc KO数据)",
+        "wiki/concepts/ampa-receptor.md (rev3→rev4: 睡眠依赖GluA1下调Homer1a/Arc通路+Squarcio2024定量)"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "在NREM睡眠期间，突触是如何在分子层面被削减的？Homer1a（NA屏障解除+腺苷A1R推动→进入PSD→瓦解mGluR5-IP3R→GluA1松动）与Arc（逆向突触标记：靶向去磷酸化CaMKIIβ→内吞AMPAR）协同驱动全局突触权重下调，而印迹突触（pCaMKIIβ）因Arc无法识别而幸存；睡眠纺锤波在此过程中局部增加GluA1（记忆巩固方向），形成双轨机制",
+      "layer": [
+        "molecular",
+        "synaptic",
+        "cellular",
+        "cognition"
+      ],
+      "curriculum_track": "睡眠系列第7篇（#170 TRN→#171 SWR时序→#172 翻转开关→#173 腺苷/Process S→#174 SHY/ON-OFF→#175 NT1疾病→#176 Homer1a/Arc分子机制）；课程脊柱1（神经元如何工作）× 脊柱4（学习和记忆）",
+      "topic_tags": [
+        "Homer1a short-form IEG dominant negative mGluR1/5 PSD gating",
+        "noradrenaline NA barrier PSD Homer1a exclusion wakefulness",
+        "adenosine A1R promotes Homer1a PSD targeting sleep",
+        "Arc inverse synaptic tagging dephospho-CaMKIIβ selection",
+        "GluA1 Ser845 phosphorylation sleep deprivation 78.9% increase",
+        "AMPA receptor endocytosis NREM sleep 31.7% recovery renormalization",
+        "dynamin endophilin clathrin AMPAR internalization Arc",
+        "mGluR5-IP3R complex disruption Homer1a sleep mode",
+        "Squarcio Tononi Cirelli 2024 cortical synaptosome GluA1",
+        "Liu Born 2024 hypothalamus GluA1 spindle positive correlation",
+        "Suzuki Yanagisawa Greene 2020 Arc KO sleep rebound PNAS",
+        "Diering Huganir 2017 Science Homer1a synaptic scaling down",
+        "Diering 2022 Arc Homer1a sleep selective plasticity",
+        "Ba Wisden Franks 2026 brainstem GABA AMPA sleep pressure",
+        "SHY molecular mechanism GluA1 pathway vs GluA2 synaptic scaling",
+        "memory engram protection spindle sleep Arc Homer1a",
+        "signal-to-noise ratio memory specificity sleep downscaling"
+      ],
+      "main_sources": [
+        "PMID:38973508 (PMC11895523) - Squarcio, Tononi, Cirelli 2024 EJN (皮层GluA1/p-Ser845 SD vs Sleep定量，开放全文)",
+        "PMID:39163472 (PMC11364421) - Liu et al. 2024 PLoS Biol (下丘脑GluA1 SWS驱动，纺锤波正相关，开放全文)",
+        "PMID:28154077 (PMC5382711) - Diering et al. 2017 Science (Homer1a核心机制，NA/腺苷门控，开放全文)",
+        "PMID:36632309 (PMC9826981) - Diering 2022 Neurobiol Stress (Arc逆向标记机制，开放全文)",
+        "PMID:32350140 (PMC7229651) - Suzuki et al. 2020 PNAS (Arc KO睡眠反弹，Arc 2.5x，开放全文)",
+        "PMID:42161267 - Ba et al. 2026 Curr Biol (脑干GABA神经元GluA1上调驱动恢复睡眠，摘要)",
+        "PMID:24411729 (PMC3921176) - Tononi & Cirelli 2014 Neuron (SHY框架综述，开放全文)",
+        "PMID:16376591 - Tononi & Cirelli 2006 Sleep Med Rev (SHY原始假说，摘要)"
+      ],
+      "unresolved_questions": [
+        "Q-homer1a-01",
+        "Q-homer1a-02",
+        "Q-homer1a-03",
+        "Q-homer1a-04"
+      ],
+      "next_suggested_topics": [
+        "REM睡眠功能与情绪记忆巩固——睡眠系列第8篇（NT1患者猝倒情绪触发+REM期情绪记忆再激活）",
+        "甘氨酸（Glycine）与VMM-脊髓运动神经元抑制——REM肌张力弛缓的分子基础（NT1猝倒机制延伸）",
+        "TARP（转运体相关蛋白）辅助亚基与AMPA受体突触锚定——AMPA受体分子机制系列深化",
+        "月度综合（#151-#180第6周期）——已入#176，距#180还有4篇，应关注月度综合准备",
+        "衰老与突触稳态：蓝斑NA减少如何破坏Homer1a削减节律（老年记忆损伤新视角）"
       ]
     }
   ]
