@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-28",
-  "total_articles": 181,
+  "last_updated": "2026-06-30",
+  "total_articles": 182,
   "entries": [
     {
       "date": "2026-10-05",
@@ -11213,6 +11213,66 @@
         "normalization-model——规范化计算皮层通用运算（高优先悬空引用）",
         "global-workspace-theory（深化）——意识框架子图核心节点",
         "acetylcholine-neuromodulation——ACh在认知增强/注意力的完整机制"
+      ]
+    },
+    {
+      "date": "2026-06-30",
+      "title": "乙酰胆碱：大脑的「模式开关」——从基底前脑到记忆固化的神经调质系统级机制",
+      "filename": "2026-06-30-acetylcholine-neuromodulation-modes.md",
+      "article_number": 182,
+      "wiki_pages_created": [
+        "wiki/concepts/acetylcholine-neuromodulation.md (rev1)"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/acetylcholine-cortex.md (rev1→rev2: related +acetylcholine-neuromodulation +basal-forebrain +sharp-wave-ripples +attention; 连接 +[[acetylcholine-neuromodulation]] +[[sharp-wave-ripples]] +[[attention]]; 维度 +whole-brain-network)",
+        "wiki/concepts/sharp-wave-ripples.md (rev12→rev13: related +acetylcholine-neuromodulation; 连接 +[[acetylcholine-neuromodulation]] ACh上游开关明确标注)"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "乙酰胆碱不是简单的兴奋或抑制调质，而是通过「差异性突触靶向」——选择性抑制内部循环连接（CA3侧支、皮层反馈），同时保留感觉输入通道——实现全脑信息流向的主动路由控制。Hasselmo双模型：高ACh（清醒/任务）=编码/外部输入主导，θ振荡框架；低ACh（睡眠/休息）=回放/内部模式主导，SWR驱动固化。这是由单一分子通过不同靶点、不同受体亚型在皮层（去同步化/增益↑）和海马（CA3循环控制/θ支持）协调实现的全脑状态切换。",
+      "layer": [
+        "molecular",
+        "synaptic",
+        "cellular",
+        "brain-region",
+        "whole-brain-network",
+        "cognition",
+        "behavior"
+      ],
+      "topic_tags": [
+        "acetylcholine ACh neuromodulator basal forebrain",
+        "Hasselmo dual-mode model encoding consolidation state switch",
+        "basal forebrain Ch1 Ch2 Ch3 Ch4 Mesulam classification",
+        "M1 M2 muscarinic receptor cortical gain desynchronization",
+        "alpha4beta2 alpha7 nicotinic receptor nAChR working memory PFC",
+        "phasic tonic ACh two timescales attention detection",
+        "CA3 recurrent collateral M2 suppression SWR generation",
+        "theta oscillations medial septum encoding mode",
+        "VIP interneuron disinhibition precision weighting",
+        "predictive coding precision attention neuromodulator",
+        "Alzheimer disease basal nucleus Meynert cholinergic loss",
+        "Herrero 2008 V1 muscarinic attention modulation causal",
+        "Parikh 2007 mPFC phasic ACh transient detection electrochemistry",
+        "Zaborszky 2018 basal forebrain topographic specificity",
+        "Buzsaki 2015 SWR ACh low state hippocampal consolidation"
+      ],
+      "main_sources": [
+        "PMID:18633352 - Herrero JL et al. 2008 Nature (V1注意调制M1受体，猕猴，已验证)",
+        "PMID:17920021 - Parikh V et al. 2007 Nat Neuroscience (相位性ACh瞬变与刺激检测，已验证)",
+        "PMID:23818597 - Yang Y et al. 2013 Neuropsychopharmacology (α7 nAChR dlPFC工作记忆，已验证)",
+        "PMID:30381436 - Zaborszky L et al. 2018 J Neuroscience (基底前脑拓扑投射特异性，已验证)",
+        "PMID:26135716 - Buzsaki G 2015 Neuron (SWR综述含ACh控制，已验证)"
+      ],
+      "unresolved_questions": [
+        "Q-ach-01",
+        "Q-ach-02",
+        "Q-ach-03"
+      ],
+      "next_suggested_topics": [
+        "basal-forebrain——ACh系统的解剖基础；基底前脑Ch1-Ch4分区的功能特异性",
+        "normalization-model——规范化计算皮层通用运算（图谱高优先悬空引用）",
+        "global-workspace-theory（深化）——ACh与意识整合的接点",
+        "norepinephrine-locus-coeruleus（深化）——NE与ACh协同的神经调质生态系统完整版"
       ]
     }
   ]

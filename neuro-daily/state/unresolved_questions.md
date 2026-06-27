@@ -1,6 +1,34 @@
 # 未解问题追踪
 
-*最后更新：2026-06-28*
+*最后更新：2026-06-30*
+
+---
+
+## 2026-06-30 新增（来自"乙酰胆碱：大脑的模式开关" 文章 #182）
+
+### Q-ach-01（高优先级）：相位性 ACh 瞬变的体内因果验证
+
+- **关联 wiki**：[[acetylcholine-neuromodulation]]、[[acetylcholine-cortex]]、[[attention]]
+- **来源文章**：2026-06-30-acetylcholine-neuromodulation-modes
+- **问题**：Parikh et al. (2007) 的高时间分辨率电化学传感器数据显示，相位性 ACh 瞬变与成功刺激检测相关，漏报无此瞬变——但这是相关性证据。光遗传学选择性激活基底前脑 ChAT+ 神经元产生人工相位 ACh 释放的体内因果实验是否已完成？人工相位性 ACh 释放是否直接因果地产生行为刺激检测改善？
+- **当前证据状态**：相关性证据（Parikh 2007）：高；光遗传因果验证：未知（文献检索范围之外，Q-ach-ne-01 已追踪此问题）
+- **为什么重要**：因果验证将把相位性 ACh 从"注意的标志物"提升为"注意的触发器"，对 ACh 增强剂（如胆碱酯酶抑制剂）的作用机制理解有直接影响
+
+### Q-ach-02（中优先级）：清醒 SWR 是否绕过 ACh 抑制机制
+
+- **关联 wiki**：[[acetylcholine-neuromodulation]]、[[sharp-wave-ripples]]、[[ca2-hippocampus]]
+- **来源文章**：2026-06-30-acetylcholine-neuromodulation-modes
+- **问题**：高 ACh 状态（清醒）通过 M2 受体抑制 CA3 循环兴奋，按照 Hasselmo 双模型不应产生 SWR。但清醒 SWR 实际上存在（Yang et al. 2024 的记忆标记研究）。CA2 主导的 SWR 触发路径（Oliva et al. 2016）绕过 CA3，是否对 ACh 水平更不敏感？清醒 SWR 是否通过 CA2→CA1（不经 CA3）的路径发生，从而规避了 ACh 对 CA3 循环的抑制？
+- **当前证据状态**：ACh-SWR 相关体外证据（Buzsáki 2015 综述）：高；CA2 绕过 CA3 路径（Oliva 2016）：高；两者交叉的清醒 SWR 机制：未验证
+- **为什么重要**：如成立，将修正 ACh 双模型：不是"高 ACh 完全禁止 SWR"，而是"高 ACh 禁止 CA3 驱动的 SWR，但 CA2 驱动的清醒 SWR 可以绕过该机制"——意义在于记忆标记（清醒 SWR）和记忆固化（睡眠 SWR）使用不同的触发机制
+
+### Q-ach-03（中优先级）：M1 vs α7 受体在人类认知中的相对贡献
+
+- **关联 wiki**：[[acetylcholine-neuromodulation]]、[[working-memory]]、[[alzheimers-disease]]
+- **来源文章**：2026-06-30-acetylcholine-neuromodulation-modes
+- **问题**：在非人灵长类中，M1 受体在 V1 介导注意调制（Herrero 2008），α7 nAChR 在 dlPFC 增强工作记忆持续放电（Yang 2013）。但在人类中，M1 vs α7 的相对贡献是什么？胆碱酯酶抑制剂（AChEI，AD 治疗）的认知效果通过哪条受体通路实现？M1 阳性变构调制剂（PAM）与 α7 激动剂在 AD 临床试验中的对比数据如何解释两条通路的功能权重？
+- **当前证据状态**：猕猴分离证据：中-高；人类受体通路分离：极少；AChEI 作用通路：未明确分离
+- **为什么重要**：直接影响 AD 的下一代胆碱能治疗策略（M1-PAM vs α7 激动剂 vs 广谱 AChEI 的选择）
 
 ---
 

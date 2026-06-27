@@ -4,6 +4,37 @@
 
 ---
 
+## 2026-06-30（#182）：乙酰胆碱双模系统——大脑的全局状态开关
+
+**文章**：《乙酰胆碱：大脑的「模式开关」——从基底前脑到记忆固化的神经调质系统级机制》（#182）
+
+**类型**：神经调质系统深度报道；全脑状态切换机制；层级：molecular × synaptic × cellular × brain-region × whole-brain-network × cognition × behavior
+
+**新创建页面（1）**：
+- `wiki/concepts/acetylcholine-neuromodulation.md`（rev1）：乙酰胆碱神经调质系统综合页；Hasselmo 双模型（高ACh=清醒/编码；低ACh=睡眠/固化）；基底前脑解剖系统（Ch1-Ch4 Mesulam分类）；两种ACh时间尺度（紧张性/相位性）；受体分工（M1/M2/α4β2/α7）；VIP去抑制精度加权；关键证据5条（Herrero 2008, Parikh 2007, Yang 2013, Záborszky 2018, Buzsáki 2015）；未解问题 Q-ach-01/02/03；15个相关节点；5个 key_sources（全部已验证 PMID）
+
+**修订页面（2）**：
+- `wiki/concepts/acetylcholine-cortex.md`（rev1→rev2）：related 新增 acetylcholine-neuromodulation、basal-forebrain、sharp-wave-ripples、attention、norepinephrine-locus-coeruleus；连接段落新增 [[acetylcholine-neuromodulation]]（系统级框架页）、[[sharp-wave-ripples]]（低ACh→SWR机制）、[[attention]]（ACh-VIP去抑制）；维度新增 whole-brain-network；source_articles 新增 2026-06-30 文章；updated → 2026-06-30
+- `wiki/concepts/sharp-wave-ripples.md`（rev12→rev13）：related 新增 acetylcholine-neuromodulation；连接段落新增 [[acetylcholine-neuromodulation]] 明确标注 ACh 作为 SWR 分子上游开关；source_articles 新增 2026-06-30 文章；updated → 2026-06-30
+
+**图谱变更**：
+- 新增节点（2）：acetylcholine-neuromodulation（concepts/established/high）、文章节点 2026-06-30-acetylcholine-neuromodulation-modes（articles/published/high）
+- 新增边（24条）：acetylcholine-neuromodulation↔acetylcholine-cortex（related-to/part-of）、acetylcholine-neuromodulation→sharp-wave-ripples（mechanism-of）、acetylcholine-neuromodulation→theta-oscillations（mechanism-of）、acetylcholine-neuromodulation→memory-consolidation（mechanism-of）、acetylcholine-neuromodulation→precision-weighting（related-to）、acetylcholine-neuromodulation→vip-interneurons（mechanism-of）、acetylcholine-neuromodulation→working-memory（related-to）、acetylcholine-neuromodulation→alzheimers-disease（related-to）、acetylcholine-neuromodulation→norepinephrine-locus-coeruleus（related-to）、acetylcholine-neuromodulation→predictive-coding（related-to）、acetylcholine-neuromodulation→ltp（related-to）、acetylcholine-neuromodulation→gain-control（mechanism-of）、acetylcholine-neuromodulation→attention（related-to）；反向边5条；文章节点→5个讨论目标
+- 更新：_graph.json → 332 节点 / 2008 边（+2节点/+24边）
+
+**填补悬空引用**：`acetylcholine-neuromodulation`（新建，填补 acetylcholine-cortex.md、theta-oscillations.md 等页面中缺失的系统级 ACh 页面）
+
+**未解问题新增**：Q-ach-01（相位性ACh因果验证）、Q-ach-02（清醒SWR与ACh抑制绕过机制）、Q-ach-03（M1 vs α7在人类认知中的相对贡献）
+
+**来源**：
+- PMID:18633352（Herrero et al. 2008, Nature）— 已验证
+- PMID:17920021（Parikh et al. 2007, Nature Neuroscience）— 已验证
+- PMID:23818597（Yang et al. 2013, Neuropsychopharmacology）— 已验证
+- PMID:30381436（Záborszky et al. 2018, J Neuroscience）— 已验证
+- PMID:26135716（Buzsáki 2015, Neuron）— 已验证
+
+---
+
 ## 2026-06-28（#181）：LTP 六十年 + KIBRA-PKMζ 寡聚体——分子周转悖论的拓扑解答
 
 **文章**：《蛋白质会凋零，记忆却能永存：KIBRA-PKMζ 寡聚体如何解开突触记忆的分子永生之谜》（#181）

@@ -6,13 +6,13 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-12
-updated: 2026-06-12
-revision_count: 1
-dimensions: [molecular, cellular, synaptic, brain-region, cognition]
-related: [neuromodulator-systems, gain-control, working-memory, orientation-selectivity, v1-primary-visual-cortex, theta-oscillations, ltp]
+updated: 2026-06-30
+revision_count: 2
+dimensions: [molecular, cellular, synaptic, brain-region, whole-brain-network, cognition]
+related: [neuromodulator-systems, gain-control, working-memory, orientation-selectivity, v1-primary-visual-cortex, theta-oscillations, ltp, acetylcholine-neuromodulation, basal-forebrain, sharp-wave-ripples, attention, norepinephrine-locus-coeruleus]
 prerequisites: [synaptic-transmission, nmda-receptor, action-potential]
 opens_questions: [Q-ach-ne-01, Q-ach-ne-02, Q-ach-ne-04]
-source_articles: [2026-06-12-neuromodulators-ach-ne]
+source_articles: [2026-06-12-neuromodulators-ach-ne, 2026-06-30-acetylcholine-neuromodulation-modes]
 key_sources: ["PMID:18633352", "PMID:17920021", "PMID:20668433", "PMID:30381436", "PMID:23818597"]
 ---
 
@@ -69,13 +69,16 @@ key_sources: ["PMID:18633352", "PMID:17920021", "PMID:20668433", "PMID:30381436"
 
 ## 连接
 
+- [[acetylcholine-neuromodulation]] — **系统级框架页**：皮层+海马 ACh 的完整双模型；本页专注皮层机制细节（受体、增益、相位性/紧张性），系统框架见彼页
 - [[neuromodulator-systems]] — ACh 是四大皮层调质系统之一
 - [[norepinephrine-locus-coeruleus]] — 协同调节皮层信噪比的姐妹系统
 - [[gain-control]] — ACh 的核心功能之一：增益控制
 - [[working-memory]] — M1 激活支持持续放电；α7-nAChR 增强 PFC NMDA 信号
+- [[attention]] — ACh 是注意调制的分子介质；VIP 去抑制回路提升信噪比
 - [[orientation-selectivity]] — Herrero 2008 在 V1 方向选择性神经元中直接证明 ACh 的注意调制
 - [[v1-primary-visual-cortex]] — ACh 通过肌碱受体放大 V1 的注意效应
 - [[theta-oscillations]] — 内侧隔核 ACh 支持海马 θ 振荡（经由 Ch1/2 投射）
+- [[sharp-wave-ripples]] — 低 ACh 是 SWR 生成的分子上游：M2 受体抑制 CA3 循环兴奋的解除允许 SWR 自发爆发
 - [[ltp]] — ACh 通过 M1 促进皮层可塑性（M1→NMDA 协同→LTP 阈值降低）
 - [[memory-consolidation]] — 低 ACh 状态（睡眠）有利于 SWR 重放和系统固化
 
@@ -88,6 +91,7 @@ key_sources: ["PMID:18633352", "PMID:17920021", "PMID:20668433", "PMID:30381436"
 ## 修订历史
 
 - 2026-06-12 · 创建 · 基于《注意的化学语言》一文 · 初始置信度：高
+- 2026-06-30 · rev2 · 基于《乙酰胆碱：大脑的模式开关》文章 #182 · 扩展 related 列表（新增 acetylcholine-neuromodulation、basal-forebrain、sharp-wave-ripples、attention）；连接段落新增系统级框架页 [[acetylcholine-neuromodulation]] 和 [[sharp-wave-ripples]] 条目；维度新增 whole-brain-network
 
 ## 来源文章
 

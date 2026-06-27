@@ -6,13 +6,13 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-29
-updated: 2026-10-11
-revision_count: 12
+updated: 2026-06-30
+revision_count: 13
 dimensions: [whole-brain-network, brain-region, cellular, microcircuit, behavior, cognition]
-related: [hippocampal-circuit, place-cells, theta-oscillations, memory-consolidation, ltp, hebbian-learning, norepinephrine-locus-coeruleus, dopamine-reward-prediction-error, sleep-spindles, cortical-slow-oscillation, so-spindle-swr-coupling, ca2-hippocampus, prefrontal-cortex, pv-interneurons, slow-wave-sleep]
+related: [hippocampal-circuit, place-cells, theta-oscillations, memory-consolidation, ltp, hebbian-learning, norepinephrine-locus-coeruleus, dopamine-reward-prediction-error, sleep-spindles, cortical-slow-oscillation, so-spindle-swr-coupling, ca2-hippocampus, prefrontal-cortex, pv-interneurons, slow-wave-sleep, acetylcholine-neuromodulation]
 prerequisites: [hippocampal-circuit, synaptic-transmission, place-cells]
 opens_questions: [Q-swr-reverse-forward, Q-swr-cortical-consolidation, Q-swr-large-vs-small, Q-swr-tagging-mechanism, Q-swr-human-translation, Q-pfc-suppression-selectivity, Q-inhibitory-plasticity-bounds, Q-swr-duration-mechanism-01, Q-swr-nr-substate-01]
-source_articles: [2026-05-29-theta-oscillations-phase-coding, 2026-06-02-memory-consolidation-systems, 2026-06-17-sharp-wave-ripples-memory-replay, 2026-06-19-sleep-spindles-nrem, 2026-06-22-grid-cells-place-cells, 2026-07-07-sleep-memory-consolidation-so-spindle-swr, 2026-07-11-dopamine-lc-hippocampus-memory-tagging, 2026-07-16-hippocampal-replay-experience-replay, 2026-08-14-ca2-hippocampus-social-memory-temporal-context, 2026-09-22-swr-replay-selection-consolidation, 2026-09-30-swr-sleep-ltp-consolidation, 2026-10-11-swr-duration-sleep-microstructure-memory]
+source_articles: [2026-05-29-theta-oscillations-phase-coding, 2026-06-02-memory-consolidation-systems, 2026-06-17-sharp-wave-ripples-memory-replay, 2026-06-19-sleep-spindles-nrem, 2026-06-22-grid-cells-place-cells, 2026-07-07-sleep-memory-consolidation-so-spindle-swr, 2026-07-11-dopamine-lc-hippocampus-memory-tagging, 2026-07-16-hippocampal-replay-experience-replay, 2026-08-14-ca2-hippocampus-social-memory-temporal-context, 2026-09-22-swr-replay-selection-consolidation, 2026-09-30-swr-sleep-ltp-consolidation, 2026-10-11-swr-duration-sleep-microstructure-memory, 2026-06-30-acetylcholine-neuromodulation-modes]
 key_sources: ["PMID:26135716", "PMID:23354386", "PMID:34936810", "PMID:26238360", "PMID:23589831", "PMID:41205608", "PMID:38547293", "PMID:38867049", "PMID:39743590", "PMID:35040779", "PMID:19749750", "PMID:30356103", "PMID:28689981", "PMID:38443198", "PMID:31533977", "PMID:27182818", "PMID:38895442", "PMID:27593179", "PMID:38834064", "PMID:39227715", "PMID:26904941", "PMID:27840002", "PMID:37987008", "PMID:31197012", "PMID:22555434", "PMID:34001599"]
 ---
 
@@ -124,6 +124,7 @@ SWR在**两阶段记忆固化**中扮演关键角色（Buzsáki, 2015）：
 
 ## 连接
 
+- [[acetylcholine-neuromodulation]] — **ACh 是 SWR 的分子上游开关**：高 ACh（清醒）通过 M2 受体抑制 CA3 循环兴奋、阻止 SWR 自发爆发；低 ACh（睡眠）解除该抑制 → CA3 循环爆发 → SWR（全系统 ACh 双模型见彼页）
 - [[theta-oscillations]] — SWR（静息/睡眠）与θ（探索）互斥：海马的两种工作模式
 - [[hippocampal-circuit]] — CA3循环系统生成SWR；CA1通过Schaffer侧支产生涟漪
 - [[place-cell]] — SWR期间场所细胞序列被高速重播
@@ -180,6 +181,7 @@ Ecker等（2022，PMID:35040779，eLife开放）的CA3计算模型表明，学�
 
 ## 修订历史
 
+- 2026-06-30 · 修订 rev13 · 基于《乙酰胆碱：大脑的模式开关》文章 #182 · related 新增 acetylcholine-neuromodulation；连接段落新增 [[acetylcholine-neuromodulation]] 明确标注 ACh 作为 SWR 的分子上游开关；source_articles 新增 2026-06-30-acetylcholine-neuromodulation-modes
 - 2026-09-30 · 修订 rev11 · 基于《睡眠中的最后一步》(#160) · 新增"SWR诱导LTP的突触层面机制"小节（Sadowski 2016：树突去极化+NMDA依赖性，r²=0.89时序关联）；证据表新增3行（Sadowski 2016, van de Ven 2016, Yang & Buzsáki 2024）；key_sources新增PMID:26904941/27840002/37987008；source_articles新增2026-09-30
 - 2026-05-29 · 创建 · 基于《θ振荡与相位编码》文章 · 填补了 memory-consolidation 悬空引用 · 初始置信度：高
 - 2026-06-02 · 修订 · 基于《记忆的夜间旅行》文章 · [[memory-consolidation]] 页面已建立；补充 SO-spindle-SWR 三重奏嵌套机制与因果破坏证据 · 关键来源增加 PMID:26238360、PMID:23589831

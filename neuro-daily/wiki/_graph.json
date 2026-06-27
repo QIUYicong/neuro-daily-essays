@@ -3012,6 +3012,24 @@
       "status": "published",
       "confidence": "high",
       "page": "articles/2026-06-28-ltp-60-kibra-pkm-zeta-molecular-persistence.md"
+    },
+    {
+      "id": "acetylcholine-neuromodulation",
+      "title": "乙酰胆碱神经调质系统",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/acetylcholine-neuromodulation.md"
+    },
+    {
+      "id": "2026-06-30-acetylcholine-neuromodulation-modes",
+      "title": "乙酰胆碱：大脑的「模式开关」",
+      "domain": "articles",
+      "type": "published",
+      "status": "published",
+      "confidence": "high",
+      "page": "articles/2026-06-30-acetylcholine-neuromodulation-modes.md"
     }
   ],
   "edges": [
@@ -14142,6 +14160,144 @@
       "target": "synaptic-tagging-capture",
       "type": "discusses",
       "label": "STC框架中的PKMζ"
+    },
+    {
+      "from": "acetylcholine-neuromodulation",
+      "to": "acetylcholine-cortex",
+      "type": "related-to",
+      "note": "皮层ACh机制专项页；系统框架见acetylcholine-neuromodulation"
+    },
+    {
+      "from": "acetylcholine-neuromodulation",
+      "to": "sharp-wave-ripples",
+      "type": "mechanism-of",
+      "note": "ACh是SWR的分子上游开关：高ACh阻止SWR；低ACh解放CA3→SWR"
+    },
+    {
+      "from": "acetylcholine-neuromodulation",
+      "to": "theta-oscillations",
+      "type": "mechanism-of",
+      "note": "内侧隔核ACh支持海马θ振荡；θ是高ACh模式的振荡特征"
+    },
+    {
+      "from": "acetylcholine-neuromodulation",
+      "to": "memory-consolidation",
+      "type": "mechanism-of",
+      "note": "ACh状态切换为海马编码→睡眠固化二阶段模型提供神经调质基础"
+    },
+    {
+      "from": "acetylcholine-neuromodulation",
+      "to": "precision-weighting",
+      "type": "related-to",
+      "note": "ACh是精度加权的分子实现（M1-VIP去抑制回路）"
+    },
+    {
+      "from": "acetylcholine-neuromodulation",
+      "to": "vip-interneurons",
+      "type": "mechanism-of",
+      "note": "VIP中间神经元是ACh精度调制的关键效应细胞"
+    },
+    {
+      "from": "acetylcholine-neuromodulation",
+      "to": "working-memory",
+      "type": "related-to",
+      "note": "α7 nAChR增强PFC工作记忆持续放电；M1支持持续去极化"
+    },
+    {
+      "from": "acetylcholine-neuromodulation",
+      "to": "alzheimers-disease",
+      "type": "related-to",
+      "note": "AD早期最突出病理之一是Meynert基底核胆碱能神经元丢失"
+    },
+    {
+      "from": "acetylcholine-neuromodulation",
+      "to": "norepinephrine-locus-coeruleus",
+      "type": "related-to",
+      "note": "NE是与ACh协同的第二大皮层调质；协作切换脑状态"
+    },
+    {
+      "from": "acetylcholine-neuromodulation",
+      "to": "predictive-coding",
+      "type": "related-to",
+      "note": "ACh精度加权是预测编码框架中注意=精度调制的回路实现"
+    },
+    {
+      "from": "acetylcholine-neuromodulation",
+      "to": "ltp",
+      "type": "related-to",
+      "note": "M1受体激活促进皮层LTP；低ACh SWR期间LTP是记忆巩固机制"
+    },
+    {
+      "from": "acetylcholine-neuromodulation",
+      "to": "gain-control",
+      "type": "mechanism-of",
+      "note": "ACh通过M1实现皮层增益控制"
+    },
+    {
+      "from": "acetylcholine-neuromodulation",
+      "to": "attention",
+      "type": "related-to",
+      "note": "ACh是注意调制的分子介质；VIP去抑制→精度加权→注意"
+    },
+    {
+      "from": "acetylcholine-cortex",
+      "to": "acetylcholine-neuromodulation",
+      "type": "part-of",
+      "note": "皮层ACh细节页，系统框架见acetylcholine-neuromodulation"
+    },
+    {
+      "from": "sharp-wave-ripples",
+      "to": "acetylcholine-neuromodulation",
+      "type": "related-to",
+      "note": "ACh下游机制：SWR由低ACh状态解放CA3循环兴奋驱动"
+    },
+    {
+      "from": "theta-oscillations",
+      "to": "acetylcholine-neuromodulation",
+      "type": "related-to",
+      "note": "θ振荡是高ACh清醒/编码模式的振荡特征"
+    },
+    {
+      "from": "memory-consolidation",
+      "to": "acetylcholine-neuromodulation",
+      "type": "related-to",
+      "note": "低ACh睡眠状态是记忆固化的必要条件"
+    },
+    {
+      "from": "vip-interneurons",
+      "to": "acetylcholine-neuromodulation",
+      "type": "related-to",
+      "note": "VIP激活是ACh去抑制精度调制的下游效应"
+    },
+    {
+      "from": "2026-06-30-acetylcholine-neuromodulation-modes",
+      "to": "acetylcholine-neuromodulation",
+      "type": "discusses"
+    },
+    {
+      "from": "2026-06-30-acetylcholine-neuromodulation-modes",
+      "to": "acetylcholine-cortex",
+      "type": "discusses"
+    },
+    {
+      "from": "2026-06-30-acetylcholine-neuromodulation-modes",
+      "to": "sharp-wave-ripples",
+      "type": "discusses"
+    },
+    {
+      "from": "2026-06-30-acetylcholine-neuromodulation-modes",
+      "to": "theta-oscillations",
+      "type": "discusses"
+    },
+    {
+      "from": "2026-06-30-acetylcholine-neuromodulation-modes",
+      "to": "memory-consolidation",
+      "type": "discusses"
+    },
+    {
+      "from": "2026-06-30-acetylcholine-neuromodulation-modes",
+      "to": "predictive-coding",
+      "type": "discusses"
     }
   ],
   "dangling_references": [
