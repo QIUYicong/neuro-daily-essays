@@ -1,5 +1,12 @@
 [
   {
+    "slug": "kibra",
+    "status": "emerging",
+    "confidence": "medium-high",
+    "last_changed": "2026-06-28",
+    "reason": "新建 rev1 · #181 · KIBRA（WWC1）突触后支架蛋白；KIBRA-PKMζ异质六聚体（AlphaFold 3预测，体外验证）；感染性磷酸化机制；K-ZAP/ζ-stat行为验证高置信度；六聚体cryo-EM体内结构证据待补（置信度中-高而非高）"
+  },
+  {
     "slug": "attention",
     "status": "established",
     "confidence": "high",
@@ -38,8 +45,8 @@
     "slug": "pkm-zeta",
     "status": "established",
     "confidence": "high",
-    "last_changed": "2026-09-21",
-    "reason": "新建 rev1 · #151 · PKMζ无调节域持续激活机制；aPKC功能层（双KO消除L-LTP）；KIBRA寡聚体感染性磷酸化；ZIP机制重写"
+    "last_changed": "2026-06-28",
+    "reason": "修订 rev2 · #181 · K-ZAP完整序列（FVRNSLERRSVRMKRPS-966）和R957界面细节补充；ζ-stat靶点（P291/F297柄区）和远程记忆选择性（4周）补充；related新增kibra；key_sources新增PMID:42104413/42363710"
   },
   {
     "slug": "default-mode-network",
@@ -806,8 +813,8 @@
     "slug": "ltp",
     "status": "established",
     "confidence": "high",
-    "last_changed": "2026-09-12",
-    "reason": "修订 rev12：新增 LLPS 框架的相变维度（SynGAP 从 PSD 凝聚相逸散→Ras 去抑制→AMPAR 插入；CaMKII 凝聚体作为突触标签）；状态和置信度维持 established/high"
+    "last_changed": "2026-06-28",
+    "reason": "修订 rev15 · #181 · key_sources新增PMID:42363710（Paulsen 2026 Physiological Reviews LTP60年综述）和PMID:42104413（Rudy 2026寡聚体逻辑评述）；related/连接新增kibra；Q-ltp-lifetime-mechanism补充新证据"
   },
   {
     "slug": "tdp-43-pathology",

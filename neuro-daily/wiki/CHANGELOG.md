@@ -4,6 +4,36 @@
 
 ---
 
+## 2026-06-28（#181）：LTP 六十年 + KIBRA-PKMζ 寡聚体——分子周转悖论的拓扑解答
+
+**文章**：《蛋白质会凋零，记忆却能永存：KIBRA-PKMζ 寡聚体如何解开突触记忆的分子永生之谜》（#181）
+
+**类型**：分子机制深度报道；LTP 发现 60 周年锚点（Paulsen & Rodriguez-Moreno 2026, *Physiological Reviews*）；层级：molecular × synaptic × cellular × cognition
+
+**新创建页面（1）**：
+- `wiki/concepts/kibra.md`（rev1）：KIBRA（WWC1）综合概念页；突触后支架蛋白；LTP后约2–3h在PSD富集；AlphaFold 3预测异质六聚体（R957三氢键二聚体界面；P291/F297六聚体柄区界面）；K-ZAP（阻断二聚体→破坏1天/1月记忆）；ζ-stat（阻断六聚体→选择性破坏4周远程记忆）；感染性磷酸化的拓扑记忆持久性机制；未解问题 Q-kibra-invivo-hexamer / Q-kibra-region-specificity / Q-zstat-ptsd-potential；3个关键来源
+
+**修订页面（2）**：
+- `wiki/concepts/ltp.md`（rev14→rev15）：key_sources 新增 PMID:42363710（Paulsen 2026）和 PMID:42104413（Rudy 2026）；related 新增 kibra；连接段落新增 [[kibra]]；source_articles 新增 #181；updated → 2026-06-28
+- `wiki/concepts/pkm-zeta.md`（rev1→rev2）：K-ZAP 完整序列（FVRNSLERRSVRMKRPS-966）和二聚体界面残基（R957）补充；ζ-stat 靶点细节（P291/F297柄区）和远程记忆特异性（4周）补充；related 新增 kibra；连接段落新增 [[kibra]]；key_sources 新增 PMID:42104413 和 PMID:42363710；source_articles 新增 #181；updated → 2026-06-28
+
+**图谱变更**：
+- 新增节点（2）：kibra（concepts/emerging/medium-high）、文章节点 2026-06-28-ltp-60-kibra-pkm-zeta-molecular-persistence（articles/published/high）
+- 新增边（13条）：kibra↔pkm-zeta（part-of）、kibra→ltp（mechanism-of）、kibra→synaptic-tagging-capture（related-to）、kibra→ampa-receptor（related-to）、kibra→memory-consolidation（mechanism-of）、kibra→postsynaptic-density（part-of）；ltp→kibra（related-to）、pkm-zeta→kibra（part-of）；文章节点→ltp/pkm-zeta/kibra/memory-consolidation/synaptic-tagging-capture（discusses）
+- 更新：_graph.json → 330 节点 / 1984 边（+2节点/+13边）
+
+**填补悬空引用**：kibra（新建，填补 ltp.md 和 pkm-zeta.md 的 [[kibra]] 引用）
+
+**未解问题新增**：Q-kibra-invivo-hexamer（六聚体结构体内验证）、Q-kibra-region-specificity（脑区特异性）、Q-zstat-ptsd-potential（PTSD 治疗潜力）
+
+**来源**：
+- PMID:42363710（Paulsen & Rodriguez-Moreno, *Physiological Reviews*, 2026-06-27）— 新增
+- PMID:42104413（Rudy JW, *Molecular Brain*, 2026-05-08）— 新增
+- PMID:41814337（Hsieh & Sacktor, *Molecular Brain*, 2026-03-12）— 已有，引用细化
+- PMID:41889799（Tsokas et al., *bioRxiv*, 2026-03-23）— 已有，引用细化
+
+---
+
 ## 2026-06-27（#179）：注意力的暗面——盲视与注意-意识解离
 
 **文章**：《注意力的暗面：盲视如何证明大脑在意识之外感知世界》（#179）

@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-27",
-  "total_articles": 180,
+  "last_updated": "2026-06-28",
+  "total_articles": 181,
   "entries": [
     {
       "date": "2026-10-05",
@@ -11159,6 +11159,60 @@
         "acetylcholine-neuromodulation——ACh在认知增强/注意力/记忆编码中的完整机制，脊柱5深化",
         "serotonin-sleep-depression——5-HT与睡眠-情绪交叉，SSRI延迟与REM抑制，疾病作为窗口",
         "grid-cells-time-cells (深化)——时间表征系统，与海马情景记忆时序整合直接连接"
+      ]
+    },
+    {
+      "date": "2026-06-28",
+      "title": "蛋白质会凋零，记忆却能永存：KIBRA-PKMζ 寡聚体如何解开突触记忆的分子永生之谜",
+      "filename": "2026-06-28-ltp-60-kibra-pkm-zeta-molecular-persistence.md",
+      "article_number": 181,
+      "wiki_pages_created": [
+        "wiki/concepts/kibra.md (rev1)"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/ltp.md (rev14→rev15: key_sources +PMID:42363710 +PMID:42104413; related +kibra; 连接 +[[kibra]])",
+        "wiki/concepts/pkm-zeta.md (rev1→rev2: K-ZAP/ζ-stat细节补充; related +kibra; key_sources +PMID:42104413 +PMID:42363710)"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "如果构成突触的蛋白质每隔数天就被降解更换（Crick 1984悖论），LTP诱导的突触增强如何在数十年中持续存在？答案：KIBRA（WWC1）-PKMζ异质六聚体通过感染性磷酸化（infectious phosphorylation）将激活状态以拓扑模板形式在蛋白周转中代际传递；K-ZAP（阻断二聚体界面R957）破坏1天/1月记忆；ζ-stat（阻断六聚体柄区P291/F297）选择性破坏4周远程记忆；双KO（PKMζ+PKCι/λ）完全消除L-LTP（Tsokas 2026）。记忆持久性的本质是激活状态的拓扑不变性，而非分子实体的持续存在。",
+      "layer": [
+        "molecular",
+        "synaptic",
+        "cellular",
+        "cognition"
+      ],
+      "topic_tags": [
+        "LTP 60th anniversary Paulsen Rodriguez-Moreno 2026 Physiological Reviews",
+        "PKMζ PKCι/λ aPKC functional layer L-LTP persistence",
+        "KIBRA WWC1 synaptic scaffold post-synaptic density PSD",
+        "KIBRA-PKMζ hetero-hexamer oligomer AlphaFold3 structure",
+        "K-ZAP FVRNSLERRSVRMKRPS-966 heterodimer R957 hydrogen bonds",
+        "ζ-stat hexamer handle region P291 F297 remote memory",
+        "infectious phosphorylation template-directed activation transfer",
+        "Crick 1984 molecular turnover paradox protein lifespans",
+        "double knockout PKMζ PKCι/λ L-LTP abolished Tsokas 2026",
+        "ZIP macropinocytosis cationic peptide AMPAR non-specific Stokes 2025",
+        "synaptic tagging capture STC PKMζ first L-LTP PRP",
+        "memory persistence topological invariance molecular replacement",
+        "PTSD K-ZAP ζ-stat selective memory modification therapeutic"
+      ],
+      "main_sources": [
+        "PMID:42363710 - Paulsen O, Rodriguez-Moreno A 2026 Physiological Reviews (LTP 60年综述，摘要)",
+        "PMID:42104413 (PMC13156888) - Rudy JW 2026 Molecular Brain (寡聚体逻辑评述，开放全文)",
+        "PMID:41814337 (PMC12997682) - Hsieh C, Sacktor TC 2026 Molecular Brain (KIBRA-PKMζ原始研究，开放全文)",
+        "PMID:41889799 - Tsokas P et al. 2026 bioRxiv (双KO预印本，摘要)"
+      ],
+      "unresolved_questions": [
+        "Q-kibra-invivo-hexamer",
+        "Q-kibra-region-specificity",
+        "Q-zstat-ptsd-potential"
+      ],
+      "next_suggested_topics": [
+        "sharp-wave-ripple——图谱最高优先级悬空引用；与本篇记忆巩固直接连接",
+        "normalization-model——规范化计算皮层通用运算（高优先悬空引用）",
+        "global-workspace-theory（深化）——意识框架子图核心节点",
+        "acetylcholine-neuromodulation——ACh在认知增强/注意力的完整机制"
       ]
     }
   ]

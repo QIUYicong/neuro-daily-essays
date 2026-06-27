@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-26
-updated: 2026-09-23
-revision_count: 14
+updated: 2026-06-28
+revision_count: 15
 dimensions: [synaptic, cellular, cognition, brain-region, disease, molecular]
-related: [nmda-receptor, ampa-receptor, camkii, hebbian-learning, synaptic-transmission, ltd, btsp, place-cell, hippocampal-circuit, engram-cells, calcineurin, dopamine-reward-prediction-error, synaptic-tagging-capture, three-factor-learning-rule, alzheimers-disease, amyloid-beta-oligomers, fear-conditioning, amygdala, pattern-completion, complementary-learning-systems, bdnf, arc-arg31, astrocyte, tripartite-synapse, d-serine, astrocyte-calcium-signaling, synaptic-scaling, homeostatic-plasticity, liquid-liquid-phase-separation, postsynaptic-density, pkm-zeta, dendritic-spine, cofilin-actin-spine]
+related: [nmda-receptor, ampa-receptor, camkii, hebbian-learning, synaptic-transmission, ltd, btsp, place-cell, hippocampal-circuit, engram-cells, calcineurin, dopamine-reward-prediction-error, synaptic-tagging-capture, three-factor-learning-rule, alzheimers-disease, amyloid-beta-oligomers, fear-conditioning, amygdala, pattern-completion, complementary-learning-systems, bdnf, arc-arg31, astrocyte, tripartite-synapse, d-serine, astrocyte-calcium-signaling, synaptic-scaling, homeostatic-plasticity, liquid-liquid-phase-separation, postsynaptic-density, pkm-zeta, dendritic-spine, cofilin-actin-spine, kibra]
 prerequisites: [nmda-receptor, synaptic-transmission, action-potential]
 opens_questions: [Q-ltp-lifetime-mechanism, Q-ltp-behavior-correspondence, Q-ltp-presynaptic-component, Q-spine-btsp-01, Q-spine-early-late-02]
-source_articles: [2026-05-26-nmda-receptor-ltp, 2026-05-28-place-cells-btsp, 2026-05-31-engram-cells-optogenetic-proof, 2026-06-04-ltd-long-term-depression, 2026-06-07-dopamine-reward-prediction-error, 2026-06-08-alzheimers-amyloid-synaptic-mechanism, 2026-05-30-amygdala-fear-memory, 2026-06-24-hippocampal-ca3-pattern-completion, 2026-06-28-bdnf-trk-b-plasticity-memory, 2026-07-02-astrocyte-tripartite-synapse, 2026-09-12-liquid-liquid-phase-separation-postsynaptic-density, 2026-09-21-pkm-zeta-late-ltp-persistence, 2026-09-23-dendritic-spine-structural-plasticity]
-key_sources: ["PMID:22510460", "PMID:4727084", "PMID:6306230", "PMID:34908526", "PMID:28883072", "PMID:26023136", "PMID:26982728", "PMID:7708662", "PMID:9020359", "PMID:11932745", "PMID:17360908", "PMID:21543591", "PMID:24896183", "PMID:11584069", "PMID:16099088", "PMID:17942328", "PMID:20075918", "PMID:27565345", "PMID:29976799", "PMID:16463388", "PMID:15958741", "PMID:27187150", "PMID:41814337", "PMID:41889799", "PMID:39814881"]
+source_articles: [2026-05-26-nmda-receptor-ltp, 2026-05-28-place-cells-btsp, 2026-05-31-engram-cells-optogenetic-proof, 2026-06-04-ltd-long-term-depression, 2026-06-07-dopamine-reward-prediction-error, 2026-06-08-alzheimers-amyloid-synaptic-mechanism, 2026-05-30-amygdala-fear-memory, 2026-06-24-hippocampal-ca3-pattern-completion, 2026-06-28-bdnf-trk-b-plasticity-memory, 2026-07-02-astrocyte-tripartite-synapse, 2026-09-12-liquid-liquid-phase-separation-postsynaptic-density, 2026-09-21-pkm-zeta-late-ltp-persistence, 2026-09-23-dendritic-spine-structural-plasticity, 2026-06-28-ltp-60-kibra-pkm-zeta-molecular-persistence]
+key_sources: ["PMID:22510460", "PMID:4727084", "PMID:6306230", "PMID:34908526", "PMID:28883072", "PMID:26023136", "PMID:26982728", "PMID:7708662", "PMID:9020359", "PMID:11932745", "PMID:17360908", "PMID:21543591", "PMID:24896183", "PMID:11584069", "PMID:16099088", "PMID:17942328", "PMID:20075918", "PMID:27565345", "PMID:29976799", "PMID:16463388", "PMID:15958741", "PMID:27187150", "PMID:41814337", "PMID:41889799", "PMID:39814881", "PMID:42363710", "PMID:42104413"]
 ---
 
 # 长时程增强 (LTP, Long-Term Potentiation)
@@ -176,6 +176,7 @@ L-LTP 除依赖 PKA/CREB/PRPs 通路外，还需要 BDNF/TrkB 信号的介入（
 - [[liquid-liquid-phase-separation]] — LLPS 是 PSD 组织的物理原则；SynGAP 的相变逸散是 LTP 表达的集体物理事件
 - [[postsynaptic-density]] — PSD 凝聚体是 LTP 分子机制的物理平台；其相变状态直接决定 AMPAR 的插入效率
 - [[pkm-zeta]] — PKMζ（+PKCι/λ）是L-LTP持久性的aPKC功能层；KIBRA-PKMζ寡聚体机制直接回答Q-ltp-lifetime-mechanism；ZIP的记忆破坏非PKMζ特异性
+- [[kibra]] — KIBRA（WWC1）是突触后支架蛋白，充当LTP激活状态的长期"标签"；与PKMζ形成六聚体寡聚体，通过感染性磷酸化在蛋白周转中传递激活状态（Hsieh & Sacktor 2026）
 
 ## 未解问题
 
@@ -185,6 +186,7 @@ L-LTP 除依赖 PKA/CREB/PRPs 通路外，还需要 BDNF/TrkB 信号的介入（
 
 ## 修订历史
 
+- 2026-06-28 · 修订（rev15）· 基于《蛋白质会凋零，记忆却能永存》(#181) · 新增 Paulsen & Rodriguez-Moreno 2026（PMID:42363710）《生理学评论》60年LTP综述为 key_sources；新增 Rudy 2026（PMID:42104413）寡聚体逻辑评述；Q-ltp-lifetime-mechanism 补充 Paulsen 综述引用；source_articles 新增 #181；key_sources 新增两个（PMID:42363710、PMID:42104413）；related 新增 kibra
 - 2026-09-23 · 修订（rev14）· 基于《记忆的雕塑家》(#153) · 新增树突棘结构可塑性作为 LTP 的形态学对应物：Ca²⁺→CaMKII→Rac1/RhoA→LIMK→cofilin 失活→F-actin 净聚合→棘头膨大；early/late 两阶段结构基础；Rab10/Rab4 时序耦合 AMPAR 流量与棘体积；BTSP 结构对应物为知识空白（新未解问题 Q-spine-btsp-01）；related 新增 dendritic-spine、cofilin-actin-spine；opens_questions 新增 Q-spine-btsp-01、Q-spine-early-late-02；key_sources 新增 PMID:15190253、PMID:41249054、PMID:40986440
 - 2026-09-21 · 修订（rev13）· 基于《记忆的分子守夜人》(#151) · 新增"PKMζ与aPKC功能层"段落（PKMζ无调节域持续激活；双KO→L-LTP消失；KIBRA寡聚体感染性磷酸化；ZIP重新解读）；Q-ltp-lifetime-mechanism标记为部分解答；related新增pkm-zeta；key_sources新增6个；source_articles新增#151；连接新增pkm-zeta
 - 2026-09-12 · 修订 · 基于《突触的自组装奥秘》(#142) · 新增"LTP 的相变维度"段落（PSD 是 LLPS 凝聚体；SynGAP 集体逸散是 LTP 相变机制；CaMKII 凝聚体作为突触标签）；related 新增 liquid-liquid-phase-separation、postsynaptic-density；key_sources 新增 PMID:27565345、PMID:29976799；dimensions 新增 molecular；source_articles 新增 #142；连接新增两条
@@ -207,4 +209,5 @@ L-LTP 除依赖 PKA/CREB/PRPs 通路外，还需要 BDNF/TrkB 信号的介入（
 - [[2026-05-31-engram-cells-optogenetic-proof]]
 - [[2026-06-04-ltd-long-term-depression]]
 - [[2026-06-07-dopamine-reward-prediction-error]]
+- [[2026-06-28-ltp-60-kibra-pkm-zeta-molecular-persistence]]
 - [[2026-05-30-amygdala-fear-memory]]

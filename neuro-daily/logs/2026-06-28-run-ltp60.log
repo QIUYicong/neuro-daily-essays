@@ -1,0 +1,88 @@
+# 运行日志 · 2026-06-28（LTP 60年 / KIBRA-PKMζ 寡聚体篇）
+
+**运行时间**：UTC+8 2026-06-28（当前序列第 181 篇）
+**上一篇**：#180（2026-06-27，第六周期月度大图景综合）
+**系统状态**：从压缩上下文恢复继续运行
+
+---
+
+## 主题选择理由
+
+1. **触发事件**：Paulsen & Rodriguez-Moreno 2026 《生理学评论》LTP 60 年综述（PMID:42363710）于 2026-06-27 在线优先出版，是重要的即时触发器
+2. **未解问题响应**：Q-ltp-lifetime-mechanism（高优先级，2026-05-26 开放）——Crick 1984 分子周转悖论；KIBRA-PKMζ 寡聚体机制提供了当前最佳答案
+3. **层级平衡**：近期文章集中于 whole-brain/consciousness 层（#177 REM、#178 注意力、#179 盲视、#180 综合）；今日返回 molecular/synaptic 层形成互补
+4. **wiki 图谱填补**：kibra 是 ltp.md 和 pkm-zeta.md 的悬空引用（连接段落已写 [[kibra]] 但无专页）
+5. **新来源**：Rudy 2026（PMID:42104413，开放全文）提供了 Paulsen 综述和 Hsieh & Sacktor 之外的独立视角
+
+## 来源核实记录
+
+- PMID:42363710（Paulsen & Rodriguez-Moreno 2026, Physiological Reviews）✅ PubMed 验证，付费墙，仅摘要
+- PMID:42104413（Rudy JW 2026, Molecular Brain）✅ PMC 全文获取验证（PMC13156888，重定向后获取）
+- PMID:41814337（Hsieh C, Sacktor TC 2026, Molecular Brain）✅ PMC 全文获取验证（PMC12997682）（已有于 wiki/concepts/pkm-zeta.md）
+- PMID:41889799（Tsokas P et al. 2026, bioRxiv）✅ PubMed/bioRxiv 验证，摘要可读（已有于 wiki/concepts/pkm-zeta.md）
+
+## 排除的来源（验证失败）
+
+- 无（所有使用来源均经验证）
+
+## 关键机制数据（来自开放全文）
+
+**来源 Hsieh & Sacktor 2026（PMC12997682）**：
+- K-ZAP 序列：FVRNSLERRSVRMKRPS-966
+- 关键结合残基：R957（3个氢键，二聚体界面）
+- 六聚体柄区残基：P291、F297
+- KIBRA PSD 富集时间窗：LTP 后约 2–3 小时
+- K-ZAP 效果：破坏 1 天和 1 个月空间记忆（Morris 水迷宫）
+- ζ-stat 效果：破坏 4 周空间记忆，不影响新近（<24h）记忆
+- K-ZAP 在 PKMζ KO 中无效（机制特异性验证）
+
+**来源 Rudy JW 2026（PMC13156888）**：
+- "感染性磷酸化"（infectious phosphorylation）框架
+- 六聚体允许分子顺序替换而保存激活状态
+- "寡聚体逻辑"（oligomer logic）：Crick 悖论的拓扑解答
+
+## 产出文件
+
+| 文件 | 状态 |
+|------|------|
+| articles/2026-06-28-ltp-60-kibra-pkm-zeta-molecular-persistence.md | ✅ 已创建（~3800字） |
+| notes/2026-06-28-reading-notes-ltp60.md | ✅ 已创建 |
+| sources/2026-06-28-sources.json | ✅ 已创建（4来源） |
+| wiki/concepts/kibra.md | ✅ 已创建（rev1） |
+| wiki/concepts/ltp.md | ✅ 已修订（rev14→rev15） |
+| wiki/concepts/pkm-zeta.md | ✅ 已修订（rev1→rev2） |
+| wiki/_graph.json | ✅ 330节点/1984边（+2节点/+13边） |
+| wiki/index.md | ✅ 已更新（kibra 新增；ltp/pkm-zeta 条目更新） |
+| wiki/CHANGELOG.md | ✅ 已更新 |
+| state/topic_ledger.json | ✅ 已更新（total_articles=181） |
+| state/unresolved_questions.md | ✅ 已更新（Q-kibra-invivo-hexamer/Q-kibra-region-specificity/Q-zstat-ptsd-potential 新增；Q-ltp-lifetime-mechanism 标记部分解答） |
+| state/source_registry.json | ✅ 已更新（+修复旧有 JSON 格式错误；+2新来源 PMID:42363710/42104413） |
+| state/monthly_synthesis.md | ✅ 已更新（#181 日摘要新增） |
+| state/maturity_index.json | ✅ 已更新（kibra 新增；ltp/pkm-zeta 更新） |
+
+## 矛盾处理
+
+- **无新矛盾**：KIBRA-PKMζ 寡聚体机制与现有 ltp.md 和 pkm-zeta.md 内容一致；Paulsen 2026 和 Rudy 2026 提供新维度而非矛盾
+- **已知矛盾维持 open**：C-2026-09-15-01（LGN 增益幅度矛盾）保持不变
+
+## 悬空引用状态
+
+- ✅ `kibra`：本次已填补（新建 wiki/concepts/kibra.md）
+- ⏳ `sharp-wave-ripple`：保持待填（最高优先级悬空引用之一）
+- ⏳ `parallel-fiber`：保持待填
+- ⏳ `multiple-sclerosis`：保持待填
+
+## 未解问题状态变化
+
+| 问题 | 变化 |
+|------|------|
+| Q-ltp-lifetime-mechanism | 从"高优先级开放"→"部分解答，2026-09-21+2026-06-28"（Paulsen综述确认） |
+| Q-kibra-invivo-hexamer | **新增**（高优先级） |
+| Q-kibra-region-specificity | **新增**（中优先级） |
+| Q-zstat-ptsd-potential | **新增**（中优先级） |
+
+## Git 提交状态
+
+- 目标分支：main
+- 推送目标：origin
+- 状态：待提交/推送

@@ -74,7 +74,7 @@
 - 🟢 [神经炎症](concepts/neuroinflammation.md) — CNS对损伤/病原体/错误折叠蛋白的免疫应答；小胶质细胞+星形胶质细胞协同介导；稳态P2RY12+→DAM两步激活（Step 1 TREM2非依赖/Step 2 TREM2依赖）；TREM2-APOE轴→MGnD神经退行性表型；保护vs破坏净效应依赖于疾病阶段；AD/PD/ALS共同病理特征 **[NEW 2026-09-17]**
 - 🔵 [疾病相关微胶质细胞（DAM）](concepts/disease-associated-microglia.md) — 神经退行性疾病斑块周围的特化小胶质细胞亚态；稳态→Step 1（P2RY12↓/CX3CR1↓）→Step 2 TREM2依赖（LPL↑/CTSD↑/强吞噬能力）；5XFAD小鼠Aβ斑块周围微胶质屏障；TREM2-KO→屏障缺失→斑块扩散更广；人类AD脑snRNA-seq确认（Mathys 2019）；Q-dam-01至Q-dam-04未解问题 **[NEW 2026-09-17]**
 - 🔵 [PINK1/Parkin 线粒体自噬](concepts/pink1-parkin-mitophagy.md) — ΔΨm消失→PINK1 OMM积累→二聚化+自磷酸化→pUb（Ser65）生成→Parkin招募+激活（正反馈放大）→NDP52/OPTN/TBK1→LC3/自噬体→溶酶体；PD早发性遗传最主要原因（PINK1/PARK6、Parkin/PARK2）；Pink1 KO猕猴vs小鼠物种差异 **[NEW 2026-09-09]**
-- 🟢 [长时程增强（LTP）](concepts/ltp.md) — 突触可塑性与学习记忆的分子基础；Aβ寡聚体通过五条通路单向阻断LTP；CA3循环突触NMDAR-LTP是模式补全的分子基础；PKMζ+PKCι/λ双KO消除L-LTP；KIBRA寡聚体机制解答Q-ltp-lifetime-mechanism（修订13次）
+- 🟢 [长时程增强（LTP）](concepts/ltp.md) — 突触可塑性与学习记忆的分子基础；Aβ寡聚体通过五条通路单向阻断LTP；CA3循环突触NMDAR-LTP是模式补全的分子基础；PKMζ+PKCι/λ双KO消除L-LTP；KIBRA-PKMζ寡聚体感染性磷酸化解答Crick分子周转悖论（Paulsen 2026 60年综述）（修订15次）**[修订 rev15 2026-06-28]**
 - 🟢 [模式补全](concepts/pattern-completion.md) — CA3吸引子动力学从部分线索恢复完整记忆；Nakazawa 2002 CA3-NR1 KO因果证据 **[NEW 2026-06-24]**
 - 🟢 [模式分离](concepts/pattern-separation.md) — DG扩张重编码+稀疏激活把相似输入变成不相似表征；苔藓细胞悖论：兴奋性苔藓细胞净效果为抑制颗粒细胞（Jinde 2012）；维度框架（Cayco-Gajic 2019）；Sahay 2011神经发生因果证据 **[修订 rev2→rev3 2026-08-28]**
 - 🔵 [吸引子网络](concepts/attractor-network.md) — Hopfield网络数学基础；CA3生物实现；现代Hopfield网络=Transformer注意力的数学等价 **[NEW 2026-06-24]**
@@ -150,7 +150,8 @@
 - 🔵 [三因素学习规则](concepts/three-factor-learning-rule.md) — Δw = (pre × post) × M；多巴胺/ACh/NE 作为第三因素；纹状体直接实验验证；BTSP 作为海马实现；**rev4新增**：资格痕迹（毫秒→分钟）+ STC（分钟→小时）+ 行为标记（<6h）三级时间整合体系**[修订 rev4 2026-09-29]**
 - 🔵 [突触标记与捕获（STC）](concepts/synaptic-tagging-capture.md) — Hebbian 标签（~1-2h）+ DA-PRP 捕获 → E-LTP 升级为 L-LTP；解决三因素规则的时间延迟难题；PKMζ是第一个明确L-LTP特异性PRP；行为标记（Wang 2010 P<0.001量化证明）；疾病中STC失效（AD APP/PS1小鼠）**[修订 rev4 2026-09-29]**
 - 🟡 [资格痕迹（Eligibility Trace）](concepts/eligibility-trace.md) — NMDA-R激活后AC1/AC8进入"沉默敏感态"（~10min），等待DA+爆发共激活→cAMP骤升→LTP；将STDP时序窗口（±20ms）延伸至分钟级；与STC共构时序信用分配多级体系（毫秒→分钟→小时）；Fuchsberger 2022 CA1直接证明（LTD→LTP翻转，AC1/AC8敲除消除效应）**[NEW 2026-09-29]**
-- 🟢 [PKMζ（蛋白激酶M-ζ）](concepts/pkm-zeta.md) — 无调节域aPKC（合成即激活）；通过阻止GluA2-AMPAR内吞维持突触强度；STC第一个明确L-LTP PRP；2013年KO危机→PKCι/λ代偿→双KO消除L-LTP；KIBRA-PKMζ寡聚体感染性磷酸化解答克里克1984年蛋白周转悖论；ZIP阳离子机制重写（Stokes 2025）**[NEW 2026-09-21]**
+- 🟢 [PKMζ（蛋白激酶M-ζ）](concepts/pkm-zeta.md) — 无调节域aPKC（合成即激活）；通过阻止GluA2-AMPAR内吞维持突触强度；STC第一个明确L-LTP PRP；2013年KO危机→PKCι/λ代偿→双KO消除L-LTP；KIBRA-PKMζ寡聚体感染性磷酸化解答克里克1984年蛋白周转悖论；K-ZAP（二聚体）vs ζ-stat（六聚体）工具的时间特异性区分；ZIP阳离子机制重写（Stokes 2025）**[NEW 2026-09-21 · 修订 rev2 2026-06-28]**
+- 🔵 [KIBRA（KIdney BRAin protein / WWC1）](concepts/kibra.md) — 突触后支架蛋白；LTP后2–3h在PSD富集；与PKMζ形成异质六聚体（AlphaFold 3预测）；"感染性磷酸化"机制传递激活状态；K-ZAP阻断二聚体→破坏1天/1月记忆；ζ-stat阻断六聚体→选择性破坏4周远程记忆；Crick 1984分子周转悖论的拓扑解答 **[NEW 2026-06-28]**
 - 🟡 [蓝斑-海马多巴胺系统（LC-DA）](concepts/lc-hippocampus-dopamine.md) — LC TH⁺ 末梢（非VTA）是海马dCA1 DA的主要来源；D1/D5调控记忆持续性（非编码）；行为标记（新颖→LC-DA→PRPs→STC）；记忆联结（~6h时间窗，LC→dCA1 D1/D5依赖）；与GC-NE应激记忆系统互补 **[NEW 2026-07-11]**
 - 🔵 [Actor-Critic架构（基底节）](concepts/actor-critic-brain.md) — VTA/SNc=TD误差δ广播；NAc/腹侧纹状体=Critic价值估计；背侧纹状体D1-MSN=Actor Go / D2-MSN=Actor No-Go；DA双向读出设计（D1兴奋/D2抑制）**[NEW 2026-07-12]**
 - 🟡 [分布式强化学习与多巴胺编码](concepts/distributional-rl-dopamine.md) — 不同VTA DA神经元以不对称RPE缩放编码奖励分布分位数；大脑早于AI独立实现分布式RL计算；Dabney 2020 小鼠VTA单细胞记录 **[NEW 2026-07-12]**

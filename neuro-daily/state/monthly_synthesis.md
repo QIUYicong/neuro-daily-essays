@@ -1979,3 +1979,23 @@
 
 **下一周期路标**：normalization-model（高优先悬空引用）、global-workspace-theory（深化）、乙酰胆碱神经调质、5-HT睡眠-情绪交叉、时间表征系统整合
 
+
+---
+
+## 2026-06-28（#181）日摘要
+
+**主题**：LTP 六十年 + KIBRA-PKMζ 寡聚体——分子周转悖论的拓扑解答
+
+**核心发现**：Paulsen & Rodriguez-Moreno 2026《生理学评论》六十年 LTP 综述将 KIBRA-PKMζ 寡聚体机制列为分子持久性的当前最佳答案。Hsieh & Sacktor 2026（Molecular Brain）提供原始数据：KIBRA 与 PKMζ 形成 AlphaFold 3 预测的异质六聚体；K-ZAP（靶向二聚体界面 R957）破坏 1 天和 1 个月记忆；ζ-stat（靶向六聚体柄区 P291/F297）选择性破坏 4 周远程记忆，不影响新近记忆。Rudy 2026（Molecular Brain）独立评述提出"寡聚体逻辑"：感染性磷酸化（infectious phosphorylation）使新分子被已激活寡聚体招募时获得激活状态，从而在蛋白周转中传递拓扑信息，回答 Crick 1984 年的分子周转悖论。
+
+**关键分层**：文章从 PKMζ 危机（2013 Nature 双论文）→ 重建（PKCι/λ 代偿 → 双 KO → KIBRA 寡聚体）的三阶段历史，展示了科学认识从"PKMζ 是唯一守夜人"到"aPKC 功能层是拓扑传递机器"的演进。
+
+**知识地图贡献**：
+- 新建 KIBRA（WWC1）专页（concepts/kibra.md）；与 pkm-zeta、ltp、synaptic-tagging-capture、memory-consolidation 建立机制连接
+- ltp.md (rev15)、pkm-zeta.md (rev2) 更新关键来源和工具细节
+- Q-ltp-lifetime-mechanism 标记为"大部分解答"（Crick 悖论的拓扑解）
+- 新增 Q-kibra-invivo-hexamer、Q-kibra-region-specificity、Q-zstat-ptsd-potential 三个新未解问题
+
+**图谱**：330节点/1984边（+2节点：kibra/文章节点；+13边）
+
+**层级**：molecular × synaptic × cellular × cognition（与近期 whole-brain/consciousness 系列形成互补，回到分子层深度）

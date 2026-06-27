@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-27",
+  "last_updated": "2026-06-28",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -16219,7 +16219,7 @@
       "PMC6430175"
     ]
   },
-  {
+  "sources_2026-06-27-blindsight": {
     "article": "2026-06-27-blindsight-attention-consciousness-dissociation.md",
     "article_number": 179,
     "date": "2026-06-27",
@@ -16245,6 +16245,31 @@
     "open_access_pmcids": [
       "PMC9196108",
       "PMC3000284"
+    ]
+  },
+  "sources_2026-06-28-ltp60": {
+    "article": "2026-06-28-ltp-60-kibra-pkm-zeta-molecular-persistence.md",
+    "article_number": 181,
+    "date": "2026-06-28",
+    "sources_added": 2,
+    "sources_reused": 2,
+    "new_pmids": [
+      "42363710",
+      "42104413"
+    ],
+    "reused_pmids": [
+      "41814337",
+      "41889799"
+    ],
+    "all_pmids": [
+      "42363710",
+      "42104413",
+      "41814337",
+      "41889799"
+    ],
+    "open_access_pmcids": [
+      "PMC13156888",
+      "PMC12997682"
     ]
   }
 }

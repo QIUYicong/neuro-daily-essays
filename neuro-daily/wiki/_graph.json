@@ -2994,6 +2994,24 @@
       "status": "mainstream",
       "confidence": "high",
       "page": "wiki/concepts/attention-consciousness-dissociation.md"
+    },
+    {
+      "id": "kibra",
+      "title": "KIBRA（KIdney BRAin protein / WWC1）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "emerging",
+      "confidence": "medium-high",
+      "page": "wiki/concepts/kibra.md"
+    },
+    {
+      "id": "2026-06-28-ltp-60-kibra-pkm-zeta-molecular-persistence",
+      "title": "蛋白质会凋零，记忆却能永存：KIBRA-PKMζ 寡聚体如何解开突触记忆的分子永生之谜",
+      "domain": "articles",
+      "type": "article",
+      "status": "published",
+      "confidence": "high",
+      "page": "articles/2026-06-28-ltp-60-kibra-pkm-zeta-molecular-persistence.md"
     }
   ],
   "edges": [
@@ -14046,6 +14064,84 @@
       "to": "attention-consciousness-dissociation",
       "type": "related",
       "note": "点燃需要注意力激活，但注意力并不充分引发点燃（解离的神经基础）"
+    },
+    {
+      "source": "kibra",
+      "target": "pkm-zeta",
+      "type": "part-of",
+      "label": "KIBRA-PKMζ寡聚体的两个核心组分"
+    },
+    {
+      "source": "kibra",
+      "target": "ltp",
+      "type": "mechanism-of",
+      "label": "远程L-LTP维持的寡聚体机制"
+    },
+    {
+      "source": "kibra",
+      "target": "synaptic-tagging-capture",
+      "type": "related-to",
+      "label": "长效突触标签的分子执行者"
+    },
+    {
+      "source": "kibra",
+      "target": "ampa-receptor",
+      "type": "related-to",
+      "label": "通过PKMζ间接维持突触后AMPA受体密度"
+    },
+    {
+      "source": "kibra",
+      "target": "memory-consolidation",
+      "type": "mechanism-of",
+      "label": "远程记忆巩固的突触分子基础"
+    },
+    {
+      "source": "kibra",
+      "target": "postsynaptic-density",
+      "type": "part-of",
+      "label": "LTP后2–3h在PSD富集"
+    },
+    {
+      "source": "ltp",
+      "target": "kibra",
+      "type": "related-to",
+      "label": "KIBRA-PKMζ寡聚体解答Q-ltp-lifetime-mechanism"
+    },
+    {
+      "source": "pkm-zeta",
+      "target": "kibra",
+      "type": "part-of",
+      "label": "PKMζ与KIBRA共同构成寡聚体"
+    },
+    {
+      "source": "2026-06-28-ltp-60-kibra-pkm-zeta-molecular-persistence",
+      "target": "ltp",
+      "type": "discusses",
+      "label": "LTP60年与分子持久性"
+    },
+    {
+      "source": "2026-06-28-ltp-60-kibra-pkm-zeta-molecular-persistence",
+      "target": "pkm-zeta",
+      "type": "discusses",
+      "label": "PKMζ发现→危机→重建"
+    },
+    {
+      "source": "2026-06-28-ltp-60-kibra-pkm-zeta-molecular-persistence",
+      "target": "kibra",
+      "type": "discusses",
+      "label": "KIBRA-PKMζ寡聚体机制"
+    },
+    {
+      "source": "2026-06-28-ltp-60-kibra-pkm-zeta-molecular-persistence",
+      "target": "memory-consolidation",
+      "type": "discusses",
+      "label": "分子周转悖论与远程记忆"
+    },
+    {
+      "source": "2026-06-28-ltp-60-kibra-pkm-zeta-molecular-persistence",
+      "target": "synaptic-tagging-capture",
+      "type": "discusses",
+      "label": "STC框架中的PKMζ"
     }
   ],
   "dangling_references": [

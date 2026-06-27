@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-09-21
-updated: 2026-09-21
-revision_count: 1
+updated: 2026-06-28
+revision_count: 2
 dimensions: [molecular, synaptic, cellular, cognition]
-related: [ltp, synaptic-tagging-capture, ampa-receptor, camkii, bdnf, arc-arg31, memory-consolidation, hebbian-learning]
+related: [ltp, synaptic-tagging-capture, ampa-receptor, camkii, bdnf, arc-arg31, memory-consolidation, hebbian-learning, kibra]
 prerequisites: [ltp, ampa-receptor, synaptic-tagging-capture]
 opens_questions: [Q-pkm-zeta-in-vivo-oligomer, Q-pkm-zeta-region-specificity, Q-pkm-zeta-memory-modification]
-source_articles: [2026-09-21-pkm-zeta-late-ltp-persistence]
-key_sources: ["PMID:16463388", "PMID:15958741", "PMID:21119699", "PMID:20383136", "PMID:23283171", "PMID:23283174", "PMID:27187150", "PMID:33540466", "PMID:39814881", "PMID:41814337", "PMID:41889799"]
+source_articles: [2026-09-21-pkm-zeta-late-ltp-persistence, 2026-06-28-ltp-60-kibra-pkm-zeta-molecular-persistence]
+key_sources: ["PMID:16463388", "PMID:15958741", "PMID:21119699", "PMID:20383136", "PMID:23283171", "PMID:23283174", "PMID:27187150", "PMID:33540466", "PMID:39814881", "PMID:41814337", "PMID:41889799", "PMID:42104413", "PMID:42363710"]
 ---
 
 # PKMζ（蛋白激酶M-ζ，Protein Kinase M-zeta）
@@ -129,8 +129,8 @@ KIBRA（支架蛋白）+ 磷酸化PKMζ → 稳定寡聚体复合物（AlphaFold
 **类比**：类似于朊病毒的构象传播机制，但不涉及病理性聚集——是生理性的功能状态传递。
 
 **工具**：
-- **K-ZAP**（KIBRA拮抗肽）：阻断KIBRA-PKMζ相互作用，测试寡聚体在记忆中的作用
-- **ζ-stat**：新型PKMζ状态探针，区分"新加入"与"已激活"的PKMζ
+- **K-ZAP**（KIBRA拮抗肽，序列：FVRNSLERRSVRMKRPS-966）：阻断KIBRA-PKMζ异质二聚体界面（R957残基，3个氢键），破坏1天和1个月空间记忆；在PKMζ KO中无效（机制特异性）
+- **ζ-stat**：靶向六聚体组装界面（PKMζ柄区P291/F297残基），不阻断二聚体；选择性破坏4周（约30天）空间记忆而不影响新近记忆——提示六聚体对远程/长期记忆的额外必要性（Rudy 2026, PMID:42104413；Hsieh & Sacktor 2026, PMID:41814337）
 
 ### 六、ZIP机制重写：阳离子电荷非PKMζ特异性
 
@@ -168,6 +168,7 @@ ZIP（阳离子肽）
 
 ## 连接
 
+- [[kibra]] — KIBRA（WWC1）是PKMζ的突触锚定蛋白，两者共同构成KIBRA-PKMζ寡聚体；寡聚体的"感染性磷酸化"机制是分子周转悖论的拓扑解答
 - [[ltp]] — PKMζ（+PKCι/λ）是L-LTP必需的aPKC功能层；KIBRA-PKMζ机制解答Q-ltp-lifetime-mechanism
 - [[synaptic-tagging-capture]] — PKMζ是STC框架中第一个明确的L-LTP特异性PRP；新合成PKMζ被突触标签捕获
 - [[ampa-receptor]] — PKMζ通过阻止含GluA2 AMPAR内吞来维持突触AMPA受体密度
@@ -185,8 +186,10 @@ ZIP（阳离子肽）
 
 ## 修订历史
 
+- 2026-06-28 · 修订（rev2）· 基于《蛋白质会凋零，记忆却能永存》(#181) · 补充 K-ZAP 完整序列（FVRNSLERRSVRMKRPS-966）及机制细节（R957三氢键二聚体界面）；补充 ζ-stat 靶点细节（柄区P291/F297）及远程记忆选择性（30天）；related 新增 kibra；连接节新增 kibra；key_sources 新增 PMID:42104413（Rudy 2026）和 PMID:42363710（Paulsen 2026）；source_articles 新增 #181
 - 2026-09-21 · 创建（rev1）· 基于《记忆的分子守夜人》一文（#151）· 覆盖PKMζ发现→2013危机→重建全貌；关键证据：双KO（Tsokas 2026）、ZIP机制（Stokes 2025）、KIBRA寡聚体（Hsieh 2026）；初始置信度：高（核心机制）/中-高（KIBRA寡聚体，部分体外证据）
 
 ## 来源文章
 
 - [[2026-09-21-pkm-zeta-late-ltp-persistence]]
+- [[2026-06-28-ltp-60-kibra-pkm-zeta-molecular-persistence]]
