@@ -4,6 +4,26 @@
 
 ---
 
+## 2026-10-17 · 文章 #177 · REM睡眠的化学剧场：蓝斑沉默如何在梦境中重写情绪印记
+
+**新建页面（1个）**：
+
+- `wiki/concepts/theta-frequency-fear-extinction.md`（rev1，emerging/medium）：θ频率特异性恐惧消退综合概念页；Rho et al. 2023计算模型核心发现（4–12 Hz θ特异有效，4 Hz效率最高，非θ无效，PTSD条件下10 Hz可替代）；IL-BLA双向突触重构机制；STDP时序匹配解释；未解问题 Q-rem-new-02/03；10条wiki连接；关键来源 PMID:36639913, PMC9864570, PMID:41219733
+
+**修订页面（3个）**：
+
+- `wiki/concepts/rem-sleep.md` rev3→rev4：更新至 2026-10-17；新增 Kjaerby 2022 NE超慢振荡（~30s，0.034 Hz）、Srinivasan 2025 3个ABN的REM因果证据、Di 2025人类RCT恐惧泛化保护（n=126，44% dlPFC θ介导）；related新增 fear-generalization/adult-neurogenesis/theta-frequency-fear-extinction/slow-wave-sleep；key_sources 新增8个（PMID:35798980等）；证据表新增3行；未解问题新增 Q-rem-new-01/02/03；source_articles 新增 2026-10-17文章
+
+- `wiki/concepts/fear-generalization.md` rev1→rev2：更新至 2026-10-17；新增 Di 2025 RCT证据行（后半夜REM剥夺→恐惧泛化≈全夜剥夺；44% dlPFC θ介导；1周持续）；dimensions 新增 cognition；related 新增 rem-sleep/emotional-memory-depotentiation/theta-frequency-fear-extinction；连接新增3条；未解问题新增 Q-fear-gen-03
+
+- `wiki/concepts/emotional-memory-depotentiation.md` rev2→rev3：更新至 2026-10-17；新增 Rho 2023计算模型段落（4–12 Hz θ频率特异性，4 Hz最优，PTSD→10 Hz替代）；related 新增 theta-frequency-fear-extinction/fear-generalization；证据表新增2行；opens_questions 新增 Q-rem-new-01/02；key_sources 新增4个；source_articles 新增 2026-10-17文章
+
+**矛盾（0个）**：ABN 双角色（恐惧巩固 vs 消退促进）在 Srinivasan 2025 中可统一解释（相位偏移决定方向），未注册为矛盾节点
+
+**图谱变化**：335节点/2024边 → **336节点/2034边**（+1节点：theta-frequency-fear-extinction；+10边：rem-sleep→fear-generalization suppresses；adult-neurogenesis→rem-sleep supports；theta-frequency-fear-extinction→rem-sleep part-of；theta-frequency-fear-extinction→emotional-memory-depotentiation mechanism-of；theta-frequency-fear-extinction→fear-extinction mechanism-of；theta-frequency-fear-extinction→theta-oscillations related；theta-frequency-fear-extinction→amygdala related；theta-frequency-fear-extinction→ptsd related；rem-sleep→slow-wave-sleep related；norepinephrine-locus-coeruleus→rem-sleep regulates）
+
+---
+
 ## 2026-06-28 · 文章 #186 · 婴儿遗忘症的神经科学：为什么我们不记得自己两岁以前的事情
 
 **修订页面（1个）**：

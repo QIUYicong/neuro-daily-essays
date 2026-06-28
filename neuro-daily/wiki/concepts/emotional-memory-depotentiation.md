@@ -6,14 +6,14 @@ type: mechanism
 status: mainstream
 confidence: medium
 created: 2026-05-31
-updated: 2026-06-27
-revision_count: 2
+updated: 2026-10-17
+revision_count: 3
 dimensions: [molecular, cellular, brain-region, behavior, cognition, disease]
-related: [rem-sleep, fear-extinction, amygdala, norepinephrine-locus-coeruleus, theta-oscillations, ltp, ltd, memory-consolidation, vmPFC, ptsd]
+related: [rem-sleep, fear-extinction, amygdala, norepinephrine-locus-coeruleus, theta-oscillations, ltp, ltd, memory-consolidation, vmPFC, ptsd, theta-frequency-fear-extinction, fear-generalization]
 prerequisites: [rem-sleep, amygdala, norepinephrine-locus-coeruleus, ltp]
-opens_questions: [Q-rem-01, Q-rem-02, Q-il-rem-01, Q-il-rem-02]
-source_articles: [2026-05-31-rem-sleep-emotional-memory, 2026-06-27-rem-sleep-il-cortex-fear-extinction-memory]
-key_sources: ["PMID:19702380", "PMC:PMC2890316", "PMID:22119526", "PMC:PMC3237718", "PMID:28100731", "PMC:PMC5242402", "PMID:38714199", "PMC:PMC11111341", "PMID:24499013", "PMC:PMC4286245", "PMID:28729826"]
+opens_questions: [Q-rem-01, Q-rem-02, Q-il-rem-01, Q-il-rem-02, Q-rem-new-01, Q-rem-new-02]
+source_articles: [2026-05-31-rem-sleep-emotional-memory, 2026-06-27-rem-sleep-il-cortex-fear-extinction-memory, 2026-10-17-rem-sleep-emotional-memory-ne-window]
+key_sources: ["PMID:19702380", "PMC:PMC2890316", "PMID:22119526", "PMC:PMC3237718", "PMID:28100731", "PMC:PMC5242402", "PMID:38714199", "PMC:PMC11111341", "PMID:24499013", "PMC:PMC4286245", "PMID:28729826", "PMID:36639913", "PMC:PMC9864570"]
 ---
 
 # 情绪记忆去饱和化 (Emotional Memory Depotentiation)
@@ -34,6 +34,8 @@ Van der Helm等人（2011，PMID:22119526，PMC3237718）在人类fMRI研究中�
 
 **2026-06-27更新 — IL皮层的因果作用（Hong et al. 2024）**：情绪记忆去饱和化框架的重要延伸——REM睡眠不只是被动"冷却"情绪，还主动通过激活下边缘皮层（IL皮层，人类vmPFC同源区）为消退学习创造神经底物。Hong等人（2024，PMC11111341）发现：恐惧形成后4小时内，IL皮层76.6%的锥体神经元在REM睡眠中达到活动峰值，这种激活通过NMDA受体依赖机制提升IL神经元的内在兴奋性。因果实验证明，阻断这4小时窗口内的IL-REM激活→次日消退记忆受损。这将去饱和化机制从"杏仁核本地弱化"扩展至"前额叶-杏仁核回路的主动重构"。
 
+**2026-10-17更新 — 4 Hz θ频率的特异性：IL-杏仁核重构的分子手术（Rho et al. 2023）**：基于生物物理真实度的计算模型证明，**4–12 Hz的θ频率范围特异性地执行IL-杏仁核连接重构**：IL→杏仁核连接增强（IL对恐惧表达细胞的抑制加强），同时杏仁核→IL连接减弱（杏仁核对IL的激活输入降低）。**4 Hz是效率最高的频率**，在最宽的输入强度范围内有效；非θ频率完全无效。在PTSD模拟条件下，4 Hz失效但10 Hz可以替代。这为去饱和化提供了第一个计算层面的频率特异性机制解释（PMID:36639913，PMC9864570）。
+
 ## 关键机制
 
 1. **分子层**：NE→0（LC沉默）→ β/α1受体失活 → 突触去极化窗口开放
@@ -50,6 +52,8 @@ Van der Helm等人（2011，PMID:22119526，PMC3237718）在人类fMRI研究中�
 | 一夜睡眠剥夺增加60%杏仁核反应性 | 综合电生理+fMRI综述 | PMC4286245 | 高（多研究综合） |
 | 恐惧后4h内IL-REM激活是消退能力前提 | 闭环光遗传+钙成像，小鼠 | PMC11111341 | 中-高（动物因果） |
 | PTSD患者REM期NE不降低（LC持续激活）| 临床LC神经化学测量 | PMC4286245 | 中（人类相关性） |
+| 4–12 Hz θ特异性执行IL→BLA增强+BLA→IL减弱；4 Hz最优；非θ无效 | 基于生物物理的计算模型（IL-杏仁核回路） | PMID:36639913 | 中（计算模型，需实验验证）|
+| PTSD条件下4 Hz失效，10 Hz可替代实现等效消退 | 同上计算模型（PTSD参数模拟） | PMID:36639913 | 低-中（模型预测，未实验验证）|
 
 ## 连接
 
@@ -73,8 +77,10 @@ Van der Helm等人（2011，PMID:22119526，PMC3237718）在人类fMRI研究中�
 
 - 2026-05-31 · 创建 · 基于《REM睡眠：大脑夜晚的情绪炼金炉》（文章#34）· 初始置信度：中等（机制已有多项间接支持，但人类直接因果证据仍有限）
 - 2026-06-27 · 修订 rev2 · 基于《恐惧可以被睡眠稀释吗》(#177) · 新增Hong et al. 2024因果证据（IL皮层REM激活76.6%、4h关键窗口、NMDA依赖机制）；去饱和化机制扩展至前额叶主动重构框架；status升级为mainstream（多项独立证据）；新增PTSD连接页、vmPFC连接；证据表新增3行；未解问题新增Q-il-rem-01/02
+- 2026-10-17 · 修订 rev3 · 基于《REM睡眠的化学剧场》(#177) · 新增Rho 2023计算模型：4–12 Hz θ频率特异性执行IL-杏仁核重构，4 Hz最优，PTSD条件下10 Hz可替代；related新增theta-frequency-fear-extinction/fear-generalization；证据表新增2行；未解问题新增Q-rem-new-01/02
 
 ## 来源文章
 
 - [[2026-05-31-rem-sleep-emotional-memory]]
 - [[2026-06-27-rem-sleep-il-cortex-fear-extinction-memory]]
+- [[2026-10-17-rem-sleep-emotional-memory-ne-window]]

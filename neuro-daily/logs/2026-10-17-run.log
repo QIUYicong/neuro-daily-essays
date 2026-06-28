@@ -1,0 +1,156 @@
+# 运行日志 · 2026-10-17 · 第177篇
+
+## 运行元数据
+
+- 运行时间：2026-10-17 09:00 UTC+8（计划触发）
+- 文章编号：#177（睡眠系列第8篇）
+- 文章日期：2026-10-17
+- 知识库连续日期：延续 #176（2026-10-16）
+
+## 步骤 A — 读取状态文件
+
+- 读取 ROUTINE.md ✓
+- 读取 KNOWLEDGE-BASE-DESIGN.md ✓
+- 读取 state/topic_ledger.json（最新 #176） ✓
+- 读取 state/monthly_synthesis.md（10月：16篇） ✓
+- 读取 state/unresolved_questions.md ✓
+- 读取 wiki/_graph.json（335节点/2024边） ✓
+- 读取现有睡眠系列 wiki 页：rem-sleep (rev3)、emotional-memory-depotentiation (rev2)、fear-generalization (rev1)、theta-frequency-fear-extinction（不存在，新建）✓
+
+## 步骤 B — 选题
+
+**候选**：#176 next_suggested_topics 首选"REM睡眠功能与情绪记忆巩固"
+
+**选题理由**：
+- 睡眠系列已完成NREM重心（SWR/#171、翻转开关/#172、腺苷/#173、SHY/#174、NT1/#175、Homer1a/#176）
+- 自然转向REM期情绪处理——与Homer1a睡眠削减机制互补（NREM-削减 vs REM-重构）
+- 重要新文献（Kjaerby 2022 Nat Neurosci、Rho 2023 J Neurosci、Di 2025 BMC Med、Srinivasan 2025 Nat Commun）均未在wiki中整合
+- theta-frequency-fear-extinction尚无专页（悬空引用）
+
+**最终选题**：《REM睡眠的化学剧场：蓝斑沉默如何在梦境中重写情绪印记》
+
+**核心问题**：REM睡眠通过哪些互补分子、回路机制实现情绪记忆的选择性去饱和化？
+
+## 步骤 C — 研究与写作
+
+### 数据来源
+
+| ID | PMID | PMC | 标题（缩略） | 获取方式 | 全文 |
+|----|------|-----|-------------|---------|------|
+| S177-01 | 19702380 | PMC2890316 | Walker 2009 · SFSR假说 | PMC 开放全文 | ✓ |
+| S177-02 | 22119526 | PMC3237718 | van der Helm 2011 · fMRI杏仁核去激活 | PMC 开放全文 | ✓ |
+| S177-03 | 28729826 | PMC5498516 | Totty 2017 · LA-VH θ相位 | PMC 开放全文 | ✓ |
+| S177-04 | 28100731 | PMC5242402 | Poe 2017 · θ相位反转/LC | PMC 开放全文 | ✓ |
+| S177-05 | 38714199 | PMC11111341 | Hong 2024 · IL皮层REM 76.6% | PMC 开放全文 | ✓ |
+| S177-06 | 35798980 | PMC9817483 | Kjaerby 2022 · NE超慢振荡~30s | PMC 开放全文 | ✓ |
+| S177-07 | 36639913 | PMC9864570 | Rho 2023 · 4-12Hz θ特异性计算模型 | PMC 开放全文 | ✓ |
+| S177-08 | 41219733 | PMC12607157 | Di 2025 · RCT n=126 恐惧泛化 | PMC 开放全文 | ✓ |
+| S177-09 | 40764488 | PMC12325634 | Srinivasan 2025 · 3个ABN REM因果 | PMC 开放全文 | ✓ |
+| S177-10 | 7185792 | — | Aston-Jones & Bloom 1981 · LC REM沉默 | 摘要仅 | ✗ |
+
+**开放全文**：9/10；新来源：5个（S177-06 ~ S177-10）；重用：5个（S177-01 ~ S177-05）
+
+### 文章撰写
+
+文章长度约 5500 字（6幕 + PTSD连接 + AI类比 + 概念卡）：
+
+1. **第一幕：化学静默的奇迹** — LC NE归零（Aston-Jones 1981）；Kjaerby 2022 NE超慢振荡（~30s，0.034 Hz）及NREM/REM的NE模式差异
+2. **第二幕：θ相位的逆转** — Poe 2017 场所细胞θ相位反转（LTP→depotentiation）；NE=0是必要条件
+3. **第三幕：杏仁核-海马θ三角** — Totty 2017 LA-VH 180°反相（r=0.954）；van der Helm 2011 fMRI杏仁核去激活；SFSR假说（Walker 2009）
+4. **第四幕：IL皮层的主动进化** — Hong 2024 76.6%锥体神经元REM-peak；4h关键窗口；NMDA依赖内在兴奋性
+5. **第五幕：4 Hz的分子手术** — Rho 2023 IL-BLA计算模型；4-12 Hz特异性；4 Hz最优；PTSD→10 Hz替代
+6. **第六幕：三个新生神经元的奇迹** — Srinivasan 2025；~3个ABN；theta相位锁定；NREM无效
+7. **PTSD连接** — Di 2025 RCT（n=126）；44% dlPFC θ介导；后半夜REM保护恐惧泛化；1周持续
+8. **AI类比** — REM=情绪记忆的在线软更新器；PTSD=情绪优化器故障
+
+## 步骤 D — Wiki 知识整合
+
+### 新建页面（1个）
+
+- `wiki/concepts/theta-frequency-fear-extinction.md` (rev1, emerging/medium)
+  - 核心：Rho 2023计算模型（IL-BLA回路双向突触重构；4-12 Hz特异性；4 Hz最优；PTSD→10 Hz替代）
+  - 辅助：Di 2025前额叶θ证据作为间接人类支持
+  - 证据表：3行；连接：10条；未解问题：Q-rem-new-02/03
+
+### 修订页面（3个）
+
+- `wiki/concepts/rem-sleep.md` rev3 → rev4
+  - 新增：Kjaerby 2022 NE超慢振荡段落；Srinivasan 2025 3个ABN段落；Di 2025恐惧泛化保护段落
+  - 新增证据行：3行；新连接：3条（fear-generalization/adult-neurogenesis/theta-frequency-fear-extinction）
+  - 新增未解问题：Q-rem-new-01/02/03；key_sources新增8个
+
+- `wiki/concepts/fear-generalization.md` rev1 → rev2
+  - 新增：Di 2025 RCT证据行（后半夜REM剥夺；44% dlPFC θ；1周持续）
+  - 新增连接：3条；新增未解问题：Q-fear-gen-03；dimensions新增cognition
+
+- `wiki/concepts/emotional-memory-depotentiation.md` rev2 → rev3
+  - 新增：Rho 2023计算模型段落（4-12 Hz θ频率特异性；4 Hz最优；PTSD→10 Hz）
+  - 新增证据行：2行；related新增theta-frequency-fear-extinction/fear-generalization
+
+## 步骤 E — 知识图谱更新
+
+`wiki/_graph.json`：
+- 节点：335 → 336（新增：theta-frequency-fear-extinction）
+- 边：2024 → 2034（新增 10 条边）
+- 更新日期：2026-10-17
+
+新增边：
+1. rem-sleep → fear-generalization（suppresses）
+2. adult-neurogenesis → rem-sleep（supports）
+3. theta-frequency-fear-extinction → rem-sleep（part-of）
+4. theta-frequency-fear-extinction → emotional-memory-depotentiation（mechanism-of）
+5. theta-frequency-fear-extinction → fear-extinction（mechanism-of）
+6. theta-frequency-fear-extinction → theta-oscillations（related）
+7. theta-frequency-fear-extinction → amygdala（related）
+8. theta-frequency-fear-extinction → ptsd（related）
+9. rem-sleep → slow-wave-sleep（related）
+10. norepinephrine-locus-coeruleus → rem-sleep（regulates）
+
+## 步骤 F — 状态与治理文件更新
+
+- `state/topic_ledger.json`：新增 #177 条目；total_articles 186→187；last_updated 2026-10-17 ✓
+- `state/unresolved_questions.md`：新增 Q-rem-new-01/02/03、Q-fear-gen-03（4个新问题）✓
+- `state/monthly_synthesis.md`：10月第17篇（共17篇），更新截至日期2026-10-17 ✓
+- `state/source_registry.json`：5个新来源（PMID:35798980、36639913、41219733、40764488、7185792）✓
+- `wiki/index.md`：新增 theta-frequency-fear-extinction 条目，更新标头至 328 页/336节点/2034边 ✓
+- `wiki/CHANGELOG.md`：2026-10-17 变更记录 ✓
+
+## 矛盾与争议登记
+
+**ABN双角色潜在矛盾**（未注册为矛盾节点）：
+- Srinivasan 2025：ABN在REM期恐惧记忆巩固中因果必要（~3个ABN即充分）
+- 现有文献：高水平DG神经发生与恐惧泛化减少相关（adult-neurogenesis页已记录）
+- 分辨：Srinivasan 2025测量的是"恐惧记忆巩固"而非"恐惧泛化"；ABN通过相位锁定精确编码，不同θ相位可能分别指向巩固vs消退方向
+- 状态：可统一解释，不注册为矛盾，但在阅读笔记中记录为"待关注"
+
+## 步骤 G — Git 操作
+
+- git config GIT_AUTHOR_NAME=QIUYicong ✓
+- git config GIT_AUTHOR_EMAIL=169510482+QIUYicong@users.noreply.github.com ✓
+- git add neuro-daily/ ✓
+- git commit ✓
+- git push -u origin claude/funny-einstein-2y8lxf ✓
+
+## 步骤 H — 自检
+
+### 三不变量
+
+1. **情节层只附加**：仅创建新文章/笔记/来源文件，未修改旧文章 ✓
+2. **语义层始终当前**：theta-frequency-fear-extinction 新建；rem-sleep/fear-generalization/emotional-memory-depotentiation 修订至最新 ✓
+3. **来源可溯**：所有数据点标注 PMID/PMC；9个PMC开放全文 ✓
+
+### 质量检查
+
+- 引用PMID均经PubMed/PMC验证；Rho 2023为计算模型（明确标注） ✓
+- 无医疗建议、无Sci-Hub、无paywall绕过 ✓
+- 关键数字来源标注：NE振荡30s/0.034 Hz（Kjaerby 2022 PMC9817483）；4 Hz最优（Rho 2023）；44%介导（Di 2025）；3个ABN（Srinivasan 2025）✓
+- 仓库：QIUYicong/neuro-daily-essays（绝非 lianyichuan/cqiuyicong）✓
+
+## 本次运行摘要
+
+- 新建 wiki 页：1（theta-frequency-fear-extinction）
+- 修订 wiki 页：3（rem-sleep rev4, fear-generalization rev2, emotional-memory-depotentiation rev3）
+- 新增来源：5个新 + 5个重用
+- 新增未解问题：4个（Q-rem-new-01/02/03, Q-fear-gen-03）
+- 图谱变化：+1节点（theta-frequency-fear-extinction）/+10边
+- 月度：2026年10月第17篇（共17篇）

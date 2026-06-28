@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-06-28",
+  "updated": "2026-10-17",
   "node_count": 335,
   "edge_count": 2024,
   "edge_types": [
@@ -3065,6 +3065,15 @@
         "cognition",
         "developmental"
       ]
+    },
+    {
+      "id": "theta-frequency-fear-extinction",
+      "title": "θ频率特异性恐惧消退",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/concepts/theta-frequency-fear-extinction.md"
     }
   ],
   "edges": [
@@ -14431,6 +14440,56 @@
       "to": "complementary-learning-systems",
       "type": "related",
       "note": "CLS框架中婴儿期是快速可塑性模式极度活跃的特殊发育状态"
+    },
+    {
+      "from": "rem-sleep",
+      "to": "fear-generalization",
+      "type": "supports"
+    },
+    {
+      "from": "adult-neurogenesis",
+      "to": "rem-sleep",
+      "type": "supports"
+    },
+    {
+      "from": "theta-frequency-fear-extinction",
+      "to": "rem-sleep",
+      "type": "part-of"
+    },
+    {
+      "from": "theta-frequency-fear-extinction",
+      "to": "emotional-memory-depotentiation",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "theta-frequency-fear-extinction",
+      "to": "fear-extinction",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "theta-frequency-fear-extinction",
+      "to": "theta-oscillations",
+      "type": "related"
+    },
+    {
+      "from": "theta-frequency-fear-extinction",
+      "to": "amygdala",
+      "type": "related"
+    },
+    {
+      "from": "theta-frequency-fear-extinction",
+      "to": "ptsd",
+      "type": "related"
+    },
+    {
+      "from": "rem-sleep",
+      "to": "slow-wave-sleep",
+      "type": "related"
+    },
+    {
+      "from": "norepinephrine-locus-coeruleus",
+      "to": "rem-sleep",
+      "type": "regulates"
     }
   ],
   "dangling_references": [

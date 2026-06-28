@@ -1,6 +1,41 @@
 # 未解问题追踪
 
-*最后更新：2026-06-28*
+*最后更新：2026-10-17*
+
+---
+
+## 2026-10-17 新增（来自"REM睡眠的化学剧场" 文章 #177）
+
+### Q-rem-new-01（高优先级）：NE超慢振荡（~30s）对REM睡眠情绪记忆去饱和化的因果作用
+
+- **关联 wiki**：[[norepinephrine-locus-coeruleus]]、[[rem-sleep]]、[[emotional-memory-depotentiation]]
+- **来源文章**：2026-10-17-rem-sleep-emotional-memory-ne-window
+- **问题**：Kjaerby 2022 证明NREM期间NE呈~30s超慢振荡，NE下降相驱动睡眠纺锤波。REM期间NE持续低位（不振荡）。这两种NE动态对记忆的功能意义如何区分？NREM的NE振荡是通过调节纺锤波来选择性保护记忆，还是独立的稳态机制？能否通过闭环光遗传操控LC NE振荡相位，测试其对海马SWR-纺锤波耦合和次日记忆的因果影响？
+- **关键实验**：闭环光遗传调控LC NE振荡（强制不同振荡周期）+ 同步EEG（纺锤波追踪）+ 次日空间记忆测试
+- **当前证据状态**：NE~30s振荡与纺锤波相关性：高（Kjaerby 2022）；NE振荡对记忆的因果证明：未验证
+
+### Q-rem-new-02（高优先级）：REM睡眠中IL皮层的θ振荡频率分布
+
+- **关联 wiki**：[[theta-frequency-fear-extinction]]、[[rem-sleep]]、[[vmPFC]]
+- **来源文章**：2026-10-17-rem-sleep-emotional-memory-ne-window
+- **问题**：REM睡眠中θ振荡在IL皮层的实际测量频率是否恰好在4–12 Hz范围，且以4 Hz主导？Rho 2023 是计算模型，而非体内电生理。体内REM期间IL皮层的θ功率谱是什么？是否有峰值在4 Hz？与海马/基底外侧杏仁核的频率耦合如何？
+- **关键实验**：清醒+NREM+REM多通道体内电生理（IL、BLA、海马同步记录）；REM期间LFP功率谱分析；与行为结果（次日恐惧消退效率）的相关性分析
+- **当前证据状态**：海马4–12 Hz REM θ：建立；IL皮层特定频率分布：未系统测量；4 Hz峰值在IL：仅模型预测
+
+### Q-rem-new-03（高优先级）：PTSD模型中10 Hz闭环TMS/神经反馈对恐惧泛化的保护效应
+
+- **关联 wiki**：[[theta-frequency-fear-extinction]]、[[ptsd]]、[[fear-generalization]]
+- **来源文章**：2026-10-17-rem-sleep-emotional-memory-ne-window
+- **问题**：Rho 2023 预测PTSD条件下10 Hz θ可替代4 Hz实现IL-BLA重构。Di 2025 已证明dlPFC θ介导44%的REM保护效应。能否在PTSD动物模型（CUS/SPS后）或PTSD患者的REM睡眠中，给予10 Hz神经反馈/经颅磁刺激，测试是否能减少噩梦、恐惧泛化和PTSD症状？
+- **关键实验**：PTSD动物模型 + REM睡眠期10 Hz闭环TMS（瞄准IL皮层上方区域）+ 恐惧泛化行为测试；或PTSD患者神经反馈（实时增强dlPFC θ）随机对照试验
+- **当前证据状态**：10 Hz替代预测：低-中（单一计算模型，Rho 2023）；PTSD患者REM期10 Hz干预：完全未验证
+
+### Q-fear-gen-03（高优先级，来自恐惧泛化 rev2）：dlPFC θ振荡保护恐惧泛化的具体机制
+
+- **关联 wiki**：[[fear-generalization]]、[[theta-frequency-fear-extinction]]、[[rem-sleep]]
+- **来源文章**：2026-10-17-rem-sleep-emotional-memory-ne-window
+- **问题**：Di 2025的dlPFC θ振荡介导路径机制是什么？dlPFC如何与IL皮层协同实现REM期间的恐惧泛化保护？是否可以通过非侵入性方式（如TMS、神经反馈）在后半夜选择性增强dlPFC θ来防止PTSD人群的恐惧泛化扩散？dlPFC θ是否通过前额叶→海马途径影响齿状回模式分离？
+- **当前证据状态**：dlPFC θ介导44%恐惧泛化保护：高（人类RCT，Di 2025）；具体机制通路：未知；TMS/神经反馈干预可行性：完全未验证
 
 ---
 

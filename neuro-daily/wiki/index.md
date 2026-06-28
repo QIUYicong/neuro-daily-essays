@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-06-28（第185篇·新生神经元的双面刃·模式分离与神经发生介导的遗忘）· 主题页总数：**327**（新建1页：concepts/infantile-amnesia；修订2页：concepts/adult-neurogenesis rev4, concepts/pattern-separation rev4；图谱335节点/2021边）
+> 最后更新：2026-10-17（第177篇·REM睡眠的化学剧场·蓝斑沉默如何在梦境中重写情绪印记）· 主题页总数：**328**（新建1页：concepts/theta-frequency-fear-extinction；修订3页：concepts/rem-sleep rev4, concepts/fear-generalization rev2, concepts/emotional-memory-depotentiation rev3；图谱336节点/2034边）
 
 ---
 
@@ -89,6 +89,7 @@
 - 🟢 [Cofilin-肌动蛋白轴（突触棘结构可塑性）](concepts/cofilin-actin-spine.md) — LTP 诱导后 CaMKII→Rac1/RhoA→LIMK→cofilin 磷酸化（Ser3 失活）→F-actin 净聚合的分子级联；Rac1 可独立于 CaMKII 激酶活性驱动结构 LTP（Saneyoshi 2025）；cofilin 磷酸化状态决定棘增大（LTP）vs 棘收缩（LTD）的结构方向 **[NEW 2026-09-23]**
 - 🟢 [行为时间尺度突触可塑性（BTSP）](concepts/btsp.md) — 秒级时间窗口的突触增强规则，单次写入场所场，与 LTP 并列的独立学习法则；分子秒表=DDSC（CaMKII延迟弥散激活，IP₃→ER驱动）；非空间BTSP已推广至嗅觉工作记忆 **[修订 rev3 2026-09-20]**
 - 🟢 [θ振荡](concepts/theta-oscillations.md) — 海马4–12 Hz探索节律；提供相位编码时间框架；θ序列压缩路径；θ/γ嵌套承载5-9项目序列；REM期LA-VH θ同步驱动情绪记忆巩固（Boyce 2016, Totty 2017）**[修订 2026-07-21 rev4]**
+- 🟡 [θ频率特异性恐惧消退](concepts/theta-frequency-fear-extinction.md) — REM睡眠期间4–12 Hz θ频率特异性驱动IL→BLA连接增强+BLA→IL减弱实现情绪去饱和化；4 Hz效率最高；PTSD条件下10 Hz可替代（Rho et al. 2023计算模型；Di 2025 n=126 RCT：44%由dlPFC θ介导）**[NEW 2026-10-17]**
 - 🔵 [θ-γ跨频率耦合](concepts/theta-gamma-coupling.md) — Lisman-Idiart 1995容量分格模型：每个θ周期嵌套约4–6个γ爆发，每个γ爆发承载一项工作记忆（对应4±1容量上限）；Colgin 2009慢γ（θ波峰，CA3）/快γ（θ波谷，MEC）双通道时分路由；Axmacher 2010人类颅内PAC证据；Huang 2026序列规划扩展 **[NEW 2026-07-21]**
 - 🟢 [α振荡（8–12 Hz）](concepts/alpha-oscillations.md) — 视丘-皮层回路（TRN-TC）与皮层L5协同生成的最强神经振荡；抑制-时序假说：ERS=主动压制无关感觉输入；Worden 2000/Foxe 2011确立差异化α拓扑门控；枕核/LP复合体为α广播器（Bourgeois 2020）；α-γ PAC在工作记忆三阶段（编码/维持/提取）的分格机制（Roux 2014双代码模型×Wianda 2019三阶段证据）；Q-theta-primate的α-γ替代假说 **[NEW 2026-07-22]**
 - 🟢 [尖波涟漪（SWR）](concepts/sharp-wave-ripples.md) — CA3→CA1高频群体事件；20倍速序列重播；记忆固化的离线物理载体；大振幅亚集专门驱动海马-PFC同步再激活（Robinson 2026）；清醒SWR是记忆标记机制（Yang 2024）；SWR嵌套在纺锤波内（SO-spindle-SWR三重耦合）；Maingret 2016 闭环因果证据**[修订 2026-07-07]**

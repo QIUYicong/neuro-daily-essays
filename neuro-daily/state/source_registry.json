@@ -16805,5 +16805,96 @@
     "new_additions": 7,
     "full_text_count": 2,
     "notes": "PMID:24812394 (Akers 2014) 与 #185 重叠；PMC:6969236 全文可用；Frontiers PMID:36090654 开放获取但仅读摘要；其余6篇仅摘要"
+  },
+  "PMID:35798980": {
+    "id": "PMID:35798980",
+    "type": "original_research",
+    "authors": "Kjaerby C, Andersen M, Hauglund N, Untiet V, Dall C, Sigurdsson B, Ding F, Feng J, Li Y, Weikop P, Hirase H, Nedergaard M",
+    "title": "Memory-enhancing properties of sleep depend on the oscillatory amplitude of norepinephrine",
+    "journal": "Nature Neuroscience",
+    "year": 2022,
+    "doi": "10.1038/s41593-022-01102-9",
+    "pmcid": "PMC9817483",
+    "full_text": true,
+    "access_method": "pmc_full_text",
+    "article_date": "2026-10-17",
+    "article_number": 177
+  },
+  "PMID:36639913": {
+    "id": "PMID:36639913",
+    "type": "computational_model",
+    "authors": "Rho YA, Sherfey J, Vijayan S",
+    "title": "Emotional Memory Processing during REM Sleep with Implications for Post-Traumatic Stress Disorder",
+    "journal": "Journal of Neuroscience",
+    "year": 2023,
+    "doi": "10.1523/JNEUROSCI.1327-22.2022",
+    "pmcid": "PMC9864570",
+    "full_text": true,
+    "access_method": "pmc_full_text",
+    "article_date": "2026-10-17",
+    "article_number": 177
+  },
+  "PMID:41219733": {
+    "id": "PMID:41219733",
+    "type": "original_research",
+    "authors": "Di T, Liu J, Liu W, et al.",
+    "title": "REM sleep reduction leads to fear overgeneralization via negatively modulating prefrontal theta oscillations",
+    "journal": "BMC Medicine",
+    "year": 2025,
+    "doi": "10.1186/s12916-025-03863-9",
+    "pmcid": "PMC12607157",
+    "full_text": true,
+    "access_method": "pmc_full_text",
+    "article_date": "2026-10-17",
+    "article_number": 177
+  },
+  "PMID:40764488": {
+    "id": "PMID:40764488",
+    "type": "original_research",
+    "authors": "Srinivasan S, Koyanagi I, Vergara P, et al.",
+    "title": "Transient reactivation of small ensembles of adult-born neurons during REM sleep supports memory consolidation in mice",
+    "journal": "Nature Communications",
+    "year": 2025,
+    "doi": "10.1038/s41467-025-62028-z",
+    "pmcid": "PMC12325634",
+    "full_text": true,
+    "access_method": "pmc_full_text",
+    "article_date": "2026-10-17",
+    "article_number": 177
+  },
+  "PMID:7185792": {
+    "id": "PMID:7185792",
+    "type": "original_research",
+    "authors": "Aston-Jones G, Bloom FE",
+    "title": "Activity of norepinephrine-containing locus coeruleus neurons in behaving rats anticipates fluctuations in the sleep-waking cycle",
+    "journal": "Journal of Neuroscience",
+    "year": 1981,
+    "doi": null,
+    "pmcid": null,
+    "full_text": false,
+    "access_method": "abstract_only",
+    "article_date": "2026-10-17",
+    "article_number": 177
+  },
+  "sources_2026-10-17-rem-sleep-emotional-memory": {
+    "article": "#177 · REM睡眠的化学剧场",
+    "date": "2026-10-17",
+    "pmids": [
+      "PMID:35798980",
+      "PMID:36639913",
+      "PMID:41219733",
+      "PMID:40764488",
+      "PMID:7185792"
+    ],
+    "previously_cited": [
+      "PMID:19702380",
+      "PMID:22119526",
+      "PMID:28729826",
+      "PMID:28100731",
+      "PMID:38714199"
+    ],
+    "new_additions": 5,
+    "full_text_count": 4,
+    "notes": "5个新来源全部为开放获取（4个PMC全文 + 1个历史经典摘要）；5个已用来源重复使用；Rho 2023为计算模型（非实验研究）；Di 2025为人类RCT（最高级别因果证据）"
   }
 }

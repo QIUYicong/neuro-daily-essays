@@ -6,14 +6,14 @@ type: mechanism
 status: emerging
 confidence: medium-high
 created: 2026-08-26
-updated: 2026-08-26
-revision_count: 1
-dimensions: [cellular, microcircuit, brain-region, behavior, disease]
-related: [fear-conditioning, fear-extinction, amygdala, hippocampal-circuit, pattern-separation, adult-neurogenesis, ptsd, norepinephrine-locus-coeruleus]
+updated: 2026-10-17
+revision_count: 2
+dimensions: [cellular, microcircuit, brain-region, behavior, cognition, disease]
+related: [fear-conditioning, fear-extinction, amygdala, hippocampal-circuit, pattern-separation, adult-neurogenesis, ptsd, norepinephrine-locus-coeruleus, rem-sleep, emotional-memory-depotentiation, theta-frequency-fear-extinction]
 prerequisites: [fear-conditioning, amygdala, hippocampal-circuit, pattern-separation]
-opens_questions: [Q-fear-gen-01, Q-fear-gen-02]
-source_articles: [2026-08-26-ptsd-fear-circuit-vmPFC-hippocampus-amygdala]
-key_sources: ["PMID:40881229", "PMC12382489"]
+opens_questions: [Q-fear-gen-01, Q-fear-gen-02, Q-fear-gen-03]
+source_articles: [2026-08-26-ptsd-fear-circuit-vmPFC-hippocampus-amygdala, 2026-10-17-rem-sleep-emotional-memory-ne-window]
+key_sources: ["PMID:40881229", "PMC12382489", "PMID:41219733", "PMC:PMC12607157"]
 ---
 
 # 恐惧泛化 (Fear Generalization)
@@ -78,6 +78,7 @@ Xu 2025（PMID:40881229）综述还指出，外侧背侧缝核（LDRn）5-HT 神
 | 创伤应激抑制苔藓细胞 → 颗粒细胞去抑制 → 情景集合重叠 → 恐惧泛化 | 小鼠基因工具 + 恐惧泛化行为测试（Jeong et al. 2024）| PMID:40881229 | 新兴（啮齿类单研究，需复现）|
 | 5-HT 神经元谷氨酸→GABA 共释放切换驱动泛化；PTSD 死后脑有相同变化 | 小鼠遗传追踪 + 人类死后脑（Li et al. 2024）| PMID:40881229 | 新兴（需独立复现）|
 | 腹侧海马和 ACC 参与情景性恐惧泛化调控 | 动物损毁 + 行为 | PMID:40881229 | 中（多研究）|
+| 后半夜（REM主导）睡眠剥夺→恐惧泛化≈全夜剥夺；44%效应由dlPFC θ振荡介导；效果1周持续 | 人类RCT（n=126）+ fMRI + 皮肤电导 + 主观评分（Di et al. 2025）| PMID:41219733 | 高（人类因果RCT，首批直接证据）|
 
 ## 连接
 
@@ -89,15 +90,20 @@ Xu 2025（PMID:40881229）综述还指出，外侧背侧缝核（LDRn）5-HT 神
 - [[norepinephrine-locus-coeruleus]] — LC-NE 是应激后苔藓细胞抑制的上游信号
 - [[hippocampal-circuit]] — 苔藓细胞是齿状回回路的内在调节组件
 - [[adult-neurogenesis]] — 齿状回新生神经元参与模式分离；应激抑制神经发生可能加剧泛化
+- [[rem-sleep]] — REM睡眠（尤其是后半夜）对恐惧泛化具有主动保护作用；REM睡眠减少→泛化扩大
+- [[emotional-memory-depotentiation]] — 情绪去饱和化是REM保护恐惧泛化的下游功能机制
+- [[theta-frequency-fear-extinction]] — dlPFC θ振荡介导44%的REM对恐惧泛化保护效应
 
 ## 未解问题
 
 - **Q-fear-gen-01（高优先级）**：苔藓细胞受损是恐惧泛化的必要机制，还是多条并行通路之一？LC-NE 对苔藓细胞的抑制是直接的还是通过中间神经元介导？在人类中如何实验性验证这条回路（目前只有啮齿类证据）？
 - **Q-fear-gen-02（中优先级）**：恐惧泛化与 PTSD 症状严重程度的关系是什么？是否存在可逆的"泛化程度"生物标志物（如功能性 fMRI 的颗粒细胞集合重叠度）？抗抑郁药减少泛化的临床信号能否被量化？
+- **Q-fear-gen-03（高优先级，2026-10-17新增）**：Di 2025的dlPFC θ振荡介导路径机制是什么？dlPFC如何与IL皮层协同实现REM期间的恐惧泛化保护？是否可以通过非侵入性方式（如TMS、神经反馈）在后半夜选择性增强dlPFC θ来防止PTSD人群的恐惧泛化扩散？
 
 ## 修订历史
 
 - 2026-08-26 · 创建 · 基于《PTSD 中的记忆囚笼》(#124) · 初始置信度：medium-high（概念已建立；苔藓细胞具体机制为新兴证据，主要来自啮齿类，PTSD 死后脑发现待复现）
+- 2026-10-17 · 修订 rev2 · 基于《REM睡眠的化学剧场》(#177) · 新增Di 2025人类RCT证据（REM保护恐惧泛化，44% dlPFC θ介导，1周持续效应）；dimensions新增cognition；related新增rem-sleep/emotional-memory-depotentiation/theta-frequency-fear-extinction；连接新增3条；未解问题新增Q-fear-gen-03
 
 ## 来源文章
 

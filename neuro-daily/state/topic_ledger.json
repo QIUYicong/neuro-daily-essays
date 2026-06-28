@@ -1,7 +1,83 @@
 {
-  "last_updated": "2026-06-29",
-  "total_articles": 186,
+  "last_updated": "2026-10-17",
+  "total_articles": 187,
   "entries": [
+    {
+      "date": "2026-10-17",
+      "title": "REM睡眠的化学剧场：蓝斑沉默如何在梦境中重写情绪印记",
+      "filename": "2026-10-17-rem-sleep-emotional-memory-ne-window.md",
+      "article_number": 177,
+      "wiki_pages_created": [
+        "wiki/concepts/theta-frequency-fear-extinction.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/rem-sleep.md (rev3→rev4: 新增Kjaerby 2022 NE超慢振荡、Srinivasan 2025 3ABN因果证据、Di 2025人类RCT恐惧泛化保护；related/key_sources/证据表/未解问题全面更新)",
+        "wiki/concepts/fear-generalization.md (rev1→rev2: 新增Di 2025 RCT证据行；dimensions/related/连接/未解问题Q-fear-gen-03更新)",
+        "wiki/concepts/emotional-memory-depotentiation.md (rev2→rev3: 新增Rho 2023计算模型θ频率特异性段落；related/证据表/opens_questions/key_sources更新)"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "REM睡眠通过哪些互补机制实现情绪记忆的选择性去饱和化？六幕机制链：(1) LC沉默→NE≈0→去极化窗口（Kjaerby 2022 NE超慢振荡）；(2) 海马θ相位反转→已强化突触depotentiation（Poe 2017）；(3) 杏仁核-海马θ三角（LA-VH 180°反相→消退记忆巩固，Totty 2017）；(4) IL皮层主动激活（76.6%锥体神经元REM-peak，4h关键窗口，Hong 2024）；(5) 4 Hz θ特异性执行IL-BLA重构（Rho 2023计算模型）；(6) 约3个齿状回ABN实现REM依赖恐惧记忆巩固（Srinivasan 2025）。PTSD中LC持续激活→NE不归零→4 Hz失效→10 Hz可能替代。Di 2025 RCT（n=126）确立后半夜REM保护恐惧泛化，44%由dlPFC θ介导",
+      "open_questions_added": [
+        "Q-rem-new-01（高优先级）：NE超慢振荡（~30s）对情绪记忆去饱和化的因果贡献——NE下降相与纺锤波的时序关系",
+        "Q-rem-new-02（高优先级）：REM睡眠中IL皮层实际θ频率峰值——体内电生理验证Rho模型的4 Hz预测",
+        "Q-rem-new-03（高优先级）：PTSD动物模型/患者中REM期10 Hz闭环TMS/神经反馈对噩梦和恐惧泛化的效果",
+        "Q-fear-gen-03（高优先级）：Di 2025 dlPFC θ→恐惧泛化保护的具体机制通路"
+      ],
+      "layer": [
+        "molecular",
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "cognition",
+        "disease"
+      ],
+      "curriculum_track": "睡眠系列第8篇（#170 TRN→#171 SWR→#172 翻转开关→#173 腺苷/Process S→#174 SHY→#175 NT1→#176 Homer1a/Arc→#177 REM情绪记忆）；层级跨越：从分子（NE/θ频率）到回路（IL-BLA）到认知（情绪愈合）到疾病（PTSD）；课程脊柱4（学习和记忆）× 脊柱6（情绪与动机）× 脊柱11（疾病窗口/PTSD）",
+      "topic_tags": [
+        "REM sleep emotional memory depotentiation amygdala norepinephrine theta",
+        "locus coeruleus NE silence REM sleep infraslow oscillation 30s Kjaerby 2022",
+        "NE oscillation amplitude spindle NREM sleep Kjaerby 2022 Nat Neurosci",
+        "theta phase reversal hippocampal place cells depotentiation Poe 2017",
+        "LA-VH theta phase 180 degrees antiphase extinction memory Totty 2017 r=0.954",
+        "infralimbic IL cortex REM sleep 76.6% pyramidal neurons Hong 2024 4h window",
+        "NMDA receptor intrinsic excitability infralimbic REM plasticity fear extinction",
+        "4 Hz theta specificity IL-amygdala reconsolidation STDP Rho 2023",
+        "4-12 Hz theta effective non-theta ineffective IL-BLA synaptic weight",
+        "PTSD 10 Hz theta replacement 4 Hz failure theta disruption model",
+        "adult-born neurons DG REM sleep 3 ABN theta phase-locked Srinivasan 2025",
+        "Di 2025 BMC Med RCT n=126 late-night REM deprivation fear overgeneralization",
+        "dlPFC prefrontal theta 44% mediation fear generalization REM protection",
+        "Walker SFSR sleep to forget sleep to remember emotional memory",
+        "REM sleep PTSD LC noradrenaline no silence nightmares fear",
+        "emotional memory depotentiation two-layer structure content vs affective tag"
+      ],
+      "main_sources": [
+        "PMID:35798980 (PMC9817483) - Kjaerby et al. 2022 Nat Neurosci (NE超慢振荡~30s；纺锤波NE下降相驱动，开放全文)",
+        "PMID:36639913 (PMC9864570) - Rho, Sherfey, Vijayan 2023 J Neurosci (4-12Hz θ特异性；4Hz最优；PTSD→10Hz替代，计算模型，开放全文)",
+        "PMID:41219733 (PMC12607157) - Di et al. 2025 BMC Med (RCT n=126；后半夜REM剥夺→恐惧泛化；44% dlPFC θ介导；1周持续，开放全文)",
+        "PMID:40764488 (PMC12325634) - Srinivasan et al. 2025 Nat Commun (~3个ABN；theta相位锁定；REM必要；NREM无效，开放全文)",
+        "PMID:19702380 - Walker 2009 Ann NY Acad Sci (SFSR假说，已用)",
+        "PMID:22119526 (PMC3237718) - van der Helm et al. 2011 Curr Biol (fMRI杏仁核去激活，已用)",
+        "PMID:28729826 - Totty et al. 2017 Learn Mem (LA-VH θ相位，已用)",
+        "PMID:28100731 (PMC5242402) - Poe 2017 J Neurosci (θ相位反转，已用)",
+        "PMID:38714199 (PMC11111341) - Hong et al. 2024 Curr Biol (IL-REM 76.6%，已用)",
+        "PMID:7185792 - Aston-Jones & Bloom 1981 J Neurosci (LC REM沉默经典，摘要)"
+      ],
+      "unresolved_questions": [
+        "Q-rem-new-01",
+        "Q-rem-new-02",
+        "Q-rem-new-03",
+        "Q-fear-gen-03"
+      ],
+      "graph_update": "335→336 nodes (+1: theta-frequency-fear-extinction); 2024→2034 edges (+10 edges)",
+      "next_suggested_topics": [
+        "甘氨酸（Glycine）与VMM抑制神经元——REM肌张力弛缓的分子基础（NT1猝倒延伸，睡眠系列第9篇）",
+        "恐惧消退记忆的神经回路——vmPFC-IL/PL-BLA通路详解（从theta-frequency-fear-extinction连接深化）",
+        "成体海马神经发生的情绪功能——DG ABN在REM期间如何参与情绪记忆分离（Srinivasan 2025延伸）",
+        "月度综合（#151-#180第6周期）——#177完成，距#180还有3篇，准备综合",
+        "norepinephrine-locus-coeruleus wiki页深度修订——整合Kjaerby 2022超慢振荡发现"
+      ]
+    },
     {
       "date": "2026-10-05",
       "title": "髓鞘的秘密：当少突胶质细胞感知神经冲动，开始重写脑的线路图",
