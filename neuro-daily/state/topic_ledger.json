@@ -1,6 +1,6 @@
 {
-    "last_updated": "2026-06-28",
-    "total_articles": 184,
+    "last_updated": "2026-10-17",
+    "total_articles": 185,
     "entries": [
         {
             "date": "2026-10-05",
@@ -11397,6 +11397,70 @@
                 "psd-95-scaffold（深化）——TARP 槽位模型的主角，PSD-95 分子计数与突触强度上限关系（悬空引用，待建页面）",
                 "adult-neurogenesis（深化）——高度数（21）、中置信度节点；LTP 与突触可塑性机制形成跨系统对比",
                 "global-workspace-theory（深化）——高 degree 节点（28）；从分子 LTP 机制串联到意识整合的长程叙事"
+            ]
+        },
+        {
+            "date": "2026-10-17",
+            "title": "PSD-95：突触槽位的分子建筑师",
+            "filename": "2026-10-17-psd-95-scaffold-synaptic-slot.md",
+            "article_number": 185,
+            "wiki_pages_created": [
+                "wiki/concepts/psd-95-scaffold.md"
+            ],
+            "wiki_pages_revised": [
+                "wiki/concepts/postsynaptic-density.md (rev1→rev2)",
+                "wiki/concepts/calcineurin.md (rev1→rev2)",
+                "wiki/concepts/ltd.md (rev4→rev5)"
+            ],
+            "contested_claims_logged": [],
+            "contested_claims_evidence_updated": [],
+            "core_question": "PSD-95（DLG4）如何通过 PDZ 结构域设定突触 AMPA 受体数量上限（槽位模型），其纳米域组织（~80 nm，~300 拷贝/PSD）如何精确控制受体密度与突触强度，而棕榈酰化循环（DHHC2，t₁/₂ ~25 min）和 SH3-GK-AKAP150-钙调磷酸酶轴又如何分别在 LTP（槽位扩张）和 LTD（受体驱逐）方向上实现双向可塑性——PSD-95 如何成为同一个突触同时驱动对立方向可塑性的分子枢纽？",
+            "open_questions_added": [
+                "Q-psd95-01（高优先级）：LTP 前后 PSD-95 分子数量是否有系统性、可测量的变化？超分辨数据（~300 拷贝/PSD）在 LTP 前后是否有统计显著性差异的报道？",
+                "Q-psd95-02（中优先级）：棕榈酰化循环速率如何影响突触对反复活动的响应？是否存在循环饱和效应导致 PSD-95 供给不足？",
+                "Q-psd95-03（高优先级）：晚期结构 LTP 中 PSD-95 纳米域是否系统性重排（增大/更密/更精准对准释放位点）？这种重排是否是结构 LTP 的必要条件？",
+                "Q-psd95-04（中优先级）：靶向 GluN2B-PSD-95 的 nerinetide（III 期临床）长期阻断是否影响正常 LTP/LTD 和记忆巩固？"
+            ],
+            "layer": [
+                "molecular",
+                "synaptic",
+                "cellular"
+            ],
+            "curriculum_track": "课程脊柱4（学习与记忆：突触可塑性分子机制）— AMPA 受体命运三部曲终篇：PSD-95 作为突触槽位建筑师与双向可塑性枢纽",
+            "topic_tags": [
+                "PSD-95 DLG4 scaffold protein postsynaptic density synaptic slot model",
+                "PDZ domain TARP AMPA receptor anchoring synaptic targeting",
+                "slot model Schnell 2002 Science PDZ1 PDZ2 point mutation synaptic strength",
+                "PSD-95 nanodomain PALM super-resolution 80nm nanocluster AMPAR enrichment 1.9x",
+                "MacGillavry 2013 Neuron nanoscale scaffolding PMC3668352",
+                "DHHC2 palmitoylation cycle activity-sensitive synaptic targeting PSD-95",
+                "Fukata 2009 Fukata 2013 palmitoylation FRAP t1/2 25 min dynamic equilibrium",
+                "AKAP150 AKAP79 calcineurin PP2B PSD-95 SH3-GK NMDA-LTD L460P mutation",
+                "Bhattacharyya 2009 Nature Neuroscience PSD-95 AKAP LTD endocytosis PMC2694745",
+                "LTP two-phase early TARP phosphorylation late PSD structural expansion",
+                "CaMKII TARP phosphorylation PDZ affinity increase 10-30x diffusion trap",
+                "nanocluster density not area controls synaptic strength NL3 knockout Han 2022",
+                "DLG4 neurodevelopmental disorder intellectual disability epilepsy ASD mutation",
+                "nerinetide GluN2B PSD-95 PDZ2 nNOS excitotoxicity ischemia stroke Phase III",
+                "TrkB BDNF PSD-95 PDZ3 Angelman syndrome peptidomimetic cognitive improvement"
+            ],
+            "main_sources": [
+                "PMID:23719161 (MacGillavry 2013, Neuron, PSD-95 nanoclusters PALM, OPEN PMC3668352)",
+                "PMID:19596852 (Fukata 2009, J Cell Biol, DHHC2 palmitoylation, OPEN PMC2712995)",
+                "PMID:23836932 (Fukata 2013, J Cell Biol, palmitoylation cycles, OPEN PMC3704990)",
+                "PMID:19169250 (Bhattacharyya 2009, Nat Neurosci, PSD-95/AKAP150/PP2B LTD, OPEN PMC2694745)",
+                "PMID:37290118 (Nicoll & Schulman 2023, Physiol Rev, synaptic memory CaMKII, OPEN PMC10642921)",
+                "PMID:35457207 (Levy & Tümer 2022, IJMS, DLG4 neurodevelopmental disorders, OPEN PMC9025546)",
+                "PMID:35704570 (Han 2022, Sci Adv, NL3 KO nanoclusters density, OPEN PMC9200272)",
+                "PMID:34830481 (Ugalde-Triviño 2021, IJMS, PSD-95 stroke neuroprotection nerinetide, OPEN PMC8618101)",
+                "PMID:39511336 (Huie 2025, Neuropsychopharm, TrkB/PSD-95 Angelman syndrome, OPEN PMC11914665)",
+                "PMID:22114157 (Zhang & Lisman 2012, J Neurophysiol, PSD-95 CaMKII controversy, OPEN PMC3289452)",
+                "PMID:12201694 (Schnell 2002, Science, slot model bidirectional genetic evidence, 摘要)"
+            ],
+            "next_suggested_topics": [
+                "adult-neurogenesis（深化）——高度数节点；LTP/LTD 突触机制与新生神经元整合形成跨系统对比",
+                "global-workspace-theory（深化）——高 degree 节点（28）；从分子槽位机制串联到意识整合的长程叙事",
+                "excitotoxicity（深化）——PSD-95/GluN2B/nNOS 兴奋毒性通路已在本文中出现；专页 [已建] 值得强化与临床联系"
             ]
         }
     ]

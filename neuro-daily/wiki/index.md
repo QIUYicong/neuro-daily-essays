@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-06-28（第184篇·TARP 辅助亚基·AMPA 受体突触定位与 LTP 最后一公里机制）· 主题页总数：**326**（新建1页：concepts/tarp-auxiliary-subunit；修订2页：concepts/ampa-receptor rev5, neurons/camkii rev4；补全 ampa-receptor 的悬空引用 [[tarp-auxiliary-subunit]]；图谱334节点/2017边）
+> 最后更新：2026-10-17（第185篇·PSD-95 支架与突触槽位·突触双向可塑性的分子枢纽）· 主题页总数：**329**（新建3页：concepts/psd-95-scaffold [本次]，concepts/liquid-liquid-phase-separation，concepts/postsynaptic-density [#142补录]；修订5页：concepts/postsynaptic-density rev2, concepts/calcineurin rev2, concepts/ltd rev5, wiki/index.md；图谱335节点/2030边）
 
 ---
 
@@ -76,6 +76,9 @@
 - 🔵 [PINK1/Parkin 线粒体自噬](concepts/pink1-parkin-mitophagy.md) — ΔΨm消失→PINK1 OMM积累→二聚化+自磷酸化→pUb（Ser65）生成→Parkin招募+激活（正反馈放大）→NDP52/OPTN/TBK1→LC3/自噬体→溶酶体；PD早发性遗传最主要原因（PINK1/PARK6、Parkin/PARK2）；Pink1 KO猕猴vs小鼠物种差异 **[NEW 2026-09-09]**
 - 🟢 [长时程增强（LTP）](concepts/ltp.md) — 突触可塑性与学习记忆的分子基础；Aβ寡聚体通过五条通路单向阻断LTP；CA3循环突触NMDAR-LTP是模式补全的分子基础；PKMζ+PKCι/λ双KO消除L-LTP；KIBRA-PKMζ寡聚体感染性磷酸化解答Crick分子周转悖论（Paulsen 2026 60年综述）（修订15次）**[修订 rev15 2026-06-28]**
 - 🟢 [TARP 辅助亚基](concepts/tarp-auxiliary-subunit.md) — AMPA 受体从 ER 到突触的全程伴侣蛋白（ER 出口许可→横向扩散→PSD 锚定槽位）；深刻改变门控动力学（失敏减慢/亲和力提升 10×）；LTP 时 CaMKII 磷酸化 TARP polybasic region → 静电掩蔽解除 → PSD-95 亲和力骤升 10–30 倍 → 扩散陷阱捕获受体；Ravi 2022 正交突变实验证明是 LTP 最小充分机制；γ-8 海马特异性抗癫痫药靶；衰老 Cav1.3→CaMKII↓→TARPγ-8↓→LTP 缺陷因果链 **[NEW 2026-06-28]**
+- 🟢 [液-液相分离（LLPS）](concepts/liquid-liquid-phase-separation.md) — 蛋白质多价弱相互作用驱动从均相稀溶液到富集相的无膜区室形成；PSD（PSD-95/SynGAP双组分核心）和突触前囊泡簇（Synapsin）是神经科学中两个最充分研究的LLPS实例；GluN2B CTD支持LLPS，GluN2A不支持——是关键期关闭分子机制假说之一 **[NEW 2026-09-12]**
+- 🟢 [突触后密度（PSD）](concepts/postsynaptic-density.md) — 兴奋性突触后膜的蛋白质富集区（~300–500 nm宽，~80 nm厚）；由PSD-95/SynGAP多价LLPS凝聚相构成（非被膜细胞器）；LTP时CaMKII磷酸化SynGAP→SynGAP集体秒级逸散→Ras去抑制→AMPAR插入；GluN2B→GluN2A切换是关键期关闭候选机制；2026年Chen & Zhang直接纯化证实凝胶样相变 **[NEW 2026-09-12 · 修订 rev2 2026-10-17]**
+- 🟢 [PSD-95 支架（突触槽位模型）](concepts/psd-95-scaffold.md) — PSD-95（DLG4）是兴奋性突触后的核心支架蛋白，PDZ1/2 槽位数量设定突触 AMPA 受体数量上限（Schnell 2002 双向基因证据）；PALM 超分辨：~80 nm 纳米域，~300 拷贝/PSD，AMPAR 1.9× 富集；DHHC2 棕榈酰化循环（t₁/₂ ~25 min）动态维持突触定位；SH3-GK-AKAP150-钙调磷酸酶轴是 NMDA-LTD 的物理基础（L460P 因果突变实验）；DLG4 变异→智力障碍/癫痫/ASD；nerinetide III 期临床靶点 **[NEW 2026-10-17]**
 - 🟢 [模式补全](concepts/pattern-completion.md) — CA3吸引子动力学从部分线索恢复完整记忆；Nakazawa 2002 CA3-NR1 KO因果证据 **[NEW 2026-06-24]**
 - 🟢 [模式分离](concepts/pattern-separation.md) — DG扩张重编码+稀疏激活把相似输入变成不相似表征；苔藓细胞悖论：兴奋性苔藓细胞净效果为抑制颗粒细胞（Jinde 2012）；维度框架（Cayco-Gajic 2019）；Sahay 2011神经发生因果证据 **[修订 rev2→rev3 2026-08-28]**
 - 🔵 [吸引子网络](concepts/attractor-network.md) — Hopfield网络数学基础；CA3生物实现；现代Hopfield网络=Transformer注意力的数学等价 **[NEW 2026-06-24]**

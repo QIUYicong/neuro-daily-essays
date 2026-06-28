@@ -6,13 +6,13 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-04
-updated: 2026-06-04
-revision_count: 1
+updated: 2026-10-17
+revision_count: 2
 dimensions: [molecular, synaptic, cellular]
-related: [ltd, ltp, nmda-receptor, ampa-receptor, camkii]
+related: [ltd, ltp, nmda-receptor, ampa-receptor, camkii, psd-95-scaffold]
 prerequisites: [action-potential, synaptic-transmission, nmda-receptor]
 opens_questions: [Q-ltd-nmda-metabotropic]
-source_articles: [2026-06-04-ltd-long-term-depression]
+source_articles: [2026-06-04-ltd-long-term-depression, 2026-10-17-psd-95-scaffold-synaptic-slot]
 key_sources: ["PMID:24183021", "PMID:19169250"]
 ---
 
@@ -68,6 +68,7 @@ PSD-95 的 SH3-GK 结构域与 AKAP150 结合，AKAP150 同时结合钙调磷酸
 |------|------------|------|--------|
 | PP2B 抑制阻断 NMDA-LTD | FK506、cyclosporin A 等磷酸酶抑制剂在海马切片中阻断低频刺激诱导的 LTD | PMID:24183021 (PMC4195488) | 高 |
 | AKAP150/PP2B 定位是 NMDA-LTD 所需 | AKAP150 缺失 PP2B 结合域的突变体（ΔAKAP-PP2B）阻断 LTD | PMID:19169250 (PMC2694745) | 高 |
+| PSD-95 SH3-GK（L460P）→ AKAP150 结合丧失 → NMDA-LTD 消失（mGluR-LTD 不受影响） | PSD-95 L460P 点突变，分别诱导 NMDA-LTD 和 mGluR-LTD 并比较 | PMID:19169250 (PMC2694745) | 高（因果机制分离证据）|
 | PP2B 激活 PP1（通过 I1/DARPP-32 去磷酸化） | DARPP-32 磷酸化状态在 LTD 诱导时降低 | PMID:24183021 (PMC4195488) | 中-高 |
 
 ## 连接
@@ -77,6 +78,7 @@ PSD-95 的 SH3-GK 结构域与 AKAP150 结合，AKAP150 同时结合钙调磷酸
 - [[camkii]] — 与 PP2B 竞争 Ca²⁺-CaM，亲和力更低但活性更强；高 Ca²⁺ 时 CaMKII"赢"
 - [[nmda-receptor]] — NMDA 受体的 Ca²⁺ 内流是 PP2B 激活的上游触发
 - [[ampa-receptor]] — PP2B 通过 PP1 使 GluA1 去磷酸化，驱动 AMPAR 内吞
+- [[psd-95-scaffold]] — PSD-95 SH3-GK 超模块是 AKAP150（及其绑定的 PP2B）的物理锚定点；是 NMDA-LTD 的上游支架
 
 ## 未解问题
 

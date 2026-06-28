@@ -4,6 +4,59 @@
 
 ---
 
+## 2026-10-17（#185）：PSD-95 支架——突触槽位模型与双向可塑性的分子枢纽
+
+**文章**：《PSD-95：突触槽位的分子建筑师》（#185）
+
+**类型**：分子机制深度报道；突触支架蛋白；槽位模型；棕榈酰化循环；LTP/LTD 双向枢纽；层级：molecular × synaptic × cellular
+
+**新创建页面（1）**：
+- `wiki/concepts/psd-95-scaffold.md`（rev1）：PSD-95（DLG4）突触槽位综合概念页；五结构域分子结构（PDZ1/2/3–SH3–GK）；槽位模型（Schnell 2002 双向基因证据）；PSD-95 纳米域（~80 nm，~300 拷贝/PSD，AMPAR 1.9× 富集，MacGillavry 2013 PALM）；棕榈酰化循环（DHHC2，t₁/₂ ~25 min，活动敏感性）；LTP 两相扩张（早期 TARP 磷酸化/晚期 PSD 扩张）；LTD 轴（SH3-GK→AKAP150→PP2B，L460P 因果突变实验）；纳米簇密度控制传递效率（NL3 KO 模型）；疾病连接（DLG4 变异→智力障碍/ASD/癫痫；兴奋毒性 nNOS 通路；nerinetide III 期）；4 个未解问题（Q-psd95-01 至 Q-psd95-04）；11 个关键来源；11 条 wiki 连接
+
+**修订页面（3）**：
+- `wiki/concepts/postsynaptic-density.md`（rev1→rev2）：更新日期；added psd-95-scaffold 到 related 和 connections；新增 PALM 纳米域证据（PMID:23719161）和棕榈酰化循环证据（PMID:19596852, PMID:23836932）；新增 source_articles
+- `wiki/concepts/calcineurin.md`（rev1→rev2）：added psd-95-scaffold 到 related 和 connections；新增证据行（PSD-95 L460P 突变阻断 NMDA-LTD，因果机制分离证据）；新增 source_articles
+- `wiki/concepts/ltd.md`（rev4→rev5）：added psd-95-scaffold 到 related 和 connections；新增 source_articles
+
+**补录至 index.md（2）**（文章 #142 创建但当时未记录至 index）：
+- `wiki/concepts/liquid-liquid-phase-separation.md`（rev1，2026-09-12）
+- `wiki/concepts/postsynaptic-density.md`（rev1→rev2，2026-09-12 创建）
+
+**图谱变更**：
+- 新增节点（1）：psd-95-scaffold（concepts/mechanism/established/high）
+- 新增边（13条）：
+  - psd-95-scaffold→postsynaptic-density（part-of）
+  - psd-95-scaffold→ampa-receptor（regulates）
+  - psd-95-scaffold→nmda-receptor（regulates）
+  - psd-95-scaffold→camkii（related）
+  - psd-95-scaffold→calcineurin（regulates）
+  - psd-95-scaffold→ltp（mechanism-of）
+  - psd-95-scaffold→ltd（mechanism-of）
+  - psd-95-scaffold→liquid-liquid-phase-separation（related）
+  - psd-95-scaffold→excitotoxicity（related）
+  - psd-95-scaffold→tarp-auxiliary-subunit（regulates）
+  - postsynaptic-density→psd-95-scaffold（related）
+  - calcineurin→psd-95-scaffold（related）
+  - ltd→psd-95-scaffold（related）
+- 更新：_graph.json → 335节点 / 2030边（+1节点/+13有效边），updated → 2026-10-17
+
+**未解问题新增**：Q-psd95-01（高，LTP 前后 PSD-95 拷贝数是否可测量变化）、Q-psd95-02（中，棕榈酰化循环饱和效应）、Q-psd95-03（高，晚期结构 LTP 中 PSD-95 纳米域重排必要性）、Q-psd95-04（中，nerinetide 长期阻断对记忆巩固的影响）
+
+**来源（11条，10篇开放获取）**：
+- PMID:23719161（MacGillavry 2013, Neuron）— PSD-95 纳米域 ~80nm，AMPAR 1.9× 富集；开放（PMC3668352）
+- PMID:19596852（Fukata 2009, J Cell Biol）— DHHC2 活动敏感性棕榈酰化；开放（PMC2712995）
+- PMID:23836932（Fukata 2013, J Cell Biol）— 棕榈酰化循环 t₁/₂ ~25 min；开放（PMC3704990）
+- PMID:19169250（Bhattacharyya 2009, Nat Neurosci）— PSD-95-AKAP150-钙调磷酸酶轴 LTD；开放（PMC2694745）
+- PMID:37290118（Nicoll & Schulman 2023, Physiol Rev）— LTP 七步 CaMKII 机制综述；开放（PMC10642921）
+- PMID:35457207（Levy & Tümer 2022, IJMS）— DLG4 神经发育障碍；开放（PMC9025546）
+- PMID:35704570（Han 2022, Sci Adv）— NL3 KO 纳米簇密度决定突触强度；开放（PMC9200272）
+- PMID:34830481（Ugalde-Triviño 2021, IJMS）— PSD-95/nNOS 兴奋毒性；nerinetide；开放（PMC8618101）
+- PMID:39511336（Huie 2025, Neuropsychopharm）— PDZ3-TrkB Angelman 综合征；开放（PMC11914665）
+- PMID:22114157（Zhang & Lisman 2012, J Neurophysiol）— 槽位模型争议（CaMKII 必要性）；开放（PMC3289452）
+- PMID:12201694（Schnell 2002, Science）— 槽位模型原始双向基因证据；仅摘要
+
+---
+
 ## 2026-06-28（#184）：TARP 辅助亚基——AMPA 受体突触定位与 LTP 的分子导航系统
 
 **文章**：《AMPA 受体的突触之旅：TARP 辅助亚基如何引导受体驻扎、改造门控并参与 LTP》（#184）

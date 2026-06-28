@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-28",
+  "last_updated": "2026-10-17",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -11432,7 +11432,7 @@
       "pmcid": "PMC11343219"
     }
   ],
-  "total_sources": 655,
+  "total_sources": 665,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",
@@ -16634,5 +16634,56 @@
         "note": "PMID requires verification"
       }
     ]
+  },
+  "sources_2026-10-17": {
+    "article": "2026-10-17-psd-95-scaffold-synaptic-slot.md",
+    "article_number": 185,
+    "date": "2026-10-17",
+    "sources_added": 10,
+    "sources_reused": 1,
+    "new_pmids": [
+      "23719161",
+      "19596852",
+      "23836932",
+      "19169250",
+      "37290118",
+      "35457207",
+      "35704570",
+      "34830481",
+      "39511336",
+      "22114157"
+    ],
+    "reused_pmids": [
+      "12201694"
+    ],
+    "all_pmids": [
+      "23719161",
+      "19596852",
+      "23836932",
+      "19169250",
+      "37290118",
+      "35457207",
+      "35704570",
+      "34830481",
+      "39511336",
+      "22114157",
+      "12201694"
+    ],
+    "open_access_pmcids": [
+      "PMC3668352",
+      "PMC2712995",
+      "PMC3704990",
+      "PMC2694745",
+      "PMC10642921",
+      "PMC9025546",
+      "PMC9200272",
+      "PMC8618101",
+      "PMC11914665",
+      "PMC3289452"
+    ],
+    "abstract_only": [
+      "12201694"
+    ],
+    "note": "S11 (PMID:12201694, Schnell 2002) abstract only; already cited in #184 TARP article"
   }
 }

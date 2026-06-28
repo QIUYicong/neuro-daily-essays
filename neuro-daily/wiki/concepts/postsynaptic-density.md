@@ -6,14 +6,14 @@ type: structure
 status: established
 confidence: high
 created: 2026-09-12
-updated: 2026-09-12
-revision_count: 1
+updated: 2026-10-17
+revision_count: 2
 dimensions: [molecular, synaptic, cellular]
-related: [liquid-liquid-phase-separation, ltp, ampa-receptor, nmda-receptor, camkii, synaptic-transmission, synapsin, alzheimers-disease, arc-arg31, calcineurin, synaptic-tagging-capture]
+related: [liquid-liquid-phase-separation, ltp, ampa-receptor, nmda-receptor, camkii, synaptic-transmission, synapsin, alzheimers-disease, arc-arg31, calcineurin, synaptic-tagging-capture, psd-95-scaffold]
 prerequisites: [synaptic-transmission, ampa-receptor, nmda-receptor]
 opens_questions: [Q-psd-01, Q-psd-02]
-source_articles: [2026-09-12-liquid-liquid-phase-separation-postsynaptic-density]
-key_sources: ["PMID:27565345", "PMID:30078712", "PMID:41405989", "PMID:36671389", "PMID:30599311"]
+source_articles: [2026-09-12-liquid-liquid-phase-separation-postsynaptic-density, 2026-10-17-psd-95-scaffold-synaptic-slot]
+key_sources: ["PMID:27565345", "PMID:30078712", "PMID:41405989", "PMID:36671389", "PMID:30599311", "PMID:23719161", "PMID:19596852", "PMID:23836932"]
 ---
 
 # 突触后密度（PSD, Postsynaptic Density）
@@ -74,6 +74,8 @@ key_sources: ["PMID:27565345", "PMID:30078712", "PMID:41405989", "PMID:36671389"
 | 多蛋白 PSD 重建体富集受体、促进肌动蛋白、排除 Gephyrin | 支持膜双层 PSD 重建体系 | PMID:30078712 | 高 |
 | 原生 PSD 为凝胶样凝聚体，Ca²⁺ 激活后重组 | 直接纯化小鼠脑原生 PSD | PMID:41405989 | 中-高（2026 最新）|
 | GluN2B CTD 支持 LLPS，GluN2A CTD 不支持 | 体外蛋白相分离实验 + IDR 无序度分析 | PMID:36671389 | 中（体外）|
+| PSD-95 形成 ~80 nm 纳米簇，AMPAR 在簇内富集 1.9×，NMDAR 不富集 | PALM 超分辨成像（~25 nm），每 PSD ~300 个 PSD-95 | PMID:23719161 (PMC3668352) | 高 |
+| PSD-95 棕榈酰化循环（t₁/₂ ~25 min）由 DHHC2 驱动，活动降低时触发 | FRAP + 构象特异性抗体 + DHHC2 shRNA | PMID:19596852 (PMC2712995); PMID:23836932 (PMC3704990) | 高 |
 
 ## 连接
 
@@ -85,6 +87,7 @@ key_sources: ["PMID:27565345", "PMID:30078712", "PMID:41405989", "PMID:36671389"
 - [[synapsin]] — 突触前 LLPS 的对应物：同样是液态凝聚相，由 Ca²⁺/CaMKII 磷酸化溶解
 - [[synaptic-tagging-capture]] — CaMKII 凝聚体可能作为突触标签物理基础
 - [[alzheimers-disease]] — Aβ 寡聚体通过多条通路破坏 PSD 完整性（NMDAR/SynGAP/CaMKII），PSD 损坏是早期 AD 记忆障碍的突触底物
+- [[psd-95-scaffold]] — PSD-95 是 PSD 的核心支架（MAGUK 层），其拷贝数设定 AMPAR 槽位上限；棕榈酰化循环和纳米域组织是 PSD 精细结构的分子基础
 
 ## 未解问题
 
@@ -94,7 +97,9 @@ key_sources: ["PMID:27565345", "PMID:30078712", "PMID:41405989", "PMID:36671389"
 ## 修订历史
 
 - 2026-09-12 · 创建 · 基于《突触的自组装奥秘》文章（#142）· 初始置信度：高（结构维度 established；LLPS 机制维度 mainstream）
+- 2026-10-17 · 修订 · 基于《PSD-95：突触槽位的分子建筑师》(#185) · 新增 PSD-95 纳米域定量数据（PALM：~80nm 簇，~300 拷贝/PSD，AMPAR 1.9× 富集）；新增棕榈酰化循环证据（DHHC2 shRNA，t₁/₂ ~25 min）；新增 psd-95-scaffold 连接；更新 key_sources
 
 ## 来源文章
 
 - [[2026-09-12-liquid-liquid-phase-separation-postsynaptic-density]]
+- [[2026-10-17-psd-95-scaffold-synaptic-slot]]

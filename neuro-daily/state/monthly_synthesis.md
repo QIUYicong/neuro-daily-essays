@@ -2060,3 +2060,25 @@
 **图谱**：334节点/2017边（+1节点：tarp-auxiliary-subunit；+11边；updated 2026-06-28）
 
 **层级**：molecular × synaptic × cellular（AMPA 受体命运三部曲第三篇：#64 BDNF-TrkB → #181 KIBRA-PKMζ → #184 TARP-PSD-95，构成 Ca²⁺→CaMKII→{GluA1 S831+TARP 磷酸化}→{BDNF-TrkB+PKMζ-KIBRA} 的完整分子故事）
+
+---
+
+## 2026-10-17（#185）日摘要
+
+**主题**：PSD-95：突触槽位的分子建筑师——从 PDZ 结构域到双向可塑性枢纽
+
+**核心发现**：PSD-95（DLG4）是兴奋性突触后致密区（PSD）的核心支架，其三个 PDZ 结构域构建了决定突触 AMPA 受体容量上限的"突触槽位"体系。Schnell et al. 2002（PMID:12201694）提供了槽位模型的双向基因证据：PDZ1/2 突变导致 AMPAR 骤降，过量表达使 AMPAR 增加，奠定了"拷贝数 = 槽位 = AMPAR 容量上限"的核心命题。MacGillavry et al. 2013（PMID:23719161, PMC3668352，PALM 超分辨成像）将这一模型精确到纳米尺度：每个 PSD 约 300 个 PSD-95 分子聚集为 ~80 nm 纳米簇，AMPAR 在簇内富集 1.9 倍（NMDAR 无显著富集），突触强度可通过纳米域局部密度而非总面积调节。动态维度：Fukata 组（2009/2013，PMID:19596852/23836932，DHHC2-shRNA+FRAP）证明 PSD-95 经历持续棕榈酰化/去棕榈酰化循环（t₁/₂ ~25 min），DHHC2 活动敏感性定位是将神经活动转化为 PSD-95 突触密度的动态控制阀。LTP 两阶段机制：早期（CaMKII→TARP 磷酸化→静电掩蔽解除→PSD-95 亲和力 10-30 倍提升→扩散陷阱更高效利用已有槽位）；晚期（肌动蛋白聚合→PSD 面积扩大→更多 PSD-95 入驻→新槽位净增）。LTD 轴：Bhattacharyya et al. 2009（PMID:19169250，L460P 突变）因果性分离：SH3-GK 超模块锚定 AKAP150→钙调磷酸酶定位→PP1→GluA1 去磷酸化→AMPAR 内吞，L460P 突变选择性阻断 NMDA-LTD（mGluR-LTD 不受影响）。临床转化：PSD-95 PDZ2-GluN2B-nNOS 三元复合体是兴奋毒性的关键转接点，nerinetide 靶向该复合体已进入 III 期临床试验（DLG4 变异→AMPAR/NMDAR 锚定异常→智力障碍/ASD/癫痫）。
+
+**关键分层**：分子层（三 PDZ 槽位结构/棕榈酰化循环/SH3-GK-AKAP150 轴/PDZ2-nNOS 兴奋毒性）→ 突触层（纳米域组织/扩散陷阱/LTP 双阶段/LTD 磷酸酶级联）→ 细胞层（活动-PSD-95 密度反馈/DHHC2 质膜定位控制）→ 疾病层（兴奋毒性/智力障碍/ASD/癫痫，nerinetide III 期临床）→ AI 对比（PSD-95 槽位容量控制 vs Transformer 注意力矩阵无上界，物理约束 vs 数值约束的计算哲学差异）。
+
+**知识地图贡献**：
+- 新建 psd-95-scaffold 专页（concepts/mechanism/established/high）；补全多个悬空引用
+- postsynaptic-density.md (rev2)：补充 PSD-95 纳米域定量数据（PALM：~80nm 簇，~300 拷贝/PSD，AMPAR 1.9× 富集）；棕榈酰化循环证据（DHHC2-shRNA，t₁/₂ ~25 min）；新增 psd-95-scaffold 连接
+- calcineurin.md (rev2)：补充 AKAP150 空间定位机制详细证据（L460P 因果分离）；新增 psd-95-scaffold 连接
+- ltd.md (rev5)：补充 SH3-GK 超模块-AKAP150-PP2B 的完整分子轴；新增 psd-95-scaffold 连接
+- wiki/index.md：补录 liquid-liquid-phase-separation 和 postsynaptic-density 两个缺失页面（#142 遗漏）；新增 psd-95-scaffold 条目
+- 新增未解问题 Q-psd95-01（高，LTP 前后 PSD-95 拷贝数系统变化）/ Q-psd95-02（中，棕榈酰化循环饱和）/ Q-psd95-03（高，结构 LTP 中纳米域重排必要性）/ Q-psd95-04（中，nerinetide 认知安全性）
+
+**图谱**：335节点/2030边（+1节点：psd-95-scaffold；+13边；修正 wiki/index.md 页面计数 326→329；updated 2026-10-17）
+
+**层级**：molecular × synaptic × cellular × disease（AMPA 受体命运四部曲第四篇：#64 BDNF-TrkB → #142 PSD LLPS → #181 KIBRA-PKMζ → #184 TARP → #185 PSD-95-scaffold，LTP 分子机器从 Ca²⁺ 进入到 AMPAR 稳定驻留的完整因果链；PSD-95 同时是 LTP（槽位/TARP 捕获）和 LTD（AKAP150/PP2B 轴）的空间枢纽，在一篇文章中完成双向可塑性的结构统一）

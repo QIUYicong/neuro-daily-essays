@@ -997,5 +997,14 @@
     "confidence": "high",
     "last_changed": "2026-10-16",
     "change_reason": "创建新页面（Diering 2017 Science 核心证据；Diering 2022综述；Suzuki 2020遗传验证）"
+  },
+  {
+    "id": "psd-95-scaffold",
+    "slug": "psd-95-scaffold",
+    "page": "wiki/concepts/psd-95-scaffold.md",
+    "current_status": "established",
+    "confidence": "high",
+    "last_changed": "2026-10-17",
+    "change_reason": "创建新页面（rev1）· #185 · 槽位模型（Schnell 2002 Science 双向基因证据）；PSD-95 纳米域（MacGillavry 2013 Neuron PALM，高质量）；棕榈酰化循环（Fukata 2009/2013，两篇 J Cell Biol 独立验证）；LTD 轴（Bhattacharyya 2009 Nat Neurosci L460P 因果突变，高质量）；核心机制均为多来源独立验证的已建立机制"
   }
 ]

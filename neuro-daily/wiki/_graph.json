@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-06-28",
-  "node_count": 333,
-  "edge_count": 2006,
+  "updated": "2026-10-17",
+  "node_count": 335,
+  "edge_count": 2030,
   "edge_types": [
     "is-a",
     "part-of",
@@ -3048,6 +3048,15 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/tarp-auxiliary-subunit.md"
+    },
+    {
+      "id": "psd-95-scaffold",
+      "title": "PSD-95 支架（突触槽位模型）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/psd-95-scaffold.md"
     }
   ],
   "edges": [
@@ -14376,6 +14385,84 @@
       "to": "tarp-auxiliary-subunit",
       "type": "phosphorylates",
       "note": "CaMKII 在 LTP 诱导时磷酸化 TARP γ-2/γ-8 的 polybasic region，是 LTP 分子最后一公里"
+    },
+    {
+      "from": "psd-95-scaffold",
+      "to": "postsynaptic-density",
+      "type": "part-of",
+      "note": "PSD-95是PSD相分离凝聚体的核心支架蛋白"
+    },
+    {
+      "from": "psd-95-scaffold",
+      "to": "ampa-receptor",
+      "type": "regulates",
+      "note": "PDZ1/2槽位决定突触AMPAR数量上限"
+    },
+    {
+      "from": "psd-95-scaffold",
+      "to": "nmda-receptor",
+      "type": "regulates",
+      "note": "GluN2B CTD通过PDZ2与PSD-95直接结合"
+    },
+    {
+      "from": "psd-95-scaffold",
+      "to": "camkii",
+      "type": "related",
+      "note": "CaMKII磷酸化TARP增强TARP-PSD-95亲和力，早期LTP的关键步骤"
+    },
+    {
+      "from": "psd-95-scaffold",
+      "to": "calcineurin",
+      "type": "regulates",
+      "note": "SH3-GK通过AKAP150将钙调磷酸酶定位于PSD，是NMDA-LTD的物理基础"
+    },
+    {
+      "from": "psd-95-scaffold",
+      "to": "ltp",
+      "type": "mechanism-of",
+      "note": "PSD-95槽位数量是LTP的物理上限；晚期LTP通过扩大PSD-95库持久提升上限"
+    },
+    {
+      "from": "psd-95-scaffold",
+      "to": "ltd",
+      "type": "mechanism-of",
+      "note": "PSD-95-AKAP150-钙调磷酸酶轴是NMDA-LTD的必要条件"
+    },
+    {
+      "from": "psd-95-scaffold",
+      "to": "liquid-liquid-phase-separation",
+      "type": "related",
+      "note": "PSD-95/SynGAP多价网络通过LLPS形成PSD凝聚相"
+    },
+    {
+      "from": "psd-95-scaffold",
+      "to": "excitotoxicity",
+      "type": "related",
+      "note": "PDZ2将GluN2B与nNOS连接，是兴奋毒性NO信号的物理媒介"
+    },
+    {
+      "from": "postsynaptic-density",
+      "to": "psd-95-scaffold",
+      "type": "related",
+      "note": "PSD-95是PSD的核心支架（MAGUK层）"
+    },
+    {
+      "from": "calcineurin",
+      "to": "psd-95-scaffold",
+      "type": "related",
+      "note": "通过AKAP150锚定于PSD-95 SH3-GK结构域"
+    },
+    {
+      "from": "ltd",
+      "to": "psd-95-scaffold",
+      "type": "related",
+      "note": "PSD-95是NMDA-LTD的上游物理支架"
+    },
+    {
+      "from": "psd-95-scaffold",
+      "to": "tarp-auxiliary-subunit",
+      "type": "regulates",
+      "note": "TARP是PSD-95 PDZ1/2槽位的配体；LTP时CaMKII磷酸化TARP使PDZ结合亲和力骤升"
     }
   ],
   "dangling_references": [

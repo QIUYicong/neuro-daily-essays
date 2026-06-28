@@ -1,0 +1,117 @@
+# 运行日志 · 2026-10-17 · 第185篇
+
+## 运行元数据
+
+- 运行时间：2026-10-17 09:00 UTC+8（计划触发）
+- 文章编号：#185
+- 文章日期：2026-10-17
+- 知识库连续日期：延续 #184（2026-06-28，TARP 辅助亚基）
+
+## 步骤 A — 读取状态文件
+
+- 读取 ROUTINE.md ✓
+- 读取 KNOWLEDGE-BASE-DESIGN.md ✓
+- 读取 state/topic_ledger.json（最新 #184） ✓
+- 读取 state/monthly_synthesis.md（10月：8篇） ✓
+- 读取 state/unresolved_questions.md ✓
+- 读取 wiki/_graph.json（334节点/2017边） ✓
+
+## 步骤 B — 选题
+
+**候选**：#184 next_suggested_topics 包含 psd-95-scaffold（PSD-95 支架蛋白与突触槽位模型）
+
+**选题理由**：
+- #184 TARP 文章多次提到 PSD-95 槽位但未深入；psd-95-scaffold 是 ampa-receptor、tarp-auxiliary-subunit、postsynaptic-density 等页面的悬空核心引用
+- PSD-95 同时参与 LTP（槽位/TARP 捕获）和 LTD（SH3-GK→AKAP150→PP2B）——是理解双向可塑性物理枢纽的绝佳主角
+- 文献可及性好：MacGillavry 2013/PMC3668352（PALM 纳米域）、Fukata 2009+2013（棕榈酰化循环）等均开放全文
+
+**最终选题**：《PSD-95：突触槽位的分子建筑师》
+
+**核心问题**：突触"记住"自己的强度——AMPA 受体数量长期稳定而可调——靠的是哪个分子的数量和定位决定的？PSD-95 如何以槽位结构同时控制 LTP（增强）与 LTD（减弱）两个方向？
+
+## 步骤 C — 研究与写作
+
+### 数据来源
+
+| ID | PMID | PMC | 标题（缩略） | 获取方式 | 全文 |
+|----|------|-----|-------------|---------|------|
+| S1 | 23719161 | PMC3668352 | MacGillavry 2013 · PSD-95 纳米域/PALM | PMC 开放全文 | ✓ |
+| S2 | 19596852 | PMC2712995 | Noritake/Fukata 2009 · DHHC2 棕榈酰化 | PMC 开放全文 | ✓ |
+| S3 | 23836932 | PMC3704990 | Fukata 2013 · 棕榈酰化循环/纳米域 | PMC 开放全文 | ✓ |
+| S4 | 19169250 | PMC2694745 | Bhattacharyya 2009 · PSD-95/AKAP150/LTD | PMC 开放全文 | ✓ |
+| S5 | 37290118 | PMC10642921 | Nicoll & Schulman 2023 · CaMKII 综述 | PMC 开放全文 | ✓ |
+| S6 | 35457207 | PMC9025546 | Levy & Tümer 2022 · DLG4 神经发育障碍 | PMC 开放全文 | ✓ |
+| S7 | 35704570 | PMC9200272 | Han 2022 · NL3/AMPAR 纳米簇密度 | PMC 开放全文 | ✓ |
+| S8 | 34830481 | PMC8618101 | Ugalde-Triviño 2021 · PSD-95/nerinetide/卒中 | PMC 开放全文 | ✓ |
+| S9 | 39511336 | PMC11914665 | Huie 2025 · TrkB-PSD-95 PDZ3 / Angelman | PMC 开放全文 | ✓ |
+| S10 | 22114157 | PMC3289452 | Zhang & Lisman 2012 · 槽位模型批判 | PMC 开放全文 | ✓ |
+| S11 | 12201694 | — | Schnell 2002 · 槽位模型原始双向证据 | 摘要仅（经典文献）| ✗ |
+
+**开放全文**：10/11（满足 ≥2 要求）
+
+### 写作摘要
+
+- 文章字数：约 5200 字
+- 结构：核心命题（槽位模型）→ 机制一（纳米域组织）→ 机制二（棕榈酰化循环）→ 机制三（LTP 双阶段）→ 机制四（LTD/AKAP150 轴）→ 临床转化 → AI 对比 → 深层模式
+- 所有关键数据均来自已验证文献（无编造）
+
+## 步骤 D — Wiki 创建与修订
+
+### 新建页面
+
+| 页面 | 路径 | 状态 |
+|------|------|------|
+| PSD-95 支架（突触槽位模型） | wiki/concepts/psd-95-scaffold.md | ✓ 新建 rev1 |
+
+### 修订页面
+
+| 页面 | 修订前 | 修订后 | 主要变更 |
+|------|--------|--------|---------|
+| postsynaptic-density.md | rev1 | rev2 | 新增 PSD-95 纳米域定量数据；棕榈酰化循环；psd-95-scaffold 连接 |
+| calcineurin.md | rev1 | rev2 | 新增 AKAP150 空间定位机制；L460P 因果分离证据；psd-95-scaffold 连接 |
+| ltd.md | rev4 | rev5 | 新增 SH3-GK 超模块-AKAP150-PP2B 完整分子轴；psd-95-scaffold 连接 |
+
+### wiki/index.md 补录
+
+发现并修复：liquid-liquid-phase-separation 和 postsynaptic-density 两个页面（#142 创建，2026-09-12）从未被添加到 index.md。本次一并补录，并新增 psd-95-scaffold 条目。页面计数：326 → 329。
+
+## 步骤 E — 图谱更新
+
+| 操作 | 详情 |
+|------|------|
+| 节点新增 | psd-95-scaffold（+1）|
+| 边新增 | psd-95-scaffold↔postsynaptic-density, ampa-receptor, nmda-receptor, camkii, calcineurin, ltp, ltd, liquid-liquid-phase-separation, excitotoxicity, tarp-auxiliary-subunit；postsynaptic-density→psd-95-scaffold, calcineurin→psd-95-scaffold, ltd→psd-95-scaffold（+13）|
+| 图谱状态前 | 334节点 / 2017边 |
+| 图谱状态后 | 335节点 / 2030边 |
+
+## 步骤 F — 状态文件更新
+
+| 文件 | 更新内容 | 状态 |
+|------|---------|------|
+| state/topic_ledger.json | 新增 #185 条目；total_articles → 185 | ✓ |
+| state/unresolved_questions.md | 新增 Q-psd95-01/02/03/04 | ✓ |
+| state/maturity_index.json | 新增 psd-95-scaffold 条目 | ✓ |
+| state/monthly_synthesis.md | 新增 #185 日摘要 | ✓ |
+| state/source_registry.json | 新增 sources_2026-10-17（10新+1复用）| ✓ |
+| wiki/CHANGELOG.md | 新增 2026-10-17 完整变更记录 | ✓ |
+
+## 步骤 G — 辅助文件
+
+| 文件 | 状态 |
+|------|------|
+| sources/2026-10-17-sources.json（11条） | ✓ |
+| notes/2026-10-17-reading-notes.md | ✓ |
+| logs/2026-10-17-run.log（本文件） | ✓ |
+
+## 步骤 H — Git 提交
+
+- 作者：QIUYicong <169510482+QIUYicong@users.noreply.github.com>
+- 分支：claude/funny-einstein-28yibc
+- 提交信息：Add neuro daily article + wiki consolidation for 2026-10-17
+
+## 运行摘要
+
+**文章**：#185《PSD-95：突触槽位的分子建筑师》（~5200字，10/11开放全文）
+**Wiki**：新建1页（psd-95-scaffold）；修订3页（postsynaptic-density rev2、calcineurin rev2、ltd rev5）；补录2缺失页面到index；335节点/2030边
+**未解问题**：4个新增（Q-psd95-01至04）
+**知识连接**：完成 AMPAR 命运四部曲（#64 BDNF-TrkB → #142 LLPS/PSD → #181 KIBRA-PKMζ → #184 TARP → #185 PSD-95 scaffold）

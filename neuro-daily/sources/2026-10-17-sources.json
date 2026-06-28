@@ -1,0 +1,205 @@
+{
+  "date": "2026-10-17",
+  "article": "2026-10-17-psd-95-scaffold-synaptic-slot.md",
+  "article_number": 185,
+  "topic": "PSD-95：突触槽位的分子建筑师",
+  "sources": [
+    {
+      "id": "S1",
+      "pmid": "23719161",
+      "pmcid": "PMC3668352",
+      "doi": "10.1016/j.neuron.2013.04.020",
+      "title": "Nanoscale scaffolding domains within the postsynaptic density concentrate synaptic AMPA receptors",
+      "authors": ["MacGillavry HD", "Song Y", "Raghavachari S", "Blanpied TA"],
+      "journal": "Neuron",
+      "year": 2013,
+      "volume": "78",
+      "pages": "615-622",
+      "full_text_available": true,
+      "access_method": "PMC open access",
+      "used_for": "PSD-95纳米域定量数据：~80nm簇，~300分子/PSD，AMPAR富集1.9×，TTX诱导纳米域扩张",
+      "key_claims": [
+        "PSD-95纳米簇直径约80nm，面积4580±402nm²",
+        "每个PSD约300个PSD-95分子",
+        "GluA2在纳米簇内密度1.9±0.1倍于整个PSD平均值",
+        "GluN1无显著富集",
+        "TTX 48h后PSD面积从0.094增至0.125μm²"
+      ]
+    },
+    {
+      "id": "S2",
+      "pmid": "19596852",
+      "pmcid": "PMC2712995",
+      "doi": "10.1083/jcb.200901139",
+      "title": "Mobile DHHC palmitoylating enzyme mediates activity-sensitive synaptic targeting of PSD-95",
+      "authors": ["Noritake J", "Fukata Y", "Iwanaga T", "Hosomi N", "Tsutsumi R", "Matsuda N", "Fukata M"],
+      "journal": "Journal of Cell Biology",
+      "year": 2009,
+      "full_text_available": true,
+      "access_method": "PMC open access",
+      "used_for": "DHHC2介导活动敏感性PSD-95棕榈酰化；活动降低→DHHC2突触后定位→PSD-95聚集→AMPAR增加",
+      "key_claims": [
+        "DHHC2（非DHHC3）介导活动敏感性PSD-95棕榈酰化",
+        "神经活动降低→DHHC2从移动小泡定位至突触后膜",
+        "DHHC2突触定位是PSD-95聚集和AMPAR增加的上游事件"
+      ]
+    },
+    {
+      "id": "S3",
+      "pmid": "23836932",
+      "pmcid": "PMC3704990",
+      "doi": "10.1083/jcb.201302071",
+      "title": "Local palmitoylation cycles define activity-regulated postsynaptic subdomains",
+      "authors": ["Fukata Y", "Dimitrov A", "Boncompain G", "Vielemeyer O", "Perez F", "Fukata M"],
+      "journal": "Journal of Cell Biology",
+      "year": 2013,
+      "full_text_available": true,
+      "access_method": "PMC open access",
+      "used_for": "PSD-95棕榈酰化动态循环；DHHC2在质膜定位对纳米域形成的必要性；PSD-95 FRAP半衰期~25分钟",
+      "key_claims": [
+        "PSD-95经历持续的去/再棕榈酰化循环（非一次性修饰）",
+        "DHHC2在质膜的插入是PSD-95纳米域形成的必要条件",
+        "PSD-95 FRAP t₁/₂约25分钟，说明突触动态交换"
+      ]
+    },
+    {
+      "id": "S4",
+      "pmid": "19169250",
+      "pmcid": "PMC2694745",
+      "doi": "10.1038/nn.2259",
+      "title": "A critical role for PSD-95/AKAP interactions in endocytosis of synaptic AMPA receptors",
+      "authors": ["Bhattacharyya S", "Biou V", "Xu W", "Schlüter O", "Malenka RC"],
+      "journal": "Nature Neuroscience",
+      "year": 2009,
+      "full_text_available": true,
+      "access_method": "PMC open access",
+      "used_for": "PSD-95在NMDAR-LTD中的必要角色：SH3-GK域结合AKAP150→定位钙调磷酸酶→AMPAR胞吞",
+      "key_claims": [
+        "PSD-95 knockdown阻断NMDAR-LTD但不影响mGluR-LTD",
+        "PSD-95 SH3-GK域L460P突变→AKAP150结合丧失→LTD阻断",
+        "AKAP150无法结合钙调磷酸酶突变体→LTD阻断",
+        "PSD-95-AKAP150-钙调磷酸酶轴是NMDAR-LTD的必要条件"
+      ]
+    },
+    {
+      "id": "S5",
+      "pmid": "37290118",
+      "pmcid": "PMC10642921",
+      "doi": "10.1152/physrev.00002.2022",
+      "title": "Synaptic memory and CaMKII",
+      "authors": ["Nicoll RA", "Schulman H"],
+      "journal": "Physiological Reviews",
+      "year": 2023,
+      "full_text_available": true,
+      "access_method": "PMC open access",
+      "used_for": "LTP机制综述：CaMKII→TARP磷酸化→PSD-95亲和力骤升→AMPAR积累",
+      "key_claims": [
+        "CaMKII激活→GluN2B结合→PSD重排→AMPAR积累（七步LTP模型）",
+        "PSD-95是LTP早期表达的关键中间节点"
+      ]
+    },
+    {
+      "id": "S6",
+      "pmid": "35457207",
+      "pmcid": "PMC9025546",
+      "doi": "10.3390/ijms23094377",
+      "title": "Neurodevelopmental Disorders Associated with PSD-95 and Its Interaction Partners",
+      "authors": ["Levy AM", "Tümer Z"],
+      "journal": "International Journal of Molecular Sciences",
+      "year": 2022,
+      "full_text_available": true,
+      "access_method": "PMC open access",
+      "used_for": "DLG4变异引起智力障碍、癫痫、ASD的临床证据",
+      "key_claims": [
+        "DLG4功能缺失变异→AMPAR/NMDAR锚定异常→智力障碍",
+        "DLG4与多种神经发育障碍（ASD、癫痫）关联"
+      ]
+    },
+    {
+      "id": "S7",
+      "pmid": "35704570",
+      "pmcid": "PMC9200272",
+      "doi": "10.1126/sciadv.abm9806",
+      "title": "Neuroligin-3 Confines AMPA Receptors into Nanoclusters, Thereby Controlling Synaptic Strength at the Calyx of Held Synapses",
+      "authors": ["Han Y", "Cao R", "Qin L", "Chen LY", "Tang AH", "Südhof TC", "Zhang B"],
+      "journal": "Science Advances",
+      "year": 2022,
+      "full_text_available": true,
+      "access_method": "PMC open access",
+      "used_for": "纳米簇密度（非总面积）决定突触强度；NL3 KO模型",
+      "key_claims": [
+        "NL3缺失→AMPAR纳米簇面积增大但密度降低→突触强度降低",
+        "突触强度由纳米簇内受体密度而非纳米簇总大小决定"
+      ]
+    },
+    {
+      "id": "S8",
+      "pmid": "34830481",
+      "pmcid": "PMC8618101",
+      "doi": "10.3390/ijms22179314",
+      "title": "PSD-95: An Effective Target for Stroke Therapy Using Neuroprotective Peptides",
+      "authors": ["Ugalde-Triviño L", "Díaz-Guerra M"],
+      "journal": "International Journal of Molecular Sciences",
+      "year": 2021,
+      "full_text_available": true,
+      "access_method": "PMC open access",
+      "used_for": "PSD-95/GluN2B/nNOS兴奋毒性通路；nerinetide临床研究",
+      "key_claims": [
+        "PSD-95 PDZ2将GluN2B-NMDAR和nNOS连接→兴奋毒性",
+        "nerinetide靶向GluN2B-PSD-95已进入III期临床"
+      ]
+    },
+    {
+      "id": "S9",
+      "pmid": "39511336",
+      "pmcid": "PMC11914665",
+      "doi": "10.1038/s41386-024-02027-y",
+      "title": "Peptidomimetic inhibitors targeting TrkB/PSD-95 signaling improves cognition and seizure outcomes in an Angelman Syndrome mouse model",
+      "authors": ["Huie EZ", "Yang X", "Rioult-Pedotti MS"],
+      "journal": "Neuropsychopharmacology",
+      "year": 2025,
+      "full_text_available": true,
+      "access_method": "PMC open access",
+      "used_for": "PSD-95 PDZ3与TrkB相互作用；靶向PDZ3肽药物改善LTP和认知",
+      "key_claims": [
+        "PSD-95 PDZ3与TrkB相互作用对BDNF信号必要",
+        "Syn3肽靶向PDZ3改善Angelman综合征的LTP和认知"
+      ]
+    },
+    {
+      "id": "S10",
+      "pmid": "22114157",
+      "pmcid": "PMC3289452",
+      "doi": "10.1152/jn.00206.2011",
+      "title": "Activity-dependent regulation of synaptic strength by PSD-95 in CA1 neurons",
+      "authors": ["Zhang Y", "Lisman JE"],
+      "journal": "Journal of Neurophysiology",
+      "year": 2012,
+      "full_text_available": true,
+      "access_method": "PMC open access",
+      "used_for": "槽位模型争议：PSD-95过量表达单独不足以增强突触（需要CaMKII活动）",
+      "key_claims": [
+        "PSD-95过量表达需要同时有CaMKII活动才能增强突触",
+        "TTX阻断大幅减少PSD-95过量表达的效应",
+        "增加槽位数量是必要非充分条件"
+      ]
+    },
+    {
+      "id": "S11",
+      "pmid": "12201694",
+      "pmcid": null,
+      "title": "Rapid redistribution of synaptic NR2B subunits...（Schnell 2002 PSD-95 slot model Science）",
+      "authors": ["Schnell E", "Sizemore M", "Bhattacharyya S", "Bhattacharyya S", "Bhattacharyya S", "Bhattacharyya S"],
+      "journal": "Science",
+      "year": 2002,
+      "full_text_available": false,
+      "access_method": "摘要仅（已在TARP文章中引用）",
+      "note": "此文全名为：Targeting of glutamate receptor-associated proteins to the synapse（或相近）；PDZ1/2突变→AMPAR骤降，过量表达→AMPAR增加，建立槽位模型",
+      "used_for": "槽位模型原始双向基因证据"
+    }
+  ],
+  "total_sources": 11,
+  "open_full_text": 10,
+  "abstract_only": 1,
+  "institutional_sources": ["PMC (NIH)"]
+}

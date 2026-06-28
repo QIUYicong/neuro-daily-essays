@@ -6,13 +6,13 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-04
-updated: 2026-08-05
-revision_count: 4
+updated: 2026-10-17
+revision_count: 5
 dimensions: [molecular, synaptic, cellular, cognition]
-related: [ltp, nmda-receptor, ampa-receptor, camkii, calcineurin, arc-arg31, hebbian-learning, mglur-ltd, memory-consolidation, engram-cells, cerebellar-ltd, cerebellum, astrocyte, tripartite-synapse, gliotransmitter, d-serine, endocannabinoid-system, cb1-receptor, stdp]
+related: [ltp, nmda-receptor, ampa-receptor, camkii, calcineurin, arc-arg31, hebbian-learning, mglur-ltd, memory-consolidation, engram-cells, cerebellar-ltd, cerebellum, astrocyte, tripartite-synapse, gliotransmitter, d-serine, endocannabinoid-system, cb1-receptor, stdp, psd-95-scaffold]
 prerequisites: [synaptic-transmission, nmda-receptor, ampa-receptor, ltp]
 opens_questions: [Q-ltd-nmda-metabotropic, Q-ltd-long-term-maintenance, Q-ltd-behavior-extinction, Q-ltd-glua2-redundancy, Q-ecb-01]
-source_articles: [2026-06-04-ltd-long-term-depression, 2026-07-02-astrocyte-tripartite-synapse, 2026-08-05-endocannabinoid-retrograde-signaling]
+source_articles: [2026-06-04-ltd-long-term-depression, 2026-07-02-astrocyte-tripartite-synapse, 2026-08-05-endocannabinoid-retrograde-signaling, 2026-10-17-psd-95-scaffold-synaptic-slot]
 key_sources: ["PMID:24183021", "PMID:19169250", "PMID:25429259", "PMID:19690847", "PMID:15450156", "PMID:15219735", "PMID:34334233", "PMID:23040807", "PMID:16776579"]
 ---
 
@@ -118,6 +118,7 @@ LTD 不只是单一机制——不同脑区、不同突触类型使用不同的�
 - [[tripartite-synapse]] — LTD 和 LTP 都在三方突触框架中发生
 - [[gliotransmitter]] — D-丝氨酸和 ATP/腺苷是星形胶质细胞参与 LTD 的主要胶质递质
 - [[d-serine]] — 参与某些 NMDAR-LTD 的诱导
+- [[psd-95-scaffold]] — PSD-95 SH3-GK 超模块通过 AKAP150 定位钙调磷酸酶，是 NMDA-LTD 分子机器的上游物理平台
 
 ## 未解问题
 
@@ -132,6 +133,7 @@ LTD 不只是单一机制——不同脑区、不同突触类型使用不同的�
 - 2026-06-23 · 修订 · 基于《小脑的秘密》· 加入小脑 LTD 独特性说明（mGluR1/PKC 路径，与 NMDA-LTD 并列）；新增 related: cerebellar-ltd, cerebellum；新增连接段落
 - 2026-07-02 · 修订 · 基于《大脑的第三方》(#68) · 新增星形胶质细胞介导 LTD 的三条路径（D-丝氨酸、ATP/腺苷、eCB-CB1R）；关键证据表新增 PMID:34334233；related 新增 astrocyte、tripartite-synapse、gliotransmitter、d-serine；连接段落新增四条
 - 2026-08-05 · 修订 · 基于《逆行的信使》(#104) · 深化 eCB-LTD 的专用机制说明：Gβγ→Cav2.2（DSI/短时程）vs Gαi→cAMP/PKA→RIM1α（eCB-LTD/长时程）的分叉；新增 iLTD/eLTD 两类；关键证据新增 PMID:23040807、PMID:16776579；opens_questions 新增 Q-ecb-01；related 新增 endocannabinoid-system、cb1-receptor、stdp
+- 2026-10-17 · 修订 · 基于《PSD-95：突触槽位的分子建筑师》(#185) · 新增 psd-95-scaffold 连接（PSD-95 SH3-GK 超模块定位 AKAP150-钙调磷酸酶的物理平台）；related 新增 psd-95-scaffold
 
 ## 来源文章
 
