@@ -6,19 +6,19 @@ type: mechanism
 status: emerging
 confidence: medium
 created: 2026-06-26
-updated: 2026-08-27
-revision_count: 3
+updated: 2026-06-28
+revision_count: 4
 dimensions: [molecular, cellular, synaptic, microcircuit, brain-region, cognition, disease]
-related: [hippocampal-neurogenesis, hippocampal-circuit, pattern-separation, ltp, engram-cells, memory-consolidation, alzheimers-disease, bdnf, hpa-axis, glucocorticoid-stress-memory, sgk3-autophagic-nsc-death, fkbp51, ptsd]
+related: [hippocampal-neurogenesis, hippocampal-circuit, pattern-separation, ltp, engram-cells, memory-consolidation, alzheimers-disease, bdnf, hpa-axis, glucocorticoid-stress-memory, sgk3-autophagic-nsc-death, fkbp51, ptsd, infantile-amnesia]
 prerequisites: [hippocampal-circuit, ltp, pattern-separation]
-opens_questions: [Q-adult-neurogenesis-human-controversy, Q-neurogenesis-memory-function, Q-neurogenesis-AD, Q-gaba-switch-timing, Q-neurogenesis-stress-ptsd-01, Q-sgk3-01]
-source_articles: [2026-06-26-adult-neurogenesis-dentate-gyrus, 2026-08-27-stress-hippocampal-neurogenesis-hpa-gc]
-key_sources: ["PMID:9809554", "PMID:23746839", "PMID:21460835", "PMID:30911133", "PMID:34137370", "PMID:40816272", "PMID:21814201", "PMID:31234698", "PMID:36104438", "PMID:14699428", "PMID:33293948"]
+opens_questions: [Q-adult-neurogenesis-human-controversy, Q-neurogenesis-memory-function, Q-neurogenesis-AD, Q-gaba-switch-timing, Q-neurogenesis-stress-ptsd-01, Q-sgk3-01, Q-neurogenesis-forgetting-human, Q-infantile-amnesia-circuit]
+source_articles: [2026-06-26-adult-neurogenesis-dentate-gyrus, 2026-08-27-stress-hippocampal-neurogenesis-hpa-gc, 2026-06-28-adult-hippocampal-neurogenesis-forgetting]
+key_sources: ["PMID:9809554", "PMID:23746839", "PMID:21460835", "PMID:30911133", "PMID:34137370", "PMID:40816272", "PMID:21814201", "PMID:31234698", "PMID:36104438", "PMID:14699428", "PMID:33293948", "PMID:24812394", "PMID:29625071"]
 ---
 
 # 成年神经发生 (Adult Neurogenesis)
 
-> **一句话定义**：成年哺乳动物（包括人类）海马齿状回的颗粒细胞下区（SGZ）持续从神经干细胞产生新的颗粒细胞，这些新生神经元在约 4-6 周的超兴奋关键期整合进 DG→CA3 回路，通过前馈抑制机制支持模式分离（区分相似但不同的记忆），且在阿尔茨海默病中显著下降。
+> **一句话定义**：成年哺乳动物（包括人类）海马齿状回的颗粒细胞下区（SGZ）持续从神经干细胞产生新的颗粒细胞，这些新生神经元在约 4-6 周的超兴奋关键期整合进 DG→CA3 回路，既通过前馈抑制机制支持模式分离（区分相似记忆），又通过竞争置换旧突触连接而主动介导遗忘（neurogenesis-mediated forgetting），构成海马记忆系统稳定-可塑性权衡的核心机制，且在阿尔茨海默病中显著下降。
 
 ## 当前理解
 
@@ -90,6 +90,26 @@ SGZ 干细胞类型：径向胶质样细胞（RGL，Type 1），标志物：GFAP
 
 新生颗粒细胞激活 → PV+ 篮状细胞激活 → 成熟颗粒细胞受抑制 → 表征更稀疏 → 模式分离↑
 
+### 六、神经发生介导的遗忘（系统层）
+
+**Akers et al. 2014（Science, PMID:24812394）揭示了 AHN 最违直觉的功能**：新生神经元插入 DG→CA3 苔藓纤维回路时，不只是"添加新容量"，更是主动**去稳定化**已建立的记忆印迹。
+
+**核心实验（多物种验证）**：
+- 成年小鼠恐惧条件化后，通过跑步轮运动**增加**神经发生 → 已习得的恐惧记忆加速消退（"神经发生性遗忘"）
+- 通过局部 X 射线照射**减少**神经发生 → 记忆保持更久、更精确
+- 豚鼠（guinea pig）和 degu（早熟型物种）：出生后 DG 神经发生极低 → **不出现婴儿遗忘症**（幼年期记忆保留）
+- 人工增加豚鼠出生后 DG 神经发生 → **成功诱导出婴儿遗忘症**（幼年记忆提前消退）
+
+**机制假说（突触竞争）**：新神经元整合进 DG→CA3 苔藓纤维时，与已有颗粒细胞竞争 CA3 锥体细胞的突触"槽位"。旧连接被新突触置换后，原有记忆印迹的物理基础被稀释，激活原印迹所需的线索不再可靠地找到相同的突触路径。Kempermann（2022）将此称为**稳定-可塑性悖论的结构性代价**：保持 DG 的高度可塑性（以新神经元持续涌入为代价），使大脑保持对新记忆的开放，同时使旧的情节细节更易流失。
+
+**婴儿遗忘症的重新理解**：人类无法回忆 3 岁以前记忆的现象（婴儿遗忘症）可能不只是"记忆尚未巩固"，而是婴儿期极高的 DG 神经发生率主动清除了已编码的情节细节。跨物种比较（早熟型 vs 晚熟型动物）为这一假说提供了强有力的因果支持。
+
+**PTSD 与遗忘的治疗启示**：若 SSRI 的抗焦虑效应部分通过促进 AHN 实现，其治疗 PTSD 的机制可能包括两个方向：① 促进新情境学习（认知弹性）；② 主动消弱创伤记忆的情节细节（神经发生性遗忘）。这一框架重新理解了 SSRI 2-4 周起效延迟的意义——延迟对应新神经元整合所需时间，而非单纯的突触上调。
+
+**与记忆巩固的协同**：神经发生性遗忘（清除海马情节细节）与系统性巩固（提炼语义精华至新皮层）可能是协作而非矛盾的：前者删除海马"草稿"中的噪声，后者保留经提炼的"精华"。二者共同完成从情节到语义的记忆蒸馏。
+
+**Boldrini 2018（Cell Stem Cell, PMID:29625071）定量数据**：对 14-79 岁健康受试者的严格定量显示，每个 DG 区约有 10,000 个 Ki-67+ 增殖细胞，数千个 DCX+ 未成熟神经元，且各年龄组数量无显著差异——这意味着人类成年期持续存在神经发生的基础容量，神经发生性遗忘机制在成年全期可能始终有效。
+
 ## 关键证据
 
 | 主张 | 证据 / 方法 | 来源 | 置信度 |
@@ -102,6 +122,10 @@ SGZ 干细胞类型：径向胶质样细胞（RGL，Type 1），标志物：GFAP
 | 健康老年人（43-87岁）DG 有大量 DCX+ 细胞 | 严格固定 + 优化 DCX 免疫组化 | Moreno-Jiménez 2019, PMID:30911133 | 中（已有部分复现） |
 | AD 患者神经发生随分期下降 | DCX+ 细胞定量 vs AD 分期 | Moreno-Jiménez 2019, PMID:30911133 | 中（需要独立复现） |
 | snRNA-seq 在成人海马检测到未成熟颗粒细胞（3.1-7.5%） | 单核 RNA 测序 + 机器学习分类 | Zhou 2022, PMID:35922666 | 中（新方法，仍在积累） |
+| 成年后增加 AHN 导致已巩固记忆加速遗忘 | 跑步轮（增加神经发生）+恐惧条件化记忆保留测试 | Akers 2014, PMID:24812394 | 高（啮齿类多物种一致） |
+| 减少 AHN 延长记忆保留；早熟型物种无婴儿遗忘症 | X 射线照射+豚鼠/degu 比较生物学 | Akers 2014, PMID:24812394 | 高（充分/必要性双向+跨物种） |
+| 人工增加豚鼠出生后神经发生诱导出婴儿遗忘症 | 药物促进 AHN + 幼年记忆保留测试 | Akers 2014, PMID:24812394 | 高（因果证据，多物种复现） |
+| 健康受试者 14-79 岁 DG 有 ~10,000 Ki-67+ 增殖细胞 | 严格健康样本选择+多标志物免疫组化定量 | Boldrini 2018, PMID:29625071 | 中（方法论争议仍存，样本量有限） |
 
 ## 连接
 
@@ -117,7 +141,8 @@ SGZ 干细胞类型：径向胶质样细胞（RGL，Type 1），标志物：GFAP
 - [[engram-cells]] — 新生颗粒细胞可能参与记忆印迹分配的竞争
 - [[alzheimers-disease]] — AD 中神经发生衰退可能是认知储备损耗的早期贡献变量
 - [[bdnf]] — 神经发生最关键的促进因子；通过 PI3K/Akt（存活）和 MAPK/ERK（分化）双通路支持新生颗粒细胞整合
-- [[memory-consolidation]] — 神经发生在 NREM 睡眠 SWR 重激活中的角色待研究
+- [[memory-consolidation]] — 神经发生在 NREM 睡眠 SWR 重激活中的角色待研究；神经发生性遗忘与系统性巩固可能构成记忆蒸馏的协同机制
+- [[infantile-amnesia]] — 婴儿遗忘症的神经发生假说：婴儿期极高 AHN 主动清除情节细节（Akers 2014 跨物种证据）
 
 ## 未解问题
 
@@ -125,9 +150,12 @@ SGZ 干细胞类型：径向胶质样细胞（RGL，Type 1），标志物：GFAP
 - Q-neurogenesis-memory-function：在人类中，神经发生的改变是否可直接测量地影响模式分离能力？
 - Q-neurogenesis-AD：若 AD 中神经发生早期衰退，恢复神经发生能改善认知吗？
 - Q-gaba-switch-timing：人类新生神经元的 GABA 开关时机和关键期时长是否远长于啮齿类？
+- Q-neurogenesis-forgetting-human：人类成人 AHN 的规模（~700 新神经元/日/侧）是否足以产生可测量的神经发生性遗忘效应？其时间尺度（日-周-月）与人类记忆消退速率是否匹配？
+- Q-infantile-amnesia-circuit：婴儿遗忘症是否有其他非神经发生解释（突触修剪、前额叶成熟、语言缺失）？这些机制是竞争性的还是协同的？
 
 ## 修订历史
 
+- 2026-06-28 · 修订 · 基于《新生神经元的双面刃》一文 (#185) · 新增"六节：神经发生介导的遗忘（系统层）"（Akers 2014 多物种证据、突触竞争机制假说、婴儿遗忘症新解释、PTSD-SSRI 治疗启示、与系统性巩固的协同框架）；补充 Boldrini 2018 定量数据；新增证据表 4 行；更新一句话定义；新增连接 infantile-amnesia；新增未解问题 Q-neurogenesis-forgetting-human 和 Q-infantile-amnesia-circuit
 - 2026-08-27 · 修订 · 基于《应激如何重塑海马新生神经元》一文 (#125) · 新增"零节：慢性应激/GC 对 AHN 的多层抑制"（GR 三路径 + CRF 独立路径 + 双向 HPA 反馈环路 + FKBP51 门控 + 恢复机制）；补充 11 个新来源；新增相关连接（hpa-axis, glucocorticoid-stress-memory, sgk3-autophagic-nsc-death, fkbp51, ptsd）；新增未解问题 Q-neurogenesis-stress-ptsd-01 和 Q-sgk3-01
 - 2026-06-28 · 修订 · 基于《BDNF》文章 (#64) · 悬空引用 [[bdnf]] 已建页；补充 BDNF 通过 PI3K/Akt 和 MAPK/ERK 双通路支持新生颗粒细胞存活与分化的具体机制描述
 - 2026-06-26 · 创建 · 基于《大脑的自我更新》一文 · 整合 11 篇来源（含 4 篇 PMC 开放全文）· 初始置信度：中（人类部分 emerging，啮齿类部分 established）
@@ -135,3 +163,5 @@ SGZ 干细胞类型：径向胶质样细胞（RGL，Type 1），标志物：GFAP
 ## 来源文章
 
 - [[2026-06-26-adult-neurogenesis-dentate-gyrus]]
+- [[2026-08-27-stress-hippocampal-neurogenesis-hpa-gc]]
+- [[2026-06-28-adult-hippocampal-neurogenesis-forgetting]]

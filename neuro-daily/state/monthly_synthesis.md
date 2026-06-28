@@ -2060,3 +2060,23 @@
 **图谱**：334节点/2017边（+1节点：tarp-auxiliary-subunit；+11边；updated 2026-06-28）
 
 **层级**：molecular × synaptic × cellular（AMPA 受体命运三部曲第三篇：#64 BDNF-TrkB → #181 KIBRA-PKMζ → #184 TARP-PSD-95，构成 Ca²⁺→CaMKII→{GluA1 S831+TARP 磷酸化}→{BDNF-TrkB+PKMζ-KIBRA} 的完整分子故事）
+
+---
+
+## 2026-06-28（#185）日摘要
+
+**主题**：新生神经元的双面刃——模式分离与神经发生介导的遗忘
+
+**核心发现**：成人海马 DG 的新生神经元具有两个表面矛盾的功能。一方面，它们通过激活 PV+ 篮状细胞形成前馈抑制，使整体颗粒细胞表征更稀疏，从而**增强**模式分离能力（Clelland 2009，F(1,17)=4.57, p=0.047，消除神经发生后精细空间辨别受损，远距辨别不受影响）。另一方面，Akers et al. 2014（Science, PMID:24812394）多物种实验揭示了一个反直觉事实：增加神经发生反而导致已巩固记忆**加速遗忘**。小鼠恐惧条件化后，跑步轮运动（增加 AHN）→ 恐惧记忆提前消退；X 射线消除神经发生 → 记忆保留更久。早熟型物种（豚鼠/degu）出生后 AHN 低 → 无婴儿遗忘症；人工增加其 AHN → 成功诱导婴儿遗忘症。这一因果闭环为婴儿遗忘症提供了最强的神经生物学解释：人类婴幼儿期极高的 DG 神经发生率通过突触竞争主动清除了已编码的情节细节。
+
+**关键分层**：细胞层（SGZ五阶段分化程序、GABA开关）→ 突触层（新神经元关键期超兴奋性、苔藓纤维突触竞争）→ 微回路层（PV+前馈抑制→模式分离）→ 系统层（神经发生性遗忘↔系统性巩固协同蒸馏记忆）→ 认知/发育层（婴儿遗忘症新解、运动-遗忘悖论、PTSD-SSRI新视角）→ 争议（Sorrells 2018 阴性结果 vs Boldrini/Moreno-Jiménez 阳性结果，固定时间方法论解释）
+
+**知识地图贡献**：
+- 新建 infantile-amnesia 专页（concepts/phenomenon/emerging/medium）；Akers 2014 跨物种因果证据；竞争假说对比
+- adult-neurogenesis.md (rev4)：新增"六节：神经发生介导的遗忘"；更新一句话定义（纳入双面刃机制）；Boldrini 2018 定量数据；新增 PMID:24812394 + PMID:29625071
+- pattern-separation.md (rev4)：Clelland 2009 补充精确统计数据（F(1,17)=4.57, p=0.047）
+- 新增未解问题 Q-neurogenesis-forgetting-human（高）/ Q-infantile-amnesia-circuit（高）
+
+**图谱**：335节点/2021边（+1节点：infantile-amnesia；+4边；updated 2026-06-28）
+
+**层级**：molecular × cellular × synaptic × microcircuit × cognition × development（接续 #1 DG神经发生奠基篇，从机制到功能的完整覆盖；与 #125 应激-GC抑制篇构成"AHN促进vs抑制"的完整双极调节图）

@@ -11432,7 +11432,7 @@
       "pmcid": "PMC11343219"
     }
   ],
-  "total_sources": 655,
+  "total_sources": 665,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",
@@ -16634,5 +16634,156 @@
         "note": "PMID requires verification"
       }
     ]
+  },
+  "PMID:9809557": {
+    "id": "PMID:9809557",
+    "type": "original_research",
+    "authors": "Eriksson PS et al.",
+    "title": "Neurogenesis in the adult human hippocampus",
+    "journal": "Nature Medicine",
+    "year": 1998,
+    "full_text": false,
+    "access_method": "abstract_only",
+    "article_date": "2026-06-28",
+    "article_number": 185
+  },
+  "PMID:23746839": {
+    "id": "PMID:23746839",
+    "type": "original_research",
+    "authors": "Spalding KL et al.",
+    "title": "Dynamics of hippocampal neurogenesis in adult humans",
+    "journal": "Cell",
+    "year": 2013,
+    "doi": "10.1016/j.cell.2013.05.002",
+    "full_text": false,
+    "access_method": "abstract_only",
+    "article_date": "2026-06-28",
+    "article_number": 185
+  },
+  "PMID:29513649": {
+    "id": "PMID:29513649",
+    "type": "original_research",
+    "authors": "Sorrells SF et al.",
+    "title": "Human hippocampal neurogenesis drops sharply in children to undetectable levels in adults",
+    "journal": "Nature",
+    "year": 2018,
+    "doi": "10.1038/s41586-018-0185-3",
+    "full_text": false,
+    "access_method": "abstract_only",
+    "article_date": "2026-06-28",
+    "article_number": 185
+  },
+  "PMID:29625071": {
+    "id": "PMID:29625071",
+    "type": "original_research",
+    "authors": "Boldrini M et al.",
+    "title": "Human Hippocampal Neurogenesis Persists throughout Aging",
+    "journal": "Cell Stem Cell",
+    "year": 2018,
+    "doi": "10.1016/j.stem.2018.03.015",
+    "full_text": false,
+    "access_method": "abstract_only",
+    "article_date": "2026-06-28",
+    "article_number": 185
+  },
+  "PMID:30911133": {
+    "id": "PMID:30911133",
+    "type": "original_research",
+    "authors": "Moreno-Jimenez EP et al.",
+    "title": "Adult hippocampal neurogenesis is abundant in neurologically healthy subjects and drops sharply in patients with Alzheimer's disease",
+    "journal": "Nature Medicine",
+    "year": 2019,
+    "doi": "10.1038/s41591-019-0375-9",
+    "full_text": false,
+    "access_method": "abstract_only",
+    "article_date": "2026-06-28",
+    "article_number": 185
+  },
+  "PMID:33762406": {
+    "id": "PMID:33762406",
+    "type": "review",
+    "authors": "Moreno-Jimenez EP et al.",
+    "title": "Evidences for Adult Hippocampal Neurogenesis in Humans",
+    "journal": "Journal of Neuroscience",
+    "year": 2021,
+    "doi": "10.1523/JNEUROSCI.0646-20.2020",
+    "pmcid": "PMC8018741",
+    "full_text": true,
+    "access_method": "pmc_full_text",
+    "article_date": "2026-06-28",
+    "article_number": 185
+  },
+  "PMID:19590004": {
+    "id": "PMID:19590004",
+    "type": "original_research",
+    "authors": "Clelland CD et al.",
+    "title": "A functional role for adult hippocampal neurogenesis in spatial pattern separation",
+    "journal": "Science",
+    "year": 2009,
+    "doi": "10.1126/science.1173215",
+    "pmcid": "PMC2997634",
+    "full_text": true,
+    "access_method": "pmc_full_text",
+    "article_date": "2026-06-28",
+    "article_number": 185
+  },
+  "PMID:24812394": {
+    "id": "PMID:24812394",
+    "type": "original_research",
+    "authors": "Akers KG et al.",
+    "title": "Hippocampal neurogenesis regulates forgetting during adulthood and infancy",
+    "journal": "Science",
+    "year": 2014,
+    "doi": "10.1126/science.1248903",
+    "full_text": false,
+    "access_method": "abstract_only",
+    "article_date": "2026-06-28",
+    "article_number": 185
+  },
+  "PMID:28469276": {
+    "id": "PMID:28469276",
+    "type": "review",
+    "authors": "Anacker C & Bhattacharya S",
+    "title": "Adult hippocampal neurogenesis and cognitive flexibility - linking memory and mood",
+    "journal": "Nature Reviews Neuroscience",
+    "year": 2017,
+    "doi": "10.1038/nrn.2017.6",
+    "pmcid": "PMC6261347",
+    "full_text": true,
+    "access_method": "pmc_full_text",
+    "article_date": "2026-06-28",
+    "article_number": 185
+  },
+  "PMID:35495058": {
+    "id": "PMID:35495058",
+    "type": "review",
+    "authors": "Kempermann G",
+    "title": "What Is Adult Hippocampal Neurogenesis Good for?",
+    "journal": "Frontiers in Neuroscience",
+    "year": 2022,
+    "doi": "10.3389/fnins.2022.852680",
+    "pmcid": "PMC9051245",
+    "full_text": true,
+    "access_method": "pmc_full_text",
+    "article_date": "2026-06-28",
+    "article_number": 185
+  },
+  "sources_2026-06-28-neurogenesis-forgetting": {
+    "article": "#185 · 新生神经元的双面刃",
+    "date": "2026-06-28",
+    "pmids": [
+      "PMID:9809557",
+      "PMID:23746839",
+      "PMID:29513649",
+      "PMID:29625071",
+      "PMID:30911133",
+      "PMID:33762406",
+      "PMID:19590004",
+      "PMID:24812394",
+      "PMID:28469276",
+      "PMID:35495058"
+    ],
+    "new_additions": 10,
+    "full_text_count": 4
   }
 }

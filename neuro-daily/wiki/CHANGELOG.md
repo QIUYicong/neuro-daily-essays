@@ -4,6 +4,26 @@
 
 ---
 
+## 2026-06-28 · 文章 #185 · 新生神经元的双面刃：模式分离与神经发生介导的遗忘
+
+**新建页面（1个）**：
+
+- `wiki/concepts/infantile-amnesia.md`（rev1）：婴儿遗忘症专页；神经发生假说（Akers 2014 多物种因果证据）；竞争性假说对比（PFC未成熟、语言框架、突触修剪）；与 adult-neurogenesis / memory-consolidation / pattern-separation 的连接；2个未解问题（Q-infantile-amnesia-circuit, Q-neurogenesis-forgetting-human）
+
+**修订页面（2个）**：
+
+- `wiki/concepts/adult-neurogenesis.md` rev3→rev4：新增"六节：神经发生介导的遗忘（系统层）"（Akers 2014 多物种证据、突触竞争机制、婴儿遗忘症新解、PTSD-SSRI 治疗启示、与系统性巩固的协同框架）；更新一句话定义（纳入双面刃机制）；补充 Boldrini 2018 定量数据（~10,000 Ki-67+ 细胞）；新增证据表 4 行（PMID:24812394 × 3，PMID:29625071 × 1）；新增连接 infantile-amnesia + 更新 memory-consolidation 注释；新增未解问题 Q-neurogenesis-forgetting-human 和 Q-infantile-amnesia-circuit；新增 key_sources：PMID:24812394、PMID:29625071
+- `wiki/concepts/pattern-separation.md` rev3→rev4：Clelland 2009 证据行补充精确统计数据（S2近距 F(1,17)=4.57, p=0.047；S4远距 p=0.974）
+
+**矛盾登记（0个）**：无新矛盾；Sorrells 2018 vs Boldrini/Moreno-Jiménez 的人类 AHN 争议已在现有 adult-neurogenesis.md 中记录
+
+**悬空引用填补（1个）**：
+- `infantile-amnesia`：adult-neurogenesis.md 中新增的连接 slug，今日创建 wiki/concepts/infantile-amnesia.md 填补
+
+**图谱变化**：334节点/2017边 → **335节点/2021边**（+1节点：infantile-amnesia；+4边：adult-neurogenesis→infantile-amnesia mechanism-of；infantile-amnesia→hippocampal-circuit involves；infantile-amnesia→memory-consolidation challenges；infantile-amnesia→pattern-separation related-to）
+
+---
+
 ## 2026-06-28（#184）：TARP 辅助亚基——AMPA 受体突触定位与 LTP 的分子导航系统
 
 **文章**：《AMPA 受体的突触之旅：TARP 辅助亚基如何引导受体驻扎、改造门控并参与 LTP》（#184）

@@ -3048,6 +3048,15 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/tarp-auxiliary-subunit.md"
+    },
+    {
+      "id": "infantile-amnesia",
+      "title": "婴儿遗忘症",
+      "domain": "concepts",
+      "type": "phenomenon",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/concepts/infantile-amnesia.md"
     }
   ],
   "edges": [
@@ -14376,6 +14385,26 @@
       "to": "tarp-auxiliary-subunit",
       "type": "phosphorylates",
       "note": "CaMKII 在 LTP 诱导时磷酸化 TARP γ-2/γ-8 的 polybasic region，是 LTP 分子最后一公里"
+    },
+    {
+      "from": "adult-neurogenesis",
+      "to": "infantile-amnesia",
+      "relation": "mechanism-of"
+    },
+    {
+      "from": "infantile-amnesia",
+      "to": "hippocampal-circuit",
+      "relation": "involves"
+    },
+    {
+      "from": "infantile-amnesia",
+      "to": "memory-consolidation",
+      "relation": "challenges"
+    },
+    {
+      "from": "infantile-amnesia",
+      "to": "pattern-separation",
+      "relation": "related-to"
     }
   ],
   "dangling_references": [

@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-06-28（第184篇·TARP 辅助亚基·AMPA 受体突触定位与 LTP 最后一公里机制）· 主题页总数：**326**（新建1页：concepts/tarp-auxiliary-subunit；修订2页：concepts/ampa-receptor rev5, neurons/camkii rev4；补全 ampa-receptor 的悬空引用 [[tarp-auxiliary-subunit]]；图谱334节点/2017边）
+> 最后更新：2026-06-28（第185篇·新生神经元的双面刃·模式分离与神经发生介导的遗忘）· 主题页总数：**327**（新建1页：concepts/infantile-amnesia；修订2页：concepts/adult-neurogenesis rev4, concepts/pattern-separation rev4；图谱335节点/2021边）
 
 ---
 
@@ -203,6 +203,8 @@
 - 🟢 [去甲肾上腺素与蓝斑系统](concepts/norepinephrine-locus-coeruleus.md) — 蓝斑LC通过相位性/紧张性双模式和倒U形NE浓度曲线优化皮层认知增益；α2A稳定PFC工作记忆；β受体促进情绪记忆LTP；选择性集合体拓扑组织；AD/PD早期LC退变（55%神经元丢失）**[NEW 2026-06-12 · 修订 rev4 2026-08-10]**
 - 🔵 [5-HT自受体与SSRI延迟起效](concepts/5-ht-autoreceptor.md) — 5-HT1A树突自受体负反馈在急性期抵消SSRI效果；14天后自受体脱敏解除制动；皮质5-HT1A/2A功能拮抗；pindolol加速起效的临床证据 **[NEW 2026-06-13]**
 - 🔴 [海马神经发生](concepts/hippocampal-neurogenesis.md) — 啮齿类SGZ持续神经发生（证据充分）；阻断神经发生消除SSRI行为效果；人类成人神经发生规模和存在性争议（Sorrells vs Boldrini 2018对立数据）**[NEW 2026-06-13 · 争议]**
+- 🟡 [成年神经发生](concepts/adult-neurogenesis.md) — SGZ五阶段分化程序；GABA开关两阶段学习策略（协作→竞争）；4-6周关键期（NR2B/高输入阻抗）；前馈PV+抑制实现模式分离；慢性应激GC三路径抑制（BDNF↓/SGK3自噬/Wnt↓）+CRF独立路径+HPA双向反馈；**新增rev4**：神经发生介导的遗忘（Akers 2014）——增加AHN主动清除已巩固记忆；婴儿遗忘症的神经发生解释（早熟型物种无婴儿遗忘）；Boldrini 2018定量证据（~10,000 Ki-67+细胞/DG）**[NEW 2026-06-26 · 修订 rev4 2026-06-28]**
+- 🟡 [婴儿遗忘症](concepts/infantile-amnesia.md) — 3岁前记忆无法持续提取；神经发生假说（Akers 2014跨物种因果）：婴儿期高AHN主动清除情节细节；早熟型物种（豚鼠/degu）无婴儿遗忘症→人工增加AHN可诱导婴儿遗忘；竞争假说对比（PFC未成熟/语言框架/突触修剪）**[NEW 2026-06-28]**
 - 🔵 [β振荡（13–30 Hz）](concepts/beta-oscillations.md) — "当前内部状态有效，无需更新"的振荡表达；三副面孔：运动ERD/PMBR（状态维持vs运动解锁）、感觉皮层γ前馈/β后向（28对灵长类视觉区域）、WM延迟期β爆发（130ms，背景态）+γ爆发（67ms，内容编码）；深层L5/6 β相位调控浅层L2/3 γ许可窗口（Bastos 2018）；PD中病理性β卡死；**[修订 rev2 2026-07-19]**
 - 🟢 [恐惧条件反射](concepts/fear-conditioning.md) — 外侧杏仁核（LA）CS+US汇聚→NMDA巧合检测→CaMKII→AMPA插入→LA-LTP；与海马LTP分子机器完全同构；约20%LA神经元形成稀疏恐惧印迹；光遗传双向因果证明（Nabavi 2014）；**新增**：已巩固恐惧记忆在 CS 再激活后进入再巩固窗口，可被选择性修改**[修订 2026-07-10]**
 - 🟢 [恐惧消退](concepts/fear-extinction.md) — 消退≠遗忘，而是IL皮层→腹侧ITC→CeM新抑制回路；与原始恐惧记忆竞争性共存；vmPFC激活预测消退回忆质量；PTSD=消退记忆提取失败；LA-VH θ相位差（~180°）预测消退记忆质量（Totty 2017，R=0.954）；再巩固窗口消退永久消除恐惧（Monfils 2009）；**rev7新增**：Milad 2009 fMRI 直接证据（PTSD消退回忆时vmPFC+海马激活↓）；Yi 2026 整合多靶点治疗框架**[修订 rev6→rev7 2026-08-26]**

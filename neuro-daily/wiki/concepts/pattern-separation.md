@@ -6,8 +6,8 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-24
-updated: 2026-08-28
-revision_count: 3
+updated: 2026-06-28
+revision_count: 4
 dimensions: [microcircuit, cellular, cognition]
 related: [hippocampal-circuit, attractor-network, pattern-completion, place-cells, adult-neurogenesis, dentate-gyrus, engram-cells, mossy-cells-dentate, fear-generalization]
 prerequisites: [hippocampal-circuit, place-cells]
@@ -86,7 +86,7 @@ DG 是成人大脑中神经发生最活跃的区域之一。新生颗粒细胞�
 | 增加神经发生改善模式分离 | BAX KO 小鼠神经发生增加→相似情境区分提升 | PMID:21460835 | 高（因果证据）|
 | CA3 在大差异下产生全局重映射，小差异下产生率重映射 | 体内多单元记录+多相似度环境条件 | PMID:15272123 | 高 |
 | DG 稀疏活动（<5% 颗粒细胞） | 钙成像和单元记录 | PMID:35368306（综述）| 高 |
-| 破坏神经发生特异损害精细模式分离 | SGZ焦点X射线照射+相近/远位置辨别对比 | Clelland 2009, PMID:19590004 | 中-高（啮齿类） |
+| 破坏神经发生特异损害精细模式分离（近距而非远距） | SGZ焦点X射线照射+相近/远位置辨别；S2近距：F(1,17)=4.57, p=0.047；S4远距：p=0.974 | Clelland 2009, PMID:19590004 | 中-高（啮齿类） |
 | GABA开关驱动新生细胞特化为新颖相似模式 | 计算模型+Hebbian学习规则 | PMID:34137370 | 中（计算理论，需更多实验验证） |
 | 颗粒细胞体内激活率约 2–5%（juxtacellular 直接鉴定） | 体内 juxtacellular 记录 + 形态学验证，啮齿类 | PMC5077296（Diamantaki 2016） | 高 |
 | 颗粒细胞单场低频，苔藓细胞多场高频（纠正历史错误） | 硅探针 + juxtacellular 双方法，啮齿类 | PMID:28132828（GoodSmith 2017） | 高 |
@@ -114,4 +114,5 @@ DG 是成人大脑中神经发生最活跃的区域之一。新生颗粒细胞�
 
 - 2026-06-24 · 创建 · 基于"记忆不混淆的秘密"第 60 篇文章 · 新建专页，整合 DG 机制、成人神经发生因果证据和 CA3 双重功能 · 初始置信度：高
 - 2026-06-26 · 修订 · 基于《大脑的自我更新》一文 · 加深神经发生机制部分：GABA 开关两阶段程序、关键期分子特性（NR2B/高输入阻抗）、前馈抑制机制、Clelland 2009 必要性证据；证据表新增 2 行；连接新增 adult-neurogenesis
+- 2026-06-28 · 修订 · 基于《新生神经元的双面刃》一文 (#185) · Clelland 2009 证据行补充精确统计数据（S2近距 F(1,17)=4.57, p=0.047；S4远距 p=0.974）；revision_count: 3→4
 - 2026-08-28 · 修订 · 基于《稀疏奇迹：齿状回如何以 5% 的激活率撑起大脑的记忆分辨》（文章 #126）· 主要更新：① 新增苔藓细胞悖论内容（Jinde 2012/2013，Galloni 2022）；② 新增维度框架（Cayco-Gajic & Silver 2019）对稀疏框架的修订；③ 新增 GoodSmith 2017 的颗粒细胞/苔藓细胞体内放电对比；④ 新增 Diamantaki 2016 的直接 juxtacellular 稀疏度验证；⑤ 证据表新增 4 行；⑥ 连接新增 dentate-gyrus、mossy-cells-dentate、fear-generalization；revision_count: 2→3
