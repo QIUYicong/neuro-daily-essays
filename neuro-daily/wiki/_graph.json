@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-06-27",
-  "node_count": 328,
-  "edge_count": 1971,
+  "updated": "2026-06-28",
+  "node_count": 330,
+  "edge_count": 1984,
   "edge_types": [
     "is-a",
     "part-of",
