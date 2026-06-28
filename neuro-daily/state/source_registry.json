@@ -16271,5 +16271,40 @@
       "PMC13156888",
       "PMC12997682"
     ]
+  },
+  "sources_2026-06-29-ach-memory-gate": {
+    "article": "2026-06-29-acetylcholine-hippocampal-memory-gate.md",
+    "article_number": 182,
+    "date": "2026-06-29",
+    "sources_added": 7,
+    "sources_reused": 0,
+    "new_pmids": [
+      "39721980",
+      "14747523",
+      "17964734",
+      "35453495",
+      "33833054",
+      "36866246",
+      "9034856"
+    ],
+    "reused_pmids": [],
+    "all_pmids": [
+      "39721980",
+      "14747523",
+      "17964734",
+      "35453495",
+      "33833054",
+      "36866246",
+      "9034856"
+    ],
+    "open_access_pmcids": [
+      "PMC12700495",
+      "PMC321320",
+      "PMC2175389",
+      "PMC9027244",
+      "PMC8054002",
+      "PMC9972575"
+    ],
+    "notes": "6/7 open full text; PMID:9034856 (Hasselmo 1996 Hippocampus) abstract-only"
   }
 }

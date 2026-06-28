@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-06-27（第179篇·盲视与注意-意识解离）· 主题页总数：**322**（新建3页：concepts/blindsight, concepts/affective-blindsight, concepts/attention-consciousness-dissociation；修订1页：concepts/attention rev2；图谱328节点/1971边）
+> 最后更新：2026-06-29（第182篇·乙酰胆碱的双重使命·SPEAR模型）· 主题页总数：**324**（新建1页：concepts/septohippocampal-cholinergic；修订3页：acetylcholine-cortex rev2, theta-oscillations rev5, sharp-wave-ripples rev13；图谱332节点/1997边）
 
 ---
 
@@ -194,7 +194,8 @@
 - 🟢 [短时程突触可塑性（STP）](concepts/short-term-synaptic-plasticity.md) — 毫秒至分钟尺度内突触效率的使用依赖性动态变化；Syt7驱动易化（高p→低通）、RRP耗竭驱动抑制（低p→高通）；是工作记忆活动无声储存的分子基础 **[NEW 2026-06-10]**
 - 🟢 [方向选择性](concepts/orientation-selectivity.md) — V1将LGN非定向圆对称输入转化为精确方向响应的核心计算；前馈LGN排列+E/I平衡+树突NMDA棘波三层机制；有/无方向柱物种均可达同等锐利选择性 **[NEW 2026-06-11]**
 - 🟡 [突触聚类](concepts/synaptic-clustering.md) — 功能相似突触在同一树突分支聚集→NMDA棘波超线性整合→局部"与门"计算；Wilson 2016在雪貂V1提供首个体内直接证据；普遍性待验证 **[NEW 2026-06-11]**（填补 dendritic-computation 悬空引用）
-- 🟢 [乙酰胆碱皮层调质](concepts/acetylcholine-cortex.md) — 基底前脑胆碱能系统通过M1/M2/nAChR受体增大皮层信噪比；肌碱受体介导V1注意调制（Herrero 2008）；相位性/紧张性双时间尺度；支持皮层去同步和工作记忆持续放电 **[NEW 2026-06-12]**
+- 🟢 [乙酰胆碱皮层调质](concepts/acetylcholine-cortex.md) — 基底前脑胆碱能系统通过M1/M2/nAChR受体增大皮层信噪比；肌碱受体介导V1注意调制（Herrero 2008）；相位性/紧张性双时间尺度；支持皮层去同步和工作记忆持续放电 **[NEW 2026-06-12 · 修订 rev2 2026-06-29]**
+- 🟢 [隔-海马胆碱能投射](concepts/septohippocampal-cholinergic.md) — 内侧隔核（MSDB）胆碱能神经元投射至海马全区；M1 mAChR（谷氨酸能锥体细胞）+ α7 nAChR（OLM 中间神经元）受体特异性；高ACh编码模式（CA3回返被层选择性抑制）/ 低ACh固化模式（SWR主导）；SPEAR模型ACh慢时间尺度双模式切换（Hasselmo 2025）；GRABACh3.0在体直接证据（Zhang 2021） **[NEW 2026-06-29]**
 - 🟢 [皮层增益控制](concepts/gain-control.md) — 神经调质系统的核心输出：乘法性缩放皮层神经元输入-输出曲线；ACh通过M1、NE通过α2A/α1实现；注意调制的分子机制（修订5次）**[NEW 2026-06-12]**
 - 🟢 [除法规范化](concepts/divisive-normalization.md) — 皮层规范计算：$R_j = \gamma D_j^n/(\sigma^n + \sum_k D_k^n)$；统一解释V1对比度饱和/交叉朝向抑制/环绕抑制；Reynolds & Heeger注意场规范化（注意场宽度决定对比度增益vs响应增益）；LIP价值规范化；Pareto分布下信息论最优编码；与Transformer Softmax的根本差异 **[NEW 2026-09-02]**
 - 🟡 [多层增益控制架构](concepts/multi-timescale-plasticity.md) — STP（毫秒–秒层一）+ ACh/NE增益控制（秒–分钟层二）+ DA-RPE（分钟–小时层三）三层嵌套；Marder原则：调质环境决定功能回路；第三周综合框架 **[NEW 2026-05-30]**

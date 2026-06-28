@@ -6,13 +6,13 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-12
-updated: 2026-06-12
-revision_count: 1
+updated: 2026-06-29
+revision_count: 2
 dimensions: [molecular, cellular, synaptic, brain-region, cognition]
-related: [neuromodulator-systems, gain-control, working-memory, orientation-selectivity, v1-primary-visual-cortex, theta-oscillations, ltp]
+related: [neuromodulator-systems, gain-control, working-memory, orientation-selectivity, v1-primary-visual-cortex, theta-oscillations, ltp, septohippocampal-cholinergic]
 prerequisites: [synaptic-transmission, nmda-receptor, action-potential]
 opens_questions: [Q-ach-ne-01, Q-ach-ne-02, Q-ach-ne-04]
-source_articles: [2026-06-12-neuromodulators-ach-ne]
+source_articles: [2026-06-12-neuromodulators-ach-ne, 2026-06-29-acetylcholine-hippocampal-memory-gate]
 key_sources: ["PMID:18633352", "PMID:17920021", "PMID:20668433", "PMID:30381436", "PMID:23818597"]
 ---
 
@@ -78,6 +78,7 @@ key_sources: ["PMID:18633352", "PMID:17920021", "PMID:20668433", "PMID:30381436"
 - [[theta-oscillations]] — 内侧隔核 ACh 支持海马 θ 振荡（经由 Ch1/2 投射）
 - [[ltp]] — ACh 通过 M1 促进皮层可塑性（M1→NMDA 协同→LTP 阈值降低）
 - [[memory-consolidation]] — 低 ACh 状态（睡眠）有利于 SWR 重放和系统固化
+- [[septohippocampal-cholinergic]] — 同一 ACh 系统在海马回路中的专门化形式：内侧隔核（MSDB）通过 M1/α7 受体在编码（高 ACh）和固化（低 ACh/SWR）模式之间动态切换，与本页皮层注意增益功能互补而非冗余
 
 ## 未解问题
 
@@ -88,7 +89,9 @@ key_sources: ["PMID:18633352", "PMID:17920021", "PMID:20668433", "PMID:30381436"
 ## 修订历史
 
 - 2026-06-12 · 创建 · 基于《注意的化学语言》一文 · 初始置信度：高
+- 2026-06-29 · 修订 rev2 · 基于《乙酰胆碱的双重使命》文章 · 新增 [[septohippocampal-cholinergic]] 连接（MSDB→海马 ACh 专门化功能：编码/固化双模式切换）；related 增加 septohippocampal-cholinergic；source_articles 新增 2026-06-29
 
 ## 来源文章
 
 - [[2026-06-12-neuromodulators-ach-ne]]
+- [[2026-06-29-acetylcholine-hippocampal-memory-gate]]

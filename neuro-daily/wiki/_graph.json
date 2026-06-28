@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-06-27",
-  "node_count": 328,
-  "edge_count": 1971,
+  "updated": "2026-06-29",
+  "node_count": 332,
+  "edge_count": 1997,
   "edge_types": [
     "is-a",
     "part-of",
@@ -3012,6 +3012,24 @@
       "status": "published",
       "confidence": "high",
       "page": "articles/2026-06-28-ltp-60-kibra-pkm-zeta-molecular-persistence.md"
+    },
+    {
+      "id": "septohippocampal-cholinergic",
+      "title": "隔-海马胆碱能投射",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/septohippocampal-cholinergic.md"
+    },
+    {
+      "id": "2026-06-29-acetylcholine-hippocampal-memory-gate",
+      "title": "乙酰胆碱的双重使命：海马如何用一个分子信使在记忆编码与提取之间精确切换",
+      "domain": "articles",
+      "type": "article",
+      "status": "published",
+      "confidence": "high",
+      "page": "articles/2026-06-29-acetylcholine-hippocampal-memory-gate.md"
     }
   ],
   "edges": [
@@ -14142,6 +14160,84 @@
       "target": "synaptic-tagging-capture",
       "type": "discusses",
       "label": "STC框架中的PKMζ"
+    },
+    {
+      "from": "septohippocampal-cholinergic",
+      "to": "theta-oscillations",
+      "type": "regulates",
+      "note": "MSDB 胆碱能投射调控θ振荡的编码/提取相位状态（SPEAR 模型 ACh 慢时间尺度偏向）"
+    },
+    {
+      "from": "septohippocampal-cholinergic",
+      "to": "sharp-wave-ripples",
+      "type": "regulates",
+      "note": "高 ACh 主动抑制 CA3 循环兴奋→阻止 SWR；低 ACh 解除抑制→SWR 自发涌现（ACh-SWR 反相关，GRABACh3.0 直接证据）"
+    },
+    {
+      "from": "septohippocampal-cholinergic",
+      "to": "memory-consolidation",
+      "type": "mechanism-of",
+      "note": "ACh 浓度是系统固结的状态门控信号：高 ACh→编码模式；低 ACh→SWR 主导固化模式"
+    },
+    {
+      "from": "septohippocampal-cholinergic",
+      "to": "ltp",
+      "type": "supports",
+      "note": "M1 mAChR→IP₃→ER Ca²⁺→AMPAR 突触插入（与 NMDAR-LTP 共享 AMPAR 运输但 Ca²⁺ 来源不同）"
+    },
+    {
+      "from": "septohippocampal-cholinergic",
+      "to": "hippocampal-circuit",
+      "type": "mechanism-of",
+      "note": "CA3 回返侧支（SR）的层选择性突触前 M1 mAChR 抑制是核心机制靶点"
+    },
+    {
+      "from": "septohippocampal-cholinergic",
+      "to": "acetylcholine-cortex",
+      "type": "related",
+      "note": "同一分子在皮层（注意/信号增益）vs 海马（编码/固化模式切换）的互补功能"
+    },
+    {
+      "from": "septohippocampal-cholinergic",
+      "to": "pattern-completion",
+      "type": "mechanism-of",
+      "note": "低 ACh 解除 CA3 回返连接抑制是模式补全的前提条件"
+    },
+    {
+      "from": "septohippocampal-cholinergic",
+      "to": "working-memory",
+      "type": "regulates",
+      "note": "SWR 维持工作记忆；高 ACh 抑制 SWR→工作记忆下降（Zhang 2021 光遗传因果证据）"
+    },
+    {
+      "source": "2026-06-29-acetylcholine-hippocampal-memory-gate",
+      "target": "septohippocampal-cholinergic",
+      "type": "discusses",
+      "label": "隔-海马胆碱能投射的编码/提取模式切换机制"
+    },
+    {
+      "source": "2026-06-29-acetylcholine-hippocampal-memory-gate",
+      "target": "theta-oscillations",
+      "type": "discusses",
+      "label": "SPEAR 模型θ相位编码/提取分离"
+    },
+    {
+      "source": "2026-06-29-acetylcholine-hippocampal-memory-gate",
+      "target": "sharp-wave-ripples",
+      "type": "discusses",
+      "label": "ACh-SWR 反相关与工作记忆维持"
+    },
+    {
+      "source": "2026-06-29-acetylcholine-hippocampal-memory-gate",
+      "target": "ltp",
+      "type": "discusses",
+      "label": "M1→IP₃→ER Ca²⁺→LTP 促进通路"
+    },
+    {
+      "source": "2026-06-29-acetylcholine-hippocampal-memory-gate",
+      "target": "memory-consolidation",
+      "type": "discusses",
+      "label": "ACh 浓度作为编码/固化状态切换的门控信号"
     }
   ],
   "dangling_references": [

@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-29
-updated: 2026-07-21
-revision_count: 4
+updated: 2026-06-29
+revision_count: 5
 dimensions: [whole-brain-network, brain-region, cellular, behavior, methods]
-related: [place-cells, grid-cells, hippocampal-circuit, ltp, btsp, sharp-wave-ripples, theta-phase-precession, memory-consolidation, rem-sleep, fear-extinction, emotional-memory-depotentiation, path-integration, entorhinal-cortex, theta-gamma-coupling, working-memory, gamma-oscillations]
+related: [place-cells, grid-cells, hippocampal-circuit, ltp, btsp, sharp-wave-ripples, theta-phase-precession, memory-consolidation, rem-sleep, fear-extinction, emotional-memory-depotentiation, path-integration, entorhinal-cortex, theta-gamma-coupling, working-memory, gamma-oscillations, septohippocampal-cholinergic]
 prerequisites: [action-potential, hippocampal-circuit, place-cells]
 opens_questions: [Q-theta-primate, Q-theta-btsp-coordination, Q-theta-sufficiency-memory, Q-rem-01, Q-rem-03, Q-rem-05]
-source_articles: [2026-05-29-theta-oscillations-phase-coding, 2026-05-31-rem-sleep-emotional-memory, 2026-06-22-grid-cells-place-cells, 2026-07-21-theta-gamma-coupling-working-memory]
-key_sources: ["PMID:23354386", "PMID:26135716", "PMID:37720546", "PMID:8353611", "PMID:28729826", "PMID:27174984", "PMID:19702380"]
+source_articles: [2026-05-29-theta-oscillations-phase-coding, 2026-05-31-rem-sleep-emotional-memory, 2026-06-22-grid-cells-place-cells, 2026-07-21-theta-gamma-coupling-working-memory, 2026-06-29-acetylcholine-hippocampal-memory-gate]
+key_sources: ["PMID:23354386", "PMID:26135716", "PMID:37720546", "PMID:8353611", "PMID:28729826", "PMID:27174984", "PMID:19702380", "PMID:39721980"]
 ---
 
 # θ振荡 (Theta Oscillations)
@@ -102,6 +102,23 @@ key_sources: ["PMID:23354386", "PMID:26135716", "PMID:37720546", "PMID:8353611",
 
 Etter et al.（2023）提出：θ振荡可能通过协调树突膜电位振荡的时机，使特定输入更容易触发**树突钙平台电位**（BTSP的触发器）。如果成立，θ不只是记录时间的时钟，也是主动创造BTSP"机会窗口"的调制机制。
 
+### 7. SPEAR 模型：ACh 调控θ相位编码/提取分离（Hasselmo 2025）
+
+Hasselmo（2025，PMID:39721980）提出的 **SPEAR 模型**（Separate Phases of Encoding And Retrieval）将θ相位功能与编码/提取的计算需求正式绑定：
+
+| θ相位 | 计算功能 | 网络状态 |
+|------|---------|---------|
+| θ 波谷（下降相） | 编码相——新信息写入 | EC 传入强；CA3 回返侧支被 ACh 抑制（弱）；LTP 有利 |
+| θ 波峰（上升相） | 提取相——已存储记忆激活 | CA3 回返强（EC 弱）；LTD 倾向 |
+
+每 ~125 ms 切换一次（8 Hz θ 频率下）。同一 Hebbian 规则无法同时服务编码（需弱回返）和提取（需强回返），因此相位分离是解决"干涉问题"的必要计算策略。
+
+**双时间尺度 ACh/GABA 分工**：
+- **ACh 慢时间尺度（秒-分钟）**：MSDB 胆碱能投射设定全局状态偏向（清醒探索高 ACh → 编码模式主导；休息/睡眠低 ACh → SWR 主导）
+- **GABA 快时间尺度（<2s）**：MSDB PV+GABA 神经元执行每θ周期内的编码↔提取快速切换
+
+**证据支撑**：Rogers & Kesner（2004）行为药理学双重解离（CA3 scopolamine→编码受损；physostigmine→提取受损）为此模型提供独立行为证据；Kremin & Hasselmo（2007）层选择性电生理证据（CA3 回返被 ACh 选择性抑制 > EC 传入）与之一致；场所细胞相位前进（进入场所场：提取相激活旧记忆 → 离开：编码相写入新信息）在行为层面呼应该模型。
+
 ## 关键证据
 
 | 主张 | 证据 / 方法 | 来源 | 置信度 |
@@ -114,6 +131,7 @@ Etter et al.（2023）提出：θ振荡可能通过协调树突膜电位振荡�
 | θ是记忆的必要条件，但非充分条件 | MS-DBB光遗传沉默+行为 | PMID:37720546 | 中-高 |
 | LA-VH θ相位差（~180°）预测消退记忆质量（R=0.954） | 大鼠恐惧消退后REM睡眠LFP同步记录 | PMID:28729826 | 高 |
 | 沉默REM期间MS GABA神经元→θ消失→情境记忆受损 | 光遗传操控（仅REM期，精确时控） | PMID:27174984 | 高（因果） |
+| θ波谷=编码相（EC强/CA3弱/LTP有利），θ波峰=提取相（CA3强/EC弱）；ACh 慢时间尺度设定全局状态偏向 | SPEAR模型综合：行为药理学双重解离+脑片电生理层选择性+场所细胞相位前进 | Hasselmo 2025, PMID:39721980 | 中高（整合理论；多项独立预测待闭环光遗传因果验证）|
 
 ## 连接
 
@@ -128,6 +146,7 @@ Etter et al.（2023）提出：θ振荡可能通过协调树突膜电位振荡�
 - [[rem-sleep]] — REM睡眠中θ振荡持续活跃，驱动情绪记忆的离线巩固；REM θ是清醒θ功能的情景变体
 - [[fear-extinction]] — LA-VH θ相位差（约180°）预测消退记忆质量，REM θ同步是消退记忆巩固的神经底物
 - [[emotional-memory-depotentiation]] — REM θ振荡的功能结果之一：通过LA-VH去耦合，减弱情绪记忆的情感色彩
+- [[septohippocampal-cholinergic]] — MSDB 胆碱能投射是 SPEAR 模型"ACh 慢时间尺度偏向"的分子底物：高 ACh 将θ节律的全局偏向设定为编码模式，低 ACh 允许 SWR 主导的固化模式
 
 ## 未解问题
 
@@ -144,8 +163,10 @@ Etter et al.（2023）提出：θ振荡可能通过协调树突膜电位振荡�
 - 2026-06-22 · 修订 · 修正悬空引用：place-cell→place-cells、grid-cell→grid-cells、phase-precession→theta-phase-precession；新增related条目：path-integration、entorhinal-cortex；source_articles新增2026-06-22 · 基于《六边形的秘密》文章
 - 2026-07-21 · 修订 · 大幅扩充θ/γ嵌套机制节（Lisman-Idiart 1995容量分格 + Colgin 2009双通道路由，引入关键证据）；新增related: theta-gamma-coupling, working-memory, gamma-oscillations；source_articles增加2026-07-21 · 基于《海马的节律钟表》文章 #89
 - 2026-05-31 · 修订 · 整合REM睡眠θ内容：新增「REM睡眠θ：情绪记忆巩固的相位窗口」机制节（LA-VH θ相位差、Boyce 2016光遗传因果证据、清醒/REM θ功能对比表）；补充当前理解段落；关键证据表增加2行；连接增加rem-sleep/fear-extinction/emotional-memory-depotentiation；未解问题增加Q-rem-01/Q-rem-03/Q-rem-05 · 基于《REM睡眠与情绪记忆》文章
+- 2026-06-29 · 修订 rev5 · 基于《乙酰胆碱的双重使命》文章 · 新增「SPEAR 模型」机制节（θ相位编码/提取功能分离，双时间尺度 ACh/GABA 分工，Hasselmo 2025）；证据表新增1行（PMID:39721980）；连接新增 [[septohippocampal-cholinergic]]；related 新增 septohippocampal-cholinergic；key_sources 新增 PMID:39721980；source_articles 新增 2026-06-29
 
 ## 来源文章
 
 - [[2026-05-29-theta-oscillations-phase-coding]]
 - [[2026-05-31-rem-sleep-emotional-memory]]
+- [[2026-06-29-acetylcholine-hippocampal-memory-gate]]

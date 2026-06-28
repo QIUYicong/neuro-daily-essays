@@ -11214,6 +11214,63 @@
         "global-workspace-theory（深化）——意识框架子图核心节点",
         "acetylcholine-neuromodulation——ACh在认知增强/注意力的完整机制"
       ]
+    },
+    {
+      "date": "2026-06-29",
+      "title": "乙酰胆碱的双重使命：海马如何用一个分子信使在记忆编码与提取之间精确切换",
+      "filename": "2026-06-29-acetylcholine-hippocampal-memory-gate.md",
+      "article_number": 182,
+      "wiki_pages_created": [
+        "wiki/concepts/septohippocampal-cholinergic.md (rev1)"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/acetylcholine-cortex.md (rev1→rev2: related +septohippocampal-cholinergic; 连接 +[[septohippocampal-cholinergic]])",
+        "wiki/concepts/theta-oscillations.md (rev4→rev5: SPEAR模型机制节; 证据表+1行; related +septohippocampal-cholinergic)",
+        "wiki/concepts/sharp-wave-ripples.md (rev12→rev13: 证据表+GRABACh3.0行PMID:33833054; related +septohippocampal-cholinergic)"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "内侧隔核（MSDB）胆碱能神经元投射至海马全区，如何通过乙酰胆碱浓度的动态变化实现两种对立计算状态的精确切换：高ACh（编码模式）时突触前M1 mAChR抑制CA3回返侧支但不抑制EC传入，防止旧记忆干扰新编码；低ACh（固化模式）时CA3回返解除抑制，尖波涟漪（SWR）主导，以~20倍速压缩重放白天经历完成系统固化。SPEAR模型（Hasselmo 2025）将这一机制扩展至θ相位层面：θ波谷=编码相，θ波峰=提取相，ACh慢时间尺度设定全局偏向，GABA快时间尺度执行θ周期内切换。双重解离行为药理学证据（Rogers & Kesner 2004）和GRABACh3.0光遗传证据（Zhang et al. 2021）为此模型提供独立验证。",
+      "layer": [
+        "molecular",
+        "synaptic",
+        "microcircuit",
+        "brain-region",
+        "cognition"
+      ],
+      "topic_tags": [
+        "acetylcholine ACh M1 mAChR alpha7 nAChR muscarinic nicotinic",
+        "septohippocampal cholinergic MSDB medial septum diagonal band Broca",
+        "SPEAR model Hasselmo 2025 Hippocampus separate phases encoding retrieval",
+        "theta oscillation trough encoding peak retrieval 125ms cycle",
+        "laminar selectivity stratum radiatum CA3 Schaffer collaterals presynaptic suppression",
+        "sharp wave ripples SWR ACh anticorrelation GRABACh3.0 Zhang 2021 PNAS",
+        "M1 IP3 ER calcium AMPAR LTP Sumi Harada 2023 iScience",
+        "double dissociation scopolamine physostigmine Rogers Kesner 2004 fear conditioning",
+        "pattern completion CA3 recurrent connections disinhibition low ACh",
+        "catastrophic interference encoding mode new learning protection",
+        "OLM interneurons alpha7 nAChR disinhibition Gu Yakel 2022 Biomedicines",
+        "working memory SWR disruption optogenetics MSDB Zhang 2021"
+      ],
+      "main_sources": [
+        "PMID:39721980 (PMC12700495) - Hasselmo ME 2025 Hippocampus (SPEAR模型，开放全文)",
+        "PMID:14747523 (PMC321320) - Rogers JL, Kesner RP 2004 Learning and Memory (双重解离，开放全文)",
+        "PMID:17964734 (PMC2175389) - Kremin T, Hasselmo ME 2007 Neuroscience (层选择性，开放全文)",
+        "PMID:35453495 (PMC9027244) - Gu Z, Yakel JL 2022 Biomedicines (综述，开放全文)",
+        "PMID:33833054 (PMC8054002) - Zhang Y et al. 2021 PNAS (GRABACh3.0+光遗传，开放全文)",
+        "PMID:36866246 (PMC9972575) - Sumi T, Harada K 2023 iScience (M1-LTP，开放全文)",
+        "PMID:9034856 - Hasselmo ME et al. 1996 Hippocampus (奠基理论，仅摘要)"
+      ],
+      "unresolved_questions": [
+        "Q-ach-encoding-01",
+        "Q-ach-encoding-02",
+        "Q-ach-encoding-03"
+      ],
+      "next_suggested_topics": [
+        "normalization-model——规范化计算皮层通用运算（高优先悬空引用；ACh精度加权机制深度连接）",
+        "global-workspace-theory（深化）——意识框架子图核心节点（degree=28，medium confidence）",
+        "synaptic-tagging-capture（深化）——与本篇ACh编码门控的完整回路整合"
+      ]
     }
   ]
 }

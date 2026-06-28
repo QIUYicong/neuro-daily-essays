@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-29
-updated: 2026-10-11
-revision_count: 12
+updated: 2026-06-29
+revision_count: 13
 dimensions: [whole-brain-network, brain-region, cellular, microcircuit, behavior, cognition]
-related: [hippocampal-circuit, place-cells, theta-oscillations, memory-consolidation, ltp, hebbian-learning, norepinephrine-locus-coeruleus, dopamine-reward-prediction-error, sleep-spindles, cortical-slow-oscillation, so-spindle-swr-coupling, ca2-hippocampus, prefrontal-cortex, pv-interneurons, slow-wave-sleep]
+related: [hippocampal-circuit, place-cells, theta-oscillations, memory-consolidation, ltp, hebbian-learning, norepinephrine-locus-coeruleus, dopamine-reward-prediction-error, sleep-spindles, cortical-slow-oscillation, so-spindle-swr-coupling, ca2-hippocampus, prefrontal-cortex, pv-interneurons, slow-wave-sleep, septohippocampal-cholinergic]
 prerequisites: [hippocampal-circuit, synaptic-transmission, place-cells]
 opens_questions: [Q-swr-reverse-forward, Q-swr-cortical-consolidation, Q-swr-large-vs-small, Q-swr-tagging-mechanism, Q-swr-human-translation, Q-pfc-suppression-selectivity, Q-inhibitory-plasticity-bounds, Q-swr-duration-mechanism-01, Q-swr-nr-substate-01]
-source_articles: [2026-05-29-theta-oscillations-phase-coding, 2026-06-02-memory-consolidation-systems, 2026-06-17-sharp-wave-ripples-memory-replay, 2026-06-19-sleep-spindles-nrem, 2026-06-22-grid-cells-place-cells, 2026-07-07-sleep-memory-consolidation-so-spindle-swr, 2026-07-11-dopamine-lc-hippocampus-memory-tagging, 2026-07-16-hippocampal-replay-experience-replay, 2026-08-14-ca2-hippocampus-social-memory-temporal-context, 2026-09-22-swr-replay-selection-consolidation, 2026-09-30-swr-sleep-ltp-consolidation, 2026-10-11-swr-duration-sleep-microstructure-memory]
-key_sources: ["PMID:26135716", "PMID:23354386", "PMID:34936810", "PMID:26238360", "PMID:23589831", "PMID:41205608", "PMID:38547293", "PMID:38867049", "PMID:39743590", "PMID:35040779", "PMID:19749750", "PMID:30356103", "PMID:28689981", "PMID:38443198", "PMID:31533977", "PMID:27182818", "PMID:38895442", "PMID:27593179", "PMID:38834064", "PMID:39227715", "PMID:26904941", "PMID:27840002", "PMID:37987008", "PMID:31197012", "PMID:22555434", "PMID:34001599"]
+source_articles: [2026-05-29-theta-oscillations-phase-coding, 2026-06-02-memory-consolidation-systems, 2026-06-17-sharp-wave-ripples-memory-replay, 2026-06-19-sleep-spindles-nrem, 2026-06-22-grid-cells-place-cells, 2026-07-07-sleep-memory-consolidation-so-spindle-swr, 2026-07-11-dopamine-lc-hippocampus-memory-tagging, 2026-07-16-hippocampal-replay-experience-replay, 2026-08-14-ca2-hippocampus-social-memory-temporal-context, 2026-09-22-swr-replay-selection-consolidation, 2026-09-30-swr-sleep-ltp-consolidation, 2026-10-11-swr-duration-sleep-microstructure-memory, 2026-06-29-acetylcholine-hippocampal-memory-gate]
+key_sources: ["PMID:26135716", "PMID:23354386", "PMID:34936810", "PMID:26238360", "PMID:23589831", "PMID:41205608", "PMID:38547293", "PMID:38867049", "PMID:39743590", "PMID:35040779", "PMID:19749750", "PMID:30356103", "PMID:28689981", "PMID:38443198", "PMID:31533977", "PMID:27182818", "PMID:38895442", "PMID:27593179", "PMID:38834064", "PMID:39227715", "PMID:26904941", "PMID:27840002", "PMID:37987008", "PMID:31197012", "PMID:22555434", "PMID:34001599", "PMID:33833054"]
 ---
 
 # 尖波涟漪（Sharp Wave-Ripples, SWR）
@@ -121,6 +121,7 @@ SWR在**两阶段记忆固化**中扮演关键角色（Buzsáki, 2015）：
 | 清醒态 SWR 干扰导致特异性空间学习缺陷（不影响场所细胞整体表征） | 大鼠空间交替任务 + 闭环清醒 SWR 干扰（不干扰睡眠 SWR） | Jadhav et al. 2012, PMID:22555434 | 高（因果，功能分离） |
 | 长时程 SWR（>150 ms）比短 SWR 携带更完整的场所细胞序列；光遗传延长 SWR → 迷宫学习加快 | 大鼠 CA1/CA3 多电极记录 + 光遗传延长 SWR 时长（不改变时机） | Fernández-Ruiz et al. 2019, PMID:31197012 (PMC11068097) | 高（因果，行为） |
 | 人类 SWR-慢波耦合预测同侧皮层激活（61.4% 耦合位点激活 vs 16.2% 对照） | 人类癫痫患者颅内多区域记录（海马+杏仁核+多皮层） | Skelin et al. 2021, PMID:34001599 | 中-高（人类直接证据；未读取全文） |
+| ACh-SWR 反相关：GRABACh3.0 荧光传感显示 ACh 谷值与 SWR 峰值同相；光遗传激活 MSDB 胆碱能→延迟区 SWR 抑制→工作记忆下降 | 小鼠 GRABACh3.0 在体光纤传感 + 光遗传激活 MSDB ChAT 神经元（位置特异：仅延迟区有效，非延迟区无效）| Zhang et al. 2021, PMID:33833054 | 高（在体传感器直接测量 + 因果光遗传）|
 
 ## 连接
 
@@ -132,6 +133,7 @@ SWR在**两阶段记忆固化**中扮演关键角色（Buzsáki, 2015）：
 - [[ltp]] — SWR重播可能通过反复激活强化海马-皮层突触（LTP机制）
 - [[hebbian-learning]] — SWR重播序列中前后神经元的同步激活可能触发Hebbian型突触修改
 - [[ca2-hippocampus]] — CA2 是 SWR 的主要触发者；~50% SWR 由 CA2 ramping cells 在 SWR 前 20–30ms 启动；约 20% SWR 完全绕过 CA3 直接经 CA2→CA1 传播
+- [[septohippocampal-cholinergic]] — MSDB 胆碱能系统是 SWR 的主要门控开关：探索时高 ACh 主动抑制 CA3 循环兴奋（阻止 SWR）；休息/睡眠时低 ACh 解除此抑制，CA3 内在动力学驱动自发 SWR（Zhang 2021 GRABACh3.0 在体直接证据）
 
 ## 新发现（2024-2026）
 
@@ -192,6 +194,7 @@ Ecker等（2022，PMID:35040779，eLife开放）的CA3计算模型表明，学�
 - 2026-08-14 · 修订 rev9 · 基于《CA2：海马遗忘的第三元件》(#113) · 修订 SWR 生成模型：增加 CA2 主动触发路径（~50% SWR 由 CA2 ramping cells 在 SWR 前 20–30ms 启动；~20% SWR 绕过 CA3 直接经 CA2→CA1 传播）；新增 Oliva 2016 光遗传因果证据（PMID:27593179）；连接新增[[ca2-hippocampus]]；证据表新增1行；related新增ca2-hippocampus；key_sources新增PMID:27593179
 - 2026-09-22 · 修订 rev10 · 基于《记忆的裁判官》(#152) · "新发现"小节新增两个：(1) PFC 主动抑制门控（Shin & Jadhav 2024，独立涟漪 71.2% 抑制 CA1，r=−0.71）；(2) 抑制性可塑性驱动统计抽象（Liao 2024，抑制权重对干扰细胞高 38.9%）；证据表新增 2 行；related 新增 prefrontal-cortex, pv-interneurons；opens_questions 新增 Q-pfc-suppression-selectivity, Q-inhibitory-plasticity-bounds；key_sources 新增 PMID:38834064, PMID:39227715
 - 2026-10-11 · 修订 rev12 · 基于《时长与时机》(#171) · 证据表新增 3 行：(1) Jadhav 2012（清醒态 SWR 干扰导致特异性学习缺陷，功能分离因果证据）；(2) Fernández-Ruiz 2019（长 SWR 信息容量优势 + 光遗传延长改善记忆，PMC11068097 开放全文）；(3) Skelin 2021（人类颅内 SWR-慢波耦合预测皮层激活，61.4% vs 16.2%）；related 新增 slow-wave-sleep；opens_questions 新增 Q-swr-duration-mechanism-01, Q-swr-nr-substate-01；key_sources 新增 PMID:31197012, PMID:22555434, PMID:34001599；source_articles 新增 2026-10-11-swr-duration-sleep-microstructure-memory
+- 2026-06-29 · 修订 rev13 · 基于《乙酰胆碱的双重使命》文章 · 证据表新增1行（Zhang 2021 GRABACh3.0 ACh-SWR 反相关 + 光遗传因果，PMID:33833054）；连接新增 [[septohippocampal-cholinergic]]（MSDB ACh 主动 SWR 门控机制）；related 新增 septohippocampal-cholinergic；key_sources 新增 PMID:33833054；source_articles 新增 2026-06-29
 
 ## 来源文章
 
@@ -203,3 +206,4 @@ Ecker等（2022，PMID:35040779，eLife开放）的CA3计算模型表明，学�
 - [[2026-08-14-ca2-hippocampus-social-memory-temporal-context]]
 - [[2026-09-30-swr-sleep-ltp-consolidation]]
 - [[2026-10-11-swr-duration-sleep-microstructure-memory]]
+- [[2026-06-29-acetylcholine-hippocampal-memory-gate]]

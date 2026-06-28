@@ -1999,3 +1999,24 @@
 **图谱**：330节点/1984边（+2节点：kibra/文章节点；+13边）
 
 **层级**：molecular × synaptic × cellular × cognition（与近期 whole-brain/consciousness 系列形成互补，回到分子层深度）
+
+---
+
+## 2026-06-29（#182）日摘要
+
+**主题**：乙酰胆碱的双重使命——海马如何用一个分子信使在编码与提取之间精确切换
+
+**核心发现**：Hasselmo（2025，Hippocampus，PMID:39721980）SPEAR模型将θ相位与编码/提取的计算需求正式绑定：θ波谷=编码相（EC传入强、CA3回返被ACh抑制、LTP有利），θ波峰=提取相（CA3回返强）。ACh慢时间尺度（秒-分钟）设定全局状态偏向；MSDB PV+GABA神经元快时间尺度（<2s）执行θ周期内编码↔提取切换。层选择性直接证据来自Kremin & Hasselmo（2007）脑片电生理：carbachol在CA3 SR（回返）产生强抑制，在SLM（EC传入）几乎无抑制——这是"为什么高ACh时新感觉信息仍能写入"的关键机制。行为药理学双重解离（Rogers & Kesner 2004）：CA3内注射东莨菪碱→编码受损，毒扁豆碱→提取受损，提供最清晰的独立行为证据。Zhang et al.（2021，PNAS）GRABACh3.0在体光纤传感直接证明ACh与SWR反相关，光遗传激活MSDB胆碱能→SWR抑制→工作记忆下降（因果链完整）。
+
+**关键分层**：文章从分子层（M1/α7受体亚型特异性、IP₃→ER Ca²⁺→LTP通路）→ 突触层（层选择性PPF/抑制）→ 微回路层（CA3回返vs EC传入的竞争平衡）→ 系统层（编码/固化双模式切换，灾难性干扰的进化解决方案）→ 认知层（记忆录制室隔音机制），每一层均有独立证据。
+
+**知识地图贡献**：
+- 新建 septohippocampal-cholinergic 专页（概念/机制/established/high）；填补 acetylcholine-neuromodulation 悬空引用的语义空缺
+- theta-oscillations.md (rev5)：新增SPEAR模型机制节，正式建立θ相位编码/提取分离的理论框架
+- sharp-wave-ripples.md (rev13)：补充GRABACh3.0 ACh-SWR反相关在体直接证据（Zhang 2021）
+- acetylcholine-cortex.md (rev2)：补充海马模式切换机制交叉连接
+- 新增未解问题Q-ach-encoding-01（高）/Q-ach-encoding-02（高）/Q-ach-encoding-03（中）
+
+**图谱**：332节点/1997边（+2节点：septohippocampal-cholinergic/文章节点；+13边）
+
+**层级**：molecular × synaptic × microcircuit × brain-region × cognition（连接上周分子层 KIBRA-PKMζ 与更早期的系统层 theta/SWR，形成从分子到系统的完整胆碱能机制链）

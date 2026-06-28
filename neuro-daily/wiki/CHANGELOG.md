@@ -4,6 +4,40 @@
 
 ---
 
+## 2026-06-29（#182）：乙酰胆碱的双重使命——海马如何精确切换编码与提取模式
+
+**文章**：《乙酰胆碱的双重使命：海马如何用一个分子信使在记忆编码与提取之间精确切换》（#182）
+
+**类型**：分子机制深度报道；隔-海马胆碱能系统；SPEAR 模型（Hasselmo 2025）；层级：molecular × synaptic × microcircuit × brain-region × cognition
+
+**新创建页面（1）**：
+- `wiki/concepts/septohippocampal-cholinergic.md`（rev1）：隔-海马胆碱能投射综合概念页；MSDB 胆碱能→海马全区；M1 mAChR（谷氨酸能锥体细胞）+ α7 nAChR（OLM 中间神经元）受体特异性；层选择性突触前抑制（CA3 回返>>EC 传入）；M1→IP₃→ER Ca²⁺→LTP 促进通路；SPEAR 模型双时间尺度（ACh 慢/GABA 快）；未解问题 Q-ach-encoding-01/02/03；7 个关键来源（6 open full text）
+
+**修订页面（3）**：
+- `wiki/concepts/acetylcholine-cortex.md`（rev1→rev2）：related 新增 septohippocampal-cholinergic；连接段落新增 [[septohippocampal-cholinergic]]；source_articles 新增 #182；updated → 2026-06-29
+- `wiki/concepts/theta-oscillations.md`（rev4→rev5）：新增「SPEAR 模型」机制节（θ波谷=编码相/θ波峰=提取相；双时间尺度 ACh/GABA 分工）；证据表新增1行（PMID:39721980）；related + 连接新增 septohippocampal-cholinergic；key_sources 新增 PMID:39721980；source_articles 新增 #182；updated → 2026-06-29
+- `wiki/concepts/sharp-wave-ripples.md`（rev12→rev13）：证据表新增1行（Zhang 2021 GRABACh3.0 ACh-SWR 反相关，PMID:33833054）；related + 连接新增 septohippocampal-cholinergic；key_sources 新增 PMID:33833054；source_articles 新增 #182；updated → 2026-06-29
+
+**图谱变更**：
+- 新增节点（1）：septohippocampal-cholinergic（concepts/mechanism/established/high）
+- 新增边（约13条）：septohippocampal-cholinergic↔theta-oscillations（regulates）、↔sharp-wave-ripples（regulates/anticorrelated）、→memory-consolidation（mechanism-of）、→ltp（supports）、→hippocampal-circuit（mechanism-of）、↔acetylcholine-cortex（related）、→pattern-completion（enables）、→working-memory（modulates）；文章节点→septohippocampal-cholinergic/theta-oscillations/sharp-wave-ripples/ltp/memory-consolidation（discusses）
+- 更新：_graph.json → 331 节点 / 1997 边（+1节点/+13边）
+
+**填补悬空引用**：acetylcholine-neuromodulation（由 septohippocampal-cholinergic 语义填补）
+
+**未解问题新增**：Q-ach-encoding-01（θ相位编码/提取分离的闭环光遗传因果证据）、Q-ach-encoding-02（高 ACh 抑制提取的精确阈值机制）、Q-ach-encoding-03（人类颅内直接电生理+ACh传感器证据）
+
+**来源**（7条，6篇开放获取）：
+- PMID:39721980（Hasselmo ME, *Hippocampus*, 2025）— 新增；开放全文
+- PMID:14747523（Rogers & Kesner, *Learning and Memory*, 2004）— 新增；开放全文
+- PMID:17964734（Kremin & Hasselmo, *Neuroscience*, 2007）— 新增；开放全文
+- PMID:35453495（Gu & Yakel, *Biomedicines*, 2022）— 新增；开放全文
+- PMID:33833054（Zhang et al., *PNAS*, 2021）— 新增；开放全文
+- PMID:36866246（Sumi & Harada, *iScience*, 2023）— 新增；开放全文
+- PMID:9034856（Hasselmo, Wyble & Wallenstein, *Hippocampus*, 1996）— 新增；仅摘要
+
+---
+
 ## 2026-06-28（#181）：LTP 六十年 + KIBRA-PKMζ 寡聚体——分子周转悖论的拓扑解答
 
 **文章**：《蛋白质会凋零，记忆却能永存：KIBRA-PKMζ 寡聚体如何解开突触记忆的分子永生之谜》（#181）
