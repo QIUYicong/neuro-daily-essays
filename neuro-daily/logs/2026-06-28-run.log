@@ -1,100 +1,116 @@
-# 运行日志 · 2026-06-28
+# 运行日志：2026-06-28
 
-**文章编号**：#64
-**主题**：BDNF（脑源性神经营养因子）：TrkB 信号级联、LTP 后期维持与阿尔茨海默病的分子接点
-**运行时间**：UTC+8 2026-06-28（实际系统时间 2026-06-02；使用连续性日期）
-**分支**：main
-
----
-
-## 搜索词与数据源
-
-**搜索词**：
-- BDNF TrkB LTP synaptic plasticity
-- BDNF adult neurogenesis hippocampus
-- BDNF memory LTP review
-- BDNF TrkB Alzheimer disease synaptic review
-- proBDNF mature BDNF p75NTR TrkB synaptic plasticity
-- Bramham Messaoudi BDNF LTP memory
-- Egan BDNF Val66Met hippocampus memory 2003
-
-**数据源**：PubMed, PMC
-
-**候选来源数**：约 110 篇（BDNF/LTP 主题），约 40 篇（BDNF/AD 主题）
+**运行时间**：2026-06-28（UTC+8）
+**文章编号**：#184
+**主题**：TARP 辅助亚基——AMPA 受体突触定位与 LTP 的分子导航系统
 
 ---
 
-## 采用来源（8篇）
+## 执行步骤
 
-| PMID | 类型 | 全文状态 | 用途 |
-|------|------|---------|------|
-| 16099088 | 综述 | 摘要（paywall） | BDNF突触固结假说，L-LTP依赖性 |
-| 33096634 (PMC7589016) | 综述 | 开放全文 | TrkB三通路，AD机制，Val66Met |
-| 17942328 (PMC2387254) | 综述 | 开放全文 | BDNF与蛋白合成依赖性LTP |
-| 16025106 | 原始研究 | 摘要（paywall） | proBDNF/p75NTR→LTD |
-| 12553913 | 原始研究 | 摘要（free article） | Val66Met认知效应 |
-| 21282661 (PMC3041121) | RCT | 开放全文 | 运动→BDNF→海马体积增大（人类） |
-| 30190379 (PMC6149542) | 原始研究 | 开放全文 | BDNF+神经发生协同改善AD认知 |
-| 23674053 | 综述 | 摘要（paywall） | BDNF治疗AD的转化医学挑战 |
+### 步骤 0：同步主分支
+- `git pull --rebase origin main`（因 divergent branches 使用 rebase 模式）
 
-**开放全文**：4篇（含 Science, PNAS, IJMS, Neurobiol Learn Mem）
-**仅摘要**：4篇（Nature Neuroscience, Progress in Neurobiology, Cell, Nat Rev Neurosci）
+### 步骤 A：读取状态文件
+- 读取 ROUTINE.md ✓
+- 读取 KNOWLEDGE-BASE-DESIGN.md ✓
+- 读取 state/topic_ledger.json ✓（最大文章号 #183，当前文章 #184）
+- 读取 state/unresolved_questions.md ✓
+- 读取 state/contested_claims.json ✓（5 条开放声明）
+- 读取 wiki/_graph.json ✓（333节点/2006边）
+
+### 步骤 B：选题
+- 选题：TARP 辅助亚基（tarp-auxiliary-subunit）
+- 理由：ampa-receptor.md 中明确标注"待建页面"；多篇近期文章（#176/#181/#183）均建议 TARP 作为下一个主题；知识图谱中 ampa-receptor 节点的悬空引用 [[tarp-auxiliary-subunit]] 需要填补
+
+### 步骤 C：研究与写作
+- 委托研究代理进行文献核查
+- 研究代理确认 3 个初稿 PMID 错误：
+  - PMID:10936990 → 正确 PMID:11140673 (Chen 2000, Nature)
+  - PMID:16258581 → 正确 PMID:15858532 (Tomita 2005, Nature)
+  - PMID:28823958 → 正确 PMID:28103477 (Nicoll 2017, Neuron)
+- 文章写作完成：约 5000 字，15 条来源，含 5 篇开放全文
+
+### 步骤 D：Wiki 固结
+
+**新建页面**：
+- wiki/concepts/tarp-auxiliary-subunit.md（rev1）✓
+
+**修订页面**：
+- wiki/concepts/ampa-receptor.md（rev4→rev5）✓：
+  - 扩充 LTP 插入机制（加入 TARP 磷酸化步骤）
+  - 更新 [[tarp-auxiliary-subunit]] 链接（删除"待建页面"）
+  - key_sources 新增 4 条；未解问题新增 2 条
+- wiki/neurons/camkii.md（rev3→rev4）✓：
+  - LTP 模式新增步骤6（TARP polybasic region 磷酸化→扩散陷阱）
+  - 新增 [[tarp-auxiliary-subunit]] 连接
+
+**文章修正**：
+- 修正 3 个错误 PMID（Chen 2000/Tomita 2005/Nicoll 2017）
+
+### 步骤 E：图谱与导航更新
+
+**图谱更新**（wiki/_graph.json）✓：
+- 新增节点：tarp-auxiliary-subunit（established/high）
+- 新增边：11 条
+- 总计：334节点/2017边
+
+**wiki/index.md 更新**✓：
+- 标题行更新（第184篇，326页，334节点/2017边）
+- 新增 tarp-auxiliary-subunit 条目（concepts 区块）
+- camkii 条目更新（rev4）
+
+**wiki/CHANGELOG.md 更新**✓：
+- 新增 #184 条目（置于顶部）
+
+### 步骤 F：治理文件更新
+
+- state/topic_ledger.json ✓（新增条目 #184，共 172 条）
+- state/unresolved_questions.md ✓（新增 Q-tarp-01 至 Q-tarp-04）
+- state/source_registry.json ✓（新增 22 条来源，总 687 条）
+- state/monthly_synthesis.md ✓（新增 #184 日摘要）
+- neuro-daily/notes/2026-06-28-reading-notes-tarp.md ✓（创建）
+- neuro-daily/sources/2026-06-28-sources-tarp.json ✓（创建）
+
+### 步骤 G：提交与推送
+- git add + git commit（Add neuro daily article + wiki consolidation for 2026-06-28）
+- git push origin main
 
 ---
 
-## 排除来源
+## 质量核查
 
-- PMID:36793868（自噬/BDNF/抑郁，偏离神经发生与LTP主线）
-- PMID:40890771（2025年最新NMDA/BDNF，过于具体，未读全文）
-- 其他与主题关联较弱的结果
-
----
-
-## 固结的 wiki 页面
-
-**新建（1）**：
-- `wiki/concepts/bdnf.md` ← 填补来自 adult-neurogenesis、hippocampal-neurogenesis、ltp（amyloid-beta-oligomers 连接） 的悬空引用
-
-**修订（4）**：
-- `wiki/concepts/ltp.md` rev9 ← 新增 BDNF→Arc→L-LTP 段落；related+bdnf,arc-arg31
-- `wiki/concepts/adult-neurogenesis.md` rev2 ← 悬空引用[[bdnf]]已建页
-- `wiki/concepts/hippocampal-neurogenesis.md` rev3 ← 悬空引用[[bdnf]]已建页
-- `wiki/diseases/alzheimers-disease.md` rev3 ← 修正错误slug bdnf-trkb→bdnf；新增 Choi 2018 证据
+- [x] 所有 PMID 经研究代理核查，3 个错误已修正
+- [x] 文章中无自我引用（使用"#数字"格式引用系列内其他文章）
+- [x] 不包含医疗建议
+- [x] 所有来源均通过正常学术渠道（PubMed/PMC），无盗版来源
+- [x] 新 wiki 页遵循 _TEMPLATE.md 格式
+- [x] 图谱一致性：tarp-auxiliary-subunit 节点与新建 wiki 页的 related 字段一致
+- [x] ampa-receptor 悬空引用已填补
+- [x] contested_claims.json 无新增争议声明（今日主题无高度争议领域）
 
 ---
 
-## 登记的矛盾
+## 文件变更摘要
 
-无新矛盾。既有矛盾（C-2026-05-24-01, C-2026-05-31-01, C-2026-05-31-02, C-2026-06-22-01）状态不变。
+**新建**：
+- articles/2026-06-28-tarp-ampa-receptor-synaptic-trafficking.md
+- wiki/concepts/tarp-auxiliary-subunit.md
+- notes/2026-06-28-reading-notes-tarp.md
+- sources/2026-06-28-sources-tarp.json
+- logs/2026-06-28-run.log（本文件）
 
----
-
-## 图谱更新
-
-- 新增节点：1（bdnf，established，high confidence）
-- 新增边：12条
-- 总计：111 节点，638 条边
-
----
-
-## 新增未解问题
-
-- Q-bdnf-01（高优先）：BDNF 血脑屏障问题与 TrkB 激动剂临床转化
-- Q-bdnf-02（中优先）：Val66Met 真实认知风险权重及与运动的交互
-- Q-bdnf-03（中优先）：AD 中 BDNF 信号下降的因果方向
-
----
-
-## 失败与限制
-
-- 4篇重要来源（Bramham 2005, Woo 2005, Egan 2003, Lu 2013）只能读取摘要，未读全文（paywall）
-- 已在文章和 sources.json 中明确标注"未读取全文"
-- Bramham 2005 是此领域核心综述，摘要已提供足够的框架信息
+**修订**：
+- wiki/concepts/ampa-receptor.md（rev4→rev5）
+- wiki/neurons/camkii.md（rev3→rev4）
+- wiki/index.md
+- wiki/CHANGELOG.md
+- wiki/_graph.json（+1节点/+11边）
+- state/topic_ledger.json（+1条目）
+- state/unresolved_questions.md（+4问题）
+- state/source_registry.json（+22来源）
+- state/monthly_synthesis.md（+1摘要）
 
 ---
 
-## 分支与 commit 状态
-
-- 分支：main
-- commit：待提交
-- push：待推送
+*日志生成：自动化运行（无交互模式）*

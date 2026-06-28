@@ -4,6 +4,65 @@
 
 ---
 
+## 2026-06-28（#184）：TARP 辅助亚基——AMPA 受体突触定位与 LTP 的分子导航系统
+
+**文章**：《AMPA 受体的突触之旅：TARP 辅助亚基如何引导受体驻扎、改造门控并参与 LTP》（#184）
+
+**类型**：分子机制深度报道；AMPA 受体辅助蛋白；LTP 最后一公里机制；层级：molecular × synaptic × cellular
+
+**新创建页面（1）**：
+- `wiki/concepts/tarp-auxiliary-subunit.md`（rev1）：TARP 辅助亚基综合概念页；stargazer 小鼠发现史；TARP 三段功能区（胞外/跨膜/C末端）；四大机制（ER 出口许可/横向扩散引导/突触 PSD 锚定/门控动力学改造）；CaMKII 磷酸化-扩散陷阱-LTP 机制详解；人工重构实验（Ravi 2022）和 ExSYTE 化遗传学证明（Park 2023）；TARP 家族脑区特异性（γ-2 小脑，γ-8 海马）；衰老 Cav1.3→CaMKII-α↓→TARPγ-8↓→LTP 缺陷因果链；疾病连接（失神癫痫/智力障碍/AD）；10 个 wiki 连接；4 个未解问题（Q-tarp-01 至 Q-tarp-04）；15 个关键来源；补全 ampa-receptor 的悬空引用 [[tarp-auxiliary-subunit]]
+
+**修订页面（2）**：
+- `wiki/concepts/ampa-receptor.md`（rev4→rev5）：LTP 插入机制扩充，加入 TARP polybasic region CaMKII 磷酸化步骤（Opazo 2010, Park 2016）和 TARP-PSD-95 扩散陷阱充分性证明（Ravi 2022, Park 2023）；[[tarp-auxiliary-subunit]] 链接更新为正式描述（删除"待建页面"）；key_sources 新增 4 条；未解问题新增 Q-tarp-01/Q-tarp-03；source_articles 新增 #184；updated → 2026-06-28
+- `wiki/neurons/camkii.md`（rev3→rev4）：LTP 模式机制列表新增步骤6（TARP polybasic region 磷酸化→扩散陷阱）和步骤7（GluA1+TARP 双轨道）；连接新增 [[tarp-auxiliary-subunit]]；key_sources 新增 4 条；source_articles 新增 #184；updated → 2026-06-28
+
+**图谱变更**：
+- 新增节点（1）：tarp-auxiliary-subunit（concepts/mechanism/established/high）
+- 新增边（11条）：
+  - tarp-auxiliary-subunit→ampa-receptor（is-auxiliary-subunit-of）
+  - tarp-auxiliary-subunit→ltp（required-for）
+  - tarp-auxiliary-subunit→camkii（phosphorylated-by）
+  - tarp-auxiliary-subunit→nmda-receptor（upstream-from）
+  - tarp-auxiliary-subunit→synaptic-transmission（modulates）
+  - tarp-auxiliary-subunit→kibra（related-to）
+  - tarp-auxiliary-subunit→pkm-zeta（related-to）
+  - tarp-auxiliary-subunit→synaptic-tagging-capture（candidate-mechanism-for）
+  - ampa-receptor→tarp-auxiliary-subunit（requires）
+  - ltp→tarp-auxiliary-subunit（expressed-via）
+  - camkii→tarp-auxiliary-subunit（phosphorylates）
+- 更新：_graph.json → 334节点 / 2017边（+1节点/+11边），updated → 2026-06-28
+
+**填补悬空引用**：tarp-auxiliary-subunit（由 ampa-receptor.md 的 related/connections 中的"待建页面"转为正式链接，今日新建页面填补该悬空引用）
+
+**未解问题新增**：Q-tarp-01（高，TARP ER 出口的具体分子机制）、Q-tarp-02（中，TARP 家族门控差异的结构基础）、Q-tarp-03（中，LTP 后期 TARP 磷酸化维持与 KIBRA-PKMζ 关联）、Q-tarp-04（高，TARPγ-8 靶向治疗的脑区选择性安全性）
+
+**来源**（22条，11篇开放获取）：
+- PMID:9799228（Letts 1998, Nat Genet）— stargazer 基因发现；仅摘要
+- PMID:11140673（Chen 2000, Nature）— stargazin 是 AMPAR ER 出口必要条件；仅摘要
+- PMID:12201694（Schnell 2002, Science）— PSD-95-stargazin 槽位模型；仅摘要
+- PMID:15858532（Tomita 2005, Nature）— TARP 家族门控改变系统比较；仅摘要
+- PMID:15664178（Tomita 2005, Neuron）— stargazin 9-Ser 双向可塑性；开放（PMC2826216）
+- PMID:16222232（Rouach 2005, Nat Neurosci）— γ-8 KO 海马 LTP；仅摘要
+- PMID:20547132（Sumioka 2010, Nat Neurosci）— TARP-脂质静电锚定；开放（PMC2887694）
+- PMID:20670832（Opazo 2010, Neuron）— SPT 扩散陷阱因果证据；开放（PMC2930455）
+- PMID:27667007（Park 2016, Neuron）— TARPγ-8 Ser277/Ser281；开放（PMC5059846）
+- PMID:33981040（Yu 2021, Nature）— GluA1/A2-TARPγ-8 cryo-EM；仅摘要
+- PMID:34079129（Zhang 2021, Nature）— 异型八聚体结构；仅摘要
+- PMID:34426577（Watson 2021, Nat Commun）— CA1 锚定 TARP+NTD；开放（PMC8382838）
+- PMID:36223737（Ravi 2022, Cell Rep）— 人工重构 LTP；开放（PMC9797105）
+- PMID:37471228（Park 2023, Cell Rep）— ExSYTE 化遗传学；仅摘要
+- PMID:37105372（Bessa-Neto & Choquet 2023）— 扩散陷阱综述；仅摘要
+- PMID:36655318（Yamasaki 2023, J Cereb Blood Flow Metab）— 活体 PET TARPγ-8；开放（PMC10196744）
+- PMID:39380368（He 2024, Aging Cell）— CaMKII-TARPγ-8 衰老因果链；开放（PMC11709088）
+- PMID:35256745（Guergueltcheva 2022, Mol Psychiatry）— 人类 V143L 智力障碍；仅摘要
+- PMID:33509083（Zhang 2021, Mol Medicine）— AD caspase-1-TARP；仅摘要
+- PMID:28103477（Nicoll 2017, Neuron）— LTP 简史；仅摘要
+- PMID:37290118（Nicoll & Schulman 2023, Physiol Rev）— CaMKII 突触记忆综述；开放（PMC10190981）
+- PMID:38853553（Nowacka 2024, Phil Trans R Soc B）— 扩散陷阱综述；开放（PMC11343219）
+
+---
+
 ## 2026-06-28（#183）：多发性硬化——当绝缘层失守，髓鞘时序计算的疾病验证
 
 **文章**：《当绝缘层失守：多发性硬化如何以自身为代价揭示髓鞘对神经时序与认知的隐形贡献》（#183）

@@ -11219,6 +11219,217 @@
       "year": 2014,
       "coverage": "60%杏仁核放大；REM NE最低；PTSD机制；Prazosin",
       "article": "2026-06-27-rem-sleep-il-cortex-fear-extinction-memory"
+    },
+    {
+      "id": "PMID:9799228",
+      "type": "original_research",
+      "authors": "Letts VA et al.",
+      "title": "The mouse stargazer gene encodes a neuronal Ca2+-channel gamma subunit",
+      "journal": "Nat Genet",
+      "year": 1998,
+      "full_text": false
+    },
+    {
+      "id": "PMID:11140673",
+      "type": "original_research",
+      "authors": "Chen L et al.",
+      "title": "Stargazin regulates synaptic targeting of AMPA receptors by two distinct mechanisms",
+      "journal": "Nature",
+      "year": 2000,
+      "full_text": false,
+      "note": "PMID 经研究代理核查修正（初稿错误 PMID:10936990）"
+    },
+    {
+      "id": "PMID:12201694",
+      "type": "original_research",
+      "authors": "Schnell E et al.",
+      "title": "Direct interactions between PSD-95 and stargazin control synaptic AMPA receptor number",
+      "journal": "Science",
+      "year": 2002,
+      "full_text": false
+    },
+    {
+      "id": "PMID:15858532",
+      "type": "original_research",
+      "authors": "Tomita S et al.",
+      "title": "Functional studies and distribution define a family of transmembrane AMPA receptor regulatory proteins",
+      "journal": "Nature",
+      "year": 2005,
+      "full_text": false,
+      "note": "PMID 经研究代理核查修正（初稿错误 PMID:16258581）"
+    },
+    {
+      "id": "PMID:15664178",
+      "type": "original_research",
+      "authors": "Tomita S et al.",
+      "title": "Bidirectional synaptic plasticity regulated by phosphorylation of stargazin during CaMKII induction",
+      "journal": "Neuron",
+      "year": 2005,
+      "full_text": true,
+      "pmcid": "PMC2826216"
+    },
+    {
+      "id": "PMID:16222232",
+      "type": "original_research",
+      "authors": "Rouach N et al.",
+      "title": "TARP gamma-8 controls hippocampal AMPA receptor number, distribution and synaptic plasticity",
+      "journal": "Nat Neurosci",
+      "year": 2005,
+      "full_text": false
+    },
+    {
+      "id": "PMID:20547132",
+      "type": "original_research",
+      "authors": "Sumioka A et al.",
+      "title": "PDZ binding of TARPgamma-8 controls synaptic transmission but not synaptic plasticity",
+      "journal": "Nat Neurosci",
+      "year": 2010,
+      "full_text": true,
+      "pmcid": "PMC2887694"
+    },
+    {
+      "id": "PMID:20670832",
+      "type": "original_research",
+      "authors": "Opazo P et al.",
+      "title": "CaMKII triggers the diffusional trapping of surface AMPARs through phosphorylation of stargazin",
+      "journal": "Neuron",
+      "year": 2010,
+      "full_text": true,
+      "pmcid": "PMC2930455"
+    },
+    {
+      "id": "PMID:27667007",
+      "type": "original_research",
+      "authors": "Park J et al.",
+      "title": "CaMKII phosphorylation of TARPgamma-8 is a mediator of LTP and learning and memory",
+      "journal": "Neuron",
+      "year": 2016,
+      "full_text": true,
+      "pmcid": "PMC5059846"
+    },
+    {
+      "id": "PMID:33981040",
+      "type": "original_research",
+      "authors": "Yu J et al.",
+      "title": "Hippocampal AMPA receptor assemblies and mechanism of allosteric inhibition",
+      "journal": "Nature",
+      "year": 2021,
+      "full_text": false
+    },
+    {
+      "id": "PMID:34079129",
+      "type": "original_research",
+      "authors": "Zhang D et al.",
+      "title": "Gating and modulation of a hetero-octameric AMPA glutamate receptor",
+      "journal": "Nature",
+      "year": 2021,
+      "full_text": false
+    },
+    {
+      "id": "PMID:34426577",
+      "type": "original_research",
+      "authors": "Watson JF et al.",
+      "title": "AMPA receptor anchoring at CA1 synapses is determined by N-terminal domain and TARP gamma-8 interactions",
+      "journal": "Nat Commun",
+      "year": 2021,
+      "full_text": true,
+      "pmcid": "PMC8382838"
+    },
+    {
+      "id": "PMID:36223737",
+      "type": "original_research",
+      "authors": "Ravi A et al.",
+      "title": "Long-term potentiation reconstituted with an artificial TARP/PSD-95 complex",
+      "journal": "Cell Rep",
+      "year": 2022,
+      "full_text": true,
+      "pmcid": "PMC9797105"
+    },
+    {
+      "id": "PMID:37471228",
+      "type": "original_research",
+      "authors": "Park J et al.",
+      "title": "Chemogenetic regulation of the TARP-lipid interaction mimics LTP and reversibly modifies behavior",
+      "journal": "Cell Rep",
+      "year": 2023,
+      "full_text": false
+    },
+    {
+      "id": "PMID:37105372",
+      "type": "review",
+      "authors": "Bessa-Neto D & Choquet D",
+      "title": "Molecular mechanisms of AMPA receptor reversible stabilization at synapses",
+      "journal": "Mol Cell Neurosci",
+      "year": 2023,
+      "full_text": false
+    },
+    {
+      "id": "PMID:36655318",
+      "type": "original_research",
+      "authors": "Yamasaki T et al.",
+      "title": "Small-animal PET study for noninvasive quantification of TARP gamma-8 in the brain",
+      "journal": "J Cereb Blood Flow Metab",
+      "year": 2023,
+      "full_text": true,
+      "pmcid": "PMC10196744"
+    },
+    {
+      "id": "PMID:39380368",
+      "type": "original_research",
+      "authors": "He Y et al.",
+      "title": "CaMKIIalpha-TARPgamma8 signaling mediates hippocampal synaptic impairment in aging",
+      "journal": "Aging Cell",
+      "year": 2024,
+      "full_text": true,
+      "pmcid": "PMC11709088"
+    },
+    {
+      "id": "PMID:35256745",
+      "type": "original_research",
+      "authors": "Guergueltcheva V et al.",
+      "title": "Human CACNG2/Stargazin V143L mutation associated with intellectual disability",
+      "journal": "Mol Psychiatry",
+      "year": 2022,
+      "full_text": false
+    },
+    {
+      "id": "PMID:33509083",
+      "type": "original_research",
+      "authors": "Zhang T et al.",
+      "title": "Stargazin-GluA1 interaction disrupted by caspase-1 in Alzheimer's disease model",
+      "journal": "Mol Medicine",
+      "year": 2021,
+      "full_text": false
+    },
+    {
+      "id": "PMID:28103477",
+      "type": "review",
+      "authors": "Nicoll RA",
+      "title": "A brief history of long-term potentiation",
+      "journal": "Neuron",
+      "year": 2017,
+      "full_text": false,
+      "note": "PMID 经研究代理核查修正（初稿错误 PMID:28823958）"
+    },
+    {
+      "id": "PMID:37290118",
+      "type": "review",
+      "authors": "Nicoll RA & Schulman H",
+      "title": "Synaptic memory and CaMKII",
+      "journal": "Physiol Rev",
+      "year": 2023,
+      "full_text": true,
+      "pmcid": "PMC10190981"
+    },
+    {
+      "id": "PMID:38853553",
+      "type": "review",
+      "authors": "Nowacka A et al.",
+      "title": "Diffusion trapping of AMPARs at synapses",
+      "journal": "Phil Trans R Soc B",
+      "year": 2024,
+      "full_text": true,
+      "pmcid": "PMC11343219"
     }
   ],
   "total_sources": 655,

@@ -3039,6 +3039,15 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/diseases/multiple-sclerosis.md"
+    },
+    {
+      "id": "tarp-auxiliary-subunit",
+      "title": "TARP 辅助亚基（Transmembrane AMPA Receptor Regulatory Proteins）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/tarp-auxiliary-subunit.md"
     }
   ],
   "edges": [
@@ -14301,6 +14310,72 @@
       "to": "multiple-sclerosis",
       "type": "target-of-repair",
       "note": "CRISPR 改造的 hES-OPC 是绕过慢性微环境抑制的新兴修复策略（Wagstaff 2024）"
+    },
+    {
+      "from": "tarp-auxiliary-subunit",
+      "to": "ampa-receptor",
+      "type": "is-auxiliary-subunit-of",
+      "note": "TARP 是 AMPA 受体从 ER 到突触的全程辅助亚基；无 TARP 则 AMPAR 滞留于 ER 无法表面表达"
+    },
+    {
+      "from": "tarp-auxiliary-subunit",
+      "to": "ltp",
+      "type": "required-for",
+      "note": "TARP C 末端 polybasic region 的 CaMKII 磷酸化触发扩散陷阱，是 LTP 突触后表达的最后一公里"
+    },
+    {
+      "from": "tarp-auxiliary-subunit",
+      "to": "camkii",
+      "type": "phosphorylated-by",
+      "note": "CaMKII 磷酸化 TARP γ-2/γ-8 polybasic region（Ser277/Ser281），解除静电掩蔽，使 PSD-95 亲和力骤升 10–30 倍"
+    },
+    {
+      "from": "tarp-auxiliary-subunit",
+      "to": "nmda-receptor",
+      "type": "upstream-from",
+      "note": "NMDA 受体 Ca²⁺ 内流激活 CaMKII，后者磷酸化 TARP 触发扩散陷阱"
+    },
+    {
+      "from": "tarp-auxiliary-subunit",
+      "to": "synaptic-transmission",
+      "type": "modulates",
+      "note": "TARP 使突触 AMPAR 失敏减慢（~3→~15-30ms）、谷氨酸亲和力提升约 10 倍，根本性改变突触电流时程"
+    },
+    {
+      "from": "tarp-auxiliary-subunit",
+      "to": "kibra",
+      "type": "related-to",
+      "note": "Q-tarp-03：LTP 后期 TARP 磷酸化维持机制与 KIBRA-PKMζ 寡聚体的关联是重要未解问题"
+    },
+    {
+      "from": "tarp-auxiliary-subunit",
+      "to": "pkm-zeta",
+      "type": "related-to",
+      "note": "Q-tarp-03：L-LTP 维持的 PKMζ 机制与 TARP 磷酸化持久化之间的分子对话尚未阐明"
+    },
+    {
+      "from": "tarp-auxiliary-subunit",
+      "to": "synaptic-tagging-capture",
+      "type": "candidate-mechanism-for",
+      "note": "磷酸化的 TARP-PSD-95 复合物是突触标签（synaptic tag）的分子候选"
+    },
+    {
+      "from": "ampa-receptor",
+      "to": "tarp-auxiliary-subunit",
+      "type": "requires",
+      "note": "AMPA 受体需要 TARP 才能离开 ER 并到达突触；TARP-AMPAR 复合物是突触快速兴奋传递的实际执行单位"
+    },
+    {
+      "from": "ltp",
+      "to": "tarp-auxiliary-subunit",
+      "type": "expressed-via",
+      "note": "LTP 的突触后表达通过 CaMKII 磷酸化 TARP → 扩散陷阱 → AMPAR 净增加实现"
+    },
+    {
+      "from": "camkii",
+      "to": "tarp-auxiliary-subunit",
+      "type": "phosphorylates",
+      "note": "CaMKII 在 LTP 诱导时磷酸化 TARP γ-2/γ-8 的 polybasic region，是 LTP 分子最后一公里"
     }
   ],
   "dangling_references": [

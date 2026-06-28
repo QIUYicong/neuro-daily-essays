@@ -2040,3 +2040,23 @@
 **图谱**：333节点/2006边（+1节点：multiple-sclerosis；修正1悬空边：adaptive-myelination→stdp；+9新边；updated 2026-06-28）
 
 **层级**：molecular × cellular × synaptic × brain-region × whole-brain-network × cognition × disease（课程脊柱9白质基础设施与脱髓鞘疾病的首篇专题；与 #165 少突胶质细胞/adaptive-myelination 形成互补的"正常机制 vs 疾病破坏"对）
+
+---
+
+## 2026-06-28（#184）日摘要
+
+**主题**：TARP 辅助亚基——AMPA 受体突触定位与 LTP 最后一公里的分子导航系统
+
+**核心发现**：TARP 是 AMPA 受体从内质网（ER）到突触后致密区（PSD）的全程辅助亚基。Chen et al. 2000（PMID:11140673）最初揭示：没有 TARP/stargazin（γ-2），小脑颗粒细胞内的 AMPA 受体蛋白虽然正常合成，但全部滞留于 ER 无法表面表达。TARP 的三大功能（ER 出口许可证、横向扩散引导、PSD 槽位锚定）加上对门控动力学的深刻改变（失敏减慢 ~3ms→~15-30ms，谷氨酸亲和力提升 ~10×），使其成为"突触 AMPAR"不可分割的组成部分。LTP 的突触后表达机制通过 CaMKII 磷酸化 TARP C 末端 polybasic region（stargazin/γ-2 的 9 个丝氨酸；TARPγ-8 的 Ser277/Ser281）实现：磷酸基团中和正电荷 → 静电掩蔽解除 → PDZ 配体暴露 → PSD-95 亲和力骤升 10–30 倍 → 扩散陷阱捕获受体 → AMPAR 数量净增 = LTP 物理实现。Ravi et al. 2022（PMID:36223737）正交突变实验证明 TARP PDZ-PSD-95 PDZ 相互作用是 LTP 的最小充分条件（无需其他因子）。Park et al. 2023（PMID:37471228）ExSYTE 化遗传学工具直接因果证明 TARP-脂质界面是 LTP 分子开关（occlusion 证据 + 行为验证）。γ-8 海马特异性 TARP：KO 消除约 50% 海马 AMPAR 和大部分 LTP（Rouach 2005）；He 2024（PMID:39380368）通过三重因果链（KD/KI/药理）证明老化 Cav1.3→CaMKII-α↓→TARPγ-8↓→LTP 缺陷→空间记忆受损。
+
+**关键分层**：分子层（TARP 三段结构/polybasic region 磷酸化/静电掩蔽解除）→ 突触层（扩散陷阱/槽位模型/LTP 物理表达）→ 细胞层（脑区特异性 TARP 亚型）→ 疾病层（失神癫痫/智力障碍/AD/认知衰老）→ AI 对比（Transformer Softmax vs TARP-PSD-95 槽位，关键差异：物理槽位上限 vs 无状态注意力权重）。
+
+**知识地图贡献**：
+- 新建 tarp-auxiliary-subunit 专页（concepts/mechanism/established/high）；补全 ampa-receptor 页的 [[tarp-auxiliary-subunit]] 悬空引用
+- ampa-receptor.md (rev5)：LTP 插入机制加入 TARP 磷酸化步骤；[[tarp-auxiliary-subunit]] 链接从"待建页面"更新为正式描述
+- camkii.md (rev4)：LTP 模式新增步骤6（TARP polybasic region 磷酸化→扩散陷阱）；新增 [[tarp-auxiliary-subunit]] 连接
+- 新增未解问题 Q-tarp-01（高，ER 出口机制）/ Q-tarp-02（中，家族差异结构基础）/ Q-tarp-03（中，LTP 后期维持与 KIBRA-PKMζ 关联）/ Q-tarp-04（高，γ-8 靶向治疗脑区安全性）
+
+**图谱**：334节点/2017边（+1节点：tarp-auxiliary-subunit；+11边；updated 2026-06-28）
+
+**层级**：molecular × synaptic × cellular（AMPA 受体命运三部曲第三篇：#64 BDNF-TrkB → #181 KIBRA-PKMζ → #184 TARP-PSD-95，构成 Ca²⁺→CaMKII→{GluA1 S831+TARP 磷酸化}→{BDNF-TrkB+PKMζ-KIBRA} 的完整分子故事）

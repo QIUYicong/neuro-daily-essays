@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-06-28（第183篇·多发性硬化·髓鞘时序计算的疾病验证）· 主题页总数：**325**（新建1页：diseases/multiple-sclerosis；修订2页：neurons/oligodendrocyte rev2, concepts/adaptive-myelination rev2；修正图谱悬空引用 spike-timing-dependent-plasticity → stdp；图谱333节点/2006边）
+> 最后更新：2026-06-28（第184篇·TARP 辅助亚基·AMPA 受体突触定位与 LTP 最后一公里机制）· 主题页总数：**326**（新建1页：concepts/tarp-auxiliary-subunit；修订2页：concepts/ampa-receptor rev5, neurons/camkii rev4；补全 ampa-receptor 的悬空引用 [[tarp-auxiliary-subunit]]；图谱334节点/2017边）
 
 ---
 
@@ -18,7 +18,7 @@
 - 🟢 [突触结合蛋白 Synaptotagmin](neurons/synaptotagmin.md) — 突触囊泡上的钙传感器，触发融合的分子开关（修订3次）
 - 🟢 [就绪释放池（RRP）](neurons/readily-releasable-pool.md) — 突触活动区中处于停靠就绪状态的囊泡子集；RRP耗竭是短时程抑制的主要机制 **[NEW 2026-06-10]**
 - 🟢 [活动区（Active Zone）](neurons/active-zone.md) — 突触前终末的纳米级分子发射台
-- 🟢 [CaMKII（钙调蛋白依赖蛋白激酶 II）](neurons/camkii.md) — LTP 诱导和维持的核心激酶（快速局部模式）；BTSP 中的延迟弥散随机激活（DDSC，平台电位后 10–100 s，IP₃→ER 驱动）是行为时间尺度突触整合的分子秒表；结构可塑性中通过 GEF→Rac1/RhoA→LIMK→cofilin 轴驱动棘头膨大 **[修订 rev3 2026-09-23]**
+- 🟢 [CaMKII（钙调蛋白依赖蛋白激酶 II）](neurons/camkii.md) — LTP 诱导和维持的核心激酶（快速局部模式）；LTP 中双底物：GluA1 S831 磷酸化（提高电导）+ TARP γ-2/γ-8 polybasic region 磷酸化（扩散陷阱捕获受体）；BTSP 中的延迟弥散随机激活（DDSC，IP₃→ER 驱动）；结构可塑性中通过 GEF→Rac1/RhoA→LIMK→cofilin 轴驱动棘头膨大 **[修订 rev4 2026-06-28]**
 - 🟢 [树突棘](neurons/dendritic-spine.md) — 兴奋性突触的突触后接受位点；棘头体积与突触强度和 AMPA 受体数量高度相关；LTP 诱导后 Ca²⁺→CaMKII→Rac1/RhoA→LIMK→cofilin 失活→F-actin 净聚合驱动棘头膨大 200–300%；大棘近饱和，小棘最具可塑性 **[NEW 2026-09-23]**
 - 🟢 [树突计算](neurons/dendritic-computation.md) — NMDA 棘波与 Ca²⁺ 棘波使单根树突成为独立计算单元，单神经元等价两层神经网络；Wilson 2016证明V1突触聚类增强方向选择性（修订4次）
 - 🟢 [锥体神经元](neurons/pyramidal-neuron.md) — 皮层主体兴奋性神经元，双树突系统是树突计算和前馈/反馈整合的物理基础
@@ -75,6 +75,7 @@
 - 🔵 [疾病相关微胶质细胞（DAM）](concepts/disease-associated-microglia.md) — 神经退行性疾病斑块周围的特化小胶质细胞亚态；稳态→Step 1（P2RY12↓/CX3CR1↓）→Step 2 TREM2依赖（LPL↑/CTSD↑/强吞噬能力）；5XFAD小鼠Aβ斑块周围微胶质屏障；TREM2-KO→屏障缺失→斑块扩散更广；人类AD脑snRNA-seq确认（Mathys 2019）；Q-dam-01至Q-dam-04未解问题 **[NEW 2026-09-17]**
 - 🔵 [PINK1/Parkin 线粒体自噬](concepts/pink1-parkin-mitophagy.md) — ΔΨm消失→PINK1 OMM积累→二聚化+自磷酸化→pUb（Ser65）生成→Parkin招募+激活（正反馈放大）→NDP52/OPTN/TBK1→LC3/自噬体→溶酶体；PD早发性遗传最主要原因（PINK1/PARK6、Parkin/PARK2）；Pink1 KO猕猴vs小鼠物种差异 **[NEW 2026-09-09]**
 - 🟢 [长时程增强（LTP）](concepts/ltp.md) — 突触可塑性与学习记忆的分子基础；Aβ寡聚体通过五条通路单向阻断LTP；CA3循环突触NMDAR-LTP是模式补全的分子基础；PKMζ+PKCι/λ双KO消除L-LTP；KIBRA-PKMζ寡聚体感染性磷酸化解答Crick分子周转悖论（Paulsen 2026 60年综述）（修订15次）**[修订 rev15 2026-06-28]**
+- 🟢 [TARP 辅助亚基](concepts/tarp-auxiliary-subunit.md) — AMPA 受体从 ER 到突触的全程伴侣蛋白（ER 出口许可→横向扩散→PSD 锚定槽位）；深刻改变门控动力学（失敏减慢/亲和力提升 10×）；LTP 时 CaMKII 磷酸化 TARP polybasic region → 静电掩蔽解除 → PSD-95 亲和力骤升 10–30 倍 → 扩散陷阱捕获受体；Ravi 2022 正交突变实验证明是 LTP 最小充分机制；γ-8 海马特异性抗癫痫药靶；衰老 Cav1.3→CaMKII↓→TARPγ-8↓→LTP 缺陷因果链 **[NEW 2026-06-28]**
 - 🟢 [模式补全](concepts/pattern-completion.md) — CA3吸引子动力学从部分线索恢复完整记忆；Nakazawa 2002 CA3-NR1 KO因果证据 **[NEW 2026-06-24]**
 - 🟢 [模式分离](concepts/pattern-separation.md) — DG扩张重编码+稀疏激活把相似输入变成不相似表征；苔藓细胞悖论：兴奋性苔藓细胞净效果为抑制颗粒细胞（Jinde 2012）；维度框架（Cayco-Gajic 2019）；Sahay 2011神经发生因果证据 **[修订 rev2→rev3 2026-08-28]**
 - 🔵 [吸引子网络](concepts/attractor-network.md) — Hopfield网络数学基础；CA3生物实现；现代Hopfield网络=Transformer注意力的数学等价 **[NEW 2026-06-24]**

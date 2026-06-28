@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-26
-updated: 2026-09-23
-revision_count: 3
+updated: 2026-06-28
+revision_count: 4
 dimensions: [molecular, synaptic, cellular]
 related: [nmda-receptor, ltp, ampa-receptor, synaptic-transmission, btsp, dendritic-computation, three-factor-learning-rule, voltage-gated-calcium-channels, dendritic-spine, cofilin-actin-spine]
 prerequisites: [nmda-receptor, synaptic-transmission]
 opens_questions: [Q-camkii-subunit-exchange, Q-camkii-maintenance-lifetime, Q-camkii-ddsc-synapse-specificity, Q-camkii-two-modes-interaction, Q-spine-btsp-01]
-source_articles: [2026-05-26-nmda-receptor-ltp, 2026-09-20-btsp-camkii-molecular-timekeeper, 2026-09-23-dendritic-spine-structural-plasticity]
-key_sources: ["PMID:34908526", "PMID:22510460", "PMID:30359599", "PMID:37672577", "PMID:39385027"]
+source_articles: [2026-05-26-nmda-receptor-ltp, 2026-09-20-btsp-camkii-molecular-timekeeper, 2026-09-23-dendritic-spine-structural-plasticity, 2026-06-28-tarp-ampa-receptor-synaptic-trafficking]
+key_sources: ["PMID:34908526", "PMID:22510460", "PMID:30359599", "PMID:37672577", "PMID:39385027", "PMID:15664178", "PMID:20670832", "PMID:27667007", "PMID:36223737"]
 ---
 
 # CaMKII（钙调蛋白依赖蛋白激酶 II，Ca²⁺/Calmodulin-Dependent Protein Kinase II）
@@ -44,7 +44,8 @@ key_sources: ["PMID:34908526", "PMID:22510460", "PMID:30359599", "PMID:37672577"
 3. Ca²⁺/CaM 结合并激活 CaMKII（构象变化，解除自抑制结构域）
 4. **T286 自磷酸化**（催化亚基之间互相磷酸化）→ 形成**自主激活状态**
 5. 磷酸化 **GluA1 S831**：提高 AMPA 受体单通道电导；促进 GluA1 靶向突触
-6. LTP 表达（突触特异性）
+6. 磷酸化 **TARP C 末端 polybasic region**（stargazin/γ-2 的 9 个丝氨酸；TARPγ-8 的 Ser277/Ser281）→ 静电掩蔽解除 → PDZ 配体暴露 → PSD-95 亲和力骤升约 10–30 倍 → AMPA 受体扩散陷阱捕获（Opazo 2010, PMID:20670832；Park 2016, PMID:27667007；Ravi 2022, PMID:36223737）
+7. LTP 表达（突触特异性）：GluA1 S831 磷酸化（增加电导）和 TARP 磷酸化（增加受体捕获数量）并行实现突触权重增加
 
 CaMKII 是由 12 个亚基组成的环形全酶（六聚体或十二聚体）。激活后，亚基间自磷酸化可能使磷酸化状态在蛋白质更新中传递（**亚基交换假说**）。
 
@@ -103,7 +104,8 @@ CaMKII 是由 12 个亚基组成的环形全酶（六聚体或十二聚体）。
 
 - [[nmda-receptor]] — Ca²⁺ 内流激活 CaMKII（LTP 模式）；NMDA 受体也是平台电位 Ca²⁺ 的主要来源之一（84% BTSP 贡献）
 - [[ltp]] — CaMKII 是 LTP 诱导和维持的必要分子机器（快速局部模式）；T286 自磷酸化支持短期自主激活
-- [[ampa-receptor]] — CaMKII 磷酸化 GluA1 S831，驱动 AMPA 受体插入突触
+- [[ampa-receptor]] — CaMKII 磷酸化 GluA1 S831（提高电导）和 TARP polybasic region（扩散陷阱捕获受体），双轨道共同驱动 AMPA 受体突触数量净增 = LTP 物理实现
+- [[tarp-auxiliary-subunit]] — TARP γ-2/γ-8 的 C 末端 polybasic region 是 CaMKII 在 LTP 中的关键突触后底物；磷酸化解除静电掩蔽，使 PDZ 配体暴露，PSD-95 亲和力骤升，受体被捕获锁定（#184）
 - [[btsp]] — CaMKII 的延迟弥散激活（DDSC）是 BTSP 时序整合的分子基础；T286A 突变→BTSP 几乎消失
 - [[dendritic-computation]] — DDSC 将树突钙平台电位（树突计算的输出）转换为秒级 CaMKII 信号
 - [[voltage-gated-calcium-channels]] — L 型 Cav1.2/1.3 通道的大量 Ca²⁺ 内流触发 PLCβ→IP₃→ER→DDSC 链
@@ -118,6 +120,7 @@ CaMKII 是由 12 个亚基组成的环形全酶（六聚体或十二聚体）。
 
 ## 修订历史
 
+- 2026-06-28 · 修订（rev4）· 基于《AMPA 受体的突触之旅：TARP 辅助亚基》(#184) · LTP 模式机制列表新增步骤6（TARP polybasic region 磷酸化→扩散陷阱）和步骤7（GluA1+TARP 双轨道）；连接新增 [[tarp-auxiliary-subunit]]；key_sources 新增 4 条 TARP 来源（PMID:15664178/20670832/27667007/36223737）；source_articles 新增 #184
 - 2026-05-26 · 创建 · 基于《NMDA 受体：突触的巧合检测器》一文 · 初始置信度：高
 - 2026-09-23 · 修订（rev3）· 基于《记忆的雕塑家》(#153) · 新增 CaMKII→GEF→Rac1/RhoA→LIMK→cofilin 轴作为结构可塑性的分子路径（LTP 诱导后的形态学输出）；CaMKII 在 PSD 的物理迁移和锚定（Nicoll & Schulman 2023 综述支持）；Rac1 平行路径（Saneyoshi 2025：不依赖 CaMKII 激酶活性可独立诱导结构 LTP）；related 新增 dendritic-spine、cofilin-actin-spine；source_articles 新增 #153
 - 2026-09-20 · 修订（rev2）· 基于《BTSP的分子秒表》一文（#150）· 核心更新：区分 CaMKII 两种激活模式（LTP 快速局部 vs BTSP DDSC）；DDSC 机制（Jain 2024, PMID:39385027）；αCaMKII T286A 证据（Xiao 2023, PMID:37672577）；T286 自磷酸化在 BTSP 中的作用（8.2 s vs 1.9 s）；新增连接：btsp、dendritic-computation、voltage-gated-calcium-channels、three-factor-learning-rule；新增未解问题：Q-camkii-ddsc-synapse-specificity、Q-camkii-two-modes-interaction

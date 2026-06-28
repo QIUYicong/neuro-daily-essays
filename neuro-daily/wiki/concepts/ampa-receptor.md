@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-26
-updated: 2026-10-16
-revision_count: 4
+updated: 2026-06-28
+revision_count: 5
 dimensions: [molecular, synaptic, cognition, behavior]
 related: [nmda-receptor, ltp, ltd, camkii, calcineurin, arc-arg31, synaptic-transmission, hebbian-learning, tarp-auxiliary-subunit, synaptic-scaling, homeostatic-plasticity, homer1a, slow-wave-sleep]
 prerequisites: [synaptic-transmission, action-potential]
 opens_questions: [Q-ampa-receptor-silent-synapse, Q-ampa-glua1-atd-partners, Q-homer1a-03]
-source_articles: [2026-05-26-nmda-receptor-ltp, 2026-06-04-ltd-long-term-depression, 2026-07-03-synaptic-scaling-homeostatic-plasticity, 2026-10-16-homer1a-arc-sleep-ampa-downscaling]
-key_sources: ["PMID:30359599", "PMID:34271016", "PMID:22510460", "PMID:24183021", "PMID:19169250", "PMID:38973508", "PMC:11895523", "PMID:28154077", "PMC:5382711"]
+source_articles: [2026-05-26-nmda-receptor-ltp, 2026-06-04-ltd-long-term-depression, 2026-07-03-synaptic-scaling-homeostatic-plasticity, 2026-10-16-homer1a-arc-sleep-ampa-downscaling, 2026-06-28-tarp-ampa-receptor-synaptic-trafficking]
+key_sources: ["PMID:30359599", "PMID:34271016", "PMID:22510460", "PMID:24183021", "PMID:19169250", "PMID:38973508", "PMC:11895523", "PMID:28154077", "PMC:5382711", "PMID:11140673", "PMID:36223737", "PMID:37471228", "PMID:39380368"]
 ---
 
 # AMPA 受体 (AMPA Receptor / AMPAR)
@@ -41,9 +41,12 @@ AMPA 受体是由 GluA1–4 亚基组成的四聚体（通常为二聚体的二�
 ### LTP 期间 AMPA 受体插入（突触层面）
 
 1. CaMKII 磷酸化 **GluA1 S831** → 提高单通道电导，促进 GluA1 靶向 PSD
-2. AMPA 受体从**再循环内体**（recycling endosome）通过**胞吐**到达树突干非突触区
-3. 受体通过**横向扩散（lateral diffusion）**从胞外膜迁移进入突触后致密区（PSD）
-4. **TARP（如 Stargazin, TARP γ-2）**与 PSD-95 的 PDZ 结构域相互作用，将受体**锚定**于突触"槽位"（synaptic slot）
+2. CaMKII 同步磷酸化 **TARP（Stargazin/γ-2 的 polybasic region；TARPγ-8 的 Ser277/Ser281）** → 静电掩蔽解除 → PDZ 配体暴露 → PSD-95 亲和力骤升 10–30 倍（Opazo 2010, Park 2016）
+3. AMPA 受体从**再循环内体**（recycling endosome）通过**胞吐**到达树突干非突触区
+4. 受体-TARP 复合物通过**横向扩散（lateral diffusion）**进入 PSD，被高亲和力的 TARP-PSD-95 相互作用**捕获锁定**（"扩散陷阱"）
+5. **TARP（如 Stargazin/γ-2；海马中主要是 TARPγ-8）**与 PSD-95 的 PDZ1/2 结构域相互作用，将受体**锚定**于突触"槽位"（synaptic slot）
+
+**TARP 磷酸化是 LTP 突触后表达的最后一公里**：Ravi et al. 2022（PMID:36223737）正交突变实验证明，TARP PDZ 配体-PSD-95 PDZ 单一相互作用是 LTP 表达的最小充分条件——无需其他因子。Park et al. 2023（PMID:37471228）ExSYTE 化遗传学工具直接因果证明 TARP-脂质静电锚定是 LTP 分子开关。
 
 ### 沉默突触与 AMPA 受体（突触层面）
 
@@ -92,7 +95,7 @@ LTD 时，AMPA 受体从突触后膜内吞，是突触权重降低的物理实�
 - [[calcineurin]] — PP2B/PP1 级联在 LTD 时去磷酸化 GluA1 Ser831/845，驱动内吞
 - [[arc-arg31]] — Arc 是 mGluR-LTD 路径中促进 AMPAR 内吞的执行蛋白
 - [[synaptic-transmission]] — AMPA 受体是快速 EPSP 的主要产生者
-- [[tarp-auxiliary-subunit]] — TARP 是 AMPA 受体靶向突触的关键辅助亚基（待建页面）
+- [[tarp-auxiliary-subunit]] — TARP 是 AMPA 受体从 ER 到突触的全程辅助亚基：ER 出口许可、横向扩散引导、PSD 锚定（槽位模型）、门控动力学改造（失敏减慢/亲和力提升）；CaMKII 磷酸化 TARP 是 LTP 突触后表达的分子核心（#184）
 - [[synaptic-scaling]] — 突触稳态缩放专门使用 GluA2 通路（不同于 LTP 用的 GluA1），Gainey 2009 直接证明这是两套独立的受体亚型通路
 - [[homer1a]] — Homer1a 是睡眠期 GluA1 从 PSD 脱落的上游触发器；双门控由 NA（抑制）和腺苷 A1R（激活）决定
 - [[slow-wave-sleep]] — NREM 睡眠中，GluA1 皮层突触体水平在 5h 恢复睡眠后从剥夺水平降低约 31.7%（Squarcio 2024）
@@ -101,9 +104,12 @@ LTD 时，AMPA 受体从突触后膜内吞，是突触权重降低的物理实�
 
 - Q-ampa-receptor-silent-synapse：沉默突触觉醒中，AMPA 受体的首个分子被插入的精确分子触发事件是什么？
 - Q-ampa-glua1-atd-partners：GluA1 氨基末端结构域（ATD）通过哪些跨突触配体（neuronal pentraxins？细胞黏附分子？）建立突触外的相互作用？
+- Q-tarp-01（高优先级）：TARP 帮助 AMPA 受体离开 ER 的具体分子机制（TARP 屏蔽 ER 滞留信号还是帮助达到 COP II 识别构象？）
+- Q-tarp-03（中优先级）：LTP 后期 TARP 磷酸化状态维持机制（与 KIBRA-PKMζ 的关联）
 
 ## 修订历史
 
+- 2026-06-28 · 修订 rev5 · 基于《AMPA 受体的突触之旅：TARP 辅助亚基》(#184) · 扩充 LTP 插入机制，加入 TARP polybasic region 的 CaMKII 磷酸化步骤和扩散陷阱详细机制（Opazo 2010, Park 2016）；更新 [[tarp-auxiliary-subunit]] 链接为正式描述（删除"待建页面"）；key_sources 新增 4 条 TARP 来源；未解问题新增 Q-tarp-01/Q-tarp-03；source_articles 新增 #184
 - 2026-10-16 · 修订 rev4 · 基于《睡眠如何修剪突触：Homer1a 与 Arc 的分子协奏》(#176) · 新增"睡眠依赖的 GluA1 下调（Homer1a/Arc 通路）"段落；Squarcio 2024 定量数据（31.7%降低/78.9%升高）；GluA1 vs GluA2 通路的睡眠/缩放区别；related 新增 homer1a、slow-wave-sleep；连接新增 2 条；key_sources 新增 4 个
 - 2026-07-03 · 修订 · 基于《突触稳态》(#69) · 在连接段落新增 synaptic-scaling；明确 GluA2 通路是突触缩放（非 LTP）的特异性分子路径（Gainey 2009 PMID:19458219）；related 新增 synaptic-scaling、homeostatic-plasticity
 - 2026-05-26 · 创建 · 基于《NMDA 受体：突触的巧合检测器》一文 · 初始置信度：高

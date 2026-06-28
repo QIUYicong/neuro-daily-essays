@@ -4,6 +4,42 @@
 
 ---
 
+## 2026-06-28 新增（来自"TARP 辅助亚基" 文章 #184）
+
+### Q-tarp-01（高优先级）：TARP 帮助 AMPA 受体离开 ER 的具体分子机制
+
+- **关联 wiki**：[[tarp-auxiliary-subunit]]、[[ampa-receptor]]、[[synaptic-transmission]]
+- **来源文章**：2026-06-28-tarp-ampa-receptor-synaptic-trafficking
+- **问题**：TARP 帮助 AMPA 受体离开内质网（ER）的具体分子机制是什么？TARP 是屏蔽了 AMPA 受体亚基未组装时暴露的 ER 滞留信号（如疏水性 C 末端或未折叠区），还是帮助受体达到 COP II 囊泡识别的正确构象？stargazin V143L 突变（TM3，PMID:35256745）影响 TARP-AMPAR 界面稳定性，但具体 ER 质量控制识别机制未明。
+- **当前证据状态**：TARP 是 AMPAR ER 出口的必要条件：确立（Chen 2000）；ER 滞留信号的身份：未知；COP II 识别构象依赖 TARP：候选（结构推断）
+- **为什么重要**：回答这个问题将揭示"为什么辅助亚基是通道 ER 出口的通用看门人"——NMDA 受体也有类似辅助亚基依赖性，这可能是所有多亚基配体门控离子通道的普遍原理。
+
+### Q-tarp-02（中优先级）：TARP 家族成员对 AMPA 受体门控动力学差异的结构基础
+
+- **关联 wiki**：[[tarp-auxiliary-subunit]]、[[ampa-receptor]]
+- **来源文章**：2026-06-28-tarp-ampa-receptor-synaptic-trafficking
+- **问题**：γ-2 和 γ-8 对 AMPAR 门控修饰强度（失敏减慢/亲和力提升）明显强于 γ-3。这种差异的结构基础是什么？是 EX1 loop（连接 TM1 和 TM2 的胞外环）的序列差异，是跨膜段与 AMPAR 孔区的精细接触，还是 LBD-TARP 界面的非保守残基？
+- **当前证据状态**：功能差异：确立（Tomita 2005）；结构差异：初步（γ-8 与 AMPAR 共结构，Yu/Zhang 2021 Nature）；结构-功能关系：推断性，缺乏定点突变的系统功能验证
+- **为什么重要**：理解 TARP 家族门控差异的结构基础，将有助于设计亚型特异性变构调节剂（如 JNJ-55511118 靶向 γ-8 的基础）。
+
+### Q-tarp-03（中优先级）：LTP 后期 TARP 磷酸化维持与 KIBRA-PKMζ 机制的关联
+
+- **关联 wiki**：[[tarp-auxiliary-subunit]]、[[ltp]]、[[kibra]]、[[pkm-zeta]]、[[synaptic-tagging-capture]]
+- **来源文章**：2026-06-28-tarp-ampa-receptor-synaptic-trafficking
+- **问题**：LTP 诱导时 CaMKII 磷酸化 TARP polybasic region 驱动受体捕获（分钟量级）。但 LTP 需要持续数小时到数天。TARP 的磷酸化状态靠什么维持？PKMζ 维持 LTP 的机制被证明与 AMPAR（通过阻止 GluA2 内吞），但与 TARP 磷酸化维持是否有直接关联？KIBRA-PKMζ 寡聚体是否通过维持 TARP 磷酸化状态（而非仅阻止内吞）来实现 AMPAR 的持久锚定？
+- **当前证据状态**：TARP 磷酸化触发扩散陷阱：高；TARP 磷酸化的体内持续时程：未测量（体外 stargazin 磷酸化半衰期数小时）；KIBRA-PKMζ 与 TARP 磷酸化的直接关联：未建立
+- **为什么重要**：连接 LTP 早期表达（TARP 磷酸化/扩散陷阱，本文 #184）和晚期维持（KIBRA-PKMζ 寡聚体，#181）是理解 LTP 时间层次结构的关键缺失环节。
+
+### Q-tarp-04（高优先级）：TARPγ-8 靶向药物的脑区安全性
+
+- **关联 wiki**：[[tarp-auxiliary-subunit]]、[[ampa-receptor]]
+- **来源文章**：2026-06-28-tarp-ampa-receptor-synaptic-trafficking
+- **问题**：TARPγ-8 AMPAR 负性变构调节剂（JNJ-55511118/LY3130481/CERC-611）已进入临床抗癫痫/镇痛研究。其"海马选择性"来自 γ-8 在海马的富集。但 γ-8 在额叶皮层和杏仁核也有表达。抑制这些区域的 γ-8 是否会引起情绪处理或工作记忆相关副作用？目前活体 PET（Yamasaki 2023，PMID:36655318）证明了 γ-8 的海马富集，但未量化皮层/杏仁核的功能贡献。
+- **当前证据状态**：γ-8 海马富集：高（KO 行为 + PET 成像）；皮层/杏仁核 γ-8 功能贡献：未量化；临床 CERC-611 Ⅱ期安全性：进行中（focalsymptom.com NCT04620525）
+- **为什么重要**：TARP γ-8 抑制剂是当前最有前景的选择性抗癫痫靶点之一；明确海马外 γ-8 功能将决定治疗窗口宽度。
+
+---
+
 ## 2026-06-28 新增（来自"KIBRA-PKMζ 寡聚体" 文章 #181）
 
 ### Q-kibra-invivo-hexamer（高优先级）：KIBRA-PKMζ 六聚体的体内结构验证
