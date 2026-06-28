@@ -6,14 +6,14 @@ type: structure
 status: established
 confidence: high
 created: 2026-06-13
-updated: 2026-09-19
-revision_count: 2
+updated: 2026-10-17
+revision_count: 3
 dimensions: [molecular, cellular, brain-region, whole-brain-network, cognition]
-related: [norepinephrine-locus-coeruleus, acetylcholine-cortex, neuromodulator-systems, gain-control, 5-ht-autoreceptor, dopamine-reward-prediction-error, lateral-habenula]
+related: [norepinephrine-locus-coeruleus, acetylcholine-cortex, neuromodulator-systems, gain-control, 5-ht-autoreceptor, dopamine-reward-prediction-error, lateral-habenula, antidepressant-neurogenesis-delay, adult-neurogenesis, rem-sleep]
 prerequisites: [synaptic-transmission, action-potential, neuromodulator-systems]
 opens_questions: [Q-5ht-volume-transmission-specificity, Q-drnmrn-functional-split]
-source_articles: [2026-06-13-serotonin-autoreceptor-ssri-delay, 2026-09-19-lateral-habenula-anti-reward-depression]
-key_sources: ["PMID:15309042", "PMID:33672070", "PMID:10462127", "PMID:38863324", "PMID:42057617"]
+source_articles: [2026-06-13-serotonin-autoreceptor-ssri-delay, 2026-09-19-lateral-habenula-anti-reward-depression, 2026-10-17-ssri-neurogenesis-rem-antidepressant-delay]
+key_sources: ["PMID:15309042", "PMID:33672070", "PMID:10462127", "PMID:38863324", "PMID:42057617", "PMID:12907793", "PMID:31071719", "PMID:16889107"]
 ---
 
 # 血清素-缝际核系统 (Serotonin-Raphe System)
@@ -83,6 +83,9 @@ key_sources: ["PMID:15309042", "PMID:33672070", "PMID:10462127", "PMID:38863324"
 - [[hippocampal-neurogenesis]] — 5-HT促进海马神经发生（5-HT1A介导）
 - [[major-depressive-disorder]] — 5-HT系统功能障碍的疾病表现（悬空）
 - [[lateral-habenula]] — LHb 直接向 DRN 发送谷氨酸，负预测误差时抑制 5-HT 输出；抑郁症中 LHb 爆发持续压制 DRN
+- [[antidepressant-neurogenesis-delay]] — SSRI 通过 SERT 阻断升高 5-HT，急性抑制 REM 睡眠（>50%），但临床效果延迟 2–4 周；最可能机制是 DG 神经发生成熟时钟
+- [[adult-neurogenesis]] — SSRI 通过 5-HT₁A 受体信号促进 DG 颗粒细胞增殖；Santarelli 2003 证明神经发生是氟西汀行为效果的必要条件（C57BL/6 品系）
+- [[rem-sleep]] — SSRI 是最强的 REM 抑制剂（第一夜即 >50%），但 REM 抑制与抗抑郁效果解离
 
 ## 未解问题
 
@@ -92,8 +95,10 @@ key_sources: ["PMID:15309042", "PMID:33672070", "PMID:10462127", "PMID:38863324"
 ## 修订历史
 
 - 2026-06-13 · 创建 · 基于《血清素的慢时钟》一文 · 初始置信度：高
+- 2026-10-17 · 修订 rev3 · 基于《为什么等两周》（文章 #187）· 新增 SERT 阻断→REM 抑制→抗抑郁延迟的完整路径；related 新增 antidepressant-neurogenesis-delay、adult-neurogenesis、rem-sleep；连接节新增三条；source_articles 新增 2026-10-17
 - 2026-09-19 · 修订 rev2 · 基于《外侧缰核：大脑的惩罚计算机》一文（#149）· 新增 LHb→DRN 直接谷氨酸输入信息，说明惩罚评估系统对血清素的自上而下抑制；related 新增 lateral-habenula；key_sources 新增 PMID:38863324, PMID:42057617
 
 ## 来源文章
 
 - [[2026-06-13-serotonin-autoreceptor-ssri-delay]]
+- [[2026-10-17-ssri-neurogenesis-rem-antidepressant-delay]]

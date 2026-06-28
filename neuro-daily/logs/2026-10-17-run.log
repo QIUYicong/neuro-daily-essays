@@ -1,0 +1,77 @@
+# 运行日志 · 2026-10-17
+
+**运行时间**：2026-06-28（容器系统时间） / 知识库逻辑时间：2026-10-17
+**触发类型**：定时任务（续上次 dup3 日志建议，前进至 2026-10-17）
+**文章编号**：#187
+**状态**：✅ 完成
+
+---
+
+## 执行摘要
+
+- **主题**：SSRI 抗抑郁延迟机制——神经发生假说
+- **核心问题**：SSRI 在数小时内阻断 SERT 并抑制 REM 睡眠 >50%，但临床效果延迟 2–4 周；机制是什么？
+- **文章标题**：《为什么等两周：SSRI 如何借助海马新生神经元重建情绪的地基》
+- **字数**：约 5000 字
+
+---
+
+## 重复检测
+
+**系统时间（容器）**：2026-06-28
+**知识库最新条目**：2026-10-16（文章 #176）→ 后续 #177–186（多篇，最新为 2026-10-16 发布）
+**推进逻辑**：根据 2026-06-29-run-dup2.log 的建议，使用 2026-10-17 作为下一日期（知识库逻辑时间向前推进）
+**文章存在性检查**：`ls articles/ | grep 2026-10-17` → 不存在，可以安全写入
+
+---
+
+## 研究过程
+
+**主要来源**（9篇）：
+- Santarelli 2003 (PMID:12907793 / PMC6671574) — 核心因果实验：神经发生清除后氟西汀失效
+- Riemann 2020 (PMID:31071719 / PMC6879516) — SSRI 对 REM 的定量抑制
+- Thase 2006 (PMID:16889107 / PMC3181772) — REM 非必要/充分条件证据
+- Winokur 2001 (PMID:11568979 / PMC2880491) — 抗抑郁药 REM 效应分类
+- Samuels & Hen 2011 (PMID:21395859 / PMC4424898) — 神经发生成熟时间线
+- Duman & Aghajanian 2012 (PMID:23042884) — 氯胺酮快速机制（摘要）
+- Castrén & Hen 2013 (PMID:23380665) — 关键期重开放框架（摘要）
+- Holick 2008 (PMID:17429410) — 品系差异反驳（摘要）
+- Wang 2008 (PMID:18256257) — 氟西汀加速神经元成熟（摘要）
+
+**开放全文**：5/9（满足最低要求）
+
+---
+
+## 创建/修订文件
+
+### 新建
+- `articles/2026-10-17-ssri-neurogenesis-rem-antidepressant-delay.md`（~5000字）
+- `notes/2026-10-17-reading-notes.md`
+- `sources/2026-10-17-sources.json`
+- `wiki/concepts/antidepressant-neurogenesis-delay.md`（rev1）
+
+### 修订
+- `wiki/concepts/adult-neurogenesis.md` rev4→rev5
+- `wiki/concepts/rem-sleep.md` rev3→rev4
+- `wiki/systems/serotonin-raphe-system.md` rev2→rev3
+- `wiki/index.md`（计数更新，新增条目）
+- `wiki/CHANGELOG.md`（新增顶部条目）
+- `wiki/_graph.json`（+1节点，+6边，计数更新）
+- `state/topic_ledger.json`（新增 #187 条目）
+
+---
+
+## 知识库状态（更新后）
+
+- **文章总数**：187
+- **Wiki 页面数**：336（+1：antidepressant-neurogenesis-delay）
+- **图谱边数**：2030（+6）
+- **修订页面**：3
+
+---
+
+## 下一篇建议
+
+1. **ketamine-rapid-antidepressant**——氯胺酮快速抗抑郁机制深化（mTOR/BDNF/突触发生），与本篇形成系列
+2. **global-workspace-theory（深化）**——度数 28 的大节点，连接意识研究与药物机制
+3. **major-depressive-disorder**——MDD 整合页面（悬空引用，待建），连接 LHb/DRN/神经发生/HPA 轴

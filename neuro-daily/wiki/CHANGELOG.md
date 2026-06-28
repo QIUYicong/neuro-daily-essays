@@ -4,6 +4,24 @@
 
 ---
 
+## 2026-10-17 · 文章 #187 · 为什么等两周：SSRI 如何借助海马新生神经元重建情绪的地基
+
+**新建页面（1个）**：
+
+- `wiki/concepts/antidepressant-neurogenesis-delay.md`（rev1）：SSRI 抗抑郁延迟机制专页；SERT 阻断/REM 急性抑制 vs 2–4 周临床延迟的解离；Santarelli 2003 X 射线实验（因果证据：C57BL/6 神经发生清除后 28d 氟西汀行为效果消失）；新生颗粒细胞 4–6 周超可塑性窗口时间匹配；氯胺酮快速对照（mTOR/BDNF/突触发生，小时级）；品系争议（Holick 2008 BALB/cJ 反驳）；7 个 wiki 连接；3 个未解问题（Q-ssri-delay-01/02/03）
+
+**修订页面（3个）**：
+
+- `wiki/concepts/adult-neurogenesis.md` rev4→rev5：在"恢复机制"节新增 SSRI/神经发生因果证据（Santarelli 2003 X 射线实验详情）和 Holick 2008 品系争议；related 新增 antidepressant-neurogenesis-delay 和 serotonin-raphe-system；连接节新增 2 条；key_sources 新增 PMID:12907793, 21395859, 17429410；source_articles 新增 2026-10-17
+- `wiki/concepts/rem-sleep.md` rev3→rev4：新增"SSRI 对 REM 睡眠的急性抑制与抗抑郁延迟"小节（Riemann 2020 量化：>50% REM 减少首夜即出现；Thase/Winokur：REM 非必要；延迟指向神经发生）；related 新增 antidepressant-neurogenesis-delay 和 serotonin-raphe-system；连接节新增 2 条；key_sources 新增 PMID:31071719, 16889107, 11568979
+- `wiki/systems/serotonin-raphe-system.md` rev2→rev3：related 新增 antidepressant-neurogenesis-delay、adult-neurogenesis、rem-sleep；连接节新增 4 条（SERT→REM→延迟路径；神经发生上游；REM 解离）；key_sources 新增 PMID:12907793, 31071719, 16889107
+
+**矛盾登记（0个）**：Santarelli 2003 vs Holick 2008 品系差异已在 antidepressant-neurogenesis-delay 页面中明确记录（非矛盾，而是条件限定）
+
+**图谱变化**：335节点/2024边 → **336节点/2030边**（+1节点：antidepressant-neurogenesis-delay；+6边：→adult-neurogenesis mechanism-of；→serotonin-raphe-system related；→rem-sleep related；→hippocampal-neurogenesis part-of；→pattern-separation related；→5-ht-autoreceptor related）
+
+---
+
 ## 2026-06-28 · 文章 #186 · 婴儿遗忘症的神经科学：为什么我们不记得自己两岁以前的事情
 
 **修订页面（1个）**：

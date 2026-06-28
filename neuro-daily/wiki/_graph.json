@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-06-28",
-  "node_count": 335,
-  "edge_count": 2024,
+  "updated": "2026-10-17",
+  "node_count": 336,
+  "edge_count": 2030,
   "edge_types": [
     "is-a",
     "part-of",
@@ -3064,6 +3064,22 @@
         "behavior",
         "cognition",
         "developmental"
+      ]
+    },
+    {
+      "id": "antidepressant-neurogenesis-delay",
+      "title": "抗抑郁延迟与神经发生假说",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/concepts/antidepressant-neurogenesis-delay.md",
+      "dimensions": [
+        "molecular",
+        "cellular",
+        "brain-region",
+        "cognition",
+        "behavior"
       ]
     }
   ],
@@ -14431,6 +14447,42 @@
       "to": "complementary-learning-systems",
       "type": "related",
       "note": "CLS框架中婴儿期是快速可塑性模式极度活跃的特殊发育状态"
+    },
+    {
+      "from": "antidepressant-neurogenesis-delay",
+      "to": "adult-neurogenesis",
+      "type": "mechanism-of",
+      "note": "SSRI 促进 DG 神经发生是其 2–4 周延迟起效的候选机制；Santarelli 2003 因果证据"
+    },
+    {
+      "from": "antidepressant-neurogenesis-delay",
+      "to": "serotonin-raphe-system",
+      "type": "related",
+      "note": "SSRI 通过 SERT 阻断升高 5-HT，进而通过 5-HT1A 受体刺激 DG 前体细胞增殖"
+    },
+    {
+      "from": "antidepressant-neurogenesis-delay",
+      "to": "rem-sleep",
+      "type": "related",
+      "note": "SSRI 急性抑制 REM >50%，但 REM 抑制与抗抑郁效果解离（安非他酮不抑制 REM 仍有效）"
+    },
+    {
+      "from": "antidepressant-neurogenesis-delay",
+      "to": "hippocampal-neurogenesis",
+      "type": "part-of",
+      "note": "海马 DG 神经发生的成熟时钟是抗抑郁延迟的核心节奏"
+    },
+    {
+      "from": "antidepressant-neurogenesis-delay",
+      "to": "pattern-separation",
+      "type": "related",
+      "note": "新生颗粒细胞 4–6 周超可塑性窗口主要贡献 DG 的模式分离功能；情绪回路重塑与此相关"
+    },
+    {
+      "from": "antidepressant-neurogenesis-delay",
+      "to": "5-ht-autoreceptor",
+      "type": "related",
+      "note": "5-HT1A 自受体的慢性下调是另一个 SSRI 慢速适应机制，与神经发生并行"
     }
   ],
   "dangling_references": [

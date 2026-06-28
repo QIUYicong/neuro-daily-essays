@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-31
-updated: 2026-06-27
-revision_count: 3
+updated: 2026-10-17
+revision_count: 4
 dimensions: [molecular, cellular, brain-region, whole-brain-network, behavior, cognition]
-related: [memory-consolidation, sharp-wave-ripples, sleep-spindles, theta-oscillations, fear-extinction, norepinephrine-locus-coeruleus, hippocampal-circuit, amygdala, emotional-memory-depotentiation, circadian-clock, scn-circadian-pacemaker]
+related: [memory-consolidation, sharp-wave-ripples, sleep-spindles, theta-oscillations, fear-extinction, norepinephrine-locus-coeruleus, hippocampal-circuit, amygdala, emotional-memory-depotentiation, circadian-clock, scn-circadian-pacemaker, antidepressant-neurogenesis-delay, serotonin-raphe-system]
 prerequisites: [theta-oscillations, norepinephrine-locus-coeruleus, hippocampal-circuit, sleep-spindles]
 opens_questions: [Q-rem-01, Q-rem-02, Q-rem-03, Q-rem-04, Q-rem-05]
-source_articles: [2026-05-31-rem-sleep-emotional-memory, 2026-07-08-circadian-clock-scn-brain-rhythm, 2026-06-27-rem-sleep-il-cortex-fear-extinction-memory]
-key_sources: ["PMID:27174984", "PMID:19702380", "PMC:PMC2890316", "PMID:22119526", "PMC:PMC3237718", "PMID:28100731", "PMC:PMC5242402", "PMID:28729826", "PMC:PMC5498516", "PMID:12198538", "PMID:7185792", "PMID:38714199", "PMC:PMC11111341", "PMID:24499013", "PMC:PMC4286245"]
+source_articles: [2026-05-31-rem-sleep-emotional-memory, 2026-07-08-circadian-clock-scn-brain-rhythm, 2026-06-27-rem-sleep-il-cortex-fear-extinction-memory, 2026-10-17-ssri-neurogenesis-rem-antidepressant-delay]
+key_sources: ["PMID:27174984", "PMID:19702380", "PMC:PMC2890316", "PMID:22119526", "PMC:PMC3237718", "PMID:28100731", "PMC:PMC5242402", "PMID:28729826", "PMC:PMC5498516", "PMID:12198538", "PMID:7185792", "PMID:38714199", "PMC:PMC11111341", "PMID:24499013", "PMC:PMC4286245", "PMID:31071719", "PMID:16889107", "PMID:11568979"]
 ---
 
 # REM睡眠 (REM Sleep — Rapid Eye Movement Sleep)
@@ -68,6 +68,18 @@ Boyce等人（2016，PMID:27174984）通过光遗传因果实验在小鼠中证�
 | 76.6% IL神经元REM激活最高 | 钙成像（miniScope+GRIN透镜），小鼠 | PMID:38714199 | 中（动物，直接测量） |
 | 恐惧后4h内IL-REM抑制损害消退 | 闭环光遗传（ArchT），小鼠恐惧+消退范式 | PMID:38714199 | 中-高（动物因果，需人类复现） |
 
+## SSRI 对 REM 睡眠的急性抑制与抗抑郁延迟
+
+（2026-10-17 新增）
+
+**SSRIs 是已知效力最强的 REM 睡眠抑制剂之一**：Riemann 等（2020，PMID:31071719，PMC6879516）综述显示，氟西汀、帕罗西汀、舍曲林等 SSRI 使 REM 睡眠时间减少 >50%，REM 潜伏期延长 >150%，且这些变化在**第一夜**即出现。氟西汀急性期可将 REM 时间从基线约 90 分钟降至 30–40 分钟。
+
+**REM 抑制与抗抑郁效果解离**：如果 REM 抑制是 SSRI 抗抑郁的关键机制，那么安非他酮（bupropion）和奈法唑酮（nefazodone）（两者几乎不抑制 REM）就应该无效。事实上，它们的临床疗效与 SSRI 相当（Thase 2006，PMID:16889107；Winokur 2001，PMID:11568979）。这确立了 **REM 抑制既非抗抑郁必要条件，也非充分条件**。
+
+SSRI 急性 REM 抑制的机制：5-HT 升高激活 DRN→LC 的反馈，刺激 REM-关（REM-off）神经元，同时 5-HT1A 激活对 REM 产生核的 LDT/PPT 有抑制作用。
+
+**两周延迟的另一候选**：SSRI 的 2–4 周临床延迟最可能来自 DG 神经发生的成熟时钟（4–6 周超可塑性窗口），而非 REM 抑制。详见 [[antidepressant-neurogenesis-delay]]。
+
 ## 昼夜节律对 REM 睡眠的时序门控
 
 （2026-07-08 新增）
@@ -91,6 +103,8 @@ REM 睡眠的时序分布并非随机——它受**昼夜节律系统**严格门
 - [[amygdala]] — 情绪记忆存储和情感反应的核心区域；REM去饱和化的主要靶点
 - [[emotional-memory-depotentiation]] — 本页描述的核心功能过程
 - [[vmPFC]] — IL皮层（大鼠）的人类同源区；REM期76.6%激活，是恐惧后消退能力的神经基础
+- [[antidepressant-neurogenesis-delay]] — SSRI 急性抑制 REM >50%，但 REM 抑制与抗抑郁疗效解离；延迟效果更可能来自神经发生成熟时钟
+- [[serotonin-raphe-system]] — SSRI 通过 SERT 阻断升高 5-HT，继而抑制 REM（5-HT1A→LDT/PPT 通路）
 
 ## 未解问题
 
@@ -106,6 +120,7 @@ REM 睡眠的时序分布并非随机——它受**昼夜节律系统**严格门
 
 - 2026-05-31 · 创建 · 基于《REM睡眠：大脑夜晚的情绪炼金炉》（文章#34）· 初始置信度：高
 - 2026-07-08 · 修订 rev2 · 基于《大脑的 24 小时时钟》(#76) · 新增"昼夜节律对 REM 睡眠的时序门控"小节（两过程模型、后半夜 REM 优势的 SCN 门控机制、临床意义）；related 新增 circadian-clock、scn-circadian-pacemaker；连接节重构以独立于正文；key_sources 新增 PMID:12198538、PMID:7185792
+- 2026-10-17 · 修订 rev4 · 基于《为什么等两周》（文章 #187）· 新增"SSRI 对 REM 睡眠的急性抑制与抗抑郁延迟"小节（Riemann 2020 量化数据，>50% REM 减少首夜即出现；Thase 2006/Winokur 2001 REM 非必要证据；延迟机制指向神经发生）；related 新增 antidepressant-neurogenesis-delay 和 serotonin-raphe-system；连接节新增两条；key_sources 新增 PMID:31071719, 16889107, 11568979
 - 2026-06-27 · 修订 rev3 · 基于《恐惧可以被睡眠稀释吗》(#177) · 新增IL皮层REM激活因果证据（Hong et al. 2024，PMC11111341）：76.6%神经元REM-max、4h关键窗口、NMDA依赖内在兴奋性；"当前理解"段新增Hong 2024机制；证据表新增两行；连接新增vmPFC；未解问题新增Q-il-rem-01/02；key_sources新增PMID:38714199/PMID:24499013及对应PMC
 
 ## 来源文章
@@ -113,3 +128,4 @@ REM 睡眠的时序分布并非随机——它受**昼夜节律系统**严格门
 - [[2026-05-31-rem-sleep-emotional-memory]]
 - [[2026-07-08-circadian-clock-scn-brain-rhythm]]
 - [[2026-06-27-rem-sleep-il-cortex-fear-extinction-memory]]
+- [[2026-10-17-ssri-neurogenesis-rem-antidepressant-delay]]

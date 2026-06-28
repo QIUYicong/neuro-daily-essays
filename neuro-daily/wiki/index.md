@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-06-28（第185篇·新生神经元的双面刃·模式分离与神经发生介导的遗忘）· 主题页总数：**327**（新建1页：concepts/infantile-amnesia；修订2页：concepts/adult-neurogenesis rev4, concepts/pattern-separation rev4；图谱335节点/2021边）
+> 最后更新：2026-10-17（第187篇·为什么等两周·SSRI 神经发生延迟机制）· 主题页总数：**328**（新建1页：concepts/antidepressant-neurogenesis-delay；修订3页：concepts/adult-neurogenesis rev5, concepts/rem-sleep rev4, systems/serotonin-raphe-system rev3；图谱336节点/2030边）
 
 ---
 
@@ -203,7 +203,8 @@
 - 🟢 [去甲肾上腺素与蓝斑系统](concepts/norepinephrine-locus-coeruleus.md) — 蓝斑LC通过相位性/紧张性双模式和倒U形NE浓度曲线优化皮层认知增益；α2A稳定PFC工作记忆；β受体促进情绪记忆LTP；选择性集合体拓扑组织；AD/PD早期LC退变（55%神经元丢失）**[NEW 2026-06-12 · 修订 rev4 2026-08-10]**
 - 🔵 [5-HT自受体与SSRI延迟起效](concepts/5-ht-autoreceptor.md) — 5-HT1A树突自受体负反馈在急性期抵消SSRI效果；14天后自受体脱敏解除制动；皮质5-HT1A/2A功能拮抗；pindolol加速起效的临床证据 **[NEW 2026-06-13]**
 - 🔴 [海马神经发生](concepts/hippocampal-neurogenesis.md) — 啮齿类SGZ持续神经发生（证据充分）；阻断神经发生消除SSRI行为效果；人类成人神经发生规模和存在性争议（Sorrells vs Boldrini 2018对立数据）**[NEW 2026-06-13 · 争议]**
-- 🟡 [成年神经发生](concepts/adult-neurogenesis.md) — SGZ五阶段分化程序；GABA开关两阶段学习策略（协作→竞争）；4-6周关键期（NR2B/高输入阻抗）；前馈PV+抑制实现模式分离；慢性应激GC三路径抑制（BDNF↓/SGK3自噬/Wnt↓）+CRF独立路径+HPA双向反馈；**新增rev4**：神经发生介导的遗忘（Akers 2014）——增加AHN主动清除已巩固记忆；婴儿遗忘症的神经发生解释（早熟型物种无婴儿遗忘）；Boldrini 2018定量证据（~10,000 Ki-67+细胞/DG）**[NEW 2026-06-26 · 修订 rev4 2026-06-28]**
+- 🟡 [成年神经发生](concepts/adult-neurogenesis.md) — SGZ五阶段分化程序；GABA开关两阶段学习策略（协作→竞争）；4-6周关键期（NR2B/高输入阻抗）；前馈PV+抑制实现模式分离；慢性应激GC三路径抑制（BDNF↓/SGK3自噬/Wnt↓）+CRF独立路径+HPA双向反馈；神经发生介导的遗忘（Akers 2014）；**新增rev5**：SSRI/Santarelli 2003——X射线清除神经发生后氟西汀28天行为效果消失（C57BL/6）；Holick 2008品系争议 **[NEW 2026-06-26 · 修订 rev5 2026-10-17]**
+- 🟡 [抗抑郁延迟与神经发生假说](concepts/antidepressant-neurogenesis-delay.md) — SSRI 即时效果（SERT阻断/REM抑制）与 2–4 周临床延迟的解离；Santarelli 2003：神经发生是氟西汀行为效果的必要条件（C57BL/6）；4–6周超可塑性窗口匹配延迟；氯胺酮对照（mTOR/BDNF突触发生，小时级）；品系争议（BALB/cJ反驳）**[NEW 2026-10-17]**
 - 🟡 [婴儿遗忘症](concepts/infantile-amnesia.md) — 3岁前记忆无法持续提取；神经发生假说（Akers 2014跨物种因果）：婴儿期高AHN主动清除情节细节；早熟型物种（豚鼠/degu）无婴儿遗忘症→人工增加AHN可诱导婴儿遗忘；竞争假说对比（PFC未成熟/语言框架/突触修剪）**[NEW 2026-06-28]**
 - 🔵 [β振荡（13–30 Hz）](concepts/beta-oscillations.md) — "当前内部状态有效，无需更新"的振荡表达；三副面孔：运动ERD/PMBR（状态维持vs运动解锁）、感觉皮层γ前馈/β后向（28对灵长类视觉区域）、WM延迟期β爆发（130ms，背景态）+γ爆发（67ms，内容编码）；深层L5/6 β相位调控浅层L2/3 γ许可窗口（Bastos 2018）；PD中病理性β卡死；**[修订 rev2 2026-07-19]**
 - 🟢 [恐惧条件反射](concepts/fear-conditioning.md) — 外侧杏仁核（LA）CS+US汇聚→NMDA巧合检测→CaMKII→AMPA插入→LA-LTP；与海马LTP分子机器完全同构；约20%LA神经元形成稀疏恐惧印迹；光遗传双向因果证明（Nabavi 2014）；**新增**：已巩固恐惧记忆在 CS 再激活后进入再巩固窗口，可被选择性修改**[修订 2026-07-10]**
@@ -211,7 +212,7 @@
 - 🟡 [恐惧泛化](concepts/fear-generalization.md) — 条件性恐惧从原始 CS/情景扩散到相似或安全刺激的机制；核心通路：LC-NE→海马苔藓细胞抑制→颗粒细胞去抑制→情景集合重叠→BLA 共享激活（Jeong 2024，啮齿类，新兴证据）；5-HT 递质身份切换（谷氨酸→GABA）独立驱动泛化；PTSD 的核心症状之一 **[NEW 2026-08-26]**
 - 🟢 [情绪调节](concepts/emotion-regulation.md) — 五类策略（认知重评/注意部署/情绪压制/习惯化消退/内感觉重估）；vmPFC 为情绪调节枢纽的前额叶-杏仁核-脑干多层级控制回路；主动推断视角（精度权重调整）；认知重评 vs 情绪压制长期代价对比 **[NEW 2026-08-25]**
 - 🟢 [认知重评](concepts/cognitive-reappraisal.md) — 通过重解释事件含义改变情绪影响；vlPFC（语义重构）→vmPFC（情绪整合）→杏仁核（抑制）三层级回路；Steward 2021 DCM 量化 vmPFC→杏仁核负向有效连接；He 2023 TMS-fMRI 因果证明；重评 vs 压制（长期代价低）；有效性边界（感官驱动情绪效果有限） **[NEW 2026-08-25]**
-- 🟢 [REM睡眠](concepts/rem-sleep.md) — 去甲肾上腺素真空（LC沉默）+θ振荡+杏仁核-海马θ同步；情绪记忆去饱和化（SFSR假说）；Boyce 2016光遗传因果证明REM θ是情境记忆必需条件；van der Helm 2011人类fMRI证实REM降低杏仁核情绪反应 **[NEW 2026-05-31]**
+- 🟢 [REM睡眠](concepts/rem-sleep.md) — 去甲肾上腺素真空（LC沉默）+θ振荡+杏仁核-海马θ同步；情绪记忆去饱和化（SFSR假说）；Boyce 2016光遗传因果证明REM θ是情境记忆必需条件；van der Helm 2011人类fMRI证实REM降低杏仁核情绪反应；**新增rev4**：SSRI急性抑制REM >50%（首夜），但 REM 抑制与抗抑郁效果解离（安非他酮不抑制REM仍有效）**[NEW 2026-05-31 · 修订 rev4 2026-10-17]**
 - 🟢 [睡眠-清醒翻转开关](systems/flip-flop-switch-sleep-wake.md) — VLPO（GABA+甘丙肽）与AAS核团（LC/DRN/TMN/食欲素）的双稳互抑回路；解释睡眠-清醒为何是两个稳定极端态而非连续渐变；腺苷/PGD₂→VLPO激活→睡眠翻转；食欲素稳定清醒侧；Kroeger 2018光遗传定量证据；KCNQ2/老年碎片化机制（Li 2022 Science）**[升级至systems rev1 2026-10-12]**
 - 🟢 [食欲素（下丘脑泌素）与发作性睡病](concepts/orexin-hypocretin.md) — 外侧下丘脑8万神经元的"AAS总指挥"；缺失导致NT1（95%神经元丢失，HLA-DQB1*06:02）；OX2R激动剂danavorexton MWT改善11.1分（2024）；干细胞/基因治疗前景 **[NEW 2026-08-10]**
 - 🟡 [情绪记忆去饱和化](concepts/emotional-memory-depotentiation.md) — REM睡眠NE真空→θ相位驱动LA突触选择性LTD→情绪色彩弱化、事实内容保留；Walker SFSR假说的机制底层；PTSD可能是去饱和化失败 **[NEW 2026-05-31]**

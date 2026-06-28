@@ -6,14 +6,14 @@ type: mechanism
 status: emerging
 confidence: medium
 created: 2026-06-26
-updated: 2026-06-28
-revision_count: 4
+updated: 2026-10-17
+revision_count: 5
 dimensions: [molecular, cellular, synaptic, microcircuit, brain-region, cognition, disease]
-related: [hippocampal-neurogenesis, hippocampal-circuit, pattern-separation, ltp, engram-cells, memory-consolidation, alzheimers-disease, bdnf, hpa-axis, glucocorticoid-stress-memory, sgk3-autophagic-nsc-death, fkbp51, ptsd, infantile-amnesia]
+related: [hippocampal-neurogenesis, hippocampal-circuit, pattern-separation, ltp, engram-cells, memory-consolidation, alzheimers-disease, bdnf, hpa-axis, glucocorticoid-stress-memory, sgk3-autophagic-nsc-death, fkbp51, ptsd, infantile-amnesia, antidepressant-neurogenesis-delay, serotonin-raphe-system]
 prerequisites: [hippocampal-circuit, ltp, pattern-separation]
 opens_questions: [Q-adult-neurogenesis-human-controversy, Q-neurogenesis-memory-function, Q-neurogenesis-AD, Q-gaba-switch-timing, Q-neurogenesis-stress-ptsd-01, Q-sgk3-01, Q-neurogenesis-forgetting-human, Q-infantile-amnesia-circuit]
-source_articles: [2026-06-26-adult-neurogenesis-dentate-gyrus, 2026-08-27-stress-hippocampal-neurogenesis-hpa-gc, 2026-06-28-adult-hippocampal-neurogenesis-forgetting]
-key_sources: ["PMID:9809554", "PMID:23746839", "PMID:21460835", "PMID:30911133", "PMID:34137370", "PMID:40816272", "PMID:21814201", "PMID:31234698", "PMID:36104438", "PMID:14699428", "PMID:33293948", "PMID:24812394", "PMID:29625071"]
+source_articles: [2026-06-26-adult-neurogenesis-dentate-gyrus, 2026-08-27-stress-hippocampal-neurogenesis-hpa-gc, 2026-06-28-adult-hippocampal-neurogenesis-forgetting, 2026-10-17-ssri-neurogenesis-rem-antidepressant-delay]
+key_sources: ["PMID:9809554", "PMID:23746839", "PMID:21460835", "PMID:30911133", "PMID:34137370", "PMID:40816272", "PMID:21814201", "PMID:31234698", "PMID:36104438", "PMID:14699428", "PMID:33293948", "PMID:24812394", "PMID:29625071", "PMID:12907793", "PMID:21395859", "PMID:17429410"]
 ---
 
 # 成年神经发生 (Adult Neurogenesis)
@@ -49,9 +49,15 @@ key_sources: ["PMID:9809554", "PMID:23746839", "PMID:21460835", "PMID:30911133",
 
 **恢复机制**（均有啮齿类证据）：
 - 有氧运动（通过 BDNF/IGF-1/VEGF 激活）→ 逆转 CORT 对 AHN 的抑制，且是运动行为效应的**必要中介**（PMID:21935393）
-- SSRI/氟西汀（通过 5-HT₁A → cAMP→增殖，主要腹侧 DG）→ 神经发生可能是 SSRI 2–4 周起效延迟的原因之一
+- SSRI/氟西汀（通过 5-HT₁A → cAMP→增殖，主要腹侧 DG）→ 神经发生是 SSRI 2–4 周起效延迟的候选机制（见下方"SSRI 与抗抑郁延迟"节）
 - GSK-3β 抑制剂（锂盐）→ 恢复 Wnt/β-catenin 通路
 - FKBP51 抑制剂（SAFit2）→ 体外促进 NPC 增殖/分化（体内证据不足）
+
+**关键新增（2026-10-17）：SSRI 与抗抑郁延迟的因果证据**
+
+Santarelli 等（2003，PMID:12907793）提供了迄今最清晰的因果实验：X 射线（15 Gy）选择性清除 C57BL/6 小鼠 DG 神经前体细胞后，给予氟西汀 28 天，行为测试（NSF，新环境进食抑制）显示改善**完全消失**（与盐水组无异）；而神经发生完整的小鼠在 28 天治疗后表现出显著行为改善。5 天治疗无论神经发生状态如何均无效——这与临床上"短期用药无效"完全一致。这一实验将 SSRI 2–4 周起效延迟与 DG 新生颗粒细胞的 **4–6 周超可塑性成熟窗口**（Samuels & Hen 2011，PMID:21395859）在时间上精确匹配。
+
+**重要争议**：Holick 等（2008，PMID:17429410）在 BALB/cJ 品系中发现神经发生被清除后氟西汀效果仍保留，说明神经发生的必要性是遗传背景依赖的，非普遍成立。详见 [[antidepressant-neurogenesis-delay]]。
 
 ### 一、神经发生的解剖学家园
 
@@ -143,6 +149,8 @@ SGZ 干细胞类型：径向胶质样细胞（RGL，Type 1），标志物：GFAP
 - [[bdnf]] — 神经发生最关键的促进因子；通过 PI3K/Akt（存活）和 MAPK/ERK（分化）双通路支持新生颗粒细胞整合
 - [[memory-consolidation]] — 神经发生在 NREM 睡眠 SWR 重激活中的角色待研究；神经发生性遗忘与系统性巩固可能构成记忆蒸馏的协同机制
 - [[infantile-amnesia]] — 婴儿遗忘症的神经发生假说：婴儿期极高 AHN 主动清除情节细节（Akers 2014 跨物种证据）
+- [[antidepressant-neurogenesis-delay]] — SSRI 延迟起效的神经发生假说；Santarelli 2003 因果证据；品系差异争议
+- [[serotonin-raphe-system]] — SSRI 通过 SERT 阻断升高 5-HT；5-HT₁A 受体激活促进 DG 增殖（AHN 的上游调控）
 
 ## 未解问题
 
@@ -158,6 +166,7 @@ SGZ 干细胞类型：径向胶质样细胞（RGL，Type 1），标志物：GFAP
 - 2026-06-28 · 修订 · 基于《新生神经元的双面刃》一文 (#185) · 新增"六节：神经发生介导的遗忘（系统层）"（Akers 2014 多物种证据、突触竞争机制假说、婴儿遗忘症新解释、PTSD-SSRI 治疗启示、与系统性巩固的协同框架）；补充 Boldrini 2018 定量数据；新增证据表 4 行；更新一句话定义；新增连接 infantile-amnesia；新增未解问题 Q-neurogenesis-forgetting-human 和 Q-infantile-amnesia-circuit
 - 2026-08-27 · 修订 · 基于《应激如何重塑海马新生神经元》一文 (#125) · 新增"零节：慢性应激/GC 对 AHN 的多层抑制"（GR 三路径 + CRF 独立路径 + 双向 HPA 反馈环路 + FKBP51 门控 + 恢复机制）；补充 11 个新来源；新增相关连接（hpa-axis, glucocorticoid-stress-memory, sgk3-autophagic-nsc-death, fkbp51, ptsd）；新增未解问题 Q-neurogenesis-stress-ptsd-01 和 Q-sgk3-01
 - 2026-06-28 · 修订 · 基于《BDNF》文章 (#64) · 悬空引用 [[bdnf]] 已建页；补充 BDNF 通过 PI3K/Akt 和 MAPK/ERK 双通路支持新生颗粒细胞存活与分化的具体机制描述
+- 2026-10-17 · 修订 rev5 · 基于《为什么等两周》（文章 #187）· 在"恢复机制"节新增 Santarelli 2003 因果实验（X 射线清除神经发生 + 28d 氟西汀行为消失）和 Holick 2008 品系争议；related 新增 antidepressant-neurogenesis-delay 和 serotonin-raphe-system；连接节新增对应两条；key_sources 新增 PMID:12907793, 21395859, 17429410
 - 2026-06-26 · 创建 · 基于《大脑的自我更新》一文 · 整合 11 篇来源（含 4 篇 PMC 开放全文）· 初始置信度：中（人类部分 emerging，啮齿类部分 established）
 
 ## 来源文章
@@ -165,3 +174,4 @@ SGZ 干细胞类型：径向胶质样细胞（RGL，Type 1），标志物：GFAP
 - [[2026-06-26-adult-neurogenesis-dentate-gyrus]]
 - [[2026-08-27-stress-hippocampal-neurogenesis-hpa-gc]]
 - [[2026-06-28-adult-hippocampal-neurogenesis-forgetting]]
+- [[2026-10-17-ssri-neurogenesis-rem-antidepressant-delay]]

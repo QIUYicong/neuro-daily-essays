@@ -11477,6 +11477,56 @@
         "global-workspace-theory（深化）——意识子图核心节点（degree=28，medium confidence）",
         "prefrontal-cortex-development——婴儿遗忘症的第二机制：PFC未成熟与记忆检索的发育时序"
       ]
+    },
+    {
+      "date": "2026-10-17",
+      "article_number": 187,
+      "title": "为什么等两周：SSRI 如何借助海马新生神经元重建情绪的地基",
+      "slug": "2026-10-17-ssri-neurogenesis-rem-antidepressant-delay",
+      "core_question": "SSRI 在数小时内阻断 SERT 并抑制 REM 睡眠 >50%，但临床抗抑郁效果延迟 2–4 周——这段沉默期的神经科学机制是什么？",
+      "layers": [
+        "molecular",
+        "cellular",
+        "brain-region",
+        "cognition",
+        "behavior"
+      ],
+      "topic_tags": [
+        "ssri",
+        "antidepressant",
+        "neurogenesis",
+        "rem-sleep",
+        "hippocampus",
+        "dentate-gyrus",
+        "serotonin",
+        "depression"
+      ],
+      "wiki_created": [
+        "concepts/antidepressant-neurogenesis-delay.md"
+      ],
+      "wiki_revised": [
+        "concepts/adult-neurogenesis.md rev4→rev5",
+        "concepts/rem-sleep.md rev3→rev4",
+        "systems/serotonin-raphe-system.md rev2→rev3"
+      ],
+      "open_questions_added": [
+        "Q-ssri-delay-01",
+        "Q-ssri-delay-02",
+        "Q-ssri-delay-03"
+      ],
+      "main_sources": [
+        "PMID:12907793",
+        "PMID:31071719",
+        "PMID:16889107",
+        "PMID:11568979",
+        "PMID:21395859",
+        "PMID:23042884"
+      ],
+      "next_suggested_topics": [
+        "ketamine-rapid-antidepressant——氯胺酮快速抗抑郁机制深化：mTOR/BDNF/突触发生的小时级别重塑，与 SSRI 的两周延迟形成对比",
+        "global-workspace-theory（深化）——意识子图核心节点（degree=28，medium confidence）；从药物机制串联到意识理论",
+        "major-depressive-disorder——MDD 的神经生物学概览页面（悬空引用，待建）：连接 LHb、DRN、神经发生、应激-HPA 轴"
+      ]
     }
   ]
 }
