@@ -16785,5 +16785,25 @@
     ],
     "new_additions": 10,
     "full_text_count": 4
+  },
+  "sources_2026-06-28-infantile-amnesia": {
+    "article": "#186 · 婴儿遗忘症的神经科学",
+    "date": "2026-06-28",
+    "pmids": [
+      "PMID:24812394",
+      "PMID:22904373",
+      "PMID:29983316",
+      "PMID:30316637",
+      "PMID:23428745",
+      "PMID:33626196",
+      "PMID:36458626",
+      "PMID:36090654"
+    ],
+    "pmcids": [
+      "PMC:6969236"
+    ],
+    "new_additions": 7,
+    "full_text_count": 2,
+    "notes": "PMID:24812394 (Akers 2014) 与 #185 重叠；PMC:6969236 全文可用；Frontiers PMID:36090654 开放获取但仅读摘要；其余6篇仅摘要"
   }
 }

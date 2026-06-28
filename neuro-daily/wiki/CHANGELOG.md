@@ -4,6 +4,22 @@
 
 ---
 
+## 2026-06-28 · 文章 #186 · 婴儿遗忘症的神经科学：为什么我们不记得自己两岁以前的事情
+
+**修订页面（1个）**：
+
+- `wiki/concepts/infantile-amnesia.md` rev1→rev2：升级 status emerging→mainstream；扩展 dimensions（新增 microcircuit/brain-region/behavior/developmental）；新增 Guskjolen 2018（PMID:29983316）光遗传唤醒证据（提取失败非存储失败）；新增 Saragosa-Harris 2021 人类行为数据（3岁儿童一周后记忆近随机）；扩展未解问题至6个（Q-ia-01~04）；新增 related：dentate-gyrus/complementary-learning-systems；更新一句话定义纳入"提取失败"核心发现
+
+**新建页面（0个）**：infantile-amnesia.md 已在 #185 创建，本次为修订
+
+**矛盾（0个）**：Guskjolen 2018 与 Akers 2014 相容（互补：存储失败 vs 提取失败两种机制都为真）
+
+**悬空引用填补（1个）**：adult-neurogenesis 悬空引用标记为已解决（#185已建页）
+
+**图谱变化**：335节点/2021边 → **335节点/2024边**（+0节点；+3边：infantile-amnesia→engram-cells related；infantile-amnesia→dentate-gyrus mechanism-of；infantile-amnesia→complementary-learning-systems related）
+
+---
+
 ## 2026-06-28 · 文章 #185 · 新生神经元的双面刃：模式分离与神经发生介导的遗忘
 
 **新建页面（1个）**：

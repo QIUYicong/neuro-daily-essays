@@ -2080,3 +2080,22 @@
 **图谱**：335节点/2021边（+1节点：infantile-amnesia；+4边；updated 2026-06-28）
 
 **层级**：molecular × cellular × synaptic × microcircuit × cognition × development（接续 #1 DG神经发生奠基篇，从机制到功能的完整覆盖；与 #125 应激-GC抑制篇构成"AHN促进vs抑制"的完整双极调节图）
+
+---
+
+## 2026-06-28（#186）日摘要
+
+**主题**：婴儿遗忘症的神经科学：为什么我们不记得自己两岁以前的事情
+
+**核心发现**：婴儿遗忘症并非因为婴幼儿"无法形成记忆"，而是一种主动的记忆清除过程。Akers et al. 2014（Science, PMID:24812394）通过双向操控（增加神经发生→遗忘加速；减少婴儿神经发生→记忆保留）和跨物种天然对照（豚鼠/degu 低神经发生→无婴儿遗忘症；人工增加 AHN→诱导婴儿遗忘症），建立了迄今最强的因果证据链。Guskjolen et al. 2018（PMID:29983316）光遗传学实验进一步揭示，婴儿遗忘症是**提取失败**而非**存储失败**——c-Fos-tTA标记的婴儿期DG印记细胞在3个月后光遗传激活后，成年小鼠重新出现冻僵反应，证明印记仍然存在。Saragosa-Harris et al. 2021（PMID:33626196）的人类行为研究证实3岁儿童一周后联想记忆接近随机水平（5岁恢复成人水平），量化了行为层面的婴儿遗忘症窗口。竞争性假说（前额叶未成熟、语言框架缺失、突触修剪）与神经发生假说可能协同作用，但神经发生假说目前有最强的跨物种因果支持。
+
+**关键分层**：细胞层（DG SGZ高神经发生→苔藓纤维突触竞争置换）→ 微回路层（CA3 突触连接重组）→ 脑区层（海马-前额叶回路未成熟协同效应）→ 行为层（3-5岁儿童联想记忆时间衰减）→ 认知/发育层（婴儿遗忘症作为提取路径丧失，印记可能持续数十年）
+
+**知识地图贡献**：
+- infantile-amnesia.md (rev1→rev2)：补充 Guskjolen 2018 光遗传唤醒证据（提取失败非存储失败）；Saragosa-Harris 2021 人类行为定量数据；扩展竞争假说对比表；status emerging→mainstream
+- 新增 3 条知识图谱边：infantile-amnesia→engram-cells（related）；infantile-amnesia→dentate-gyrus（mechanism-of）；infantile-amnesia→complementary-learning-systems（related）
+- 新增未解问题 Q-ia-01（高，GABA 极性转换时间节点）/ Q-ia-02（中，杏仁核情绪记忆例外性）/ Q-ia-03（高，人类婴儿期 AHN 独立评估）/ Q-ia-04（中，婴儿印记数十年持久性）
+
+**图谱**：335节点/2024边（+3边；updated 2026-06-28）
+
+**层级**：cellular × microcircuit × brain-region × behavior × cognition × developmental（接续 #185 DG神经发生双面刃，从成人遗忘效应延伸到婴儿遗忘症全貌；Guskjolen 2018 提取失败发现重新定义了婴儿遗忘症与成年期神经发生的关系）

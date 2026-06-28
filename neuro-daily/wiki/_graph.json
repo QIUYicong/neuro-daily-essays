@@ -1,8 +1,8 @@
 {
   "version": "1.0",
   "updated": "2026-06-28",
-  "node_count": 333,
-  "edge_count": 2006,
+  "node_count": 335,
+  "edge_count": 2024,
   "edge_types": [
     "is-a",
     "part-of",
@@ -3053,10 +3053,18 @@
       "id": "infantile-amnesia",
       "title": "婴儿遗忘症",
       "domain": "concepts",
-      "type": "phenomenon",
-      "status": "emerging",
+      "type": "concept",
+      "status": "mainstream",
       "confidence": "medium",
-      "page": "wiki/concepts/infantile-amnesia.md"
+      "page": "wiki/concepts/infantile-amnesia.md",
+      "dimensions": [
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "behavior",
+        "cognition",
+        "developmental"
+      ]
     }
   ],
   "edges": [
@@ -14405,6 +14413,24 @@
       "from": "infantile-amnesia",
       "to": "pattern-separation",
       "relation": "related-to"
+    },
+    {
+      "from": "infantile-amnesia",
+      "to": "engram-cells",
+      "type": "related",
+      "note": "婴儿遗忘症印记细胞存在但提取路径丧失（Guskjolen 2018）；提取失败证据"
+    },
+    {
+      "from": "infantile-amnesia",
+      "to": "dentate-gyrus",
+      "type": "mechanism-of",
+      "note": "齿状回是婴儿遗忘症神经发生机制的核心发生地；发育最迟的海马区域"
+    },
+    {
+      "from": "infantile-amnesia",
+      "to": "complementary-learning-systems",
+      "type": "related",
+      "note": "CLS框架中婴儿期是快速可塑性模式极度活跃的特殊发育状态"
     }
   ],
   "dangling_references": [
@@ -14596,7 +14622,8 @@
         "pattern-separation",
         "complementary-learning-systems"
       ],
-      "note": "成人神经发生专页；DG颗粒细胞的持续生成；成人神经发生在认知功能（尤其模式分离）中的作用；Sahay 2011等因果研究；人类成人神经发生争议（Sorrells 2018 vs Boldrini 2018）；待建页面"
+      "note": "成人神经发生专页；DG颗粒细胞的持续生成；成人神经发生在认知功能（尤其模式分离）中的作用；Sahay 2011等因果研究；人类成人神经发生争议（Sorrells 2018 vs Boldrini 2018）；待建页面；已于2026-06-28创建 wiki/concepts/adult-neurogenesis.md 页面（#185）",
+      "resolved": "2026-06-28"
     },
     {
       "slug": "dentate-gyrus",

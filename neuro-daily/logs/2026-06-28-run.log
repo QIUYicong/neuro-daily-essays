@@ -84,3 +84,85 @@ f0314c2
 - 新增来源：10个
 - 新增未解问题：2个
 - 图谱变化：+1节点/+4边
+
+---
+
+# 运行日志追加 · 2026-06-28 · 第186篇（同日第二次运行）
+
+## 运行元数据
+
+- 运行时间：2026-06-28 09:00 UTC+8（接续 #185 同日运行）
+- 文章编号：#186
+- 文章日期：2026-06-28
+- 知识库连续日期：延续 #185（2026-06-28 · 新生神经元双面刃）
+
+## 步骤 A — 读取状态文件
+
+- 读取 state/topic_ledger.json（最新 #185，total_articles=185） ✓
+- 读取 wiki/_graph.json（335节点/2021边） ✓
+- 读取 wiki/concepts/infantile-amnesia.md（rev1，#185 consolidation创建） ✓
+- 读取 wiki/CHANGELOG.md ✓
+
+## 步骤 B — 选题
+
+**分析**：
+- #185 next_suggested_topics 明确推荐 infantile-amnesia 深化
+- infantile-amnesia wiki 页 rev1 缺失 Guskjolen 2018"提取失败"核心发现
+- 层级多样性需求：今日前几篇偏分子/突触，#186 覆盖行为/认知/发育
+
+**最终选题**：《婴儿遗忘症的神经科学：为什么我们不记得自己两岁以前的事情》
+**核心问题**：婴儿遗忘症是记忆从未形成，还是已形成却被主动清除？
+
+## 步骤 C — 研究与写作
+
+| ID | PMID | PMC | 标题（缩略） | 全文 |
+|----|------|-----|-------------|------|
+| S1 | 24812394 | PMC6969236 | Akers 2014 · 神经发生介导遗忘 | ✓ |
+| S2 | 22904373 | — | Josselyn & Frankland 2012 · 婴儿遗忘症神经发生假说 | ✗ |
+| S3 | 29983316 | — | Guskjolen 2018 · 光遗传唤醒婴儿记忆 | ✗ |
+| S4 | 30316637 | — | Ramsaran et al. 2019 · 跨物种综述 | ✗ |
+| S5 | 23428745 | — | Lavenex & Banta Lavenex 2013 · 海马回路发育 | ✗ |
+| S6 | 33626196 | — | Saragosa-Harris 2021 · 3-5岁人类行为 | ✗ |
+| S7 | 36458626 | — | Howe 2024 · 批评压抑论 | ✗ |
+| S8 | 36090654 | — | López-Oropeza 2022 · 母亲丰富化+神经发生 | ✗ |
+
+开放全文：2/8（S1 PMC全文；S8 Frontiers OA可及）
+
+文章：articles/2026-06-28-infantile-amnesia-neurogenesis-hippocampus.md（~4500字）
+来源：sources/2026-06-28-sources-infantile-amnesia.json
+笔记：notes/2026-06-28-reading-notes-infantile-amnesia.md
+
+## 步骤 D — Wiki 知识整合
+
+修订 wiki/concepts/infantile-amnesia.md rev1→rev2：
+- 补充 Guskjolen 2018 光遗传唤醒证据（提取失败非存储失败）
+- 补充 Saragosa-Harris 2021 人类行为定量数据（3岁一周后接近随机）
+- 扩展竞争假说对比表（4条假说）
+- status emerging→mainstream
+- 未解问题从2扩展到6（Q-ia-01~Q-ia-04新增）
+
+## 步骤 E — 知识图谱更新
+
+节点：335 → 335（无新节点）
+边：2021 → 2024（+3边：engram-cells、dentate-gyrus、complementary-learning-systems）
+dangling_references：解决 adult-neurogenesis
+
+## 步骤 F — 状态文件更新
+
+state/topic_ledger.json：#186条目 ✓（total_articles=186）
+state/unresolved_questions.md：Q-ia-01~Q-ia-04 ✓
+state/monthly_synthesis.md：#186日摘要 ✓
+state/source_registry.json：8源条目 ✓
+wiki/CHANGELOG.md：#186条目 ✓
+
+## 步骤 G — Git 操作
+
+提交哈希：（提交后更新）
+
+## 本次运行摘要
+
+- 新建 wiki 页：0
+- 修订 wiki 页：1（infantile-amnesia rev2）
+- 新增来源：8个（其中1个与#185重叠：PMID:24812394）
+- 新增未解问题：4个（Q-ia-01~Q-ia-04）
+- 图谱变化：+0节点/+3边（2021→2024）

@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-06-28",
-  "total_articles": 185,
+  "total_articles": 186,
   "entries": [
     {
       "date": "2026-10-05",
@@ -11435,6 +11435,47 @@
         "memory-consolidation-systems",
         "infantile-amnesia-developmental",
         "ssri-neurogenesis-ptsd-mechanism"
+      ]
+    },
+    {
+      "date": "2026-06-28",
+      "article_number": 186,
+      "title": "婴儿遗忘症的神经科学：为什么我们不记得自己两岁以前的事情",
+      "slug": "infantile-amnesia-neurogenesis-hippocampus",
+      "core_question": "婴儿遗忘症究竟是因为早期记忆从未形成，还是已形成却被主动清除——神经发生如何成为海马记忆回路的格式化键？",
+      "layer": [
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "behavior",
+        "cognition",
+        "developmental"
+      ],
+      "topic_tags": [
+        "infantile-amnesia",
+        "neurogenesis",
+        "hippocampus",
+        "dentate-gyrus",
+        "engram-cells",
+        "memory-development"
+      ],
+      "main_sources": [
+        "PMID:24812394",
+        "PMID:22904373",
+        "PMID:29983316",
+        "PMID:30316637",
+        "PMID:23428745"
+      ],
+      "unresolved_questions": [
+        "Q-ia-01",
+        "Q-ia-02",
+        "Q-ia-03",
+        "Q-ia-04"
+      ],
+      "next_suggested_topics": [
+        "infantile-amnesia-developmental（深化）——婴儿期记忆印记的长期命运：人类成年后是否仍可用非侵入方法探测？",
+        "global-workspace-theory（深化）——意识子图核心节点（degree=28，medium confidence）",
+        "prefrontal-cortex-development——婴儿遗忘症的第二机制：PFC未成熟与记忆检索的发育时序"
       ]
     }
   ]
