@@ -68,10 +68,11 @@
 
 ## 步骤 H — 提交与推送
 
-- git config user.name/email 设置（GIT_AUTHOR_NAME=QIUYicong）
-- git pull --rebase origin main
-- git commit
-- git push -u origin main
+- git config user.name/email 设置（GIT_AUTHOR_NAME=QIUYicong）✓
+- git pull --rebase origin main ✓
+- git commit ✓
+- git push -u origin main ✓
+- Commit hash: 2406214
 
 ## 本次运行摘要
 
