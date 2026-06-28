@@ -61,7 +61,8 @@
 - **monthly_synthesis.md**：新增 2026-06-28（#183）日摘要
 
 ### G - 提交与推送
-- 待完成（即将执行）
+- commit: `44f4297` — "Add neuro daily article + wiki consolidation for 2026-06-28 (#183)"
+- push: `git push -u origin main` → 成功（7bdf93f..44f4297 main → main）
 
 ## 来源质量
 
