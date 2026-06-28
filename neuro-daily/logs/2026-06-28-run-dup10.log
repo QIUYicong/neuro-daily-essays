@@ -1,0 +1,75 @@
+# 运行日志：2026-06-28（第十次调用 · 重复检测）
+
+**运行时间**：2026-06-28 UTC+8（计划触发）
+**运行状态**：跳过（当日文章已存在）
+
+---
+
+## 检测结果
+
+### 步骤 0：同步
+- `git checkout main && git pull --rebase origin main` ✓
+- remote：`QIUYicong/neuro-daily-essays` ✓
+- 同步后最新 commit：`8bf61c8`（"Log third duplicate detection for 2026-06-29 (00:59 UTC+8)"）
+
+### 步骤 A：读取状态
+- 读取 ROUTINE.md ✓
+- 读取 KNOWLEDGE-BASE-DESIGN.md ✓
+- `articles/` 目录中 2026-06-28 文件数：**7 篇**（较 dup9 时新增 2 篇）
+
+### 步骤 B：选题判断
+- **当天文章已存在**：7 篇 2026-06-28 文章已提交
+- ROUTINE.md 规定："不要反复生成同一天文章"
+- **本次（第10次）调用跳过，不创建新文章**
+
+---
+
+## 今日 2026-06-28 文章清单（完整版）
+
+| 文章编号 | 文件名                                                  | 主题摘要                              |
+|---------|--------------------------------------------------------|--------------------------------------|
+| #178    | 2026-06-28-attention-neural-mechanisms-spotlight.md    | 注意力神经机制·三级联动门控              |
+| —       | 2026-06-28-bdnf-trk-b-plasticity-memory.md            | BDNF-TrkB 信号轴·突触可塑性与记忆       |
+| #181    | 2026-06-28-ltp-60-kibra-pkm-zeta-molecular-persistence.md | KIBRA-PKMζ 寡聚体·LTP 60年综述      |
+| #183    | 2026-06-28-multiple-sclerosis-myelin-computation.md    | 多发性硬化·髓鞘与时序计算               |
+| #184    | 2026-06-28-tarp-ampa-receptor-synaptic-trafficking.md  | TARP 辅助亚基·AMPA 受体突触定位        |
+| #185    | 2026-06-28-adult-hippocampal-neurogenesis-forgetting.md | 新生神经元·模式分离与神经发生介导的遗忘  |
+| #186    | 2026-06-28-infantile-amnesia-neurogenesis-hippocampus.md | 婴儿遗忘·神经发生高峰期与记忆擦除       |
+
+---
+
+## 调用历史汇总（截至本次）
+
+| 调用次序  | 日志文件                          | 结果                     |
+|---------|----------------------------------|--------------------------|
+| 第1次   | 2026-06-28-run-attention.log     | 写 #178 注意力文章         |
+| 第2次   | 2026-06-28-run-ltp60.log        | 写 #181 LTP60 文章         |
+| 第3次   | 2026-06-28-run-ms.log           | 写 #183 MS 文章            |
+| 第4次   | 2026-06-28-run.log              | 写 #184 TARP 文章          |
+| 第5次   | 2026-06-28-run-dup5.log         | 跳过（4篇已存在）           |
+| 第6次   | 2026-06-28-run-dup6.log         | 跳过                       |
+| 第7次   | 2026-06-28-run-dup7.log         | 跳过                       |
+| 第8次   | 2026-06-28-run-dup8.log         | 跳过                       |
+| 第9次   | 2026-06-28-run-dup9.log         | 跳过（5篇已存在）           |
+| 某次     | —                               | 写 bdnf-trk-b 文章         |
+| 某次     | —                               | 写 #185 神经发生遗忘        |
+| 某次     | —                               | 写 #186 婴儿遗忘            |
+| **第10次** | **本文件**                    | **跳过（7篇已存在）**       |
+
+---
+
+## 当前知识库状态
+
+- 今日文章（2026-06-28）：7 篇
+- wiki 主题页：327 页
+- 知识图谱：335 节点 / 2021 边
+- 开放矛盾登记：7 条（open）
+
+---
+
+## Git 操作
+
+- 仅提交此运行日志（情景层 append-only）
+- 不新增文章、不修改 wiki、不修改状态文件
+- branch: main
+- remote: QIUYicong/neuro-daily-essays
