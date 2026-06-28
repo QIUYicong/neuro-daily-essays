@@ -1,0 +1,68 @@
+# Run Log: 2026-10-17
+
+## Run Summary
+
+- **Session start**: Resumed from previous context (previous session hit context limit mid-research)
+- **Article number**: #187
+- **Article date**: 2026-10-17
+- **Topic**: REM睡眠肌张力弛缓的脑干回路与REM睡眠行为障碍
+
+## Task Execution
+
+### Phase 1: Literature Research (completed in previous context)
+- Identified 10 sources; 3 confirmed open-access (PMC verified)
+- Key circuit mechanism confirmed via Valencia Garcia 2017 (vGluT2 KO rats)
+- α-synuclein SAA data from Siderowf 2023 (Lancet Neurol)
+- Body-first/brain-first PD model from Borghammer 2019 + Horsager 2020
+
+### Phase 2: Article Writing ✓
+- Created `neuro-daily/articles/2026-10-17-rem-sleep-atonia-rbd-parkinson.md`
+- ~4800 Chinese characters
+- 10 sources, 3 open-access full texts, 3 institution sources
+- Core structure: SLD→VMM→spinal cord 3-tier circuit + monoamine disfacilitation
+- Clinical bridge: iRBD as prodromal PD biomarker, body-first vs brain-first PD
+
+### Phase 3: Supporting Files ✓
+- Created `neuro-daily/notes/2026-10-17-reading-notes.md`
+- Created `neuro-daily/sources/2026-10-17-sources.json`
+
+### Phase 4: Wiki Consolidation ✓
+- Created `wiki/concepts/rem-muscle-atonia.md` (rev1)
+- Created `wiki/concepts/sublaterodorsal-nucleus.md` (rev1)
+- Created `wiki/diseases/rem-sleep-behavior-disorder.md` (rev1)
+- Updated `wiki/concepts/rem-sleep.md` (rev3→rev4): added atonia circuit section
+- Updated `wiki/diseases/parkinsons-disease.md` (rev3→rev4): added body-first/brain-first subtypes, iRBD, SAA
+
+### Phase 5: Graph Update ✓
+- Graph: 335 nodes/2024 edges → 338 nodes/2035 edges
+- New nodes: rem-muscle-atonia, sublaterodorsal-nucleus, rem-sleep-behavior-disorder
+- New edges: 11 (SLD→atonia, atonia→REM, RBD→PD, etc.)
+
+### Phase 6: State Updates ✓
+- `state/topic_ledger.json`: total_articles 186→187, last_updated 2026-06-29→2026-10-17
+- `state/unresolved_questions.md`: added Q-rem-atonia-01, Q-rbd-01, Q-pd-body-first-onset
+- `wiki/CHANGELOG.md`: prepended 2026-10-17 entry
+
+## Context Notes
+
+- This session is continuing from context summary: previous session completed literature research but hit context limit before writing
+- Knowledge base date continues from 2026-10-16 (article #176) to 2026-10-17 (#187)
+- Date gap 2026-10-16→2026-10-17 is deliberate: filling the next day after the series continued to #176 in a previous session chain
+- System clock date: 2026-06-28 UTC (but knowledge base operates in 2026-10-xx date space)
+
+## Source Quality
+
+| PMID | Access | Role |
+|------|--------|------|
+| PMID:21115377 | PMC full text | Primary - SLD circuit overview |
+| PMID:28007991 | PMC full text | Primary - SLD vGluT2 KO causal proof |
+| PMID:31832664 | PMC full text | Primary - VMM optogenetics |
+| PMID:37059509 | Abstract | Primary - α-syn SAA 86% in iRBD |
+| PMID:31498132 | Abstract | Primary - body-first/brain-first concept |
+| PMID:32830221 | Abstract | Primary - multimodal imaging validation |
+| PMID:19625526 | Abstract | Secondary - supraolivary medulla pathway |
+| PMID:11549748 | Abstract | Secondary - monoamine disfacilitation |
+| PMID:38060134 | Abstract | Secondary - current SLD circuit review |
+| PMID:40919623 | Abstract | Supplementary - sleep paralysis circuit |
+
+## Status: ✓ Complete

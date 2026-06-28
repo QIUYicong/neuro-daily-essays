@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-31
-updated: 2026-06-27
-revision_count: 3
+updated: 2026-10-17
+revision_count: 4
 dimensions: [molecular, cellular, brain-region, whole-brain-network, behavior, cognition]
-related: [memory-consolidation, sharp-wave-ripples, sleep-spindles, theta-oscillations, fear-extinction, norepinephrine-locus-coeruleus, hippocampal-circuit, amygdala, emotional-memory-depotentiation, circadian-clock, scn-circadian-pacemaker]
+related: [memory-consolidation, sharp-wave-ripples, sleep-spindles, theta-oscillations, fear-extinction, norepinephrine-locus-coeruleus, hippocampal-circuit, amygdala, emotional-memory-depotentiation, circadian-clock, scn-circadian-pacemaker, rem-muscle-atonia, sublaterodorsal-nucleus, rem-sleep-behavior-disorder]
 prerequisites: [theta-oscillations, norepinephrine-locus-coeruleus, hippocampal-circuit, sleep-spindles]
 opens_questions: [Q-rem-01, Q-rem-02, Q-rem-03, Q-rem-04, Q-rem-05]
-source_articles: [2026-05-31-rem-sleep-emotional-memory, 2026-07-08-circadian-clock-scn-brain-rhythm, 2026-06-27-rem-sleep-il-cortex-fear-extinction-memory]
-key_sources: ["PMID:27174984", "PMID:19702380", "PMC:PMC2890316", "PMID:22119526", "PMC:PMC3237718", "PMID:28100731", "PMC:PMC5242402", "PMID:28729826", "PMC:PMC5498516", "PMID:12198538", "PMID:7185792", "PMID:38714199", "PMC:PMC11111341", "PMID:24499013", "PMC:PMC4286245"]
+source_articles: [2026-05-31-rem-sleep-emotional-memory, 2026-07-08-circadian-clock-scn-brain-rhythm, 2026-06-27-rem-sleep-il-cortex-fear-extinction-memory, 2026-10-17-rem-sleep-atonia-rbd-parkinson]
+key_sources: ["PMID:27174984", "PMID:19702380", "PMC:PMC2890316", "PMID:22119526", "PMC:PMC3237718", "PMID:28100731", "PMC:PMC5242402", "PMID:28729826", "PMC:PMC5498516", "PMID:12198538", "PMID:7185792", "PMID:38714199", "PMC:PMC11111341", "PMID:24499013", "PMC:PMC4286245", "PMID:21115377", "PMC:10627170", "PMID:28007991", "PMC:6839496", "PMID:31832664", "PMC:7294404"]
 ---
 
 # REM睡眠 (REM Sleep — Rapid Eye Movement Sleep)
@@ -68,6 +68,19 @@ Boyce等人（2016，PMID:27174984）通过光遗传因果实验在小鼠中证�
 | 76.6% IL神经元REM激活最高 | 钙成像（miniScope+GRIN透镜），小鼠 | PMID:38714199 | 中（动物，直接测量） |
 | 恐惧后4h内IL-REM抑制损害消退 | 闭环光遗传（ArchT），小鼠恐惧+消退范式 | PMID:38714199 | 中-高（动物因果，需人类复现） |
 
+## 肌张力弛缓回路（2026-10-17 新增）
+
+REM睡眠的第三大定义特征是**全身骨骼肌肌张力弛缓（atonia）**（与快速眼动、脑电去同步化并列）。这是主动神经性抑制，不是被动断电。
+
+核心三级回路（Valencia Garcia 2017，PMID:28007991；Luppi 2011，PMID:21115377）：
+1. **SLD（被盖下外侧核，脑桥）**：vGluT2+谷氨酸神经元在REM期特异性激活，投射到VMM
+2. **VMM（延髓腹内侧区）**：甘氨酸/GABA中间神经元接收SLD激活，向脊髓前角下行投射
+3. **脊髓α运动神经元**：接收VMM的甘氨酸+GABA双重抑制（IPSP超极化10-20mV）→ 骨骼肌弛缓
+
+协同机制：LC（NE）和中缝核（5-HT）在REM期发放接近零 → 单胺去易化 → 运动张力背景消除（放大甘氨酸/GABA抑制效果）。
+
+**SLD病变的临床意义**：α-突触核蛋白在SLD的早期沉积（帕金森病Braak I-II期）→ 肌张力弛缓失败 → **REM睡眠行为障碍（iRBD）**，是帕金森病运动症状前10-20年的临床前生物标志物。
+
 ## 昼夜节律对 REM 睡眠的时序门控
 
 （2026-07-08 新增）
@@ -91,6 +104,9 @@ REM 睡眠的时序分布并非随机——它受**昼夜节律系统**严格门
 - [[amygdala]] — 情绪记忆存储和情感反应的核心区域；REM去饱和化的主要靶点
 - [[emotional-memory-depotentiation]] — 本页描述的核心功能过程
 - [[vmPFC]] — IL皮层（大鼠）的人类同源区；REM期76.6%激活，是恐惧后消退能力的神经基础
+- [[rem-muscle-atonia]] — REM肌张力弛缓：SLD→VMM→脊髓三级回路（REM的第三大定义特征）
+- [[sublaterodorsal-nucleus]] — SLD是REM肌张力弛缓回路的第一级指令节点，α-突触核蛋白早期受累靶点
+- [[rem-sleep-behavior-disorder]] — SLD受损导致肌张力弛缓失败；iRBD是帕金森病最强的临床前预测因子之一
 
 ## 未解问题
 
@@ -107,9 +123,11 @@ REM 睡眠的时序分布并非随机——它受**昼夜节律系统**严格门
 - 2026-05-31 · 创建 · 基于《REM睡眠：大脑夜晚的情绪炼金炉》（文章#34）· 初始置信度：高
 - 2026-07-08 · 修订 rev2 · 基于《大脑的 24 小时时钟》(#76) · 新增"昼夜节律对 REM 睡眠的时序门控"小节（两过程模型、后半夜 REM 优势的 SCN 门控机制、临床意义）；related 新增 circadian-clock、scn-circadian-pacemaker；连接节重构以独立于正文；key_sources 新增 PMID:12198538、PMID:7185792
 - 2026-06-27 · 修订 rev3 · 基于《恐惧可以被睡眠稀释吗》(#177) · 新增IL皮层REM激活因果证据（Hong et al. 2024，PMC11111341）：76.6%神经元REM-max、4h关键窗口、NMDA依赖内在兴奋性；"当前理解"段新增Hong 2024机制；证据表新增两行；连接新增vmPFC；未解问题新增Q-il-rem-01/02；key_sources新增PMID:38714199/PMID:24499013及对应PMC
+- 2026-10-17 · 修订 rev4 · 基于《梦中的麻痹》(#187) · 新增"肌张力弛缓回路"小节：SLD→VMM→脊髓三级回路 + 单胺去易化协同机制 + SLD α-突触核蛋白病变→iRBD→PD的临床意义；related新增rem-muscle-atonia、sublaterodorsal-nucleus、rem-sleep-behavior-disorder；连接节新增三条；key_sources新增PMID:21115377/28007991/31832664及PMC
 
 ## 来源文章
 
 - [[2026-05-31-rem-sleep-emotional-memory]]
 - [[2026-07-08-circadian-clock-scn-brain-rhythm]]
 - [[2026-06-27-rem-sleep-il-cortex-fear-extinction-memory]]
+- [[2026-10-17-rem-sleep-atonia-rbd-parkinson]]

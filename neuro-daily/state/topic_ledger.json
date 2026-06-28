@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-29",
-  "total_articles": 186,
+  "last_updated": "2026-10-17",
+  "total_articles": 187,
   "entries": [
     {
       "date": "2026-10-05",
@@ -11477,6 +11477,43 @@
         "global-workspace-theory（深化）——意识子图核心节点（degree=28，medium confidence）",
         "prefrontal-cortex-development——婴儿遗忘症的第二机制：PFC未成熟与记忆检索的发育时序"
       ]
+    },
+    {
+      "date": "2026-10-17",
+      "title": "梦中的麻痹：REM睡眠肌张力弛缓的脑干回路，以及当它失守时我们所称之为的疾病",
+      "filename": "2026-10-17-rem-sleep-atonia-rbd-parkinson.md",
+      "article_number": 187,
+      "wiki_pages_created": [
+        "wiki/concepts/rem-muscle-atonia.md",
+        "wiki/concepts/sublaterodorsal-nucleus.md",
+        "wiki/diseases/rem-sleep-behavior-disorder.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/rem-sleep.md",
+        "wiki/diseases/parkinsons-disease.md"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "REM睡眠中全身骨骼肌为何被主动抑制（肌张力弛缓）？脑桥SLD谷氨酸神经元→延髓VMM甘氨酸/GABA中间神经元→脊髓α运动神经元三级回路的因果证明；α-突触核蛋白在SLD的早期病变如何导致RBD；iRBD作为帕金森病「身体优先」亚型的临床前标志物及α-突触核蛋白SAA（86%阳性率）的诊断意义。",
+      "open_questions_added": [
+        "Q-rem-atonia-01",
+        "Q-rem-atonia-02",
+        "Q-rem-atonia-03",
+        "Q-sld-01",
+        "Q-sld-02",
+        "Q-rbd-01",
+        "Q-rbd-02",
+        "Q-rbd-03",
+        "Q-rbd-04",
+        "Q-pd-body-first-onset",
+        "Q-pd-saa-windows"
+      ],
+      "new_graph_nodes": [
+        "rem-muscle-atonia",
+        "sublaterodorsal-nucleus",
+        "rem-sleep-behavior-disorder"
+      ],
+      "new_graph_edges": 11
     }
   ]
 }

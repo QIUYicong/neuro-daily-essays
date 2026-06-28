@@ -4,6 +4,25 @@
 
 ---
 
+## 2026-10-17 · 文章 #187 · 梦中的麻痹：REM睡眠肌张力弛缓的脑干回路，以及当它失守时我们所称之为的疾病
+
+**新建页面（3个）**：
+
+- `wiki/concepts/rem-muscle-atonia.md`（rev1）：REM睡眠肌张力弛缓专页；SLD→VMM→脊髓三级级联回路；甘氨酸/GABA抑制机制；单胺去易化协同机制；3个未解问题（Q-rem-atonia-01~03）
+- `wiki/concepts/sublaterodorsal-nucleus.md`（rev1）：被盖下外侧核（SLD）脑区专页；vGluT2+神经元为肌张力弛缓必要条件（Valencia Garcia 2017直接因果）；α-突触核蛋白早期沉积与Braak分期关联；2个未解问题（Q-sld-01~02）
+- `wiki/diseases/rem-sleep-behavior-disorder.md`（rev1）：REM睡眠行为障碍专页；继发性vs孤立性RBD（iRBD）分类；iRBD→帕金森病转化率80%+(10年)；α-突触核蛋白SAA 86%阳性率（Siderowf 2023）；body-first PD框架；4个未解问题（Q-rbd-01~04）
+
+**修订页面（2个）**：
+
+- `wiki/concepts/rem-sleep.md` rev3→rev4：新增"肌张力弛缓回路"小节（SLD→VMM→脊髓三级回路+单胺去易化+iRBD临床意义）；related新增rem-muscle-atonia/sublaterodorsal-nucleus/rem-sleep-behavior-disorder；连接节新增三条；key_sources新增3个PMIDs+PMCs
+- `wiki/diseases/parkinsons-disease.md` rev3→rev4：新增body-first vs brain-first PD双亚型模型；iRBD作为脑桥受累临床前标志（10-20年前运动症状）；α-突触核蛋白SAA 86%（Siderowf 2023）；related新增rem-sleep-behavior-disorder/sublaterodorsal-nucleus；连接节新增两条；未解问题新增Q-pd-body-first-onset/Q-pd-saa-windows；key_sources新增3个PMIDs
+
+**矛盾（0个）**：无新矛盾
+
+**图谱变化**：335节点/2024边 → **338节点/2035边**（+3节点：rem-muscle-atonia、sublaterodorsal-nucleus、rem-sleep-behavior-disorder；+11边：SLD→atonia、atonia→REM、REM→atonia、SLD→REM、LC→atonia、RBD→SLD、RBD→PD、RBD→atonia、PD→RBD、REM→RBD、flip-flop→SLD）
+
+---
+
 ## 2026-06-28 · 文章 #186 · 婴儿遗忘症的神经科学：为什么我们不记得自己两岁以前的事情
 
 **修订页面（1个）**：

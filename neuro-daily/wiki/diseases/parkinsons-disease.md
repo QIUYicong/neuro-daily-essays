@@ -6,14 +6,14 @@ type: disease
 status: established
 confidence: high
 created: 2026-06-14
-updated: 2026-09-09
-revision_count: 3
+updated: 2026-10-17
+revision_count: 4
 dimensions: [molecular, cellular, microcircuit, brain-region, whole-brain-network, behavior, cognition, disease]
-related: [dopamine-reward-prediction-error, basal-ganglia, beta-oscillations, alzheimers-disease, alpha-synuclein, voltage-gated-calcium-channels, ltp, mitochondrial-dysfunction, pink1-parkin-mitophagy]
+related: [dopamine-reward-prediction-error, basal-ganglia, beta-oscillations, alzheimers-disease, alpha-synuclein, voltage-gated-calcium-channels, ltp, mitochondrial-dysfunction, pink1-parkin-mitophagy, rem-sleep-behavior-disorder, rem-muscle-atonia, sublaterodorsal-nucleus]
 prerequisites: [dopamine-reward-prediction-error, basal-ganglia, synaptic-transmission]
 opens_questions: [Q-pd-beta-causality, Q-pd-closed-loop-dbs, Q-pd-lewy-protective, Q-pd-snc-vulnerability]
-source_articles: [2026-06-14-parkinson-basal-ganglia-circuit, 2026-09-01-medium-spiny-neurons-striatum, 2026-09-09-mitochondrial-dysfunction-neurodegeneration]
-key_sources: ["PMID:21469956", "PMID:2479133", "PMID:2402638", "PMID:34124057", "PMID:38954651", "PMID:30897356", "PMID:18267246", "PMID:38241161", "PMC10903104", "PMID:36943668", "PMID:33168089", "PMC7654589"]
+source_articles: [2026-06-14-parkinson-basal-ganglia-circuit, 2026-09-01-medium-spiny-neurons-striatum, 2026-09-09-mitochondrial-dysfunction-neurodegeneration, 2026-10-17-rem-sleep-atonia-rbd-parkinson]
+key_sources: ["PMID:21469956", "PMID:2479133", "PMID:2402638", "PMID:34124057", "PMID:38954651", "PMID:30897356", "PMID:18267246", "PMID:38241161", "PMC10903104", "PMID:36943668", "PMID:33168089", "PMC7654589", "PMID:37059509", "PMID:31498132", "PMID:32830221"]
 ---
 
 # 帕金森病 (Parkinson's Disease)
@@ -39,6 +39,12 @@ key_sources: ["PMID:21469956", "PMID:2479133", "PMID:2402638", "PMID:34124057", 
 - 姿势不稳（postural instability）：晚期表现
 
 **前驱期症状**（运动症状前5-20年）：嗅觉丧失、便秘、快速眼动睡眠行为障碍（RBD）——对应Braak I-II期（肠神经系统/嗅球受累阶段）
+
+**（2026-10-17更新）双亚型模型**：PD并非单一疾病，至少存在两种起始轨迹（Borghammer 2019，PMID:31498132；Horsager 2020，PMID:32830221）：
+- **身体优先型（Body-first PD）**：α-突触核蛋白从肠道/心脏/皮肤外周神经启动→沿迷走神经上行→延髓→脑桥（SLD受累→**iRBD**）→中脑黑质→运动症状。典型前驱：便秘→嗅觉减退→iRBD→PD运动诊断。α-突触核蛋白SAA阳性率在iRBD阶段即达**86%**（Siderowf 2023，PMID:37059509）。
+- **大脑优先型（Brain-first PD）**：α-突触核蛋白从大脑内部（杏仁核/嗅球/皮质）启动→向下扩散至脑干→黑质。iRBD出现晚或缺失；DaTSCAN（纹状体多巴胺转运体扫描）异常相对较早出现。
+
+临床意义：iRBD + SAA阳性 = 在运动症状出现前10-20年即可识别身体优先型PD临床前期，是疾病修饰治疗（α-突触核蛋白聚集抑制剂等）临床试验的最优入组窗口。
 
 ## 关键机制
 
@@ -88,6 +94,8 @@ key_sources: ["PMID:21469956", "PMID:2479133", "PMID:2402638", "PMID:34124057", 
 - [[ltp]] — 多巴胺耗竭改变基底节突触可塑性（dSPNs偏向LTD，iSPNs偏向LTP）
 - [[medium-spiny-neuron]] — iSPN（D2-MSN）是PD中选择性结构受损的细胞
 - [[striatal-direct-indirect-pathway]] — 直接/间接通路失衡是PD运动症状的核心回路机制
+- [[rem-sleep-behavior-disorder]] — iRBD是身体优先型PD脑桥受累的临床前信号；α-突触核蛋白SAA在iRBD阶段阳性率86%
+- [[sublaterodorsal-nucleus]] — SLD（脑桥）是α-突触核蛋白在体-脑传播路径中的关键早期受累节点（Braak I-II期），SLD受损→iRBD
 
 ## 未解问题
 
@@ -96,15 +104,19 @@ key_sources: ["PMID:21469956", "PMID:2479133", "PMID:2402638", "PMID:34124057", 
 - Q-pd-lewy-protective：路易小体是保护性隔离还是毒性机制？
 - Q-pd-snc-vulnerability：降低CaV1.3活性能否保护SNc神经元免于死亡？
 - Q-pd-dbs-theta-mechanism：DBS诱导θ耦合的具体回路机制（STN→GPe/GPi/皮层哪一路径主导？）
+- Q-pd-body-first-onset：肠道是否是所有"身体优先型"PD的必然起始点？心脏迷走神经或皮肤神经起始是否作为独立子类？
+- Q-pd-saa-windows：α-突触核蛋白SAA何时从阴性转为阳性（在iRBD症状出现之前还是之后）？是否能在便秘/嗅觉减退阶段即检测为阳性？
 
 ## 修订历史
 
 - 2026-06-14 · 创建 · 基于《多巴胺的沉默与节律的失控》一文 · 初始置信度：高
 - 2026-09-01 · 修订 rev2 · 基于《纹状体的决策细胞》一文（#131）· 修正：原文误将树突棘丧失归于dSPNs（D1-MSN），新证据（PMID:18267246）明确为iSPNs（D2-MSN）选择性受损30-50%；新增L-DOPA不可逆性说明；添加medium-spiny-neuron和striatal-direct-indirect-pathway连接
 - 2026-09-09 · 修订 rev3 · 基于《线粒体功能障碍：神经元高能耗的代价》（#139）· 补充：(1) PD 中 Complex I 缺陷的多来源证据（黑质死后脑研究 + MPTP/鱼藤酮毒理学模型）；(2) DA 神经元多重叠加脆弱性（CaV1.3 自主节律钙负荷 + 超长无髓轴突 + DA 代谢本底 ROS）；(3) PINK1/*PARK6* 和 Parkin/*PARK2* 基因突变与早发性 PD 的关系；(4) related 新增 mitochondrial-dysfunction 和 pink1-parkin-mitophagy；(5) key_sources 新增 5 个来源
+- 2026-10-17 · 修订 rev4 · 基于《梦中的麻痹》(#187) · 新增：(1) body-first vs brain-first PD双亚型模型（Borghammer 2019、Horsager 2020）；(2) iRBD作为身体优先型PD的脑桥受累临床前标志，10-20年前预测运动症状；(3) α-突触核蛋白SAA在iRBD阳性率86%（Siderowf 2023，PMID:37059509）；(4) 连接新增rem-sleep-behavior-disorder和sublaterodorsal-nucleus；(5) 未解问题新增Q-pd-body-first-onset和Q-pd-saa-windows
 
 ## 来源文章
 
 - [[2026-06-14-parkinson-basal-ganglia-circuit]]
 - [[2026-09-01-medium-spiny-neurons-striatum]]
 - [[2026-09-09-mitochondrial-dysfunction-neurodegeneration]]
+- [[2026-10-17-rem-sleep-atonia-rbd-parkinson]]

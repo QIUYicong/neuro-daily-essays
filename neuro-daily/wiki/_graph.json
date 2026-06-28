@@ -3065,6 +3065,33 @@
         "cognition",
         "developmental"
       ]
+    },
+    {
+      "id": "rem-muscle-atonia",
+      "title": "REM睡眠肌张力弛缓",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/rem-muscle-atonia.md"
+    },
+    {
+      "id": "sublaterodorsal-nucleus",
+      "title": "被盖下外侧核（SLD）",
+      "domain": "concepts",
+      "type": "brain-region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/sublaterodorsal-nucleus.md"
+    },
+    {
+      "id": "rem-sleep-behavior-disorder",
+      "title": "REM睡眠行为障碍（RBD）",
+      "domain": "diseases",
+      "type": "disorder",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/diseases/rem-sleep-behavior-disorder.md"
     }
   ],
   "edges": [
@@ -14431,6 +14458,72 @@
       "to": "complementary-learning-systems",
       "type": "related",
       "note": "CLS框架中婴儿期是快速可塑性模式极度活跃的特殊发育状态"
+    },
+    {
+      "from": "sublaterodorsal-nucleus",
+      "to": "rem-muscle-atonia",
+      "type": "mechanism-of",
+      "note": "SLD vGluT2+神经元是REM肌张力弛缓的第一级指令节点（Valencia Garcia 2017）"
+    },
+    {
+      "from": "rem-muscle-atonia",
+      "to": "rem-sleep",
+      "type": "part-of",
+      "note": "REM肌张力弛缓是REM睡眠三大定义特征之一"
+    },
+    {
+      "from": "rem-sleep",
+      "to": "rem-muscle-atonia",
+      "type": "has-mechanism",
+      "note": "SLD→VMM→脊髓三级主动抑制回路 + 单胺去易化"
+    },
+    {
+      "from": "sublaterodorsal-nucleus",
+      "to": "rem-sleep",
+      "type": "mechanism-of",
+      "note": "SLD是REM睡眠肌张力弛缓的上游指令中枢"
+    },
+    {
+      "from": "norepinephrine-locus-coeruleus",
+      "to": "rem-muscle-atonia",
+      "type": "supports",
+      "note": "LC在REM期沉默→NE去易化→协同增强甘氨酸/GABA抑制（单胺去易化机制）"
+    },
+    {
+      "from": "rem-sleep-behavior-disorder",
+      "to": "sublaterodorsal-nucleus",
+      "type": "caused-by",
+      "note": "α-突触核蛋白在SLD早期沉积→SLD功能障碍→REM肌张力弛缓失败→RBD"
+    },
+    {
+      "from": "rem-sleep-behavior-disorder",
+      "to": "parkinsons-disease",
+      "type": "prodrome-of",
+      "note": "iRBD是帕金森病（身体优先型）运动症状前10-20年的临床前标志；α-突触核蛋白SAA 86%阳性（Siderowf 2023）"
+    },
+    {
+      "from": "rem-sleep-behavior-disorder",
+      "to": "rem-muscle-atonia",
+      "type": "caused-by",
+      "note": "RBD的直接机制是REM肌张力弛缓回路失败（SLD受损）"
+    },
+    {
+      "from": "parkinsons-disease",
+      "to": "rem-sleep-behavior-disorder",
+      "type": "has-prodrome",
+      "note": "body-first PD亚型中，iRBD是脑桥SLD受累的临床前信号"
+    },
+    {
+      "from": "rem-sleep",
+      "to": "rem-sleep-behavior-disorder",
+      "type": "has-disorder",
+      "note": "RBD是REM睡眠肌张力弛缓失败的病理表现"
+    },
+    {
+      "from": "flip-flop-switch-sleep-wake",
+      "to": "sublaterodorsal-nucleus",
+      "type": "includes",
+      "note": "SLD是REM/NREM翻转开关系统的REM执行端之一"
     }
   ],
   "dangling_references": [
