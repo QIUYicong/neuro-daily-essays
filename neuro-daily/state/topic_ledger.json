@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-06-28",
-  "total_articles": 181,
+  "total_articles": 183,
   "entries": [
     {
       "date": "2026-10-05",
@@ -11270,6 +11270,66 @@
         "normalization-model——规范化计算皮层通用运算（高优先悬空引用；ACh精度加权机制深度连接）",
         "global-workspace-theory（深化）——意识框架子图核心节点（degree=28，medium confidence）",
         "synaptic-tagging-capture（深化）——与本篇ACh编码门控的完整回路整合"
+      ]
+    },
+    {
+      "date": "2026-06-28",
+      "title": "当绝缘层失守：多发性硬化如何以自身为代价揭示髓鞘对神经时序与认知的隐形贡献",
+      "filename": "2026-06-28-multiple-sclerosis-myelin-computation.md",
+      "article_number": 183,
+      "wiki_pages_created": [
+        "wiki/diseases/multiple-sclerosis.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/neurons/oligodendrocyte.md (rev1→rev2)",
+        "wiki/concepts/adaptive-myelination.md (rev1→rev2)"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "多发性硬化（MS）是中枢神经系统自身免疫性炎性脱髓鞘病——T/B 淋巴细胞攻击髓鞘和少突胶质细胞（OL），导致跳跃式传导失效、传导速度从 70-120 m/s 降至 <5 m/s、时序离散破坏 STDP ±20ms 窗口、OL-MCT1 乳酸通路中断导致轴突代谢解耦——MS 是理解髓鞘作为神经时序计算基础设施（非仅绝缘体）的最清晰天然实验；再髓鞘化被 LINGO-1/CSPGs/Nogo-A 等主动抑制；CRISPR-OPC 工程策略为突破慢性微环境提供概念验证（Wagstaff 2024）",
+      "open_questions_added": [
+        "Q-ms-remyelination-crispr-human（高优先级）：CRISPR 改造的 hES-OPC 能否在人类 MS 中安全应用？血脑屏障穿越、移植排斥、肿瘤风险如何解决？",
+        "Q-ms-ebv-mechanism（高优先级）：EBV 分子拟态（EBNA1 vs GlialCAM）是 MS 的充分触发原因还是仅为易感因素？抗病毒疗法（MK-1654）能否预防 MS？",
+        "Q-ms-btk-microglia-role（中优先级）：BTK 抑制剂（托伯鲁替尼）对进展型 MS 的疗效主要来自外周 B 细胞还是 CNS 小胶质细胞？CNS 穿透的 BTK 抑制剂能否真正延缓 SEL 进展？"
+      ],
+      "layer": [
+        "molecular",
+        "cellular",
+        "synaptic",
+        "brain-region",
+        "whole-brain-network",
+        "cognition",
+        "disease"
+      ],
+      "curriculum_track": "课程脊柱9（神经退行性与脱髓鞘疾病）+ 课程脊柱2（白质基础设施与髓鞘化）+ 课程脊柱4（学习与记忆：突触时序精度依赖髓鞘）",
+      "topic_tags": [
+        "multiple sclerosis MS demyelination remyelination CNS autoimmune inflammatory",
+        "oligodendrocyte OL myelin sheath myelin basic protein MBP PLP MOG antigen",
+        "T cell B cell CD4+ Th1 Th17 CD20+ B cell APC blood-brain barrier",
+        "ocrelizumab anti-CD20 RRMS PPMS phase III RCT Kappos 2016 NEJM",
+        "saltatory conduction conduction velocity safety factor Uhthoff phenomenon",
+        "STDP spike-timing-dependent plasticity temporal dispersion 20ms window Fields 2015",
+        "MCT1 lactate monocarboxylate transporter axon metabolic support Lee 2012 Nature",
+        "OPC LINGO-1 CSPGs Nogo-A remyelination failure chemorepellent chronic lesion",
+        "CRISPR hES-OPC Wagstaff 2024 Nat Commun gene editing cell therapy",
+        "EBV Epstein-Barr virus EBNA1 GlialCAM molecular mimicry Bjornevik 2022 Science",
+        "sNfL serum neurofilament light chain Z-score biomarker Benkert 2022 Lancet Neurol",
+        "slowly expanding lesion SEL microglial activation iron rim chronic progression",
+        "glymphatic system ALPS index white matter volume cognitive impairment Song 2026",
+        "BTK inhibitor tolebrutinib progressive MS microglia B cell CNS penetration",
+        "Lublin 2014 MS clinical type classification RRMS SPMS PPMS CIS active inactive"
+      ],
+      "main_sources": [
+        "PMID:29320652 (Reich DS et al., NEJM, 2018, comprehensive MS review, abstract only)",
+        "PMID:18931697 (Franklin RJM & ffrench-Constant C, Nat Rev Neurosci, 2008, remyelination biology, OPEN)",
+        "PMID:27248601 (Kappos L et al., NEJM, 2016, ocrelizumab III RCT RRMS+PPMS, abstract only)",
+        "PMID:22801498 / PMCID:PMC3387801 (Lee Y et al., Nature, 2012, MCT1 lactate axon support, OPEN)",
+        "PMID:26585800 / PMCID:PMC4740367 (Fields RD, Nat Rev Neurosci, 2015, myelin STDP timing, OPEN)",
+        "PMID:39384784 (Wagstaff LJ et al., Nat Commun, 2024, CRISPR-OPC remyelination, OPEN)",
+        "PMID:35182510 (Benkert P et al., Lancet Neurol, 2022, sNfL Z-score prognostication, abstract only)",
+        "PMID:24871874 (Lublin FD et al., Neurology, 2014, MS clinical type revision, OPEN)",
+        "PMID:41896770 (Song X et al., BMC Neurol, 2026, glymphatic+WM volume cognitive MS, OPEN)",
+        "PMID:35045247 (Bjornevik K et al., Science, 2022, EBV 32x MS risk, abstract only; PMID needs verification)"
       ]
     }
   ]

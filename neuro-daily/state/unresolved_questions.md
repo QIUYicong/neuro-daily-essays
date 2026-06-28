@@ -5135,3 +5135,23 @@
 **来源**：Zhang et al. 2021（PMID:33833054）；Hasselmo 2025（PMID:39721980）
 **背景**：现有人类证据主要来自颅内EEG（无ACh测量）或PET（空间分辨率差）。人类大脑的胆碱能-θ-SWR相互作用是否与啮齿类一致？AD早期胆碱能缺失是否直接导致SWR功能障碍？这是连接基础研究与临床应用的关键缺口。
 **状态**：open
+
+## 2026-06-28（#183）新增未解问题
+
+### Q-ms-remyelination-crispr-human（优先级：高）
+**问题**：CRISPR 改造的 hES-OPC（Wagstaff 2024）在小鼠慢性 MS 模型中已实现高效再髓鞘化，但能否在人类 MS 中安全应用？血脑屏障穿越策略、移植免疫排斥、hES 来源的潜在肿瘤风险，以及 CRISPR 脱靶效应如何系统评估和解决？
+**来源**：Wagstaff LJ et al. 2024（PMID:39384784，Nat Commun，OPEN）
+**背景**：CRISPR 改造赋予 OPC 抵抗 Nogo-A 等趋化排斥物的能力，克服了慢性 MS 病灶的关键迁移屏障，且不依赖宿主年龄。但从小鼠概念验证到人体临床应用，仍有：(1) 给药途径（鞘内注射 vs 直接病灶注射）；(2) 同种异体移植的免疫耐受方案；(3) 长期安全性追踪；(4) CRISPR 脱靶突变的致瘤风险评估；(5) 规模化 hES-OPC 生产与质控。
+**状态**：open
+
+### Q-ms-ebv-mechanism（优先级：高）
+**问题**：EBV 感染后 MS 风险增加 32 倍（Bjornevik et al. 2022，PMID:35045247），分子拟态（EBNA1 蛋白与 GlialCAM 交叉反应）是目前最强的病因假说——但这是 MS 的充分触发原因，还是只是必要易感因素之一？直接阻断 EBV 重激活的抗病毒疗法（如 MK-1654 EBV 靶向抗体，GSK 研发中）能否预防 MS？
+**来源**：Bjornevik K et al. 2022（Science，PMID:35045247 需验证）；Lanz AJ et al. 2022（Science，EBNA1-GlialCAM 交叉反应）
+**背景**：军事队列研究提供了最有力的前瞻性人群证据（n≈10 million，EBV 血清转化先于 MS 发病）。但 EBV 是全球约 95% 成人都感染的病毒，MS 发病率远低于感染率，说明 EBV 是必要非充分条件。EBNA1-GlialCAM 分子拟态是最具可操作性的机制假说，但其在不同基因背景人群中的普适性、与 HLA-DR15 等基因风险的协同关系仍需厘清。
+**状态**：open
+
+### Q-ms-btk-microglia-role（优先级：中）
+**问题**：BTK（布鲁顿酪氨酸激酶）抑制剂（托伯鲁替尼/evobrutinib/fenebrutinib）同时靶向外周 B 细胞（影响抗原呈递和抗体产生）和 CNS 小胶质细胞（BTK 在小胶质细胞活化中表达），对进展型 MS 的潜在疗效主要来自哪个靶点？CNS 穿透性的 BTK 抑制剂能否真正延缓缓慢扩展病变（SEL）的进展？
+**来源**：Reich DS et al. 2018（PMID:29320652）综述提及 BTK 小胶质细胞角色；Phase III 临床试验进行中（HERCULES/EVOLUTION RMS/GEMINI 系列）
+**背景**：传统 B 细胞靶向疗法（ocrelizumab/ofatumumab）作用于外周 B 细胞不能进入 CNS，无法直接针对 SEL 处的慢性小胶质细胞活化。具有 CNS 穿透性的 BTK 抑制剂理论上可同时抑制两个靶点。但 CNS-BTK 抑制对进展阶段的具体贡献、分离设计的临床试验方案，以及 BTK 抑制是否能真正改变 SEL 铁聚积和轴突丢失的自然病史，仍属开放问题。
+**状态**：open

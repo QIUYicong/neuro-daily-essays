@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-06-29",
-  "node_count": 332,
-  "edge_count": 1997,
+  "updated": "2026-06-28",
+  "node_count": 333,
+  "edge_count": 2006,
   "edge_types": [
     "is-a",
     "part-of",
@@ -3030,6 +3030,15 @@
       "status": "published",
       "confidence": "high",
       "page": "articles/2026-06-29-acetylcholine-hippocampal-memory-gate.md"
+    },
+    {
+      "id": "multiple-sclerosis",
+      "title": "多发性硬化",
+      "domain": "diseases",
+      "type": "disease",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/diseases/multiple-sclerosis.md"
     }
   ],
   "edges": [
@@ -13408,7 +13417,7 @@
     },
     {
       "from": "adaptive-myelination",
-      "to": "spike-timing-dependent-plasticity",
+      "to": "stdp",
       "type": "prerequisite-for"
     },
     {
@@ -14238,6 +14247,60 @@
       "target": "memory-consolidation",
       "type": "discusses",
       "label": "ACh 浓度作为编码/固化状态切换的门控信号"
+    },
+    {
+      "from": "multiple-sclerosis",
+      "to": "oligodendrocyte",
+      "type": "disrupts",
+      "note": "T/B 细胞自身免疫攻击少突胶质细胞是 MS 的核心病理"
+    },
+    {
+      "from": "multiple-sclerosis",
+      "to": "adaptive-myelination",
+      "type": "disrupts",
+      "note": "脱髓鞘破坏髓鞘时序基础设施，是适应性髓鞘化功能的疾病反证"
+    },
+    {
+      "from": "multiple-sclerosis",
+      "to": "stdp",
+      "type": "indirectly-disrupts",
+      "note": "脱髓鞘传导时序离散破坏 STDP ±20ms 窗口"
+    },
+    {
+      "from": "multiple-sclerosis",
+      "to": "saltatory-conduction",
+      "type": "disrupts",
+      "note": "脱髓鞘直接使跳跃式传导失效，传导速度从 70-120 m/s 降至 <5 m/s"
+    },
+    {
+      "from": "multiple-sclerosis",
+      "to": "neuroinflammation",
+      "type": "mechanism-of",
+      "note": "T/B 淋巴细胞浸润和小胶质细胞慢性活化是 MS 双期病理的驱动机制"
+    },
+    {
+      "from": "multiple-sclerosis",
+      "to": "oligodendrocyte-precursor-cell",
+      "type": "related",
+      "note": "OPC 是再髓鞘化的执行者；MS 中分化受阻是慢性病变的核心问题"
+    },
+    {
+      "from": "multiple-sclerosis",
+      "to": "action-potential",
+      "type": "impairs",
+      "note": "脱髓鞘降低安全系数（5-7 → <1）导致传导阻断和异位放电"
+    },
+    {
+      "from": "glymphatic-system",
+      "to": "multiple-sclerosis",
+      "type": "associated-with",
+      "note": "胶淋巴功能（ALPS 指数）独立预测 RRMS 认知损害（Song 2026）"
+    },
+    {
+      "from": "oligodendrocyte-precursor-cell",
+      "to": "multiple-sclerosis",
+      "type": "target-of-repair",
+      "note": "CRISPR 改造的 hES-OPC 是绕过慢性微环境抑制的新兴修复策略（Wagstaff 2024）"
     }
   ],
   "dangling_references": [

@@ -2020,3 +2020,23 @@
 **图谱**：332节点/1997边（+2节点：septohippocampal-cholinergic/文章节点；+13边）
 
 **层级**：molecular × synaptic × microcircuit × brain-region × cognition（连接上周分子层 KIBRA-PKMζ 与更早期的系统层 theta/SWR，形成从分子到系统的完整胆碱能机制链）
+
+---
+
+## 2026-06-28（#183）日摘要
+
+**主题**：多发性硬化——当绝缘层失守，髓鞘时序计算的疾病验证
+
+**核心发现**：MS 是研究髓鞘作为神经时序计算基础设施最清晰的天然实验。脱髓鞘导致的五大计算后果：(1) 跳跃式传导失效 → 传导速度从 70-120 m/s 降至 <5 m/s；(2) 不同轴突脱髓鞘程度不同 → 时序离散（temporal dispersion）；(3) 安全系数从 5-7 降至 <1 → 传导阻断（Uhthoff 现象：温度升高即恶化）；(4) Na⁺ 通道在脱髓鞘节段弥散 → 异位放电（Lhermitte 征）；(5) 传导延迟增大 → 两路输入错失 ±20ms STDP 窗口 → 学习障碍。OL-MCT1 乳酸通路中断（Lee 2012，PMID:22801498）提供轴突退化的代谢解耦机制，独立于绝缘功能缺失。EBV 血清转化后 32 倍 MS 风险增加（Bjornevik 2022）是目前最强因果性病因证据。CRISPR 改造的 hES-OPC（Wagstaff 2024，PMID:39384784）首次证明基因工程策略可绕过 LINGO-1/CSPGs 等慢性微环境抑制实现再髓鞘化。
+
+**关键分层**：分子层（MCT1-乳酸轴/EBV-EBNA1-GlialCAM/CRISPR 基因编辑）→ 细胞层（OL 攻击/OPC 分化阻断/M1 小胶质慢性活化）→ 突触层（STDP ±20ms 时序窗失配）→ 脑区层（VEP P100 潜伏期延长/Uhthoff）→ 全脑网络层（SEL 慢性进展/脑萎缩）→ 认知层（处理速度最早受损=最强计算时序假说证据）→ 疾病层（RRMS/SPMS/PPMS/CIS 临床分型；ocrelizumab B 细胞靶向里程碑）。
+
+**知识地图贡献**：
+- 新建 multiple-sclerosis 专页（diseases/disease/established/high）；填补 adaptive-myelination.md 的 [[multiple-sclerosis]] 悬空引用
+- adaptive-myelination.md (rev2)：修正 spike-timing-dependent-plasticity → stdp（图谱边 + frontmatter）；补充 Fields 2015 髓鞘-STDP 时序证据
+- oligodendrocyte.md (rev2)：关联 MCT1 在 MS 轴突退化中的机制；source_articles 补充 #183
+- 新增未解问题 Q-ms-remyelination-crispr-human（高）/ Q-ms-ebv-mechanism（高）/ Q-ms-btk-microglia-role（中）
+
+**图谱**：333节点/2006边（+1节点：multiple-sclerosis；修正1悬空边：adaptive-myelination→stdp；+9新边；updated 2026-06-28）
+
+**层级**：molecular × cellular × synaptic × brain-region × whole-brain-network × cognition × disease（课程脊柱9白质基础设施与脱髓鞘疾病的首篇专题；与 #165 少突胶质细胞/adaptive-myelination 形成互补的"正常机制 vs 疾病破坏"对）

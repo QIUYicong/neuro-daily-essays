@@ -6,13 +6,13 @@ type: entity
 status: established
 confidence: high
 created: 2026-10-05
-updated: 2026-10-05
-revision_count: 1
+updated: 2026-06-28
+revision_count: 2
 dimensions: [molecular, cellular, synaptic, brain-region, whole-brain-network]
 related: [oligodendrocyte-precursor-cell, adaptive-myelination, saltatory-conduction, myelin-basic-protein, microglia, astrocyte, multiple-sclerosis, axon-initial-segment]
 prerequisites: [action-potential, axon-initial-segment, synaptic-transmission]
 opens_questions: [Q-ol-sleep-myelination, Q-ol-opc-selectivity, Q-ol-aging]
-source_articles: [2026-10-05-oligodendrocyte-adaptive-myelination]
+source_articles: [2026-10-05-oligodendrocyte-adaptive-myelination, 2026-06-28-multiple-sclerosis-myelin-computation]
 key_sources: ["PMID:40761314", "PMID:25324381", "PMID:22801498", "PMID:10821275", "PMID:37838794"]
 ---
 
@@ -80,7 +80,9 @@ key_sources: ["PMID:40761314", "PMID:25324381", "PMID:22801498", "PMID:10821275"
 ## 修订历史
 
 - 2026-10-05 · 创建 · 基于《髓鞘的秘密：当少突胶质细胞感知神经冲动，开始重写脑的线路图》(#165) · 初始置信度：高
+- 2026-06-28 · 修订 rev2 · 基于《当绝缘层失守：多发性硬化如何揭示髓鞘对神经时序与认知的隐形贡献》(#183) · 补充 MCT1-乳酸通路中断在 MS 轴突退化中的机制角色；关联 multiple-sclerosis 疾病条目
 
 ## 来源文章
 
 - [[2026-10-05-oligodendrocyte-adaptive-myelination]]
+- [[2026-06-28-multiple-sclerosis-myelin-computation]]

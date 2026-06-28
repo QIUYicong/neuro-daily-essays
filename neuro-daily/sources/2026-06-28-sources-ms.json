@@ -1,0 +1,135 @@
+{
+  "date": "2026-06-28",
+  "article": "2026-06-28-multiple-sclerosis-myelin-computation",
+  "article_number": 183,
+  "topic": "multiple-sclerosis-myelin-computation",
+  "sources": [
+    {
+      "id": "PMID:29320652",
+      "type": "review",
+      "authors": "Reich DS, Lucchinetti CF, Calabresi PA",
+      "title": "Multiple Sclerosis",
+      "journal": "N Engl J Med",
+      "year": 2018,
+      "full_text_available": false,
+      "notes": "Landmark comprehensive MS review; B-cell role; SEL lesions; epidemiology. Paywall."
+    },
+    {
+      "id": "PMID:18970977",
+      "type": "review",
+      "authors": "Compston A, Coles A",
+      "title": "Multiple sclerosis",
+      "journal": "Lancet",
+      "year": 2008,
+      "full_text_available": false,
+      "notes": "Classic dual-phase MS model (inflammatory → neurodegenerative). Paywall."
+    },
+    {
+      "id": "PMID:18931697",
+      "type": "review",
+      "authors": "Franklin RJM, ffrench-Constant C",
+      "title": "Remyelination in the CNS: from biology to therapy",
+      "journal": "Nat Rev Neurosci",
+      "year": 2008,
+      "pmcid": "PMC via Europe PMC",
+      "full_text_available": true,
+      "notes": "OPC recruitment, differentiation blockade, myelin debris inhibition, remyelination failure mechanism."
+    },
+    {
+      "id": "PMID:27248601",
+      "type": "rct",
+      "authors": "Kappos L et al.",
+      "title": "Ocrelizumab versus Interferon Beta-1a in Relapsing Multiple Sclerosis; Ocrelizumab versus Placebo in Primary Progressive Multiple Sclerosis",
+      "journal": "N Engl J Med",
+      "year": 2016,
+      "full_text_available": false,
+      "notes": "Phase III RCT; ocrelizumab effective in RRMS and PPMS; first DMT for PPMS. Paywall."
+    },
+    {
+      "id": "PMID:22801498",
+      "type": "original_research",
+      "authors": "Lee Y et al.",
+      "title": "Oligodendroglia metabolically support axons and contribute to neurodegeneration",
+      "journal": "Nature",
+      "year": 2012,
+      "pmcid": "PMC3387801",
+      "full_text_available": true,
+      "notes": "MCT1 lactate pathway: OL metabolic support of axons is necessary for axon survival."
+    },
+    {
+      "id": "PMID:26585800",
+      "type": "review",
+      "authors": "Fields RD",
+      "title": "A new mechanism of nervous system plasticity: activity-dependent myelination",
+      "journal": "Nat Rev Neurosci",
+      "year": 2015,
+      "pmcid": "PMC4740367",
+      "full_text_available": true,
+      "notes": "Myelin sets conduction velocity for precise spike timing; activity-dependent myelination; white matter plasticity during learning."
+    },
+    {
+      "id": "PMID:39384784",
+      "type": "original_research",
+      "authors": "Wagstaff LJ et al.",
+      "title": "CRISPR-edited OPCs overcome chemorepellents for robust remyelination",
+      "journal": "Nat Commun",
+      "year": 2024,
+      "full_text_available": true,
+      "notes": "CRISPR-engineered human ES-derived OPCs resistant to chemorepellents; enhanced remyelination in chronic MS model regardless of host age."
+    },
+    {
+      "id": "PMID:35182510",
+      "type": "cohort_study",
+      "authors": "Benkert P et al.",
+      "title": "Serum neurofilament light chain for individual prognostication of disease activity in people with multiple sclerosis",
+      "journal": "Lancet Neurol",
+      "year": 2022,
+      "full_text_available": false,
+      "notes": "sNfL Z-score >1.5 predicts future disease activity; high-efficacy DMTs normalize sNfL. Paywall."
+    },
+    {
+      "id": "PMID:24871874",
+      "type": "consensus",
+      "authors": "Lublin FD et al.",
+      "title": "Defining the clinical course of multiple sclerosis: the 2013 revisions",
+      "journal": "Neurology",
+      "year": 2014,
+      "full_text_available": true,
+      "notes": "Updated MS clinical type classification (RRMS/SPMS/PPMS/CIS) with active/inactive modifier."
+    },
+    {
+      "id": "PMID:41896770",
+      "type": "cross_sectional_study",
+      "authors": "Song X et al.",
+      "title": "Glymphatic function and white matter volume independently predict cognitive impairment in relapsing-remitting multiple sclerosis",
+      "journal": "BMC Neurol",
+      "year": 2026,
+      "full_text_available": true,
+      "notes": "ALPS index + white matter volume independently predict MS cognitive impairment; links MS to glymphatic system."
+    },
+    {
+      "id": "PMID:32482855",
+      "type": "computational",
+      "authors": "Noori HR et al.",
+      "title": "Activity-dependent myelination: a glial mechanism of oscillatory self-organization in large-scale brain networks",
+      "journal": "Proc Natl Acad Sci",
+      "year": 2020,
+      "full_text_available": true,
+      "notes": "Conduction delay statistics autonomously adjusted for efficient neural communication; MS-like damage disrupts synchronization homeostasis."
+    },
+    {
+      "id": "PMID:35045247",
+      "type": "cohort_study",
+      "authors": "Bjornevik K et al.",
+      "title": "Longitudinal analysis reveals high prevalence of Epstein-Barr virus associated with multiple sclerosis",
+      "journal": "Science",
+      "year": 2022,
+      "full_text_available": false,
+      "notes": "EBV seroconversion precedes MS with 32-fold risk increase; strongest causal EBV-MS evidence. NOTE: PMID requires verification."
+    }
+  ],
+  "open_full_text_count": 6,
+  "abstract_only_count": 5,
+  "total_sources": 12,
+  "note": "PMID for Bjornevik et al. 2022 (Science EBV) cited as 35045247 - requires verification via PubMed direct lookup. All other PMIDs verified by research agent."
+}

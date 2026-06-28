@@ -4,6 +4,45 @@
 
 ---
 
+## 2026-06-28（#183）：多发性硬化——当绝缘层失守，髓鞘时序计算的疾病验证
+
+**文章**：《当绝缘层失守：多发性硬化如何以自身为代价揭示髓鞘对神经时序与认知的隐形贡献》（#183）
+
+**类型**：疾病深度报道；CNS 自身免疫性脱髓鞘病；从疾病视角证明髓鞘是神经时序计算基础设施；层级：molecular × cellular × synaptic × brain-region × whole-brain-network × cognition × disease
+
+**新创建页面（1）**：
+- `wiki/diseases/multiple-sclerosis.md`（rev1）：多发性硬化综合概念页；双相模型（炎症期 RRMS + 神经退行性变期 SPMS/PPMS）；免疫病理级联（EBV 分子拟态 → T/B 细胞 → BBB 破坏 → OL 攻击）；脱髓鞘的五大计算后果表（传导延迟/时序离散/传导阻断/异位放电/STDP 窗口失配）；轴突退化双重机制（MCT1 代谢解耦 + NMDA 兴奋毒性）；再髓鞘化失败因子表（LINGO-1/CSPGs/Nogo-A/M1 小胶质细胞/髓鞘碎片）；临床分型（RRMS/SPMS/PPMS/CIS）；8条关键证据；8个wiki连接；3个未解问题（Q-ms-remyelination-crispr-human/Q-ms-ebv-mechanism/Q-ms-btk-microglia-role）；8个关键来源（6 open access）
+
+**修订页面（2）**：
+- `wiki/neurons/oligodendrocyte.md`（rev1→rev2）：source_articles 新增 #183；关联 MCT1 乳酸通路中断在 MS 轴突退化中的机制角色；updated → 2026-06-28
+- `wiki/concepts/adaptive-myelination.md`（rev1→rev2）：related/prerequisites 中 spike-timing-dependent-plasticity 修正为 stdp；key_sources 新增 PMID:26585800（Fields 2015 myelin-STDP 时序）；证据表新增 Fields 2015 行；连接段落 [[spike-timing-dependent-plasticity]] 改为 [[stdp]]；multiple-sclerosis 连接说明更新；source_articles 新增 #183；updated → 2026-06-28
+
+**图谱变更**：
+- 新增节点（1）：multiple-sclerosis（diseases/disease/established/high）
+- 修正悬空引用（1）：adaptive-myelination → spike-timing-dependent-plasticity 改为 → stdp
+- 新增边（9条）：multiple-sclerosis→oligodendrocyte（disrupts）、→adaptive-myelination（disrupts）、→stdp（indirectly-disrupts）、→saltatory-conduction（disrupts）、→neuroinflammation（mechanism-of）、→oligodendrocyte-precursor-cell（related）、→action-potential（impairs）；glymphatic-system→multiple-sclerosis（associated-with）；oligodendrocyte-precursor-cell→multiple-sclerosis（target-of-repair）
+- 更新：_graph.json → 333节点 / 2006边（+1节点/修正1边/+9边），updated → 2026-06-28
+
+**填补悬空引用**：multiple-sclerosis（由 adaptive-myelination.md 的 related/connections 以及今日新建页面填补）；spike-timing-dependent-plasticity → 修正为 stdp（adaptive-myelination 的图谱边和 frontmatter）
+
+**未解问题新增**：Q-ms-remyelination-crispr-human（高，CRISPR-OPC 人体安全应用路径）、Q-ms-ebv-mechanism（高，EBV 分子拟态是否充分触发机制）、Q-ms-btk-microglia-role（中，BTK 抑制剂外周 B 细胞 vs CNS 小胶质细胞靶点分离）
+
+**来源**（12条，6篇开放获取）：
+- PMID:29320652（Reich DS et al., NEJM, 2018）— 综述；仅摘要
+- PMID:18970977（Compston A & Coles A, Lancet, 2008）— 综述；仅摘要
+- PMID:18931697（Franklin RJM & ffrench-Constant C, Nat Rev Neurosci, 2008）— 综述；开放全文
+- PMID:27248601（Kappos L et al., NEJM, 2016）— III期 RCT；仅摘要
+- PMID:22801498（Lee Y et al., Nature, 2012）— 原始研究；开放全文（PMC:3387801）
+- PMID:26585800（Fields RD, Nat Rev Neurosci, 2015）— 综述；开放全文（PMC:4740367）
+- PMID:39384784（Wagstaff LJ et al., Nat Commun, 2024）— 原始研究；开放全文
+- PMID:35182510（Benkert P et al., Lancet Neurol, 2022）— 队列研究；仅摘要
+- PMID:24871874（Lublin FD et al., Neurology, 2014）— 专家共识；开放全文
+- PMID:41896770（Song X et al., BMC Neurol, 2026）— 横截面研究；开放全文
+- PMID:32482855（Noori HR et al., PNAS, 2020）— 计算建模；开放全文
+- PMID:35045247（Bjornevik K et al., Science, 2022）— 前瞻性队列（PMID 需验证）；仅摘要
+
+---
+
 ## 2026-06-29（#182）：乙酰胆碱的双重使命——海马如何精确切换编码与提取模式
 
 **文章**：《乙酰胆碱的双重使命：海马如何用一个分子信使在记忆编码与提取之间精确切换》（#182）

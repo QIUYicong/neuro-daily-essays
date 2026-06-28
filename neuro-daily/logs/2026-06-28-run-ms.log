@@ -1,0 +1,93 @@
+# 运行日志 · 2026-06-28 · 多发性硬化（#183）
+
+## 任务摘要
+
+- **文章编号**：#183
+- **文章标题**：当绝缘层失守：多发性硬化如何以自身为代价揭示髓鞘对神经时序与认知的隐形贡献
+- **主题**：Multiple Sclerosis（多发性硬化）
+- **文章文件**：`neuro-daily/articles/2026-06-28-multiple-sclerosis-myelin-computation.md`
+- **运行时间**：2026-06-28（北京时间 09:00 定时触发）
+
+## 步骤执行记录
+
+### A - 读取状态
+- 读取 ROUTINE.md 和 KNOWLEDGE-BASE-DESIGN.md（已完成）
+- 检查 _graph.json 状态：332 节点 / 1997 边
+- 发现悬空引用：multiple-sclerosis（来自 adaptive-myelination 关联）
+- 确认当前分支为 main
+
+### B - 选题
+- **选题依据**：填补图谱悬空引用 `multiple-sclerosis`（adaptive-myelination.md 的 related 字段）
+- **选题理由**：疾病层章节（course spine 9）；与已有 oligodendrocyte/adaptive-myelination/stdp 页形成病理-机制对；丰富开放获取文献；Fields 2015 连接 MS 与神经时序计算的强证据
+
+### C - 研究与写作
+- 查询 NCBI eUtils API 验证 PMID（修正了 Reich/Compston/Franklin 的早期错误 PMID）
+- 读取 6 篇开放全文：Franklin 2008, Lee 2012, Fields 2015, Wagstaff 2024, Lublin 2014, Song 2026
+- 摘要级读取 5 篇：Reich 2018, Compston 2008, Kappos 2016, Benkert 2022, Bjornevik 2022
+- 生成文章 ~5500 字，涵盖免疫病理/计算后果/轴突退化/再髓鞘化/临床分型/认知层/计算神经科学意义
+- 生成研究笔记：`neuro-daily/notes/2026-06-28-reading-notes-ms.md`
+- 生成来源 JSON：`neuro-daily/sources/2026-06-28-sources-ms.json`（12 条来源）
+
+### D - Wiki 固结
+- **新建**：`wiki/diseases/multiple-sclerosis.md`（rev1）
+  - 免疫病理级联 ASCII 流程图
+  - 脱髓鞘计算后果表（5行）
+  - 轴突退化双重机制
+  - 再髓鞘化失败因子表（5行）
+  - 临床分型表（4类）
+  - 关键证据表（8行）
+  - 8个wiki连接（含关系类型）
+  - 3个未解问题
+- **修订**：`wiki/neurons/oligodendrocyte.md`（rev1→rev2）
+  - source_articles 新增 #183；revision_count 1→2；updated 2026-10-05→2026-06-28
+- **修订**：`wiki/concepts/adaptive-myelination.md`（rev1→rev2）
+  - 修正 spike-timing-dependent-plasticity → stdp（related/prerequisites/connections）
+  - 新增 Fields 2015（PMID:26585800）到 key_sources 和证据表
+  - source_articles 新增 #183；revision_count 1→2；updated 2026-10-05→2026-06-28
+
+### E - 图谱与导航
+- **_graph.json**：
+  - 修正悬空边：adaptive-myelination → spike-timing-dependent-plasticity → stdp（1条）
+  - 新增节点：multiple-sclerosis（diseases/disease/established/high）
+  - 新增9条边（disrupts/indirectly-disrupts/mechanism-of/related/impairs/associated-with/target-of-repair）
+  - 更新：332→333节点 / 1997→2006边
+- **wiki/index.md**：diseases 章节新增 multiple-sclerosis 条目；头部统计更新（324→325页，333节点/2006边）
+- **wiki/CHANGELOG.md**：新增 #183 完整变更记录
+
+### F - 治理层
+- **topic_ledger.json**：新增 #183 条目；total_articles 181→183；last_updated 2026-06-28
+- **unresolved_questions.md**：新增 2026-06-28（#183）章节，3个未解问题
+- **source_registry.json**：新增 sources_2026-06-28-ms（12条来源）；total_sources 643→655
+- **monthly_synthesis.md**：新增 2026-06-28（#183）日摘要
+
+### G - 提交与推送
+- 待完成（即将执行）
+
+## 来源质量
+
+| PMID | 类型 | 验证状态 | 全文 |
+|------|------|---------|------|
+| 29320652 | NEJM 综述 | 已验证 | 仅摘要 |
+| 18970977 | Lancet 综述 | 已验证 | 仅摘要 |
+| 18931697 | Nat Rev Neurosci | 已验证 | 开放全文 |
+| 27248601 | NEJM III期 RCT | 已验证 | 仅摘要 |
+| 22801498 | Nature 原始研究 | 已验证（PMC:3387801）| 开放全文 |
+| 26585800 | Nat Rev Neurosci | 已验证（PMC:4740367）| 开放全文 |
+| 39384784 | Nat Commun | 已验证 | 开放全文 |
+| 35182510 | Lancet Neurol 队列 | 已验证 | 仅摘要 |
+| 24871874 | Neurology 共识 | 已验证 | 开放全文 |
+| 41896770 | BMC Neurol 横截面 | 已验证 | 开放全文 |
+| 32482855 | PNAS 计算 | 已验证 | 开放全文 |
+| 35045247 | Science 队列 | **待验证**（背景知识，PMID 可能不准确）| 仅摘要 |
+
+## 已知问题
+
+1. Bjornevik 2022（PMID:35045247）PMID 未经 eUtils 直接核实，标注"需验证"
+2. topic_ledger total_articles 字段在本次之前错误显示为 181（实际已有 182 篇），已修正为 183
+
+## 新增图谱节点统计
+
+- 新节点：multiple-sclerosis（第333个节点）
+- 悬空引用修复：1条（spike-timing-dependent-plasticity → stdp）
+- 新增边：9条
+- 修复边：1条（计入总边数 2006）

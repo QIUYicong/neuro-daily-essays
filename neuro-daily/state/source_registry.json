@@ -11221,7 +11221,7 @@
       "article": "2026-06-27-rem-sleep-il-cortex-fear-extinction-memory"
     }
   ],
-  "total_sources": 643,
+  "total_sources": 655,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",
@@ -16306,5 +16306,122 @@
       "PMC9972575"
     ],
     "notes": "6/7 open full text; PMID:9034856 (Hasselmo 1996 Hippocampus) abstract-only"
+  },
+  "sources_2026-06-28-ms": {
+    "article": "#183 多发性硬化 (2026-06-28)",
+    "sources": [
+      {
+        "id": "PMID:29320652",
+        "type": "review",
+        "authors": "Reich DS, Lucchinetti CF, Calabresi PA",
+        "title": "Multiple Sclerosis",
+        "journal": "N Engl J Med",
+        "year": 2018,
+        "full_text": false
+      },
+      {
+        "id": "PMID:18970977",
+        "type": "review",
+        "authors": "Compston A, Coles A",
+        "title": "Multiple sclerosis",
+        "journal": "Lancet",
+        "year": 2008,
+        "full_text": false
+      },
+      {
+        "id": "PMID:18931697",
+        "type": "review",
+        "authors": "Franklin RJM, ffrench-Constant C",
+        "title": "Remyelination in the CNS: from biology to therapy",
+        "journal": "Nat Rev Neurosci",
+        "year": 2008,
+        "full_text": true,
+        "pmcid": "Europe PMC"
+      },
+      {
+        "id": "PMID:27248601",
+        "type": "rct",
+        "authors": "Kappos L et al.",
+        "title": "Ocrelizumab versus Interferon Beta-1a in Relapsing Multiple Sclerosis; Ocrelizumab versus Placebo in PPMS",
+        "journal": "N Engl J Med",
+        "year": 2016,
+        "full_text": false
+      },
+      {
+        "id": "PMID:22801498",
+        "type": "original_research",
+        "authors": "Lee Y et al.",
+        "title": "Oligodendroglia metabolically support axons and contribute to neurodegeneration",
+        "journal": "Nature",
+        "year": 2012,
+        "full_text": true,
+        "pmcid": "PMC3387801"
+      },
+      {
+        "id": "PMID:26585800",
+        "type": "review",
+        "authors": "Fields RD",
+        "title": "A new mechanism of nervous system plasticity: activity-dependent myelination",
+        "journal": "Nat Rev Neurosci",
+        "year": 2015,
+        "full_text": true,
+        "pmcid": "PMC4740367"
+      },
+      {
+        "id": "PMID:39384784",
+        "type": "original_research",
+        "authors": "Wagstaff LJ et al.",
+        "title": "CRISPR-edited OPCs overcome chemorepellents for robust remyelination",
+        "journal": "Nat Commun",
+        "year": 2024,
+        "full_text": true
+      },
+      {
+        "id": "PMID:35182510",
+        "type": "cohort_study",
+        "authors": "Benkert P et al.",
+        "title": "Serum neurofilament light chain for individual prognostication of disease activity in people with multiple sclerosis",
+        "journal": "Lancet Neurol",
+        "year": 2022,
+        "full_text": false
+      },
+      {
+        "id": "PMID:24871874",
+        "type": "consensus",
+        "authors": "Lublin FD et al.",
+        "title": "Defining the clinical course of multiple sclerosis: the 2013 revisions",
+        "journal": "Neurology",
+        "year": 2014,
+        "full_text": true
+      },
+      {
+        "id": "PMID:41896770",
+        "type": "cross_sectional",
+        "authors": "Song X et al.",
+        "title": "Glymphatic function and white matter volume independently predict cognitive impairment in RRMS",
+        "journal": "BMC Neurol",
+        "year": 2026,
+        "full_text": true
+      },
+      {
+        "id": "PMID:32482855",
+        "type": "computational",
+        "authors": "Noori HR et al.",
+        "title": "Activity-dependent myelination: a glial mechanism of oscillatory self-organization",
+        "journal": "PNAS",
+        "year": 2020,
+        "full_text": true
+      },
+      {
+        "id": "PMID:35045247",
+        "type": "cohort_study",
+        "authors": "Bjornevik K et al.",
+        "title": "Longitudinal analysis reveals high prevalence of Epstein-Barr virus associated with multiple sclerosis",
+        "journal": "Science",
+        "year": 2022,
+        "full_text": false,
+        "note": "PMID requires verification"
+      }
+    ]
   }
 }
