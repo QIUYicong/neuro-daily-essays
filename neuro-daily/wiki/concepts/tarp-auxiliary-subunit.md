@@ -7,9 +7,9 @@ status: established
 confidence: high
 created: 2026-06-28
 updated: 2026-06-28
-revision_count: 1
+revision_count: 2
 dimensions: [molecular, synaptic, cellular]
-related: [ampa-receptor, ltp, camkii, nmda-receptor, synaptic-transmission, kibra, pkm-zeta, synaptic-tagging-capture, arc-arg31, hebbian-learning]
+related: [ampa-receptor, ltp, camkii, nmda-receptor, synaptic-transmission, kibra, pkm-zeta, synaptic-tagging-capture, arc-arg31, hebbian-learning, psd-95-scaffold]
 prerequisites: [ampa-receptor, synaptic-transmission, camkii]
 opens_questions: [Q-tarp-01, Q-tarp-02, Q-tarp-03, Q-tarp-04]
 source_articles: [2026-06-28-tarp-ampa-receptor-synaptic-trafficking]
@@ -162,7 +162,9 @@ He et al. 2024（PMID:39380368；PMC11709088）通过因果证明揭示了认知
 ## 修订历史
 
 - 2026-06-28 · 创建 rev1 · 基于《AMPA 受体的突触之旅：TARP 辅助亚基如何引导受体驻扎、改造门控并参与 LTP》（#184） · 初始置信度：高（Chen 2000/Schnell 2002 经典遗传学 + Ravi 2022/Park 2023 因果充分性证明 + He 2024 三重因果链）
+- 2026-06-28 · rev2 · 基于《PSD-95：突触权重的分子计数器》（#185）· 新增 [[psd-95-scaffold]] 连接（PSD-95 是 TARP PDZ 配体的结合方，提供槽位）
 
 ## 来源文章
 
 - [[2026-06-28-tarp-ampa-receptor-synaptic-trafficking]]
+- [[2026-06-28-psd-95-scaffold-synaptic-slot]]

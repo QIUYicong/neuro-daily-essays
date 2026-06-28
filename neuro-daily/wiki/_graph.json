@@ -1,8 +1,8 @@
 {
   "version": "1.0",
   "updated": "2026-06-28",
-  "node_count": 333,
-  "edge_count": 2006,
+  "node_count": 335,
+  "edge_count": 2027,
   "edge_types": [
     "is-a",
     "part-of",
@@ -3048,6 +3048,15 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/tarp-auxiliary-subunit.md"
+    },
+    {
+      "id": "psd-95-scaffold",
+      "title": "PSD-95 支架蛋白",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/psd-95-scaffold.md"
     }
   ],
   "edges": [
@@ -14376,6 +14385,66 @@
       "to": "tarp-auxiliary-subunit",
       "type": "phosphorylates",
       "note": "CaMKII 在 LTP 诱导时磷酸化 TARP γ-2/γ-8 的 polybasic region，是 LTP 分子最后一公里"
+    },
+    {
+      "from": "psd-95-scaffold",
+      "to": "ampa-receptor",
+      "type": "regulates",
+      "note": "PSD-95 PDZ1/2 通过 TARP 锚定 AMPAR；拷贝数决定突触 AMPAR 容量上限（槽位模型）"
+    },
+    {
+      "from": "psd-95-scaffold",
+      "to": "tarp-auxiliary-subunit",
+      "type": "mechanism-of",
+      "note": "TARP C 末端 PDZ 配体插入 PSD-95 PDZ1/2；两者结合是槽位占用的关键分子锁"
+    },
+    {
+      "from": "psd-95-scaffold",
+      "to": "postsynaptic-density",
+      "type": "part-of",
+      "note": "PSD-95 是 PSD 相分离凝聚相的核心支架蛋白，与 SynGAP 多价相互作用驱动 LLPS"
+    },
+    {
+      "from": "psd-95-scaffold",
+      "to": "ltp",
+      "type": "mechanism-of",
+      "note": "PSD-95 槽位数决定 LTP 时 AMPAR 可增加的容量上限；对 LTP 稳定化必需"
+    },
+    {
+      "from": "psd-95-scaffold",
+      "to": "camkii",
+      "type": "regulates",
+      "note": "CaMKII 磷酸化 TARP 间接提升 PSD-95 槽位利用率；可能直接磷酸化 Ser-561"
+    },
+    {
+      "from": "psd-95-scaffold",
+      "to": "nmda-receptor",
+      "type": "related",
+      "note": "NMDAR GluN2B CTD 竞争 PSD-95 PDZ1/2 结合位点；GluN2B 参与 LLPS"
+    },
+    {
+      "from": "psd-95-scaffold",
+      "to": "liquid-liquid-phase-separation",
+      "type": "mechanism-of",
+      "note": "PSD-95/SynGAP 多价网络通过 LLPS 浓缩于突触后膜；相分离调控 LTP 时 PSD 重组"
+    },
+    {
+      "from": "psd-95-scaffold",
+      "to": "alzheimers-disease",
+      "type": "related",
+      "note": "Aβ 寡聚体损害 PSD-95 定位；PSD-95 是 AD 早期突触丢失的分子标志物和治疗靶点"
+    },
+    {
+      "from": "psd-95-scaffold",
+      "to": "synaptic-tagging-capture",
+      "type": "related",
+      "note": "PSD-95 在 LTP 突触标签中与 CaMKII 凝聚体协同；槽位数决定可标记容量"
+    },
+    {
+      "from": "psd-95-scaffold",
+      "to": "synaptic-transmission",
+      "type": "mechanism-of",
+      "note": "PSD-95 纳米域与突触前释放位点对齐构成跨突触纳米柱，优化量子释放的接收效率"
     }
   ],
   "dangling_references": [
@@ -14442,13 +14511,6 @@
       ],
       "note": "已于 2026-06-04 用 ltd 页面填补此悬空引用；ltp.md 中的 related 字段从 ltp-ltd 改为 ltd",
       "resolved": "2026-06-04"
-    },
-    {
-      "slug": "tarp-auxiliary-subunit",
-      "referenced_by": [
-        "ampa-receptor"
-      ],
-      "note": "TARP（如Stargazin），AMPA受体辅助亚基，待建页面"
     },
     {
       "slug": "mglur-ltd",

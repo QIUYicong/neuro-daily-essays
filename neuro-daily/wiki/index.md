@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-06-28（第184篇·TARP 辅助亚基·AMPA 受体突触定位与 LTP 最后一公里机制）· 主题页总数：**326**（新建1页：concepts/tarp-auxiliary-subunit；修订2页：concepts/ampa-receptor rev5, neurons/camkii rev4；补全 ampa-receptor 的悬空引用 [[tarp-auxiliary-subunit]]；图谱334节点/2017边）
+> 最后更新：2026-06-28（第185篇·PSD-95 支架蛋白·突触权重的分子计数器与纳米域组织）· 主题页总数：**327**（新建1页：concepts/psd-95-scaffold；修订2页：concepts/postsynaptic-density rev2, concepts/tarp-auxiliary-subunit rev2；解除 psd-95-scaffold 悬空引用；图谱335节点/2027边）
 
 ---
 
@@ -76,6 +76,7 @@
 - 🔵 [PINK1/Parkin 线粒体自噬](concepts/pink1-parkin-mitophagy.md) — ΔΨm消失→PINK1 OMM积累→二聚化+自磷酸化→pUb（Ser65）生成→Parkin招募+激活（正反馈放大）→NDP52/OPTN/TBK1→LC3/自噬体→溶酶体；PD早发性遗传最主要原因（PINK1/PARK6、Parkin/PARK2）；Pink1 KO猕猴vs小鼠物种差异 **[NEW 2026-09-09]**
 - 🟢 [长时程增强（LTP）](concepts/ltp.md) — 突触可塑性与学习记忆的分子基础；Aβ寡聚体通过五条通路单向阻断LTP；CA3循环突触NMDAR-LTP是模式补全的分子基础；PKMζ+PKCι/λ双KO消除L-LTP；KIBRA-PKMζ寡聚体感染性磷酸化解答Crick分子周转悖论（Paulsen 2026 60年综述）（修订15次）**[修订 rev15 2026-06-28]**
 - 🟢 [TARP 辅助亚基](concepts/tarp-auxiliary-subunit.md) — AMPA 受体从 ER 到突触的全程伴侣蛋白（ER 出口许可→横向扩散→PSD 锚定槽位）；深刻改变门控动力学（失敏减慢/亲和力提升 10×）；LTP 时 CaMKII 磷酸化 TARP polybasic region → 静电掩蔽解除 → PSD-95 亲和力骤升 10–30 倍 → 扩散陷阱捕获受体；Ravi 2022 正交突变实验证明是 LTP 最小充分机制；γ-8 海马特异性抗癫痫药靶；衰老 Cav1.3→CaMKII↓→TARPγ-8↓→LTP 缺陷因果链 **[NEW 2026-06-28]**
+- 🟢 [PSD-95 支架蛋白](concepts/psd-95-scaffold.md) — 突触权重的分子计数器（~300 拷贝/突触）；PDZ1/2-TARP 锚定机制建立"槽位模型"（Schnell 2002）；超分辨率揭示 ~80 nm 纳米域（MacGillavry/Nair 2013）；纳米域数量编码突触权重（Broadhead 2016，10万突触统计）；PSD-95 与突触前 RIM/Munc13 精确对齐构成跨突触纳米柱；Ser-561 磷酸化控制 SH3-GK 双向构象开关；对 LTP 稳定化必需（Ehrlich 2007）；AD 早期丢失标志物 **[NEW 2026-06-28]**
 - 🟢 [模式补全](concepts/pattern-completion.md) — CA3吸引子动力学从部分线索恢复完整记忆；Nakazawa 2002 CA3-NR1 KO因果证据 **[NEW 2026-06-24]**
 - 🟢 [模式分离](concepts/pattern-separation.md) — DG扩张重编码+稀疏激活把相似输入变成不相似表征；苔藓细胞悖论：兴奋性苔藓细胞净效果为抑制颗粒细胞（Jinde 2012）；维度框架（Cayco-Gajic 2019）；Sahay 2011神经发生因果证据 **[修订 rev2→rev3 2026-08-28]**
 - 🔵 [吸引子网络](concepts/attractor-network.md) — Hopfield网络数学基础；CA3生物实现；现代Hopfield网络=Transformer注意力的数学等价 **[NEW 2026-06-24]**
@@ -427,7 +428,8 @@
 - ~~`synaptic-clustering`（突触聚类假说）~~ ✅ **2026-06-11 已建立**（Wilson 2016体内证据；V1雪貂，聚类程度与OSI正相关；普遍性待验证）
 - `apical-tuft`（顶端簇）— 被 [[树突计算]]、[[锥体神经元]] 引用，Ca²⁺ 棘波的主要发生地
 - ~~`three-factor-learning-rule`（三因素学习规则）~~ ✅ **2026-06-07 已建立**（同时建立 dopamine-reward-prediction-error 和 synaptic-tagging-capture，填补 hebbian-learning 悬空引用）
-- `tarp-auxiliary-subunit`（TARP 辅助亚基）— 被 [[ampa-receptor]] 引用，AMPA 受体突触锚定关键
+- ~~`tarp-auxiliary-subunit`（TARP 辅助亚基）~~ ✅ **2026-06-28 已建立**（填补 ampa-receptor/postsynaptic-density 等页悬空引用；新建 concepts/tarp-auxiliary-subunit）
+- ~~`psd-95-scaffold`（PSD-95 支架蛋白）~~ ✅ **2026-06-28 已建立**（填补 tarp-auxiliary-subunit/postsynaptic-density/ampa-receptor 等页悬空引用；新建 concepts/psd-95-scaffold）
 - ~~`readily-releasable-pool`（可释放池/RRP）~~ ✅ **2026-06-10 已建立**（填补突触传递页引用，新建 neurons/readily-releasable-pool 专页）
 - `complexin`（复合素）— 被 SNARE-complex 等引用
 

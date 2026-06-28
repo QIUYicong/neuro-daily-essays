@@ -6,10 +6,10 @@ type: structure
 status: established
 confidence: high
 created: 2026-09-12
-updated: 2026-09-12
-revision_count: 1
+updated: 2026-06-28
+revision_count: 2
 dimensions: [molecular, synaptic, cellular]
-related: [liquid-liquid-phase-separation, ltp, ampa-receptor, nmda-receptor, camkii, synaptic-transmission, synapsin, alzheimers-disease, arc-arg31, calcineurin, synaptic-tagging-capture]
+related: [liquid-liquid-phase-separation, ltp, ampa-receptor, nmda-receptor, camkii, synaptic-transmission, synapsin, alzheimers-disease, arc-arg31, calcineurin, synaptic-tagging-capture, psd-95-scaffold, tarp-auxiliary-subunit]
 prerequisites: [synaptic-transmission, ampa-receptor, nmda-receptor]
 opens_questions: [Q-psd-01, Q-psd-02]
 source_articles: [2026-09-12-liquid-liquid-phase-separation-postsynaptic-density]
@@ -94,7 +94,9 @@ key_sources: ["PMID:27565345", "PMID:30078712", "PMID:41405989", "PMID:36671389"
 ## 修订历史
 
 - 2026-09-12 · 创建 · 基于《突触的自组装奥秘》文章（#142）· 初始置信度：高（结构维度 established；LLPS 机制维度 mainstream）
+- 2026-06-28 · rev2 · 基于《PSD-95：突触权重的分子计数器》（#185）· 新增 [[psd-95-scaffold]] 和 [[tarp-auxiliary-subunit]] 连接
 
 ## 来源文章
 
 - [[2026-09-12-liquid-liquid-phase-separation-postsynaptic-density]]
+- [[2026-06-28-psd-95-scaffold-synaptic-slot]]

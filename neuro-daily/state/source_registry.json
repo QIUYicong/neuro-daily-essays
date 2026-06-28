@@ -11432,7 +11432,7 @@
       "pmcid": "PMC11343219"
     }
   ],
-  "total_sources": 655,
+  "total_sources": 670,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",
@@ -16634,5 +16634,187 @@
         "note": "PMID requires verification"
       }
     ]
-  }
+  },
+  "sources_2026-06-28-psd95": [
+    {
+      "pmid": "12359873",
+      "pmcid": "PMC129795",
+      "doi": null,
+      "title": "Direct interactions between PSD-95 and stargazin control synaptic AMPA receptor number",
+      "authors_short": "Schnell E et al.",
+      "year": 2002,
+      "journal": "Proc Natl Acad Sci USA",
+      "article": "2026-06-28-psd-95-scaffold-synaptic-slot",
+      "open_access": true,
+      "used_for": "槽位模型分子基础（PDZ1/2-TARP 直接相互作用）"
+    },
+    {
+      "pmid": "23719161",
+      "pmcid": "PMC3668352",
+      "doi": null,
+      "title": "Nanoscale scaffolding domains within the postsynaptic density concentrate synaptic AMPA receptors",
+      "authors_short": "MacGillavry HD et al.",
+      "year": 2013,
+      "journal": "Neuron",
+      "article": "2026-06-28-psd-95-scaffold-synaptic-slot",
+      "open_access": true,
+      "used_for": "PSD-95 ~80 nm 纳米域超分辨率首次观察"
+    },
+    {
+      "pmid": "23926273",
+      "pmcid": "PMC6619720",
+      "doi": null,
+      "title": "Super-resolution imaging reveals that AMPA receptors inside synapses are dynamically organized in nanodomains regulated by PSD95",
+      "authors_short": "Nair D et al.",
+      "year": 2013,
+      "journal": "J Neurosci",
+      "article": "2026-06-28-psd-95-scaffold-synaptic-slot",
+      "open_access": true,
+      "used_for": "PSD-95 拷贝数→AMPAR 纳米域密度→mEPSC 因果链"
+    },
+    {
+      "pmid": "27109929",
+      "pmcid": "PMC4842999",
+      "doi": null,
+      "title": "PSD95 nanoclusters are postsynaptic building blocks in hippocampus circuits",
+      "authors_short": "Broadhead MJ et al.",
+      "year": 2016,
+      "journal": "Scientific Reports",
+      "article": "2026-06-28-psd-95-scaffold-synaptic-slot",
+      "open_access": true,
+      "used_for": "10 万突触大规模 dSTORM；纳米域是普遍突触建构单元"
+    },
+    {
+      "pmid": "17360496",
+      "pmcid": "PMC1820728",
+      "doi": null,
+      "title": "PSD-95 is required for activity-driven synapse stabilization",
+      "authors_short": "Ehrlich I et al.",
+      "year": 2007,
+      "journal": "Proc Natl Acad Sci USA",
+      "article": "2026-06-28-psd-95-scaffold-synaptic-slot",
+      "open_access": true,
+      "used_for": "PSD-95 对 LTP 稳定化（而非诱导）必需"
+    },
+    {
+      "pmid": "28790172",
+      "pmcid": "PMC5625046",
+      "doi": null,
+      "title": "Postsynaptic density 95 (PSD-95) serine 561 phosphorylation regulates a conformational switch and bidirectional dendritic spine structural plasticity",
+      "authors_short": "Wu Q et al.",
+      "year": 2017,
+      "journal": "J Biol Chem",
+      "article": "2026-06-28-psd-95-scaffold-synaptic-slot",
+      "open_access": true,
+      "used_for": "Ser-561 磷酸化调控 SH3-GK 构象与双向结构可塑性"
+    },
+    {
+      "pmid": "38839340",
+      "pmcid": "PMC11154862",
+      "doi": null,
+      "title": "Celebrating the Birthday of AMPA Receptor Nanodomains: Illuminating the Nanoscale Organization of Excitatory Synapses with 10 Nanocandles",
+      "authors_short": "Fukata Y et al.",
+      "year": 2024,
+      "journal": "J Neurosci",
+      "article": "2026-06-28-psd-95-scaffold-synaptic-slot",
+      "open_access": true,
+      "used_for": "AMPAR 纳米域十年综述；跨突触纳米柱"
+    },
+    {
+      "pmid": "27565345",
+      "pmcid": "PMC5564291",
+      "doi": null,
+      "title": "Phase Transition in Postsynaptic Densities Underlies Formation of Synaptic Complexes and Synaptic Plasticity",
+      "authors_short": "Zeng M et al.",
+      "year": 2016,
+      "journal": "Cell",
+      "article": "2026-06-28-psd-95-scaffold-synaptic-slot",
+      "open_access": true,
+      "used_for": "PSD-95/SynGAP LLPS；PSD 相分离凝聚相"
+    },
+    {
+      "pmid": "30864948",
+      "pmcid": "PMC6438691",
+      "doi": null,
+      "title": "Intramolecular domain dynamics regulate synaptic MAGUK protein interactions",
+      "authors_short": "Rademacher N et al.",
+      "year": 2019,
+      "journal": "eLife",
+      "article": "2026-06-28-psd-95-scaffold-synaptic-slot",
+      "open_access": true,
+      "used_for": "PDZ3 配体结合→SH3-GK 变构调控"
+    },
+    {
+      "pmid": "11082065",
+      "pmcid": null,
+      "doi": null,
+      "title": "PSD-95 involvement in maturation of excitatory synapses",
+      "authors_short": "El-Husseini AE et al.",
+      "year": 2000,
+      "journal": "Science",
+      "article": "2026-06-28-psd-95-scaffold-synaptic-slot",
+      "open_access": false,
+      "used_for": "PSD-95 过量表达驱动突触成熟（摘要仅）"
+    },
+    {
+      "pmid": "20670832",
+      "pmcid": null,
+      "doi": null,
+      "title": "CaMKII triggers the diffusional trapping of surface AMPARs through phosphorylation of stargazin",
+      "authors_short": "Opazo P et al.",
+      "year": 2010,
+      "journal": "Neuron",
+      "article": "2026-06-28-psd-95-scaffold-synaptic-slot",
+      "open_access": false,
+      "used_for": "CaMKII-TARP 磷酸化→扩散陷阱→AMPAR 捕获（摘要仅）"
+    },
+    {
+      "pmid": "34077732",
+      "pmcid": null,
+      "doi": null,
+      "title": "PSD-95 protects synapses from beta-amyloid",
+      "authors_short": "Dore K et al.",
+      "year": 2021,
+      "journal": "Cell Rep",
+      "article": "2026-06-28-psd-95-scaffold-synaptic-slot",
+      "open_access": false,
+      "used_for": "PSD-95 抵抗 Aβ 诱导突触减弱（摘要仅）"
+    },
+    {
+      "pmid": "41047041",
+      "pmcid": null,
+      "doi": null,
+      "title": "Synaptic scaffold protein PSD-95: a therapeutic target for Alzheimer's disease",
+      "authors_short": "Fan Y et al.",
+      "year": 2025,
+      "journal": "Biochem Pharmacol",
+      "article": "2026-06-28-psd-95-scaffold-synaptic-slot",
+      "open_access": false,
+      "used_for": "PSD-95 在 AD 中早期丢失；治疗靶点综述（摘要仅）"
+    },
+    {
+      "pmid": "42363710",
+      "pmcid": null,
+      "doi": null,
+      "title": "Long-term potentiation in the brain: A synaptic memory mechanism",
+      "authors_short": "Rodríguez-Moreno A, Paulsen O",
+      "year": 2026,
+      "journal": "Physiol Rev",
+      "article": "2026-06-28-psd-95-scaffold-synaptic-slot",
+      "open_access": false,
+      "used_for": "LTP 综述背景（摘要仅）"
+    },
+    {
+      "pmid": "39848836",
+      "pmcid": null,
+      "doi": null,
+      "title": "Tuning synapse strength by nanocolumn plasticity",
+      "authors_short": "Xu N et al.",
+      "year": 2025,
+      "journal": "Trends Neurosci",
+      "article": "2026-06-28-psd-95-scaffold-synaptic-slot",
+      "open_access": false,
+      "used_for": "跨突触纳米柱综述（摘要仅）"
+    }
+  ]
 }

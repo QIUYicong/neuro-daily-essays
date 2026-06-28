@@ -4,6 +4,58 @@
 
 ---
 
+## 2026-06-28（#185）：PSD-95 支架蛋白——突触权重的分子计数器与纳米域组织
+
+**文章**：《PSD-95：突触权重的分子计数器——从槽位到纳米域再到跨突触纳米柱》（#185）
+
+**类型**：分子机制深度报道；突触后支架蛋白；槽位模型与超分辨率；层级：molecular × synaptic × cellular
+
+**新创建页面（1）**：
+- `wiki/concepts/psd-95-scaffold.md`（rev1）：PSD-95 支架蛋白综合概念页；五域分工（N 端棕榈酰化/PDZ1/PDZ2/PDZ3/SH3-GK）；槽位模型建立（El-Husseini 2000 过量表达 + Schnell 2002 PDZ 突变因果）；超分辨率纳米域（MacGillavry 2013 PALM/Nair 2013 dSTORM/Broadhead 2016 10万突触）；跨突触纳米柱（Fukata 2024）；LTP 三阶段动态；Ser-561 构象开关（Wu 2017）；LLPS 整合（Zeng 2016）；AD 相关性；10 个 wiki 连接；4 个未解问题（Q-psd95-01 至 Q-psd95-04）；15 个关键来源
+
+**修订页面（2）**：
+- `wiki/concepts/postsynaptic-density.md`（rev1→rev2）：related 列表新增 [[psd-95-scaffold]] 和 [[tarp-auxiliary-subunit]]；修订历史新增 2026-06-28 条目；source_articles 新增 #185；updated → 2026-06-28
+- `wiki/concepts/tarp-auxiliary-subunit.md`（rev1→rev2）：related 列表新增 [[psd-95-scaffold]]；source_articles 新增 #185；修订历史新增 2026-06-28 条目；updated → 2026-06-28
+
+**图谱变更**：
+- 新增节点（1）：psd-95-scaffold（concepts/mechanism/established/high）
+- 新增边（10条）：
+  - psd-95-scaffold→ampa-receptor（regulates）
+  - psd-95-scaffold→tarp-auxiliary-subunit（mechanism-of）
+  - psd-95-scaffold→postsynaptic-density（part-of）
+  - psd-95-scaffold→ltp（mechanism-of）
+  - psd-95-scaffold→camkii（regulates）
+  - psd-95-scaffold→nmda-receptor（related）
+  - psd-95-scaffold→liquid-liquid-phase-separation（mechanism-of）
+  - psd-95-scaffold→alzheimers-disease（related）
+  - psd-95-scaffold→synaptic-tagging-capture（related）
+  - psd-95-scaffold→synaptic-transmission（mechanism-of）
+- 更新：_graph.json → 335节点 / 2027边（+1节点/+10边），updated → 2026-06-28
+- 解除悬空引用：psd-95-scaffold（之前被 tarp-auxiliary-subunit、postsynaptic-density 引用），tarp-auxiliary-subunit（之前被 ampa-receptor 引用）
+
+**填补悬空引用**：psd-95-scaffold（今日新建页面，填补 tarp-auxiliary-subunit.md 和 postsynaptic-density.md 的悬空引用）
+
+**未解问题新增**：Q-psd95-01（高，体内 PSD 液态 vs 凝胶态）、Q-psd95-02（高，棕榈酰化循环调控）、Q-psd95-03（中，SH3-GK 构象开关体内调控）、Q-psd95-04（高，跨突触纳米柱 LTP/LTD 重排机制）
+
+**来源**（15条，9篇开放获取）：
+- PMID:12359873（Schnell 2002, PNAS）— PDZ-TARP 直接相互作用；开放
+- PMID:23719161（MacGillavry 2013, Neuron）— PSD-95 ~80 nm 纳米域；开放
+- PMID:23926273（Nair 2013, J Neurosci）— PSD-95 拷贝数→AMPAR 纳米密度因果；开放
+- PMID:27109929（Broadhead 2016, Sci Rep）— 10万突触 dSTORM；开放
+- PMID:17360496（Ehrlich 2007, PNAS）— PSD-95 对 LTP 稳定化必需；开放
+- PMID:28790172（Wu 2017, JBC）— Ser-561 磷酸化构象开关；开放
+- PMID:38839340（Fukata 2024, J Neurosci）— 纳米域十年综述/跨突触纳米柱；开放
+- PMID:27565345（Zeng 2016, Cell）— PSD-95/SynGAP LLPS；开放
+- PMID:30864948（Rademacher 2019, eLife）— PDZ3 变构调控 SH3-GK；开放
+- PMID:11082065（El-Husseini 2000, Science）— 过量 PSD-95 驱动突触成熟；仅摘要
+- PMID:20670832（Opazo 2010, Neuron）— CaMKII-TARP 扩散陷阱；仅摘要
+- PMID:34077732（Dore 2021, Cell Rep）— PSD-95 保护突触抵抗 Aβ；仅摘要
+- PMID:41047041（Fan 2025, Biochem Pharmacol）— PSD-95 AD 治疗靶点综述；仅摘要
+- PMID:42363710（Rodríguez-Moreno 2026, Physiol Rev）— LTP 综述背景；仅摘要
+- PMID:39848836（Xu 2025, Trends Neurosci）— 跨突触纳米柱综述；仅摘要
+
+---
+
 ## 2026-06-28（#184）：TARP 辅助亚基——AMPA 受体突触定位与 LTP 的分子导航系统
 
 **文章**：《AMPA 受体的突触之旅：TARP 辅助亚基如何引导受体驻扎、改造门控并参与 LTP》（#184）

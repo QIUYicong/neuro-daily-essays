@@ -1,6 +1,6 @@
 {
     "last_updated": "2026-06-28",
-    "total_articles": 184,
+    "total_articles": 185,
     "entries": [
         {
             "date": "2026-10-05",
@@ -11397,6 +11397,66 @@
                 "psd-95-scaffold（深化）——TARP 槽位模型的主角，PSD-95 分子计数与突触强度上限关系（悬空引用，待建页面）",
                 "adult-neurogenesis（深化）——高度数（21）、中置信度节点；LTP 与突触可塑性机制形成跨系统对比",
                 "global-workspace-theory（深化）——高 degree 节点（28）；从分子 LTP 机制串联到意识整合的长程叙事"
+            ]
+        },
+        {
+            "date": "2026-06-28",
+            "title": "PSD-95：突触权重的分子计数器——从槽位到纳米域再到跨突触纳米柱",
+            "filename": "2026-06-28-psd-95-scaffold-synaptic-slot.md",
+            "article_number": 185,
+            "wiki_pages_created": [
+                "wiki/concepts/psd-95-scaffold.md"
+            ],
+            "wiki_pages_revised": [
+                "wiki/concepts/postsynaptic-density.md (rev2)",
+                "wiki/concepts/tarp-auxiliary-subunit.md (rev2)"
+            ],
+            "contested_claims_logged": [],
+            "contested_claims_evidence_updated": [],
+            "core_question": "PSD-95 的分子数量（~300 拷贝/突触）如何通过 PDZ1/2-TARP 相互作用决定突触 AMPA 受体容量上限（槽位模型），超分辨率显微镜揭示的 ~80 nm PSD-95 纳米域如何构成突触权重编码的亚突触结构基础，以及这些纳米域与突触前释放位点对齐形成的跨突触纳米柱如何在 LTP 中被重塑？",
+            "open_questions_added": [
+                "Q-psd95-01（高优先级）：纳米域内 PSD-95 分子的精确数量？每个纳米域是固定还是动态数量？与 AMPAR 纳米簇的 1:1 对应如何建立和维持？",
+                "Q-psd95-02（高优先级）：PSD-95 棕榈酰化-去棕榈酰化循环如何在神经活动中精确调控？是否对特定纳米域的子集有选择性？",
+                "Q-psd95-03（中优先级）：SH3-GK 构象开关（Wu 2017）的体内生理调控机制？什么信号触发开放 vs 关闭构象？",
+                "Q-psd95-04（高优先级）：跨突触纳米柱的可塑性机制——LTP/LTD 如何重新排列前后膜纳米域的空间对齐？时程？分子驱动？"
+            ],
+            "layer": [
+                "molecular",
+                "synaptic",
+                "cellular"
+            ],
+            "curriculum_track": "课程脊柱1（突触传递与 LTP）+ 课程脊柱3（超分辨率结构生物学）+ 课程脊柱9（AD 与突触损伤）",
+            "topic_tags": [
+                "PSD-95 DLG4 postsynaptic density scaffold protein PDZ domain MAGUK",
+                "synaptic slot model AMPA receptor capacity PSD-95 copy number El-Husseini 2000 Schnell 2002",
+                "PSD-95 nanoclusters nanodomains 80 nm super-resolution PALM STORM MacGillavry 2013 Nair 2013",
+                "Broadhead 2016 dSTORM 100000 synapses hippocampus nanodomain building blocks",
+                "trans-synaptic nanocolumn RIM Munc13 alignment AMPA receptor LTP Fukata 2024",
+                "PSD-95 Ser561 SH3-GK conformational switch bidirectional structural plasticity Wu 2017",
+                "LTP consolidation PSD-95 stabilization Ehrlich 2007 PNAS",
+                "PSD-95 SynGAP liquid-liquid phase separation LLPS Zeng 2016 Cell",
+                "PSD-95 Alzheimer disease Abeta synaptic loss early biomarker Fan 2025",
+                "PDZ3 allosteric regulation SH3-GK intramolecular Rademacher 2019 eLife",
+                "TARP stargazin PDZ binding motif slot occupancy CaMKII phosphorylation LTP",
+                "dendritic spine head volume PSD expansion structural LTP"
+            ],
+            "main_sources": [
+                "PMID:12359873 (Schnell 2002, PNAS, open)",
+                "PMID:23719161 (MacGillavry 2013, Neuron, open)",
+                "PMID:23926273 (Nair 2013, J Neurosci, open)",
+                "PMID:27109929 (Broadhead 2016, Sci Rep, open)",
+                "PMID:17360496 (Ehrlich 2007, PNAS, open)",
+                "PMID:28790172 (Wu 2017, JBC, open)",
+                "PMID:38839340 (Fukata 2024, J Neurosci, open)",
+                "PMID:27565345 (Zeng 2016, Cell, open)",
+                "PMID:30864948 (Rademacher 2019, eLife, open)",
+                "PMID:11082065 (El-Husseini 2000, Science, abstract only)"
+            ],
+            "next_suggested_topics": [
+                "adult-neurogenesis（深化）——高度数（21）中置信度节点；从突触分子级别跳转到细胞生成层面，提供不同尺度对比",
+                "global-workspace-theory（深化）——高 degree 节点（28）；从分子 LTP/PSD 机制串联到意识整合的长程系统叙事",
+                "synaptic-tagging-capture（深化）——CaMKII 凝聚体与 PSD-95 槽位扩增的晚期 LTP 巩固机制；与 #185 高度相关",
+                "alzheimers-disease（深化）——PSD-95 丢失是 AD 早期突触病理的分子节点；从机制直接连接疾病"
             ]
         }
     ]

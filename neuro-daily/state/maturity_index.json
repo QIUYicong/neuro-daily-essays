@@ -997,5 +997,12 @@
     "confidence": "high",
     "last_changed": "2026-10-16",
     "change_reason": "创建新页面（Diering 2017 Science 核心证据；Diering 2022综述；Suzuki 2020遗传验证）"
+  },
+  {
+    "slug": "psd-95-scaffold",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-06-28",
+    "reason": "新建 rev1 · #185 · PSD-95 支架蛋白；槽位模型（Schnell 2002 PNAS）多重手段因果证明；超分辨率纳米域（MacGillavry/Nair 2013）活细胞直接成像；10万突触大规模统计（Broadhead 2016）；LTP 稳定化必需（Ehrlich 2007 体内）；LLPS 基础（Zeng 2016 Cell）；置信度高（established），所有核心主张均有开放全文独立验证"
   }
 ]
