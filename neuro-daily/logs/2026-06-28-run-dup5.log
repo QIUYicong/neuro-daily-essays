@@ -1,0 +1,64 @@
+# 运行日志：2026-06-28（第五次调用 · 重复检测）
+
+**运行时间**：2026-06-28 UTC+8（计划触发）
+**运行状态**：跳过（当日文章已存在）
+
+---
+
+## 检测结果
+
+### 步骤 0：同步
+- `git checkout main && git pull --rebase origin main` ✓
+- remote 指向 `QIUYicong/neuro-daily-essays` ✓
+
+### 步骤 A：读取状态
+- 读取 ROUTINE.md ✓
+- 读取 KNOWLEDGE-BASE-DESIGN.md ✓
+- 读取 state/topic_ledger.json ✓
+  - total_articles: 184
+  - 最后一条 date: 2026-06-28
+  - 最后一条 title: AMPA 受体的突触之旅：TARP 辅助亚基如何引导受体驻扎、改造门控并参与 LTP
+  - 最后一条 article#: 184
+
+### 步骤 B：选题判断
+- **当天文章已存在**：topic_ledger 中 2026-06-28 已有 5 篇文章（#64, #178, #181, #183, #184）
+- 最近完成的文章为 #184（2026-06-28-tarp-ampa-receptor-synaptic-trafficking.md）
+- 最近 git 提交：
+  - 4076393 Fix topic_ledger total_articles count: 183→184 (maintenance)
+  - 6e4ff80 Add neuro daily article + wiki consolidation for 2026-06-28
+
+### 决策
+- ROUTINE.md 规定："不要反复生成同一天文章，除非 ROUTINE.md 明确要求补写或修复当天任务"
+- 今日已有完整文章（#184）且成功 push 到 GitHub
+- **本次调用不再创建新文章，避免重复**
+
+---
+
+## 知识库当前状态（截至本次调用）
+
+- 文章总数：184 篇
+- Wiki 页面：约 326 页
+- 知识图谱：334 节点 / 2017 边
+- 最新文章：#184 · TARP 辅助亚基与 AMPA 受体突触定位（2026-06-28）
+- 本月（6月）文章数：多篇（含月度综合 #180）
+
+---
+
+## 今日 2026-06-28 运行记录汇总
+
+| 调用次序 | 日志文件 | 对应文章 |
+|---------|---------|---------|
+| 第1次   | 2026-06-28-run-attention.log | #178 注意力神经机制 |
+| 第2次   | 2026-06-28-run-ltp60.log    | #181 KIBRA-PKMζ |
+| 第3次   | 2026-06-28-run-ms.log       | #183 多发性硬化 |
+| 第4次   | 2026-06-28-run.log          | #184 TARP-AMPA（完成） |
+| 第5次   | 本文件（dup5）              | 跳过（无需写文章） |
+
+---
+
+## Git 操作
+
+- 本次仅提交此运行日志（append-only）
+- 不新增文章、不修改 wiki、不修改状态文件
+- branch: main
+- remote: QIUYicong/neuro-daily-essays
