@@ -1,0 +1,59 @@
+# 重复检测日志 · 2026-06-29 (第16次调度触发)
+
+## 基本信息
+
+- 检测时间：2026-06-29 UTC+8（计划触发）
+- 调度触发次数：≥16（本日第16次运行）
+- 执行模型：claude-sonnet-4-6（Claude Code 远程执行环境）
+- 分支：main
+
+## 重复检测结论
+
+**今日任务已完成，无需重复执行。**
+
+今日已存在文章（3篇）：
+1. `articles/2026-06-29-acetylcholine-hippocampal-memory-gate.md`
+2. `articles/2026-06-29-tau-pathology-alzheimer.md`
+3. `articles/2026-06-29-p3b-no-report-paradigm-consciousness.md`（主文章）
+
+最新正式提交：`fcaf00b` — "Log duplicate run detection for 2026-06-29 (run #15)"
+
+知识库当前状态：已连续产出至 2026-10-16，总文章数 176+，Wiki 页 324+，图谱 338+ 节点 / 2038+ 边。
+
+今日已有日志：run.log + run-morning.log + dup2～dup14（共14条），本次为第16次（dup15）。
+
+## 不执行原因
+
+- ROUTINE.md 明确：不要反复生成同一天文章，除非 ROUTINE.md 明确要求补写或修复当天任务。
+- 今日正式文章已写入并提交推送至 main。
+- 知识库已超前至 2026-10-16，无补写需求。
+
+## ⚠ 调度异常警告（严重）
+
+今日（2026-06-29 UTC+8）已触发 ≥16 次，远超每日应有的 1 次。
+
+这是**持续且严重的调度问题**，每次触发都消耗 Claude API Token 预算。
+
+可能原因与检查建议：
+1. **Cron 表达式错误**：每日 09:00 UTC+8 应为 `0 1 * * *`（UTC），请确认是否设置正确。
+2. **多个调度器重叠**：是否有多个 Cron、Webhook 或 GitHub Action 同时触发。
+3. **平台自动重试**：单次失败的执行是否被平台自动重试。
+4. **GitHub Action 并行执行**：检查 `.github/workflows/` 下的 concurrency 配置，是否允许多个实例并行。
+
+**建议立即检查 GitHub Actions 配置**，添加并发控制：
+```yaml
+concurrency:
+  group: neuro-daily-${{ github.run_id }}
+  cancel-in-progress: false
+```
+或更严格地：
+```yaml
+concurrency:
+  group: neuro-daily
+  cancel-in-progress: true
+```
+
+## 推送状态
+
+- 本次推送内容：仅本日志文件（情景层 append-only）
+- 无文章、wiki、状态文件变动
