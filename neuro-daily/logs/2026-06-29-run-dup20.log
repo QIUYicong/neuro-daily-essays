@@ -1,0 +1,34 @@
+# 重复运行检测日志 · 2026-06-29 · 第21次触发
+
+## 运行时间
+2026-06-29（UTC+8）
+
+## 检测结果：DUPLICATE — 跳过，不生成新内容
+
+## 当日已存在文件
+### 文章（3篇）
+- neuro-daily/articles/2026-06-29-acetylcholine-hippocampal-memory-gate.md
+- neuro-daily/articles/2026-06-29-p3b-no-report-paradigm-consciousness.md
+- neuro-daily/articles/2026-06-29-tau-pathology-alzheimer.md
+
+### 日志（20个）
+- 2026-06-29-run.log（首次运行）
+- 2026-06-29-run-morning.log
+- 2026-06-29-run-dup2.log 至 dup19.log（共18个）
+
+## 知识库状态
+- 主题台账（topic_ledger）：175条记录，含2026-06-29的3条新增
+- Wiki已固结：tau蛋白、乙酰胆碱/海马门控、P3b意识标志物等相关页面
+- 图谱节点：323个节点，1921条边（截至10月16日）
+
+## 触发器问题警告
+本日已被触发超过21次。每日仅应运行一次。
+建议检查 cron 调度配置，减少触发频率。
+
+## 行动
+本次运行不生成新文章或新 wiki 页面。
+仅追加本日志作为记录。
+
+## 分支 / 推送
+- 分支：main
+- 状态：仅推送本日志（append-only）
