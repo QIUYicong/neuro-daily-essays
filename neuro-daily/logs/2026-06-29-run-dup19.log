@@ -1,0 +1,46 @@
+# 重复运行检测日志 · 2026-06-29（第20次调用 / dup19）
+
+## 检测结果
+
+- 日期（UTC+8）：2026-06-29
+- 当前运行序号：第 20 次调用（今日）
+- 今日已存在文章：3 篇
+- topic_ledger 中已记录今日条目：3 条（tau、acetylcholine、p3b）
+
+## 已存在的今日文章
+
+1. `articles/2026-06-29-tau-pathology-alzheimer.md` — 形状即命运：tau 蛋白从微管守护者到神经原纤维缠结的分子蜕变
+2. `articles/2026-06-29-acetylcholine-hippocampal-memory-gate.md` — #182 乙酰胆碱的双重使命
+3. `articles/2026-06-29-p3b-no-report-paradigm-consciousness.md` — P3b 消失与意识研究
+
+## 决定
+
+今日文章及 wiki 固化均已完整完成并推送至 main（最近 commit 包含上述内容），无需重新生成。本次为重复调度，仅记录本日志。
+
+## 知识库当前状态
+
+- 文章总数：约 183 篇（June 29 最终）
+- topic_ledger 条目：175 条
+- wiki 节点：~335 个
+- wiki 边：~2024 条
+- 上次实质性更新：#182 + P3b + tau 文章及对应 wiki 页面
+
+## ⚠ 调度问题持续（第20次触发）
+
+今日已触发 ≥20 次，属严重异常。建议在 GitHub Actions 工作流文件中添加并发控制：
+
+```yaml
+concurrency:
+  group: neuro-daily
+  cancel-in-progress: true
+```
+
+## Remote 验证
+
+- origin：http://local_proxy@127.0.0.1:.../git/QIUYicong/neuro-daily-essays ✓
+- 目标仓库：QIUYicong/neuro-daily-essays ✓
+
+## 推送状态
+
+- 本次推送内容：仅本日志文件（neuro-daily/logs/2026-06-29-run-dup19.log）
+- 无文章、wiki、状态文件变动
