@@ -1,0 +1,45 @@
+# 重复运行检测日志 · 2026-06-29（第19次调用 / dup18）
+
+## 检测结果
+
+- 日期（UTC+8）：2026-06-29
+- 当前运行序号：第 19 次调用（今日）
+- 今日已存在文章：3 篇
+
+## 已存在的今日文章
+
+1. `articles/2026-06-29-acetylcholine-hippocampal-memory-gate.md` — #182 乙酰胆碱的双重使命
+2. `articles/2026-06-29-p3b-no-report-paradigm-consciousness.md` — P3b 消失与意识研究
+3. `articles/2026-06-29-tau-pathology-alzheimer.md` — Tau 病理与阿尔茨海默病
+
+## 决定
+
+今日文章已完整写入并推送至 main（commit 2406214），无需重新生成。本次为重复调度，仅记录本日志。
+
+## ⚠ 调度问题持续（第19次触发）
+
+今日已触发 ≥19 次，属严重异常。每次触发只需写一个 dup log 文件并 push，不产生新文章/wiki 内容，但会累积大量冗余提交。
+
+**建议仓库管理者检查并修复 GitHub Actions / 调度触发器并发配置：**
+
+```yaml
+concurrency:
+  group: neuro-daily
+  cancel-in-progress: true
+```
+
+如已添加该配置但问题仍存在，请检查：
+- 是否有多个 workflow 文件触发了同一调度
+- 触发器是否使用了 `schedule: cron` 而非幂等的 workflow_dispatch
+
+## 知识库当前状态
+
+- 文章总数：约 182 篇（以 run.log 记录为准）
+- wiki 节点：~332 个
+- wiki 边：~1997 条
+- 上次实质性更新：commit 2406214（#182 乙酰胆碱文章）
+
+## 推送状态
+
+- 本次推送内容：仅本日志文件（neuro-daily/logs/2026-06-29-run-dup18.log）
+- 无文章、wiki、状态文件变动
