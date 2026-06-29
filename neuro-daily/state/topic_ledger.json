@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-06-29",
-  "total_articles": 186,
+  "total_articles": 175,
   "entries": [
     {
       "date": "2026-10-05",
@@ -11476,6 +11476,63 @@
         "infantile-amnesia-developmental（深化）——婴儿期记忆印记的长期命运：人类成年后是否仍可用非侵入方法探测？",
         "global-workspace-theory（深化）——意识子图核心节点（degree=28，medium confidence）",
         "prefrontal-cortex-development——婴儿遗忘症的第二机制：PFC未成熟与记忆检索的发育时序"
+      ]
+    },
+    {
+      "date": "2026-06-29",
+      "article_number": 187,
+      "title": "P3b 的消失：无报告范式如何动摇意识研究三十年的核心标志",
+      "slug": "p3b-no-report-paradigm-consciousness",
+      "core_question": "P3b 波是意识本身的神经标志，还是仅仅反映报告决策过程？无报告范式揭示了什么？",
+      "layers": [
+        "whole-brain-network",
+        "cognition",
+        "consciousness",
+        "methods"
+      ],
+      "topic_tags": [
+        "P3b",
+        "no-report-paradigm",
+        "visual-awareness-negativity",
+        "VAN",
+        "N2",
+        "global-workspace-theory",
+        "neural-correlates-of-consciousness",
+        "ERP",
+        "EEG"
+      ],
+      "wiki_created": [
+        "concepts/p3b-wave.md (rev1)",
+        "concepts/visual-awareness-negativity.md (rev1)",
+        "concepts/no-report-paradigm.md (rev1)"
+      ],
+      "wiki_revised": [
+        "theories/global-workspace-theory.md rev7→rev8"
+      ],
+      "open_questions_added": [
+        "Q-p3b-01",
+        "Q-p3b-02",
+        "Q-p3b-03",
+        "Q-van-01"
+      ],
+      "partial_resolutions": [
+        "Q-gwt-01 (部分裁决：P3b 确认为报告标志而非感知意识标志)"
+      ],
+      "main_sources": [
+        "PMID:32409620",
+        "PMID:39535504",
+        "PMID:26585549",
+        "PMID:33849946",
+        "PMID:41616989",
+        "PMID:24709604",
+        "PMID:32135090",
+        "PMID:42061591"
+      ],
+      "next_suggested_topics": [
+        "neural-correlates-of-consciousness（深化）——NCC 内容特异性与时间特征；后皮质热区 vs 前额叶争议",
+        "integrated-information-theory（建立）——P3b 消失对 IIT vs GWT 争论的影响；phi 理论与前额叶角色",
+        "attention-consciousness-dissociation（建立）——VAN 与注意的分离：TAE/PB/IB 范式家族对比",
+        "visual-masking-methods（建立）——CFS/SSVEP/闪现抑制 vs 掩蔽：无报告范式的方法论对比"
       ]
     }
   ]

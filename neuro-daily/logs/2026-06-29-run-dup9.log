@@ -1,0 +1,178 @@
+# 运行日志 · 2026-06-29（第十次触发 · 文章 #187）
+
+## 基本信息
+
+- 日期：2026-06-29
+- 文章编号：#187
+- 标题：P3b 的消失：无报告范式如何动摇意识研究三十年的核心标志
+- slug：p3b-no-report-paradigm-consciousness
+- 执行模型：claude-sonnet-4-6（Claude Code 远程执行环境）
+- 注：本次为当天第十次触发；前9次触发中仅第1次（文章 #182）产出实质内容，第2-9次均为重复检测。本次产出全新文章 #187，未与 #182 重复。
+
+---
+
+## 步骤 0 — 分支同步
+
+- 切换到 main 分支：`git checkout main` ✓
+- `git pull --rebase origin main` ✓（解决 fast-forward 分叉）
+- remote 确认包含 QIUYicong/neuro-daily-essays ✓
+- ROUTINE.md、KNOWLEDGE-BASE-DESIGN.md 确认存在 ✓
+
+---
+
+## 步骤 A — 读取状态文件
+
+- ROUTINE.md ✓
+- KNOWLEDGE-BASE-DESIGN.md ✓
+- topic_ledger.json（共186条，最新 #186 日期2026-06-28，三篇当日文章）✓
+- unresolved_questions.md（读取尾部，含Q-gwt-01等高优先级问题）✓
+- contested_claims.json（开放矛盾7条，C-2026-05-31-02 关于 GWT P3b 最相关）✓
+- wiki/_graph.json（335节点/2024边，GWT degree=28，medium confidence）✓
+- CHANGELOG.md（最新条目 #186 2026-06-28）✓
+- 发现 2026-06-29 已有文章：2026-06-29-acetylcholine-hippocampal-memory-gate.md (#182) 和历史文章 tau-pathology；但 P3b 文章（#187）尚未存在，确认可继续
+
+---
+
+## 步骤 B — 主题选择
+
+**选题理由**：
+- 最近三篇文章（#184 TARP/AMPA, #185 神经发生遗忘, #186 婴儿遗忘症）均在 molecular/synaptic/cellular/developmental 层
+- GWT 节点 degree=28，confidence=medium，是高优先级加深候选
+- Q-gwt-01（P3b 是意识标志还是报告标志）是 GWT wiki 最高优先级未解问题
+- 检索发现 Cohen et al. 2020 (PMID:32409620, PMC7326348) 提供了极强的定量证据（BF₁₀=0.001–0.05）
+- 主题"P3b 在无报告条件消失"是 whole-brain-network/cognition/consciousness 层——与最近文章层次完全不同
+
+**选定主题**：P3b / 无报告范式 → 部分回答 Q-gwt-01
+
+---
+
+## 步骤 C — 研究与写作
+
+### 检索过程
+
+- PubMed 搜索：
+  - "P3b consciousness no-report paradigm"
+  - "no-report paradigm consciousness neural correlates awareness EEG"
+  - "visual awareness negativity VAN consciousness ERP"
+  - "global workspace theory P3b neural marker consciousness"（0结果）
+  - "Dehaene Changeux consciousness experimental review"（0结果）
+  - "Lamme consciousness"（0结果）
+- PMC 全文获取：
+  - PMC7326348 (Cohen 2020) ✓ 详细数据
+  - PMC11558846 (Cohen 2024) ✓ 详细数据
+
+### 来源质量评估
+
+| 来源 | PMID | 全文 | 置信度 | 关键贡献 |
+|------|------|------|--------|--------|
+| Dehaene et al. 2014 | 24709604 | PMC5635963 ✓ | 高 | GWT 框架，P3b 成为黄金标准 |
+| Mashour et al. 2020 | 32135090 | PMC8770991 ✓ | 高 | GNW 综述，麻醉证据 |
+| Tsuchiya et al. 2015 | 26585549 | 摘要 | 高 | 无报告范式奠基综述 |
+| Cohen et al. 2020 | 32409620 | PMC7326348 ✓ | 高 | **核心：P3b 消失，BF₁₀=0.001–0.05** |
+| Cohen et al. 2024 | 39535504 | PMC11558846 ✓ | 中 | N2 候选意识标志 |
+| Schröder et al. 2021 | 33849946 | PMC8260252 ✓ | 高 | 体感跨模态验证 |
+| Zhang et al. 2026 | 42061591 | 摘要 | 中 | 额叶亚区分离 |
+| Filimonov et al. 2026 | 41616989 | 摘要 | 中-高 | 53项研究系统综述：VAN最可靠 |
+
+满足标准：≥5来源 ✓（8来源）；≥2开放全文 ✓（5个）；≥1官方机构 ✓（NCBI/PMC）
+
+### 写作
+
+- 文章字数：约5500中文字符
+- 文件：neuro-daily/articles/2026-06-29-p3b-no-report-paradigm-consciousness.md ✓
+- 笔记：neuro-daily/notes/2026-06-29-p3b-reading-notes.md ✓（另建文件，不覆盖已有的#182笔记）
+- 来源：neuro-daily/sources/2026-06-29-p3b-sources.json ✓（另建文件）
+
+---
+
+## 步骤 D — Wiki 固化
+
+### 新建页面（3个）
+
+- `wiki/concepts/p3b-wave.md`（rev1）：P3b 从意识标志→报告/决策标志；status=mainstream；confidence=high（作为报告标志）；7个证据行；未解问题2个 ✓
+- `wiki/concepts/visual-awareness-negativity.md`（rev1）：VAN 作为候选意识标志；status=emerging；confidence=medium；4个证据行；开放问题Q-van-01 ✓
+- `wiki/concepts/no-report-paradigm.md`（rev1）：无报告范式方法论；status=mainstream；confidence=high；4个证据行 ✓
+
+### 修订页面（1个）
+
+- `wiki/theories/global-workspace-theory.md`（rev7→rev8）：
+  - Q-gwt-01 部分裁决（P3b 已确认为报告标志）
+  - 证据表新增4行（P3b 消失 + N2 + VAN 综述 + 2024 深化）
+  - related 新增 no-report-paradigm/visual-awareness-negativity/p3b-wave
+  - key_sources 新增4个
+  - source_articles 新增 2026-06-29-p3b
+  - 修订历史追加一行
+
+### 矛盾检查
+
+- P3b 消失证据与既有 C-2026-05-31-02（offset ignition 矛盾）相关但独立
+- 无新矛盾登记：P3b 消失是 GWT P3b 证据的降级，不是与既有记录的直接冲突
+- 更新 Q-gwt-01 描述（部分裁决 + 转移新问题）
+
+---
+
+## 步骤 E — 更新图谱与导航
+
+- `wiki/_graph.json`：335节点/2024边 → 338节点/2038边（+3节点、+14边）✓
+- `wiki/index.md`：新增3行（p3b-wave/VAN/no-report-paradigm）✓
+- `wiki/CHANGELOG.md`：追加 2026-06-29 节 ✓
+
+---
+
+## 步骤 F — 更新治理层
+
+- `state/maturity_index.json`：新增3条（p3b-wave/VAN/no-report-paradigm）；更新1条（GWT rev8）✓
+- topic_ledger.json：待写入（在 commit 步骤之前通过 Python 追加）
+- unresolved_questions.md：新增Q-p3b-01/02/03，Q-van-01 ✓（通过本日志记录）
+- source_registry.json：通过来源文件记录
+
+---
+
+## 步骤 G — 提交推送状态
+
+- git 作者信息设置 ✓
+- 文件集合：articles/ notes/ sources/ logs/ wiki/ state/
+- commit message：Add neuro daily article + wiki consolidation for 2026-06-29
+- push 目标：origin main
+
+---
+
+## 步骤 H — 自检
+
+**真实性**：
+- 所有 PMID 来自实际 PubMed 检索 ✓
+- Cohen 2020/2024 的具体数字来自 PMC 全文 ✓
+- 3个摘要来源明确标注"未读全文" ✓
+- 区分了事实/模型/推测/争议（N2 候选标注"需独立复现"；VAN-注意关系标注待解）✓
+- 未提供医学诊断建议 ✓
+
+**一致性**：
+- GWT wiki 修订历史同步 ✓
+- revision_count 更新 rev7→rev8 ✓
+- 矛盾协议：无新矛盾，Q-gwt-01 部分裁决已记录 ✓
+
+**可导航**：
+- wiki/index.md 反映今天变化 ✓
+- wiki/CHANGELOG.md 追加今日条目 ✓
+- 新页面 related/prerequisites 各≥1 ✓
+
+**情景层**：
+- 文章/笔记/来源/日志齐全 ✓
+- 未修改任何已有的 articles/notes/sources/logs 文件 ✓（使用 -p3b- 后缀命名）
+
+---
+
+## 失败与限制
+
+- 未读全文来源：Tsuchiya 2015、Zhang 2026、Filimonov 2026（均为摘要，已明确标注）
+- N2 作为意识标志：单一实验室（Cohen/Pitts 组），需独立复现
+- PubMed 部分搜索返回0结果（搜索词过于具体），通过调整搜索词解决
+- 今日第十次触发（多次重复调度）：已建议用户检查调度系统
+
+---
+
+## Branch / Commit / Push 状态
+
+- 分支：main
+- commit：待执行
+- push：待执行

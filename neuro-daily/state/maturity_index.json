@@ -102,8 +102,8 @@
     "page": "wiki/theories/global-workspace-theory.md",
     "status": "mainstream",
     "confidence": "medium",
-    "last_changed": "2026-05-30",
-    "reason": "初始创建：GWT 核心框架已是神经科学主流理论（多方法、多实验室证据），但 COGITATE 2025 挑战了 PFC 点燃的具体预测，P3b 地位存疑；confidence=medium 反映理论整体可靠但机制细节争议多"
+    "last_changed": "2026-06-29",
+    "reason": "修订 rev8 · #187 · Q-gwt-01 部分裁决：P3b 已确认为报告/决策标志（非意识标志），Cohen 2020 BF₁₀=0.001–0.05 强证据；VAN/N2 是替代候选意识标志；theory status 保持 mainstream（广播机制本身未被否定）；confidence 保持 medium（P3b 失效后 VAN 成主证据但 VAN-注意分离问题待解）"
   },
   {
     "slug": "consciousness-ignition",
@@ -997,5 +997,29 @@
     "confidence": "high",
     "last_changed": "2026-10-16",
     "change_reason": "创建新页面（Diering 2017 Science 核心证据；Diering 2022综述；Suzuki 2020遗传验证）"
+  },
+  {
+    "slug": "p3b-wave",
+    "page": "wiki/concepts/p3b-wave.md",
+    "status": "mainstream",
+    "confidence": "high",
+    "last_changed": "2026-06-29",
+    "reason": "新建 rev1 · #187 · P3b 作为报告/决策标志：mainstream（广泛使用但已知局限）；作为意识标志已被无报告范式实验否定（BF₁₀=0.001–0.05）；confidence=high 指其作为报告过程标志的可靠性，非其作为意识标志的可靠性"
+  },
+  {
+    "slug": "visual-awareness-negativity",
+    "page": "wiki/concepts/visual-awareness-negativity.md",
+    "status": "emerging",
+    "confidence": "medium",
+    "last_changed": "2026-06-29",
+    "reason": "新建 rev1 · #187 · VAN 作为视觉意识 NCC：emerging（2026 年系统综述 53 项研究支持，但单模态，VAN-注意分离问题待解）；confidence=medium（多实验室重复但方法论争议存在）"
+  },
+  {
+    "slug": "no-report-paradigm",
+    "page": "wiki/concepts/no-report-paradigm.md",
+    "status": "mainstream",
+    "confidence": "high",
+    "last_changed": "2026-06-29",
+    "reason": "新建 rev1 · #187 · 无报告范式方法论：mainstream（已被意识研究界广泛采用）；confidence=high（逻辑框架清晰，Cohen 2020 核心实验提供强证据）；主要局限：内部报告问题尚未完全解决"
   }
 ]

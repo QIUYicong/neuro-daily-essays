@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-06-28",
-  "node_count": 335,
-  "edge_count": 2024,
+  "updated": "2026-06-29",
+  "node_count": 338,
+  "edge_count": 2038,
   "edge_types": [
     "is-a",
     "part-of",
@@ -3065,6 +3065,33 @@
         "cognition",
         "developmental"
       ]
+    },
+    {
+      "id": "p3b-wave",
+      "title": "P3b 波（晚期正性波）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/p3b-wave.md"
+    },
+    {
+      "id": "visual-awareness-negativity",
+      "title": "视觉意识负性波（VAN）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/concepts/visual-awareness-negativity.md"
+    },
+    {
+      "id": "no-report-paradigm",
+      "title": "无报告范式",
+      "domain": "concepts",
+      "type": "method",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/no-report-paradigm.md"
     }
   ],
   "edges": [
@@ -14431,6 +14458,90 @@
       "to": "complementary-learning-systems",
       "type": "related",
       "note": "CLS框架中婴儿期是快速可塑性模式极度活跃的特殊发育状态"
+    },
+    {
+      "from": "p3b-wave",
+      "to": "global-workspace-theory",
+      "type": "related",
+      "note": "P3b 曾是 GWT 三大意识签名之一，无报告范式证明其反映报告而非感知意识"
+    },
+    {
+      "from": "p3b-wave",
+      "to": "working-memory",
+      "type": "mechanism-of",
+      "note": "P3b 可能主要反映工作记忆更新/报告决策过程"
+    },
+    {
+      "from": "p3b-wave",
+      "to": "no-report-paradigm",
+      "type": "related",
+      "note": "无报告范式揭示 P3b 不是意识本身的标志"
+    },
+    {
+      "from": "p3b-wave",
+      "to": "visual-awareness-negativity",
+      "type": "related",
+      "note": "VAN/N2 是比 P3b 更可靠的候选意识标志"
+    },
+    {
+      "from": "visual-awareness-negativity",
+      "to": "neural-correlates-of-consciousness",
+      "type": "is-a",
+      "note": "VAN 是目前视觉域最可靠的意识内容特异 NCC（2026 系统综述）"
+    },
+    {
+      "from": "visual-awareness-negativity",
+      "to": "no-report-paradigm",
+      "type": "related",
+      "note": "VAN 在无报告范式下依然出现，这是其作为意识标志的核心证据"
+    },
+    {
+      "from": "visual-awareness-negativity",
+      "to": "posterior-cortical-hot-zone",
+      "type": "related",
+      "note": "VAN 的枕颞来源与后方皮层热区解剖位置吻合"
+    },
+    {
+      "from": "visual-awareness-negativity",
+      "to": "attentional-blink",
+      "type": "related",
+      "note": "注意瞬盲范式中 VAN 的出现/消失是 GWT 最直接的感知意识分叉证据"
+    },
+    {
+      "from": "no-report-paradigm",
+      "to": "neural-correlates-of-consciousness",
+      "type": "mechanism-of",
+      "note": "无报告范式是寻找内容特异 NCC 的核心方法论工具"
+    },
+    {
+      "from": "no-report-paradigm",
+      "to": "global-workspace-theory",
+      "type": "related",
+      "note": "无报告范式挑战了 GWT 的 P3b 证据基础，推动其精化"
+    },
+    {
+      "from": "global-workspace-theory",
+      "to": "no-report-paradigm",
+      "type": "related",
+      "note": "无报告范式是检验 GWT 意识广播预测的关键方法"
+    },
+    {
+      "from": "global-workspace-theory",
+      "to": "visual-awareness-negativity",
+      "type": "related",
+      "note": "VAN/N2 提供了 P3b 之外的更早期感知意识信号，有助于精化 GWT 的时间模型"
+    },
+    {
+      "from": "global-workspace-theory",
+      "to": "p3b-wave",
+      "type": "related",
+      "note": "P3b 曾是 GWT 三大神经签名之一，现已被重新定性为报告/决策标志"
+    },
+    {
+      "from": "consciousness-ignition",
+      "to": "p3b-wave",
+      "type": "related",
+      "note": "P3b 可能是点燃后期报告阶段的标志，而非点燃本身"
     }
   ],
   "dangling_references": [

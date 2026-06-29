@@ -6,14 +6,14 @@ type: theory
 status: mainstream
 confidence: medium
 created: 2026-05-30
-updated: 2026-08-08
-revision_count: 7
+updated: 2026-06-29
+revision_count: 8
 dimensions: [whole-brain-network, cognition, brain-region, behavior]
-related: [consciousness-ignition, default-mode-network, predictive-coding, prefrontal-cortex, working-memory, dopamine-reward-prediction-error, competition-selection-principle, p3-wave, world-model, integrated-information-theory, posterior-cortical-hot-zone, attentional-blink, neural-correlates-of-consciousness, multiple-generator-hypothesis]
+related: [consciousness-ignition, default-mode-network, predictive-coding, prefrontal-cortex, working-memory, dopamine-reward-prediction-error, competition-selection-principle, p3b-wave, no-report-paradigm, visual-awareness-negativity, world-model, integrated-information-theory, posterior-cortical-hot-zone, attentional-blink, neural-correlates-of-consciousness, multiple-generator-hypothesis]
 prerequisites: [prefrontal-cortex, working-memory, action-potential, synaptic-transmission]
 opens_questions: [Q-gwt-01, Q-gwt-02, Q-gwt-03, Q-gwt-04, Q-gwt-05]
-source_articles: [2026-05-30-global-workspace-theory, 2026-05-31-week4-synthesis, 2026-05-31-integrated-information-theory, 2026-05-31-cogitate-adversarial-test-consciousness, 2026-05-31-attentional-blink, 2026-06-27-ncc-consciousness-where, 2026-08-08-ncc-debate-posterior-frontal-multiple-generators]
-key_sources: ["PMID:32135090", "PMID:24709604", "PMID:40307561", "PMID:36763595", "PMID:21521609", "PMID:9826734", "PMID:16158062", "PMID:15482443", "PMC:PMC12510449", "PMID:41080705", "PMID:41000147"]
+source_articles: [2026-05-30-global-workspace-theory, 2026-05-31-week4-synthesis, 2026-05-31-integrated-information-theory, 2026-05-31-cogitate-adversarial-test-consciousness, 2026-05-31-attentional-blink, 2026-06-27-ncc-consciousness-where, 2026-08-08-ncc-debate-posterior-frontal-multiple-generators, 2026-06-29-p3b-no-report-paradigm-consciousness]
+key_sources: ["PMID:32135090", "PMID:24709604", "PMID:40307561", "PMID:36763595", "PMID:21521609", "PMID:9826734", "PMID:16158062", "PMID:15482443", "PMC:PMC12510449", "PMID:41080705", "PMID:41000147", "PMID:32409620", "PMID:39535504", "PMID:26585549", "PMID:41616989"]
 ---
 
 # 全局工作空间理论 (Global Workspace Theory, GWT)
@@ -89,7 +89,10 @@ GWT 不只解释意识在哪里，也解释**为何有意识**（功能层）：
 | 有意识知觉产生 P3b；在麻醉/睡眠/注意失败时消失 | 多实验室 EEG；多范式复现 | PMID:24709604（全文） | 高 |
 | PFC 类别解码（~70% iEEG 精度，但仅 0.2–0.4s，无身份/方向） | COGITATE 2025 iEEG | PMID:40307561（全文） | 中（部分支持，远低于"广播全内容"预测） |
 | Offset ignition 完全缺失（0/655 前额叶电极） | COGITATE 2025 iEEG 预注册检验 | PMID:40307561（全文） | 高（支持零假设） |
-| P3b 在无报告范式中消失 → 可能反映报告/决策 | 无报告范式 EEG（Cohen et al. 2024） | DOI:10.1093/cercor/bhae415 | 中（争议中） |
+| **P3b 在无报告条件完全消失**（报告可见 7.98 µV vs. 无报告可见 −0.39 µV；BF₁₀=0.001–0.05） | 视觉掩蔽 + 报告/无报告 EEG（Cohen et al. 2020） | PMID:32409620（全文） | 高（强证据：P3b 不是意识标志） |
+| N2（250-290ms）在有/无报告条件均非线性追踪感知意识（F=52.19 区分 P3b vs N2） | SOA 梯度设计（Cohen et al. 2024） | PMID:39535504（全文） | 中（需独立复现） |
+| VAN 是视觉 ERP 最可靠意识 NCC；P3b 反映后感知过程（53 项研究系统综述） | 系统综述（Filimonov et al. 2026） | PMID:41616989（摘要） | 高（集体证据） |
+| P3b 在无报告范式中消失 → **已确认**反映报告/决策（上条为 2020 年核心证据，本条为 2024 年补充） | 无报告范式 EEG（Cohen et al. 2024） | DOI:10.1093/cercor/bhae415 = PMID:39535504 | 中→高（2020 确认，2024 深化） |
 | 注意瞬盲：感觉处理完全相同条件下 ~270ms 前额-顶叶分叉 | MEG 高时间分辨率（注意瞬盲范式，有/无意识内部对照） | PMID:16158062（摘要） | 高（GWT 最直接的有/无分叉神经证据） |
 | 注意瞬盲可见度双峰分布（全有全无行为支持） | 连续量表 + 注意瞬盲范式 | PMID:15482443（摘要） | 中（Eiserbeck 2022, PMID:34435621 有争议） |
 | 注意瞬盲 vs 掩蔽神经机制可分：瞬盲作用于感觉后广播阶段 | Kanizsa + EEG 解码 | PMID:40310881（eLife 2025, 开放全文） | 高 |
@@ -108,7 +111,7 @@ GWT 不只解释意识在哪里，也解释**为何有意识**（功能层）：
 
 ## 未解问题
 
-- **Q-gwt-01**（高优先级）：P3b 是意识本身的标志，还是有意识知觉之后的报告/决策过程的标志？无报告范式数据令人担忧。
+- **Q-gwt-01**（高优先级→**部分已裁决**）：P3b **已确认**是报告/决策过程的标志，而非感知意识本身（Cohen et al. 2020 PMID:32409620，BF₁₀=0.001–0.05；Filimonov et al. 2026 系统综述 53 项研究共识）。**新转移问题**：VAN/N2 是真正的感知意识标志还是注意标志？（见 wiki/concepts/visual-awareness-negativity.md，Q-van-01）
 - **Q-gwt-02**（高优先级）：前额叶在意识中的精确角色——广播触发器、内容维持者、还是仅仅是报告系统？COGITATE 2025 需要更精细的解释。
 - **Q-gwt-03**（高优先级）：意识真的是全有全无的吗？是否存在"部分意识"状态？
 - **Q-gwt-04**（中优先级）：GWT 与预测编码（PC）能否整合为统一框架？具体整合点在哪里？
@@ -139,6 +142,7 @@ COGITATE 2025 确认了 GWT 的一个**非平凡预测**：有意识刺激即使
 - 2026-05-31 · 修订 · 基于《注意瞬盲：当意识成为稀缺资源》(#36) · 新增注意瞬盲相关证据行（270ms 神经分叉、双峰分布、掩蔽 vs 瞬盲分离）；新增 attentional-blink 到 related 和连接节；注意瞬盲是 COGITATE 未能检验的 GWT 核心有/无意识分叉场景的直接证据
 - 2026-06-27 · 修订 · 基于《意识在哪里？》(#63) · 新增 NCC 三分法框架定位（GWT 主要描述使能 NCC + 完整 NCC）；补充 GNW 回应论文（PMC12510449）的四个关键论点（偏移点燃非核心预测；PFC 解码困难原因；阈限刺激范式是真正检验；脑范围广播被确认）；新增 neural-correlates-of-consciousness 到 related；新增 PMC12510449 到 key_sources
 - 2026-08-08 · 修订 · 基于《意识的分水岭在何处》(#107) · 新增 PMID:41080705 GNW 回应论文作为独立引用条目（已注册于 key_sources 但前次未列详细 PMID）；新增 MGH (PMID:41000147) 提供的框架：GWT 描述的广播机制可能是"多重发生器"之一；新增 multiple-generator-hypothesis 到 related；注记 C-2026-05-31-02 矛盾焦点已转移到 GWT 的可证伪标准问题；revision_count=7
+- 2026-06-29 · 修订 · 基于《P3b 的消失》(#187) · **Q-gwt-01 部分裁决**：P3b 已确认为报告/决策标志（不是意识标志）——Cohen et al. 2020（PMID:32409620）提供极强贝叶斯证据（BF₁₀=0.001–0.05），Filimonov et al. 2026 系统综述53项研究形成共识；新增 N2/VAN 作为替代候选意识标志；新增 no-report-paradigm、visual-awareness-negativity、p3b-wave 到 related；新增4行证据表（P3b 消失 + N2 候选 + VAN 综述 + 2024 深化）；更新 Q-gwt-01 描述（转移到 VAN/注意分离问题）；新增4个 key_sources；revision_count=8
 
 ### GWT 作为世界模型的意识广播层
 

@@ -1,0 +1,191 @@
+{
+  "article_date": "2026-06-29",
+  "article_number": 187,
+  "article_slug": "2026-06-29-p3b-no-report-paradigm-consciousness",
+  "article_title": "P3b 的消失：无报告范式如何动摇意识研究三十年的核心标志",
+  "sources": [
+    {
+      "id": "S1",
+      "pmid": "24709604",
+      "pmcid": "PMC5635963",
+      "title": "Toward a computational theory of conscious processing",
+      "authors": "Dehaene S, Charles L, King JR, Marti S",
+      "journal": "Curr Opin Neurobiol",
+      "year": 2014,
+      "volume": "25",
+      "pages": "76-84",
+      "doi": "10.1016/j.conb.2013.12.005",
+      "open_access": true,
+      "full_text_read": true,
+      "usage": "GWT 理论框架；P3b 作为意识签名的建立",
+      "key_claims_used": [
+        "三大意识神经签名：P3b、晚期皮层放大、长程 gamma/beta 同步",
+        "意识知觉是全有或全无的非线性临界翻转"
+      ]
+    },
+    {
+      "id": "S2",
+      "pmid": "32135090",
+      "pmcid": "PMC8770991",
+      "title": "Conscious Processing and the Global Neuronal Workspace Hypothesis",
+      "authors": "Mashour GA, Roelfsema P, Changeux JP, Dehaene S",
+      "journal": "Neuron",
+      "year": 2020,
+      "volume": "105",
+      "issue": "5",
+      "pages": "776-798",
+      "doi": "10.1016/j.neuron.2020.01.026",
+      "open_access": true,
+      "full_text_read": true,
+      "usage": "GNW 综述；麻醉证据；P3b 作为意识标志的 2020 前共识",
+      "key_claims_used": [
+        "麻醉药物破坏工作空间功能连接（跨药类一致）",
+        "有意识处理需要前额叶-顶叶持续激活 + 感觉区反馈"
+      ]
+    },
+    {
+      "id": "S3",
+      "pmid": "26585549",
+      "pmcid": null,
+      "title": "No-Report Paradigms: Extracting the True Neural Correlates of Consciousness",
+      "authors": "Tsuchiya N, Wilke M, Frässl S, Lamme VAF",
+      "journal": "Trends Cogn Sci",
+      "year": 2015,
+      "volume": "19",
+      "issue": "12",
+      "pages": "757-770",
+      "doi": "10.1016/j.tics.2015.10.002",
+      "open_access": false,
+      "full_text_read": false,
+      "usage": "无报告范式奠基性综述；核心方法论框架",
+      "note": "未读全文；从摘要提取核心论点",
+      "key_claims_used": [
+        "报告行为本身产生额外神经信号，偏置 NCC 搜索",
+        "无报告范式作为对照条件的必要性"
+      ]
+    },
+    {
+      "id": "S4",
+      "pmid": "32409620",
+      "pmcid": "PMC7326348",
+      "title": "Distinguishing the Neural Correlates of Perceptual Awareness and Postperceptual Processing",
+      "authors": "Cohen MA, Ortego K, Kyroudis A, Pitts M",
+      "journal": "J Neurosci",
+      "year": 2020,
+      "volume": "40",
+      "issue": "25",
+      "pages": "4973-4982",
+      "doi": "10.1523/JNEUROSCI.0120-20.2020",
+      "open_access": true,
+      "full_text_read": true,
+      "usage": "核心实验：P3b 在无报告条件消失的定量证据",
+      "key_claims_used": [
+        "报告可见 P3b = 7.98 µV；无报告可见 P3b = −0.39 µV",
+        "交互效应 F(1,19) = 151.13，BF₁₀ = 0.001–0.05",
+        "P3b 追踪报告行为，不追踪感知意识"
+      ]
+    },
+    {
+      "id": "S5",
+      "pmid": "39535504",
+      "pmcid": "PMC11558846",
+      "title": "Neural signatures of visual awareness independent of postperceptual processing",
+      "authors": "Cohen MA, Dembski C, Ortego K, Steinhibler C, Pitts M",
+      "journal": "Cereb Cortex",
+      "year": 2024,
+      "volume": "34",
+      "issue": "11",
+      "pages": "bhae415",
+      "doi": "10.1093/cercor/bhae415",
+      "open_access": true,
+      "full_text_read": true,
+      "usage": "N2 成分作为候选意识标志",
+      "key_claims_used": [
+        "N2（250-290ms，额中央）在报告和无报告条件下均非线性追踪感知意识",
+        "P3b 在无报告条件消失（F=52.19，p<0.001）",
+        "P1 线性追踪，N2 非线性追踪——分离感知意识与刺激强度"
+      ]
+    },
+    {
+      "id": "S6",
+      "pmid": "33849946",
+      "pmcid": "PMC8260252",
+      "title": "Dissociating Perceptual Awareness and Postperceptual Processing: The P300 Is Not a Reliable Marker of Somatosensory Target Detection",
+      "authors": "Schröder P, Nierhaus T, Blankenburg F",
+      "journal": "J Neurosci",
+      "year": 2021,
+      "volume": "41",
+      "issue": "19",
+      "pages": "4215-4225",
+      "doi": "10.1523/JNEUROSCI.2950-20.2021",
+      "open_access": true,
+      "full_text_read": true,
+      "usage": "体感觉域 P300/N140 分离；跨模态验证",
+      "key_claims_used": [
+        "N140（~150ms）是第一个可靠感知探测标志",
+        "P300 在有/无意识情况下均出现（无调制），非感知标志"
+      ]
+    },
+    {
+      "id": "S7",
+      "pmid": "42061591",
+      "pmcid": null,
+      "title": "Distinct frontal lobe subregions mediate the emergence and reporting of visual consciousness",
+      "authors": "Zhang Y, Li X, Jin Z, Zhang J, Li L",
+      "journal": "NeuroImage",
+      "year": 2026,
+      "volume": "298",
+      "pages": "121964",
+      "doi": "10.1016/j.neuroimage.2026.121964",
+      "open_access": false,
+      "full_text_read": false,
+      "usage": "额叶亚区功能分离证据；DAN vs. DMN/FPN",
+      "note": "未读全文；从摘要提取核心发现",
+      "key_claims_used": [
+        "DAN 支持意识涌现，独立于报告",
+        "DMN 和 FPN 仅在显式报告时参与"
+      ]
+    },
+    {
+      "id": "S8",
+      "pmid": "41616989",
+      "pmcid": null,
+      "title": "New evidence and challenges in ERP and MEG correlates of consciousness in vision: A systematized review",
+      "authors": "Filimonov D, Koivisto M, Revonsuo A",
+      "journal": "NeuroImage",
+      "year": 2026,
+      "volume": "295",
+      "pages": "121762",
+      "doi": "10.1016/j.neuroimage.2026.121762",
+      "open_access": false,
+      "full_text_read": false,
+      "usage": "VAN 作为最可靠视觉意识 ERP 标志的系统综述共识",
+      "note": "53 项研究系统综述；未读全文；摘要提取核心结论",
+      "key_claims_used": [
+        "VAN 是目前视觉 ERP 中最可靠的意识 NCC",
+        "P3b/晚期正性波反映意识以外的多重过程"
+      ]
+    }
+  ],
+  "source_count": 8,
+  "open_access_count": 5,
+  "full_text_count": 5,
+  "abstract_only_count": 3,
+  "search_queries": [
+    "PubMed: P3b consciousness no-report paradigm",
+    "PubMed: no-report paradigm consciousness neural correlates awareness EEG",
+    "PubMed: visual awareness negativity VAN consciousness ERP",
+    "PMC full text: PMC7326348 (Cohen 2020)",
+    "PMC full text: PMC11558846 (Cohen 2024)"
+  ],
+  "official_sources": [
+    "NCBI PubMed: pubmed.ncbi.nlm.nih.gov",
+    "PubMed Central: pmc.ncbi.nlm.nih.gov"
+  ],
+  "excluded_sources": "Sci-Hub 或其他绕过 paywall 的来源未使用",
+  "limitations": [
+    "S3 (Tsuchiya 2015)、S7 (Zhang 2026)、S8 (Filimonov 2026) 仅读取摘要，未获开放全文",
+    "N2 作为意识标志（S5）为单一实验室发现，需独立复现",
+    "主要证据来自视觉模态和 EEG；fMRI/iEEG 的相应无报告范式证据相对有限"
+  ]
+}

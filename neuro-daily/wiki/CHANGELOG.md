@@ -4,6 +4,24 @@
 
 ---
 
+## 2026-06-29 · 文章 #187 · P3b 的消失：无报告范式如何动摇意识研究三十年的核心标志
+
+**新建页面（3个）**：
+
+- `wiki/concepts/p3b-wave.md` rev1：P3b 波——从"意识金标准"重新定性为"报告/决策过程标志"；核心证据 Cohen et al. 2020（PMID:32409620，BF₁₀=0.001–0.05 强支持零假设）；status: mainstream；confidence: high（作为报告标志）
+- `wiki/concepts/visual-awareness-negativity.md` rev1：VAN——2026 年系统综述（53 项研究）确认为"视觉 ERP 最可靠意识 NCC"；枕颞分布；无报告条件持续出现；status: emerging；confidence: medium
+- `wiki/concepts/no-report-paradigm.md` rev1：无报告范式——意识研究的方法论框架；解耦感知意识与报告决策的核心工具；status: mainstream；confidence: high
+
+**修订页面（1个）**：
+
+- `wiki/theories/global-workspace-theory.md` rev7→rev8：Q-gwt-01 部分裁决（P3b 已确认为报告标志，非意识标志）；新增 4 行证据表（P3b 消失 + N2 候选 + VAN 综述 + 2024 深化）；新增 no-report-paradigm/visual-awareness-negativity/p3b-wave 到 related；新增4个 key_sources（PMID:32409620/39535504/26585549/41616989）
+
+**矛盾（0个新登记）**：P3b 问题与既有 C-2026-05-31-02 相关但不直接冲突——C-2026-05-31-02 聚焦 offset ignition 与 COGITATE，P3b 消失的无报告证据是独立挑战维度，已在 GWT 页面证据表中记录
+
+**图谱变化**：335节点/2024边 → **338节点/2038边**（+3节点：p3b-wave/visual-awareness-negativity/no-report-paradigm；+14边）
+
+---
+
 ## 2026-06-28 · 文章 #186 · 婴儿遗忘症的神经科学：为什么我们不记得自己两岁以前的事情
 
 **修订页面（1个）**：

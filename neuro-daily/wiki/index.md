@@ -137,6 +137,9 @@
 - 🟢 [超直接通路](concepts/hyperdirect-pathway.md) — rIFG/preSMA→STN单突触直接制动回路（2.2 ms，~25 m/s）；跳过纹状体；STN→GPi发散投射产生全局运动抑制；与间接通路形成速度vs精度互补 **[NEW 2026-08-19]**
 - 🟢 [γ振荡（30–80 Hz）](concepts/gamma-oscillations.md) — ING（纯抑制网络）与 PING（兴奋-抑制反馈）双机制；GABA-A τ_decay 是振荡频率的分子时钟（τ≈5ms→快γ，τ≈15ms→慢γ）；Sohal/Cardin 2009 光遗传学因果证明；PV/SST 双贡献；精神分裂症 GAD67 级联 **[NEW 2026-06-05 · 修订 rev4 2026-07-20]**
 - 🔵 [意识点燃](concepts/consciousness-ignition.md) — 全有全无的非线性临界翻转；~270-300ms 前额顶叶激活；注意双要求机制；P3b EEG标志（地位存疑）；GWT核心机制节点 **[修订 2026-05-31]**
+- 🟢 [P3b 波（晚期正性波）](concepts/p3b-wave.md) — 曾是 GWT 三大意识签名之一；无报告范式实验（Cohen 2020 BF₁₀=0.001–0.05）证明其反映报告/决策过程而非感知意识本身；N2/VAN 是替代候选标志 **[NEW 2026-06-29]**
+- 🟢 [视觉意识负性波（VAN）](concepts/visual-awareness-negativity.md) — 枕颞 150–300ms 负电位；2026 年系统综述（53 项研究）确认为"视觉 ERP 最可靠意识 NCC"；无报告条件持续出现 **[NEW 2026-06-29]**
+- 🟢 [无报告范式](concepts/no-report-paradigm.md) — 意识研究方法论：感知刺激而无显式报告要求，解耦感知与决策的神经信号；揭示 P3b 是报告标志而非意识标志 **[NEW 2026-06-29]**
 - 🔵 [注意瞬盲](concepts/attentional-blink.md) — GWT 最直接的有/无意识分叉检验；RSVP T1 后 200–500ms 内 T2 感知抑制；感觉处理相同条件下 ~270ms 前额顶叶神经分叉（Sergent 2005）；填补 COGITATE 遗留的方法论缺口 **[NEW 2026-05-31]**
 - 🟡 [世界模型](concepts/world-model.md) — 大脑对外部世界和自身状态维护的当前最佳贝叶斯估计；八层分层贝叶斯预测机器架构；五月月报整合后修订 **[修订 2026-05-31]**
 - 🟢 [变分自编码器](concepts/variational-autoencoder.md) — Kingma & Welling 2014的深度生成模型；ELBO（重建误差 + KL散度）目标与弗里斯顿变分自由能数学等价；编码器≈识别模型 $q(z|x)$，解码器≈生成模型 $p(x|z)$；两者都在解同一个贝叶斯推理问题 **[NEW 2026-07-13]**
