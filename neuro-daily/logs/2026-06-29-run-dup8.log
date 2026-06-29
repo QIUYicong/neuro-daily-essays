@@ -1,0 +1,69 @@
+# 运行日志 · 2026-06-29（第九次触发 · 重复检测 #8）
+
+## 基本信息
+
+- 运行时间：2026-06-29 UTC+8（计划触发 / 第九次调用）
+- 执行模型：claude-sonnet-4-6（Claude Code 远程执行环境）
+- 运行结果：**重复检测 — 今日文章已存在，知识库状态正常，无新内容产出**
+
+---
+
+## 检测结果
+
+今日（2026-06-29 UTC+8）知识库状态已完整（同前各次检测结果一致）：
+
+| 文件 | 说明 |
+|------|------|
+| `articles/2026-06-29-acetylcholine-hippocampal-memory-gate.md` | #182 乙酰胆碱双重使命（正式文章，步骤 A–H 全部完成）|
+| `articles/2026-06-29-tau-pathology-alzheimer.md` | 历史批次 #65（旧系统编号，已在台账）|
+| `logs/2026-06-29-run.log` | 首次完整运行（创建 #182）|
+| `logs/2026-06-29-run-morning.log` | 重复检测 #1 |
+| `logs/2026-06-29-run-dup2.log` | 重复检测 #2 |
+| `logs/2026-06-29-run-dup3.log` | 重复检测 #3 |
+| `logs/2026-06-29-run-dup4.log` | 重复检测 #4 |
+| `logs/2026-06-29-run-dup5.log` | 重复检测 #5 |
+| `logs/2026-06-29-run-dup6.log` | 重复检测 #6（第七次调用）|
+| `logs/2026-06-29-run-dup7.log` | 重复检测 #7（第八次调用）|
+| `logs/2026-06-29-run-dup8.log` | 本文件 · 重复检测 #8（第九次调用）|
+
+---
+
+## 知识库当前状态快照
+
+- 最新 commit：`72b09da`（"Log eighth duplicate detection for 2026-06-29 (repeated scheduling — 8 invocations today)"）
+- 文章 #182 原始 commit：`2406214`
+- 本地 / 远端同步：完全同步
+- 知识库总文章数：186（已提交至分支）
+- wiki 节点：335 个 / 边：2024 条
+- topic_ledger 最新条目：2026-06-29（#182，已完整记录）
+- open 矛盾：5 条（unchanged）
+
+---
+
+## 判定依据
+
+按 ROUTINE.md 原则：
+
+> "不要反复生成同一天文章，除非 ROUTINE.md 明确要求补写或修复当天任务。"
+
+今日文章 #182（乙酰胆碱的双重使命）在首次运行（commit `2406214`）中已完成全部步骤 A–H，无任何未完成任务或修复需求。
+
+**重要提示**：今日（2026-06-29）已累计触发 **9 次**调度运行，产生 9 个日志文件，其中仅 1 次（首次）有实质性产出，后续 8 次均为重复检测空运行。建议用户检查调度系统配置，排查重复触发原因（例如：多个 cron 表达式同时激活、GitHub Actions workflow dispatch 重复调用、时区配置导致边界重触发等）。
+
+---
+
+## 下次运行预期
+
+- 预计下次正式运行：**2026-06-30 09:00 UTC+8**
+- 届时将进入正式选题、检索、写作流程
+- topic_ledger #182 建议的候选主题：
+  - `normalization-model`（皮层规范化计算，高优先悬空引用）
+  - `global-workspace-theory`（深化，意识子图核心节点 degree=28，medium confidence）
+  - `synaptic-tagging-capture`（与 ACh 编码门控回路整合）
+- 也可以从 `unresolved_questions.md` 中的高优先级开放问题选题（Q-ms-ebv-mechanism、Q-neurogenesis-forgetting-human 等）
+
+---
+
+## 本次运行总结
+
+无新内容产出。今日任务已由 commit `2406214` 完整完成。知识库处于健康、同步状态。
