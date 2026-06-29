@@ -1,0 +1,76 @@
+# 运行日志 · 2026-06-29（第六次触发 · 重复检测）
+
+## 基本信息
+
+- 运行时间：2026-06-29 09:00 UTC+8（计划 09:00 触发 / 第六次调用）
+- 执行模型：claude-sonnet-4-6（Claude Code 远程执行环境）
+- 运行结果：**重复检测 — 今日文章已存在，知识库状态正常**
+
+---
+
+## 检测结果
+
+今日（2026-06-29 UTC+8）已存在以下文章及完整流程记录：
+
+| 文件 | 说明 |
+|------|------|
+| `articles/2026-06-29-acetylcholine-hippocampal-memory-gate.md` | #182 乙酰胆碱双重使命 |
+| `articles/2026-06-29-tau-pathology-alzheimer.md` | 历史批次 #65（旧系统编号）|
+| `logs/2026-06-29-run.log` | 首次完整运行（创建 #182，步骤 A–H 全完成）|
+| `logs/2026-06-29-run-morning.log` | 计划 09:00 触发（重复检测 #1）|
+| `logs/2026-06-29-run-dup2.log` | 重复检测 #2 |
+| `logs/2026-06-29-run-dup3.log` | 重复检测 #3 |
+| `logs/2026-06-29-run-dup4.log` | 重复检测 #4 |
+| `logs/2026-06-29-run-dup5.log` | 本文件 · 重复检测 #5（第六次调用）|
+
+---
+
+## 知识库当前状态快照
+
+- 最新 commit：`74272d8`（"Log fifth duplicate detection for 2026-06-29 (07:59 UTC+8)"）
+- 文章 #182 原始 commit：`2406214`
+- 知识库总文章数：186（已提交至 main）
+- wiki 节点：约 335 个
+- wiki 图谱最后更新：2026-06-28（图谱 header）/ 实际修订含 2026-06-29
+- topic_ledger 条目：174
+- main 分支：健康，推送正常
+
+---
+
+## 判定依据
+
+按 ROUTINE.md 原则：
+
+> 不要反复生成同一天文章，除非 ROUTINE.md 明确要求补写或修复当天任务。
+
+今日文章 #182（乙酰胆碱的双重使命）在首次运行中已完成：
+- 步骤 C（检索→阅读→写文章）✓
+- 步骤 D（固结：新建 wiki/neurons/septohippocampal-cholinergic.md；修订 acetylcholine-cortex, theta-oscillations, sharp-wave-ripples）✓
+- 步骤 E（图谱+导航更新）✓
+- 步骤 F（治理层更新：topic_ledger, unresolved_questions, source_registry, monthly_synthesis）✓
+- 步骤 G（commit + push 至 origin/main）✓
+- 步骤 H（自检通过）✓
+
+无需补写或重新执行。
+
+---
+
+## 触发频率说明
+
+今日（2026-06-29 UTC+8）共收到 6 次调用，均为重复触发（scheduled + manual）。
+系统行为符合预期：每次重复触发均仅写日志，不重复生成文章。
+推荐检查调度系统是否存在重复触发配置，减少不必要的资源消耗。
+
+---
+
+## 下次运行预期
+
+- 预计下次正式运行：2026-06-30 09:00 UTC+8
+- 届时日期 = 2026-06-30，无台账正式记录的 2026-06-30 文章（历史批次文件 `2026-06-30-thalamic-burst-t-type-calcium-timing-gate.md` 存在但无 topic_ledger 条目）
+- 到时应评估：是否将历史批次文件纳入台账，或围绕 2026-06-30 正式主题重新选题写作
+
+---
+
+## 本次运行总结
+
+无新内容产出。今日任务已由 commit `2406214` 完整完成。
