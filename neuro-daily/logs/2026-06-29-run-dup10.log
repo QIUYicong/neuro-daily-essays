@@ -1,0 +1,48 @@
+# 重复检测日志 · 2026-06-29 (第11次调度触发)
+
+## 基本信息
+
+- 检测时间：2026-06-29 UTC
+- 调度触发次数：≥11（本日第11次运行）
+- 执行模型：claude-sonnet-4-6（Claude Code 远程执行环境）
+- 分支：main（与 claude/funny-einstein-tqyk5r 指向同一 HEAD）
+
+## 重复检测结论
+
+**今日任务已完成，无需重复执行。**
+
+当日已有文章：
+
+1. `articles/2026-06-29-acetylcholine-hippocampal-memory-gate.md`（#182）
+2. `articles/2026-06-29-tau-pathology-alzheimer.md`
+3. `articles/2026-06-29-p3b-no-report-paradigm-consciousness.md`（#187，最新，主文章）
+
+最新提交：`a11697e` — "Add neuro daily article + wiki consolidation for 2026-06-29"
+提交时间：Mon Jun 29 08:24:14 2026 +0000
+
+topic_ledger 最新条目：#187（p3b-no-report-paradigm-consciousness，2026-06-29）
+
+## 检测逻辑
+
+- git log 显示最近提交为 a11697e，内容为今日 P3b 文章
+- neuro-daily/articles/ 下存在 3 个 2026-06-29 文章文件
+- topic_ledger.json 末条日期为 2026-06-29，文章编号 #187
+- 今日已存在 dup2~dup9 日志（9条）+ run.log + run-morning.log，本次为第11次
+
+## 不执行原因
+
+- 今日正式文章已写入并提交推送
+- ROUTINE.md 明确：无变化则不空提交，在日志记"no changes"
+- 系统说明：不要反复生成同一天文章，除非 ROUTINE.md 明确要求补写或修复
+
+## 建议
+
+若调度器持续在同一天触发多次，建议检查 cron 配置，确认触发器不会在同一 UTC+8 日期内重复激活。
+
+## 今日文章摘要（仅供参考）
+
+**#187：P3b 的消失：无报告范式如何动摇意识研究三十年的核心标志**
+- 核心问题：P3b 是意识本身的神经标志，还是仅反映报告决策过程？
+- 新建 wiki 页：p3b-wave.md、visual-awareness-negativity.md、no-report-paradigm.md
+- 修订：theories/global-workspace-theory.md（rev7→rev8）
+- 图谱：335→338 节点，2024→2038 边
