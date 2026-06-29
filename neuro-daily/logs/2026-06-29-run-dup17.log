@@ -1,0 +1,32 @@
+# 重复运行检测日志 · 2026-06-29 (第18次调用 / dup17)
+
+## 检测结果
+
+- 日期（UTC+8）：2026-06-29
+- 当前运行序号：第 18 次调用（今日）
+- 今日已存在文章：3 篇
+
+## 已存在的今日文章
+
+1. `articles/2026-06-29-acetylcholine-hippocampal-memory-gate.md` — #182 乙酰胆碱的双重使命
+2. `articles/2026-06-29-p3b-no-report-paradigm-consciousness.md` — P3b 消失与意识研究
+3. `articles/2026-06-29-tau-pathology-alzheimer.md` — Tau 病理与阿尔茨海默病
+
+## 决定
+
+今日文章已完整写入并推送至 main（commit a11697e），无需重新生成。本次为重复调度，仅记录本日志。
+
+## ⚠ 调度问题持续（第18次触发）
+
+今日已触发 ≥18 次，属严重异常。建议仓库管理者检查 GitHub Actions / 调度触发器并发配置：
+
+```yaml
+concurrency:
+  group: neuro-daily
+  cancel-in-progress: true
+```
+
+## 推送状态
+
+- 本次推送内容：仅本日志文件
+- 无文章、wiki、状态文件变动
