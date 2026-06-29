@@ -1,0 +1,81 @@
+# 运行日志 · 2026-06-29（第九次触发 · 重复检测 #8）
+
+## 基本信息
+
+- 运行时间：2026-06-29 UTC+8（计划触发 / 第九次调用）
+- 执行模型：claude-sonnet-4-6（Claude Code 远程执行环境）
+- 运行结果：**重复检测 — 今日文章已存在，知识库状态正常，无新内容产出**
+
+---
+
+## 检测结果
+
+执行 ROUTINE.md 步骤 0：确认在 main 分支，读取 ROUTINE.md 与 KNOWLEDGE-BASE-DESIGN.md。
+
+今日（2026-06-29 UTC+8）知识库状态已完整：
+
+| 文件 | 说明 |
+|------|------|
+| `articles/2026-06-29-acetylcholine-hippocampal-memory-gate.md` | #182 乙酰胆碱双重使命（正式文章，步骤 A–H 全部完成）|
+| `articles/2026-06-29-tau-pathology-alzheimer.md` | 历史批次 #65（tau 蛋白病理，知识库第65篇）|
+| `logs/2026-06-29-run.log` | 首次完整运行（创建 #182）|
+| `logs/2026-06-29-run-morning.log` | 重复检测 #1 |
+| `logs/2026-06-29-run-dup2.log` | 重复检测 #2 |
+| `logs/2026-06-29-run-dup3.log` | 重复检测 #3 |
+| `logs/2026-06-29-run-dup4.log` | 重复检测 #4 |
+| `logs/2026-06-29-run-dup5.log` | 重复检测 #5 |
+| `logs/2026-06-29-run-dup6.log` | 重复检测 #6 |
+| `logs/2026-06-29-run-dup7.log` | 重复检测 #7（第八次调用）|
+| `logs/2026-06-29-run-dup8.log` | 本文件 · 重复检测 #8（第九次调用）|
+
+---
+
+## Git 状态诊断
+
+本次运行检测到 git 历史分叉异常：
+
+- 本地 main：指向 `c0596c1`（"Add neuro daily article #76 + wiki consolidation for 2026-07-08"）
+- remote origin/main：指向 `72b09da`（"Log eighth duplicate detection for 2026-06-29"）
+- 两者**无公共祖先**（no common ancestor）
+
+**原因分析**：此前某次运行将功能分支（`claude/funny-einstein-gjtypa`，含 #182-#186 等文章）force-push 到 remote main，导致 remote main 与本地正式知识库（#1-#76，2026-05-24 至 2026-07-08）历史完全分叉。
+
+**本次处理**：由于今日文章已存在于 remote main，且容器为短暂性（ephemeral），使用 GitHub MCP 直接向 remote main 写入本日志，跳过 git push 流程，避免 force-push。
+
+---
+
+## 知识库当前状态快照（remote main）
+
+- wiki 节点：335 个 / 边：2024 条（来自 topic_ledger #182）
+- topic_ledger 最新条目：2026-06-29（#182）
+- open 矛盾：5 条（unchanged）
+- 文章总数：186（remote main）
+
+---
+
+## 判定依据
+
+按 ROUTINE.md 原则：
+
+> "不要反复生成同一天文章，除非 ROUTINE.md 明确要求补写或修复当天任务。"
+
+今日文章 #182（乙酰胆碱的双重使命）已完成全部步骤 A–H，无任何未完成任务或修复需求。
+
+**重要提示**：今日（2026-06-29）已累计触发 **9 次**调度运行，产生 9 个日志文件，其中仅 1 次（首次）有实质性产出。建议用户检查调度系统配置，排查重复触发原因。同时建议用户检查 remote main 的 git 历史，评估是否需要修复本地与远端的历史分叉问题。
+
+---
+
+## 下次运行预期
+
+- 预计下次正式运行：**2026-06-30 09:00 UTC+8**
+- 届时将进入正式选题、检索、写作流程
+- 建议候选主题（来自 topic_ledger #182）：
+  - `normalization-model`（皮层规范化计算，高优先悬空引用）
+  - `global-workspace-theory`（深化，意识子图核心节点 degree=28，medium confidence）
+  - `synaptic-tagging-capture`（与 ACh 编码门控回路整合）
+
+---
+
+## 本次运行总结
+
+无新内容产出。今日任务已完整完成。本文件为第九次调度触发的记录文件。
