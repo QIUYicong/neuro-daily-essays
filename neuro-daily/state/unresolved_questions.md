@@ -1,6 +1,58 @@
 # 未解问题追踪
 
-*最后更新：2026-06-28*
+*最后更新：2026-10-17*
+
+---
+
+## 2026-10-17 新增（来自"当受体失去支架" 文章 #177）
+
+### Q-mglur-ltd-01（高优先级）：PICK1 在 mGluR-LTD 中是否真正必要？
+
+- **关联 wiki**：[[mglur-ltd]]、[[ampa-receptor]]、[[arc-arg31]]
+- **来源文章**：2026-10-17-mglur-ltd-hippocampal-fragile-x
+- **问题**：PICK1 被认为是 mGluR-LTD 的关键内化执行蛋白（结合磷酸化 GluA2-Ser880 → 招募内吞机器）。但不同实验室的 PICK1 KO/阻断数据不一致——部分报告 PICK1 缺失完全阻断 LTD，另一些发现仅部分减弱或无影响。这种不一致是否反映了体内/体外差异、诱导强度差异、还是 PICK1 冗余的存在？
+- **当前证据状态**：GluA2-Ser880-PICK1 结合：高（生化结合确立）；PICK1 KO 对 mGluR-LTD 的影响：中（不同实验室数据不一致）；PICK1 体内必要性：待确立
+- **为什么重要**：澄清 PICK1 角色将确定它是 mGluR-LTD 的核心必要节点还是冗余旁路，直接影响其作为 FXS 等疾病的治疗靶点可行性。
+
+### Q-mglur-ltd-02（高优先级）：体内 mGluR-LTD 的自然诱导条件是什么？
+
+- **关联 wiki**：[[mglur-ltd]]、[[ca2-hippocampus]]、[[social-memory]]
+- **来源文章**：2026-10-17-mglur-ltd-hippocampal-fragile-x
+- **问题**：mGluR-LTD 在体外可被 DHPG 药理浸浴或 PP-LFS 电生理诱导。但体内哪种行为/认知操作会激活 mGluR5 至足以触发 LTD 的程度？社会识别记忆（CA2 区 mGluR-LTD）是目前最清晰的体内例子（Samadi 2023），但海马 CA1 的体内诱导条件仍不明。频率依赖的突触溢出（spillover）是否是在体谷氨酸到达 mGluR5 的关键机制？
+- **当前证据状态**：药理/电生理诱导：确立；CA2 社会记忆体内诱导：新兴（Samadi 2023）；CA1 体内诱导条件：未知
+- **为什么重要**：明确体内诱导条件才能理解 mGluR-LTD 在正常认知中的生理功能，及其在 FXS 等疾病中过度激活的背景。
+
+### Q-mglur-ltd-03（中优先级）：FXS 是否存在对 mGluR5 拮抗剂响应的亚群？
+
+- **关联 wiki**：[[fragile-x-syndrome]]、[[mglur-ltd]]
+- **来源文章**：2026-10-17-mglur-ltd-hippocampal-fragile-x
+- **问题**：mavoglurant Phase 2b RCT 未达主要终点（Berry-Kravis 2016，n=314）。但 FXS 表型变异极大（55–200 次 CGG 前突变者 vs >200 次完全突变者，FMRP 蛋白水平差异显著）。是否存在一个对 mGluR5 拮抗剂有响应的 FXS 亚群（如：较年轻、发育关键期内、FMRP 残余表达较高的患者）？候选生物标志物是什么（EEG Gamma/Alpha 比值？血清 FMRP？CGG 重复数？）？
+- **当前证据状态**：总人群临床试验（阴性）：高（RCT）；亚群响应分析：未完成；预测生物标志物：候选，未验证
+- **为什么重要**：precision medicine 方法可能从 FXS 群体中识别真实受益亚群，避免再次重蹈"正确机制、错误人群"的覆辙。
+
+### Q-mglur-ltd-04（中优先级）：mGluR-LTD 的蛋白合成靶标是否超越 Arc？
+
+- **关联 wiki**：[[mglur-ltd]]、[[arc-arg31]]、[[protein-synthesis-dependent-plasticity]]
+- **来源文章**：2026-10-17-mglur-ltd-hippocampal-fragile-x
+- **问题**：mGluR-LTD 需要树突局部蛋白合成（翻译抑制剂完全阻断）。Arc/Arg3.1 是最清楚的新合成效应蛋白（召唤 dynamin/endophilin 执行内吞）。但 FMRP 还靶向抑制 MAP1B、STEP、CaMKIIα 等 mRNA。MAP1B 在树突棘结构稳定中的角色、STEP（Striatal-Enriched Protein Tyrosine Phosphatase，GluA2-Tyr876 去磷酸化）的因果贡献是否对 mGluR-LTD 的某一成分（启动/持续/空间特异性）有独立贡献？
+- **当前证据状态**：Arc 因果贡献：高（KO 完全消除 mGluR-LTD 的内吞成分）；MAP1B/STEP 独立贡献：推断，缺乏急性阻断实验
+- **为什么重要**：明确 mGluR-LTD 的完整新合成蛋白组将揭示 FMRP 翻译刹车的完整功能范围，并可能发现新的 FXS 治疗靶点。
+
+### Q-fxs-developmental-window（高优先级）：mGluR5 干预在 FXS 中的发育关键期窗口
+
+- **关联 wiki**：[[fragile-x-syndrome]]、[[mglur-ltd]]
+- **来源文章**：2026-10-17-mglur-ltd-hippocampal-fragile-x
+- **问题**：mavoglurant 临床试验针对 12-45 岁患者（12-17 岁青少年和 18-45 岁成人）。如果 FXS 突触功能障碍在早期发育中驱动了不可逆的回路重构，成年后的干预是否已错过最佳窗口？早期干预（学龄前，<6岁）的 mGluR5 拮抗剂安全性和有效性如何？儿童大脑的代偿机制是否会掩盖 mGluR5 拮抗剂的效果（向上还是向下）？
+- **当前证据状态**：发育期敏感性：推断（小鼠模型 early treatment 更有效，但直接人类证据缺失）；早期干预 RCT：无（目前最小年龄 12 岁）
+- **为什么重要**：FXS 基因诊断在出生后可立即获得（新生儿扩展筛查），如果存在关键期效应，最佳治疗时机可能是大脑最具可塑性的婴幼儿阶段。
+
+### Q-fxs-biomarker（中优先级）：预测 FXS 对 mGluR5 干预响应的生物标志物
+
+- **关联 wiki**：[[fragile-x-syndrome]]、[[mglur-ltd]]
+- **来源文章**：2026-10-17-mglur-ltd-hippocampal-fragile-x
+- **问题**：能否用神经成像（fMRI 功能连接，特别是海马-前额叶回路）或 EEG（异常 Gamma 振荡已在 FXS 中报道）或血清/脑脊液生物标志物（FMRP 蛋白水平？CGG 甲基化程度？mGluR5 PET？）预测哪些患者对 mGluR5 干预有响应？这些生物标志物是否在 FXS 小鼠模型中也有对应指标并能预测治疗效果？
+- **当前证据状态**：候选生物标志物（Gamma EEG、FMRP 水平）：初步证据；预测效度：未在 RCT 中验证
+- **为什么重要**：精准分层将提高 FXS 未来临床试验的成功率，并可能为其他神经发育障碍的转化研究提供方法论范本。
 
 ---
 

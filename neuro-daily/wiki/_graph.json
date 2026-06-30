@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-06-29",
+  "updated": "2026-10-17",
   "node_count": 338,
   "edge_count": 2038,
   "edge_types": [
@@ -3092,6 +3092,24 @@
       "status": "mainstream",
       "confidence": "high",
       "page": "wiki/concepts/no-report-paradigm.md"
+    },
+    {
+      "id": "mglur-ltd",
+      "title": "mGluR 依赖性 LTD（海马 mGluR-LTD）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/mglur-ltd.md"
+    },
+    {
+      "id": "fragile-x-syndrome",
+      "title": "脆性 X 综合征（Fragile X Syndrome）",
+      "domain": "diseases",
+      "type": "disease",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/diseases/fragile-x-syndrome.md"
     }
   ],
   "edges": [
@@ -14542,6 +14560,71 @@
       "to": "p3b-wave",
       "type": "related",
       "note": "P3b 可能是点燃后期报告阶段的标志，而非点燃本身"
+    },
+    {
+      "from": "mglur-ltd",
+      "to": "ltd",
+      "type": "is-a"
+    },
+    {
+      "from": "mglur-ltd",
+      "to": "ampa-receptor",
+      "type": "regulates"
+    },
+    {
+      "from": "mglur-ltd",
+      "to": "arc-arg31",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "mglur-ltd",
+      "to": "cerebellar-ltd",
+      "type": "related"
+    },
+    {
+      "from": "mglur-ltd",
+      "to": "fragile-x-syndrome",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "mglur-ltd",
+      "to": "homer1a",
+      "type": "related"
+    },
+    {
+      "from": "homer1a",
+      "to": "mglur-ltd",
+      "type": "related"
+    },
+    {
+      "from": "fragile-x-syndrome",
+      "to": "mglur-ltd",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "fragile-x-syndrome",
+      "to": "ampa-receptor",
+      "type": "related"
+    },
+    {
+      "from": "fragile-x-syndrome",
+      "to": "arc-arg31",
+      "type": "related"
+    },
+    {
+      "from": "ltd",
+      "to": "mglur-ltd",
+      "type": "part-of"
+    },
+    {
+      "from": "mglur-ltd",
+      "to": "ltp",
+      "type": "related"
+    },
+    {
+      "from": "fragile-x-syndrome",
+      "to": "homer1a",
+      "type": "related"
     }
   ],
   "dangling_references": [

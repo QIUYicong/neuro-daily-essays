@@ -6,13 +6,13 @@ type: mechanism
 status: mainstream
 confidence: high
 created: 2026-10-16
-updated: 2026-10-16
-revision_count: 1
+updated: 2026-10-17
+revision_count: 2
 dimensions: [molecular, synaptic, cellular, cognition]
 related: [ampa-receptor, arc-arg31, adenosine, norepinephrine-locus-coeruleus, synaptic-scaling, homeostatic-plasticity, mglur-ltd, slow-wave-sleep, flip-flop-switch-sleep-wake, circadian-clock]
 prerequisites: [ampa-receptor, synaptic-transmission, adenosine, norepinephrine-locus-coeruleus]
 opens_questions: [Q-homer1a-01, Q-homer1a-02, Q-homer1a-03, Q-homer1a-04]
-source_articles: [2026-10-16-homer1a-arc-sleep-ampa-downscaling]
+source_articles: [2026-10-16-homer1a-arc-sleep-ampa-downscaling, 2026-10-17-mglur-ltd-hippocampal-fragile-x]
 key_sources: ["PMID:28154077", "PMC:5382711", "PMID:36632309", "PMC:9826981", "PMID:30923476", "PMC:6430175", "PMID:39163472", "PMC:11364421"]
 ---
 
@@ -77,7 +77,7 @@ Martin, Monroe, Diering 2019 (PMC6430175) 表明：
 - [[arc-arg31]] — Homer1a 与 Arc 协同：前者松动，后者执行内吞；共同完成睡眠期突触权重下调
 - [[adenosine]] — 腺苷 A1R 是 Homer1a 进入 PSD 的主要推动信号（Process S 到分子机制的桥梁）
 - [[norepinephrine-locus-coeruleus]] — NA 高水平是 Homer1a 进入 PSD 的屏障；入睡时 LC 静默 → NA 降→ 屏障解除
-- [[mglur-ltd]] — Homer1a 的作用靶点是 mGluR1/5，与 mGluR-LTD 共享受体，但机制不同（睡眠模式是解耦而非激活 LTD 级联）
+- [[mglur-ltd]] — Homer1a 解耦 mGluR5 信号（睡眠期：mGluR5 无法触发 IP3→PKCβ→GluA2-Ser880 级联）；mGluR-LTD 则是 mGluR5 **主动激活**该级联的结果——两者共享受体，机制相反。FXS 中 Homer1a 病理性升高可能通过慢性解调 mGluR5 信号平衡而参与 LTD 失调。详见 [[fragile-x-syndrome]]。
 - [[slow-wave-sleep]] — Homer1a 进入 PSD 发生在 NREM 慢波睡眠期；REM 不是必需的
 - [[synaptic-scaling]] — 睡眠依赖的突触削减（Homer1a/GluA1 通路）与经典突触缩放（GluA2 通路）是两套独立但互补的稳态机制
 - [[flip-flop-switch-sleep-wake]] — Homer1a 的门控状态（NA 屏障 vs 腺苷推动）是翻转开关状态的分子读出
@@ -93,6 +93,7 @@ Martin, Monroe, Diering 2019 (PMC6430175) 表明：
 ## 修订历史
 
 - 2026-10-16 · 创建 · 基于《睡眠如何修剪突触：Homer1a 与 Arc 的分子协奏》(#176) · 初始置信度：高 · 综合 Diering 2017 (Science), Diering 2022, Martin 2019, Liu 2024
+- 2026-10-17 · 修订 · 基于《当受体失去支架》(#177) · 深化 [[mglur-ltd]] 连接说明：明确 Homer1a 解耦（睡眠/被动）vs mGluR-LTD 激活（清醒/主动）的对比；新增 FXS 中 Homer1a 病理性升高的潜在机制参与；添加 [[fragile-x-syndrome]] 参考
 
 ## 来源文章
 

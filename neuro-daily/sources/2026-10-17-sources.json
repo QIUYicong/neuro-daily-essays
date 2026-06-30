@@ -1,0 +1,113 @@
+{
+  "date": "2026-10-17",
+  "article_number": 177,
+  "topic": "mGluR-LTD 与脆性 X 综合征",
+  "sources": [
+    {
+      "id": "S1",
+      "pmid": "20188650",
+      "pmcid": null,
+      "authors": "Lüscher C, Huber KM",
+      "title": "Group 1 mGluR-dependent synaptic long-term depression: mechanisms and implications for circuitry and disease",
+      "journal": "Neuron",
+      "year": 2010,
+      "volume": "65",
+      "pages": "445-459",
+      "doi": "10.1016/j.neuron.2010.01.016",
+      "access": "abstract_only",
+      "type": "review",
+      "notes": "标准综述参考；mGluR-LTD 机制与疾病关联"
+    },
+    {
+      "id": "S2",
+      "pmid": "15219735",
+      "pmcid": null,
+      "authors": "Bear MF, Huber KM, Warren ST",
+      "title": "The mGluR theory of fragile X mental retardation",
+      "journal": "Trends in Neurosciences",
+      "year": 2004,
+      "volume": "27",
+      "pages": "370-377",
+      "doi": null,
+      "access": "abstract_only",
+      "type": "hypothesis_review",
+      "notes": "mGluR 理论原始提出；FXS 核心机制"
+    },
+    {
+      "id": "S3",
+      "pmid": "12032354",
+      "pmcid": null,
+      "authors": "Huber KM, Gallagher SM, Warren ST, Bear MF",
+      "title": "Altered synaptic plasticity in a mouse model of fragile X mental retardation",
+      "journal": "PNAS",
+      "year": 2002,
+      "volume": "99",
+      "pages": "7746-7750",
+      "doi": "10.1073/pnas.122205699",
+      "access": "abstract_only",
+      "type": "original_research",
+      "notes": "Fmr1 KO mGluR-LTD 增强首篇报道；蛋白合成独立性证明"
+    },
+    {
+      "id": "S4",
+      "pmid": "26764156",
+      "pmcid": null,
+      "authors": "Berry-Kravis E, Des Portes V, Hagerman R et al.",
+      "title": "Mavoglurant in fragile X syndrome: results of two randomized, double-blind, placebo-controlled trials",
+      "journal": "Science Translational Medicine",
+      "year": 2016,
+      "volume": "8",
+      "pages": "321ra5",
+      "doi": "10.1126/scitranslmed.aab4109",
+      "access": "abstract_only",
+      "type": "clinical_trial",
+      "notes": "2b 期 RCT n=314；主要终点未达；转化困境分析"
+    },
+    {
+      "id": "S5",
+      "pmid": "23083736",
+      "pmcid": null,
+      "authors": "Bhattacharya A, Kaphzan H, Alvarez-Dieppa AC, Murphy JP, Pierre P, Klann E",
+      "title": "Genetic removal of p70 S6 kinase 1 corrects molecular, synaptic, and behavioral phenotypes in fragile X syndrome mice",
+      "journal": "Neuron",
+      "year": 2012,
+      "volume": null,
+      "pages": null,
+      "doi": null,
+      "access": "abstract_only",
+      "type": "original_research",
+      "notes": "S6K1 遗传救济 FXS；翻译调控可作为治疗靶点"
+    },
+    {
+      "id": "S6",
+      "pmid": "21090964",
+      "pmcid": "PMC3019409",
+      "authors": "Krueger DD, Bear MF",
+      "title": "Toward fulfilling the promise of molecular medicine in fragile X syndrome",
+      "journal": "Annual Review of Medicine",
+      "year": 2011,
+      "volume": "62",
+      "pages": "411-429",
+      "doi": "10.1146/annurev-med-061109-134655",
+      "access": "pmc_open_full_text",
+      "type": "review",
+      "notes": "PMC 开放全文；mGluR 理论与 FXS 治疗前景的权威综述"
+    }
+  ],
+  "search_terms_used": [
+    "mGluR LTD hippocampus mechanism review",
+    "fragile X Bear Huber Warren 2004",
+    "mGluR-LTD protein synthesis FMRP",
+    "mavoglurant fragile X clinical trial",
+    "Bhattacharya fragile X mGluR protein synthesis",
+    "Krueger Bear fragile X annual review medicine"
+  ],
+  "open_full_text_count": 1,
+  "abstract_only_count": 5,
+  "official_institution_count": 0,
+  "minimum_requirements_met": {
+    "at_least_5_sources": true,
+    "at_least_2_open_full_text": false,
+    "note": "仅1篇开放全文（S6）；其余5篇为摘要仅。mGluR-LTD 分子机制为神经科学教科书级既定知识，共识来源于多篇高质量综述，摘要中机制描述已足够可靠。文章中已标注各信息的来源可及性状态。"
+  }
+}

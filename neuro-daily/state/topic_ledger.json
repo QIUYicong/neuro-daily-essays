@@ -11534,6 +11534,70 @@
         "attention-consciousness-dissociation（建立）——VAN 与注意的分离：TAE/PB/IB 范式家族对比",
         "visual-masking-methods（建立）——CFS/SSVEP/闪现抑制 vs 掩蔽：无报告范式的方法论对比"
       ]
+    },
+    {
+      "date": "2026-10-17",
+      "article_number": 177,
+      "title": "当受体失去支架：mGluR-LTD 与脆性 X 综合征的翻译刹车失控",
+      "slug": "mglur-ltd-hippocampal-fragile-x",
+      "core_question": "mGluR5 如何通过完整的信号级联驱动 AMPA 受体内化？为什么这套机制在脆性 X 综合征中失控？从动物模型到人类临床为何存在巨大转化鸿沟？",
+      "layers": [
+        "molecular",
+        "synaptic",
+        "cellular",
+        "disease",
+        "cognition"
+      ],
+      "topic_tags": [
+        "mGluR5",
+        "mGluR-LTD",
+        "FMRP",
+        "FMR1",
+        "fragile-x-syndrome",
+        "LTD",
+        "AMPA-receptor",
+        "GluA2",
+        "GRIP1",
+        "PICK1",
+        "Arc",
+        "Homer1a",
+        "protein-synthesis",
+        "mavoglurant",
+        "Bear-mGluR-theory",
+        "synaptic-plasticity",
+        "intellectual-disability"
+      ],
+      "wiki_created": [
+        "concepts/mglur-ltd.md (rev1)",
+        "diseases/fragile-x-syndrome.md (rev1)"
+      ],
+      "wiki_revised": [
+        "concepts/ltd.md rev4→rev5",
+        "concepts/homer1a.md rev1→rev2"
+      ],
+      "open_questions_added": [
+        "Q-mglur-ltd-01",
+        "Q-mglur-ltd-02",
+        "Q-mglur-ltd-03",
+        "Q-mglur-ltd-04",
+        "Q-fxs-developmental-window",
+        "Q-fxs-biomarker"
+      ],
+      "main_sources": [
+        "PMID:20188650",
+        "PMID:15219735",
+        "PMID:12032354",
+        "PMID:26764156",
+        "PMID:23083736",
+        "PMID:21090964",
+        "PMCID:PMC3019409"
+      ],
+      "next_suggested_topics": [
+        "fmrp-translational-repressor（建立）——FMRP 作为 RNA 结合蛋白的完整机制：G 四链体识别、mRNA 靶标组、mGluR5 激活驱动的磷酸化/泛素化降解",
+        "cerebellar-ltd（深化）——mGluR1-PKC-GluA2-Ser880-PICK1 级联与海马 mGluR-LTD 的比较；进化保留的执行器逻辑",
+        "grip1（建立）——GRIP1/2 作为 GluA2 突触锚定蛋白：PDZ 结构域、GluA2-Ser880 磷酸化解离机制、在 LTD 和 mGluR-LTD 中的共同角色",
+        "protein-synthesis-dependent-plasticity（建立）——树突局部蛋白质合成作为突触可塑性晚期表达的普遍机制：Arc/MAP1B/CaMKIIα 等靶 mRNA 的翻译调控"
+      ]
     }
   ]
 }

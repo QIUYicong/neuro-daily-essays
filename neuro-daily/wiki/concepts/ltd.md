@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-04
-updated: 2026-08-05
-revision_count: 4
+updated: 2026-10-17
+revision_count: 5
 dimensions: [molecular, synaptic, cellular, cognition]
-related: [ltp, nmda-receptor, ampa-receptor, camkii, calcineurin, arc-arg31, hebbian-learning, mglur-ltd, memory-consolidation, engram-cells, cerebellar-ltd, cerebellum, astrocyte, tripartite-synapse, gliotransmitter, d-serine, endocannabinoid-system, cb1-receptor, stdp]
+related: [ltp, nmda-receptor, ampa-receptor, camkii, calcineurin, arc-arg31, hebbian-learning, mglur-ltd, memory-consolidation, engram-cells, cerebellar-ltd, cerebellum, astrocyte, tripartite-synapse, gliotransmitter, d-serine, endocannabinoid-system, cb1-receptor, stdp, fragile-x-syndrome]
 prerequisites: [synaptic-transmission, nmda-receptor, ampa-receptor, ltp]
-opens_questions: [Q-ltd-nmda-metabotropic, Q-ltd-long-term-maintenance, Q-ltd-behavior-extinction, Q-ltd-glua2-redundancy, Q-ecb-01]
-source_articles: [2026-06-04-ltd-long-term-depression, 2026-07-02-astrocyte-tripartite-synapse, 2026-08-05-endocannabinoid-retrograde-signaling]
-key_sources: ["PMID:24183021", "PMID:19169250", "PMID:25429259", "PMID:19690847", "PMID:15450156", "PMID:15219735", "PMID:34334233", "PMID:23040807", "PMID:16776579"]
+opens_questions: [Q-ltd-nmda-metabotropic, Q-ltd-long-term-maintenance, Q-ltd-behavior-extinction, Q-ltd-glua2-redundancy, Q-ecb-01, Q-mglur-ltd-01, Q-mglur-ltd-02]
+source_articles: [2026-06-04-ltd-long-term-depression, 2026-07-02-astrocyte-tripartite-synapse, 2026-08-05-endocannabinoid-retrograde-signaling, 2026-10-17-mglur-ltd-hippocampal-fragile-x]
+key_sources: ["PMID:24183021", "PMID:19169250", "PMID:25429259", "PMID:19690847", "PMID:15450156", "PMID:15219735", "PMID:34334233", "PMID:23040807", "PMID:16776579", "PMID:20188650", "PMID:12032354"]
 ---
 
 # 长时程抑制 (Long-Term Depression, LTD)
@@ -62,7 +62,9 @@ LTD 不只是单一机制——不同脑区、不同突触类型使用不同的�
 - mGluR 激活 → 解除 FMRP 对 Arc mRNA 的翻译抑制 → Arc 局部合成
 - Arc 与 dynamin 和 endophilin 结合 → 促进网格蛋白介导的 AMPAR 内吞
 
-**脆性 X 综合征联系**：FMRP 缺失 → Arc 等 LTD 相关蛋白持续过度翻译 → mGluR-LTD 失控激活 → 突触权重弥漫性减弱（Bear, Huber & Warren 2004 mGluR 理论）
+**完整信号级联**（2026-10-17 新增）：mGluR5 → Gαq → PLCβ → IP3+DAG → ER Ca²⁺+PKCβ → GluA2 Ser880 磷酸化 → GRIP 解离 → PICK1 结合 → AMPAR 网格蛋白介导内吞。详见专页 [[mglur-ltd]]。
+
+**脆性 X 综合征联系**：FMRP 缺失 → Arc 等 LTD 相关蛋白持续过度翻译 → mGluR-LTD 失控激活 → 突触权重弥漫性减弱（Bear, Huber & Warren 2004 mGluR 理论，PMID:15219735）。详见 [[fragile-x-syndrome]]。mavoglurant（mGluR5 拮抗剂）2b 期 RCT（n=314）2016 年未达主要终点，揭示动物模型到人类的转化鸿沟。
 
 ### 星形胶质细胞介导的 LTD（新认识）
 
@@ -132,8 +134,10 @@ LTD 不只是单一机制——不同脑区、不同突触类型使用不同的�
 - 2026-06-23 · 修订 · 基于《小脑的秘密》· 加入小脑 LTD 独特性说明（mGluR1/PKC 路径，与 NMDA-LTD 并列）；新增 related: cerebellar-ltd, cerebellum；新增连接段落
 - 2026-07-02 · 修订 · 基于《大脑的第三方》(#68) · 新增星形胶质细胞介导 LTD 的三条路径（D-丝氨酸、ATP/腺苷、eCB-CB1R）；关键证据表新增 PMID:34334233；related 新增 astrocyte、tripartite-synapse、gliotransmitter、d-serine；连接段落新增四条
 - 2026-08-05 · 修订 · 基于《逆行的信使》(#104) · 深化 eCB-LTD 的专用机制说明：Gβγ→Cav2.2（DSI/短时程）vs Gαi→cAMP/PKA→RIM1α（eCB-LTD/长时程）的分叉；新增 iLTD/eLTD 两类；关键证据新增 PMID:23040807、PMID:16776579；opens_questions 新增 Q-ecb-01；related 新增 endocannabinoid-system、cb1-receptor、stdp
+- 2026-10-17 · 修订 · 基于《当受体失去支架》(#177) · mGluR-LTD 节增加完整级联（Gαq→PLCβ→IP3→PKCβ→GluA2-Ser880→GRIP→PICK1）和专页链接 [[mglur-ltd]]；新增 FXS 联系（mavoglurant RCT 失败）和 [[fragile-x-syndrome]] 链接；opens_questions 新增 Q-mglur-ltd-01/02；related 新增 fragile-x-syndrome；key_sources 新增 PMID:20188650/12032354
 
 ## 来源文章
 
 - [[2026-06-04-ltd-long-term-depression]]
 - [[2026-08-05-endocannabinoid-retrograde-signaling]]
+- [[2026-10-17-mglur-ltd-hippocampal-fragile-x]]

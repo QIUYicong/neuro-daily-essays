@@ -4,6 +4,29 @@
 
 ---
 
+## 2026-10-17 · 文章 #177 · 当受体失去支架：mGluR-LTD 与脆性 X 综合征的翻译刹车失控
+
+**新建页面（2个）**：
+
+- `wiki/concepts/mglur-ltd.md` rev1：mGluR 依赖性 LTD（海马 mGluR-LTD）——mGluR5→Gαq→PLCβ→IP3→ER Ca²⁺→PKCβ→GluA2-Ser880 磷酸化→GRIP1/2 解离→PICK1 内化完整信号级联；蛋白合成依赖（Arc/Arg3.1 局部新合成，翻译抑制剂完全阻断）；与 NMDA-LTD 比较；与小脑 LTD 共享效应器（PKC-GluA2-Ser880-PICK1）但亚型和上游 Ca²⁺ 来源不同；status: established；confidence: high
+- `wiki/diseases/fragile-x-syndrome.md` rev1：脆性 X 综合征（FXS）——FMR1 CGG 重复扩增（>200次）→ 甲基化沉默 → FMRP 缺失 → 树突 mRNA 翻译刹车丧失 → mGluR-LTD 蛋白合成独立增强；Bear mGluR 理论（PMID:15219735）；Huber et al. 2002 FMR1 KO 小鼠脑片直接证据；mavoglurant（AFQ056）Phase 2b RCT（Berry-Kravis 2016，n=314）未达主要终点揭示转化鸿沟；Homer1a 在 FXS 中病理性升高的新兴机制；status: established；confidence: high
+
+**修订页面（3个）**：
+
+- `wiki/concepts/ltd.md` rev4→rev5：深化 mGluR-LTD 段（完整级联细节+链接 [[mglur-ltd]] 和 [[fragile-x-syndrome]]）；新增 fragile-x-syndrome 到 related 列表；新增 Q-mglur-ltd-01/Q-mglur-ltd-02 到 opens_questions；新增 2026-10-17 来源文章；新增 PMID:20188650、PMID:12032354 到 key_sources；新增 mavoglurant RCT 失败注记
+- `wiki/concepts/homer1a.md` rev1→rev2：深化 [[mglur-ltd]] 连接（明确 Homer1a 解耦（被动睡眠） vs mGluR-LTD 激活（主动清醒）对比）；新增 FXS 中 Homer1a 病理性升高的潜在贡献；新增 [[fragile-x-syndrome]] 参考；新增 2026-10-17 来源文章
+- `wiki/index.md` 页眉→页眉+2条目：更新统计（340节点/2051边，340主题页）；新增 mglur-ltd 和 fragile-x-syndrome 两个条目
+
+**矛盾（0个新登记）**：mavoglurant RCT 失败（阴性 RCT）已在 fragile-x-syndrome.md 和 mglur-ltd.md 中标注置信度"高（负性结果）"；与 Bear mGluR 理论（动物验证，置信度中-高）形成临床转化悖论，但不构成内部矛盾，已在两处明确标注
+
+**悬空引用填补（2个）**：
+- `mglur-ltd`：homer1a.md 中存在悬空引用，今日创建 wiki/concepts/mglur-ltd.md 填补
+- `fragile-x-syndrome`：mglur-ltd.md 和 homer1a.md 中的新建引用，今日创建 wiki/diseases/fragile-x-syndrome.md 填补
+
+**图谱变化**：338节点/2038边 → **340节点/2051边**（+2节点：mglur-ltd / fragile-x-syndrome；+13边：mglur-ltd→ltd is-a / mglur-ltd→ampa-receptor regulates / mglur-ltd→arc-arg31 mechanism-of / mglur-ltd→cerebellar-ltd related / mglur-ltd→fragile-x-syndrome mechanism-of / mglur-ltd→homer1a related / homer1a→mglur-ltd related / fragile-x-syndrome→mglur-ltd mechanism-of / fragile-x-syndrome→ampa-receptor related / fragile-x-syndrome→arc-arg31 related / ltd→mglur-ltd part-of / mglur-ltd→ltp related / fragile-x-syndrome→homer1a related）
+
+---
+
 ## 2026-06-29 · 文章 #187 · P3b 的消失：无报告范式如何动摇意识研究三十年的核心标志
 
 **新建页面（3个）**：

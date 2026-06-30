@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-06-28（第185篇·新生神经元的双面刃·模式分离与神经发生介导的遗忘）· 主题页总数：**327**（新建1页：concepts/infantile-amnesia；修订2页：concepts/adult-neurogenesis rev4, concepts/pattern-separation rev4；图谱335节点/2021边）
+> 最后更新：2026-10-17（第177篇·当受体失去支架·mGluR-LTD 与脆性 X 综合征）· 主题页总数：**340**（新建2页：concepts/mglur-ltd、diseases/fragile-x-syndrome；修订3页：concepts/ltd rev5, concepts/homer1a rev2；图谱340节点/2051边）
 
 ---
 
@@ -121,6 +121,7 @@
 - 🟢 [钙调磷酸酶（Calcineurin / PP2B）](concepts/calcineurin.md) — 高亲和力 Ca²⁺ 磷酸酶，中低 Ca²⁺ 时激活，是 NMDA-LTD 磷酸酶级联的第一步；与 CaMKII 构成 LTP/LTD 方向性的分子开关 **[NEW 2026-06-04]**
 - 🟢 [Arc/Arg3.1（活动调控的细胞骨架相关蛋白）](concepts/arc-arg31.md) — 突触活动量规器：mGluR-LTD 的执行蛋白（dynamin/endophilin 内吞）；同时参与 L-LTP 巩固（肌动蛋白稳定）；突触稳态的分子感受器；病毒样衣壳自组装可包裹mRNA在神经元间转运（Ashley/Pastuzyn 2018）；睡眠期**逆向突触标记**（绕开 pCaMKIIβ 印迹突触，优先内吞安静突触 AMPAR）**[修订 rev3 2026-10-16]**
 - 🔵 [Homer1a](concepts/homer1a.md) — 短亚型 Homer1 即早基因，mGluR1/5-IP3R 支架的显性负调控子；**双门控**：NA（清醒时排除 PSD）+ 腺苷 A1R（睡眠时引导入 PSD）；驱动睡眠依赖的 GluA1 特异性突触缩减（Diering 2017 Science）；与 Arc 协同实现 SHY 分子执行 **[NEW 2026-10-16]**
+- 🟢 [mGluR 依赖性 LTD（mGluR-LTD）](concepts/mglur-ltd.md) — mGluR5→Gαq→PLCβ→IP3→ER Ca²⁺→PKCβ→GluA2-Ser880→GRIP 解离→PICK1→AMPAR 内吞完整级联；蛋白合成依赖（Arc 局部新合成）；脆性 X 综合征中 FMRP 翻译刹车丧失→LTD 过度激活；与小脑 LTD 共享执行器（GluA2-Ser880-PKC-PICK1）但使用不同 mGluR 亚型；Homer1a 解耦（被动睡眠）与 mGluR-LTD 激活（主动清醒）逻辑相反 **[NEW 2026-10-17]**
 - 🟢 [工作记忆](concepts/working-memory.md) — 容量~4项的临时信息维持系统；γ爆发（活动性编码）+ STP突触易化（静默储存）双机制；依赖dlPFC吸引子回路、PV-γ轴和多巴胺D1调节 **[NEW 2026-06-05]**
 - 🔵 [混合选择性](concepts/mixed-selectivity.md) — dlPFC 神经元对多变量交叉项的非线性响应；高维化表征支持任意规则组合的线性可读出；Rigotti 2013 证明维度降低预测行为错误；认知弹性的编码基础 **[NEW 2026-08-24]**
 - 🔵 [认知稳定性—弹性权衡](concepts/stability-flexibility-tradeoff.md) — 工作记忆系统的基本计算约束；BG-PFC-dACC 网络的三角解决方案；OCD/ADHD/精神分裂症/PD 的四种失调模式 **[NEW 2026-08-24]**
@@ -361,6 +362,7 @@
 - 🟢 [成瘾（物质使用障碍）](diseases/addiction.md) — 成瘾是习惯系统被病理性招募的极端案例；Koob-Volkow三阶段模型（狂欢→戒断负性情感→执念期待）；腹侧→背侧纹状体控制权迁移（Everitt-Robbins框架）；Berridge-Robinson激励敏化：wanting↑/liking↓解耦；ΔFosB分子棘轮（每次用药阶梯式蓄积，数周不降解）；渴望孵化现象；Zapata 2010 DLS直接因果证据；习惯易感性预测严重度（Giuliano 2021）**[NEW 2026-09-27]**
 - 🟢 [肌萎缩侧索硬化症（ALS）](diseases/als-amyotrophic-lateral-sclerosis.md) — TDP-43 核清除是 ALS 统一病理标志（>97%）；C9orf72 三叉毒矛（LOF/RNA foci/DPR）；poly-GR/PR 毒性最强且与 TDP-43 特异共定位；UNC13A/STMN2 隐蔽外显子是 TDP-43 LOF 的关键下游；运动神经元四重脆弱性（超长轴突/低钙缓冲/高Ca²⁺通透AMPA/持续皮质驱动）；tofersen-SOD1-ALS 临床里程碑 **[NEW 2026-09-11]**
 - 🟢 [发作性睡病 1 型（NT1）](diseases/narcolepsy.md) — 外侧下丘脑食欲素神经元 T 细胞介导自身免疫选择性毁损（85–95%）→ 翻转开关失去稳定器 → 清醒-睡眠-REM 边界溶解；HLA-DQB1*06:02 携带者风险升高 251 倍（82–99% 患者阳性）；Latorre 2018 Nature 19/19 CD4+ T 细胞直接证据；Ollila 2023 GWAS 13 新位点（PRF1/CD207/IFNAR1/TCR）；猝倒机制（VMM 路径）；CSF Hcrt-1 ≤110 pg/mL 诊断标准；OX2R 激动剂 Phase II/III **[NEW 2026-10-15]**
+- 🟢 [脆性 X 综合征（FXS）](diseases/fragile-x-syndrome.md) — FMR1 CGG 重复扩增→FMRP 缺失→树突 mRNA 翻译刹车丧失→mGluR-LTD 过度激活→AMPAR 过度内化→认知障碍；Bear mGluR 理论（PMID:15219735）；mavoglurant Phase 2b RCT（n=314）未达终点揭示动物模型到人类临床的转化困境 **[NEW 2026-10-17]**
 - 🟢 [多发性硬化（MS）](diseases/multiple-sclerosis.md) — CNS 自身免疫性炎性脱髓鞘病；T/B 细胞攻击髓鞘/OL → 传导延迟/时序离散/STDP 窗口失配；双相：炎症期（RRMS，ocrelizumab 有效 PMID:27248601）→ 神经退行期（SEL/小胶质慢性活化/脑萎缩）；OL-MCT1 乳酸支持中断是轴突退化独立机制；EBV 血清转化↑32 倍 MS 风险（Bjornevik 2022）；CRISPR-OPC 克服趋化排斥实现再髓鞘化（Wagstaff 2024）；sNfL Z>1.5 个体化预后工具 **[NEW 2026-06-28]**
 
 - 🟢 [tau 蛋白病理](concepts/tau-pathology.md) — Aβ诱发CDK5/p25+GSK-3β激酶风暴→tau过磷酸化（约25倍）→树突棘错位（TTLL6-spastin微管破坏）→突触毒性；PHF/SF cryo-EM结构（R3+R4核心，3.4Å）；Braak I-VI分期与朊蛋白样跨突触传播；FTD-MAPT证明tau独立神经毒性 **[NEW 2026-06-29]**

@@ -1021,5 +1021,21 @@
     "confidence": "high",
     "last_changed": "2026-06-29",
     "reason": "新建 rev1 · #187 · 无报告范式方法论：mainstream（已被意识研究界广泛采用）；confidence=high（逻辑框架清晰，Cohen 2020 核心实验提供强证据）；主要局限：内部报告问题尚未完全解决"
+  },
+  {
+    "slug": "mglur-ltd",
+    "page": "wiki/concepts/mglur-ltd.md",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-10-17",
+    "reason": "新建 rev1 · #177 · mGluR-LTD 信号级联（mGluR5→Gαq→PLCβ→IP3→ER Ca²⁺→PKCβ→GluA2-Ser880→GRIP→PICK1→内吞）：教科书级机制，多实验室重复；蛋白合成依赖性：高（Huber 2002 PNAS，翻译抑制剂完全阻断野生型 LTD）；FXS 中 LTD 增强：高（Fmr1 KO 脑片电生理）；mavoglurant 临床试验：高（阴性 RCT）；机制整体 established，FXS 临床转化证据标为中-高（动物验证强，人类 RCT 失败）"
+  },
+  {
+    "slug": "fragile-x-syndrome",
+    "page": "wiki/diseases/fragile-x-syndrome.md",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-10-17",
+    "reason": "新建 rev1 · #177 · FXS 遗传基础（FMR1 CGG 扩增→FMRP 缺失）：高（经典遗传学，多实验室）；Fmr1 KO 突触表型：高（Huber 2002，电生理直接证据）；mGluR 理论动物验证：中-高（多表型救济，Bhattacharya 2012）；mavoglurant 临床失败：高（RCT 直接证据）；FXS 作为疾病实体：established；mGluR5 靶向作为治疗策略：disputed（动物强，人类失败），标注为中"
   }
 ]
