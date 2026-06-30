@@ -1,0 +1,24 @@
+# 重复检测日志 · 2026-06-30 · 第10次触发
+
+**执行时间（UTC+8）**：2026-06-30 18:59 CST
+**触发次数**：第10次（dup10）
+
+## 检测结果
+
+- 当前日期（UTC+8）：2026-06-30
+- 文章文件检查：`articles/2026-06-30-thalamic-burst-t-type-calcium-timing-gate.md` ✅ 已存在（225行）
+- wiki 页面检查：`neurons/t-type-calcium-channels.md` ✅ 已存在；`neurons/thalamic-firing-modes.md` ✅ 已存在
+- topic_ledger：2026-06-30 条目 ✅ 已存在（文章#66）
+- 运行日志：`2026-06-30-run.log` ✅ 已存在
+- git 状态：working tree clean，已与 origin/main 同步
+- HEAD commit：9815dc4
+
+## 结论
+
+2026-06-30 日常任务已完成（由早期运行完成）。本次为重复触发，无需重新生成。
+
+今日文章：视丘的双面人格——T 型钙通道如何在爆发与强直之间切换，让清醒大脑实现精确感知
+wiki 新建：neurons/thalamic-firing-modes.md、neurons/t-type-calcium-channels.md
+wiki 修订：systems/thalamus.md（rev2）
+矛盾：无新登记
+推送状态：✅ 已推送至 main（最新 HEAD：9815dc4）
