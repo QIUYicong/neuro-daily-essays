@@ -1,0 +1,48 @@
+# 运行日志 · 2026-06-30（重复触发 dup7 — 第 8 次触发）
+
+## 基本信息
+
+- **系统日期（UTC+8）**：2026-06-30
+- **分支**：main
+- **执行状态**：跳过（今日文章已存在）
+
+---
+
+## 检测结果
+
+- 已检测到 `articles/2026-06-30-thalamic-burst-t-type-calcium-timing-gate.md` 存在
+- 今日 main 已有 7 条日志（run.log + dup1–dup6）
+- 这是今日第 8 次调度触发
+- 原始运行（run.log）已完成全部流程：文章写作、wiki 固结（2 页新建 + 1 页修订）、图谱更新、状态更新、推送至 main
+
+---
+
+## 重复原因
+
+调度系统在当日多次触发同一任务。当日文章与 wiki 固结已在首次触发时完成，无需重复执行。
+
+---
+
+## 操作
+
+- 不重新写文章
+- 不重新检索资料
+- 不修改已有文件
+- 仅记录本次重复触发日志并提交
+
+---
+
+## 今日已完成内容（首次运行摘要）
+
+- **文章**：`articles/2026-06-30-thalamic-burst-t-type-calcium-timing-gate.md`（第 66 篇）
+- **主题**：视丘 T 型钙通道与爆发放电的时序门控功能
+- **新建 wiki 页**：`neurons/thalamic-firing-modes.md`、`neurons/t-type-calcium-channels.md`
+- **修订 wiki 页**：`systems/thalamus.md`（rev2）
+- **悬空引用**：已填补（thalamic-firing-modes）
+- **新矛盾登记**：无
+
+---
+
+## push 状态
+
+- 本次仅写 dup7.log，提交后推送至 main
