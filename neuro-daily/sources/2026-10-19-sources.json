@@ -1,0 +1,128 @@
+{
+  "date": "2026-10-19",
+  "article": "2026-10-19-parallel-fiber-cerebellar-cortex-computation",
+  "topic": "平行纤维与小脑皮层计算架构",
+  "sources": [
+    {
+      "id": "PMID:37671785",
+      "type": "original_research",
+      "title": "Task-dependent optimal representations for cerebellar learning",
+      "authors": "Xie M, Muscinelli SP, Decker Harris K, Litwin-Kumar A",
+      "journal": "eLife",
+      "year": 2023,
+      "full_text_available": true,
+      "full_text_source": "eLife (open access)",
+      "key_contribution": "任务依赖最优GC编码：连续感觉运动变换需要比马尔预测更密集的GC激活",
+      "used_in_sections": ["机制层一：稀疏编码争议", "争议与未解问题"]
+    },
+    {
+      "id": "PMID:32599123",
+      "type": "review",
+      "title": "50 Years Since the Marr, Ito, and Albus Models of the Cerebellum",
+      "authors": "Kawato M, Ohmae S, Hoang H, Sanger T",
+      "journal": "Neuroscience",
+      "year": 2021,
+      "full_text_available": false,
+      "full_text_source": "abstract only",
+      "key_contribution": "Marr-Ito-Albus三个经典模型的历史比较，共识与分歧",
+      "used_in_sections": ["背景", "今日认知地图更新"]
+    },
+    {
+      "id": "PMID:32866603",
+      "type": "review",
+      "title": "The Rules of Cerebellar Learning: Around the Ito Hypothesis",
+      "authors": "Lisberger SG",
+      "journal": "Neuroscience",
+      "year": 2021,
+      "full_text_available": false,
+      "full_text_source": "abstract only",
+      "key_contribution": "小脑学习四条原则，含学习转移从皮层到小脑核的两级存储",
+      "used_in_sections": ["关键证据", "改变了什么理解", "争议"]
+    },
+    {
+      "id": "PMID:30284678",
+      "type": "review",
+      "title": "Purkinje Neurons: Development, Morphology, and Function",
+      "authors": "Hirano T",
+      "journal": "Cerebellum",
+      "year": 2018,
+      "full_text_available": false,
+      "full_text_source": "abstract only",
+      "key_contribution": "PC解剖数据：>100,000 PF输入，1 CF输入，PF-LTD综述",
+      "used_in_sections": ["解剖：几何关系表", "关键证据"]
+    },
+    {
+      "id": "PMID:17046686",
+      "type": "original_research",
+      "title": "Synaptic memories upside down: bidirectional plasticity at cerebellar parallel fiber-Purkinje cell synapses",
+      "authors": "Jörntell H, Hansel C",
+      "journal": "Neuron",
+      "year": 2006,
+      "full_text_available": false,
+      "full_text_source": "abstract only",
+      "key_contribution": "PF-LTP发现：PP2B/calcineurin介导，可逆转PF-LTD；双向可塑性完整描述",
+      "used_in_sections": ["机制层二：PF双向可塑性", "关键证据"]
+    },
+    {
+      "id": "PMID:15541316",
+      "type": "original_research",
+      "title": "Bidirectional parallel fiber plasticity in the cerebellum under climbing fiber control",
+      "authors": "Coesmans M, Weber JT, De Zeeuw CI, Hansel C",
+      "journal": "Neuron",
+      "year": 2004,
+      "full_text_available": false,
+      "full_text_source": "abstract only",
+      "key_contribution": "CF作为LTD/LTP极性开关：高Ca²⁺（with CF）→LTD；低Ca²⁺（no CF）→LTP；逆向BCM规则",
+      "used_in_sections": ["机制层二：PF双向可塑性", "关键证据"]
+    },
+    {
+      "id": "PMID:24916288",
+      "type": "review",
+      "title": "The organization of plasticity in the cerebellar cortex: from synapses to control",
+      "authors": "D'Angelo E",
+      "journal": "Progress in Brain Research",
+      "year": 2014,
+      "full_text_available": false,
+      "full_text_source": "abstract only",
+      "key_contribution": "小脑至少9种突触可塑性形式，不只是PF-LTD",
+      "used_in_sections": ["关键证据", "争议"]
+    },
+    {
+      "id": "PMID:30069835",
+      "type": "original_research",
+      "title": "Depressed by Learning—Heterogeneity of the Plasticity Rules at Parallel Fiber Synapses onto Purkinje Cells",
+      "authors": "Suvrathan A, Raymond JL",
+      "journal": "Cerebellum",
+      "year": 2018,
+      "full_text_available": false,
+      "full_text_source": "abstract only",
+      "key_contribution": "PF-LTD规则在不同小脑微区存在异质性，学习规则不统一",
+      "used_in_sections": ["关键证据", "未解问题"]
+    }
+  ],
+  "secondary_references": [
+    {
+      "id": "historical_Marr1969",
+      "description": "Marr D (1969). A theory of cerebellar cortex. J Physiol 202: 437-470. (历史文献，未在PubMed检索，通过PMID:32599123综述间接引用)",
+      "full_text_available": false
+    },
+    {
+      "id": "historical_Albus1971",
+      "description": "Albus JS (1971). A theory of cerebellar function. Math Biosci 10: 25-61. (历史文献，通过PMID:32599123间接引用)",
+      "full_text_available": false
+    }
+  ],
+  "search_log": {
+    "queries": [
+      "parallel fiber cerebellar cortex computation plasticity → 15 PMIDs",
+      "granule cell parallel fiber Purkinje cell cerebellar learning marr albus ito → 3 PMIDs",
+      "parallel fiber LTD LTP Purkinje bidirectional plasticity cerebellar learning → 4 PMIDs",
+      "Xie granule cell cerebellar optimal encoding 2023 → PMID 37671785",
+      "parallel fiber Purkinje cell review 2018-2024 [pt] → 10 PMIDs"
+    ],
+    "sources_considered": 15,
+    "sources_adopted": 8,
+    "open_full_text": 1,
+    "abstract_only": 7
+  }
+}

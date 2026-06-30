@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-18",
-  "total_articles": 177,
+  "last_updated": "2026-10-19",
+  "total_articles": 178,
   "entries": [
     {
       "date": "2026-10-18",
@@ -11694,6 +11694,62 @@
         "integrated-information-theory（建立）——P3b 消失对 IIT vs GWT 争论的影响；phi 理论与前额叶角色",
         "attention-consciousness-dissociation（建立）——VAN 与注意的分离：TAE/PB/IB 范式家族对比",
         "visual-masking-methods（建立）——CFS/SSVEP/闪现抑制 vs 掩蔽：无报告范式的方法论对比"
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "title": "平行纤维：小脑皮层最细的导线，如何传递误差学习的语言",
+      "filename": "2026-10-19-parallel-fiber-cerebellar-cortex-computation.md",
+      "article_number": 179,
+      "wiki_pages_created": [
+        "wiki/neurons/parallel-fiber.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/neurons/granule-cell-cerebellar.md rev1→rev2"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "平行纤维的几何结构（T字形分叉，3–6 mm水平延伸，每PC >100,000条PF输入）如何赋予小脑皮层时序监督学习能力？Marr-Albus-Ito模型50年后，PF-PC双向可塑性（Ca²⁺极性开关：CF+PF→LTD；PF alone→LTP）与GC最优编码密度（任务依赖而非普遍稀疏）的最新理解如何修正经典理论？",
+      "open_questions_added": [
+        "Q-pf-01（高优先级）：PF-LTD对运动学习是必要且充分的吗？多项基因阻断研究不损害小脑学习的解释——LTP/MLI代偿还是PF-LTD根本非必需？",
+        "Q-pf-02（中优先级）：真实运动任务中体内GC激活密度是多少？Xie 2023理论能否被大规模颗粒层钙成像直接验证？"
+      ],
+      "layer": [
+        "cellular",
+        "microcircuit",
+        "systems"
+      ],
+      "curriculum_track": "cerebellar-learning",
+      "topic_tags": [
+        "parallel-fiber",
+        "granule-cell",
+        "purkinje-cell",
+        "cerebellar-learning",
+        "PF-LTD",
+        "PF-LTP",
+        "Marr-Albus-Ito",
+        "expansion-recoding"
+      ],
+      "main_sources": [
+        "PMID:37671785",
+        "PMID:17046686",
+        "PMID:15541316",
+        "PMID:30284678",
+        "PMID:32866603",
+        "PMID:30069835",
+        "PMID:24916288",
+        "PMID:32599123"
+      ],
+      "unresolved_questions": [
+        "Q-pf-01",
+        "Q-pf-02"
+      ],
+      "next_suggested_topics": [
+        "sharp-wave-ripple (Priority 3 dangling ref, 1 edge from gap-junction-electrical-synapse)",
+        "intellectual-disability (Priority 3 dangling ref, appears in ASD wiki related)",
+        "neuroligin (Priority 3 dangling ref, appears in ASD wiki related)",
+        "shank3 (Priority 3 dangling ref, appears in ASD wiki related)",
+        "predictive-coding (Priority 4 frontier node, 58 edges, medium confidence)"
       ]
     }
   ]

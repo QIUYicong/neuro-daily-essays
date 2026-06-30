@@ -1050,5 +1050,13 @@
     "confidence": "medium",
     "last_changed": "2026-10-18",
     "reason": "新建 rev1 · #178 · ASD 突触病与 E/I 失衡：mainstream（概念框架成熟，Bourgeron 2015/Sohal 2019 综述奠基）；confidence=medium（核心证据来自小鼠模型，人类直接验证有限；NLGN3 R451C 回路特异性效应增加复杂性）"
+  },
+  {
+    "slug": "parallel-fiber",
+    "page": "wiki/neurons/parallel-fiber.md",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-10-19",
+    "reason": "新建 rev1 · #179 · 平行纤维与小脑皮层计算架构：established（PF-LTD/LTP双向可塑性机制有Neuron高质量直接证据；Marr-Albus-Ito框架经50年验证）；confidence=high（解剖数据和LTD/LTP分子机制有多项独立复制；Xie 2023稀疏编码挑战为计算理论层面，不影响基础机制置信度）"
   }
 ]

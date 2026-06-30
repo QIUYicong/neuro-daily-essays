@@ -2119,3 +2119,17 @@
 
 **层级**：molecular × synaptic × microcircuit × brain-region × behavior × disease（跨越分子-回路-行为三个层级，从NLGN的单突触识别码到CNTNAP2的发育迁移到Sohal&Rubenstein的回路框架）
 
+
+---
+
+### 2026-10-19（#179）：平行纤维——小脑皮层最细的导线，如何传递误差学习的语言
+
+**核心发现**：平行纤维（PF）是颗粒细胞（GC）扩维重编码的输出端，其T字形分叉几何结构使单条纤维横跨数百个浦肯野细胞（PC）树突，每个PC整合>100,000条PF输入（Hirano 2018, PMID:30284678），构成Marr-Albus-Ito监督学习模型的情景信号载体。Coesmans et al.（2004, PMID:15541316）确立了PF-PC突触可塑性的Ca²⁺阈值极性开关机制：攀爬纤维（CF）与PF同时激活时，高Ca²⁺触发PKC→AMPAR-Ser880磷酸化→受体内吞→LTD；PF单独激活时，低Ca²⁺激活PP2B（钙调神经磷酸酶）→AMPAR重新插膜→LTP（Jörntell & Hansel 2006, PMID:17046686）。这套"倒置的BCM规则"在海马中高频→LTP，但在小脑PF突触中CF配对→LTD。Xie et al.（2023, PMID:37671785，eLife开放全文）通过计算优化分析挑战了经典稀疏编码信条：对随机刺激分类，稀疏编码最优；但对连续感觉运动变换（更符合真实小脑功能），较密集的任务依赖编码才是最优——"GC必须极度稀疏"从普遍原则降格为特定任务的最优解。Lisberger（2021, PMID:32866603）整合四条小脑学习规则，其中"两级存储"（皮层PF-LTD→小脑核LTP的记忆转移，类比海马→皮层巩固）和"区域异质性"（Suvrathan & Raymond 2018, PMID:30069835：不同微区的PF-LTD时间窗和幅度不同）尤为重要。
+
+**知识地图贡献**：
+- 新建 parallel-fiber.md（neurons/，established/high，rev1）：PF几何解剖参数表；LTD/LTP双向可塑性Ca²⁺开关表；稀疏 vs 任务依赖编码争议；波束假说 vs 微区块假说；Lisberger四条学习规则；新增 Q-pf-01（PF-LTD必要性）/Q-pf-02（体内GC密度直接测量）
+- granule-cell-cerebellar.md（rev1→rev2）：新增 source_article 引用 2026-10-19 文章
+- 解析 molecular-layer-interneuron→parallel-fiber 悬空引用（+5条新图谱边）
+- 新建图谱节点：parallel-fiber（+1节点；总 343节点/2065边）
+
+**层级**：cellular × microcircuit × systems（相对上篇 ASD 的分子-行为-疾病维度，今日实现层级切换；三日连续小脑主题：cerebellar-ltd(Oct 8)→MLI(Oct 9)→parallel-fiber(Oct 19)跨越分子→细胞→回路层级）

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-18",
+  "last_updated": "2026-10-19",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -6216,7 +6216,8 @@
       "journal": "Neuron",
       "full_text_available": false,
       "used_in_articles": [
-        "2026-06-23-cerebellum-motor-prediction"
+        "2026-06-23-cerebellum-motor-prediction",
+        "2026-10-19-parallel-fiber-cerebellar-cortex-computation"
       ],
       "topics_covered": [
         "PF-LTD",
@@ -9208,7 +9209,8 @@
       "year": 2023,
       "first_used": "2026-09-03",
       "used_in_articles": [
-        "2026-09-03-purkinje-cell-cerebellar-motor-learning"
+        "2026-09-03-purkinje-cell-cerebellar-motor-learning",
+        "2026-10-19-parallel-fiber-cerebellar-cortex-computation"
       ],
       "aspects_covered": [
         "颗粒细胞最优编码密度的任务依赖性",
@@ -11745,9 +11747,99 @@
         "突触可塑性异常与ASD行为表型",
         "开放获取全文（MDPI）"
       ]
+    },
+    {
+      "pmid": "15541316",
+      "pmcid": null,
+      "doi": "10.1016/j.neuron.2004.10.034",
+      "title": "Bidirectional parallel fiber plasticity in the cerebellum under climbing fiber control",
+      "authors_short": "Coesmans M, Weber JT, De Zeeuw CI, Hansel C",
+      "journal": "Neuron",
+      "year": 2004,
+      "first_used": "2026-10-19",
+      "used_in_articles": [
+        "2026-10-19-parallel-fiber-cerebellar-cortex-computation"
+      ],
+      "open_access": false,
+      "key_contribution": "CF作为LTD/LTP极性开关：高Ca²⁺（with CF）→LTD；低Ca²⁺（no CF）→LTP；逆向BCM规则"
+    },
+    {
+      "pmid": "30284678",
+      "pmcid": null,
+      "doi": "10.1007/s12311-018-0984-4",
+      "title": "Purkinje Neurons: Development, Morphology, and Function",
+      "authors_short": "Hirano T",
+      "journal": "Cerebellum",
+      "year": 2018,
+      "first_used": "2026-10-19",
+      "used_in_articles": [
+        "2026-10-19-parallel-fiber-cerebellar-cortex-computation"
+      ],
+      "open_access": false,
+      "key_contribution": "PC解剖数据：>100,000 PF输入，1 CF输入，PF-LTD综述"
+    },
+    {
+      "pmid": "32866603",
+      "pmcid": null,
+      "doi": "10.1016/j.neuroscience.2020.09.009",
+      "title": "The Rules of Cerebellar Learning: Around the Ito Hypothesis",
+      "authors_short": "Lisberger SG",
+      "journal": "Neuroscience",
+      "year": 2021,
+      "first_used": "2026-10-19",
+      "used_in_articles": [
+        "2026-10-19-parallel-fiber-cerebellar-cortex-computation"
+      ],
+      "open_access": false,
+      "key_contribution": "小脑学习四条原则，含学习转移从皮层到小脑核的两级存储"
+    },
+    {
+      "pmid": "30069835",
+      "pmcid": null,
+      "doi": "10.1007/s12311-018-0952-z",
+      "title": "Depressed by Learning—Heterogeneity of the Plasticity Rules at Parallel Fiber Synapses onto Purkinje Cells",
+      "authors_short": "Suvrathan A, Raymond JL",
+      "journal": "Cerebellum",
+      "year": 2018,
+      "first_used": "2026-10-19",
+      "used_in_articles": [
+        "2026-10-19-parallel-fiber-cerebellar-cortex-computation"
+      ],
+      "open_access": false,
+      "key_contribution": "PF-LTD规则在不同小脑微区存在异质性，学习规则不统一"
+    },
+    {
+      "pmid": "24916288",
+      "pmcid": null,
+      "doi": "10.1016/bs.pbr.2014.04.002",
+      "title": "The organization of plasticity in the cerebellar cortex: from synapses to control",
+      "authors_short": "D'Angelo E",
+      "journal": "Progress in Brain Research",
+      "year": 2014,
+      "first_used": "2026-10-19",
+      "used_in_articles": [
+        "2026-10-19-parallel-fiber-cerebellar-cortex-computation"
+      ],
+      "open_access": false,
+      "key_contribution": "小脑至少9种突触可塑性形式，不只是PF-LTD"
+    },
+    {
+      "pmid": "32599123",
+      "pmcid": null,
+      "doi": "10.1016/j.neuroscience.2020.06.048",
+      "title": "50 Years Since the Marr, Ito, and Albus Models of the Cerebellum",
+      "authors_short": "Kawato M, Ohmae S, Hoang H, Sanger T",
+      "journal": "Neuroscience",
+      "year": 2021,
+      "first_used": "2026-10-19",
+      "used_in_articles": [
+        "2026-10-19-parallel-fiber-cerebellar-cortex-computation"
+      ],
+      "open_access": false,
+      "key_contribution": "Marr-Ito-Albus三个经典模型的历史比较，共识与分歧"
     }
   ],
-  "total_sources": 672,
+  "total_sources": 710,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",

@@ -4,6 +4,22 @@
 
 ---
 
+## 2026-10-19 · 文章 #179 · 平行纤维：小脑皮层最细的导线，如何传递误差学习的语言
+
+**新建页面（1个）**：
+- `wiki/neurons/parallel-fiber.md`（slug: parallel-fiber）— 平行纤维的解剖、PF-PC双向可塑性（LTD/LTP Ca²⁺阈值开关）、Marr-Albus-Ito模型情景载体角色、稀疏 vs 任务依赖编码争议
+
+**修订页面（1个）**：
+- `wiki/neurons/granule-cell-cerebellar.md`（rev1→rev2）— 新增 source_article 引用 2026-10-19 文章；updated 更新至 2026-10-19
+
+**矛盾操作**：无新增矛盾；2026-10-19文章 Xie 2023 对稀疏编码的挑战与已有 granule-cell-cerebellar.md 中的描述一致，无新矛盾。
+
+**图谱变化**：342节点/2059边 → **343节点/2065边**（+1节点：parallel-fiber；+6边：granule-cell-cerebellar→parallel-fiber part-of；parallel-fiber→purkinje-cell mechanism-of；climbing-fiber→parallel-fiber regulates；cerebellar-ltd→parallel-fiber mechanism-of；parallel-fiber→mossy-fiber related；parallel-fiber→cerebellum part-of；dangling引用 molecular-layer-interneuron→parallel-fiber 已解析）
+
+**新增悬空引用（待填补）**：无
+
+---
+
 ## 2026-10-18 · 文章 #178 · 突触病的汇聚：ASD 如何将一千条分子路径折叠成同一张失衡的天平
 
 **新建页面（1个）**：

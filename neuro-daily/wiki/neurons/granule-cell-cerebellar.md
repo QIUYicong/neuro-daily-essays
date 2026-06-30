@@ -6,13 +6,13 @@ type: structure
 status: established
 confidence: high
 created: 2026-09-03
-updated: 2026-09-03
-revision_count: 1
+updated: 2026-10-19
+revision_count: 2
 dimensions: [cellular, microcircuit, brain-region]
 related: [cerebellum, purkinje-cell, parallel-fiber, climbing-fiber, mossy-fiber]
 prerequisites: [action-potential, synaptic-transmission]
 opens_questions: [Q-gc-01]
-source_articles: [2026-09-03-purkinje-cell-cerebellar-motor-learning]
+source_articles: [2026-09-03-purkinje-cell-cerebellar-motor-learning, 2026-10-19-parallel-fiber-cerebellar-cortex-computation]
 key_sources: ["PMID:40523942", "PMID:37141091", "PMID:37671785"]
 ---
 

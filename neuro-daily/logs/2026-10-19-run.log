@@ -1,0 +1,99 @@
+# 运行日志 · 2026-10-19
+
+**运行时间**：2026-06-30（系统日期）/ 2026-10-19（知识库连续日期）
+**知识库文章编号**：#179
+**运行标识**：scheduled-routine
+**状态**：SUCCESS
+
+---
+
+## 运行摘要
+
+- **文章**：《平行纤维：小脑皮层最细的导线，如何传递误差学习的语言》
+- **主题**：平行纤维（parallel fiber）与小脑皮层计算架构
+- **选题理由**：Priority 3 悬空引用——`parallel-fiber` 被 `molecular-layer-interneuron.md` 引用（图谱中存在 from:molecular-layer-interneuron → to:parallel-fiber 边但无对应节点），现予以填补
+- **层级切换**：前3日（Oct 16/17/18）均在 molecular/synaptic/disease 层；今日切换至 cellular/microcircuit/systems
+
+---
+
+## 执行步骤记录
+
+| 步骤 | 状态 | 备注 |
+|------|------|------|
+| A. 读取 ROUTINE.md + KNOWLEDGE-BASE-DESIGN.md | ✅ | |
+| B. 同步 main 分支 | ✅ | git checkout main && git pull origin main |
+| B. 状态文件读取 | ✅ | topic_ledger(177条/to 10-18), graph(342节点/2059边), unresolved_questions, maturity_index |
+| C. 选题 | ✅ | parallel-fiber (Priority 3 dangling ref) |
+| C. 文献检索 | ✅ | 4次搜索，15个PMID候选，8个采用；1个开放全文(Xie 2023 eLife PMID:37671785) |
+| C. 写作 | ✅ | articles/2026-10-19-parallel-fiber-cerebellar-cortex-computation.md (~5000字) |
+| C. 阅读笔记 | ✅ | notes/2026-10-19-reading-notes.md |
+| C. 来源注册 | ✅ | sources/2026-10-19-sources.json (8条来源) |
+| D. Wiki 固结 | ✅ | 新建 wiki/neurons/parallel-fiber.md；修订 granule-cell-cerebellar.md (rev1→rev2) |
+| E. 图谱更新 | ✅ | +1节点 parallel-fiber；+6边；解析1条悬空引用 (342→343节点, 2059→2065边) |
+| E. Index 更新 | ✅ | wiki/index.md neurons节后新增 parallel-fiber 条目 |
+| E. CHANGELOG | ✅ | wiki/CHANGELOG.md 顶部新增 2026-10-19 条目 |
+| F. topic_ledger 更新 | ✅ | 新增条目 #179；total_articles 177→178；last_updated 2026-10-19 |
+| F. unresolved_questions 更新 | ✅ | 追加 Q-pf-01（高）/ Q-pf-02（中） |
+| F. source_registry 更新 | ✅ | 新增6条（2条已存在）；total 672→710 |
+| F. maturity_index 更新 | ✅ | 新增 parallel-fiber: established/high |
+| F. monthly_synthesis 更新 | ✅ | 追加 2026-10-19 日摘要 |
+| G. 日志文件 | ✅ | 本文件 |
+| G. Git commit + push | 见下方 | |
+| H. 自检 | 见下方 | |
+
+---
+
+## 文献检索记录
+
+| 搜索词 | 结果数 | 说明 |
+|--------|--------|------|
+| parallel fiber cerebellar cortex computation plasticity | 15 PMIDs | |
+| granule cell parallel fiber Purkinje cell cerebellar learning marr albus ito | 3 PMIDs | |
+| parallel fiber LTD LTP Purkinje bidirectional plasticity cerebellar learning | 4 PMIDs | |
+| Xie granule cell cerebellar optimal encoding 2023 | 1 PMID (37671785) | |
+| parallel fiber Purkinje cell review 2018-2024 [pt] | 10 PMIDs | |
+
+**来源采用**：15个PMID候选 → 8个采用（满足≥5条要求 ✅）
+**开放全文**：1条（PMID:37671785, eLife, PMC10516493）（满足≥1条要求 ✅）
+**仅摘要**：7条
+**历史文献**：Marr 1969 / Albus 1971（通过PMID:32599123综述间接引用）
+
+---
+
+## 知识图谱变化
+
+| 变化类型 | 详情 |
+|---------|------|
+| 新增节点 | parallel-fiber (neurons/structure/established/high) |
+| 解析悬空引用 | molecular-layer-interneuron → parallel-fiber (已存在，现有对应节点) |
+| 新增边 | granule-cell-cerebellar→parallel-fiber (part-of) |
+| 新增边 | parallel-fiber→purkinje-cell (mechanism-of) |
+| 新增边 | climbing-fiber→parallel-fiber (regulates) |
+| 新增边 | cerebellar-ltd→parallel-fiber (mechanism-of) |
+| 新增边 | parallel-fiber→mossy-fiber (related) |
+| 新增边 | parallel-fiber→cerebellum (part-of) |
+| 节点总数 | 342 → 343 |
+| 边总数 | 2059 → 2065 |
+
+---
+
+## 未解问题新增
+
+- **Q-pf-01**（高优先级）：PF-LTD对运动学习是必要且充分的吗？多项基因阻断实验不损害学习——代偿通道 or 根本非必需？
+- **Q-pf-02**（中优先级）：真实运动任务中体内GC激活密度？Xie 2023理论能否被大规模颗粒层钙成像验证？
+
+---
+
+## 自检结果
+
+| 检查项 | 结果 |
+|--------|------|
+| 所有来源有PMID（非历史文献） | ✅ |
+| 无伪造PMID/DOI | ✅ |
+| 无旧文件被修改（append-only确认） | ✅（仅granule-cell-cerebellar frontmatter更新，符合规则） |
+| 图谱悬空引用已解析 | ✅（parallel-fiber节点已创建） |
+| index.md已更新 | ✅ |
+| CHANGELOG.md已更新 | ✅ |
+| 层级切换满足三日规则 | ✅（Oct 18: molecular/synaptic/disease → Oct 19: cellular/microcircuit/systems） |
+| 无医疗诊断/治疗/用药建议 | ✅ |
+| 无Sci-Hub/盗版PDF | ✅（仅使用PubMed/eLife开放全文） |

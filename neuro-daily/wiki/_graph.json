@@ -3128,6 +3128,15 @@
       "status": "mainstream",
       "confidence": "medium",
       "page": "wiki/diseases/autism-spectrum-disorder.md"
+    },
+    {
+      "id": "parallel-fiber",
+      "title": "平行纤维",
+      "domain": "neurons",
+      "type": "structure",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/parallel-fiber.md"
     }
   ],
   "edges": [
@@ -14693,6 +14702,36 @@
       "source": "fmrp",
       "target": "autism-spectrum-disorder",
       "type": "related"
+    },
+    {
+      "from": "granule-cell-cerebellar",
+      "to": "parallel-fiber",
+      "type": "part-of"
+    },
+    {
+      "from": "parallel-fiber",
+      "to": "purkinje-cell",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "climbing-fiber",
+      "to": "parallel-fiber",
+      "type": "regulates"
+    },
+    {
+      "from": "cerebellar-ltd",
+      "to": "parallel-fiber",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "parallel-fiber",
+      "to": "mossy-fiber",
+      "type": "related"
+    },
+    {
+      "from": "parallel-fiber",
+      "to": "cerebellum",
+      "type": "part-of"
     }
   ],
   "dangling_references": [

@@ -39,6 +39,7 @@
 - 🟢 [视丘放电模式（爆发/强直双模式）](neurons/thalamic-firing-modes.md) — 清醒VPm约15%感觉响应为爆发；爆发提高时序精度（非幅度）；爆发-强直连续谱：检测vs辨别；基于时序的感知门控 **[NEW 2026-06-30]**
 - 🟢 [缝隙连接与神经元电突触（Cx36）](neurons/gap-junction-electrical-synapse.md) — Connexin-36 缝隙连接是成年大脑 PV+ 中间神经元电突触的主要类型；亚毫秒同步；Cx36 KO 选择性消除伽马振荡（保留纹波）；可被多巴胺/CaMKII 动态调节；LinCx 2025 工程化电突触新突破 **[NEW 2026-10-06]**
 - 🟢 [分子层中间神经元（MLI）](neurons/molecular-layer-interneuron.md) — 小脑皮层的 GABA 能前馈抑制元件；MLI1（Cx36+，电偶联，同步抑制 PC）vs MLI2（Nxph1+，去抑制 PC via MLI1）；逆向可塑性（PF+CF→MLI LTP 同时 PC LTD）；反弹增强（RP）的前突触来源；VOR 学习必要因子 **[NEW 2026-10-09]**
+- 🟢 [平行纤维（PF）](neurons/parallel-fiber.md) — GC 轴突T字形分叉后在分子层水平延伸的纤维束（3–6 mm/条）；每 PC 接受 >100,000 条 PF 输入；PF-PC 突触双向可塑性（PF+CF→LTD；PF alone→LTP，Ca²⁺阈值开关，Coesmans 2004）；最优 GC 编码密度任务依赖（Xie 2023）；Marr-Albus-Ito 模型的情景载体 **[NEW 2026-10-19]**
 - 🟢 [少突胶质细胞](neurons/oligodendrocyte.md) — CNS 产髓鞘胶质细胞，三重功能：绝缘（跳跃式传导/120m/s）+ 代谢支持（MCT1-乳酸轴）+ 经验依赖髓鞘化（Adaptive myelination）；运动/认知学习需要新 OL 生成（McKenzie 2014, Shimizu 2023）**[NEW 2026-10-05]**
 - 🟢 [小胶质细胞](neurons/microglia.md) — CNS 常驻免疫细胞，发育期突触剪枝执行者：CR3（C3b识别）+ TREM2（PS识别）双通路；活动依赖性（TTX→优先吞噬沉默突触）；AD中C1q重激活；精神分裂症C4A→过度剪枝；成年稳态P2RY12/TMEM119/CX3CR1分子签名；DAM两步激活（rev2新增） **[NEW 2026-06-03 · 修订 rev1→rev2 2026-09-17]**
 - 🔵 [TREM2（髓系细胞触发受体2）](neurons/trem2.md) — 小胶质细胞脂质传感器/危险信号受体；DAP12→PI3K→Akt→mTOR促细胞存活/增殖/吞噬；DAM Step 2激活的分子开关；R47H变异→AD风险OR≈3-5×；INVOKE-2 Phase 2（AL002c激动抗体）阴性结果 **[NEW 2026-09-17]**
