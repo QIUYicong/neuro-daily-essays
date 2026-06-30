@@ -1,0 +1,55 @@
+# 重复运行检测日志 · 2026-06-30 · dup6（第7次触发）
+
+## 运行信息
+
+- **系统日期（UTC+8）**：2026-06-30
+- **触发次序**：今日第 7 次触发（dup6）
+- **分支**：main（已拉取最新 origin/main，HEAD=1c2454f）
+- **执行状态**：检测到重复，跳过文章生成
+
+---
+
+## 检测结果
+
+2026-06-30 的文章已存在于 origin/main：
+
+- **文章文件**：`neuro-daily/articles/2026-06-30-thalamic-burst-t-type-calcium-timing-gate.md`
+- **主题**：视丘 T 型钙通道与爆发放电——清醒大脑的时序门控机制
+- **wiki 已固结**：`neurons/thalamic-firing-modes.md`、`neurons/t-type-calcium-channels.md`、`systems/thalamus.md`（rev2）
+- **已有日志**：`run.log`、`dup1.log`–`dup5.log`
+
+---
+
+## 知识库状态
+
+- **当前文章总数**：170 篇（覆盖 2026-05-24 至 2026-10-16）
+- **Topic Ledger 条目数**：175 条
+- **当前最新文章**：`2026-10-16-homer1a-arc-sleep-ampa-downscaling.md`（睡眠稳态系列·Homer1a/Arc/AMPA 降缩放）
+- **知识库连续性**：完好
+
+---
+
+## 异常说明：触发频率持续偏高
+
+今日共触发 7 次，昨日（2026-06-29）触发 21 次。正常预期为每日北京时间 09:00 触发一次。
+
+建议检查：
+1. GitHub Actions / CI 调度配置——是否存在多个 cron 条目或 `push` 事件触发？
+2. 是否有 webhook 在每次 push 之后再次触发新的运行（形成反馈环）？
+3. 是否有并发的调度器实例？
+
+---
+
+## 推荐下一主题（供下次真正的新运行参考）
+
+知识库最新文章为 2026-10-16（Homer1a/Arc 睡眠 AMPA 下调）。下一篇应续接睡眠稳态/突触可塑性系列，或转入推荐主题：
+
+- `TRN-attention-gating`：视丘网状核（TRN）的注意门控机制，作为 T 型钙通道专篇的自然延伸
+- `absence-epilepsy-thalamic-circuit`：失神癫痫的丘脑-皮层振荡机制——T 型钙通道的病理化情景
+- `integrated-information-theory`：IIT phi 量与意识指数（PCI）——GWT/P3b 系列后的意识理论深化
+
+---
+
+## 结论
+
+无需重新生成文章、wiki 或状态文件。本次运行无任何内容变更，仅追加此重复检测日志。
