@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-26
-updated: 2026-09-08
-revision_count: 7
+updated: 2026-10-21
+revision_count: 8
 dimensions: [molecular, synaptic, cellular, cognition, brain-region, disease]
-related: [ampa-receptor, ltp, hebbian-learning, synaptic-transmission, voltage-gated-sodium-channel, calcium-channel, camkii, dendritic-computation, pyramidal-neuron, persistent-activity, working-memory, prefrontal-cortex, alzheimers-disease, amyloid-beta-oligomers, calcineurin, central-sensitization, gate-control-theory, excitotoxicity]
+related: [ampa-receptor, ltp, hebbian-learning, synaptic-transmission, voltage-gated-sodium-channel, calcium-channel, camkii, dendritic-computation, pyramidal-neuron, persistent-activity, working-memory, prefrontal-cortex, alzheimers-disease, amyloid-beta-oligomers, calcineurin, central-sensitization, gate-control-theory, excitotoxicity, major-depressive-disorder, bdnf, eef2k]
 prerequisites: [synaptic-transmission, action-potential, membrane-potential]
 opens_questions: [Q-nmda-coincidence-window, Q-glun2-switch-development, Q-abeta-oligomer-subtypes]
-source_articles: [2026-05-26-nmda-receptor-ltp, 2026-05-27-dendritic-computation, 2026-06-05-prefrontal-working-memory, 2026-06-08-alzheimers-amyloid-synaptic-mechanism, 2026-07-17-stdp-spike-timing-dependent-plasticity, 2026-08-02-pain-nociception-spinal-dorsal-horn-acc, 2026-09-08-excitotoxicity-synaptic-extrasynaptic-calcium-death]
-key_sources: ["PMID:22510460", "PMID:30037851", "PMID:6306230", "PMID:21543591", "PMID:17360908", "PMID:9852584", "PMC6793365", "PMC8488271", "PMID:19837031", "PMID:20842175", "PMID:2880938", "PMID:35078537"]
+source_articles: [2026-05-26-nmda-receptor-ltp, 2026-05-27-dendritic-computation, 2026-06-05-prefrontal-working-memory, 2026-06-08-alzheimers-amyloid-synaptic-mechanism, 2026-07-17-stdp-spike-timing-dependent-plasticity, 2026-08-02-pain-nociception-spinal-dorsal-horn-acc, 2026-09-08-excitotoxicity-synaptic-extrasynaptic-calcium-death, 2026-10-21-depression-ketamine-rapid-antidepressant]
+key_sources: ["PMID:22510460", "PMID:30037851", "PMID:6306230", "PMID:21543591", "PMID:17360908", "PMID:9852584", "PMC6793365", "PMC8488271", "PMID:19837031", "PMID:20842175", "PMID:2880938", "PMID:35078537", "PMID:21677641", "PMID:20724638"]
 ---
 
 # NMDA 受体 (NMDA Receptor / N-Methyl-D-Aspartate Receptor)
@@ -95,6 +95,7 @@ Aβ寡聚体**优先激活突触外NR2B**（Li et al. 2011, PMID:21543591），�
 
 ## 连接
 
+- [[major-depressive-disorder]] — 静息态 NMDA 活动通过 eEF2K 主动抑制 BDNF 翻译；氯胺酮阻断此静息态活动是 30 分钟快速抗抑郁的分子基础
 - [[alzheimers-disease]] — NMDA受体（特别是突触外NR2B）是AD中LTP失效的核心分子靶点
 - [[amyloid-beta-oligomers]] — Aβ寡聚体通过将NMDA激活从突触内偏转至突触外来阻断LTP
 - [[ltp]] — NMDA 受体是 LTP 诱导的必要门卫（单突触层面）
@@ -104,6 +105,42 @@ Aβ寡聚体**优先激活突触外NR2B**（Li et al. 2011, PMID:21543591），�
 - [[synaptic-transmission]] — NMDA 受体是突触传递中谷氨酸信号的重要接受者
 - [[calcium-channel]] — 与电压门控 Ca²⁺ 通道同为突触 Ca²⁺ 内流的重要来源（但机制不同）
 - [[dendritic-computation]] — NMDA 受体是树突 NMDA 棘波的核心机器，使单根树突分支成为独立计算单元
+
+## NMDA 受体的第八重角色：静息态翻译阻断器与快速抗抑郁靶点（2026-10-21 新增）
+
+**来源**：《氯胺酮与快速抗抑郁机制》文章 #189（Autry AE et al. 2011, PMID:21677641；Li N et al. 2010, PMID:20724638）
+
+NMDA 受体在 MDD 研究中揭示了一个此前未认识到的功能——**静息态下作为 BDNF mRNA 翻译的主动抑制器**。
+
+**核心发现**（Autry et al. 2011）：
+- 突触的**自发活动**（自发微小 EPSP/IPSP）持续激活低水平 NMDA 受体
+- 这种静息态 NMDA 激活维持 eEF2K（真核延伸因子 2 激酶）处于激活状态
+- eEF2K 磷酸化 eEF2 → 抑制 BDNF mRNA 的翻译延伸
+- 这不是"默认关闭"，而是 NMDA 受体**主动施加的翻译刹车**
+
+**药理学验证**：
+```
+eEF2K 抑制剂（NH125）单独给药
+    → 直接降低 p-eEF2
+    → 海马 BDNF 蛋白↑
+    → 产生与氯胺酮相同的快速抗抑郁行为效果
+    → 无需阻断 NMDA 受体
+
+氯胺酮在静息态阻断 NMDA
+    → eEF2K 活性↓ → BDNF↑
+    → 30 分钟行为抗抑郁效果
+    → rapamycin（mTOR 抑制剂）不能阻断此 30 分钟效果
+    （说明此路径不需要 mTOR，独立于 2-24 小时的突触生成路径）
+```
+
+与既有机制的关系：
+
+| 时间窗口 | 机制 | NMDA 受体角色 | rapamycin 敏感？ |
+|---------|------|-------------|----------------|
+| 30 min | eEF2K→BDNF 脱抑制 | 静息态阻断解除翻译刹车 | 否 |
+| 2-24 h | mTOR→突触蛋白合成 | SST 中间神经元去抑制→谷氨酸爆发→AMPA→mTOR | 是 |
+
+这是 NMDA 受体的**第八重功能**（补充既有七种：Hebb 检测器、NMDA 棘波、工作记忆积分器、AD 中突触外 LTP 阻断、STDP 时序仲裁器、脊髓中枢敏化触发器、兴奋毒性主要 Ca²⁺ 入口）。
 
 ## NMDA 受体的第六重角色：脊髓中枢敏化的触发器（2026-08-02 新增）
 
@@ -156,6 +193,7 @@ NMDA 受体双重门控在 STDP 中的具体运作：
 - 2026-06-08 · 修订 · 基于《记忆的分子遗忘》一文 · 新增第四重角色：突触外NR2B-LTP反向信号路径；解答 Q-nmda-alzheimer（Aβ通过优先激活突触外NR2B/p38 MAPK阻断LTP，非直接破坏受体）；related 新增 alzheimers-disease、amyloid-beta-oligomers、calcineurin；dimensions 新增 disease；连接新增 alzheimers-disease、amyloid-beta-oligomers；key_sources 新增 PMID:21543591、PMID:17360908
 - 2026-08-02 · 修订（rev6）· 基于《痛觉的守门人》文章（#101）· 新增第六重角色：脊髓背角中枢敏化触发器（wind-up 现象；与海马 LTP 同源机制；氯胺酮临床验证）；related 新增 central-sensitization、gate-control-theory；source_articles 新增 2026-08-02-pain-nociception；key_sources 新增 PMID:19837031
 - 2026-09-08 · 修订（rev7）· 基于《兴奋毒性》文章（#138）· 新增第七重角色：兴奋毒性的主要Ca²⁺入口（突触外激活→Jacob/DAPK1/Calpain死亡级联 vs 突触内激活→CREB/AID存活屏障）；related 新增 excitotoxicity；source_articles 新增 2026-09-08-excitotoxicity；key_sources 新增 PMID:20842175, PMID:2880938, PMID:35078537
+- 2026-10-21 · 修订（rev8）· 基于《氯胺酮与快速抗抑郁机制》(#189) · 新增第八重角色：静息态翻译阻断器（eEF2K-BDNF路径；30分钟机制；rapamycin非敏感路径与2-24h mTOR路径的时序区分）；related 新增 major-depressive-disorder, bdnf, eef2k；连接新增 major-depressive-disorder；source_articles 新增 #189；key_sources 新增 PMID:21677641, PMID:20724638
 
 ## 来源文章
 
@@ -164,3 +202,4 @@ NMDA 受体双重门控在 STDP 中的具体运作：
 - [[2026-06-05-prefrontal-working-memory]]
 - [[2026-08-02-pain-nociception-spinal-dorsal-horn-acc]]
 - [[2026-09-08-excitotoxicity-synaptic-extrasynaptic-calcium-death]]
+- [[2026-10-21-depression-ketamine-rapid-antidepressant]]

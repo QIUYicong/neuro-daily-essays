@@ -2148,3 +2148,19 @@
 - 新建图谱节点：parallel-fiber（+1节点；总 343节点/2065边）
 
 **层级**：cellular × microcircuit × systems（相对上篇 ASD 的分子-行为-疾病维度，今日实现层级切换；三日连续小脑主题：cerebellar-ltd(Oct 8)→MLI(Oct 9)→parallel-fiber(Oct 19)跨越分子→细胞→回路层级）
+
+---
+
+### 2026-10-21（#189）：氯胺酮与快速抗抑郁机制——突触缺损的结构基础与三条分子路径
+
+**核心发现**：传统抑郁症认知（单胺假说）无法解释为何 SSRI 需要 2-4 周才能起效，而氯胺酮在数小时内即可逆转多年的难治性抑郁。Duman & Aghajanian 2012（PMID:23042884）通过人类死后脑组织电镜和 CUS 动物模型确立了"突触缺损假说"——MDD 患者 dlPFC 突触密度实际减少，mPFC 第 V 层锥体神经元树突棘密度降低，这是有形态学基础的结构性病变，而非单纯的神经递质失衡。氯胺酮的快速抗抑郁机制涉及三条时间窗口不同的并行路径：①**30 分钟窗口**（eEF2K-BDNF 路径，Autry et al. 2011, PMID:21677641）：静息态 NMDA 受体活动维持 eEF2K 激活，后者磷酸化 eEF2 抑制 BDNF mRNA 翻译延伸；氯胺酮阻断静息态 NMDA→eEF2K 活性↓→p-eEF2↓→海马 BDNF 蛋白在 30 分钟内快速升高；此路径不依赖 mTOR（rapamycin 不能阻断），但 eEF2K 抑制剂单独给药可完全复制效果。②**2-24 小时窗口**（mTOR 突触生成路径，Li et al. 2010, PMID:20724638）：氯胺酮通过 SST 中间神经元上的 NMDA 受体阻断，解除对 mPFC 第 V 层锥体神经元的 GABA 抑制→谷氨酸爆发→AMPA 激活→PI3K/Akt/mTOR→PSD-95/GluR1/突触素 I/Arc 等突触蛋白合成上调→双光子活体成像可见蘑菇形树突棘在 2 小时内增加；rapamycin 局部注射可完全阻断行为效果（因果验证）。③**NMDA 非依赖路径**（HNK 代谢产物，Zanos et al. 2016, PMID:27144355）：氯胺酮的体内代谢产物 (2R,6R)-HNK 不阻断 NMDA 受体，而是直接增强 AMPA 受体介导的 EPSP，上调 GluA1/GluA2 突触膜水平，产生超过 24 小时的抗抑郁效果；NBQX 可消除其效果。Duman RS 2019（PMID:30894661）的关键综合：比较氯胺酮、东莨菪碱、HNK 三类结构完全不同的快速抗抑郁药，发现三个不变量——AMPA 受体依赖性（NBQX 均消除）、BDNF 活动依赖性分泌依赖性（Val66Met KI 小鼠中三者均失效）、mTOR 激活——确立 **GluA1 突触插入为所有快速抗抑郁药的收敛效应终点**。电路层面：慢性应激使 LHb 神经元陷入病理性同步爆发放电（方波型/抛物线型/三角波型），通过 LHb→RMTg→VTA 回路主动抑制多巴胺，通过 LHb→DRN 抑制血清素，直接对应快感缺失症状；氯胺酮快速消除 LHb 爆发。临床应用：esketamine（艾氯胺酮）鼻喷剂于 2019 年获 FDA 批准用于 TRD，AXS-05（右美沙芬+安非他酮）于 2022 年获批。
+
+**知识地图贡献**：
+- 新建 major-depressive-disorder.md（diseases/，established/high，rev1）：首次建立 MDD 独立页面；覆盖三条快速抗抑郁路径全机制；LHb 爆发回路；GluA1 收敛终点；元可塑性框架；临床进展；新增 Q-mdd-01/02/03/Q-ketamine-01/Q-hnk-01
+- bdnf.md（rev3→rev4）：新增"抑郁症与快速抗抑郁：eEF2K-BDNF路径"机制节；静息态NMDA→eEF2K→BDNF主动抑制的反直觉机制；30分钟 vs 2-24小时时序区分；related新增major-depressive-disorder/mtor
+- nmda-receptor.md（rev7→rev8）：新增第八重角色——静息态翻译阻断器（eEF2K-BDNF路径）；eEF2K抑制剂验证；rapamycin敏感性区分两条机制时间轴
+- ampa-receptor.md（rev5→rev6）：新增"GluA1插入：快速抗抑郁药的收敛效应终点"段落；三类快速抗抑郁药AMPA依赖性对比表；Val66Met验证；与经典LTP GluA1插入的尺度区别
+- lateral-habenula.md（rev1→rev2）：related更新（depression→major-depressive-disorder）；连接新增MDD和nmda-receptor
+- 图谱：344节点/2076边 → **345节点/2088边**（+1节点MDD，+12边）
+
+**层级**：molecular × synaptic × cellular × brain-region × whole-brain-network × behavior × cognition × disease（8层全覆盖；从eEF2K磷酸化调控BDNF翻译→mTOR驱动突触蛋白合成→mPFC第V层树突棘增生→LHb-RMTg-VTA回路去抑制→情绪和动机网络重整→快感恢复；跨越分子到临床的完整因果链）

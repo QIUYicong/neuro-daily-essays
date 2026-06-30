@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-26
-updated: 2026-06-28
-revision_count: 5
+updated: 2026-10-21
+revision_count: 6
 dimensions: [molecular, synaptic, cognition, behavior]
-related: [nmda-receptor, ltp, ltd, camkii, calcineurin, arc-arg31, synaptic-transmission, hebbian-learning, tarp-auxiliary-subunit, synaptic-scaling, homeostatic-plasticity, homer1a, slow-wave-sleep]
+related: [nmda-receptor, ltp, ltd, camkii, calcineurin, arc-arg31, synaptic-transmission, hebbian-learning, tarp-auxiliary-subunit, synaptic-scaling, homeostatic-plasticity, homer1a, slow-wave-sleep, major-depressive-disorder, bdnf]
 prerequisites: [synaptic-transmission, action-potential]
 opens_questions: [Q-ampa-receptor-silent-synapse, Q-ampa-glua1-atd-partners, Q-homer1a-03]
-source_articles: [2026-05-26-nmda-receptor-ltp, 2026-06-04-ltd-long-term-depression, 2026-07-03-synaptic-scaling-homeostatic-plasticity, 2026-10-16-homer1a-arc-sleep-ampa-downscaling, 2026-06-28-tarp-ampa-receptor-synaptic-trafficking]
-key_sources: ["PMID:30359599", "PMID:34271016", "PMID:22510460", "PMID:24183021", "PMID:19169250", "PMID:38973508", "PMC:11895523", "PMID:28154077", "PMC:5382711", "PMID:11140673", "PMID:36223737", "PMID:37471228", "PMID:39380368"]
+source_articles: [2026-05-26-nmda-receptor-ltp, 2026-06-04-ltd-long-term-depression, 2026-07-03-synaptic-scaling-homeostatic-plasticity, 2026-10-16-homer1a-arc-sleep-ampa-downscaling, 2026-06-28-tarp-ampa-receptor-synaptic-trafficking, 2026-10-21-depression-ketamine-rapid-antidepressant]
+key_sources: ["PMID:30359599", "PMID:34271016", "PMID:22510460", "PMID:24183021", "PMID:19169250", "PMID:38973508", "PMC:11895523", "PMID:28154077", "PMC:5382711", "PMID:11140673", "PMID:36223737", "PMID:37471228", "PMID:39380368", "PMID:30894661", "PMID:27144355", "PMID:20724638"]
 ---
 
 # AMPA 受体 (AMPA Receptor / AMPAR)
@@ -73,6 +73,28 @@ LTD 时，AMPA 受体从突触后膜内吞，是突触权重降低的物理实�
 
 内化后受体进入早期内体：可被再循环回突触（LTP 时优先）或被溶酶体降解（LTD 维持时可能）。
 
+### GluA1 插入：快速抗抑郁药的收敛效应终点（2026-10-21 新增）
+
+**来源**：《氯胺酮与快速抗抑郁机制》文章 #189（Duman RS 2019, PMID:30894661；Zanos P et al. 2016, PMID:27144355；Li N et al. 2010, PMID:20724638）
+
+Duman RS 2019 的综述揭示了一个重要规律：氯胺酮、东莨菪碱、HNK 三类结构完全不同的快速抗抑郁药，尽管初始分子靶点各异，但**最终都依赖 GluA1 突触插入**——NBQX（AMPA 受体特异性阻断剂）可消除所有三者的抗抑郁效果。
+
+**三类快速抗抑郁药的 AMPA 依赖性比较**：
+
+| 化合物 | 初始靶点 | GluA1↑？ | NBQX 消除？ | mTOR 依赖？ |
+|--------|---------|---------|-----------|-----------|
+| 氯胺酮 | NMDA 受体阻断 | 是 | 是 | 是（2-24h机制） |
+| (2R,6R)-HNK | 直接 AMPA 增强 | 是 | 是 | 否 |
+| 东莨菪碱（毒蕈碱拮抗剂）| mAChR 阻断 | 是 | 是 | 是 |
+
+**Val66Met 多态性验证**：Val66Met 突变损害 BDNF 的活动依赖性胞吐（分泌，而非合成）。在 Val66Met KI 小鼠中，三类快速抗抑郁药均失效——证明 BDNF 活动依赖性释放（而非 BDNF 合成本身）是上游必要条件，而 GluA1 增加是 BDNF 信号作用的最终突触执行环节。
+
+**与经典 LTP 的 GluA1 插入的区别**：
+- 经典 LTP：高频突触刺激 → CaMKII → GluA1 S831 磷酸化 → 局部胞吐 → 数分钟内特定突触插入
+- 快速抗抑郁：mTOR 或 BDNF-TrkB 信号 → 广泛 mPFC 突触蛋白合成上调 → 数小时内 mPFC 整体突触密度增加
+
+两者共享 GluA1 插入这一终点，但上游触发机制和空间尺度不同（局部突触 vs 脑区范围的结构性重建）。
+
 ### 睡眠依赖的 GluA1 下调（Homer1a/Arc 通路）
 
 **2026-10-16 新增**：与经典 LTD（需要 NMDAR 激活触发）不同，NREM 睡眠期间存在一条独立的 **GluA1 特异性下调通路**，由 Homer1a 和 Arc 协同介导：
@@ -99,6 +121,7 @@ LTD 时，AMPA 受体从突触后膜内吞，是突触权重降低的物理实�
 - [[synaptic-scaling]] — 突触稳态缩放专门使用 GluA2 通路（不同于 LTP 用的 GluA1），Gainey 2009 直接证明这是两套独立的受体亚型通路
 - [[homer1a]] — Homer1a 是睡眠期 GluA1 从 PSD 脱落的上游触发器；双门控由 NA（抑制）和腺苷 A1R（激活）决定
 - [[slow-wave-sleep]] — NREM 睡眠中，GluA1 皮层突触体水平在 5h 恢复睡眠后从剥夺水平降低约 31.7%（Squarcio 2024）
+- [[major-depressive-disorder]] — GluA1 突触插入是所有快速抗抑郁药（氯胺酮、HNK、东莨菪碱）的收敛效应终点；NBQX 消除所有快速抗抑郁效果
 
 ## 未解问题
 
@@ -109,6 +132,7 @@ LTD 时，AMPA 受体从突触后膜内吞，是突触权重降低的物理实�
 
 ## 修订历史
 
+- 2026-10-21 · 修订 rev6 · 基于《氯胺酮与快速抗抑郁机制》(#189) · 新增"GluA1插入：快速抗抑郁药的收敛效应终点"段落（Duman 2019, PMID:30894661；Zanos 2016, PMID:27144355；Li 2010, PMID:20724638）；三类快速抗抑郁药的AMPA依赖性对比表；Val66Met验证；与经典LTP的GluA1插入区别；连接新增major-depressive-disorder；related新增major-depressive-disorder, bdnf；key_sources新增3条；source_articles新增#189
 - 2026-06-28 · 修订 rev5 · 基于《AMPA 受体的突触之旅：TARP 辅助亚基》(#184) · 扩充 LTP 插入机制，加入 TARP polybasic region 的 CaMKII 磷酸化步骤和扩散陷阱详细机制（Opazo 2010, Park 2016）；更新 [[tarp-auxiliary-subunit]] 链接为正式描述（删除"待建页面"）；key_sources 新增 4 条 TARP 来源；未解问题新增 Q-tarp-01/Q-tarp-03；source_articles 新增 #184
 - 2026-10-16 · 修订 rev4 · 基于《睡眠如何修剪突触：Homer1a 与 Arc 的分子协奏》(#176) · 新增"睡眠依赖的 GluA1 下调（Homer1a/Arc 通路）"段落；Squarcio 2024 定量数据（31.7%降低/78.9%升高）；GluA1 vs GluA2 通路的睡眠/缩放区别；related 新增 homer1a、slow-wave-sleep；连接新增 2 条；key_sources 新增 4 个
 - 2026-07-03 · 修订 · 基于《突触稳态》(#69) · 在连接段落新增 synaptic-scaling；明确 GluA2 通路是突触缩放（非 LTP）的特异性分子路径（Gainey 2009 PMID:19458219）；related 新增 synaptic-scaling、homeostatic-plasticity
@@ -120,3 +144,4 @@ LTD 时，AMPA 受体从突触后膜内吞，是突触权重降低的物理实�
 - [[2026-05-26-nmda-receptor-ltp]]
 - [[2026-06-04-ltd-long-term-depression]]
 - [[2026-07-03-synaptic-scaling-homeostatic-plasticity]]
+- [[2026-10-21-depression-ketamine-rapid-antidepressant]]

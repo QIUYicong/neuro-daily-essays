@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-10-20（第188篇·习惯 vs 目标导向：纹状体双系统分子开关机制）· 主题页总数：**332**（新建1页：concepts/habit-vs-goal-directed；修订3页：goal-directed-behavior rev2/habitual-behavior rev3/striatal-direct-indirect-pathway rev3；图谱约344节点/约2076边）
+> 最后更新：2026-10-21（第189篇·氯胺酮与快速抗抑郁机制）· 主题页总数：**333**（新建1页：diseases/major-depressive-disorder；修订4页：bdnf rev4/nmda-receptor rev8/ampa-receptor rev6/lateral-habenula rev2；图谱345节点/2088边）
 
 ---
 
@@ -364,6 +364,7 @@
 - 🟢 [肌萎缩侧索硬化症（ALS）](diseases/als-amyotrophic-lateral-sclerosis.md) — TDP-43 核清除是 ALS 统一病理标志（>97%）；C9orf72 三叉毒矛（LOF/RNA foci/DPR）；poly-GR/PR 毒性最强且与 TDP-43 特异共定位；UNC13A/STMN2 隐蔽外显子是 TDP-43 LOF 的关键下游；运动神经元四重脆弱性（超长轴突/低钙缓冲/高Ca²⁺通透AMPA/持续皮质驱动）；tofersen-SOD1-ALS 临床里程碑 **[NEW 2026-09-11]**
 - 🟢 [发作性睡病 1 型（NT1）](diseases/narcolepsy.md) — 外侧下丘脑食欲素神经元 T 细胞介导自身免疫选择性毁损（85–95%）→ 翻转开关失去稳定器 → 清醒-睡眠-REM 边界溶解；HLA-DQB1*06:02 携带者风险升高 251 倍（82–99% 患者阳性）；Latorre 2018 Nature 19/19 CD4+ T 细胞直接证据；Ollila 2023 GWAS 13 新位点（PRF1/CD207/IFNAR1/TCR）；猝倒机制（VMM 路径）；CSF Hcrt-1 ≤110 pg/mL 诊断标准；OX2R 激动剂 Phase II/III **[NEW 2026-10-15]**
 - 🔵 [自闭症谱系障碍（ASD）](diseases/autism-spectrum-disorder.md) — 遗传异质性极高（>100风险基因）；五大分子集群（突触黏附/PSD支架/GABA能发育/翻译调控/染色质重塑）通过不同路径汇聚于E/I失衡；NLGN3 R451C的方向悖论（同一突变在不同回路E/I方向相反）；SHANK3模块化（S685I选择性破坏ABI1/WAVE通路）；CNTNAP2路径：PV+细胞减少→光遗传救治社交行为；非特异性GABA增强有时恶化ASD行为 **[NEW 2026-10-18]**
+- 🟢 [重度抑郁症（MDD）](diseases/major-depressive-disorder.md) — 突触缺损假说：MDD患者dlPFC突触密度减少（电镜证据）；mPFC第V层锥体神经元顶端树突萎缩；三条快速抗抑郁路径：mTOR突触生成（Li 2010）/eEF2K-BDNF脱抑制30分钟机制（Autry 2011）/(2R,6R)-HNK代谢产物AMPA增强（Zanos 2016）；GluA1突触插入是所有快速抗抑郁药的收敛终点（Duman 2019）；LHb爆发放电是快感缺失回路基础；FDA批准：艾氯胺酮鼻喷（2019）/AXS-05口服（2022）**[NEW 2026-10-21]**
 - 🟢 [多发性硬化（MS）](diseases/multiple-sclerosis.md) — CNS 自身免疫性炎性脱髓鞘病；T/B 细胞攻击髓鞘/OL → 传导延迟/时序离散/STDP 窗口失配；双相：炎症期（RRMS，ocrelizumab 有效 PMID:27248601）→ 神经退行期（SEL/小胶质慢性活化/脑萎缩）；OL-MCT1 乳酸支持中断是轴突退化独立机制；EBV 血清转化↑32 倍 MS 风险（Bjornevik 2022）；CRISPR-OPC 克服趋化排斥实现再髓鞘化（Wagstaff 2024）；sNfL Z>1.5 个体化预后工具 **[NEW 2026-06-28]**
 
 - 🟢 [tau 蛋白病理](concepts/tau-pathology.md) — Aβ诱发CDK5/p25+GSK-3β激酶风暴→tau过磷酸化（约25倍）→树突棘错位（TTLL6-spastin微管破坏）→突触毒性；PHF/SF cryo-EM结构（R3+R4核心，3.4Å）；Braak I-VI分期与朊蛋白样跨突触传播；FTD-MAPT证明tau独立神经毒性 **[NEW 2026-06-29]**

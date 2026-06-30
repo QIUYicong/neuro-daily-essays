@@ -1,0 +1,129 @@
+{
+  "date": "2026-10-21",
+  "article": "depression-ketamine-rapid-antidepressant",
+  "article_number": 189,
+  "sources": [
+    {
+      "id": "PMID:20724638",
+      "pmcid": "PMC3116441",
+      "title": "mTOR-dependent synapse formation underlies the rapid antidepressant effects of NMDA antagonists",
+      "authors": "Li N et al.",
+      "journal": "Science",
+      "year": 2010,
+      "open_access": true,
+      "access_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3116441/",
+      "full_text_read": true,
+      "covers": ["mTOR synaptogenesis", "ketamine mechanism", "PSD-95 GluR1 synapsin Arc", "mPFC layer V", "rapamycin blockade", "AMPA requirement"]
+    },
+    {
+      "id": "PMID:21677641",
+      "pmcid": "PMC3172695",
+      "title": "NMDA receptor blockade at rest triggers rapid behavioural antidepressant responses",
+      "authors": "Autry AE et al.",
+      "journal": "Nature",
+      "year": 2011,
+      "open_access": true,
+      "access_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3172695/",
+      "full_text_read": true,
+      "covers": ["eEF2K pathway", "BDNF translation at rest", "30-min mechanism", "resting-state NMDA", "hippocampal BDNF"]
+    },
+    {
+      "id": "PMID:23042884",
+      "pmcid": "PMC4424898",
+      "title": "Synaptic dysfunction in depression: potential therapeutic targets",
+      "authors": "Duman RS, Aghajanian GK",
+      "journal": "Science",
+      "year": 2012,
+      "open_access": true,
+      "access_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4424898/",
+      "full_text_read": true,
+      "covers": ["synaptic deficit hypothesis MDD", "dlPFC synapse loss EM", "CUS stress model", "glucocorticoid BDNF reduction", "mPFC volume"]
+    },
+    {
+      "id": "PMID:27144355",
+      "pmcid": "PMC4922311",
+      "title": "NMDAR inhibition-independent antidepressant actions of ketamine metabolites",
+      "authors": "Zanos P et al.",
+      "journal": "Nature",
+      "year": 2016,
+      "open_access": true,
+      "access_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4922311/",
+      "full_text_read": true,
+      "covers": ["(2R,6R)-HNK metabolite", "NMDA-independent mechanism", "AMPA potentiation", "NBQX blockade", "GluA1/GluA2 upregulation"]
+    },
+    {
+      "id": "PMID:30867285",
+      "pmcid": "PMC6442605",
+      "title": "(2R,6R)-hydroxynorketamine exerts mGlu(2) receptor-dependent antidepressant actions",
+      "authors": "Zanos P et al.",
+      "journal": "PNAS",
+      "year": 2019,
+      "open_access": true,
+      "access_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6442605/",
+      "full_text_read": false,
+      "access_note": "Abstract reviewed; mGluR2 mechanism of HNK",
+      "covers": ["HNK mGluR2 mechanism", "presynaptic glutamate release modulation"]
+    },
+    {
+      "id": "PMID:30894661",
+      "pmcid": "PMC6754322",
+      "title": "Neurobiology of rapid-acting antidepressants: convergent effects on GluA1-synaptic function",
+      "authors": "Duman RS",
+      "journal": "Molecular Psychiatry",
+      "year": 2019,
+      "open_access": true,
+      "access_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6754322/",
+      "full_text_read": true,
+      "covers": ["GluA1 convergence", "BDNF activity-dependent release", "mTORC1 synapse proteins", "SST interneuron GluN2B", "mPFC circuit", "SSRI vs ketamine comparison"]
+    },
+    {
+      "id": "PMID:38177353",
+      "pmcid": "PMC11176041",
+      "title": "Targeting metaplasticity mechanisms to promote sustained antidepressant actions",
+      "authors": "Brown KA et al.",
+      "journal": "Molecular Psychiatry",
+      "year": 2024,
+      "open_access": true,
+      "access_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11176041/",
+      "full_text_read": true,
+      "covers": ["metaplasticity framework", "sustained antidepressant", "HNK phase I", "mGluR2/3 antagonists", "LTP threshold lowering", "AMPAR trafficking BDNF-TrkB-mTORC1 CREB"]
+    },
+    {
+      "id": "PMID:39207462",
+      "pmcid": "PMC12500823",
+      "title": "Advancing past ketamine: emerging glutamatergic compounds for the treatment of depression",
+      "authors": "Freudenberg F et al.",
+      "journal": "European Archives of Psychiatry and Clinical Neuroscience",
+      "year": 2025,
+      "open_access": true,
+      "access_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12500823/",
+      "full_text_read": true,
+      "covers": ["AXS-05 Auvelity", "esmethadone REL-1017 phase III", "HNK phase I", "arketamine phase IIa failure", "nitrous oxide", "NMDAR PAM failure", "esketamine Spravato clinical"]
+    },
+    {
+      "id": "PMID:42065202",
+      "pmcid": "PMC13138482",
+      "title": "A comprehensive review of the clinical progress of esketamine: From anesthesia to antidepressant therapy",
+      "authors": "Hu HL et al.",
+      "journal": "Medicine (Baltimore)",
+      "year": 2026,
+      "open_access": true,
+      "access_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13138482/",
+      "full_text_read": false,
+      "access_note": "Abstract reviewed for clinical status",
+      "covers": ["esketamine Spravato clinical approval", "intranasal delivery", "TRD FDA approval 2019"]
+    }
+  ],
+  "search_queries": [
+    "ketamine rapid antidepressant NMDA mechanism review",
+    "ketamine synaptogenesis mTOR depression BDNF synaptic",
+    "Li N mTOR ketamine synapse rapid antidepressant Science 2010",
+    "Autry 2011 NMDA receptor ketamine BDNF spontaneous",
+    "Zanos ketamine 2016 hydroxynorketamine antidepressant",
+    "depression lateral habenula burst firing antidepressant 2018 2019",
+    "ketamine antidepressant AMPA synapse review"
+  ],
+  "total_sources": 9,
+  "open_access_full_text": 7,
+  "abstract_only": 2
+}

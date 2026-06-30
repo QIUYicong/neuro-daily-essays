@@ -1,0 +1,102 @@
+# 运行日志 · 2026-10-21
+
+**系统时间**：2026-06-30（真实）· 虚拟日期：2026-10-21
+**文章编号**：#189
+**主题**：氯胺酮与快速抗抑郁机制：突触缺损与三条分子路径
+**文件名**：2026-10-21-depression-ketamine-rapid-antidepressant.md
+
+---
+
+## 执行摘要
+
+| 步骤 | 状态 | 备注 |
+|------|------|------|
+| Step 0: 读取 ROUTINE.md + KNOWLEDGE-BASE-DESIGN.md | ✅ 完成 | |
+| Step A: 状态检查（topic_ledger, unresolved_questions） | ✅ 完成 | 确认下一篇为 #189，虚拟日期 2026-10-21 |
+| Step B: 主题选择 | ✅ 完成 | MDD（major-depressive-disorder）——知识库空白+与 lateral-habenula.md 悬空引用填补 |
+| Step C: 文献检索与文章撰写 | ✅ 完成 | 9篇来源，7篇全文+2篇摘要；PubMed E-utilities + PMC API |
+| Step D: Wiki 固结 | ✅ 完成 | 新建1页 + 修订4页 |
+| Step E: 图谱更新 | ✅ 完成 | +1节点，+12边；_graph.json, index.md, CHANGELOG.md |
+| Step F: 治理层更新 | ✅ 完成 | topic_ledger, unresolved_questions, source_registry, monthly_synthesis |
+| Step G: Git提交推送 | 🔄 进行中 | |
+| Step H: 自检 | ⏳ 待执行 | |
+
+---
+
+## 文章概况
+
+**字数**：约 5200 字（符合 3000-6000 范围）
+**来源数**：9篇
+- 开放全文阅读：7篇（Li 2010/Autry 2011/Duman 2012/Zanos 2016/Duman 2019/Brown 2024/Freudenberg 2025）
+- 摘要审阅：2篇（Zanos 2019 mGluR2/Hu 2026 esketamine review）
+**最早文献**：2010年（Li et al. Science）
+**最新文献**：2026年（Hu et al. Medicine Baltimore）
+**研究类型**：动物实验（多数）+ 临床试验 + 综述
+
+## 知识增量
+
+**新建 wiki 页面**：
+- `diseases/major-depressive-disorder.md`（rev1）
+
+**修订 wiki 页面**：
+- `concepts/bdnf.md`（rev3→rev4）：eEF2K-BDNF路径；MDD机制
+- `concepts/nmda-receptor.md`（rev7→rev8）：第八重角色（静息态BDNF翻译阻断器）
+- `concepts/ampa-receptor.md`（rev5→rev6）：GluA1快速抗抑郁收敛终点
+- `wiki/systems/lateral-habenula.md`（rev1→rev2）：MDD连接强化
+
+**图谱变化**：
+- 节点：344 → 345（+1：major-depressive-disorder）
+- 边：2076 → 2088（+12条）
+
+**悬空引用填补**：
+- `depression`（lateral-habenula.md related字段原含"depression"）→ 正式建立 major-depressive-disorder 专页
+
+**新增悬空引用**：
+- `mtor`（bdnf.md、major-depressive-disorder.md related字段新增）
+- `eef2k`（nmda-receptor.md related字段新增）
+- `hpa-axis`（major-depressive-disorder.md related字段新增）
+
+**新增未解问题**：
+- Q-mdd-01（高）：MDD突触缺损分子分型与氯胺酮响应预测
+- Q-mdd-02（高）：Val66Met多态性与人类TRD响应
+- Q-mdd-03（中）：反复氯胺酮给药长期安全性
+- Q-ketamine-01（高）：三条路径在人类TRD中各贡献比例；NMDAR PAM失败之谜
+- Q-hnk-01（中）：体内HNK浓度有效性
+
+**更新治理文件**：
+- state/topic_ledger.json：新增 #189 条目，total_articles=189
+- state/unresolved_questions.md：新增5个问题，更新日期
+- state/source_registry.json：新增9条来源，total=719
+- state/monthly_synthesis.md：新增 2026-10-21 #189 条目
+
+---
+
+## 文献检索记录
+
+**使用 API**：NCBI E-utilities（esearch + esummary）+ PMC open-access full text
+**主要查询**：
+1. `ketamine rapid antidepressant NMDA mechanism review`
+2. `Li N mTOR ketamine synapse Science 2010`
+3. `Autry 2011 NMDA receptor ketamine BDNF spontaneous Nature`
+4. `Zanos ketamine 2016 hydroxynorketamine antidepressant Nature`
+5. `Duman Aghajanian synaptic depression Science 2012`
+6. `ketamine antidepressant AMPA synapse review`
+7. `advancing past ketamine glutamatergic depression 2025`
+
+**注意事项**：
+- 初始 PMID 验证时发现 esummary 返回内容需通过标题+作者双重核查
+- PMC URL redirect：www.ncbi.nlm.nih.gov/pmc → pmc.ncbi.nlm.nih.gov
+
+---
+
+## 数据诚信声明
+
+- ✅ 所有引用均为真实 PMID/PMCID，已通过 NCBI API 核查标题和作者
+- ✅ 无 Sci-Hub 或付费内容访问
+- ✅ 数字（30分钟、rapamycin阻断、双光子成像2小时数据等）均来自已阅读的开放全文
+- ✅ 无医学诊断或治疗建议；临床药物信息仅为文献事实描述
+- ✅ 两篇摘要审阅（PMID:30867285, PMID:42065202）已标注 access_note
+
+---
+
+*日志记录时间：2026-06-30（系统时间）*

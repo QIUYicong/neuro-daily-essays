@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-19",
+  "last_updated": "2026-10-21",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -11837,9 +11837,126 @@
       ],
       "open_access": false,
       "key_contribution": "Marr-Ito-Albus三个经典模型的历史比较，共识与分歧"
+    },
+    {
+      "pmid": "PMID:20724638",
+      "pmcid": "PMC3116441",
+      "title": "mTOR-dependent synapse formation underlies the rapid antidepressant effects of NMDA antagonists",
+      "authors": "Li N et al.",
+      "journal": "Science",
+      "year": 2010,
+      "open_access": true,
+      "first_cited_article": "2026-10-21-depression-ketamine-rapid-antidepressant",
+      "cited_in": [
+        "2026-10-21-depression-ketamine-rapid-antidepressant"
+      ]
+    },
+    {
+      "pmid": "PMID:21677641",
+      "pmcid": "PMC3172695",
+      "title": "NMDA receptor blockade at rest triggers rapid behavioural antidepressant responses",
+      "authors": "Autry AE et al.",
+      "journal": "Nature",
+      "year": 2011,
+      "open_access": true,
+      "first_cited_article": "2026-10-21-depression-ketamine-rapid-antidepressant",
+      "cited_in": [
+        "2026-10-21-depression-ketamine-rapid-antidepressant"
+      ]
+    },
+    {
+      "pmid": "PMID:23042884",
+      "pmcid": "PMC4424898",
+      "title": "Synaptic dysfunction in depression: potential therapeutic targets",
+      "authors": "Duman RS, Aghajanian GK",
+      "journal": "Science",
+      "year": 2012,
+      "open_access": true,
+      "first_cited_article": "2026-10-21-depression-ketamine-rapid-antidepressant",
+      "cited_in": [
+        "2026-10-21-depression-ketamine-rapid-antidepressant"
+      ]
+    },
+    {
+      "pmid": "PMID:27144355",
+      "pmcid": "PMC4922311",
+      "title": "NMDAR inhibition-independent antidepressant actions of ketamine metabolites",
+      "authors": "Zanos P et al.",
+      "journal": "Nature",
+      "year": 2016,
+      "open_access": true,
+      "first_cited_article": "2026-10-21-depression-ketamine-rapid-antidepressant",
+      "cited_in": [
+        "2026-10-21-depression-ketamine-rapid-antidepressant"
+      ]
+    },
+    {
+      "pmid": "PMID:30867285",
+      "pmcid": "PMC6442605",
+      "title": "(2R,6R)-hydroxynorketamine exerts mGlu(2) receptor-dependent antidepressant actions",
+      "authors": "Zanos P et al.",
+      "journal": "PNAS",
+      "year": 2019,
+      "open_access": true,
+      "first_cited_article": "2026-10-21-depression-ketamine-rapid-antidepressant",
+      "cited_in": [
+        "2026-10-21-depression-ketamine-rapid-antidepressant"
+      ]
+    },
+    {
+      "pmid": "PMID:30894661",
+      "pmcid": "PMC6754322",
+      "title": "Neurobiology of rapid-acting antidepressants: convergent effects on GluA1-synaptic function",
+      "authors": "Duman RS",
+      "journal": "Molecular Psychiatry",
+      "year": 2019,
+      "open_access": true,
+      "first_cited_article": "2026-10-21-depression-ketamine-rapid-antidepressant",
+      "cited_in": [
+        "2026-10-21-depression-ketamine-rapid-antidepressant"
+      ]
+    },
+    {
+      "pmid": "PMID:38177353",
+      "pmcid": "PMC11176041",
+      "title": "Targeting metaplasticity mechanisms to promote sustained antidepressant actions",
+      "authors": "Brown KA et al.",
+      "journal": "Molecular Psychiatry",
+      "year": 2024,
+      "open_access": true,
+      "first_cited_article": "2026-10-21-depression-ketamine-rapid-antidepressant",
+      "cited_in": [
+        "2026-10-21-depression-ketamine-rapid-antidepressant"
+      ]
+    },
+    {
+      "pmid": "PMID:39207462",
+      "pmcid": "PMC12500823",
+      "title": "Advancing past ketamine: emerging glutamatergic compounds for the treatment of depression",
+      "authors": "Freudenberg F et al.",
+      "journal": "European Archives of Psychiatry and Clinical Neuroscience",
+      "year": 2025,
+      "open_access": true,
+      "first_cited_article": "2026-10-21-depression-ketamine-rapid-antidepressant",
+      "cited_in": [
+        "2026-10-21-depression-ketamine-rapid-antidepressant"
+      ]
+    },
+    {
+      "pmid": "PMID:42065202",
+      "pmcid": "PMC13138482",
+      "title": "A comprehensive review of the clinical progress of esketamine: From anesthesia to antidepressant therapy",
+      "authors": "Hu HL et al.",
+      "journal": "Medicine (Baltimore)",
+      "year": 2026,
+      "open_access": true,
+      "first_cited_article": "2026-10-21-depression-ketamine-rapid-antidepressant",
+      "cited_in": [
+        "2026-10-21-depression-ketamine-rapid-antidepressant"
+      ]
     }
   ],
-  "total_sources": 710,
+  "total_sources": 719,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",

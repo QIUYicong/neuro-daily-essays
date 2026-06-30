@@ -6,14 +6,14 @@ type: region
 status: established
 confidence: high
 created: 2026-09-19
-updated: 2026-09-19
-revision_count: 1
+updated: 2026-10-21
+revision_count: 2
 dimensions: [molecular, cellular, microcircuit, brain-region, behavior, cognition, disease]
-related: [dopamine-reward-prediction-error, basal-ganglia, nucleus-accumbens, serotonin-raphe-system, vmPFC, amygdala, prefrontal-cortex, lhb-rmtg-circuit, depression, thalamus]
+related: [dopamine-reward-prediction-error, basal-ganglia, nucleus-accumbens, serotonin-raphe-system, vmPFC, amygdala, prefrontal-cortex, lhb-rmtg-circuit, major-depressive-disorder, thalamus, nmda-receptor]
 prerequisites: [dopamine-reward-prediction-error, synaptic-transmission, basal-ganglia]
 opens_questions: [Q-lhb-01, Q-lhb-02, Q-lhb-03]
-source_articles: [2026-09-19-lateral-habenula-anti-reward-depression]
-key_sources: ["PMID:17522629", "PMID:21832176", "PMID:31152135", "PMID:41925551", "PMID:41872515", "PMID:38863324", "PMID:42057617", "PMID:40769282", "PMID:33535028", "PMID:37414924"]
+source_articles: [2026-09-19-lateral-habenula-anti-reward-depression, 2026-10-21-depression-ketamine-rapid-antidepressant]
+key_sources: ["PMID:17522629", "PMID:21832176", "PMID:31152135", "PMID:41925551", "PMID:41872515", "PMID:38863324", "PMID:42057617", "PMID:40769282", "PMID:33535028", "PMID:37414924", "PMID:23042884", "PMID:30894661"]
 ---
 
 # 外侧缰核 (Lateral Habenula, LHb)
@@ -89,6 +89,8 @@ LHb 的核心解剖回路：谷氨酸能 LHb 神经元 → 兴奋 GABAergic **�
 - [[nucleus-accumbens]] — 下游多巴胺信号目标，受 LHb 间接调控
 - [[vmPFC]] — 向 LHb 提供价值期望未实现信号
 - [[thalamus]] — 解剖邻近，共属间脑/上丘脑区域
+- [[major-depressive-disorder]] — LHb 病理性爆发放电是 MDD 快感缺失的回路基础；氯胺酮通过阻断 NMDA 受体打断 LHb 爆发动力学
+- [[nmda-receptor]] — LHb 爆发放电的持续依赖 NMDA 受体介导的内部振荡；氯胺酮通过阻断 LHb NMDA 受体快速消除爆发
 
 ## 未解问题
 
@@ -99,7 +101,9 @@ LHb 的核心解剖回路：谷氨酸能 LHb 神经元 → 兴奋 GABAergic **�
 ## 修订历史
 
 - 2026-09-19 · 创建 · 基于《外侧缰核：大脑的惩罚计算机》(文章 #149) · 初始置信度：高
+- 2026-10-21 · 修订 rev2 · 基于《氯胺酮与快速抗抑郁机制》(#189) · 突出强化 LHb 病理性爆发放电与 MDD/氯胺酮的连接；related 更新（depression→major-depressive-disorder，新增 nmda-receptor）；连接新增 major-depressive-disorder 和 nmda-receptor；source_articles 新增 #189；key_sources 新增 PMID:23042884, PMID:30894661
 
 ## 来源文章
 
 - [[2026-09-19-lateral-habenula-anti-reward-depression]]
+- [[2026-10-21-depression-ketamine-rapid-antidepressant]]

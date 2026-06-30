@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-20",
-  "total_articles": 179,
+  "last_updated": "2026-10-21",
+  "total_articles": 189,
   "entries": [
     {
       "date": "2026-10-18",
@@ -11824,6 +11824,90 @@
         "predictive-coding (Priority B.4 frontier node, 58 edges, medium confidence)",
         "sharp-wave-ripple (Priority B.3 dangling ref)",
         "working-memory (Priority B.4 frontier node, related to goal-directed/prefrontal-cortex)"
+      ]
+    },
+    {
+      "date": "2026-10-21",
+      "title": "氯胺酮与快速抗抑郁机制：突触缺损与三条分子路径",
+      "filename": "2026-10-21-depression-ketamine-rapid-antidepressant.md",
+      "article_number": 189,
+      "wiki_pages_created": [
+        "wiki/diseases/major-depressive-disorder.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/bdnf.md rev3→rev4",
+        "wiki/concepts/nmda-receptor.md rev7→rev8",
+        "wiki/concepts/ampa-receptor.md rev5→rev6",
+        "wiki/systems/lateral-habenula.md rev1→rev2"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "氯胺酮为何能在数小时内逆转数周甚至数年的抑郁症状，而 SSRI 需要数周才能起效？三条分子路径（mTOR突触生成/eEF2K-BDNF脱抑制/HNK代谢产物AMPA增强）如何在不同时间窗口协同产生快速抗抑郁效果？",
+      "open_questions_added": [
+        "Q-mdd-01（高优先级）：MDD突触缺损分子分型——能否通过分型预测氯胺酮响应性？",
+        "Q-mdd-02（高优先级）：Val66Met多态性是否真正预测人类TRD对氯胺酮的响应？",
+        "Q-mdd-03（中优先级）：反复氯胺酮给药的长期安全性（突触可塑性饱和/成瘾风险）？",
+        "Q-ketamine-01（高优先级）：三条路径（NMDA→mTOR/eEF2K→BDNF/HNK→AMPA）在人类TRD中各贡献比例？",
+        "Q-hnk-01（中优先级）：体内HNK峰值浓度是否达到有效阈值？HNK Phase I结果？"
+      ],
+      "layer": [
+        "molecular",
+        "synaptic",
+        "cellular",
+        "brain-region",
+        "whole-brain-network",
+        "behavior",
+        "cognition",
+        "disease"
+      ],
+      "curriculum_track": "mood-disorders-rapid-treatment",
+      "topic_tags": [
+        "MDD",
+        "major-depressive-disorder",
+        "ketamine",
+        "rapid-antidepressant",
+        "mTOR",
+        "eEF2K",
+        "BDNF",
+        "HNK",
+        "hydroxynorketamine",
+        "AMPA-receptor",
+        "GluA1",
+        "synaptogenesis",
+        "synaptic-deficit",
+        "lateral-habenula",
+        "mPFC",
+        "SST-interneuron",
+        "esketamine",
+        "Spravato",
+        "AXS-05",
+        "TRD",
+        "metaplasticity"
+      ],
+      "main_sources": [
+        "PMID:20724638",
+        "PMID:21677641",
+        "PMID:23042884",
+        "PMID:27144355",
+        "PMID:30867285",
+        "PMID:30894661",
+        "PMID:38177353",
+        "PMID:39207462",
+        "PMID:42065202"
+      ],
+      "unresolved_questions": [
+        "Q-mdd-01",
+        "Q-mdd-02",
+        "Q-mdd-03",
+        "Q-ketamine-01",
+        "Q-hnk-01"
+      ],
+      "next_suggested_topics": [
+        "hpa-axis（Priority B.3 dangling ref from MDD; 皮质醇/糖皮质激素与突触损伤的上游驱动）",
+        "orbitofrontal-cortex（Priority B.3 dangling ref from #188 habit article; 优先级维持高）",
+        "prefrontal-cortex-depression（Priority B.2 深化）——mPFC第V层锥体神经元突触缺损的细胞类型特异性",
+        "default-mode-network-depression（Priority B.4 frontier node）——DMN过度激活与抑郁症反刍思维的关系",
+        "endocannabinoid-system（Priority B.3 dangling ref from #188）"
       ]
     }
   ]

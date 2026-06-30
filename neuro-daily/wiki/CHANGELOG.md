@@ -4,6 +4,28 @@
 
 ---
 
+## 2026-10-21 · 文章 #189 · 氯胺酮与快速抗抑郁机制：突触缺损与三条分子路径
+
+**新建页面（1个）**：
+- `wiki/diseases/major-depressive-disorder.md`（rev1）：填补 MDD 在知识库中的空白，是 lateral-habenula.md 的 depression 悬空引用的正式填补；综合突触缺损假说（Duman & Aghajanian 2012）与三条快速抗抑郁路径：（A）mTOR突触生成（Li 2010 PMID:20724638）、（B）eEF2K-BDNF脱抑制30分钟机制（Autry 2011 PMID:21677641）、（C）(2R,6R)-HNK代谢产物AMPA增强（Zanos 2016 PMID:27144355）；GluA1收敛终点框架（Duman 2019 PMID:30894661）；元可塑性机制（Brown 2024 PMID:38177353）；临床进展（艾氯胺酮/AXS-05/esmethadone/HNK Phase I）；新增未解问题 Q-mdd-01/02/03/Q-ketamine-01/Q-hnk-01；status: established；confidence: high
+
+**修订页面（4个）**：
+- `wiki/concepts/bdnf.md`（rev3→rev4）：新增"抑郁症与快速抗抑郁：eEF2K-BDNF路径"机制节；静息态NMDA主动压制BDNF翻译（eEF2K门控）；30分钟vs2-24小时两阶段时序区分；SSRI vs 快速抗抑郁药BDNF释放模式对比；related新增major-depressive-disorder/mtor；连接新增major-depressive-disorder；key_sources新增PMID:21677641/30894661
+- `wiki/concepts/nmda-receptor.md`（rev7→rev8）：新增第八重角色——静息态翻译阻断器（eEF2K-BDNF路径）；eEF2K抑制剂药理验证（NH125单独给药复制氯胺酮效果）；30分钟机制与2-24小时mTOR机制的rapamycin敏感性区分；related新增major-depressive-disorder/bdnf/eef2k；连接新增major-depressive-disorder；key_sources新增PMID:21677641/20724638
+- `wiki/concepts/ampa-receptor.md`（rev5→rev6）：新增"GluA1插入：快速抗抑郁药的收敛效应终点"段落；三类快速抗抑郁药AMPA依赖性对比表（氯胺酮/HNK/东莨菪碱）；Val66Met多态性验证（三者均失效）；与经典LTP GluA1插入的尺度区别；related新增major-depressive-disorder/bdnf；连接新增major-depressive-disorder；key_sources新增PMID:30894661/27144355/20724638
+- `wiki/systems/lateral-habenula.md`（rev1→rev2）：related更新（depression→major-depressive-disorder，新增nmda-receptor）；连接新增major-depressive-disorder和nmda-receptor（LHb爆发依赖NMDA受体内部振荡）；key_sources新增PMID:23042884/30894661
+
+**矛盾操作（0个）**：无新矛盾登记。注：NMDAR PAMs（rapastinel/zelquistinel）III期失败与NMDAR拮抗剂（氯胺酮）成功的方向矛盾已在文章中作为"悬而未决的治疗谜题"处理（Q-ketamine-01），不构成科学事实层面的矛盾，属于临床转化层面的未解问题。
+
+**悬空引用（填补1个，新增2个）**：
+- ✅ 填补：`depression` 引用（lateral-habenula.md related字段原含"depression"；今日正式建立major-depressive-disorder页面并更新引用）
+- 新增：`mtor`（bdnf.md related字段新增，以及major-depressive-disorder.md related字段；尚无独立页面，机制在文章#189中有详细描述）
+- 新增：`eef2k`（nmda-receptor.md related字段新增；eEF2K是30分钟快速抗抑郁机制的关键激酶，优先级中等）
+
+**图谱变化**：约344节点/约2076边 → **345节点/2088边**（+1节点：major-depressive-disorder；+12边：MDD→lateral-habenula/bdnf/nmda-receptor/ampa-receptor/prefrontal-cortex/hippocampal-neurogenesis/serotonin-raphe-system/dopamine-reward-prediction-error；反向边：nmda-receptor↔MDD/bdnf↔MDD/ampa-receptor↔MDD/lateral-habenula↔MDD）
+
+---
+
 ## 2026-10-20 · 文章 #188 · 目标导向还是习惯？纹状体双系统的分子开关机制
 
 **新建页面（1个）**：

@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-10-20",
-  "node_count": 339,
-  "edge_count": 2049,
+  "updated": "2026-10-21",
+  "node_count": 345,
+  "edge_count": 2088,
   "edge_types": [
     "is-a",
     "part-of",
@@ -3146,6 +3146,15 @@
       "status": "mainstream",
       "confidence": "high",
       "page": "wiki/concepts/habit-vs-goal-directed.md"
+    },
+    {
+      "id": "major-depressive-disorder",
+      "title": "重度抑郁症（MDD）",
+      "domain": "diseases",
+      "type": "disease",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/diseases/major-depressive-disorder.md"
     }
   ],
   "edges": [
@@ -14796,6 +14805,78 @@
       "from": "addiction",
       "to": "habit-vs-goal-directed",
       "type": "related"
+    },
+    {
+      "from": "major-depressive-disorder",
+      "to": "lateral-habenula",
+      "type": "mechanism-of",
+      "note": "LHb病理性爆发放电是MDD快感缺失的回路基础"
+    },
+    {
+      "from": "major-depressive-disorder",
+      "to": "bdnf",
+      "type": "mechanism-of",
+      "note": "MDD中BDNF减少（eEF2K途径）是突触缺损中间步骤"
+    },
+    {
+      "from": "major-depressive-disorder",
+      "to": "nmda-receptor",
+      "type": "mechanism-of",
+      "note": "静息态NMDA活动通过eEF2K主动压制BDNF翻译；氯胺酮靶点"
+    },
+    {
+      "from": "major-depressive-disorder",
+      "to": "ampa-receptor",
+      "type": "mechanism-of",
+      "note": "GluA1突触插入是所有快速抗抑郁药的收敛效应终点"
+    },
+    {
+      "from": "major-depressive-disorder",
+      "to": "prefrontal-cortex",
+      "type": "mechanism-of",
+      "note": "mPFC第V层锥体神经元突触密度减少是MDD的结构核心"
+    },
+    {
+      "from": "major-depressive-disorder",
+      "to": "hippocampal-neurogenesis",
+      "type": "mechanism-of",
+      "note": "抑郁症中BDNF减少导致成体神经发生受损"
+    },
+    {
+      "from": "major-depressive-disorder",
+      "to": "serotonin-raphe-system",
+      "type": "related",
+      "note": "LHb→DRN抑制血清素；SSRI主要治疗靶点"
+    },
+    {
+      "from": "major-depressive-disorder",
+      "to": "dopamine-reward-prediction-error",
+      "type": "mechanism-of",
+      "note": "LHb→RMTg→VTA回路驱动多巴胺信号抑制，产生快感缺失"
+    },
+    {
+      "from": "nmda-receptor",
+      "to": "major-depressive-disorder",
+      "type": "related",
+      "note": "静息态NMDA受体活动是BDNF翻译的主动抑制器（eEF2K通路）"
+    },
+    {
+      "from": "bdnf",
+      "to": "major-depressive-disorder",
+      "type": "related",
+      "note": "BDNF减少（eEF2K门控）是MDD突触缺损的关键中间步骤"
+    },
+    {
+      "from": "ampa-receptor",
+      "to": "major-depressive-disorder",
+      "type": "related",
+      "note": "快速抗抑郁药通过GluA1插入修复MDD的突触缺损"
+    },
+    {
+      "from": "lateral-habenula",
+      "to": "major-depressive-disorder",
+      "type": "related",
+      "note": "LHb爆发放电在抑郁状态下主动压制多巴胺/血清素输出"
     }
   ],
   "dangling_references": [

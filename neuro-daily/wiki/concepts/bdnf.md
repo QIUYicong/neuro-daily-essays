@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-28
-updated: 2026-09-07
-revision_count: 3
+updated: 2026-10-21
+revision_count: 4
 dimensions: [molecular, cellular, synaptic, cognition, disease]
-related: [ltp, ltd, adult-neurogenesis, hippocampal-neurogenesis, alzheimers-disease, nmda-receptor, camkii, arc-arg31, synaptic-tagging-capture, engram-cells, memory-consolidation, pattern-separation, critical-period, pv-interneurons, perineuronal-nets, huntingtons-disease]
+related: [ltp, ltd, adult-neurogenesis, hippocampal-neurogenesis, alzheimers-disease, nmda-receptor, camkii, arc-arg31, synaptic-tagging-capture, engram-cells, memory-consolidation, pattern-separation, critical-period, pv-interneurons, perineuronal-nets, huntingtons-disease, major-depressive-disorder, mtor]
 prerequisites: [ltp, synaptic-transmission, nmda-receptor]
 opens_questions: [Q-bdnf-01, Q-bdnf-02, Q-bdnf-03]
-source_articles: [2026-06-28-bdnf-trk-b-plasticity-memory, 2026-06-03-critical-period-plasticity, 2026-09-07-huntingtons-disease-striatal-vulnerability-bdnf-polyglutamine]
-key_sources: ["PMID:16099088", "PMID:33096634", "PMID:17942328", "PMID:16025106", "PMID:12553913", "PMID:21282661", "PMID:30190379", "PMID:23674053", "PMID:11408619", "PMID:15967378"]
+source_articles: [2026-06-28-bdnf-trk-b-plasticity-memory, 2026-06-03-critical-period-plasticity, 2026-09-07-huntingtons-disease-striatal-vulnerability-bdnf-polyglutamine, 2026-10-21-depression-ketamine-rapid-antidepressant]
+key_sources: ["PMID:16099088", "PMID:33096634", "PMID:17942328", "PMID:16025106", "PMID:12553913", "PMID:21282661", "PMID:30190379", "PMID:23674053", "PMID:11408619", "PMID:15967378", "PMID:21677641", "PMID:30894661"]
 ---
 
 # 脑源性神经营养因子 (BDNF, Brain-Derived Neurotrophic Factor)
@@ -80,7 +80,38 @@ L-LTP 不能维持 · 新生神经元减少 →
 认知储备下降
 ```
 
-### 五、HD 中的 BDNF-REST 轴断裂
+### 五、抑郁症与快速抗抑郁：eEF2K-BDNF 路径
+
+**2026-10-21 新增（来自《氯胺酮与快速抗抑郁机制》#189）**
+
+BDNF 在抑郁症中的特殊角色揭示了一个反直觉机制：静息态 NMDA 受体活动是 BDNF 翻译的**主动抑制器**。
+
+**正常基线状态**：
+- 突触自发活动持续激活低水平 NMDA 受体
+- 维持 eEF2K（真核延伸因子 2 激酶）处于激活状态
+- eEF2K 磷酸化 eEF2（翻译延伸因子），阻断 BDNF mRNA 的翻译延伸
+- 因此，基线状态下 BDNF 蛋白水平受到主动压制
+
+**抑郁状态下的加重**：
+- 慢性应激通过糖皮质激素等机制，进一步降低 BDNF 基础水平
+- mPFC/海马突触缺损的恶性循环
+
+**氯胺酮的 30 分钟机制（Autry et al. 2011, PMID:21677641）**：
+```
+氯胺酮阻断静息态 NMDA 受体
+    → eEF2K 活性↓ → p-eEF2↓
+    → BDNF mRNA 翻译延伸解除阻断
+    → 30 分钟内海马 BDNF 蛋白水平↑
+    → 快速行为抗抑郁效果
+```
+
+关键区分：
+- **30 分钟机制**（eEF2K→BDNF）：不依赖 mTOR，rapamycin 不能阻断
+- **2-24 小时机制**（mTOR→突触蛋白合成）：需要 BDNF 先驱动 TrkB→mTOR，rapamycin 可阻断
+
+SSRI 与快速抗抑郁药的本质差异在于 BDNF 释放模式：SSRI 通过基因转录→蛋白合成的迂回路线（2-4 周），快速抗抑郁药直接触发 BDNF **活动依赖性胞吐**（秒-分钟级）。Val66Met 多态性（损害活动依赖性 BDNF 分泌）使三类快速抗抑郁药（氯胺酮、东莨菪碱、HNK）均失效，证实此路径的核心地位（Duman 2019, PMID:30894661）。
+
+### 六、HD 中的 BDNF-REST 轴断裂
 
 亨廷顿病（HD）揭示了皮质纹状体 BDNF 营养供给的核心调控机制，是理解 BDNF 功能不可或缺的疾病窗口。
 
@@ -120,6 +151,7 @@ mHTT → 失去 REST 隔离 → REST 入核 → BDNF 启动子抑制 → 皮层 
 - [[camkii]] — PLCγ/Ca²⁺ 通路激活 CaMKII；与 NMDA 通路并行的 LTP 维持机制
 - [[engram-cells]] — 印迹细胞 AMPA/NMDA 比值高，可能部分由 BDNF 驱动的 L-LTP 解释
 - [[huntingtons-disease]] — mHTT 破坏 wtHtt 对 REST 的隔离 → REST 入核抑制 BDNF 转录 → 皮质纹状体 BDNF 营养轴断裂 → MSN 选择性营养饥饿
+- [[major-depressive-disorder]] — MDD 中 BDNF 减少是突触缺损的核心中间步骤；eEF2K-BDNF 路径是氯胺酮 30 分钟快速抗抑郁机制的分子基础
 
 ## 未解问题
 
@@ -132,9 +164,11 @@ mHTT → 失去 REST 隔离 → REST 入核 → BDNF 启动子抑制 → 皮层 
 - 2026-06-28 · 创建 · 基于《BDNF：大脑给自己的成长信号》一文 (#64) · 初始置信度：高（基础机制）/中（AD 及 Val66Met 部分）
 - 2026-06-03 · 修订 rev2 · 基于《时间刻入神经回路：关键期》(#72) · 新增关键期相关角色：BDNF 通过 TrkB 加速 GABAergic 成熟（Huang 1999）、驱动 PV+ 细胞成熟时间轴、PNN-aggrecan-PTPσ 轴抑制 BDNF 信号进入 PV+ 细胞（Lesnikova 2021）；related 新增 critical-period, pv-interneurons, perineuronal-nets
 - 2026-09-07 · 修订 rev3 · 基于《亨廷顿病：纹状体选择性脆弱性》(#137) · 新增"HD中的BDNF-REST轴断裂"机制节（PMID:11408619/15967378）；关键证据新增HD wtHtt/REST/BDNF轴一行；related新增huntingtons-disease；key_sources新增PMID:11408619/15967378
+- 2026-10-21 · 修订 rev4 · 基于《氯胺酮与快速抗抑郁机制》(#189) · 新增"抑郁症与快速抗抑郁：eEF2K-BDNF路径"机制节（Autry 2011 PMID:21677641；Duman 2019 PMID:30894661）；阐明静息态NMDA主动压制BDNF翻译（eEF2K门控机制）及30分钟vs2-24小时两阶段时序；连接新增major-depressive-disorder；related新增major-depressive-disorder、mtor；key_sources新增PMID:21677641/30894661；source_articles新增#189
 
 ## 来源文章
 
 - [[2026-06-28-bdnf-trk-b-plasticity-memory]]
 - [[2026-06-03-critical-period-plasticity]]
 - [[2026-09-07-huntingtons-disease-striatal-vulnerability-bdnf-polyglutamine]]
+- [[2026-10-21-depression-ketamine-rapid-antidepressant]]
