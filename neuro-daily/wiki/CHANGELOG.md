@@ -4,6 +4,26 @@
 
 ---
 
+## 2026-10-18 · 文章 #178 · 突触病的汇聚：ASD 如何将一千条分子路径折叠成同一张失衡的天平
+
+**新建页面（1个）**：
+
+- `wiki/diseases/autism-spectrum-disorder.md` rev1：自闭症谱系障碍——遗传异质性极高（>100高可信度风险基因），通过五大分子路径集群（突触黏附/PSD支架/GABA能发育/翻译调控/染色质重塑）汇聚于E/I平衡破坏；NLGN1→兴奋性/NLGN2→抑制性突触规范；NLGN3 R451C 表面蛋白减少90%但海马CA1 AMPAR传递悖论性增强；SHANK3模块化：S685I特异破坏ABI1/WAVE招募；CNTNAP2缺失→PV+减少→光遗传PV激活完全救治社交缺陷；status: mainstream；confidence: medium
+
+**修订页面（1个）**：
+
+- `wiki/concepts/ei-balance.md` rev1→rev2：新增 ASD 五大分子路径汇聚证据（2行新证据）；新增 NLGN3 R451C 回路特异性 E/I 方向差异；related 扩展 autism-spectrum-disorder/cntnap2/fragile-x-syndrome；key_sources 扩展3项（PMID:18923512/34690695/26289574）；source_articles 追加 2026-10-18
+
+**矛盾（0个新登记）**：NLGN3 R451C 在 CA1（AMPAR 增强）vs. 纹状体（mIPSC 减少）方向相反，已在 autism-spectrum-disorder.md 中明确记录为"回路特异性效应"而非矛盾，暂不登记新矛盾条目（机制上可解释：NLGN3 在不同回路调控不同突触类型）
+
+**悬空引用（新增2个）**：
+- `shank3`（autism-spectrum-disorder.md related 中引用）——SHANK3独立页面暂缺
+- `neuroligin`（autism-spectrum-disorder.md related 中引用）——Neuroligin家族独立页面暂缺
+
+**图谱变化**：341节点/2048边 → **342节点/2059边**（+1节点：autism-spectrum-disorder；+11边）
+
+---
+
 ## 2026-10-17 · 文章 #177 · mGluR5 依赖的长时程抑制：突触削减的精密设计与脆性X综合征的分子悲剧
 
 **新建页面（3个）**：

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-17",
+  "last_updated": "2026-10-18",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -11611,9 +11611,143 @@
       "year": 2024,
       "full_text": true,
       "pmcid": "PMC11343219"
+    },
+    {
+      "pmid": "18923512",
+      "pmcid": "PMC2673233",
+      "doi": "10.1038/nrn2480",
+      "title": "Neuroligins and neurexins link synaptic function to cognitive disease",
+      "authors_short": "Südhof TC",
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2008,
+      "first_used": "2026-10-18",
+      "used_in_articles": [
+        "2026-10-18-autism-synaptopathy-ei-balance.md"
+      ],
+      "aspects_covered": [
+        "NLGN1→兴奋性突触；NLGN2→抑制性突触身份规范",
+        "Neurexin-Neuroligin 跨突触黏附框架",
+        "突触黏附分子突变与ASD/智力障碍关联",
+        "α/β-neurexin差异表达与功能多样性"
+      ]
+    },
+    {
+      "pmid": "31089192",
+      "pmcid": "PMC6742424",
+      "doi": "10.1038/s41593-019-0403-4",
+      "title": "Excitation-inhibition balance as a framework for investigating mechanisms in neuropsychiatric disorders",
+      "authors_short": "Sohal VS, Rubenstein JLR",
+      "journal": "Nature Neuroscience",
+      "year": 2019,
+      "first_used": "2026-10-18",
+      "used_in_articles": [
+        "2026-10-18-autism-synaptopathy-ei-balance.md"
+      ],
+      "aspects_covered": [
+        "E/I平衡多维框架：不同中间神经元亚型不可替代",
+        "CNTNAP2 KO选择性损伤PV（非SST）中间神经元",
+        "光遗传mPFC PV+激活完全救治社交行为缺陷",
+        "多种ASD基因模型mIPSC降低→苯二氮䓬类低剂量改善",
+        "非特异性抑制增强在VPA模型恶化ASD行为（关键警告）"
+      ]
+    },
+    {
+      "pmid": "34690695",
+      "pmcid": "PMC8526735",
+      "doi": "10.3390/ijms22179802",
+      "title": "Neuroligin-3: A Circuit-Specific Synapse Organizer That Shapes Normal Function and Autism Spectrum Disorder",
+      "authors_short": "Uchigashima M, Bhatt DL, Bhatt DL, Bhatt DL, Futai K",
+      "journal": "International Journal of Molecular Sciences",
+      "year": 2021,
+      "first_used": "2026-10-18",
+      "used_in_articles": [
+        "2026-10-18-autism-synaptopathy-ei-balance.md"
+      ],
+      "aspects_covered": [
+        "NLGN3 R451C KI小鼠：表面蛋白-90%（内质网滞留）",
+        "CA1 AMPAR介导传递反常增强",
+        "纹状体D1+细胞mIPSC频率减少50%",
+        "同一突变在不同回路E/I方向相反：回路特异性效应"
+      ]
+    },
+    {
+      "pmid": "30610205",
+      "pmcid": "PMC6718523",
+      "doi": "10.1038/s41593-019-0320-6",
+      "title": "An autism-linked missense mutation in SHANK3 reveals the modularity of Shank3 function",
+      "authors_short": "Wang L et al.",
+      "journal": "Nature Neuroscience",
+      "year": 2020,
+      "first_used": "2026-10-18",
+      "used_in_articles": [
+        "2026-10-18-autism-synaptopathy-ei-balance.md"
+      ],
+      "aspects_covered": [
+        "SHANK3 S685I特异破坏ABI1/WAVE招募但保留GKAP-Homer结合",
+        "PSD功能模块化：不同变异破坏不同下游通路",
+        "纹状体脊密度缺陷+水迷宫/社交行为损伤",
+        "SHANK3 Phelan-McDermid综合征机制"
+      ]
+    },
+    {
+      "pmid": "26289574",
+      "pmcid": null,
+      "doi": "10.1038/nrn3992",
+      "title": "From the genetic architecture to synaptic plasticity in autism spectrum disorder",
+      "authors_short": "Bourgeron T",
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2015,
+      "first_used": "2026-10-18",
+      "used_in_articles": [
+        "2026-10-18-autism-synaptopathy-ei-balance.md"
+      ],
+      "aspects_covered": [
+        "ASD风险基因五大分子集群分类框架",
+        "突触黏附（NRXN/NLGN）/PSD支架（SHANK）/离子通道/翻译调控/转录-染色质",
+        "多路径汇聚E/I失衡终点",
+        "遗传异质性综述：摘要访问"
+      ]
+    },
+    {
+      "pmid": "39585908",
+      "pmcid": null,
+      "doi": "10.1146/annurev-genet-111523-102328",
+      "title": "A Genetic Bridge Between Medicine and Neurodiversity for Autism Spectrum Disorder",
+      "authors_short": "Leblond CS et al.",
+      "journal": "Annual Review of Genetics",
+      "year": 2024,
+      "first_used": "2026-10-18",
+      "used_in_articles": [
+        "2026-10-18-autism-synaptopathy-ei-balance.md"
+      ],
+      "aspects_covered": [
+        "高外显率单基因变异约30%（伴ID/癫痫）的ASD",
+        "ASD与ADHD/抑郁症广泛遗传重叠",
+        "神经多样性视角：ASD作为神经回路配置连续变异谱",
+        "遗传异质性综述2024最新数据：摘要访问"
+      ]
+    },
+    {
+      "pmid": "35409220",
+      "pmcid": "PMC9003070",
+      "doi": "10.3390/ijms23073860",
+      "title": "Autism Spectrum Disorder: Focus on Glutamatergic Neurotransmission",
+      "authors_short": "Volk L et al.",
+      "journal": "International Journal of Molecular Sciences",
+      "year": 2022,
+      "first_used": "2026-10-18",
+      "used_in_articles": [
+        "2026-10-18-autism-synaptopathy-ei-balance.md"
+      ],
+      "aspects_covered": [
+        "ASD中谷氨酸能突触通路综述",
+        "NMDA受体/mGluR5/AMPAR在ASD中的作用",
+        "突触可塑性异常与ASD行为表型",
+        "开放获取全文（MDPI）"
+      ]
     }
   ],
-  "total_sources": 665,
+  "total_sources": 672,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",
@@ -14825,7 +14959,8 @@
     "open_access": true,
     "first_used": "2026-08-15",
     "articles_using": [
-      "2026-08-15-cntnap2-language-social-autism-circuit"
+      "2026-08-15-cntnap2-language-social-autism-circuit",
+      "2026-10-18-autism-synaptopathy-ei-balance.md"
     ],
     "covers": [
       "CNTNAP2 KO小鼠三核心域行为缺陷（社交/交流/刻板）",
@@ -17115,5 +17250,22 @@
     "new_additions": 8,
     "full_text_count": 5,
     "notes": "PMID:26585549/42061591/41616989 仅摘要；其余5篇 PMC 全文；核心定量数据来自 PMC7326348 (Cohen 2020) 和 PMC11558846 (Cohen 2024)"
+  },
+  "sources_2026-10-18-autism-asd": {
+    "article": "#178 · 突触病的汇聚：ASD如何将一千条分子路径折叠成同一张失衡的天平",
+    "date": "2026-10-18",
+    "pmids": [
+      "PMID:18923512",
+      "PMID:31089192",
+      "PMID:34690695",
+      "PMID:30610205",
+      "PMID:26289574",
+      "PMID:39585908",
+      "PMID:35409220",
+      "PMID:21962519"
+    ],
+    "new_additions": 7,
+    "full_text_count": 5,
+    "notes": "PMID:26289574/39585908 仅摘要；PMID:21962519已于#114使用（复用）；其余5篇PMC全文（PMC2673233/6742424/8526735/6718523/9003070）"
   }
 }

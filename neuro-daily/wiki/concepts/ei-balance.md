@@ -6,14 +6,14 @@ type: concept
 status: mainstream
 confidence: medium
 created: 2026-07-04
-updated: 2026-07-04
-revision_count: 1
+updated: 2026-10-18
+revision_count: 2
 dimensions: [molecular, cellular, synaptic, microcircuit, brain-region, cognition, disease]
-related: [pv-interneurons, sst-interneurons, vip-interneurons, gamma-oscillations, homeostatic-plasticity, synaptic-scaling, synaptic-pruning, perineuronal-nets, working-memory, competition-selection-principle]
+related: [pv-interneurons, sst-interneurons, vip-interneurons, gamma-oscillations, homeostatic-plasticity, synaptic-scaling, synaptic-pruning, perineuronal-nets, working-memory, competition-selection-principle, autism-spectrum-disorder, cntnap2, fragile-x-syndrome]
 prerequisites: [synaptic-transmission, action-potential, pv-interneurons]
 opens_questions: [Q-ei-balance-01, Q-ei-balance-02, Q-ei-balance-03]
-source_articles: [2026-07-04-ei-balance-pv-interneuron]
-key_sources: ["PMID:31089192", "PMID:37143468", "PMID:36598942", "PMID:34887320", "PMID:36008036"]
+source_articles: [2026-07-04-ei-balance-pv-interneuron, 2026-10-18-autism-synaptopathy-ei-balance]
+key_sources: ["PMID:31089192", "PMID:37143468", "PMID:36598942", "PMID:34887320", "PMID:36008036", "PMID:18923512", "PMID:34690695", "PMID:26289574"]
 ---
 
 # 兴奋-抑制平衡 (Excitation-Inhibition Balance, E/I Balance)
@@ -65,6 +65,8 @@ E→I→E 的反馈回路：锥体细胞激活 PV+，PV+ 反馈抑制锥体细�
 | 升高 E/I 比→冲动决策；降低→迟疑行为 | 皮层回路计算模型（NMDA 受体扰动）| PMID:34887320 | 中（计算模型） |
 | 精神分裂症：过度剪枝 → E/I 失调 → 多巴胺脱抑制 | 影像学突触密度 + PV GAD67 下调 + 纹状体多巴胺过活跃 | PMID:36008036 | 中-高（相关性） |
 | 非特异性抑制增强有时恶化 ASD 行为；需靶向特定细胞类型 | VPA 暴露模型 mPFC 非特异性抑制 → 社交行为恶化 | PMID:31089192 | 高（临床启示重要）|
+| ASD 风险基因通过五大分子集群汇聚于 E/I 失衡终点 | 遗传学综述+多模型汇聚分析 | PMID:26289574（综述，摘要） | 中-高（框架成熟） |
+| NLGN3 R451C 在 CA1 增强 AMPAR 传递但在纹状体 D1+ 减少 mIPSC — 同一突变方向相反 | KI 小鼠+膜片钳 | PMID:34690695 | 高（小鼠）|
 
 ## 连接
 
@@ -77,6 +79,9 @@ E→I→E 的反馈回路：锥体细胞激活 PV+，PV+ 反馈抑制锥体细�
 - [[perineuronal-nets]] — PV+ 细胞周围的细胞外矩阵"刹车"，发育期固化 E/I 状态
 - [[synaptic-pruning]] — 发育期突触剪枝影响 E/I 平衡（精神分裂症过度剪枝的病理路径）
 - [[competition-selection-principle]] — 侧向抑制是竞争性选择的回路机制
+- [[autism-spectrum-disorder]] — E/I 失衡是 ASD 多种分子路径汇聚的共同功能终点
+- [[cntnap2]] — GABA 能发育路径破坏 E/I 平衡的典型机制
+- [[fragile-x-syndrome]] — 翻译调控失调路径破坏 E/I 平衡的典型机制
 
 ## 未解问题
 
@@ -87,7 +92,9 @@ E→I→E 的反馈回路：锥体细胞激活 PV+，PV+ 反馈抑制锥体细�
 ## 修订历史
 
 - 2026-07-04 · 创建 · 基于《信号与噪声之间：皮层 E/I 平衡的回路逻辑》一文 · 初始置信度：中（框架成熟，但异质性和精确测量方法仍有争议）
+- 2026-10-18 · rev2 · 基于《突触病的汇聚：ASD 如何将一千条分子路径折叠成同一张失衡的天平》(#178) · 新增：ASD 五大分子路径汇聚证据表；NLGN3 R451C 回路特异性 E/I 方向差异；related 扩展（autism-spectrum-disorder/cntnap2/fragile-x-syndrome）；新增 3 项 key_sources
 
 ## 来源文章
 
 - [[2026-07-04-ei-balance-pv-interneuron]]
+- [[2026-10-18-autism-synaptopathy-ei-balance]]

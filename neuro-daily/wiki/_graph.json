@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-10-17",
+  "updated": "2026-10-18",
   "node_count": 338,
   "edge_count": 2038,
   "edge_types": [
@@ -3119,6 +3119,15 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/diseases/fragile-x-syndrome.md"
+    },
+    {
+      "id": "autism-spectrum-disorder",
+      "title": "自闭症谱系障碍",
+      "domain": "diseases",
+      "type": "disease",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/diseases/autism-spectrum-disorder.md"
     }
   ],
   "edges": [
@@ -14629,6 +14638,61 @@
       "to": "homer1a",
       "type": "related",
       "note": "共享 mGluR5 受体但机制相反"
+    },
+    {
+      "source": "autism-spectrum-disorder",
+      "target": "ei-balance",
+      "type": "mechanism-of"
+    },
+    {
+      "source": "autism-spectrum-disorder",
+      "target": "fragile-x-syndrome",
+      "type": "related"
+    },
+    {
+      "source": "autism-spectrum-disorder",
+      "target": "cntnap2",
+      "type": "related"
+    },
+    {
+      "source": "autism-spectrum-disorder",
+      "target": "pv-interneurons",
+      "type": "related"
+    },
+    {
+      "source": "autism-spectrum-disorder",
+      "target": "fmrp",
+      "type": "related"
+    },
+    {
+      "source": "autism-spectrum-disorder",
+      "target": "mglur-ltd",
+      "type": "related"
+    },
+    {
+      "source": "autism-spectrum-disorder",
+      "target": "intellectual-disability",
+      "type": "related"
+    },
+    {
+      "source": "ei-balance",
+      "target": "autism-spectrum-disorder",
+      "type": "underlies"
+    },
+    {
+      "source": "cntnap2",
+      "target": "autism-spectrum-disorder",
+      "type": "risk-factor-of"
+    },
+    {
+      "source": "fragile-x-syndrome",
+      "target": "autism-spectrum-disorder",
+      "type": "related"
+    },
+    {
+      "source": "fmrp",
+      "target": "autism-spectrum-disorder",
+      "type": "related"
     }
   ],
   "dangling_references": [

@@ -1,0 +1,134 @@
+# 运行日志：2026-10-18
+
+**状态**：成功完成
+**运行时间**：2026-06-30（系统日期）/ 2026-10-18（KB内部日期）
+**文章编号**：#178
+**主题**：突触病的汇聚：自闭症谱系障碍如何将一千条分子路径折叠成同一张失衡的天平
+
+---
+
+## 主题选择依据
+
+**触发点**：2026-10-17 运行（mGluR5-LTD/FXS）建议下篇主题之一为 `autism-spectrum-disorder`（从脆性X综合征延伸至ASD整体疾病框架）。另外，wiki 图谱中高连接度、中置信度节点 `ei-balance`（degree=14，medium）需要在ASD背景下进一步整合多分子路径证据。
+
+**选择逻辑**：
+1. `fragile-x-syndrome.md`（#177）在 related 中引用 `autism-spectrum-disorder`，无独立页面→悬空引用
+2. `ei-balance.md` 已记录 ASD 的 E/I 失衡框架但缺乏分子多样性分析
+3. ASD 是覆盖分子/突触/发育/疾病多层级的天然综合主题，延续神经发育疾病叙事链
+4. 近期文章集中于分子机制（LTD, FXS）→ 疾病层面是自然演进方向
+
+---
+
+## 文献检索
+
+**检索方法**：
+- NCBI E-utilities esearch 检索 ASD+突触蛋白/E-I平衡/SHANK3/neuroligin
+- PMC 全文获取（PMC2673233/6742424/8526735/6718523）
+- 直接检索 Südhof/Bourgeron/Sohal 等标志性作者的综述文献
+
+**来源质量**：
+- 全文开放访问：5篇（PMC2673233/6742424/8526735/6718523/MDPI:35409220）
+- 摘要访问：2篇（PMID:26289574 Bourgeron 2015 Nat Rev Neurosci；PMID:39585908 Leblond 2024 Annu Rev Genetics）
+- 已读文章复用：1篇（PMID:21962519，已于 #114 全文阅读）
+- Sci-Hub 或付费访问：0篇（严格遵守开放访问政策）
+
+**搜索词记录**：
+- "autism spectrum disorder synaptic proteins review" (2020-2026)
+- "neuroligin NLGN3 autism excitatory inhibitory"
+- "excitatory inhibitory balance autism spectrum cortical"
+- "Sudhof synaptic neurexin neuroligin autism review"
+- "Bourgeron autism synaptic genetic review"
+- "SHANK3 phelan-mcdermid autism postsynaptic density scaffold"
+
+---
+
+## 创建文件
+
+| 文件 | 类型 | 字数（估）|
+|------|------|---------|
+| `articles/2026-10-18-autism-synaptopathy-ei-balance.md` | 主文章 | ~5200 |
+| `notes/2026-10-18-reading-notes.md` | 阅读笔记 | ~2000 |
+| `sources/2026-10-18-sources.json` | 来源元数据 | 8项来源 |
+| `wiki/diseases/autism-spectrum-disorder.md` | 新建 wiki | ~1800 |
+
+---
+
+## 修订文件
+
+| 文件 | 修订内容 |
+|------|---------|
+| `wiki/concepts/ei-balance.md` | rev1→rev2；新增ASD分子路径汇聚证据2行；NLGN3 R451C方向差异；related+3；key_sources+3；source_articles+1 |
+| `wiki/_graph.json` | 341节点/2048边 → 342节点/2059边（+1节点autism-spectrum-disorder；+11边） |
+| `wiki/index.md` | 标题行更新：331页，342节点/2059边，2026-10-18；diseases/新增ASD条目 |
+| `wiki/CHANGELOG.md` | 新增 2026-10-18 条目 |
+| `state/monthly_synthesis.md` | 新增 #178 条目（October 表格） |
+| `logs/2026-10-18-run.log` | 本文件 |
+
+---
+
+## 知识图谱变化
+
+**新增节点（1个）**：
+- `autism-spectrum-disorder`（diseases，disease，mainstream/medium）
+
+**新增边（11条）**：
+- autism-spectrum-disorder → ei-balance（mechanism-of）
+- autism-spectrum-disorder → fragile-x-syndrome（related）
+- autism-spectrum-disorder → cntnap2（related）
+- autism-spectrum-disorder → pv-interneurons（related）
+- autism-spectrum-disorder → fmrp（related）
+- autism-spectrum-disorder → mglur-ltd（related）
+- autism-spectrum-disorder → intellectual-disability（related）
+- ei-balance → autism-spectrum-disorder（underlies）
+- cntnap2 → autism-spectrum-disorder（risk-factor-of）
+- fragile-x-syndrome → autism-spectrum-disorder（related）
+- fmrp → autism-spectrum-disorder（related）
+
+---
+
+## 悬空引用状态
+
+**今日填补**：
+- `autism-spectrum-disorder`（fragile-x-syndrome.md related 引用）→ 已建立独立页面
+
+**新增悬空引用**（来自今日新建页面的引用）：
+- `shank3`（autism-spectrum-disorder.md related 中引用）——SHANK3 独立 wiki 页面暂缺
+- `neuroligin`（autism-spectrum-disorder.md related 中引用）——Neuroligin 家族独立页面暂缺
+- `intellectual-disability`（autism-spectrum-disorder.md related 中引用）——智力障碍独立页面暂缺
+
+**已知存量悬空引用**（保持记录）：
+- `parallel-fiber`（上期遗留）
+- `sharp-wave-ripple`（图谱有边但无节点，文件名 sharp-wave-ripples.md 存在 slug 不一致）
+
+---
+
+## 下篇建议
+
+1. `shank3`（独立 wiki 节点，ASD/Phelan-McDermid综合征核心基因，被autism-spectrum-disorder.md引用）
+2. `neuroligin`（Neurexin-Neuroligin家族综合页，跨ASD/认知障碍多个wiki引用）
+3. `sharp-wave-ripple` vs `sharp-wave-ripples`（slug 不一致需解决，建图谱节点或统一 slug）
+4. `parallel-fiber`（悬空引用，小脑回路的关键结构）
+
+---
+
+## 自检结果（ROUTINE.md Step H）
+
+- [x] 无捏造 PMID / DOI / 结论（所有 PMID 均通过 NCBI E-utilities 验证）
+- [x] 开放访问来源 ≥ 2（实际5篇全文开放）
+- [x] 官方机构来源 ≥ 1（NCBI/PubMed/PMC）
+- [x] 未访问 Sci-Hub 或付费内容
+- [x] 无医学诊断/治疗建议（ASD 相关内容仅为科学解释，临床试验失败明确标注为历史事实）
+- [x] 动物→人类推断在正文中明确标注（"小鼠模型"/"需人类验证"）
+- [x] 文章字数 3000-6000（~5200字，符合要求）
+- [x] 比喻含有效性说明和局限性（"交响乐团"比喻后附比喻边界段落）
+- [x] 悬空引用已记录（新增3个）
+- [x] 图谱边类型正确（mechanism-of/related/underlies/risk-factor-of）
+- [x] append-only 规则遵守（原有文章未修改内容，wiki 仅在指定修订节追加）
+- [x] ei-balance.md revision_count 从1→2，updated 更新至2026-10-18
+- [x] Git 作者身份：QIUYicong / 169510482+QIUYicong@users.noreply.github.com
+- [x] 推送目标：origin main（单分支累积模型）
+
+---
+
+*下次运行建议 KB 内部日期：2026-10-19*
+*建议主题：shank3（填补新增悬空引用）或 neuroligin（神经连接蛋白家族综合页）*

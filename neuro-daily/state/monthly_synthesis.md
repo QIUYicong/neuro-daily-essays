@@ -2104,3 +2104,18 @@
 **图谱**：335节点/2024边（+3边；updated 2026-06-28）
 
 **层级**：cellular × microcircuit × brain-region × behavior × cognition × developmental（接续 #185 DG神经发生双面刃，从成人遗忘效应延伸到婴儿遗忘症全貌；Guskjolen 2018 提取失败发现重新定义了婴儿遗忘症与成年期神经发生的关系）
+
+---
+
+### 2026-10-18（#178）：突触病的汇聚——ASD 如何将一千条分子路径折叠成同一张失衡的天平
+
+**核心发现**：自闭症谱系障碍（ASD）的本质是一个"多因汇聚"的系统性问题：超过100个高可信度风险基因，通过至少五大分子集群（突触黏附/PSD支架/GABA能发育/翻译调控/染色质重塑）的不同损伤机制，最终汇聚于皮层 E/I 平衡破坏和信噪比下降。Südhof（2008, PMID:18923512）奠定了神经连接蛋白-黏素跨突触规范系统的分子基础：NLGN1 指定兴奋性突触，NLGN2 指定抑制性突触（PV+ 输入），任何错误均在突触身份层面引入 E/I 错乱。NLGN3 R451C（两兄弟ASD）的悖论最能说明回路层面的复杂性：蛋白表面表达减少~90%，却在海马 CA1 AMPAR 传递反常增强、纹状体 D1+ 的 mIPSC 减少50%——同一突变在不同回路节点产生相反方向的 E/I 偏移（Uchigashima & Futai 2021, PMID:34690695）。Wang et al.（2020, PMID:30610205）的 SHANK3-S685I 研究揭示支架蛋白的模块化特性：ABI1/WAVE 复合体招募被选择性破坏而不影响 GKAP 或 Homer 结合，提示 SHANK3 相关 ASD 内部存在多条独立下游通路。Sohal & Rubenstein（2019, PMID:31089192）整合多个 ASD KO 小鼠模型，提出 E/I 失衡作为"信噪比降低"的统一回路框架，并提供最强因果证据：光遗传选择性激活 CNTNAP2 KO 小鼠 mPFC PV+ 中间神经元完全救治社交行为缺陷。重要警告：VPA 模型中非特异性 GABA 增强反而恶化社交行为——治疗需要靶向特定细胞类型而非全局提升抑制。
+
+**知识地图贡献**：
+- 新建 autism-spectrum-disorder.md（diseases/，mainstream/medium，rev1）：整合五大分子路径集群；NLGN悖论；SHANK模块化；CNTNAP2光遗传救治；E/I信噪比汇聚框架
+- ei-balance.md (rev1→rev2)：新增ASD分子路径汇聚证据；NLGN3 R451C方向相反现象；related扩展3个
+- 新建图谱节点：autism-spectrum-disorder；+11边
+- 新增未解问题 Q-asd-01/02/03
+
+**层级**：molecular × synaptic × microcircuit × brain-region × behavior × disease（跨越分子-回路-行为三个层级，从NLGN的单突触识别码到CNTNAP2的发育迁移到Sohal&Rubenstein的回路框架）
+

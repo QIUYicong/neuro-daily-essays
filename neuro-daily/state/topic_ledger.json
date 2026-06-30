@@ -1,7 +1,84 @@
 {
-  "last_updated": "2026-10-17",
-  "total_articles": 176,
+  "last_updated": "2026-10-18",
+  "total_articles": 177,
   "entries": [
+    {
+      "date": "2026-10-18",
+      "title": "突触病的汇聚：自闭症谱系障碍如何将一千条分子路径折叠成同一张失衡的天平",
+      "filename": "2026-10-18-autism-synaptopathy-ei-balance.md",
+      "article_number": 178,
+      "wiki_pages_created": [
+        "wiki/diseases/autism-spectrum-disorder.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/ei-balance.md rev1→rev2"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "超过100个高可信度ASD风险基因，通过突触黏附规范（Neurexin-Neuroligin）、PSD支架（SHANK3）、GABA能中间神经元发育（CNTNAP2）、突触可塑性调控（FMRP/mGluR5）、转录-染色质等五大截然不同的分子路径，为何最终汇聚于相似的社交认知损伤表型？E/I平衡失调作为共同终点的分子机制与回路特异性变异（NLGN3 R451C在CA1与纹状体方向相反）如何共存？",
+      "open_questions_added": [
+        "Q-asd-01（高优先级）：不同基因亚型ASD的E/I偏移方向是否确实不同？是否可通过EEG/MEG在人类中直接验证？",
+        "Q-asd-02（中优先级）：NLGN3 R451C小鼠同时存在行为增强（空间学习）和社交减少——独立回路节点效应还是同一E/I偏移的不同表现？",
+        "Q-asd-03（高优先级）：ASD亚型分层的临床可行性——针对特定遗传亚型的靶向干预能否在人类临床试验中实现统计效力？"
+      ],
+      "layer": [
+        "molecular",
+        "synaptic",
+        "microcircuit",
+        "brain-region",
+        "behavior",
+        "cognition",
+        "disease",
+        "development"
+      ],
+      "curriculum_track": "课程脊柱9（神经发育疾病：ASD分子框架）+ 课程脊柱4（突触黏附与组织）+ 课程脊柱5（E/I平衡：汇聚终点）",
+      "topic_tags": [
+        "autism-spectrum-disorder ASD autism synaptopathy E/I balance genetic heterogeneity",
+        "Neurexin NRXN Neuroligin NLGN1 NLGN2 NLGN3 synapse identity specification R451C",
+        "SHANK3 postsynaptic density PSD scaffold Phelan-McDermid 22q13.3 ABI1 WAVE",
+        "CNTNAP2 CASPR2 GABAergic interneuron migration PV+ optogenetic rescue social behavior",
+        "FMRP FMR1 mGluR-LTD translational control FXS fragile X converge",
+        "excitatory inhibitory balance signal-to-noise ratio cortical circuit social cognition",
+        "Bourgeron 2015 PMID:26289574 five molecular clusters synaptic risk gene families",
+        "Sohal Rubenstein 2019 PMID:31089192 E/I framework interneuron specificity",
+        "Uchigashima Futai 2021 PMID:34690695 NLGN3 circuit-specific bidirectional",
+        "Wang 2020 PMID:30610205 SHANK3 S685I modular scaffold ABI1 WAVE"
+      ],
+      "main_sources": [
+        {
+          "id": "PMID:18923512",
+          "title": "Neuroligins and neurexins link synaptic function to cognitive disease (Südhof 2008)"
+        },
+        {
+          "id": "PMID:31089192",
+          "title": "Excitation-inhibition balance as a framework for investigating neuropsychiatric disorders (Sohal & Rubenstein 2019)"
+        },
+        {
+          "id": "PMC:8526735",
+          "title": "Neuroligin-3: A Circuit-Specific Synapse Organizer (Uchigashima & Futai 2021)"
+        },
+        {
+          "id": "PMC:6718523",
+          "title": "An autism-linked missense mutation in SHANK3 reveals the modularity of Shank3 function (Wang et al. 2020)"
+        },
+        {
+          "id": "PMID:26289574",
+          "title": "From the genetic architecture to synaptic plasticity in ASD (Bourgeron 2015)"
+        }
+      ],
+      "unresolved_questions": [
+        "Q-asd-01",
+        "Q-asd-02",
+        "Q-asd-03"
+      ],
+      "next_suggested_topics": [
+        "shank3（独立wiki节点，ASD/Phelan-McDermid核心基因，被autism-spectrum-disorder.md引用）",
+        "neuroligin（Neurexin-Neuroligin家族综合页，被autism-spectrum-disorder.md引用）",
+        "sharp-wave-ripple（slug不一致需解决，文件名sharp-wave-ripples.md存在）",
+        "parallel-fiber（悬空引用，小脑回路关键结构）",
+        "intellectual-disability（ASD常见共病，被autism-spectrum-disorder.md引用）"
+      ]
+    },
     {
       "date": "2026-10-17",
       "title": "mGluR5 依赖的长时程抑制：突触削减的精密设计与脆性X综合征的分子悲剧",
@@ -48,13 +125,36 @@
         "Richter 2021 FMRP 842 mRNAs HITS-CLIP translational control PMC:8094212"
       ],
       "main_sources": [
-        {"id": "PMC:2841961", "title": "Cellular and synaptic mechanisms of anti-depressant drug action (Lüscher & Huber 2010)"},
-        {"id": "PMID:15219735", "title": "Synaptic dysfunction in neurodevelopmental disorders associated with autism and intellectual disabilities (Bear 2004)"},
-        {"id": "PMC:2199268", "title": "Correction of fragile X syndrome in mice (Dölen et al. 2007)"},
-        {"id": "PMID:32606374", "title": "Structural LTP boosts protein synthesis-dependent LTD via cell-autonomous BDNF signaling (Thomazeau 2021)"},
-        {"id": "PMC:8094212", "title": "Regulation of local mRNA translation in axons and dendrites by FMRP (Richter 2021)"}
+        {
+          "id": "PMC:2841961",
+          "title": "Cellular and synaptic mechanisms of anti-depressant drug action (Lüscher & Huber 2010)"
+        },
+        {
+          "id": "PMID:15219735",
+          "title": "Synaptic dysfunction in neurodevelopmental disorders associated with autism and intellectual disabilities (Bear 2004)"
+        },
+        {
+          "id": "PMC:2199268",
+          "title": "Correction of fragile X syndrome in mice (Dölen et al. 2007)"
+        },
+        {
+          "id": "PMID:32606374",
+          "title": "Structural LTP boosts protein synthesis-dependent LTD via cell-autonomous BDNF signaling (Thomazeau 2021)"
+        },
+        {
+          "id": "PMC:8094212",
+          "title": "Regulation of local mRNA translation in axons and dendrites by FMRP (Richter 2021)"
+        }
       ],
-      "unresolved_questions": ["Q-mglur-ltd-01", "Q-mglur-ltd-02", "Q-mglur-ltd-03", "Q-fmrp-01", "Q-fmrp-02", "Q-fxs-01", "Q-fxs-02"],
+      "unresolved_questions": [
+        "Q-mglur-ltd-01",
+        "Q-mglur-ltd-02",
+        "Q-mglur-ltd-03",
+        "Q-fmrp-01",
+        "Q-fmrp-02",
+        "Q-fxs-01",
+        "Q-fxs-02"
+      ],
       "next_suggested_topics": [
         "mGluR5（wiki节点悬空，被多篇文章引用）",
         "cerebellar-ltd（小脑LTD mGluR1机制，被mglur-ltd.md引用但无独立页面）",

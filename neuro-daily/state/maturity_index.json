@@ -1042,5 +1042,13 @@
     "confidence": "high",
     "last_changed": "2026-06-29",
     "reason": "新建 rev1 · #187 · 无报告范式方法论：mainstream（已被意识研究界广泛采用）；confidence=high（逻辑框架清晰，Cohen 2020 核心实验提供强证据）；主要局限：内部报告问题尚未完全解决"
+  },
+  {
+    "slug": "autism-spectrum-disorder",
+    "page": "wiki/diseases/autism-spectrum-disorder.md",
+    "status": "mainstream",
+    "confidence": "medium",
+    "last_changed": "2026-10-18",
+    "reason": "新建 rev1 · #178 · ASD 突触病与 E/I 失衡：mainstream（概念框架成熟，Bourgeron 2015/Sohal 2019 综述奠基）；confidence=medium（核心证据来自小鼠模型，人类直接验证有限；NLGN3 R451C 回路特异性效应增加复杂性）"
   }
 ]
