@@ -1,6 +1,35 @@
 # 未解问题追踪
 
-*最后更新：2026-10-17*
+*最后更新：2026-10-21*
+
+---
+
+## 2026-10-21 新增（来自"涟漪从何而来：海马 CA3 的沉默爆发与记忆的生理语言" 文章 #189）
+
+### Q-swr-01（高优先级）：涟漪内信息内容的决定机制
+
+- **关联 wiki**：[[sharp-wave-ripples]]、[[hippocampal-replay]]、[[ca3-auto-associative-network]]（待建页）
+- **来源文章**：2026-10-21-swr-generation-mechanism-ca3-ca1
+- **问题**：CA1 涟漪频率由 GABA_A 时间常数决定（~143–200 Hz），涟漪窗口内激活哪些场所细胞序列由 CA3 突触权重矩阵决定——但 CA3 的 ~12,000 个内部突触连接如何在一次 50ms 的涟漪时间窗内"读出"特定序列？是 CA3c→CA3a 的顺序传播决定序列顺序，还是 CA3 内部的权重拓扑本身编码序列？GABA_A 时间常数约束和 CA3 权重拓扑如何共同决定涟漪内的信息内容？
+- **当前证据状态**：涟漪频率由 GABA_A 决定（Donoso 2018）：中-高（切片+模型）；CA3 权重编码序列（Ecker 2022 模型）：中（计算模型）；序列选择机制的整合理解：未系统建立
+
+### Q-swr-02（高优先级）：CA2 触发 SWR 的输入来源
+
+- **关联 wiki**：[[sharp-wave-ripples]]、[[ca2-hippocampus]]、[[hippocampal-circuit]]
+- **来源文章**：2026-10-21-swr-generation-mechanism-ca3-ca1
+- **问题**：CA2 ramping cells 在 SWR 前 15-20ms（清醒期）开始放电，触发 CA3→CA1 的级联事件——但 CA2 自身的激发输入来自哪里？内嗅皮层 Band II（time-coding cells）？中隔-海马胆碱能/GABAergic 输入（社会记忆调制）？CA3 局部反馈？不同来源在睡眠 vs 清醒状态下的贡献比例如何变化（睡眠期 CA2 触发效果减弱）？
+- **当前证据状态**：CA2 提前 15-20ms 放电（Oliva 2016, PMID:27593179）：高（因果光遗传）；CA2 输入来源的系统解析：未建立；睡眠 vs 清醒 CA2 触发差异的机制：未解
+
+### Q-swr-03（中优先级）：CA3c→CA3a 传播方向的体内验证
+
+- **关联 wiki**：[[sharp-wave-ripples]]、[[hippocampal-circuit]]
+- **来源文章**：2026-10-21-swr-generation-mechanism-ca3-ca1
+- **问题**：Schieferstein 2024（PMID:39216085）在体外切片（129 电极 MEA）中发现 SWR 从 CA3c 向 CA3a 方向传播（0.2–0.5 m/s），但体外切片排除了来自齿状回的实时输入（可能改变起始点）。这一传播方向在活体完整海马中是否成立？传播方向和起始点是否受当前学习状态（新颖 vs 熟悉环境）、CA2 触发 vs CA3 内在释放路径的影响？
+- **当前证据状态**：体外 CA3c→CA3a 传播（Schieferstein 2024）：中（体外切片，需体内验证）；活体 CA3 子区 SWR 时序的高分辨率测量：尚无直接数据
+
+### 新增悬空引用待填（2026-10-21）
+
+- **`ca3-auto-associative-network`**：hippocampal-replay.md 的 opens_questions 和 _graph.json 中引用了此概念（CA3 递归自激网络是 SWR 的生成器）；目前无独立 wiki 页面。建议在 hippocampal-circuit.md（rev6）中补充 CA3 递归系统的单独小节，或建立独立 `ca3-auto-associative-network.md` 页面（机制型，status: established）。
 
 ---
 

@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-10-20",
-  "node_count": 339,
-  "edge_count": 2049,
+  "updated": "2026-10-21",
+  "node_count": 344,
+  "edge_count": 2077,
   "edge_types": [
     "is-a",
     "part-of",
@@ -4218,22 +4218,10 @@
       "note": "BTSP（第一阶段，单次快速写入）与系统巩固（第二阶段，多夜慢速皮层化）是记忆从行为经历到长期存储的两个必要步骤"
     },
     {
-      "from": "sharp-wave-ripples",
-      "to": "memory-consolidation",
-      "type": "mechanism-of",
-      "note": "SWR 是系统巩固的物理载体：离线重播驱动海马→皮层信息转移"
-    },
-    {
       "from": "hippocampal-circuit",
       "to": "memory-consolidation",
       "type": "related",
       "note": "海马回路（特别是 CA3 循环连接→CA1 SWR）是系统巩固的发生场所"
-    },
-    {
-      "from": "engram-cells",
-      "to": "memory-consolidation",
-      "type": "related",
-      "note": "系统巩固将海马印迹复制至皮层，形成分布式皮层印迹；光遗传恢复沉默印迹可能通过人工触发类 SWR 机制"
     },
     {
       "from": "place-cell",
@@ -6942,11 +6930,6 @@
     },
     {
       "from": "gamma-oscillations",
-      "to": "pv-interneurons",
-      "type": "mechanism-of"
-    },
-    {
-      "from": "gamma-oscillations",
       "to": "beta-oscillations",
       "type": "regulates"
     },
@@ -7116,12 +7099,6 @@
       "to": "t-type-calcium-channels",
       "type": "mechanism-of",
       "note": "T型钙通道是爆发/强直切换的分子开关"
-    },
-    {
-      "from": "thalamic-firing-modes",
-      "to": "thalamocortical-circuit",
-      "type": "mechanism-of",
-      "note": "爆发模式通过FSU同步影响皮层时序"
     },
     {
       "from": "thalamic-firing-modes",
@@ -13589,7 +13566,7 @@
     },
     {
       "from": "gap-junction-electrical-synapse",
-      "to": "sharp-wave-ripple",
+      "to": "sharp-wave-ripples",
       "type": "related"
     },
     {
@@ -13901,11 +13878,6 @@
     },
     {
       "from": "orexin-hypocretin",
-      "to": "narcolepsy",
-      "type": "related"
-    },
-    {
-      "from": "flip-flop-switch-sleep-wake",
       "to": "narcolepsy",
       "type": "related"
     },
@@ -14796,6 +14768,42 @@
       "from": "addiction",
       "to": "habit-vs-goal-directed",
       "type": "related"
+    },
+    {
+      "from": "sharp-wave-ripples",
+      "to": "hippocampal-replay",
+      "type": "supports",
+      "note": "SWR是回放的物理载体，CA3爆发+CA1涟漪产生时序压缩重播窗口"
+    },
+    {
+      "from": "sharp-wave-ripples",
+      "to": "theta-oscillations",
+      "type": "related",
+      "note": "SWR与theta振荡互斥，分别代表海马的离线与在线工作状态"
+    },
+    {
+      "from": "sharp-wave-ripples",
+      "to": "place-cells",
+      "type": "related",
+      "note": "SWR期间场所细胞序列以约20倍速压缩重播"
+    },
+    {
+      "from": "sharp-wave-ripples",
+      "to": "pv-interneurons",
+      "type": "mechanism-of",
+      "note": "PV+篮细胞是涟漪振荡器的核心，SWR期间以140-220Hz放电"
+    },
+    {
+      "from": "ca3-auto-associative-network",
+      "to": "sharp-wave-ripples",
+      "type": "mechanism-of",
+      "note": "CA3递归兴奋网络自激群体爆发是尖波（SW）的来源"
+    },
+    {
+      "from": "dentate-gyrus",
+      "to": "sharp-wave-ripples",
+      "type": "related",
+      "note": "齿状回→CA3苔藓纤维提供CA3自激的外部驱动输入"
     }
   ],
   "dangling_references": [

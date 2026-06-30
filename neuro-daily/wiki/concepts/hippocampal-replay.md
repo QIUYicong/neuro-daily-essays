@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-07-16
-updated: 2026-09-22
-revision_count: 2
+updated: 2026-10-21
+revision_count: 3
 dimensions: [microcircuit, brain-region, whole-brain-network, behavior, cognition]
 related: [sharp-wave-ripples, place-cells, complementary-learning-systems, memory-consolidation, pattern-completion, td-learning, experience-replay-buffer, so-spindle-swr-coupling, temporal-credit-assignment, theta-oscillations, synaptic-tagging-capture, phase-precession, prefrontal-cortex, pv-interneurons, norepinephrine-locus-coeruleus]
 prerequisites: [sharp-wave-ripples, place-cells, hippocampal-circuit, theta-oscillations]
-opens_questions: [Q-swr-tagging-mechanism, Q-replay-forward-reverse-credit, Q-replay-human-translation, Q-replay-planning-mechanism, Q-pfc-suppression-selectivity, Q-inhibitory-plasticity-bounds]
-source_articles: [2026-07-16-hippocampal-replay-experience-replay, 2026-09-22-swr-replay-selection-consolidation]
-key_sources: ["PMID:16474382", "PMID:17828259", "PMID:30349103", "PMID:33443144", "PMID:38547293", "PMID:7624455", "PMID:27315762", "PMID:38834064", "PMID:39227715", "PMID:39743590", "PMID:41205608"]
+opens_questions: [Q-swr-tagging-mechanism, Q-replay-forward-reverse-credit, Q-replay-human-translation, Q-replay-planning-mechanism, Q-pfc-suppression-selectivity, Q-inhibitory-plasticity-bounds, Q-swr-01, Q-swr-02]
+source_articles: [2026-07-16-hippocampal-replay-experience-replay, 2026-09-22-swr-replay-selection-consolidation, 2026-10-21-swr-generation-mechanism-ca3-ca1]
+key_sources: ["PMID:16474382", "PMID:17828259", "PMID:30349103", "PMID:33443144", "PMID:38547293", "PMID:7624455", "PMID:27315762", "PMID:38834064", "PMID:39227715", "PMID:39743590", "PMID:41205608", "PMID:26135716", "PMID:27593179", "PMID:29453207"]
 ---
 
 # 海马回放 (Hippocampal Replay)
@@ -141,7 +141,7 @@ NREM 睡眠期间：
 
 ## 连接
 
-- [[sharp-wave-ripples]] — 回放的生理载体：CA3 爆发 → CA1 涟漪窗口
+- [[sharp-wave-ripples]] — 回放的生理载体：CA3 递归爆发（尖波）+ CA1 PV+ 篮细胞 PING 回路（涟漪）→ 序列重播窗口（详见 SWR 发生器机制页）
 - [[place-cells]] — 回放的内容：场所细胞序列的时间压缩激活
 - [[complementary-learning-systems]] — 回放的系统框架：海马快速编码 + 新皮层慢速整合
 - [[memory-consolidation]] — 回放服务的长期目标：情景记忆的系统级转移
@@ -162,7 +162,10 @@ NREM 睡眠期间：
 
 - 2026-07-16 · 创建 · 基于《记忆的时光机》（#84）· 主要来源：Yang et al. 2024, Mattar & Daw 2018, Igata et al. 2021 · 初始置信度：高
 - 2026-09-22 · 修订 rev2 · 基于《记忆的裁判官》（#152）· 新增五重筛选机制综合（PFC 主动抑制、抑制性可塑性泛化、睡眠微结构分时、振幅门控）；关键机制增加第 6、7 节（Shin & Jadhav 2024、Liao 2024）；证据表新增 4 行；related 增加 prefrontal-cortex, pv-interneurons, norepinephrine-locus-coeruleus；opens_questions 增加 Q-pfc-suppression-selectivity, Q-inhibitory-plasticity-bounds
+- 2026-10-21 · 修订 rev3 · 基于《涟漪从何而来》（#189）· 更新连接小节 SWR 链接描述（补充 CA3 递归爆发 + CA1 PING 机制细节）；opens_questions 增加 Q-swr-01（涟漪内容的决定机制）和 Q-swr-02（CA2 触发来源）；key_sources 增加 PMID:26135716, 27593179, 29453207
 
 ## 来源文章
 
 - [[2026-07-16-hippocampal-replay-experience-replay]]
+- [[2026-09-22-swr-replay-selection-consolidation]]
+- [[2026-10-21-swr-generation-mechanism-ca3-ca1]]

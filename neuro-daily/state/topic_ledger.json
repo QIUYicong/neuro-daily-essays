@@ -1,7 +1,86 @@
 {
-  "last_updated": "2026-10-20",
-  "total_articles": 179,
+  "last_updated": "2026-10-21",
+  "total_articles": 189,
   "entries": [
+    {
+      "date": "2026-10-21",
+      "title": "涟漪从何而来：海马 CA3 的沉默爆发与记忆的生理语言",
+      "filename": "2026-10-21-swr-generation-mechanism-ca3-ca1.md",
+      "article_number": 189,
+      "wiki_pages_created": [],
+      "wiki_pages_revised": [
+        "wiki/concepts/sharp-wave-ripples.md rev13→rev14",
+        "wiki/concepts/hippocampal-replay.md rev2→rev3"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "海马 SWR 中的「尖波」和「涟漪」如何从不同解剖回路中分别产生并耦合为单一事件？CA3 递归自激网络（~12,000 个内部突触）的群体爆发如何诱发 CA1 PV+篮细胞-锥体细胞 PING 回路产生 140-220 Hz 高频振荡？CA2 作为 SWR 触发者与 CA3 内在释放路径如何相互作用？",
+      "open_questions_added": [
+        "Q-swr-01：涟漪内的信息内容由什么决定？CA3 突触权重矩阵如何在 GABA_A 时间常数约束下选择特定序列？",
+        "Q-swr-02：CA2 ramping cells 的前驱输入来源是内嗅皮层、隔区，还是 CA3 反馈？",
+        "Q-swr-03：CA3c→CA3a 方向传播是否在活体条件下成立？是否受学习状态影响？"
+      ],
+      "layer": [
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "whole-brain-network",
+        "cognition"
+      ],
+      "curriculum_track": "课程脊柱3（海马记忆回路：SWR机制）+ 课程脊柱6（振荡与同步：PING/ING回路）+ 课程脊柱2（记忆固化：两级模型）",
+      "topic_tags": [
+        "sharp-wave-ripple SWR hippocampus CA3 CA1 CA2 generation mechanism oscillation",
+        "CA3 recurrent network auto-associative burst Schaffer collateral two-stage memory",
+        "ripple 140-220Hz PING ING PV basket cell GABA_A time constant Donoso 2018",
+        "CA2 trigger ramping cells Oliva 2016 optogenetics wake vs sleep SWR",
+        "CA3c CA3a propagation direction Schieferstein 2024 MEA in vitro",
+        "temporal compression 20x theta sequence SWR replay Buzsaki 1986 1989 2015",
+        "dorsoventral hippocampus SWR coordination spatial emotional memory Morici 2026",
+        "three-oscillation coupling SO spindle SWR Maingret 2016 closed-loop causal"
+      ],
+      "main_sources": [
+        {
+          "id": "PMID:3026567",
+          "title": "Hippocampal sharp waves: their origin and significance (Buzsáki 1986)"
+        },
+        {
+          "id": "PMID:2687720",
+          "title": "Two-stage model of memory trace formation (Buzsáki 1989)"
+        },
+        {
+          "id": "PMID:26135716",
+          "title": "Hippocampal sharp wave-ripple: A cognitive biomarker (Buzsáki 2015)"
+        },
+        {
+          "id": "PMID:27593179",
+          "title": "Role of Hippocampal CA2 Region in Triggering Sharp-Wave Ripples (Oliva 2016)"
+        },
+        {
+          "id": "PMID:27182818",
+          "title": "Hippocampo-cortical coupling mediates memory consolidation during sleep (Maingret 2016)"
+        },
+        {
+          "id": "PMID:19816984",
+          "title": "Disruption of ripple-associated hippocampal activity during rest impairs spatial learning (Ego-Stengel & Wilson 2010)"
+        },
+        {
+          "id": "PMID:29453207",
+          "title": "Hippocampal Ripple Oscillations and Inhibition-First Network Models (Donoso 2018)"
+        },
+        {
+          "id": "PMID:39216085",
+          "title": "Propagation of sharp wave-ripple activity in CA3 subfield in vitro (Schieferstein 2024)"
+        },
+        {
+          "id": "PMID:41922515",
+          "title": "Dorsoventral hippocampus neural assemblies reactivate during sleep (Morici 2026)"
+        },
+        {
+          "id": "PMID:37714808",
+          "title": "The role of the hippocampus in the consolidation of emotional memories during sleep (Pronier 2023)"
+        }
+      ]
+    },
     {
       "date": "2026-10-18",
       "title": "突触病的汇聚：自闭症谱系障碍如何将一千条分子路径折叠成同一张失衡的天平",

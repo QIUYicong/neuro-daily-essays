@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-29
-updated: 2026-06-29
-revision_count: 13
+updated: 2026-10-21
+revision_count: 14
 dimensions: [whole-brain-network, brain-region, cellular, microcircuit, behavior, cognition]
-related: [hippocampal-circuit, place-cells, theta-oscillations, memory-consolidation, ltp, hebbian-learning, norepinephrine-locus-coeruleus, dopamine-reward-prediction-error, sleep-spindles, cortical-slow-oscillation, so-spindle-swr-coupling, ca2-hippocampus, prefrontal-cortex, pv-interneurons, slow-wave-sleep, septohippocampal-cholinergic]
+related: [hippocampal-circuit, place-cells, theta-oscillations, memory-consolidation, ltp, hebbian-learning, norepinephrine-locus-coeruleus, dopamine-reward-prediction-error, sleep-spindles, cortical-slow-oscillation, so-spindle-swr-coupling, ca2-hippocampus, prefrontal-cortex, pv-interneurons, slow-wave-sleep, septohippocampal-cholinergic, pv-interneurons]
 prerequisites: [hippocampal-circuit, synaptic-transmission, place-cells]
-opens_questions: [Q-swr-reverse-forward, Q-swr-cortical-consolidation, Q-swr-large-vs-small, Q-swr-tagging-mechanism, Q-swr-human-translation, Q-pfc-suppression-selectivity, Q-inhibitory-plasticity-bounds, Q-swr-duration-mechanism-01, Q-swr-nr-substate-01]
-source_articles: [2026-05-29-theta-oscillations-phase-coding, 2026-06-02-memory-consolidation-systems, 2026-06-17-sharp-wave-ripples-memory-replay, 2026-06-19-sleep-spindles-nrem, 2026-06-22-grid-cells-place-cells, 2026-07-07-sleep-memory-consolidation-so-spindle-swr, 2026-07-11-dopamine-lc-hippocampus-memory-tagging, 2026-07-16-hippocampal-replay-experience-replay, 2026-08-14-ca2-hippocampus-social-memory-temporal-context, 2026-09-22-swr-replay-selection-consolidation, 2026-09-30-swr-sleep-ltp-consolidation, 2026-10-11-swr-duration-sleep-microstructure-memory, 2026-06-29-acetylcholine-hippocampal-memory-gate]
-key_sources: ["PMID:26135716", "PMID:23354386", "PMID:34936810", "PMID:26238360", "PMID:23589831", "PMID:41205608", "PMID:38547293", "PMID:38867049", "PMID:39743590", "PMID:35040779", "PMID:19749750", "PMID:30356103", "PMID:28689981", "PMID:38443198", "PMID:31533977", "PMID:27182818", "PMID:38895442", "PMID:27593179", "PMID:38834064", "PMID:39227715", "PMID:26904941", "PMID:27840002", "PMID:37987008", "PMID:31197012", "PMID:22555434", "PMID:34001599", "PMID:33833054"]
+opens_questions: [Q-swr-reverse-forward, Q-swr-cortical-consolidation, Q-swr-large-vs-small, Q-swr-tagging-mechanism, Q-swr-human-translation, Q-pfc-suppression-selectivity, Q-inhibitory-plasticity-bounds, Q-swr-duration-mechanism-01, Q-swr-nr-substate-01, Q-swr-01, Q-swr-02, Q-swr-03]
+source_articles: [2026-05-29-theta-oscillations-phase-coding, 2026-06-02-memory-consolidation-systems, 2026-06-17-sharp-wave-ripples-memory-replay, 2026-06-19-sleep-spindles-nrem, 2026-06-22-grid-cells-place-cells, 2026-07-07-sleep-memory-consolidation-so-spindle-swr, 2026-07-11-dopamine-lc-hippocampus-memory-tagging, 2026-07-16-hippocampal-replay-experience-replay, 2026-08-14-ca2-hippocampus-social-memory-temporal-context, 2026-09-22-swr-replay-selection-consolidation, 2026-09-30-swr-sleep-ltp-consolidation, 2026-10-11-swr-duration-sleep-microstructure-memory, 2026-06-29-acetylcholine-hippocampal-memory-gate, 2026-10-21-swr-generation-mechanism-ca3-ca1]
+key_sources: ["PMID:26135716", "PMID:23354386", "PMID:34936810", "PMID:26238360", "PMID:23589831", "PMID:41205608", "PMID:38547293", "PMID:38867049", "PMID:39743590", "PMID:35040779", "PMID:19749750", "PMID:30356103", "PMID:28689981", "PMID:38443198", "PMID:31533977", "PMID:27182818", "PMID:38895442", "PMID:27593179", "PMID:38834064", "PMID:39227715", "PMID:26904941", "PMID:27840002", "PMID:37987008", "PMID:31197012", "PMID:22555434", "PMID:34001599", "PMID:33833054", "PMID:3026567", "PMID:2687720", "PMID:29453207", "PMID:39216085", "PMID:41922515"]
 ---
 
 # 尖波涟漪（Sharp Wave-Ripples, SWR）
@@ -48,12 +48,30 @@ SWR由**CA3庞大的循环联络系统**驱动：
 
 **修订后的 SWR 生成模型**：SWR 有两条并行触发路径——"CA3内部释放"路径和"CA2主动启动"路径。CA2 的社会记忆和时间情境信息不仅在线编码，还通过 SWR 触发决定"哪些经历被写入离线回放流程"——CA2 是记忆巩固的"优先队列调度者"（详见 [[ca2-hippocampus]]）。
 
-### 2. 传导：CA3→CA1链路
+### 2. CA3 内部传播方向（Schieferstein et al. 2024, PMID:39216085）
 
-CA3群体爆发通过**Schaffer侧支**传至CA1：
+CA3 内部的 SWR 活动**并非同时爆发**，而是有方向性地传播：
+- 体外高密度 MEA（129 电极）实验揭示，SWR 从 **CA3c**（近齿状回端）优先向 **CA3a**（近 CA1 端）传播
+- 传播速度：**0.2–0.5 m/s**，与无髓轴突动作电位传导速度一致（非扩散波）
+- 兴奋性和抑制性电流的传播方向相关，抑制性跟随兴奋性
+- 这意味着 CA3 群体爆发不是"整体同步"，而是有方向性传播浪，CA3c 是爆发的起点
+
+**局限**：体外切片数据；CA3c→CA3a 方向在活体条件下的验证尚需补充（体内切片排除了来自齿状回的实时输入，可能影响起始点的定位）。
+
+### 3. 传导：CA3→CA1链路与涟漪生成机制
+
+CA3群体爆发（CA3c→CA3a方向传播后）通过**Schaffer侧支**传至CA1：
 - CA1 stratum radiatum（辐射层）接受大量同步兴奋性输入
-- 在CA1 pyramidal layer（锥体细胞层）产生110–200 Hz快速涟漪（ripple）
+- 在CA1 pyramidal layer（锥体细胞层）产生**140–220 Hz**快速涟漪（ripple）
 - 电流源密度（CSD）分析显示：辐射层汇（sink）与锥体层源（source）同步
+
+**涟漪频率由 GABA_A 时间常数决定（Donoso et al. 2018, PMID:29453207）**：
+- 涟漪由 **PV+ 篮细胞—锥体细胞 PING/ING 回路**产生（"禁止先行"模型）
+- 频率由 GABA_A 受体的开-关时间常数（约 **5–7 ms**）直接决定 → 约 **143–200 Hz**
+- 两条 Schaffer 侧支触发路径：
+  - 直接兴奋路径（Schaffer→CA1 锥体细胞）→ 抑制性中间神经元招募 → **涟漪（140–220 Hz）**
+  - 间接路径（CA1 局部锥体细胞→中间神经元）→ **快伽马（90–140 Hz）**
+- GABA 调制剂（bicuculline/diazepam）对涟漪频率的效应被模型精确预测（体外验证）
 
 涟漪的产生依赖**兴奋-抑制的精确平衡**：PV+篮细胞和其他快速抑制性中间神经元的精密介入，将锥体细胞的去极化塑形成规律的高频振荡。
 
@@ -122,6 +140,9 @@ SWR在**两阶段记忆固化**中扮演关键角色（Buzsáki, 2015）：
 | 长时程 SWR（>150 ms）比短 SWR 携带更完整的场所细胞序列；光遗传延长 SWR → 迷宫学习加快 | 大鼠 CA1/CA3 多电极记录 + 光遗传延长 SWR 时长（不改变时机） | Fernández-Ruiz et al. 2019, PMID:31197012 (PMC11068097) | 高（因果，行为） |
 | 人类 SWR-慢波耦合预测同侧皮层激活（61.4% 耦合位点激活 vs 16.2% 对照） | 人类癫痫患者颅内多区域记录（海马+杏仁核+多皮层） | Skelin et al. 2021, PMID:34001599 | 中-高（人类直接证据；未读取全文） |
 | ACh-SWR 反相关：GRABACh3.0 荧光传感显示 ACh 谷值与 SWR 峰值同相；光遗传激活 MSDB 胆碱能→延迟区 SWR 抑制→工作记忆下降 | 小鼠 GRABACh3.0 在体光纤传感 + 光遗传激活 MSDB ChAT 神经元（位置特异：仅延迟区有效，非延迟区无效）| Zhang et al. 2021, PMID:33833054 | 高（在体传感器直接测量 + 因果光遗传）|
+| CA1 涟漪频率由 GABA_A 时间常数（~5–7 ms）决定；两条 Schaffer 路径分别产生涟漪（140–220 Hz）vs 快伽马（90–140 Hz）；GABA 调制剂效应被模型精确预测 | 计算模型（integrate-and-fire）+ 体外 CA1 切片（bicuculline/diazepam 实验）| Donoso et al. 2018, PMID:29453207 | 中-高（模型+切片；需体内验证）|
+| SWR 在 CA3 内从 CA3c（近 DG 端）向 CA3a（近 CA1 端）方向传播；速度 0.2–0.5 m/s，与轴突 AP 传导速度一致 | 体外切片 + 高密度 MEA（129 电极覆盖 CA3 全域）| Schieferstein et al. 2024, PMID:39216085 | 中（体外切片；需体内验证）|
+| 厌恶体验后协调 SWR（背腹同步）期间，背侧（空间）和腹侧（情绪）海马神经集成体同步重激活 | 背腹海马同时多单元+LFP 记录 + 接受-回避任务 | Morici et al. 2026, PMID:41922515 | 中（单实验室最新；需独立重复）|
 
 ## 连接
 
@@ -172,6 +193,18 @@ Liao 等（2024, PMID:39227715）的发现表明 SWR 期间发生的可塑性不
 
 Ecker等（2022，PMID:35040779，eLife开放）的CA3计算模型表明，学习依赖的突触权重结构（对称STDP）既决定重放内容也决定SWR能否产生。对称STDP→前向+逆向重放；非对称STDP→仅前向。**"学什么"和"重放什么"共用同一张突触地图。**
 
+### 协调 SWR 整合背腹海马的空间与情绪记忆（Morici et al. 2026, PMID:41922515）
+
+Morici 等（2026）揭示，单次 SWR 事件可以在空间维度上协调整个海马背腹轴：
+- 厌恶体验后睡眠中，**协调 SWR（背腹同步）**期间背侧与腹侧海马神经集成体同步重激活
+- 背侧 HPC（空间记忆）：场所相关序列重播增强
+- 腹侧 HPC（情绪/情境记忆）：接受电击相关神经元招募增加
+- 两者整合依赖跨区域协调的 SWR，而非独立的背腹 SWR 各自发生
+
+**意义**：SWR 不只是 CA3→CA1 的单回路事件，而是一个**全海马协调事件**，在单次重播窗口（~50-100 ms）内同时整合空间定位（背侧）和情绪效价（腹侧）——这是情景记忆（"在哪里"+"感受如何"）整合性巩固的直接证据。
+
+**局限**：单实验室 2026 年最新结果，需独立重复；背腹协调 SWR 的电路机制（是否经由中隔？）未明。
+
 ## 未解问题
 
 - Q-swr-reverse-forward：前向重播、反向重播、新颖路径重播分别在何种条件下产生？是否对应不同的认知功能（强化 vs. 规划 vs. 泛化）？
@@ -179,6 +212,9 @@ Ecker等（2022，PMID:35040779，eLife开放）的CA3计算模型表明，学�
 - Q-swr-large-vs-small：是什么决定了一次SWR的振幅（大 vs 小）？CA3群体爆发规模、CA1 PV细胞同步度、局部兴奋-抑制平衡的作用分别是什么？睡眠剥夺如何精确降低SWR振幅？
 - Q-swr-tagging-mechanism：清醒SWR是什么触发了对特定经历的选择性"标记"？DA/NE的角色？与奖励系统（VTA）的连接是必要的吗？**部分进展（2026-07-11）**：Igata 2024（PMID:38895442）直接证明 VTA 在新颖（非熟悉）环境中调控 SWR 重播的空间位置选择性（不影响 SWR 频率）——VTA DA 信号决定"重播哪里"。但 VTA→SWR 选择的机制（直接 DA 投射？还是间接通路？）仍未明。LC-DA 在清醒 SWR 触发中的角色仍完全未探索。
 - Q-swr-human-translation：大振幅SWR的特殊功能是否在人类中也成立？颅内电极研究能否提供类似证据？
+- Q-swr-01：涟漪内的信息内容（哪些场所细胞参与、以何种顺序）由什么决定？CA3 的突触权重矩阵如何在 SWR 的约束（GABA_A 时间常数固定）下选择特定序列？
+- Q-swr-02：CA2 触发 SWR 的输入来源是什么？CA2 ramping cells 的前驱输入是来自内嗅皮层（band II）、隔区（社会记忆相关）、还是来自 CA3 的反馈？
+- Q-swr-03：CA3c→CA3a 方向传播是否在活体条件下也成立？传播方向是否受当前学习状态（新颖 vs 熟悉环境）影响？
 
 ## 修订历史
 
@@ -195,6 +231,7 @@ Ecker等（2022，PMID:35040779，eLife开放）的CA3计算模型表明，学�
 - 2026-09-22 · 修订 rev10 · 基于《记忆的裁判官》(#152) · "新发现"小节新增两个：(1) PFC 主动抑制门控（Shin & Jadhav 2024，独立涟漪 71.2% 抑制 CA1，r=−0.71）；(2) 抑制性可塑性驱动统计抽象（Liao 2024，抑制权重对干扰细胞高 38.9%）；证据表新增 2 行；related 新增 prefrontal-cortex, pv-interneurons；opens_questions 新增 Q-pfc-suppression-selectivity, Q-inhibitory-plasticity-bounds；key_sources 新增 PMID:38834064, PMID:39227715
 - 2026-10-11 · 修订 rev12 · 基于《时长与时机》(#171) · 证据表新增 3 行：(1) Jadhav 2012（清醒态 SWR 干扰导致特异性学习缺陷，功能分离因果证据）；(2) Fernández-Ruiz 2019（长 SWR 信息容量优势 + 光遗传延长改善记忆，PMC11068097 开放全文）；(3) Skelin 2021（人类颅内 SWR-慢波耦合预测皮层激活，61.4% vs 16.2%）；related 新增 slow-wave-sleep；opens_questions 新增 Q-swr-duration-mechanism-01, Q-swr-nr-substate-01；key_sources 新增 PMID:31197012, PMID:22555434, PMID:34001599；source_articles 新增 2026-10-11-swr-duration-sleep-microstructure-memory
 - 2026-06-29 · 修订 rev13 · 基于《乙酰胆碱的双重使命》文章 · 证据表新增1行（Zhang 2021 GRABACh3.0 ACh-SWR 反相关 + 光遗传因果，PMID:33833054）；连接新增 [[septohippocampal-cholinergic]]（MSDB ACh 主动 SWR 门控机制）；related 新增 septohippocampal-cholinergic；key_sources 新增 PMID:33833054；source_articles 新增 2026-06-29
+- 2026-10-21 · 修订 rev14 · 基于《涟漪从何而来》（#189）· 新增"CA3 内部传播方向"小节（Schieferstein 2024：CA3c→CA3a 方向传播，0.2–0.5 m/s，体外切片）；扩充"传导"小节（Donoso 2018：PING/ING 机制，GABA_A 时间常数→涟漪频率 143–200 Hz，两条路径区分涟漪 vs 快伽马）；新增"新发现"条目（Morici 2026：协调 SWR 整合背腹海马空间+情绪记忆）；证据表新增 4 行；opens_questions 增加 Q-swr-01、Q-swr-02、Q-swr-03；key_sources 增加 PMID:3026567、2687720、29453207、39216085、41922515；source_articles 增加 2026-10-21
 
 ## 来源文章
 
@@ -207,3 +244,4 @@ Ecker等（2022，PMID:35040779，eLife开放）的CA3计算模型表明，学�
 - [[2026-09-30-swr-sleep-ltp-consolidation]]
 - [[2026-10-11-swr-duration-sleep-microstructure-memory]]
 - [[2026-06-29-acetylcholine-hippocampal-memory-gate]]
+- [[2026-10-21-swr-generation-mechanism-ca3-ca1]]

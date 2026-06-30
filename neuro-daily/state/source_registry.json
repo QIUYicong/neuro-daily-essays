@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-19",
+  "last_updated": "2026-10-21",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -11837,9 +11837,143 @@
       ],
       "open_access": false,
       "key_contribution": "Marr-Ito-Albus三个经典模型的历史比较，共识与分歧"
+    },
+    {
+      "pmid": "3026567",
+      "title": "Hippocampal sharp waves: their origin and significance",
+      "authors_short": "Buzsáki G",
+      "journal": "Brain Research",
+      "year": 1986,
+      "first_used": "2026-10-21",
+      "used_in_articles": [
+        "2026-10-21-swr-generation-mechanism-ca3-ca1.md"
+      ],
+      "aspects_covered": [
+        "SWR origin in CA3 population burst",
+        "behavioral state correlates",
+        "foundational SWR characterization"
+      ]
+    },
+    {
+      "pmid": "2687720",
+      "title": "Two-stage model of memory trace formation: a role for 'noisy' brain states",
+      "authors_short": "Buzsáki G",
+      "journal": "Neuroscience",
+      "year": 1989,
+      "first_used": "2026-10-21",
+      "used_in_articles": [
+        "2026-10-21-swr-generation-mechanism-ca3-ca1.md"
+      ],
+      "aspects_covered": [
+        "two-stage memory model",
+        "theta encoding vs SWR consolidation",
+        "CA3 recurrent system role"
+      ]
+    },
+    {
+      "pmid": "27593179",
+      "pmcid": "PMC4648295",
+      "title": "Role of Hippocampal CA2 Region in Triggering Sharp-Wave Ripples",
+      "authors_short": "Oliva A, Fernández-Ruiz A, Buzsáki G, Berényi A",
+      "journal": "Neuron",
+      "year": 2016,
+      "first_used": "2026-10-21",
+      "used_in_articles": [
+        "2026-10-21-swr-generation-mechanism-ca3-ca1.md"
+      ],
+      "aspects_covered": [
+        "CA2 fires 15-20ms before SWR",
+        "CA2 as SWR trigger during wake",
+        "optogenetic CA2 suppression reduces wake SWR",
+        "sleep vs wake CA2 role difference"
+      ]
+    },
+    {
+      "pmid": "27182818",
+      "pmcid": "PMC6596071",
+      "title": "Hippocampo-cortical coupling mediates memory consolidation during sleep",
+      "authors_short": "Maingret N, Girardeau G, Todorova R, Goutierre M, Zugaro M",
+      "journal": "Nature Neuroscience",
+      "year": 2016,
+      "first_used": "2026-10-21",
+      "used_in_articles": [
+        "2026-10-21-swr-generation-mechanism-ca3-ca1.md"
+      ],
+      "aspects_covered": [
+        "three-oscillation coupling SWR+SO+spindle",
+        "closed-loop stimulation enhances coupling",
+        "causal evidence for HPC-cortex memory transfer",
+        "first direct causal evidence"
+      ]
+    },
+    {
+      "pmid": "29453207",
+      "title": "Hippocampal Ripple Oscillations and Inhibition-First Network Models: Frequency Dynamics and Response to GABA Modulators",
+      "authors_short": "Donoso JR, Schmitz D, Maier N, Kempter R",
+      "journal": "Journal of Neuroscience",
+      "year": 2018,
+      "first_used": "2026-10-21",
+      "used_in_articles": [
+        "2026-10-21-swr-generation-mechanism-ca3-ca1.md"
+      ],
+      "aspects_covered": [
+        "PING/ING ripple generation mechanism",
+        "GABA_A time constant determines ripple frequency 143-200Hz",
+        "two Schaffer collateral paths: ripple vs fast gamma",
+        "bicuculline/diazepam frequency prediction"
+      ]
+    },
+    {
+      "pmid": "39216085",
+      "title": "Propagation of sharp wave-ripple activity in the mouse hippocampal CA3 subfield in vitro",
+      "authors_short": "Schieferstein N et al.",
+      "journal": "Journal of Physiology",
+      "year": 2024,
+      "first_used": "2026-10-21",
+      "used_in_articles": [
+        "2026-10-21-swr-generation-mechanism-ca3-ca1.md"
+      ],
+      "aspects_covered": [
+        "CA3c to CA3a propagation direction",
+        "0.2-0.5 m/s propagation speed",
+        "high-density MEA 129 electrodes",
+        "in vitro limitation"
+      ]
+    },
+    {
+      "pmid": "41922515",
+      "title": "Dorsoventral hippocampus neural assemblies reactivate during sleep following an aversive experience",
+      "authors_short": "Morici JF, Silva A, Lima-Paiva I, Pronier É, Girardeau G",
+      "journal": "Nature Neuroscience",
+      "year": 2026,
+      "first_used": "2026-10-21",
+      "used_in_articles": [
+        "2026-10-21-swr-generation-mechanism-ca3-ca1.md"
+      ],
+      "aspects_covered": [
+        "coordinated SWR integrates dorsal+ventral hippocampus",
+        "spatial and emotional memory co-reactivation",
+        "aversive experience sleep replay"
+      ]
+    },
+    {
+      "pmid": "37714808",
+      "title": "The role of the hippocampus in the consolidation of emotional memories during sleep",
+      "authors_short": "Pronier É, Morici JF, Girardeau G",
+      "journal": "Trends in Neurosciences",
+      "year": 2023,
+      "first_used": "2026-10-21",
+      "used_in_articles": [
+        "2026-10-21-swr-generation-mechanism-ca3-ca1.md"
+      ],
+      "aspects_covered": [
+        "emotional memory consolidation during sleep",
+        "dorsoventral hippocampus coordination",
+        "SWR role in emotional memory"
+      ]
     }
   ],
-  "total_sources": 710,
+  "total_sources": 718,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",

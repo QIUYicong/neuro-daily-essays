@@ -139,8 +139,8 @@
     "title": "尖波涟漪（SWR）",
     "status": "established",
     "confidence": "high",
-    "last_changed": "2026-07-11",
-    "change_reason": "修订 rev7（文章 #79）：VTA 调制新颖环境 SWR 空间重播选择性（Igata 2024）；Q-swr-tagging-mechanism 部分进展",
+    "last_changed": "2026-10-21",
+    "change_reason": "修订 rev14（文章 #189）：新增 CA3 内部传播方向小节（Schieferstein 2024）、PING/ING 涟漪机制（Donoso 2018）、背腹海马协调 SWR 整合空间+情绪记忆（Morici 2026）；新增未解问题 Q-swr-01/02/03；证据表新增 4 行",
     "page": "wiki/concepts/sharp-wave-ripples.md",
     "reason": "Revised: added sleep-spindles/cortical-slow-oscillation links; triple coupling context"
   },

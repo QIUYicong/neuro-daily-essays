@@ -4,6 +4,24 @@
 
 ---
 
+## 2026-10-21 · 文章 #189 · 涟漪从何而来：海马 CA3 的沉默爆发与记忆的生理语言
+
+**新建页面（0个）**：无（`sharp-wave-ripples.md` 已于 rev1 建立，今日仅修订）
+
+**修订页面（2个）**：
+- `wiki/concepts/sharp-wave-ripples.md`（rev13→rev14）：新增"CA3 内部传播方向"小节（Schieferstein 2024：CA3c→CA3a 体外切片 MEA 证据，0.2–0.5 m/s，兴奋性传播波驱动抑制性跟随）；扩充"传导：CA3→CA1链路"小节（Donoso 2018：PING/ING 机制，GABA_A 时间常数~5-7ms→涟漪143-200 Hz，两条 Schaffer 路径：直接兴奋→涟漪 vs 间接→快伽马）；"新发现"小节新增背腹海马协调 SWR（Morici 2026：厌恶体验后背侧空间+腹侧情绪神经集成体在协调 SWR 期间同步重激活）；证据表新增 4 行（Donoso 2018, Schieferstein 2024, Morici 2026, Ego-Stengel 2010）；opens_questions 增加 Q-swr-01/02/03；key_sources 增加 PMID:3026567/2687720/29453207/39216085/41922515；source_articles 增加 2026-10-21
+- `wiki/concepts/hippocampal-replay.md`（rev2→rev3）：连接小节更新 SWR 链接描述（补充 CA3 递归爆发 + CA1 PING 机制细节）；opens_questions 增加 Q-swr-01, Q-swr-02；key_sources 增加 PMID:26135716, 27593179, 29453207；source_articles 增加 2026-10-21
+
+**矛盾操作（0个）**：无新增矛盾。注意：Schieferstein 2024 的 CA3c→CA3a 传播方向为体外切片结果，与 Oliva 2016 "CA2 触发" 模型并不矛盾（两者可以并存：睡眠 SWR 更多为 CA3 内在自激从 CA3c 开始，清醒 SWR 更多 CA2 主动触发）。
+
+**悬空引用（填补1个，新增1个）**：
+- ✅ 填补：`gap-junction-electrical-synapse --related--> sharp-wave-ripple` 悬空引用中的错误 slug 已修正为 `sharp-wave-ripples`（正确已有页面），8 条相关边同步更新
+- 新增：`ca3-auto-associative-network`（_graph.json 新增边指向此节点；尚无独立页面；已在 unresolved_questions.md 登记为待填悬空引用）
+
+**图谱变化**：344节点/2077边（去重后）（上次 345节点/2084边 → 修正：删除错误节点 sharp-wave-ripple，重新指向 sharp-wave-ripples；7条重复边去除）
+
+---
+
 ## 2026-10-20 · 文章 #188 · 目标导向还是习惯？纹状体双系统的分子开关机制
 
 **新建页面（1个）**：

@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-10-20（第188篇·习惯 vs 目标导向：纹状体双系统分子开关机制）· 主题页总数：**332**（新建1页：concepts/habit-vs-goal-directed；修订3页：goal-directed-behavior rev2/habitual-behavior rev3/striatal-direct-indirect-pathway rev3；图谱约344节点/约2076边）
+> 最后更新：2026-10-21（第189篇·尖波涟漪 SWR 发生器机制：CA3 递归爆发与 CA1 涟漪振荡回路）· 主题页总数：**333**（修订2页：concepts/sharp-wave-ripples rev14，concepts/hippocampal-replay rev3；图谱344节点/2077边；填补悬空引用 gap-junction-electrical-synapse→sharp-wave-ripples；新增悬空引用 ca3-auto-associative-network）
 
 ---
 
