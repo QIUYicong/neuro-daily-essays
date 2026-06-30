@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-10-18（第178篇·ASD作为突触病——E/I失衡汇聚机制）· 主题页总数：**331**（新建1页：diseases/autism-spectrum-disorder；修订1页：concepts/ei-balance rev2；图谱342节点/2059边）
+> 最后更新：2026-10-20（第188篇·习惯 vs 目标导向：纹状体双系统分子开关机制）· 主题页总数：**332**（新建1页：concepts/habit-vs-goal-directed；修订3页：goal-directed-behavior rev2/habitual-behavior rev3/striatal-direct-indirect-pathway rev3；图谱约344节点/约2076边）
 
 ---
 
@@ -161,9 +161,10 @@
 - 🔵 [Actor-Critic架构（基底节）](concepts/actor-critic-brain.md) — VTA/SNc=TD误差δ广播；NAc/腹侧纹状体=Critic价值估计；背侧纹状体D1-MSN=Actor Go / D2-MSN=Actor No-Go；DA双向读出设计（D1兴奋/D2抑制）**[NEW 2026-07-12]**
 - 🟡 [分布式强化学习与多巴胺编码](concepts/distributional-rl-dopamine.md) — 不同VTA DA神经元以不对称RPE缩放编码奖励分布分位数；大脑早于AI独立实现分布式RL计算；Dabney 2020 小鼠VTA单细胞记录 **[NEW 2026-07-12]**
 - 🔵 [模型-基与模型-无强化学习（双系统）](concepts/model-based-model-free.md) — DMS支持MB（目标导向/灵活）；DLS支持MF（习惯性/快速）；结果贬值测试区分双系统；应激→从MB切换到MF；OCD/成瘾/抑郁的计算框架 **[NEW 2026-07-12]**
-- 🟢 [习惯行为](concepts/habitual-behavior.md) — S-R联结驱动、对结果当前价值不敏感的自动行为；神经基底为DLS+IL；随训练重复强化；IL主动抑制目标导向系统；计算等价model-free RL；黑质-纹状体DA必要；**rev2新增**：成瘾中习惯系统病理性招募（Zapata 2010 DLS因果证据；Giuliano 2021 习惯化程度预测强迫性使用） **[NEW 2026-09-26 · 修订 rev1→rev2 2026-09-27]**
+- 🟢 [习惯行为](concepts/habitual-behavior.md) — S-R联结驱动、对结果当前价值不敏感的自动行为；神经基底为DLS+IL；随训练重复强化；IL主动抑制目标导向系统；计算等价model-free RL；**rev3新增**：Gremel 2016 OFC CB1门控（习惯形成分子许可）、Yu 2021 DMS D1-MSN突触压制（主动退场）、Bakhurin 2020 时序双向调控 **[NEW 2026-09-26 · 修订 rev2→rev3 2026-10-20]**
 - 🟢 [ΔFosB（分子棘轮）](concepts/deltafosb.md) — FosB截短剪接变体，缺少C端PEST降解域；在NAc和背侧纹状体MSN中随每次药物暴露阶梯式蓄积（数周不降解）；下游靶点：GluR2↑（增强谷氨酸响应）、强啡肽↓（减少DA负反馈）、Cdk5↑（驱动树突棘增生）；被称为"成熟大脑中最持久的非损毁性神经适应"；成瘾记忆的分子基础 **[NEW 2026-09-27]**
-- 🟢 [目标导向行为](concepts/goal-directed-behavior.md) — A-O联结驱动、对结果当前价值实时敏感的灵活行为；神经基底为DMS+PL；IL压制时潜伏于习惯之下；计算等价model-based RL；贬值后即时调整 **[NEW 2026-09-26]**
+- 🟢 [目标导向行为](concepts/goal-directed-behavior.md) — A-O联结驱动、对结果当前价值实时敏感的灵活行为；神经基底为DMS+PL；IL压制时潜伏于习惯之下；计算等价model-based RL；**rev2新增**：Malvaez 2025 D1+持续编码A-O（目标导向看门人）、Yu 2021 DMS D1压制是习惯获得必要条件、Sears 2026 回避行为扩展+性别差异 **[NEW 2026-09-26 · 修订 rev1→rev2 2026-10-20]**
+- 🟢 [习惯 vs 目标导向行为：双系统竞争与转换](concepts/habit-vs-goal-directed.md) — 大脑两套并行行为控制系统的竞争与主动转换；OFC→DLS CB1内大麻素分子门控；DMS D1-MSN突触压制（主动退场）；D1+/A2A+细胞命运分叉；DLS主动抑制DMS；成瘾的DMS D1损伤模型；性别差异（雌性不习惯化）；填补striatal-direct-indirect-pathway悬空引用 **[NEW 2026-10-20]**
 
 - 🟢 [经验依赖的髓鞘化](concepts/adaptive-myelination.md) — 成年大脑中神经活动驱动 OPC 分化产生新少突胶质细胞并形成新髓鞘；运动学习（McKenzie 2014）和工作记忆训练（Shimizu 2023）因果依赖新 OL 生成；通过调控传导时序影响 STDP 方向；人类 DTI 白质 FA 变化证实（Scholz 2009）**[NEW 2026-10-05]**
 - 🟢 [少突胶质细胞前体细胞（OPC）](concepts/oligodendrocyte-precursor-cell.md) — 成年终生存在的 OPC/NG2 细胞；Bergles 2000 发现接收神经元谷氨酸能突触传入；训练驱动 OPC 增殖 ~4 倍；分化的执行者 **[NEW 2026-10-05]**

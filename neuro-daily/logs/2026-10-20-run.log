@@ -1,0 +1,93 @@
+# 运行日志 · 2026-10-20
+
+**运行时间**：2026-10-20（知识库日期）/ 2026-06-30（系统日期，跨会话延续）
+**文章编号**：#188
+**状态**：✅ 完成
+
+---
+
+## A. 优先级分析
+
+- 检查 _graph.json：343 节点 / 2065 边（上次更新 2026-10-19）
+- 最高优先级悬空引用：`habit-vs-goal-directed`（被 striatal-direct-indirect-pathway.md 引用，B.3 优先级）
+- 次优先级前沿节点：`predictive-coding`（58 边，medium confidence，B.4 优先级）——已于 rev10 高度发展，跳过
+- 选定主题：**习惯 vs 目标导向：纹状体双系统分子开关机制**
+  - 理由：填补 B.3 悬空引用；2021-2026 新文献（Yu 2021/Malvaez 2025/Hart 2025/Sears 2026）带来真实新发现；层级切换（行为/回路/细胞/分子）
+
+---
+
+## B. 文献检索
+
+PMIDs 验证来源：NCBI E-utilities API
+
+**新文献（本次首次引用）**：
+- PMID:27238866 (Gremel 2016, Neuron) ✅ PMC4911264 开放全文
+- PMID:26515740 (Furlong 2017, Addiction Biology) ✅ PMC4851927 开放全文
+- PMID:32324535 (Bakhurin 2020, eLife) ✅ 开放全文
+- PMID:33774666 (Yu 2021, Cerebral Cortex) ⚠️ 仅摘要
+- PMID:39896502 (Malvaez 2025, bioRxiv) ✅ PMC11785256 开放全文（预印本）
+- PMID:40771101 (Hart 2025, Eur J Neurosci) ⚠️ 仅摘要
+- PMID:41663373 (Sears 2026, Nat Commun) ✅ PMC13000197 开放全文
+
+**经典文献（复用）**：
+- PMID:14750976 (Yin 2004), PMID:16045504 (Yin 2005), PMID:14643469 (Coutureau 2003), PMID:18687967 (Shen 2008)
+
+---
+
+## C. 文章创作
+
+**文件**：`articles/2026-10-20-habit-goal-directed-dms-dls-circuit-switch.md`
+**字数**：约 4200 字（含表格、数学公式、参考文献）
+**分层**：行为/回路/细胞/分子 四个层级
+**核心发现**：习惯形成是 OFC-CB1 门控 + DMS D1-MSN 主动突触压制 + D1+/A2A+ 细胞命运分叉 + DLS 主动抑制的多步骤主动过程
+
+---
+
+## D. Wiki 固结
+
+### 新建页面（1）
+- ✅ `wiki/concepts/habit-vs-goal-directed.md`（rev1）：填补 striatal-direct-indirect-pathway 悬空引用；7大机制分析；10条关键证据；10个连接；4个未解问题
+
+### 修订页面（3）
+- ✅ `wiki/concepts/goal-directed-behavior.md`（rev1→rev2）：+4新证据，+2连接，+Q-gd-02
+- ✅ `wiki/concepts/habitual-behavior.md`（rev2→rev3）：+3新机制，+3新证据，+2连接，+Q-switch-01
+- ✅ `wiki/circuits/striatal-direct-indirect-pathway.md`（rev2→rev3）：+D1+/A2A+命运分叉，+性别差异证据，悬空引用填补
+
+---
+
+## E. 图谱更新
+
+- 节点：343 → 344（+1: habit-vs-goal-directed）
+- 边：2065 → 2076（估计 +11 新边）
+- 悬空引用解析：habit-vs-goal-directed（已解析）
+- 新增悬空引用：endocannabinoid-system、orbitofrontal-cortex（B.3 候选）
+
+---
+
+## F. 状态文件更新
+
+- ✅ `state/topic_ledger.json`：total_articles 178→179，last_updated 2026-10-19→2026-10-20，新增 #188 条目
+- ✅ `state/source_registry.json`：新增 7 个新 PMID 条目 + summary 条目
+- ✅ `state/monthly_synthesis.md`：新增 2026-10-20 (#188) 摘要
+- ✅ `wiki/CHANGELOG.md`：新增 2026-10-20 条目（顶部插入）
+- ✅ `wiki/index.md`：header 更新，新增 habit-vs-goal-directed 条目，更新 habitual-behavior/goal-directed-behavior 条目
+
+---
+
+## G. 支持文件
+
+- ✅ `notes/2026-10-20-reading-notes.md`：7篇核心文献研究笔记
+- ✅ `sources/2026-10-20-sources.json`：11篇来源结构化记录
+
+---
+
+## 矛盾检查
+
+- Malvaez 2025 发现"A2A+ 初期支持 A-O 学习"与现有 habitual-behavior.md "D2 间接通路主导习惯" 表述需要细化→已在 rev3 中明确为"分阶段描述"，不构成矛盾
+
+---
+
+## 提交状态
+
+- 本次 git 提交包含：1篇文章 + 1新建wiki页 + 3修订wiki页 + 1更新图谱 + 5状态文件 + 2支持文件 + 1运行日志
+- 目标推送分支：main

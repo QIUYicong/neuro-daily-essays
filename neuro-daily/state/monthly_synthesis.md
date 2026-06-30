@@ -2122,6 +2122,21 @@
 
 ---
 
+### 2026-10-20（#188）：目标导向还是习惯？纹状体双系统的分子开关机制
+
+**核心发现**：习惯的形成不是背外侧纹状体（DLS）被动积累 S-R 联结的结果，而是一个多步骤、主动构建的过程：①眶额叶（OFC）→DLS 投射末梢的 CB1 内大麻素门控开启（Gremel 2016, PMID:27238866）作为分子许可信号；②背内侧纹状体（DMS）直接通路 D1-MSN 的突触后压制主动发展（Yu 2021, PMID:33774666）——EPSC 幅度显著降低，DREADD 拯救此压制则损害习惯的获得；③D1+（直接通路）细胞在整个训练-习惯化过程中**稳定编码**行动-结果关系（持续目标导向看门人），而 A2A+（间接通路）细胞在初期学习后**重组为刻板执行模式**（Malvaez 2025, PMID:39896502）；④DLS 激活本身主动抑制 DMS 的目标导向评估（Hart 2025, PMID:40771101）。成瘾机制与此高度共振：METH 情境通过降低 DMS D1 神经元活动复制习惯化状态（Furlong 2017），A2a 拮抗剂恢复目标导向控制。目标导向/习惯框架被扩展到主动回避行为（负性强化），并发现显著性别差异：雌性大鼠始终保持目标导向敏感性，不习惯化（Sears 2026, PMID:41663373）。
+
+**知识地图贡献**：
+- 新建 habit-vs-goal-directed.md（concepts/，mainstream/high，rev1）：填补 striatal-direct-indirect-pathway.md 的悬空引用；综合经典框架（Balleine & Dickinson）与 2016-2026 新机制（CB1 门控/DMS D1 压制/细胞命运分叉/DLS 主动抑制）；新增 Q-switch-01/02/03/04
+- goal-directed-behavior.md (rev1→rev2)：新增 Malvaez 2025、Yu 2021、Hart 2025、Sears 2026；新增 [[habit-vs-goal-directed]] 连接；Q-gd-02（性别差异）
+- habitual-behavior.md (rev2→rev3)：新增 Gremel 2016（CB1 门控）、Yu 2021（DMS D1 压制）、Bakhurin 2020（时序调控）；新增 [[endocannabinoid-system]]、[[orbitofrontal-cortex]] 连接
+- striatal-direct-indirect-pathway.md (rev2→rev3)：新增 Malvaez 2025 D1+/A2A+ 命运分叉；Sears 2026 回避行为 + 性别差异
+- 新建图谱节点：habit-vs-goal-directed（+约11条新边）
+
+**层级**：molecular × synaptic × microcircuit × brain-region × behavior × cognition × disease（从三因素突触可塑性规则→D1/D2 细胞命运→OFC-DLS 回路→双系统竞争→成瘾病理性劫持；跨越6个分析层级）
+
+---
+
 ### 2026-10-19（#179）：平行纤维——小脑皮层最细的导线，如何传递误差学习的语言
 
 **核心发现**：平行纤维（PF）是颗粒细胞（GC）扩维重编码的输出端，其T字形分叉几何结构使单条纤维横跨数百个浦肯野细胞（PC）树突，每个PC整合>100,000条PF输入（Hirano 2018, PMID:30284678），构成Marr-Albus-Ito监督学习模型的情景信号载体。Coesmans et al.（2004, PMID:15541316）确立了PF-PC突触可塑性的Ca²⁺阈值极性开关机制：攀爬纤维（CF）与PF同时激活时，高Ca²⁺触发PKC→AMPAR-Ser880磷酸化→受体内吞→LTD；PF单独激活时，低Ca²⁺激活PP2B（钙调神经磷酸酶）→AMPAR重新插膜→LTP（Jörntell & Hansel 2006, PMID:17046686）。这套"倒置的BCM规则"在海马中高频→LTP，但在小脑PF突触中CF配对→LTD。Xie et al.（2023, PMID:37671785，eLife开放全文）通过计算优化分析挑战了经典稀疏编码信条：对随机刺激分类，稀疏编码最优；但对连续感觉运动变换（更符合真实小脑功能），较密集的任务依赖编码才是最优——"GC必须极度稀疏"从普遍原则降格为特定任务的最优解。Lisberger（2021, PMID:32866603）整合四条小脑学习规则，其中"两级存储"（皮层PF-LTD→小脑核LTP的记忆转移，类比海马→皮层巩固）和"区域异质性"（Suvrathan & Raymond 2018, PMID:30069835：不同微区的PF-LTD时间窗和幅度不同）尤为重要。

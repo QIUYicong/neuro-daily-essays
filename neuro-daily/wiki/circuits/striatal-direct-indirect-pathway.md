@@ -6,14 +6,14 @@ type: mechanism
 status: mainstream
 confidence: high
 created: 2026-09-01
-updated: 2026-09-28
-revision_count: 2
+updated: 2026-10-20
+revision_count: 3
 dimensions: [synaptic, microcircuit, brain-region, behavior, cognition]
 related: [medium-spiny-neuron, basal-ganglia, dopamine-reward-prediction-error, habit-vs-goal-directed, parkinsons-disease, hyperdirect-pathway, corticostriatal-stdp, three-factor-learning-rule, addiction]
 prerequisites: [medium-spiny-neuron, basal-ganglia, action-potential, dopamine-reward-prediction-error]
 opens_questions: [Q-direct-indirect-not-go-nogo, Q-corticostriatal-stdp-in-vivo-timing]
-source_articles: [2026-09-01-medium-spiny-neurons-striatum, 2026-09-28-corticostriatal-stdp-d1d2-plasticity]
-key_sources: ["PMID:21469956", "PMID:31171839", "PMID:27373834", "PMID:18687967", "PMID:20613723", "PMID:15528409"]
+source_articles: [2026-09-01-medium-spiny-neurons-striatum, 2026-09-28-corticostriatal-stdp-d1d2-plasticity, 2026-10-20-habit-goal-directed-dms-dls-circuit-switch]
+key_sources: ["PMID:21469956", "PMID:31171839", "PMID:27373834", "PMID:18687967", "PMID:20613723", "PMID:15528409", "PMID:39896502", "PMID:41663373"]
 ---
 
 # 纹状体直接/间接通路 (Striatal Direct and Indirect Pathways)
@@ -59,6 +59,31 @@ key_sources: ["PMID:21469956", "PMID:31171839", "PMID:27373834", "PMID:18687967"
 | DLS（背外侧） | 习惯形成，刺激-反应联结 | 无法形成习惯（即便过度训练） |
 | NAc（腹侧） | 动机、Pavlovian学习 | 动机减退，奖励预期减弱 |
 
+### D1+ 与 A2A+ 细胞命运分叉（Malvaez et al. 2025）
+
+**2026-10-20 新增（第 188 篇）**：Malvaez et al.（2025, bioRxiv, PMID:39896502，PMC11785256 开放全文）通过**单细胞钙成像**，追踪了 DMS D1+（直接通路）和 A2A+（间接通路，D2 型）在整个训练-习惯化过程中的活动轨迹，发现两种细胞类型有不对称的命运：
+
+| 细胞类型 | 目标导向学习 | 习惯化后 | 功能角色 |
+|---------|------------|---------|---------|
+| D1+（直接通路，DMS） | 稳定编码行动 + 发展结果编码 | **继续稳定编码**行动-结果关系 | 目标导向决策"持续看门人" |
+| A2A+（间接通路，D2） | 初期编码行动 | **活动重组**为刻板执行模式 | 学习初期必要；习惯化后迁移至 DLS 支持模式 |
+
+DREADD 因果验证：
+- 抑制 D1+ → 损害目标导向决策；习惯保留
+- 抑制 A2A+ → 损害初期动作-结果学习；建立后目标导向仍可执行
+
+这修正了"D1 = 目标导向执行者 / D2 = 习惯执行者"的过度简化，正确图景是：**D1+ 是目标导向决策的持续机制；A2A+ 在早期学习阶段必要，习惯化后功能迁移**。
+
+### 主动回避行为中的直接/间接通路（Sears et al. 2026）
+
+**2026-10-20 新增**：Sears et al.（2026, Nature Communications, PMID:41663373，PMC13000197 开放全文）将直接/间接通路的功能分离扩展到**主动回避行为**（负性强化场景）：
+
+- 大鼠学会执行动作产生安全信号（回避伤害）后，对安全信号进行贬值
+- DMS 和 DLS 的化学遗传学操纵产生与正性强化场景（奖励导向）一致的效应：DMS 失活→习惯化，DLS 失活→目标导向保留
+- **发现显著性别差异**：雄性大鼠过度训练后习惯化；雌性大鼠始终保持目标导向敏感性
+
+这表明 DMS/DLS 的功能分离是跨任务域的普遍原则，不局限于追求奖励的工具性行为。
+
 ## 关键证据
 
 | 主张 | 证据 / 方法 | 来源 | 置信度 |
@@ -71,6 +96,8 @@ key_sources: ["PMID:21469956", "PMID:31171839", "PMID:27373834", "PMID:18687967"
 | D2-MSN双向STDP：正时序→A2a-LTP；负时序→D2-CB1-LTD | 同上 | PMID:18687967 (PMC2833421) | 高 |
 | D1-MSN激活→运动启动（因果）；D2-MSN激活→帕金森样僵直（因果） | 活体小鼠ChR2光遗传学（D1-Cre/D2-Cre） | PMID:20613723 (PMC3552484) | 高 |
 | 低DA帕金森病患者：正反馈学习受损；服药后正反馈恢复/负反馈受损 | 帕金森病患者强化学习任务（服药vs停药） | PMID:15528409 | 高 |
+| DMS D1+ 持续稳定编码行动-结果关系；抑制→目标导向受损 | 单细胞钙成像 + DREADD（DMS D1-Cre 和 A2A-Cre） | PMID:39896502 (PMC11785256) | 中（预印本 2025）|
+| DMS/DLS 功能分离扩展到主动回避行为；性别差异（雌性不习惯化） | 安全信号贬值 + 化学遗传学，大鼠 | PMID:41663373 (PMC13000197) | 中-高（2026 已出版）|
 
 ## 连接
 
@@ -90,10 +117,12 @@ key_sources: ["PMID:21469956", "PMID:31171839", "PMID:27373834", "PMID:18687967"
 
 ## 修订历史
 
-- 2026-09-01 · 创建 · 基于《纹状体的决策细胞》文章 · 初始置信度：高（解剖）/ 中（功能细节）
+- 2026-09-01 · 创建（rev1）· 基于《纹状体的决策细胞》文章 · 初始置信度：高（解剖）/ 中（功能细节）
 - 2026-09-28 · 修订（rev2）· 整合Shen 2008（PMID:18687967）STDP分子机制、Kravitz 2010（PMID:20613723）光遗传学因果验证、Frank 2004（PMID:15528409）人类临床证据；新增[[corticostriatal-stdp]]连接；突触层面机制由"理论框架"升级为"直接实验验证" · 依据：第158篇文章
+- 2026-10-20 · 修订（rev3）· 基于《目标导向还是习惯？纹状体双系统的分子开关机制》（文章 #188）· 新增 Malvaez 2025（PMID:39896502）D1+/A2A+ 细胞命运分叉（D1+ 持续编码目标导向；A2A+ 重组为习惯执行模式）、Sears 2026（PMID:41663373）主动回避行为扩展 + 性别差异；[[habit-vs-goal-directed]] 悬空引用正式填补 · 依据：第188篇文章
 
 ## 来源文章
 
 - [[2026-09-01-medium-spiny-neurons-striatum]]
 - [[2026-09-28-corticostriatal-stdp-d1d2-plasticity]]
+- [[2026-10-20-habit-goal-directed-dms-dls-circuit-switch]]

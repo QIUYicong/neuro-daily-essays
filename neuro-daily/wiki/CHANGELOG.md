@@ -4,6 +4,27 @@
 
 ---
 
+## 2026-10-20 · 文章 #188 · 目标导向还是习惯？纹状体双系统的分子开关机制
+
+**新建页面（1个）**：
+- `wiki/concepts/habit-vs-goal-directed.md`（rev1）：填补 striatal-direct-indirect-pathway.md 的悬空引用 [[habit-vs-goal-directed]]；综合经典双系统框架（Balleine & Dickinson，Yin 2004/2005，Coutureau 2003）与 2016-2026 新机制：OFC CB1内大麻素门控（Gremel 2016）、DMS D1-MSN突触压制（Yu 2021）、D1+/A2A+细胞命运分叉（Malvaez 2025）、DLS主动抑制目标导向（Hart 2025）、主动回避行为扩展及性别差异（Sears 2026）；新增未解问题 Q-switch-01/02/03/04；status: mainstream；confidence: high
+
+**修订页面（3个）**：
+- `wiki/concepts/goal-directed-behavior.md`（rev1→rev2）：新增 Malvaez 2025（D1+ 目标导向持续看门人）、Yu 2021（DMS D1-MSN 突触压制是习惯获得必要条件）、Hart 2025（DLS 主动抑制目标导向评估）、Sears 2026（回避行为扩展及性别差异）；新增 [[habit-vs-goal-directed]]、[[addiction]] 连接；新增 Q-gd-02（性别差异机制）；dimensions 扩展至 synaptic
+- `wiki/concepts/habitual-behavior.md`（rev2→rev3）：新增 Gremel 2016（OFC CB1 门控是习惯形成分子许可信号）、Yu 2021（DMS D1-MSN 主动突触退场是习惯获得必要步骤）、Bakhurin 2020（两通路对立时序调控，升级 go/no-go 模型）；新增 [[habit-vs-goal-directed]]、[[endocannabinoid-system]]、[[orbitofrontal-cortex]] 连接；新增 Q-switch-01 跨引用
+- `wiki/circuits/striatal-direct-indirect-pathway.md`（rev2→rev3）：新增 Malvaez 2025（DMS D1+/A2A+ 细胞命运分叉）、Sears 2026（主动回避行为扩展及性别差异）；悬空引用 [[habit-vs-goal-directed]] 今日正式填补；key_sources 扩展 PMID:39896502 和 PMID:41663373
+
+**矛盾操作（0个）**：Malvaez 2025 发现"A2A+ 初期支持 A-O 学习，习惯化后迁移到习惯执行模式"，与 habitual-behavior.md 中"D2 间接通路主导习惯"的表述存在需要细化的地方，已在 rev3 中明确为"分阶段描述"（初期必要/后期迁移），无新矛盾登记（机制上可解释）。
+
+**悬空引用（填补1个，新增2个）**：
+- ✅ 填补：`habit-vs-goal-directed`（在 striatal-direct-indirect-pathway.md related 中引用；今日建立专页）
+- 新增：`endocannabinoid-system`（habitual-behavior.md rev3 新增 related 引用；尚无独立页面）
+- 新增：`orbitofrontal-cortex`（habitual-behavior.md rev3 和 habit-vs-goal-directed.md 中引用；尚无独立页面）
+
+**图谱变化**：343节点/2065边 → **约344节点/约2076边**（+1节点：habit-vs-goal-directed；+约11边：habit-vs-goal-directed↔habitual-behavior、habit-vs-goal-directed↔goal-directed-behavior、habit-vs-goal-directed↔striatal-direct-indirect-pathway、habit-vs-goal-directed→basal-ganglia、habit-vs-goal-directed→addiction、habit-vs-goal-directed→prefrontal-cortex、habit-vs-goal-directed→three-factor-learning-rule、habit-vs-goal-directed→dopamine-reward-prediction-error、habit-vs-goal-directed→endocannabinoid-system、habit-vs-goal-directed→orbitofrontal-cortex、habit-vs-goal-directed→td-learning）
+
+---
+
 ## 2026-10-19 · 文章 #179 · 平行纤维：小脑皮层最细的导线，如何传递误差学习的语言
 
 **新建页面（1个）**：

@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-19",
-  "total_articles": 178,
+  "last_updated": "2026-10-20",
+  "total_articles": 179,
   "entries": [
     {
       "date": "2026-10-18",
@@ -11750,6 +11750,80 @@
         "neuroligin (Priority 3 dangling ref, appears in ASD wiki related)",
         "shank3 (Priority 3 dangling ref, appears in ASD wiki related)",
         "predictive-coding (Priority 4 frontier node, 58 edges, medium confidence)"
+      ]
+    },
+    {
+      "date": "2026-10-20",
+      "title": "目标导向还是习惯？纹状体双系统的分子开关机制",
+      "filename": "2026-10-20-habit-goal-directed-dms-dls-circuit-switch.md",
+      "article_number": 188,
+      "wiki_pages_created": [
+        "wiki/concepts/habit-vs-goal-directed.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/goal-directed-behavior.md rev1→rev2",
+        "wiki/concepts/habitual-behavior.md rev2→rev3",
+        "wiki/circuits/striatal-direct-indirect-pathway.md rev2→rev3"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "当行为从目标导向转变为习惯，大脑在分子、细胞和回路层面如何完成这次主动的权力交接？DMS D1-MSN 的突触压制（Yu 2021）、OFC→DLS CB1 内大麻素门控（Gremel 2016）和 D1+/A2A+ 细胞命运分叉（Malvaez 2025）如何协同构建习惯转换的多步骤机制？",
+      "open_questions_added": [
+        "Q-switch-01（高优先级）：DMS D1-MSN 突触压制的具体分子机制——AMPAR 内化 vs 突触前机制 vs 内大麻素？",
+        "Q-switch-02（中优先级）：DLS 主动抑制 DMS 目标导向决策的具体回路路径？",
+        "Q-switch-03（高优先级）：目标导向/习惯性别差异（雌性不习惯化，Sears 2026）的神经机制？",
+        "Q-switch-04（中优先级）：A2a 拮抗剂恢复目标导向控制（Furlong 2017）的临床可转化性？"
+      ],
+      "layer": [
+        "molecular",
+        "synaptic",
+        "microcircuit",
+        "brain-region",
+        "behavior",
+        "cognition"
+      ],
+      "curriculum_track": "basal-ganglia-learning",
+      "topic_tags": [
+        "habit",
+        "goal-directed",
+        "DMS",
+        "DLS",
+        "dorsal-striatum",
+        "CB1",
+        "endocannabinoid",
+        "OFC",
+        "D1-MSN",
+        "A2A-MSN",
+        "model-based-rl",
+        "model-free-rl",
+        "outcome-devaluation",
+        "addiction"
+      ],
+      "main_sources": [
+        "PMID:14750976",
+        "PMID:16045504",
+        "PMID:14643469",
+        "PMID:18687967",
+        "PMID:27238866",
+        "PMID:26515740",
+        "PMID:32324535",
+        "PMID:33774666",
+        "PMID:39896502",
+        "PMID:40771101",
+        "PMID:41663373"
+      ],
+      "unresolved_questions": [
+        "Q-switch-01",
+        "Q-switch-02",
+        "Q-switch-03",
+        "Q-switch-04"
+      ],
+      "next_suggested_topics": [
+        "orbitofrontal-cortex (Priority B.3 dangling ref from OFC CB1 gate; also referenced in addiction.md)",
+        "endocannabinoid-system (Priority B.3 dangling ref, newly referenced from habitual-behavior.md)",
+        "predictive-coding (Priority B.4 frontier node, 58 edges, medium confidence)",
+        "sharp-wave-ripple (Priority B.3 dangling ref)",
+        "working-memory (Priority B.4 frontier node, related to goal-directed/prefrontal-cortex)"
       ]
     }
   ]

@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-10-18",
-  "node_count": 338,
-  "edge_count": 2038,
+  "updated": "2026-10-20",
+  "node_count": 339,
+  "edge_count": 2049,
   "edge_types": [
     "is-a",
     "part-of",
@@ -3137,6 +3137,15 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/neurons/parallel-fiber.md"
+    },
+    {
+      "id": "habit-vs-goal-directed",
+      "title": "习惯 vs 目标导向行为：双系统竞争与转换",
+      "domain": "concepts",
+      "type": "framework",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/concepts/habit-vs-goal-directed.md"
     }
   ],
   "edges": [
@@ -14732,6 +14741,61 @@
       "from": "parallel-fiber",
       "to": "cerebellum",
       "type": "part-of"
+    },
+    {
+      "from": "habit-vs-goal-directed",
+      "to": "habitual-behavior",
+      "type": "related"
+    },
+    {
+      "from": "habit-vs-goal-directed",
+      "to": "goal-directed-behavior",
+      "type": "related"
+    },
+    {
+      "from": "habit-vs-goal-directed",
+      "to": "striatal-direct-indirect-pathway",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "habit-vs-goal-directed",
+      "to": "basal-ganglia",
+      "type": "part-of"
+    },
+    {
+      "from": "habit-vs-goal-directed",
+      "to": "dopamine-reward-prediction-error",
+      "type": "regulates"
+    },
+    {
+      "from": "habit-vs-goal-directed",
+      "to": "prefrontal-cortex",
+      "type": "regulates"
+    },
+    {
+      "from": "habit-vs-goal-directed",
+      "to": "three-factor-learning-rule",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "habit-vs-goal-directed",
+      "to": "addiction",
+      "type": "related"
+    },
+    {
+      "from": "habit-vs-goal-directed",
+      "to": "td-learning",
+      "type": "related"
+    },
+    {
+      "from": "striatal-direct-indirect-pathway",
+      "to": "habit-vs-goal-directed",
+      "type": "related"
+    },
+    {
+      "from": "addiction",
+      "to": "habit-vs-goal-directed",
+      "type": "related"
     }
   ],
   "dangling_references": [
@@ -15025,6 +15089,33 @@
       "referenced_by": [],
       "note": "已于2026-09-26创建 wiki/concepts/goal-directed-behavior.md 页面（第156篇文章）",
       "resolved": "2026-09-29"
+    }
+  ],
+  "dangling_refs": [
+    {
+      "slug": "habit-vs-goal-directed",
+      "referenced_by": [
+        "striatal-direct-indirect-pathway"
+      ],
+      "note": "已于2026-10-20创建 wiki/concepts/habit-vs-goal-directed.md 页面（第188篇文章）；填补 striatal-direct-indirect-pathway.md 的悬空引用",
+      "resolved": "2026-10-20"
+    },
+    {
+      "slug": "endocannabinoid-system",
+      "referenced_by": [
+        "habitual-behavior",
+        "habit-vs-goal-directed"
+      ],
+      "note": "大麻素信号系统专页；CB1受体的逆行突触抑制；OFC→DLS CB1门控习惯形成；2-AG/AEA合成/降解通路；待建页面"
+    },
+    {
+      "slug": "orbitofrontal-cortex",
+      "referenced_by": [
+        "habitual-behavior",
+        "habit-vs-goal-directed",
+        "addiction"
+      ],
+      "note": "眶额叶皮层专页；Gremel 2016 CB1门控的来源区域；OFC在结果价值评估中的作用；OFC异常与OCD/成瘾相关；待建页面"
     }
   ]
 }
