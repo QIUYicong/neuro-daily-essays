@@ -1,7 +1,68 @@
 {
-  "last_updated": "2026-06-29",
-  "total_articles": 175,
+  "last_updated": "2026-10-17",
+  "total_articles": 176,
   "entries": [
+    {
+      "date": "2026-10-17",
+      "title": "mGluR5 依赖的长时程抑制：突触削减的精密设计与脆性X综合征的分子悲剧",
+      "filename": "2026-10-17-mglur5-ltd-fragile-x-fmrp.md",
+      "article_number": 177,
+      "wiki_pages_created": [
+        "wiki/concepts/mglur-ltd.md",
+        "wiki/concepts/fmrp.md",
+        "wiki/diseases/fragile-x-syndrome.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/ltd.md"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "I 组代谢型谷氨酸受体（mGluR5）激活如何触发依赖局部蛋白快速合成（Arc/MAP1b/STEP）的突触长时程抑制（mGluR-LTD），FMRP 作为翻译速率制动器如何将这条通路维持在适当强度，以及 FMR1 CGG 扩增导致 FMRP 缺失时 mGluR-LTD 失控如何引发脆性X综合征的智力障碍、癫痫和自闭症样行为？",
+      "open_questions_added": [
+        "Q-mglur-ltd-01（高优先级）：CA1 mGluR-LTD 中 mGluR5-Gq-PLC 通路的真实作用——为何综述数据指向 Ca²⁺/IP3 非必需，但 mGluR5 经典文献强调 Gq 耦联",
+        "Q-mglur-ltd-02（中优先级）：mGluR-LTD 内化的 AMPAR 命运分流——进入内体后降解还是再循环，与 Homer1a 睡眠路径是否共用溶酶体",
+        "Q-mglur-ltd-03（高优先级）：mavoglurant 类 mGluR5 拮抗剂临床失败原因——治疗时机、代偿机制（NMDAR通路蛋白合成门控丧失）、测量问题、还是 Bear 理论局限",
+        "Q-fmrp-01（中优先级）：FMRP 在不同树突区室和突触类型的局部分布动态——翻译释放是全树突同步还是局部化",
+        "Q-fmrp-02（高优先级）：FMRP 缺失时 mGluR-LTD 外哪些其他突触机制失调——Thomazeau 2021 NMDAR-棘通路蛋白合成门控消失是否为 FMRP 直接调控 cofilin/actin 调节蛋白",
+        "Q-fxs-01（高优先级）：mGluR5 拮抗剂临床失败的核心原因——治疗时机/补偿机制/测量工具/Bear理论人类适用性",
+        "Q-fxs-02（中优先级）：基因治疗（AAV恢复FMRP）或表观遗传去甲基化的时间窗口，成年期恢复是否足够"
+      ],
+      "layer": [
+        "molecular",
+        "synaptic",
+        "cellular",
+        "cognition",
+        "disease"
+      ],
+      "curriculum_track": "课程脊柱3（突触可塑性：LTD 分类与分子机制）+ 课程脊柱7（翻译调控与局部蛋白合成）+ 课程脊柱9（神经发育疾病：遗传性智力障碍）",
+      "topic_tags": [
+        "mGluR-LTD mGluR5 mGluR1 metabotropic glutamate receptor long-term depression synaptic plasticity",
+        "Homer scaffold Homer1b Homer1c EVH1 PIKE PI3K mTOR ERK MAPK",
+        "Arc Arg3.1 MAP1b STEP protein synthesis translation AMPAR internalization clathrin",
+        "FMRP FMR1 RNA-binding protein polysome stalling translational repressor Ser499 PP2A",
+        "Fragile X syndrome FXS intellectual disability CGG expansion DNA methylation FMR1 silencing",
+        "Bear mGluR theory 2004 PMID:15219735 Dölen 2007 PMID:18093519",
+        "mavoglurant basimglurant mGluR5 antagonist FXLEARN trial clinical failure PMID:39483619",
+        "DHPG group I mGluR agonist Huber 2001 protein synthesis dependent LTD",
+        "Thomazeau 2021 NMDAR spine shrinkage mTORC1 protein synthesis FX mouse PMID:32606374",
+        "Richter 2021 FMRP 842 mRNAs HITS-CLIP translational control PMC:8094212"
+      ],
+      "main_sources": [
+        {"id": "PMC:2841961", "title": "Cellular and synaptic mechanisms of anti-depressant drug action (Lüscher & Huber 2010)"},
+        {"id": "PMID:15219735", "title": "Synaptic dysfunction in neurodevelopmental disorders associated with autism and intellectual disabilities (Bear 2004)"},
+        {"id": "PMC:2199268", "title": "Correction of fragile X syndrome in mice (Dölen et al. 2007)"},
+        {"id": "PMID:32606374", "title": "Structural LTP boosts protein synthesis-dependent LTD via cell-autonomous BDNF signaling (Thomazeau 2021)"},
+        {"id": "PMC:8094212", "title": "Regulation of local mRNA translation in axons and dendrites by FMRP (Richter 2021)"}
+      ],
+      "unresolved_questions": ["Q-mglur-ltd-01", "Q-mglur-ltd-02", "Q-mglur-ltd-03", "Q-fmrp-01", "Q-fmrp-02", "Q-fxs-01", "Q-fxs-02"],
+      "next_suggested_topics": [
+        "mGluR5（wiki节点悬空，被多篇文章引用）",
+        "cerebellar-ltd（小脑LTD mGluR1机制，被mglur-ltd.md引用但无独立页面）",
+        "synaptic-scaling（突触稳态缩放，被mglur-ltd.md引用）",
+        "protein-synthesis-synaptic（局部蛋白合成综合页，被mglur-ltd.md列为前置知识）",
+        "autism-spectrum-disorder（FXS与ASD共病，fragile-x-syndrome.md引用）"
+      ]
+    },
     {
       "date": "2026-10-05",
       "title": "髓鞘的秘密：当少突胶质细胞感知神经冲动，开始重写脑的线路图",

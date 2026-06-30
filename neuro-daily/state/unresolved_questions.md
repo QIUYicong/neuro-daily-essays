@@ -1,6 +1,59 @@
 # 未解问题追踪
 
-*最后更新：2026-06-28*
+*最后更新：2026-10-17*
+
+---
+
+## 2026-10-17 新增（来自"mGluR5 依赖的长时程抑制" 文章 #177）
+
+### Q-mglur-ltd-01（高优先级）：CA1 mGluR-LTD 的 Gq-PLC-Ca²⁺ 通路真实作用
+
+- **关联 wiki**：[[mglur-ltd]]、[[mglur5]]
+- **来源文章**：2026-10-17-mglur5-ltd-fragile-x-fmrp
+- **问题**：CA1 mGluR-LTD 在多项实验中被证明独立于 IP3、PLC 和胞内 Ca²⁺——这与 mGluR5 作为 Gq 耦联受体的经典信号学预期相悖。是因为 mGluR5 在突触可塑性情境下选择性走 Homer-PIKE-PI3K 而非 Gq 通路？还是有脑区特异性或发育阶段依赖性差异（CA1 vs 其他区域；幼鼠 vs 成年）？
+- **当前证据状态**：CA1 mGluR-LTD 不依赖 Ca²⁺/IP3（综述级汇总，Lüscher & Huber 2010）：高；Homer-mGluR5 互作必要性（Ronesi & Huber 2008 点突变）：高；Gq-PLC-Ca²⁺ 在其他脑区的 mGluR-LTD 角色：未系统验证
+
+### Q-mglur-ltd-02（中优先级）：mGluR-LTD 内化 AMPAR 的命运分流
+
+- **关联 wiki**：[[mglur-ltd]]、[[ampa-receptor]]、[[homer1a]]
+- **来源文章**：2026-10-17-mglur5-ltd-fragile-x-fmrp
+- **问题**：mGluR-LTD 内化的 AMPAR 进入内体后，哪些被溶酶体降解、哪些被再循环回突触？这条分流路径与睡眠期 Homer1a 诱导的 AMPAR 被动脱落是否共用相同的胞内运输和降解机器？
+- **当前证据状态**：mGluR-LTD 表达为 AMPAR 内吞：确立；内体分流命运：未系统研究；Homer1a 路径与 mGluR-LTD 路径的溶酶体共用性：未建立
+
+### Q-mglur-ltd-03（高优先级）：mGluR5 拮抗剂临床失败原因
+
+- **关联 wiki**：[[mglur-ltd]]、[[fragile-x-syndrome]]、[[fmrp]]
+- **来源文章**：2026-10-17-mglur5-ltd-fragile-x-fmrp
+- **问题**：mavoglurant 等 mGluR5 拮抗剂在 FXS 临床试验（FXLEARN 等）均未达主要终点。这是因为：(a) 治疗时机过晚（神经发育关键期已过）；(b) 代偿机制已形成（Thomazeau 2021 证明 NMDAR 通路的蛋白合成门控也在 FX 小鼠中消失，提示 FMRP 调控范围超出 mGluR 通路）；(c) 测量终点不灵敏；还是 (d) Bear mGluR 理论对人类 FXS 的适用性有根本局限？
+- **当前证据状态**：mavoglurant FXLEARN 失败（PMID:39483619）：确立；NMDAR 通路蛋白合成门控丧失（Thomazeau 2021，PMID:32606374）：高；关键期时机假说：理论支持，缺乏直接临床证据
+
+### Q-fmrp-01（中优先级）：FMRP 在不同树突区室的局部浓度动态
+
+- **关联 wiki**：[[fmrp]]、[[mglur-ltd]]
+- **来源文章**：2026-10-17-mglur5-ltd-fragile-x-fmrp
+- **问题**：FMRP 在近端 vs 远端棘、兴奋性 vs 抑制性突触中的局部分布动态是什么？mGluR5 触发的翻译释放是全树突同步发生，还是在激活突触处高度局部化？活体超分辨成像数据几乎缺失。
+- **当前证据状态**：FMRP 位于多聚核糖体、随 mRNA 转运到树突：确立；活体局部浓度动态：未测量；激活诱导的局部化释放 vs 全局释放：未区分
+
+### Q-fmrp-02（高优先级）：FMRP 缺失时 mGluR-LTD 外的其他失调机制
+
+- **关联 wiki**：[[fmrp]]、[[fragile-x-syndrome]]、[[nmda-receptor]]
+- **来源文章**：2026-10-17-mglur5-ltd-fragile-x-fmrp
+- **问题**：Thomazeau 2021（PMID:32606374）已证明 FX 小鼠中 NMDAR 激活引起的棘收缩不再需要 mTORC1 或急性蛋白合成。这是 FMRP 直接调控 cofilin、profilin 等 actin 细胞骨架调节蛋白 mRNA 翻译的结果，还是 mGluR-LTD 过激的下游代偿？FMRP 的 842 个靶 mRNA 中有多少属于 NMDAR 通路蛋白？
+- **当前证据状态**：NMDAR-棘通路蛋白合成门控丧失：高（Thomazeau 2021）；FMRP 靶 mRNA 中 NMDAR 通路成员：部分已知（GluN1/GluN2B 亚基为 FMRP 靶，HITS-CLIP）；actin 调节蛋白翻译的 FMRP 直接调控：推断，未系统验证
+
+### Q-fxs-01（高优先级）：FXS mGluR5 拮抗剂治疗失败的根本原因
+
+- **关联 wiki**：[[fragile-x-syndrome]]、[[mglur-ltd]]、[[fmrp]]
+- **来源文章**：2026-10-17-mglur5-ltd-fragile-x-fmrp
+- **问题**：（与 Q-mglur-ltd-03 相关但从疾病角度出发）FXS 临床试验中 mGluR5 拮抗剂的失败是否意味着 Bear mGluR 理论本身需要修订？还是说动物模型（基因均质、发育同步的 FX 小鼠）到人类（基因变异、遗传背景复杂）的翻译存在系统性偏差？
+- **当前证据状态**：鼠模型中 mGluR5 遗传减少纠正多项表型（Dölen 2007）：高；人类 RCT 均阴性（Scharf et al. 2015, Berry-Kravis et al. 2016, FXLEARN 2024）：确立；翻译失败根本原因：未裁决
+
+### Q-fxs-02（中优先级）：FXS 基因治疗或表观遗传干预的时间窗口
+
+- **关联 wiki**：[[fragile-x-syndrome]]、[[fmrp]]
+- **来源文章**：2026-10-17-mglur5-ltd-fragile-x-fmrp
+- **问题**：FMR1 基因沉默是发育期建立的（甲基化），AAV 载体恢复 FMRP 或 dCas9-TET 去甲基化能否在成年期逆转 FXS 表型？最有效的干预时间窗口在何处（胚胎期、出生前后关键期、成年期）？
+- **当前证据状态**：成年 FX 小鼠 FMRP 恢复可部分改善表型：有初步证据（但与关键期期间恢复效果比较不充分）；人类 AAV FXS 临床试验：早期阶段；去甲基化策略临床前数据：有限
 
 ---
 

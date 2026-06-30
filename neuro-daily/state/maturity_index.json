@@ -1,5 +1,26 @@
 [
   {
+    "slug": "mglur-ltd",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-10-17",
+    "reason": "新建 rev1 · #177 · mGluR 依赖的长时程抑制；Homer 长型支架→PI3K-mTOR+ERK-MAPK→Arc/MAP1b/STEP→AMPAR 内吞；CA1 不依赖 Ca²⁺/IP3（Lüscher & Huber 2010 PMC2841961 综述汇总）；Homer 点突变完全阻断 LTD（Ronesi & Huber 2008）；Fmr1 KO 增强且不依赖急性翻译（PMID:20188650）；高置信度机制已多实验室复制"
+  },
+  {
+    "slug": "fmrp",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-10-17",
+    "reason": "新建 rev1 · #177 · FMRP（脆性X智力低下蛋白）；HITS-CLIP 鉴定 842 个靶 mRNA（PMID:33608673）；多聚核糖体停滞机制（dephosphorylation + ubiquitination 双重去抑制）；Fmr1 KO mGluR-LTD 失调（PMID:20188650）；50% mGluR5 遗传减少纠正 FXS 多项表型（PMID:18093519）；机制清晰、多实验室验证"
+  },
+  {
+    "slug": "fragile-x-syndrome",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-10-17",
+    "reason": "新建 rev1 · #177 · 脆性X综合征；FMR1 CGG>200 扩增→甲基化→FMRP 缺失分子链：确立（经典遗传学+分子生物学）；mGluR-LTD 失控（Fmr1 KO DHPG实验）：高；树突棘不成熟（Golgi 染色 + 小鼠成像）：高；mavoglurant 临床失败（FXLEARN RCT）：确立；Thomazeau 2021 NMDAR通路门控丧失：高；置信度高（遗传机制和病理全面理解，治疗策略方向待重新思考）"
+  },
+  {
     "slug": "kibra",
     "status": "emerging",
     "confidence": "medium-high",

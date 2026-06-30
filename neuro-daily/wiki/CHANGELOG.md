@@ -4,6 +4,28 @@
 
 ---
 
+## 2026-10-17 · 文章 #177 · mGluR5 依赖的长时程抑制：突触削减的精密设计与脆性X综合征的分子悲剧
+
+**新建页面（3个）**：
+
+- `wiki/concepts/mglur-ltd.md` rev1：mGluR-LTD——由 I 组代谢型谷氨酸受体驱动、需要局部蛋白翻译（Arc/MAP1b/STEP）的突触 LTD；Homer 长型支架→PI3K-mTOR/ERK-MAPK 双通道→AMPAR 内吞；CA1 独立于 Ca²⁺/IP3（与 Gq 经典预期相悖）；FMRP 是其翻译速率制动器；status: established；confidence: high
+- `wiki/concepts/fmrp.md` rev1：FMRP——FMR1 基因编码的 RNA 结合蛋白，通过停滞多聚核糖体抑制 842 个靶 mRNA（Arc/MAP1b/STEP 等）的翻译延伸；mGluR5→PP2A→Ser499 去磷酸化机制释放翻译抑制；FMR1 CGG>200 次扩增致 FMRP 缺失→FXS；status: established；confidence: high
+- `wiki/diseases/fragile-x-syndrome.md` rev1：脆性X综合征——FMR1 CGG 扩增（>200次）→DNA 甲基化→FMRP 缺失→mGluR-LTD 失控增强；最常见遗传性智力障碍（1/4000 男性）；Bear mGluR 理论 2004；mavoglurant 临床失败（FXLEARN 2019-2024）；status: established；confidence: high
+
+**修订页面（1个）**：
+
+- `wiki/concepts/ltd.md` rev4→rev5：related 新增 fmrp、fragile-x-syndrome；修订历史新增 2026-10-17 条目（mglur-ltd 悬空引用节点今日建立独立页面）；updated 更新至 2026-10-17
+
+**矛盾（0个新登记）**：CA1 mGluR-LTD 不依赖 Gq-PLC-Ca²⁺ 与 mGluR5 教科书 Gq 耦联预期存在表观矛盾，已在 mglur-ltd.md Q-mglur-ltd-01 记录为未解问题，暂无足够证据确定裁决方向（可能为脑区/发育阶段特异性），未登记新矛盾条目
+
+**悬空引用（新增2个）**：
+- `cerebellar-ltd`（被 mglur-ltd.md related 引用）——小脑 LTD 使用 mGluR1；暂无独立页面
+- `synaptic-scaling`（被 mglur-ltd.md related 引用）——突触稳态缩放；暂无独立页面
+
+**图谱变化**：338节点/2038边 → **341节点/2048边**（+3节点：mglur-ltd/fmrp/fragile-x-syndrome；+10边；移除1条导入 mglur5 悬空边）
+
+---
+
 ## 2026-06-29 · 文章 #187 · P3b 的消失：无报告范式如何动摇意识研究三十年的核心标志
 
 **新建页面（3个）**：

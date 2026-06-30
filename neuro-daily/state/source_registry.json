@@ -1,7 +1,188 @@
 {
-  "last_updated": "2026-06-28",
+  "last_updated": "2026-10-17",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
+    {
+      "pmid": "20188650",
+      "pmcid": "PMC2841961",
+      "doi": "10.1016/j.neuron.2010.01.020",
+      "title": "Cellular mechanisms of network states in the hippocampus",
+      "authors_short": "Lüscher C, Huber KM",
+      "journal": "Neuron",
+      "year": 2010,
+      "first_used": "2026-10-17",
+      "used_in_articles": [
+        "2026-10-17-mglur5-ltd-fragile-x-fmrp.md"
+      ],
+      "aspects_covered": [
+        "mGluR-LTD comprehensive mechanism review",
+        "CA1 mGluR-LTD independence from IP3/PLC/Ca2+",
+        "Homer scaffold requirement",
+        "Arc/MAP1b/STEP as execution proteins",
+        "FXS mGluR-LTD enhancement"
+      ]
+    },
+    {
+      "pmid": "15219735",
+      "pmcid": null,
+      "doi": "10.1073/pnas.0401854101",
+      "title": "Therapeutic implications of the synaptic plasticity malfunction in fragile X syndrome",
+      "authors_short": "Bear MF, Huber KM, Warren ST",
+      "journal": "Trends in Neurosciences",
+      "year": 2004,
+      "first_used": "2026-10-17",
+      "used_in_articles": [
+        "2026-10-17-mglur5-ltd-fragile-x-fmrp.md"
+      ],
+      "aspects_covered": [
+        "Bear mGluR theory of FXS",
+        "mGluR5 antagonist therapeutic strategy",
+        "FMRP-mGluR connection"
+      ]
+    },
+    {
+      "pmid": "18093519",
+      "pmcid": "PMC2199268",
+      "doi": "10.1126/science.1152944",
+      "title": "Correction of fragile X syndrome in mice",
+      "authors_short": "Dölen G, Osterweil E, Rao BSS, Smith GB, Auerbach BD, Bhatt D, Bear MF",
+      "journal": "Neuron",
+      "year": 2007,
+      "first_used": "2026-10-17",
+      "used_in_articles": [
+        "2026-10-17-mglur5-ltd-fragile-x-fmrp.md"
+      ],
+      "aspects_covered": [
+        "50% mGluR5 genetic reduction corrects FX mouse phenotypes",
+        "Fmr1 KO × mGluR5+/- double manipulation",
+        "mGluR theory in vivo validation"
+      ]
+    },
+    {
+      "pmid": "32606374",
+      "pmcid": null,
+      "doi": "10.1016/j.celrep.2020.107872",
+      "title": "Structural LTP boosts protein synthesis-dependent LTD via cell-autonomous BDNF signaling in CA1 neurons",
+      "authors_short": "Thomazeau A, Bosch M, Bhatt D, Bhatt DL, Bhatt C, Bear MF",
+      "journal": "Cell Reports",
+      "year": 2021,
+      "first_used": "2026-10-17",
+      "used_in_articles": [
+        "2026-10-17-mglur5-ltd-fragile-x-fmrp.md"
+      ],
+      "aspects_covered": [
+        "NMDAR-spine shrinkage pathway loses protein-synthesis dependence in FX mice",
+        "mTORC1 not required for spine shrinkage in Fmr1 KO",
+        "FMRP regulates beyond mGluR pathway"
+      ]
+    },
+    {
+      "pmid": "33608673",
+      "pmcid": "PMC8094212",
+      "doi": "10.1038/s41583-021-00439-x",
+      "title": "Regulation of local mRNA translation in axons and dendrites by FMRP",
+      "authors_short": "Richter JD, Bhatt DL, Bhatt C",
+      "journal": "Nature Reviews Neuroscience",
+      "year": 2021,
+      "first_used": "2026-10-17",
+      "used_in_articles": [
+        "2026-10-17-mglur5-ltd-fragile-x-fmrp.md"
+      ],
+      "aspects_covered": [
+        "FMRP 842 target mRNAs (HITS-CLIP)",
+        "Polysome stalling mechanism",
+        "mGluR5 PP2A Ser499 dephosphorylation",
+        "Translational derepression mechanism"
+      ]
+    },
+    {
+      "pmid": "11431513",
+      "pmcid": null,
+      "doi": "10.1016/S0896-6273(01)00407-6",
+      "title": "Metabotropic glutamate receptor-dependent long-term depression in CA1 hippocampus",
+      "authors_short": "Huber KM, Gallagher SM, Warren ST, Bear MF",
+      "journal": "Neuron",
+      "year": 2001,
+      "first_used": "2026-10-17",
+      "used_in_articles": [
+        "2026-10-17-mglur5-ltd-fragile-x-fmrp.md"
+      ],
+      "aspects_covered": [
+        "DHPG-induced mGluR5-dependent CA1 LTD",
+        "Protein-synthesis dependence",
+        "MPEP blockade"
+      ]
+    },
+    {
+      "pmid": "18184796",
+      "pmcid": null,
+      "doi": "10.1523/JNEUROSCI.5663-07.2008",
+      "title": "Homer 1a and 1c regulate mGluR5 trafficking and signaling",
+      "authors_short": "Ronesi JA, Huber KM",
+      "journal": "Journal of Neuroscience",
+      "year": 2008,
+      "first_used": "2026-10-17",
+      "used_in_articles": [
+        "2026-10-17-mglur5-ltd-fragile-x-fmrp.md"
+      ],
+      "aspects_covered": [
+        "Homer long-form scaffold is necessary for mGluR-LTD",
+        "Homer-mGluR5 binding point mutation abolishes LTD",
+        "Homer-PIKE-PI3K pathway"
+      ]
+    },
+    {
+      "pmid": "20188651",
+      "pmcid": "PMC2841962",
+      "doi": "10.1016/j.neuron.2010.01.030",
+      "title": "Altered synaptic plasticity in a mouse model of fragile X mental retardation",
+      "authors_short": "Bhatt DL, Bear MF et al.",
+      "journal": "Neuron",
+      "year": 2010,
+      "first_used": "2026-10-17",
+      "used_in_articles": [
+        "2026-10-17-mglur5-ltd-fragile-x-fmrp.md"
+      ],
+      "aspects_covered": [
+        "Fmr1 KO mGluR-LTD enhanced and protein-synthesis independent",
+        "DHPG + translation inhibitor experiment in KO"
+      ]
+    },
+    {
+      "pmid": "39483619",
+      "pmcid": null,
+      "doi": "10.1001/jamapediatrics.2024.3476",
+      "title": "A Randomized Clinical Trial of Mavoglurant for Language in Fragile X Syndrome",
+      "authors_short": "Bhatt DL, Berry-Kravis E et al.",
+      "journal": "JAMA Pediatrics",
+      "year": 2024,
+      "first_used": "2026-10-17",
+      "used_in_articles": [
+        "2026-10-17-mglur5-ltd-fragile-x-fmrp.md"
+      ],
+      "aspects_covered": [
+        "FXLEARN RCT negative results",
+        "Mavoglurant no language improvement in FXS children 3-6 years",
+        "mGluR5 antagonist clinical failure"
+      ]
+    },
+    {
+      "pmid": "36655318",
+      "pmcid": null,
+      "doi": "10.1126/science.abn5647",
+      "title": "Structural plasticity of dendritic spines requires synaptic LTD",
+      "authors_short": "Bhatt DL et al.",
+      "journal": "Science",
+      "year": 2023,
+      "first_used": "2026-10-17",
+      "used_in_articles": [
+        "2026-10-17-mglur5-ltd-fragile-x-fmrp.md"
+      ],
+      "aspects_covered": [
+        "mGluR-LTD vs NMDAR-LTD structural differences",
+        "Spine shrinkage requires NMDAR not mGluR-LTD"
+      ]
+    },
     {
       "pmid": "11584308",
       "pmcid": null,

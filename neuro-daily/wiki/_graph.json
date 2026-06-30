@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-06-29",
+  "updated": "2026-10-17",
   "node_count": 338,
   "edge_count": 2038,
   "edge_types": [
@@ -3092,6 +3092,33 @@
       "status": "mainstream",
       "confidence": "high",
       "page": "wiki/concepts/no-report-paradigm.md"
+    },
+    {
+      "id": "mglur-ltd",
+      "title": "mGluR 依赖的长时程抑制",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/mglur-ltd.md"
+    },
+    {
+      "id": "fmrp",
+      "title": "FMRP（脆性X智力低下蛋白）",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/concepts/fmrp.md"
+    },
+    {
+      "id": "fragile-x-syndrome",
+      "title": "脆性X综合征",
+      "domain": "diseases",
+      "type": "disease",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/diseases/fragile-x-syndrome.md"
     }
   ],
   "edges": [
@@ -14542,6 +14569,66 @@
       "to": "p3b-wave",
       "type": "related",
       "note": "P3b 可能是点燃后期报告阶段的标志，而非点燃本身"
+    },
+    {
+      "from": "mglur-ltd",
+      "to": "ltd",
+      "type": "is-a",
+      "note": "mGluR-LTD 是广义 LTD 的子类型"
+    },
+    {
+      "from": "mglur-ltd",
+      "to": "ampa-receptor",
+      "type": "mechanism-of",
+      "note": "最终效应器：AMPAR 内吞"
+    },
+    {
+      "from": "mglur-ltd",
+      "to": "arc-arg31",
+      "type": "requires",
+      "note": "Arc 是 mGluR-LTD 的核心执行蛋白"
+    },
+    {
+      "from": "homer1a",
+      "to": "mglur-ltd",
+      "type": "antagonizes",
+      "note": "Homer1a 进入 PSD 后瓦解 mGluR5-Homer 平台，解除经典 mGluR-LTD 触发"
+    },
+    {
+      "from": "fmrp",
+      "to": "mglur-ltd",
+      "type": "regulates",
+      "note": "FMRP 是 mGluR-LTD 的翻译速率制动器"
+    },
+    {
+      "from": "fmrp",
+      "to": "arc-arg31",
+      "type": "regulates",
+      "note": "FMRP 抑制 Arc mRNA 翻译延伸"
+    },
+    {
+      "from": "fmrp",
+      "to": "ampa-receptor",
+      "type": "regulates",
+      "note": "FMRP 调控 GluA1/GluA2 亚基翻译"
+    },
+    {
+      "from": "fragile-x-syndrome",
+      "to": "fmrp",
+      "type": "mechanism-of",
+      "note": "FXS 的分子机制是 FMRP 缺失"
+    },
+    {
+      "from": "fragile-x-syndrome",
+      "to": "mglur-ltd",
+      "type": "related",
+      "note": "mGluR-LTD 失控是 FXS 突触病理核心"
+    },
+    {
+      "from": "mglur-ltd",
+      "to": "homer1a",
+      "type": "related",
+      "note": "共享 mGluR5 受体但机制相反"
     }
   ],
   "dangling_references": [

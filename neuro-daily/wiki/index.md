@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-06-28（第185篇·新生神经元的双面刃·模式分离与神经发生介导的遗忘）· 主题页总数：**327**（新建1页：concepts/infantile-amnesia；修订2页：concepts/adult-neurogenesis rev4, concepts/pattern-separation rev4；图谱335节点/2021边）
+> 最后更新：2026-10-17（第177篇·mGluR5-LTD 与脆性X综合征）· 主题页总数：**330**（新建3页：concepts/mglur-ltd, concepts/fmrp, diseases/fragile-x-syndrome；修订1页：concepts/ltd rev5；图谱341节点/2048边）
 
 ---
 

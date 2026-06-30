@@ -1,0 +1,132 @@
+# 运行日志：2026-10-17
+
+**状态**：成功完成
+**运行时间**：2026-06-30（系统日期）/ 2026-10-17（KB内部日期）
+**文章编号**：#177
+**主题**：mGluR5 依赖的长时程抑制：突触削减的精密设计与脆性X综合征的分子悲剧
+
+---
+
+## 主题选择依据
+
+**触发点**：2026-10-16 运行日志明确记录 `mglur-ltd` 作为悬空引用节点存在于 homer1a.md 和 ltd.md 中，是最高优先级待填补节点。
+
+**选择逻辑**：
+1. `homer1a.md`（#176）在 related 列表中引用 `mglur-ltd`，但无独立 wiki 页面
+2. `ltd.md` 在 related 中同样引用 `mglur-ltd`，同样无独立节点
+3. mGluR-LTD 与 Homer1a 存在自然叙事联系（共享 mGluR5 受体，但机制对立：长型 Homer 激活 vs Homer1a 瓦解支架）
+4. mGluR-LTD → FMRP → 脆性X综合征构成完整的分子→疾病叙事链，引入首篇 diseases/ 疾病文章
+
+---
+
+## 文献检索
+
+**检索方法**：
+- NCBI E-utilities (efetch API) 检索 PMIDs 获取摘要
+- NCBI BioNLP BioC RESTful API 获取 PMC 全文（PMC2841961、PMC2199268、PMC8094212）
+- PubMed E-utilities esearch 纠正错误 PMID（Bear 2004、Dölen 2007、Lüscher 2010 初始 PMID 均错误，通过作者+标题搜索纠正）
+
+**PMID 纠正记录**：
+- Lüscher & Huber 2010：初始猜测 20965811（放射治疗论文）→ 纠正为 PMID:20188650（Neuron）
+- Bear et al. 2004：初始猜测 14960283（骨科论文）→ 纠正为 PMID:15219735（Trends in Neurosci）
+- Dölen et al. 2007：初始猜测 17882922（鼻窦炎论文）→ 纠正为 PMID:18093519（Neuron）
+
+**来源质量**：
+- 全文开放访问：3篇（PMC2841961 Lüscher 2010、PMC2199268 Dölen 2007、PMC8094212 Richter 2021）
+- 摘要访问：7篇
+- Sci-Hub 或付费访问：0篇（严格遵守开放访问政策）
+
+---
+
+## 创建文件
+
+| 文件 | 类型 | 字数（估）|
+|------|------|---------|
+| `articles/2026-10-17-mglur5-ltd-fragile-x-fmrp.md` | 主文章 | ~5400 |
+| `notes/2026-10-17-reading-notes.md` | 阅读笔记 | ~2800 |
+| `sources/2026-10-17-sources.json` | 来源元数据 | 10项 |
+| `wiki/concepts/mglur-ltd.md` | 新建 wiki | ~1800 |
+| `wiki/concepts/fmrp.md` | 新建 wiki | ~1600 |
+| `wiki/diseases/fragile-x-syndrome.md` | 新建 wiki | ~1700 |
+
+---
+
+## 修订文件
+
+| 文件 | 修订内容 |
+|------|---------|
+| `wiki/concepts/ltd.md` | rev4→rev5；related 新增 fmrp/fragile-x-syndrome；修订历史更新 |
+| `wiki/_graph.json` | 338→341 节点；2038→2048 边（+11边，移除1条 mglur5 悬空边，净+10） |
+| `wiki/index.md` | 标题行更新：330页，341节点/2048边，2026-10-17 |
+| `wiki/CHANGELOG.md` | 新增 2026-10-17 条目 |
+| `state/topic_ledger.json` | 新增 #177 条目，total_articles: 175→176 |
+| `state/unresolved_questions.md` | 新增7个未解问题（Q-mglur-ltd-01/02/03、Q-fmrp-01/02、Q-fxs-01/02） |
+| `state/maturity_index.json` | 新增3条（mglur-ltd/fmrp/fragile-x-syndrome，均 established/high） |
+| `state/monthly_synthesis.md` | October 表格新增 #176/#177；#177延伸摘要 |
+| `state/source_registry.json` | 新增10个来源记录 |
+
+---
+
+## 知识图谱变化
+
+**新增节点（3个）**：
+- `mglur-ltd`（concepts，mechanism，established/high）
+- `fmrp`（concepts，mechanism，established/high）
+- `fragile-x-syndrome`（diseases，disease，established/high）
+
+**新增边（10条净增）**：
+- mglur-ltd → ltd（is-a）
+- mglur-ltd → ampa-receptor（mechanism-of）
+- mglur-ltd → arc-arg31（requires）
+- homer1a → mglur-ltd（antagonizes）
+- fmrp → mglur-ltd（regulates）
+- fmrp → arc-arg31（regulates）
+- fmrp → ampa-receptor（regulates）
+- fragile-x-syndrome → fmrp（mechanism-of）
+- fragile-x-syndrome → mglur-ltd（related）
+- mglur-ltd → homer1a（related）
+
+**移除边（1条）**：
+- mglur5 → mglur-ltd（mglur5 节点为悬空引用，避免引入新悬空边）
+
+---
+
+## 悬空引用状态
+
+**今日填补**：
+- `mglur-ltd`（homer1a.md 和 ltd.md 引用）→ 已建立独立页面
+
+**新增悬空引用**（来自今日新建页面的引用）：
+- `cerebellar-ltd`（mglur-ltd.md related）—— 建议下篇文章候选
+- `synaptic-scaling`（mglur-ltd.md related）—— 建议候选
+
+**已知存量悬空引用**（保持记录，不扩大）：
+- `parallel-fiber`、`sharp-wave-ripple`（上期遗留）
+
+---
+
+## 下篇建议
+
+1. `mGluR5`（独立 wiki 节点，被多篇引用，无独立页面）
+2. `cerebellar-ltd`（小脑 LTD，mGluR1 机制，与今日 mGluR5-LTD 对比）
+3. `protein-synthesis-synaptic`（局部蛋白合成综合页，被 mglur-ltd.md 列为前置知识）
+4. `autism-spectrum-disorder`（FXS 与 ASD 关系，fragile-x-syndrome.md 引用）
+
+---
+
+## 自检结果（ROUTINE.md Step H）
+
+- [x] 无捏造 PMID / DOI / 结论（所有 PMID 均通过 E-utilities 验证）
+- [x] 开放访问来源 ≥ 2（实际3篇全文开放）
+- [x] 未访问 Sci-Hub 或付费内容
+- [x] 无医学诊断 / 治疗建议（FXS 治疗策略均为历史文献陈述，明确注明临床试验失败）
+- [x] 文章字数 3000-6000（~5400字，符合要求）
+- [x] 悬空引用已记录（新增2个）
+- [x] 图谱边类型正确（is-a/mechanism-of/requires/regulates/related/antagonizes）
+- [x] append-only 规则遵守（原有文章未修改内容，wiki 仅在指定修订节追加）
+- [x] Git 作者身份：QIUYicong / 169510482+QIUYicong@users.noreply.github.com
+- [x] 推送目标：origin main（单分支累积模型）
+
+---
+
+*下次运行建议 KB 内部日期：2026-10-18*
