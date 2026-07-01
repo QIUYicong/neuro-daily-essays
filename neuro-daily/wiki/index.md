@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-10-20（第188篇·习惯 vs 目标导向：纹状体双系统分子开关机制）· 主题页总数：**332**（新建1页：concepts/habit-vs-goal-directed；修订3页：goal-directed-behavior rev2/habitual-behavior rev3/striatal-direct-indirect-pathway rev3；图谱约344节点/约2076边）
+> 最后更新：2026-10-21（第189篇·记忆搬家的经济学：任务难度如何决定运动学习记忆留在小脑皮层还是搬进深部小脑核）· 主题页总数：**333**（新建1页：concepts/cerebellar-memory-transfer；修订4页：parallel-fiber rev2/cerebellar-ltd rev6/molecular-layer-interneuron rev2/deep-cerebellar-nuclei rev2；图谱345节点/2087边）
 
 ---
 
@@ -38,8 +38,8 @@
 - 🟢 [T 型钙通道（低电压激活钙通道）](neurons/t-type-calcium-channels.md) — CaV3.1（TC）/CaV3.3（TRN）是视丘爆发放电的分子开关；需超极化去失活后触发LTS；失神癫痫/脆性X综合征的分子通路 **[NEW 2026-06-30]**
 - 🟢 [视丘放电模式（爆发/强直双模式）](neurons/thalamic-firing-modes.md) — 清醒VPm约15%感觉响应为爆发；爆发提高时序精度（非幅度）；爆发-强直连续谱：检测vs辨别；基于时序的感知门控 **[NEW 2026-06-30]**
 - 🟢 [缝隙连接与神经元电突触（Cx36）](neurons/gap-junction-electrical-synapse.md) — Connexin-36 缝隙连接是成年大脑 PV+ 中间神经元电突触的主要类型；亚毫秒同步；Cx36 KO 选择性消除伽马振荡（保留纹波）；可被多巴胺/CaMKII 动态调节；LinCx 2025 工程化电突触新突破 **[NEW 2026-10-06]**
-- 🟢 [分子层中间神经元（MLI）](neurons/molecular-layer-interneuron.md) — 小脑皮层的 GABA 能前馈抑制元件；MLI1（Cx36+，电偶联，同步抑制 PC）vs MLI2（Nxph1+，去抑制 PC via MLI1）；逆向可塑性（PF+CF→MLI LTP 同时 PC LTD）；反弹增强（RP）的前突触来源；VOR 学习必要因子 **[NEW 2026-10-09]**
-- 🟢 [平行纤维（PF）](neurons/parallel-fiber.md) — GC 轴突T字形分叉后在分子层水平延伸的纤维束（3–6 mm/条）；每 PC 接受 >100,000 条 PF 输入；PF-PC 突触双向可塑性（PF+CF→LTD；PF alone→LTP，Ca²⁺阈值开关，Coesmans 2004）；最优 GC 编码密度任务依赖（Xie 2023）；Marr-Albus-Ito 模型的情景载体 **[NEW 2026-10-19]**
+- 🟢 [分子层中间神经元（MLI）](neurons/molecular-layer-interneuron.md) — 小脑皮层的 GABA 能前馈抑制元件；MLI1（Cx36+，电偶联，同步抑制 PC）vs MLI2（Nxph1+，去抑制 PC via MLI1）；逆向可塑性（PF+CF→MLI LTP 同时 PC LTD）；反弹增强（RP）的前突触来源；VOR 学习必要因子 **[NEW 2026-10-09 · 修订 rev2 2026-10-21]**
+- 🟢 [平行纤维（PF）](neurons/parallel-fiber.md) — GC 轴突T字形分叉后在分子层水平延伸的纤维束（3–6 mm/条）；每 PC 接受 >100,000 条 PF 输入；PF-PC 突触双向可塑性（PF+CF→LTD；PF alone→LTP，Ca²⁺阈值开关，Coesmans 2004）；最优 GC 编码密度任务依赖（Xie 2023）；Marr-Albus-Ito 模型的情景载体；**新增**：Bae 2025正规化原则为两级存储提供定量判据 **[NEW 2026-10-19 · 修订 rev2 2026-10-21]**
 - 🟢 [少突胶质细胞](neurons/oligodendrocyte.md) — CNS 产髓鞘胶质细胞，三重功能：绝缘（跳跃式传导/120m/s）+ 代谢支持（MCT1-乳酸轴）+ 经验依赖髓鞘化（Adaptive myelination）；运动/认知学习需要新 OL 生成（McKenzie 2014, Shimizu 2023）**[NEW 2026-10-05]**
 - 🟢 [小胶质细胞](neurons/microglia.md) — CNS 常驻免疫细胞，发育期突触剪枝执行者：CR3（C3b识别）+ TREM2（PS识别）双通路；活动依赖性（TTX→优先吞噬沉默突触）；AD中C1q重激活；精神分裂症C4A→过度剪枝；成年稳态P2RY12/TMEM119/CX3CR1分子签名；DAM两步激活（rev2新增） **[NEW 2026-06-03 · 修订 rev1→rev2 2026-09-17]**
 - 🔵 [TREM2（髓系细胞触发受体2）](neurons/trem2.md) — 小胶质细胞脂质传感器/危险信号受体；DAP12→PI3K→Akt→mTOR促细胞存活/增殖/吞噬；DAM Step 2激活的分子开关；R47H变异→AD风险OR≈3-5×；INVOKE-2 Phase 2（AL002c激动抗体）阴性结果 **[NEW 2026-09-17]**
@@ -116,7 +116,8 @@
 - 🟢 [记忆巩固（系统层面）](concepts/memory-consolidation.md) — SWR驱动的海马→皮层记忆转移；SO-spindle-SWR三重耦合（Maingret 2016因果证据）；SHY down-selection 统一主动巩固与稳态下调；老龄化耦合解锁机制（mPFC萎缩）；SCT vs MTT理论争论；**新增**：再巩固是"巩固即密封"的动态例外（修订 2026-07-10）**[修订 2026-07-10]**
 - 🔵 [记忆再巩固](concepts/memory-reconsolidation.md) — 已巩固记忆在提取后重新进入蛋白合成依赖态（Nader 2000）；去稳定化分子链（GluN2B-NMDA→CaMKII→UPS→Shank/GKAP降解+GluA2内吞）；再巩固窗口消退永久消除恐惧（Monfils 2009, Agren 2012 fMRI）；普萘洛尔消除人类情绪恐惧（Kindt 2009）；米非司酮 Phase 2a RCT 未达主要终点 **[NEW 2026-07-10]**
 - 🟢 [长时程抑制（LTD）](concepts/ltd.md) — NMDA-LTD（PP2B/PP1/GluA1去磷酸化）与 mGluR-LTD（Arc/AMPAR内吞）构成双向突触可塑性；LTD 是主动的精准遗忘机制；**小脑 LTD（mGluR1/PKC路径，与 NMDA-LTD 并列，修订2026-06-23）** **[修订rev2]**
-- 🟢 [小脑 LTD（PF-PC LTD）](concepts/cerebellar-ltd.md) — mGluR1→IP₃→PKC→AMPAR内吞；IP₃R1 是 PF+CF 同时激活的生物物理"与门"（钟形 Ca²⁺ 依赖曲线）；GluA2 Ser880 磷酸化→GRIP1→PICK1→内吞；Schonewille 2011 证明无 LTD 也能运动学习；LTDpathies：自身抗体靶向 mGluR1/VGCC 导致共济失调 **[修订rev5, 2026-10-09]**
+- 🟢 [小脑 LTD（PF-PC LTD）](concepts/cerebellar-ltd.md) — mGluR1→IP₃→PKC→AMPAR内吞；IP₃R1 是 PF+CF 同时激活的生物物理"与门"（钟形 Ca²⁺ 依赖曲线）；GluA2 Ser880 磷酸化→GRIP1→PICK1→内吞；Schonewille 2011 证明无 LTD 也能运动学习；LTDpathies：自身抗体靶向 mGluR1/VGCC 导致共济失调；**新增**：Bae 2025正规化原则为LTD非必要现象提供互补解释（记忆按任务难度转移出皮层）**[修订rev6, 2026-10-21]**
+- 🟡 [小脑运动记忆的两级转移](concepts/cerebellar-memory-transfer.md) — 记忆最初形成于小脑皮层，随后按任务难度决定的比例转移到深部小脑核/前庭核；正规化原则（偏差²+方差+开销）预测转移程度：易任务近乎完全转移，难任务保留皮层依赖（Bae et al. 2025）；为PF-LTD必要性四十年争议提供统一解释框架 **[NEW 2026-10-21]**
 - 🟢 [反弹增强（Rebound Potentiation, RP）](concepts/rebound-potentiation.md) — MLI→PC 抑制性突触的 LTP；Ca²⁺→β-CaMKII→GABARAP 磷酸化→GABA_A 受体数量增加；与 PF-PC LTD 互补，共同利用 CF 误差信号减少 PC 输出；VOR 适应因果证据（γ2 肽链转基因）；篮状细胞特异性（β2-GABA_A + CaMKII）**[NEW 2026-10-09]**
 - 🔵 [纹状体突触可塑性](concepts/striatal-plasticity.md) — 皮质-纹状体谷氨酸突触的LTP（D1-Gs-cAMP-PKA-DARPP-32-AMPA插入）和eCB-LTD（D2-mGluR-2-AG-CB1-突触前释放↓）；奖励时双向刻写；多巴胺1秒时间窗解决信用分配；NMDA受体对LTP必需 **[NEW 2026-09-01]**
 - 🟢 [钙调磷酸酶（Calcineurin / PP2B）](concepts/calcineurin.md) — 高亲和力 Ca²⁺ 磷酸酶，中低 Ca²⁺ 时激活，是 NMDA-LTD 磷酸酶级联的第一步；与 CaMKII 构成 LTP/LTD 方向性的分子开关 **[NEW 2026-06-04]**
@@ -265,7 +266,7 @@
 - 🟢 [后顶叶皮层（PPC）](systems/posterior-parietal-cortex.md) — 背侧流核心枢纽；LIP（空间显著性图谱，非眼动指令）；AIP（抓握手型预编码，optic ataxia）；VIP（近身空间防御）；MIP（到达计算）；背背侧→PMd/腹背侧→PMv 双路输出**[NEW 2026-08-30]**
 - 🟢 [运动皮层](systems/motor-cortex.md) — M1/PMC/SMA分层组织；Betz细胞→皮质脊髓束；均质小人（手/嘴比例扭曲）；群体向量编码（Georgopoulos 1986）；旋转动力学（Churchland 2012）；输出零空间（Kaufman 2014）；**小脑-运动皮层闭环（修订2026-06-23）**
 - 🟢 [小脑](systems/cerebellum.md) — 多样化预测处理器；三层皮层（颗粒/浦肯野/分子）+ DCN；PF-LTD多层可塑性；前向/逆向内部模型（Wolpert 1998）；双向微区（De Zeeuw 2021）；CCAS（认知情感综合征，Schmahmann 1998）**[修订rev4 2026-09-04]**
-- 🟢 [深部小脑核（DCN）](systems/deep-cerebellar-nuclei.md) — 小脑唯一输出门控；三核团（顶核平衡/间位核时序/齿状核认知）+ 三细胞类型（谷氨酸能主力/GABA能短环路/甘氨酸能前庭）；去抑制为主要输出机制（Ishikawa 2014灵长类证据）；三层可塑性（突触LTP+内在兴奋性+PNN门控，CR率↑42%）；aDCN→VTA→纹状体饱腹感回路；齿状核→VM丘脑→前额叶认知路径**[NEW 2026-09-04]**
+- 🟢 [深部小脑核（DCN）](systems/deep-cerebellar-nuclei.md) — 小脑唯一输出门控；三核团（顶核平衡/间位核时序/齿状核认知）+ 三细胞类型（谷氨酸能主力/GABA能短环路/甘氨酸能前庭）；去抑制为主要输出机制（Ishikawa 2014灵长类证据）；三层可塑性（突触LTP+内在兴奋性+PNN门控，CR率↑42%）；aDCN→VTA→纹状体饱腹感回路；齿状核→VM丘脑→前额叶认知路径；**新增**：两级记忆转移的目的地（Bae 2025）**[NEW 2026-09-04 · 修订 rev2 2026-10-21]**
 - 🟢 [下橄榄核](systems/inferior-olive.md) — 延髓腹侧误差时钟；PIO/DAO/MAO 三亚核；树突小球内 Cx36 GJ 将 STO（4–10 Hz）相位锁定；CF 时序精度由 Cx36 同步决定（KO 小鼠+甲氟喹人类实验双解离证据）；DCN→GABA→IO 反馈门控误差广播；灵长类机制保守；2025 年种群级 CS 正/负交替编码误差方向+量级 **[NEW 2026-10-07]**
 - 🔵 [前向模型](concepts/forward-model.md) — 利用传出拷贝预测运动感觉后果，使大脑超越反馈延迟；小脑的主要计算角色；逆向模型对称结构 **[NEW 2026-06-23]**
 - 🟡 [群体向量编码](concepts/population-vector-coding.md) — M1方向编码的分布式机制；余弦调谐→群体向量精确预测；心理旋转时群体向量以732°/s旋转（Georgopoulos 1989）**[NEW 2026-06-21]**

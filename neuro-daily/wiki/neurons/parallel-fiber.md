@@ -6,14 +6,14 @@ type: structure
 status: established
 confidence: high
 created: 2026-10-19
-updated: 2026-10-19
-revision_count: 1
+updated: 2026-10-21
+revision_count: 2
 dimensions: [cellular, microcircuit, systems]
-related: [granule-cell-cerebellar, purkinje-cell, climbing-fiber, cerebellar-ltd, molecular-layer-interneuron, mossy-fiber, cerebellum]
+related: [granule-cell-cerebellar, purkinje-cell, climbing-fiber, cerebellar-ltd, molecular-layer-interneuron, mossy-fiber, cerebellum, cerebellar-memory-transfer]
 prerequisites: [granule-cell-cerebellar, synaptic-transmission, action-potential]
-opens_questions: [Q-pf-01, Q-pf-02]
-source_articles: [2026-10-19-parallel-fiber-cerebellar-cortex-computation]
-key_sources: ["PMID:37671785", "PMID:17046686", "PMID:15541316", "PMID:30284678", "PMID:32866603"]
+opens_questions: [Q-pf-01, Q-pf-02, Q-pf-03, Q-pf-04]
+source_articles: [2026-10-19-parallel-fiber-cerebellar-cortex-computation, 2026-10-21-cerebellar-memory-transfer-task-difficulty]
+key_sources: ["PMID:37671785", "PMID:17046686", "PMID:15541316", "PMID:30284678", "PMID:32866603", "PMID:40595477", "PMID:24162651"]
 ---
 
 # 平行纤维 (Parallel Fiber, PF)
@@ -84,6 +84,10 @@ Lisberger（2021，PMID:32866603）总结小脑学习的四条基本规则（均
 3. 皮质回路反馈限制皮层学习幅度（防止过度拟合）
 4. 不同小脑功能微区使用不同的PF可塑性规则（区域异质性，见Suvrathan & Raymond 2018，PMID:30069835）
 
+### 两级存储的定量判据（rev2新增，2026-10-21）
+
+Bae等人（2025，PMID:40595477）为规则2提供了首个定量、可预测的判据：任务难度决定PF-PC LTD所在的皮层记忆是否会转移到深部小脑核/前庭核——易任务（如视动反射OKR）几乎完全转移（皮层依赖度巩固后降至~5%），难任务（如VOR-increase）保留显著皮层依赖（~75%）。这为"阻断PF-LTD有时无影响、有时有影响"提供了统一解释：测试的任务难度决定了此时记忆是否已经转移出皮层。详见 [[cerebellar-memory-transfer]]。
+
 ## 关键证据
 
 | 主张 | 证据/方法 | 来源 | 置信度 |
@@ -95,6 +99,8 @@ Lisberger（2021，PMID:32866603）总结小脑学习的四条基本规则（均
 | 小脑学习可从皮层转移至核（两级存储）| 电生理+行为 | PMID:32866603 | 中-高 |
 | PF-LTD规则在不同小脑微区存在异质性 | 光遗传+跨区电生理 | PMID:30069835 | 中-高 |
 | 至少9种小脑皮层突触可塑性（超越PF-LTD）| 综述 | PMID:24916288 | 高（综述共识）|
+| 任务难度决定PF-LTD所在皮层记忆是否转移到核团：易任务近乎完全转移，难任务保留皮层依赖 | 偏差-方差-开销计算模型+在体光遗传失活+频率特异性行为学 | PMID:40595477（Bae 2025）| 中-高 |
+| 直接光遗传激活PC足以驱动学习，与CF驱动的经典可塑性方向分离，提示下游位点可独立完成学习 | ChR2光遗传学+双重分离设计 | PMID:24162651（Nguyen-Vu 2013）| 高 |
 
 ## 连接
 
@@ -105,16 +111,21 @@ Lisberger（2021，PMID:32866603）总结小脑学习的四条基本规则（均
 - [[molecular-layer-interneuron]] — MLI接受PF输入，产生与PC方向相反的逆向可塑性，放大CF误差信号
 - [[mossy-fiber]] — MF是GC的主要输入，经GC→PF转化为高维编码
 - [[cerebellum]] — PF是小脑皮层计算架构的核心元件
+- [[cerebellar-memory-transfer]] — PF-PC突触可塑性是"两级转移"中皮层端记忆最初形成的位点
 
 ## 未解问题
 
-- **Q-pf-01**（高优先级）：PF-LTD对运动学习是必要且充分的吗？已有多项研究用基因方法阻断PF-LTD却不损害小脑依赖性学习——这是因为LTP/MLI逆向可塑性提供了代偿通道，还是运动学习根本上不依赖PF-LTD？（关联Q-mli-01、Q-mli-02、Q-mli-03）
+- **Q-pf-01**（高优先级，rev2部分推进）：PF-LTD对运动学习是必要且充分的吗？已有多项研究用基因方法阻断PF-LTD却不损害小脑依赖性学习——这是因为LTP/MLI逆向可塑性提供了代偿通道，还是运动学习根本上不依赖PF-LTD？2026-10-21新证据（Bae 2025）提示：答案可能取决于任务难度——易任务的记忆本就该已转移出皮层，因此阻断PF-LTD"看起来"无关紧要；但核团内具体分子机制仍未验证，未终局裁决。（关联Q-mli-01、Q-mli-02、Q-mli-03、Q-pf-03、Q-pf-04）
 - **Q-pf-02**（中优先级）：在真实运动任务中，体内GC激活密度究竟是多少？Xie 2023的理论预测能否被宽视野双光子或光场显微镜在小脑颗粒层的大规模钙成像直接验证？
+- **Q-pf-03**（新增，高优先级）：若将Bae 2025的任务难度框架应用于眼睑条件反射等经典范式（Attwell 2002），能否重现"记忆搬家程度=任务难度"的预测？
+- **Q-pf-04**（新增，中优先级）：皮层内部代偿通道（MLI逆向可塑性、反弹增强）与跨区域转移的相对贡献如何随任务难度变化？
 
 ## 修订历史
 
 - 2026-10-19 · 创建 · 基于《平行纤维：小脑皮层最细的导线，如何传递误差学习的语言》（文章 #179）· 来源：PMID:37671785/17046686/15541316/30284678/32866603/30069835/24916288/32599123 · 初始置信度：高（解剖和LTD/LTP机制有扎实直接证据；稀疏编码争议和波束假说有高质量挑战数据）
+- 2026-10-21 · 修订 rev1→rev2 · 基于《记忆搬家的经济学：任务难度如何决定运动学习记忆留在小脑皮层还是搬进深部小脑核》（文章 #189）· 新增：Bae 2025正规化原则专节（两级存储的定量判据）；Nguyen-Vu 2013因果操控证据；关键证据表新增2行；连接新增cerebellar-memory-transfer；未解问题新增Q-pf-03、Q-pf-04，Q-pf-01标注部分推进（非终局裁决）· 新增key_sources：PMID:40595477、PMID:24162651
 
 ## 来源文章
 
 - [[2026-10-19-parallel-fiber-cerebellar-cortex-computation]]
+- [[2026-10-21-cerebellar-memory-transfer-task-difficulty]]

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-19",
+  "last_updated": "2026-10-21",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -11839,7 +11839,7 @@
       "key_contribution": "Marr-Ito-Albus三个经典模型的历史比较，共识与分歧"
     }
   ],
-  "total_sources": 710,
+  "total_sources": 714,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",
@@ -17470,5 +17470,24 @@
     "new_additions": 7,
     "full_text_count": 6,
     "notes": "PMID:14750976/16045504/14643469/18687967 为经典已知文献（复用）；新增7篇：27238866/26515740/32324535（开放全文）、33774666/40771101（仅摘要）、39896502（bioRxiv开放）、41663373（Nature Comms开放）"
+  },
+  "sources_2026-10-21-cerebellar-memory-transfer": {
+    "article": "#189 · 记忆搬家的经济学：任务难度如何决定运动学习记忆留在小脑皮层还是搬进深部小脑核",
+    "date": "2026-10-21",
+    "pmids": [
+      "PMID:40595477",
+      "PMID:24162651",
+      "PMID:21482355",
+      "PMID:12086647",
+      "PMID:16458438",
+      "PMID:32866603",
+      "PMID:12062025",
+      "PMID:24600347",
+      "PMID:29858484",
+      "PMID:25279763"
+    ],
+    "new_additions": 4,
+    "full_text_count": 2,
+    "notes": "PMID:21482355/32866603/12062025/24600347/29858484/25279763 为既有wiki已引用的经典复用文献；新增4篇：PMID:40595477（Bae 2025, Nat Commun, PMC全文开放, 今日核心新证据）、PMID:24162651（Nguyen-Vu 2013, PMC全文可读）、PMID:12086647（Attwell 2002, 仅摘要）、PMID:16458438（Shutoh 2006, 仅摘要）"
   }
 }

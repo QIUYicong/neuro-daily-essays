@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-20",
-  "total_articles": 179,
+  "last_updated": "2026-10-21",
+  "total_articles": 180,
   "entries": [
     {
       "date": "2026-10-18",
@@ -11823,6 +11823,75 @@
         "endocannabinoid-system (Priority B.3 dangling ref, newly referenced from habitual-behavior.md)",
         "predictive-coding (Priority B.4 frontier node, 58 edges, medium confidence)",
         "sharp-wave-ripple (Priority B.3 dangling ref)",
+        "working-memory (Priority B.4 frontier node, related to goal-directed/prefrontal-cortex)"
+      ]
+    },
+    {
+      "date": "2026-10-21",
+      "title": "记忆搬家的经济学：任务难度如何决定运动学习记忆留在小脑皮层还是搬进深部小脑核",
+      "filename": "2026-10-21-cerebellar-memory-transfer-task-difficulty.md",
+      "article_number": 189,
+      "wiki_pages_created": [
+        "wiki/concepts/cerebellar-memory-transfer.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/neurons/parallel-fiber.md rev1→rev2",
+        "wiki/concepts/cerebellar-ltd.md rev5→rev6",
+        "wiki/neurons/molecular-layer-interneuron.md rev1→rev2",
+        "wiki/systems/deep-cerebellar-nuclei.md rev1→rev2"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "当基因/药理学方法阻断平行纤维长时程抑制（PF-LTD）却不损害多种小脑运动学习任务时，学到的记忆究竟储存在哪里？是否存在一个统一原则，能解释PF-LTD'有时必要、有时可有可无'这一长达四十年的争议？Bae et al. 2025 提出的偏差-方差-开销正规化原则（任务难度决定记忆从皮层向深部小脑核/前庭核的转移程度）如何整合 Schonewille 2011（阻断无影响）与 Attwell 2002/Shutoh 2006（皮层依赖的转移证据）这两条看似矛盾的证据线？",
+      "open_questions_added": [
+        "Q-pf-03（高优先级）：若将Bae 2025的任务难度框架应用于眼睑条件反射等经典范式（Attwell 2002），能否重现'记忆搬家程度=任务难度'的预测？",
+        "Q-pf-04（中优先级）：皮层内部代偿通道（MLI逆向可塑性、反弹增强）与跨区域转移的相对贡献如何随任务难度变化？"
+      ],
+      "layer": [
+        "synaptic",
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "behavior"
+      ],
+      "curriculum_track": "cerebellum-motor-learning",
+      "topic_tags": [
+        "cerebellum",
+        "PF-LTD",
+        "parallel-fiber",
+        "Purkinje-cell",
+        "deep-cerebellar-nuclei",
+        "vestibular-nuclei",
+        "memory-consolidation",
+        "two-stage-storage",
+        "task-difficulty",
+        "bias-variance-tradeoff",
+        "VOR",
+        "OKR",
+        "Marr-Albus-Ito",
+        "knowledge-distillation"
+      ],
+      "main_sources": [
+        "PMID:40595477",
+        "PMID:24162651",
+        "PMID:21482355",
+        "PMID:12086647",
+        "PMID:16458438",
+        "PMID:32866603",
+        "PMID:12062025",
+        "PMID:24600347",
+        "PMID:29858484",
+        "PMID:25279763"
+      ],
+      "unresolved_questions": [
+        "Q-pf-03",
+        "Q-pf-04"
+      ],
+      "next_suggested_topics": [
+        "orbitofrontal-cortex (已建页，无需再选)",
+        "predictive-coding (Priority B.4 frontier node, 58 edges, medium confidence, 已多次评估仍高度发展，持续观察)",
+        "global-workspace-theory (Priority B.4 frontier node, 33 edges, medium confidence)",
+        "eyeblink-conditioning-task-difficulty (延伸Q-pf-03，若有新文献可直接检验Bae 2025框架在眼睑条件反射范式的预测)",
         "working-memory (Priority B.4 frontier node, related to goal-directed/prefrontal-cortex)"
       ]
     }

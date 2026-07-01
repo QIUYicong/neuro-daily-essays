@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-10-20",
+  "updated": "2026-10-21",
   "node_count": 339,
   "edge_count": 2049,
   "edge_types": [
@@ -3146,6 +3146,15 @@
       "status": "mainstream",
       "confidence": "high",
       "page": "wiki/concepts/habit-vs-goal-directed.md"
+    },
+    {
+      "id": "cerebellar-memory-transfer",
+      "title": "小脑运动记忆的两级转移",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "emerging",
+      "confidence": "medium",
+      "page": "wiki/concepts/cerebellar-memory-transfer.md"
     }
   ],
   "edges": [
@@ -14796,6 +14805,71 @@
       "from": "addiction",
       "to": "habit-vs-goal-directed",
       "type": "related"
+    },
+    {
+      "from": "cerebellar-memory-transfer",
+      "to": "parallel-fiber",
+      "type": "prerequisite-for",
+      "note": "PF-PC突触可塑性是皮层端记忆最初形成的位点"
+    },
+    {
+      "from": "parallel-fiber",
+      "to": "cerebellar-memory-transfer",
+      "type": "related",
+      "note": "PF-LTD可能只是转移前窗口期的暂时机制"
+    },
+    {
+      "from": "cerebellar-memory-transfer",
+      "to": "cerebellar-ltd",
+      "type": "related",
+      "note": "为PF-LTD非必要现象提供互补解释"
+    },
+    {
+      "from": "cerebellar-ltd",
+      "to": "cerebellar-memory-transfer",
+      "type": "related",
+      "note": "任务难度决定LTD所在记忆是否转移"
+    },
+    {
+      "from": "cerebellar-memory-transfer",
+      "to": "molecular-layer-interneuron",
+      "type": "related",
+      "note": "皮层内代偿通道与跨区域转移是不同维度，互补而非竞争"
+    },
+    {
+      "from": "molecular-layer-interneuron",
+      "to": "cerebellar-memory-transfer",
+      "type": "related"
+    },
+    {
+      "from": "cerebellar-memory-transfer",
+      "to": "deep-cerebellar-nuclei",
+      "type": "mechanism-of",
+      "note": "DCN/前庭核是转移的目的地"
+    },
+    {
+      "from": "deep-cerebellar-nuclei",
+      "to": "cerebellar-memory-transfer",
+      "type": "supports",
+      "note": "DCN三层可塑性是承接转移记忆的候选载体"
+    },
+    {
+      "from": "cerebellar-memory-transfer",
+      "to": "memory-consolidation",
+      "type": "related",
+      "note": "与海马-新皮层系统巩固类比但方向相反"
+    },
+    {
+      "from": "cerebellar-memory-transfer",
+      "to": "complementary-learning-systems",
+      "type": "related",
+      "note": "小脑变体：核团扮演'慢而稳定'存储角色"
+    },
+    {
+      "from": "cerebellar-memory-transfer",
+      "to": "forward-model",
+      "type": "supports",
+      "note": "转移完成后核团独立支撑前向预测行为"
     }
   ],
   "dangling_references": [

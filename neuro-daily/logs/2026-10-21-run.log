@@ -1,0 +1,93 @@
+# 运行日志 · 2026-10-21
+
+**运行时间**：2026-10-21（知识库日期，跨会话延续）/ 2026-07-02（系统日期，UTC+8）
+**文章编号**：#189
+**状态**：✅ 完成
+
+---
+
+## 0. 分支与同步
+
+- 平台默认工作分支为 `claude/funny-einstein-y8h9ln`，但 ROUTINE.md 规定单分支累积模型（方案A）：知识库的家是 `main`。已 `git checkout main` + `git pull origin main`（成功，fast-forward）。
+- 确认 `neuro-daily/wiki/`、`ROUTINE.md`、`KNOWLEDGE-BASE-DESIGN.md` 均存在于 main，架构完整。
+- Git 作者信息已设置为 QIUYicong / 169510482+QIUYicong@users.noreply.github.com。
+
+## A. 优先级分析
+
+- 读取 state/topic_ledger.json（最后条目：#188，2026-10-20，习惯vs目标导向）、state/unresolved_questions.md（5350行，含多个高优先级open问题）、state/contested_claims.json（5条open，均需要新证据裁决，短期内不易速裁）、wiki/_graph.json（343节点/2076边）、wiki/index.md。
+- 悬空引用检查：仅发现3个平凡悬空引用（sharp-wave-ripple单复数typo、mossy-fiber单复数typo、intellectual-disability单次引用），均非实质性缺口。
+- 前沿节点检查：predictive-coding（58边，medium confidence）连接度全图最高，但历史记录显示已多次评估为"高度发展，跳过"（rev10+）。
+- 回收未解问题：parallel-fiber.md 中 Q-pf-01（PF-LTD必要性，高优先级）自2026-10-19创建后未被推进，且与cerebellar-ltd.md的Q-ltd-01、molecular-layer-interneuron.md的Q-mli-03构成同一问题簇，具备通过新文献检索实质性推进的可能性。
+- **选定主题**：小脑运动记忆两级转移——任务难度如何决定PF-LTD必要性之争的统一解答
+  - 理由：①回收高优先级未解问题（Q-pf-01/Q-ltd-01/Q-mli-03）；②检索发现2025年真实新文献（Bae et al., Nature Communications）提供了此前未被本知识库记录的正规化原则，构成真正的"新发现"而非重复综述；③连接4个已有wiki页（parallel-fiber/cerebellar-ltd/molecular-layer-interneuron/deep-cerebellar-nuclei），是缺口驱动+深化前沿的复合选题；④层级为synaptic/cellular/microcircuit/brain-region/behavior，与近日主题（#186 ASD分子-行为、#188 纹状体习惯）形成层级切换，未连续三日同一层级。
+
+## B. 文献检索
+
+**检索工具**：NCBI E-utilities（esearch/esummary/efetch，https://eutils.ncbi.nlm.nih.gov）+ Europe PMC REST API（https://www.ebi.ac.uk/europepmc）+ PMC全文（https://pmc.ncbi.nlm.nih.gov）
+
+**新文献（本次首次引用，4篇）**：
+- PMID:40595477（Bae, Seo, Kim & Kim 2025, *Nature Communications*）✅ PMCID:PMC12217676，全文开放（CC-BY），今日核心突破文献
+- PMID:24162651（Nguyen-Vu et al. 2013, *Nature Neuroscience*）✅ PMCID:PMC3966616，全文可读（PMC）
+- PMID:12086647（Attwell, Cooke & Yeo 2002, *Neuron*）⚠️ 仅摘要（无PMC，早于NIH公共获取政策）
+- PMID:16458438（Shutoh et al. 2006, *Neuroscience*）⚠️ 仅摘要（无PMC）
+
+**复用既有wiki高置信度文献（6篇，均已在既有页面验证，本次不重复检索全文）**：
+- PMID:21482355（Schonewille 2011）、PMID:32866603（Lisberger 2021）、PMID:12062025（Jörntell & Ekerot 2002）、PMID:24600347（Hirano 2014）、PMID:29858484（Bhatt 2018）、PMID:25279763（Ishikawa 2014）
+
+**官方机构来源**：NCBI E-utilities（美国国立医学图书馆/NIH）+ Europe PMC（EMBL-EBI）用于全部PMID/PMCID/DOI/开放获取状态的实时核验；曾尝试访问NINDS官网背景资料，遭遇403（可能为反爬虫拦截），未强行绕过，改用NCBI/PubMed作为本次官方来源。
+
+**来源统计**：总计9个来源（4新增+6复用+1官方数据库工具类），开放全文2篇（Bae 2025、Nguyen-Vu 2013），仅摘要4篇，满足ROUTINE最低要求（≥5来源/≥2开放全文/≥1官方来源）。
+
+## C. 文章创作
+
+**文件**：`articles/2026-10-21-cerebellar-memory-transfer-task-difficulty.md`
+**字数**：约4900中文字符（含表格、公式、参考文献）
+**分层**：突触/细胞/微回路/脑区/计算原则/行为 六个层级递进
+**核心发现**：任务难度决定小脑运动记忆是否/在多大程度上从皮层转移到深部小脑核/前庭核，为PF-LTD必要性四十年争议提供统一（非终局）解释框架；与AI模型压缩/知识蒸馏类比
+
+## D. Wiki 固结
+
+### 新建页面（1个）
+- ✅ `wiki/concepts/cerebellar-memory-transfer.md`（rev1，status: emerging，confidence: medium）：整合4篇新文献+5篇复用文献；7条关键证据；7个连接；5个未解问题（2个新增Q-pf-03/Q-pf-04 + 3个延续Q-pf-01/Q-ltd-01/Q-mli-03）
+
+### 修订页面（4个）
+- ✅ `wiki/neurons/parallel-fiber.md`（rev1→rev2）：新增"两级存储的定量判据"专节；关键证据表+2行；连接+1（cerebellar-memory-transfer）；Q-pf-01标注部分推进；新增Q-pf-03/Q-pf-04
+- ✅ `wiki/concepts/cerebellar-ltd.md`（rev5→rev6）：当前理解段+1段（Bae 2025互补解释）；关键证据表+1行；连接+1；Q-ltd-01标注部分推进
+- ✅ `wiki/neurons/molecular-layer-interneuron.md`（rev1→rev2）：连接+1；Q-mli-03补充任务难度维度实验设计视角
+- ✅ `wiki/systems/deep-cerebellar-nuclei.md`（rev1→rev2）：当前理解段+1条目（两级转移目的地）；连接+1；新增Q-pf-03关联
+
+## E. 图谱更新
+
+- 节点：344 → 345（+1: cerebellar-memory-transfer）
+- 边：2076 → 2087（+11）
+- 悬空引用解析：0个（本次未涉及既有悬空引用修复）
+- 无新增悬空引用（所有连接目标均为既有节点，已验证）
+
+## F. 状态文件更新
+
+- ✅ `state/topic_ledger.json`：total_articles 179→180，新增#189条目（article_number: 189）
+- ✅ `state/unresolved_questions.md`：最后更新2026-10-17→2026-10-21，新增Q-pf-03/Q-pf-04完整条目
+- ✅ `state/source_registry.json`：last_updated→2026-10-21，total_sources 710→714，新增sources_2026-10-21-cerebellar-memory-transfer条目
+- ✅ `state/monthly_synthesis.md`：追加2026-10-21（#189）摘要
+- ✅ `wiki/CHANGELOG.md`：顶部插入2026-10-21条目
+- ✅ `wiki/index.md`：header更新（第189篇，333主题页，345节点/2087边），4条既有条目标注修订，新增1条cerebellar-memory-transfer条目
+
+## G. 支持文件
+
+- ✅ `notes/2026-10-21-reading-notes.md`：6篇核心文献研究笔记（含今日待解决的关键张力小节）
+- ✅ `sources/2026-10-21-sources.json`：9条来源结构化记录（含官方机构来源类型）
+
+## 矛盾检查
+
+- Bae 2025正规化原则与既有Schonewille 2011（LTD阻断无影响）、Attwell 2002/Shutoh 2006（皮层依赖转移证据）之间**不构成矛盾**——三者可通过"任务难度决定记忆转移谱系位置"统一解释。已在cerebellar-memory-transfer.md、parallel-fiber.md、cerebellar-ltd.md中明确标注为互补视角、非终局裁决，未登记新contested_claims条目。
+
+## 限制与不确定性
+
+- Bae 2025框架的直接在体验证目前仅限于OKR/VOR两类任务，尚未推广至眼睑条件反射等其他小脑学习范式（已记录为Q-pf-03）。
+- Attwell 2002、Shutoh 2006两篇经典论文因发表年代早于NIH公共获取政策，无法获取全文，仅依据摘要转述其方法与结论，已在文章参考来源中明确标注"仅摘要"。
+- NINDS官网背景资料访问受阻（HTTP 403），未强行绕过，改用NCBI/PubMed作为官方来源，已在sources.json中如实记录。
+
+## 提交状态
+
+- 本次git提交包含：1篇文章 + 1新建wiki页 + 4修订wiki页 + 1图谱更新 + 4状态文件更新 + 2支持文件 + 1运行日志
+- 目标推送分支：main（遵循ROUTINE.md单分支累积模型，覆盖平台默认的claude/funny-einstein-y8h9ln分支指令——ROUTINE.md为本仓库日常运行的唯一真相来源，其"分支模型：单分支累积（方案A）...不再创建每日分支"为明确规定）

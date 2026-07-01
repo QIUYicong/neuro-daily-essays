@@ -2148,3 +2148,20 @@
 - 新建图谱节点：parallel-fiber（+1节点；总 343节点/2065边）
 
 **层级**：cellular × microcircuit × systems（相对上篇 ASD 的分子-行为-疾病维度，今日实现层级切换；三日连续小脑主题：cerebellar-ltd(Oct 8)→MLI(Oct 9)→parallel-fiber(Oct 19)跨越分子→细胞→回路层级）
+
+---
+
+### 2026-10-21（#189）：记忆搬家的经济学——任务难度如何决定运动学习记忆留在小脑皮层还是搬进深部小脑核
+
+**核心发现**：持续四十余年的"PF-LTD必要性之争"（Schonewille et al. 2011, PMID:21482355：阻断PF-LTD不损害多种运动学习任务）在2025年获得了一个统一的计算解释。Bae、Seo、Kim与Kim（2025，《Nature Communications》，PMID:40595477，PMC全文开放）提出一个正规化原则：小脑运动记忆从"复杂但精确"的皮层系统向"简单但省资源"的深部小脑核/前庭核系统的转移程度，由任务难度决定——将两套系统的依赖度形式化为偏差²+方差+开销的联合优化问题，易任务（如视动反射OKR）几乎完全转移（巩固后皮层依赖度从~85%降至~5%），难任务（如前庭眼反射增益增强VOR-increase）保留显著皮层依赖（维持~75%，巩固后皮层失活仍造成P=0.031的显著缺陷）。这一原则整合了此前两条看似矛盾的经典证据线：Attwell、Cooke与Yeo（2002, PMID:12086647）发现训练后早期失活皮层（而非核团）彻底阻断眼睑条件反射巩固；Shutoh等（2006, PMID:16458438）证实VOR记忆痕迹随时间跨突触从皮层转移至前庭核。Nguyen-Vu等（2013，《Nature Neuroscience》，PMID:24162651）提供了因果操控证据：直接光遗传激活浦肯野细胞足以驱动VOR学习，且与攀爬纤维驱动的经典可塑性方向分离，提示下游位点可独立完成学习。四十年的"是否必要"是非题，由此升级为"记忆最优存放地点由任务性质决定"的量化问题——但核团内具体分子机制、双重阻断实验的任务难度分层设计等仍是未竟之业。
+
+**知识地图贡献**：
+- 新建 cerebellar-memory-transfer.md（concepts/，emerging/medium，rev1）：整合Bae 2025正规化原则、Nguyen-Vu 2013因果证据、Attwell 2002与Shutoh 2006经典转移时间证据、Lisberger 2021两级存储理论前身；新增 Q-pf-03（跨范式推广）/Q-pf-04（皮层内代偿vs跨区域转移的任务难度依赖性）
+- parallel-fiber.md（rev1→rev2）：新增"两级存储的定量判据"专节；Q-pf-01标注部分推进（非终局裁决）
+- cerebellar-ltd.md（rev5→rev6）：当前理解段新增Bae 2025互补解释；Q-ltd-01标注部分推进
+- molecular-layer-interneuron.md（rev1→rev2）：Q-mli-03补充任务难度维度的实验设计视角
+- deep-cerebellar-nuclei.md（rev1→rev2）：当前理解段新增"两级记忆转移目的地"视角
+- 新建图谱节点：cerebellar-memory-transfer（+1节点；总345节点/2087边）
+- 矛盾登记：0个（Bae 2025与既有证据线互补而非冲突，已在各页明确标注为非终局裁决）
+
+**层级**：synaptic × cellular × microcircuit × brain-region × behavior（延续小脑主题线：cerebellar-ltd(Oct 8)→MLI(Oct 9)→parallel-fiber(Oct 19)→今日的两级转移正规化原则，是该主题线在系统/计算层面的一次汇总与跃升，而非单纯的层级重复）

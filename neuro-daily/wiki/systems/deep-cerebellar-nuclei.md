@@ -6,14 +6,14 @@ type: structure
 status: established
 confidence: high
 created: 2026-09-04
-updated: 2026-09-04
-revision_count: 1
+updated: 2026-10-21
+revision_count: 2
 dimensions: [cellular, microcircuit, brain-region, cognition, systems]
-related: [cerebellum, purkinje-cell, thalamus, motor-cortex, forward-model, perineuronal-nets, inferior-olive, nucleus-accumbens, prefrontal-cortex, cerebellar-ltd, climbing-fiber, granule-cell-cerebellar]
+related: [cerebellum, purkinje-cell, thalamus, motor-cortex, forward-model, perineuronal-nets, inferior-olive, nucleus-accumbens, prefrontal-cortex, cerebellar-ltd, climbing-fiber, granule-cell-cerebellar, cerebellar-memory-transfer]
 prerequisites: [purkinje-cell, cerebellum, GABA, thalamus]
-opens_questions: [Q-dcn-01, Q-dcn-02, Q-dcn-03, Q-dcn-04, Q-pc-02]
-source_articles: [2026-09-04-deep-cerebellar-nuclei-dcn-output]
-key_sources: ["PMID:25279763", "PMID:29858484", "PMID:38534469", "PMID:40344058", "PMID:34789878", "PMID:34262527", "PMID:19675244", "PMID:32661395"]
+opens_questions: [Q-dcn-01, Q-dcn-02, Q-dcn-03, Q-dcn-04, Q-pc-02, Q-pf-03]
+source_articles: [2026-09-04-deep-cerebellar-nuclei-dcn-output, 2026-10-21-cerebellar-memory-transfer-task-difficulty]
+key_sources: ["PMID:25279763", "PMID:29858484", "PMID:38534469", "PMID:40344058", "PMID:34789878", "PMID:34262527", "PMID:19675244", "PMID:32661395", "PMID:40595477"]
 ---
 
 # 深部小脑核 (Deep Cerebellar Nuclei, DCN)
@@ -29,6 +29,7 @@ key_sources: ["PMID:25279763", "PMID:29858484", "PMID:38534469", "PMID:40344058"
 **关键认知框架更新**（相比旧观点）：
 - 旧观点：DCN 是 PC 抑制的简单反转器
 - 新认识：DCN 是主动的多层可塑性中枢，且参与运动以外的食欲调控、认知和社会行为
+- **2026-10-21 新增**：DCN 也是"两级记忆转移"的目的地——按任务难度决定的比例，从小脑皮层转移来的运动记忆最终可能就沉淀在 DCN（或前庭核）的这三层可塑性机制里（Bae et al. 2025, PMID:40595477）。详见 [[cerebellar-memory-transfer]]。
 
 ## 解剖组织
 
@@ -110,6 +111,7 @@ PC 精确暂停 → GABA 释放减少 → DCN 谷氨酸能神经元脱笼激活
 - [[perineuronal-nets]] — 包裹 DCN 大型谷氨酸能神经元，门控可塑性
 - [[nucleus-accumbens]] — aDCN→VTA→纹状体的饱腹感通路
 - [[prefrontal-cortex]] — 齿状核→非运动丘脑→前额叶的认知通路
+- [[cerebellar-memory-transfer]] — DCN 三层可塑性是承接从皮层转移来的记忆的具体候选载体；任务难度决定转移比例
 
 ## 未解问题
 
@@ -118,11 +120,14 @@ PC 精确暂停 → GABA 释放减少 → DCN 谷氨酸能神经元脱笼激活
 - Q-dcn-03：外侧 DCN 的奖励 CF 信号（rPE）如何改变齿状核突触权重
 - Q-dcn-04：aDCN 饱腹信号是否双向调控？如何整合内脏感觉与运动预测
 - Q-pc-02（延伸）：PC 停顿 vs 爆发在 DCN 层面如何被"读出"？促进型/抑制型 PC 亚型是否有解剖分离的 DCN 靶向？
+- Q-pf-03（关联，高优先级）：若将任务难度正规化原则（Bae 2025）应用于眼睑条件反射范式，DCN 内具体是哪类突触/哪种可塑性机制承接转移的记忆？目前仍缺乏直接分子证据。
 
 ## 修订历史
 
 - 2026-09-04 · 创建 · 基于《深部小脑核的计算秘密》文章 #134 · 初始置信度：高（解剖/基本回路）、中（非运动功能）
+- 2026-10-21 · 修订 rev1→rev2 · 基于《记忆搬家的经济学：任务难度如何决定运动学习记忆留在小脑皮层还是搬进深部小脑核》（文章 #189）· 新增：当前理解段补充"两级记忆转移目的地"视角；连接新增cerebellar-memory-transfer；未解问题新增Q-pf-03；新增key_sources：PMID:40595477
 
 ## 来源文章
 
 - [[2026-09-04-deep-cerebellar-nuclei-dcn-output]]
+- [[2026-10-21-cerebellar-memory-transfer-task-difficulty]]

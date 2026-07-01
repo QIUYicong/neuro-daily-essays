@@ -4,6 +4,27 @@
 
 ---
 
+## 2026-10-21 · 文章 #189 · 记忆搬家的经济学：任务难度如何决定运动学习记忆留在小脑皮层还是搬进深部小脑核
+
+**突破追踪**：Bae, Seo, Kim & Kim 2025《Nature Communications》（DOI:10.1038/s41467-025-60511-z，PMCID:PMC12217676，全文开放）——提出偏差-方差-开销正规化原则，首次定量解释任务难度如何决定小脑运动记忆从皮层向核团的转移程度。
+
+**新建页面（1个）**：
+- `wiki/concepts/cerebellar-memory-transfer.md`（rev1）：整合 Bae 2025 正规化原则、Nguyen-Vu 2013（因果操控证据）、Attwell 2002 与 Shutoh 2006（经典皮层→核团转移时间证据）、Lisberger 2021（两级存储理论前身）；为 Q-pf-01/Q-ltd-01/Q-mli-03 三个悬而未决问题提供统一（非终局）解释框架；新增未解问题 Q-pf-03、Q-pf-04；status: emerging；confidence: medium
+
+**修订页面（4个）**：
+- `wiki/neurons/parallel-fiber.md`（rev1→rev2）：新增"两级存储的定量判据"专节；关键证据表新增2行（Bae 2025、Nguyen-Vu 2013）；新增 [[cerebellar-memory-transfer]] 连接；Q-pf-01 标注部分推进（非终局裁决）；新增 Q-pf-03、Q-pf-04
+- `wiki/concepts/cerebellar-ltd.md`（rev5→rev6）：当前理解段新增 Bae 2025 互补解释；关键证据表新增1行；新增 [[cerebellar-memory-transfer]] 连接；Q-ltd-01 标注部分推进
+- `wiki/neurons/molecular-layer-interneuron.md`（rev1→rev2）：新增 [[cerebellar-memory-transfer]] 连接；Q-mli-03 补充任务难度维度的实验设计视角
+- `wiki/systems/deep-cerebellar-nuclei.md`（rev1→rev2）：当前理解段新增"两级记忆转移目的地"视角；新增 [[cerebellar-memory-transfer]] 连接；新增 Q-pf-03 关联
+
+**矛盾登记（0个）**：Bae 2025 的正规化原则与既有 Schonewille 2011（PF-LTD非必要）、Attwell 2002/Shutoh 2006（皮层依赖的转移证据）不构成矛盾，而是提供了统一解释框架（任务难度决定二者分别观察到的现象属于转移谱系的哪一端），已在各页"当前理解"和"未解问题"中明确标注为互补视角、非终局裁决。
+
+**悬空引用（0个新增）**：无（memory-consolidation、complementary-learning-systems、forward-model 均为既有节点）
+
+**图谱变化**：344节点/2076边 → **345节点/2087边**（+1节点：cerebellar-memory-transfer；+11边：与parallel-fiber/cerebellar-ltd/molecular-layer-interneuron/deep-cerebellar-nuclei/memory-consolidation/complementary-learning-systems/forward-model的双向或单向连接）
+
+---
+
 ## 2026-10-20 · 文章 #188 · 目标导向还是习惯？纹状体双系统的分子开关机制
 
 **新建页面（1个）**：

@@ -6,14 +6,14 @@ type: structure
 status: established
 confidence: high
 created: 2026-10-09
-updated: 2026-10-09
-revision_count: 1
+updated: 2026-10-21
+revision_count: 2
 dimensions: [cellular, synaptic, microcircuit, brain-region]
-related: [purkinje-cell, parallel-fiber, climbing-fiber, cerebellar-ltd, rebound-potentiation, gap-junction-electrical-synapse, pv-interneurons, cerebellum]
+related: [purkinje-cell, parallel-fiber, climbing-fiber, cerebellar-ltd, rebound-potentiation, gap-junction-electrical-synapse, pv-interneurons, cerebellum, cerebellar-memory-transfer]
 prerequisites: [purkinje-cell, inhibitory-synapse, cerebellar-ltd]
-opens_questions: [Q-mli-01, Q-mli-02, Q-mli-03]
-source_articles: [2026-10-09-mli-cerebellar-interneuron-plasticity]
-key_sources: ["PMID:12062025", "PMID:38692278", "PMID:24600347", "PMID:26179122", "PMID:18855095"]
+opens_questions: [Q-mli-01, Q-mli-02, Q-mli-03, Q-pf-04]
+source_articles: [2026-10-09-mli-cerebellar-interneuron-plasticity, 2026-10-21-cerebellar-memory-transfer-task-difficulty]
+key_sources: ["PMID:12062025", "PMID:38692278", "PMID:24600347", "PMID:26179122", "PMID:18855095", "PMID:40595477"]
 ---
 
 # 分子层中间神经元 (Molecular Layer Interneuron, MLI)
@@ -101,17 +101,21 @@ He 等人（PMID:26179122）发现，RP 在空间上是**输入特异性**的：
 - [[cerebellum]] — MLI 是小脑皮层多层可塑性系统的重要组成
 - [[gap-junction-electrical-synapse]] — MLI1 通过 Cx36 电偶联实现同步放电
 - [[pv-interneurons]] — PV 是 MLI 的标志性标记蛋白之一；与新皮层 PV 中间神经元有功能类比
+- [[cerebellar-memory-transfer]] — MLI 逆向可塑性是"皮层内部代偿通道"，与"皮层→核团跨区域转移"是两个不同维度，二者互补而非竞争
 
 ## 未解问题
 
 - **Q-mli-01**（高优先级）：MLI 逆向可塑性（Jörntell & Ekerot 2002）是否在小鼠中以相同分子形式存在？光遗传学+钙成像能否在啮齿类中验证？
 - **Q-mli-02**（高优先级）：MLI2 自身的突触可塑性规则是什么？在 CF 信号下，MLI2→MLI1 突触是否也发生 LTP/LTD？这是否是去抑制门控的分子基础？
-- **Q-mli-03**（中优先级）：当 PF-PC LTD 和 RP 同时被阻断时（双重阻断），是否出现比单独阻断更严重的运动学习缺陷？这将决定两者的代偿关系。
+- **Q-mli-03**（中优先级，rev2补充视角）：当 PF-PC LTD 和 RP 同时被阻断时（双重阻断），是否出现比单独阻断更严重的运动学习缺陷？这将决定两者的代偿关系。2026-10-21新增视角（Bae 2025）：双重阻断实验的结果可能还需要按任务难度分层解读——若任务足够"容易"，即使双重阻断皮层内部通道，核团独立学习仍可能足以支撑表现，因此需要与核团失活联合设计才能真正区分"皮层内代偿"与"皮层外转移"两种解释。
+- **Q-pf-04**（关联，中优先级）：皮层内部代偿通道（MLI逆向可塑性、反弹增强）与跨区域转移的相对贡献如何随任务难度变化？见 [[cerebellar-memory-transfer]]。
 
 ## 修订历史
 
 - 2026-10-09 · 创建 · 基于《误差的双重利用：分子层中间神经元如何在浦肯野细胞的阴影里构建第二条学习通道》（文章 #169）· 初始置信度：高（MLI1/MLI2 亚型有高质量 2024 证据；RP 机制有转基因因果证据）
+- 2026-10-21 · 修订 rev1→rev2 · 基于《记忆搬家的经济学：任务难度如何决定运动学习记忆留在小脑皮层还是搬进深部小脑核》（文章 #189）· 新增：连接 cerebellar-memory-transfer；Q-mli-03 补充任务难度维度的实验设计视角；新增key_sources：PMID:40595477
 
 ## 来源文章
 
 - [[2026-10-09-mli-cerebellar-interneuron-plasticity]]
+- [[2026-10-21-cerebellar-memory-transfer-task-difficulty]]
