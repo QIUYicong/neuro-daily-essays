@@ -1,0 +1,40 @@
+# 诊断日志 · 2026-07-03（dup4，真实 UTC+8 日期）· 独立复核，情况与 dup1/dup2/dup3（约1-3小时前）及 Issue #1（约1小时前）相比无实质变化，不重复通知
+
+**执行时间（UTC+8，容器时钟核对）**：`date -u` = 2026-07-02 20:01:25 UTC → UTC+8 = 2026-07-03 04:01:25。距上一次诊断（dup3，UTC+8 2026-07-03 02:02:08）约 2 小时，距 GitHub Issue #1 创建（UTC+8 2026-07-03 03:04:19）约 57 分钟，与已知"远高于每日一次"的异常调度模式一致（本次触发间隔较此前略长，但仍非预期的每日一次 09:00 Asia/Shanghai）。
+
+**本次为新会话（调度触发的例行任务），与既往全部诊断会话均无记忆关联，独立复核后得出与其一致的结论**
+
+---
+
+## 独立复核结果（与 dup3 / Issue #1 逐项比对）
+
+1. 起初 `git checkout main` 落在陈旧的本地 `main` 引用（`a11697e`，对应 2026-06-29），并非 `origin/main` 真实 HEAD——已用 `git checkout -B main origin/main` 强制对齐到 `origin/main`（`d40bfdb`），避免复核时误用过期本地缓存。此现象再次印证 Issue #1 中"本地/远程历史分叉的浅克隆假象"描述。
+2. `state/topic_ledger.json`：`total_articles`=180，`entries` 长度=180；重复 `article_number`：`{178:2, 177:2, 143:2, 107:2, 106:2, 105:3, 104:3, 66:2, 65:2, 179:2}`（10组）；`article_number: null` 共 11 条。与 dup1/dup2/dup3 完全一致，未见修复。
+3. `articles/*.md` 实际文件数 = 175（未变），最新文件名仍为 `2026-10-21-cerebellar-memory-transfer-task-difficulty.md`（虚构未来日期序列末端，未变）。
+4. **GitHub MCP 核实**：`list_issues`（state=OPEN）返回 1 条——即 Issue #1《[需要人工决定] main 分支历史分叉 + 知识库日期漂移已延伸至 2026-10-21，例程陷入每日多次空转》，创建于约 57 分钟前，仓库所有者尚无评论、无裁决；`list_pull_requests`（state=all）返回 0 条；`list_branches` 显示 `claude/funny-einstein-*` 与 `claude/exciting-fermi-*` 前缀的一次性会话分支已超过 100 个，规模持续扩大（Issue #1 提及"211 个远程分支"为此前会话的口径，本次未重新精确计数，但确认远超正常水平）。
+5. 真实 UTC+8 日期 2026-07-03 对应的 `articles/2026-07-03-synaptic-scaling-homeostatic-plasticity.md` 仍是此前"知识库日期脱钩"序列遗留文件，非今日新写。按 ROUTINE.md"不要反复生成同一天文章"及 Issue #1 的"建议暂停自动写作新文章，避免继续在已损坏的时间线上叠加内容"，本次不生成新文章、不做 wiki 固结。
+
+## 本次处理
+
+- 未生成新文章、未修改任何既有 `articles/notes/sources/wiki/state` 文件（append-only 不变量保持）。
+- 未采用"知识库日期与系统日期脱钩"逻辑。
+- 未单方面处置虚构日期文章、ledger 编号损坏、陈旧分支或 `main` 分叉历史——这些需要仓库所有者在 Issue #1 中显式裁决，本会话无权限也无必要单方面执行破坏性操作（如 force-push、批量删除文章、重写 ledger）。
+- **未发送新 PushNotification**：Issue #1（约1小时前创建）与此前 dup2 的周期性提醒（约2小时前）均已完整传达同一问题；本次复核确认无任何新事实、无仓库所有者响应、无新 Issue/PR/评论——不构成需要再次打扰仓库所有者的新信息。延续 dup3 起established 的"避免通知疲劳"惯例：只有当状态发生实质变化（例如仓库所有者在 Issue #1 下裁决、或调度频率恢复正常、或损坏被修复）时才应主动通知。
+
+## 待仓库所有者裁决的事项（累计，未变化，详见 GitHub Issue #1）
+
+1. **调度触发器配置**：请在 Claude Code Web 平台侧核实并降低该 routine 的触发频率——已持续多日以远高于"每日一次"的频率触发。
+2. **约112篇虚构未来日期文章**（`2026-07-03` 至 `2026-10-21`）的处置方式：保留、重新标注为真实生成日期、或其他方案。内容本身真实可溯源（有 PubMed/PMC 来源），问题仅在日期标注。
+3. 是否正式否决"知识库日期与系统日期脱钩"机制，并在 `ROUTINE.md` 中显式写明"日期必须取真实系统 UTC+8 时间，禁止沿用任何历史日志中的知识库日期序列"？
+4. 修复 `state/topic_ledger.json` 的编号碰撞（10 组重复）与 11 条 null 编号，及 `total_articles`（180）与实际文件数（175）不一致的问题。
+5. 清理 GitHub 上大量未合并的一次性会话分支（`claude/funny-einstein-*`、`claude/exciting-fermi-*` 等，已超过 100 个）。
+6. `main` 本地/远程历史分叉现象（浅克隆下反复出现"本地 main 落后于 origin/main"的假象）建议排查触发器每次是否都正确基于最新 `origin/main` 起始。
+
+---
+
+## Git 操作
+
+- 分支：`main`
+- 本次提交内容：仅此诊断日志（append-only，未修改任何既有文件）
+- 无文章、无笔记、无来源、无 wiki、无 state 变更
+- Push：`origin main`
