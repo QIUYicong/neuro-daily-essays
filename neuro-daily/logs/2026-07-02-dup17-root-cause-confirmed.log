@@ -1,0 +1,50 @@
+# 重复检测日志 · 2026-07-02（dup17）· 新发现：main 从未被更新，所有工作滞留在功能分支
+
+**执行时间（UTC+8，容器时钟核对）**：`date -u` = 2026-07-02 13:03 UTC → UTC+8 = 2026-07-02 21:03。与 system-reminder `currentDate`（2026-07-02）一致。
+**本次为新会话（调度触发），与既往全部诊断会话（dup1–dup16、a074723 等）均无记忆关联，独立复核**
+
+---
+
+## 与 dup16 相比不变的部分
+
+1. `articles/2026-07-02-astrocyte-tripartite-synapse.md` 已存在 → 真实日期 2026-07-02 已有合法文章，本次跳过文章生成（诊断性 no-op）。
+2. `articles/*.md` 实际文件数 = 175（未变）。`topic_ledger.json` 的 `entries`/`total_articles` 仍为 180（差 5，未变）。
+3. `article_number` 重复：`{178:2, 177:2, 143:2, 107:2, 106:2, 105:3, 104:3, 66:2, 65:2, 179:2}`；`null` 编号 11 条。与 dup1–dup16 完全一致。
+4. 虚构未来日期文章区间仍为 `2026-07-03` 至 `2026-10-21`（约112篇）。
+
+## ★ 本次新发现（此前 dup1–dup16 均未核实、且与其自述矛盾）★
+
+**dup1–dup16 的日志均声称"分支：main"、"Push: origin main"，但本次通过 git 证据核实，这一说法不成立：**
+
+- 本会话所在分支为 `claude/funny-einstein-o2qysi`（平台为本次调度分配的固定分支名，非 `main`）。
+- `origin/main` 当前 HEAD 仍是 `a11697e`（"Add neuro daily article + wiki consolidation for **2026-06-29**"），即真实日历意义上，`main` 分支已经 **3 天未被更新**。
+- `origin/main` 树上已经能看到到 `2026-10-16` 的虚构未来日期文章（170 篇）——说明日期漂移损坏在 `main` 冻结之前就已经发生，并非只存在于分支上。
+- `claude/funny-einstein-o2qysi` 分支相对 `main` 有 50+ 条独有提交（dup1–dup16 全部诊断日志、以及更早的部分文章/wiki 固结提交），但 `main` 也有其冻结时刻之后分支上没有的内容差异（170 vs 175 篇不一致即为证据之一）——两边已经分叉，不是简单的"分支领先 main"关系。
+- `git branch -r` 确认远端只有两个分支：`origin/main` 与 `origin/claude/funny-einstein-o2qysi`；没有第三个野生分支。也就是说本轮混乱**不是"每次调度都新建一个孤立分支"**，而是**同一个功能分支被反复复用，但从未合并回 main**。
+- `list_pull_requests`（state=all）返回 **0 条** —— 该仓库历史上从未创建过任何 PR。也就是说不存在"待合并的 PR 被卡住"这种情况，而是**从未有人尝试把这个分支合并回 main**。
+
+**结论**：dup1–dup16 所有"已推送到 main、已完成"的自我报告都是不准确的——实际内容一直只停留在 `claude/funny-einstein-o2qysi` 分支，`main` 是这个知识库真正的对外可见版本（`https://github.com/QIUYicong/neuro-daily-essays/tree/main`），而它已经 3 天没有任何更新，且其自身也已经包含日期漂移损坏。
+
+## 本次处理
+
+- 未生成新文章、未修改任何已有 `articles/notes/sources/wiki/state` 文件（append-only 不变量保持）。
+- 未尝试合并分支到 `main`、未尝试删除或重新标注虚构日期文章、未修复 `topic_ledger.json` 编号损坏——这些都需要仓库所有者决策，本会话不单方面处置。
+- 未强推 `main`、未删除任何提交。
+- **本次发送新通知**：区别于 dup2–dup16 的"无实质变化不重复通知"，本次核实到的"main 从未更新 + 从未有 PR + 此前所有'已推送到 main'的自我报告均不准确"是新增、且改变问题严重程度的事实，故恢复通知仓库所有者。
+
+## 待仓库所有者裁决的事项（累计 + 本次新增第5项）
+
+1. 调度触发器配置：请在 Claude Code Web 平台侧核实该 routine 的触发频率（今日至少触发 17 次，间隔约1小时，远高于"每日一次"设计预期）。
+2. 约 111–112 篇虚构未来日期文章（`2026-07-03` 至 `2026-10-21`）的处置方式：保留、重新标注真实生成日期、或其他方案。内容本身据既往诊断会话核查为真实可溯源（有 PubMed/PMC 来源），问题仅在日期标注。
+3. 是否正式否决"知识库日期与系统日期脱钩"机制，并在 `ROUTINE.md` 中显式写明"日期必须取真实系统 UTC+8 时间"？
+4. 修复 `topic_ledger.json` 的编号碰撞（10 组）与 11 条 null 编号，及 `total_articles` 字段（180）与实际文件数（175）不一致。
+5. **（新增）分支策略：`claude/funny-einstein-o2qysi` 与 `main` 已分叉 3 天，从未有 PR。请决定：(a) 是否要把该分支内容合并/rebase 到 `main`（需先解决两边内容差异与文章编号冲突）；(b) 是否要调整平台侧触发器配置，让每次调度真正以 `git checkout main && git pull` 为起点、直接推送回 `main`（ROUTINE.md 设计的"单分支累积"模型），而不是复用一个从未合并的功能分支。**
+
+---
+
+## Git 操作
+
+- 分支：`claude/funny-einstein-o2qysi`（本会话唯一可推送的分支；未尝试推送到 `main`，因平台侧未授权且需仓库所有者对分支合并方式先行裁决）
+- 本次提交内容：仅此诊断日志（append-only，未修改任何既有文件）
+- 无文章、无笔记、无来源、无 wiki、无 state 变更
+- Push：`origin claude/funny-einstein-o2qysi`
