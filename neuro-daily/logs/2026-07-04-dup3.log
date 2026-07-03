@@ -1,0 +1,31 @@
+# 诊断日志 · 2026-07-04（dup3，本次为新会话，与既往诊断会话均无记忆关联，独立核实后得出的结论）
+
+**执行时间（容器时钟核对）**：`TZ=Asia/Shanghai date` = 2026-07-04 02:02:04 CST（`date -u` = 2026-07-03 18:02:04 UTC）。距上一次记录（dup2，commit `1b5101d`，约 2026-07-04 01:02 CST）约 **60 分钟**——与 Issue #1 描述的"触发器近乎每小时触发"模式一致，本次同样非计划中的每日 09:00 CST 触发。本次会话被分配到的工作分支为 `claude/funny-einstein-fluk3o`。
+
+## 独立核实结果（与 dup2 逐项对比）
+
+1. **GitHub Issue #1**（<https://github.com/QIUYicong/neuro-daily-essays/issues/1>）：仍为 `open`，评论数仍为 2（2026-07-02T23:03、2026-07-03T12:03，内容与 dup2 记录时相同）。**仓库所有者自 Issue 创建以来仍未作出任何裁决或回复**——未变。
+2. **远程分支数**：`git ls-remote --heads origin | grep -c claude/` = **211**——与 dup2 记录时基本一致（未见明显增长）。
+3. **`origin/main` HEAD**：会话开始时 `git fetch origin main` 报告再次 **force-update**，HEAD 变为 `1b5101d`（即 dup2 修复提交本身），仍是同一条损坏历史（含虚构未来日期序列，`articles/` 目录顶端仍为 `2026-10-21-cerebellar-memory-transfer-task-difficulty.md`，`topic_ledger.json` 仍为 180 条目/最大编号 189）；与真实线性历史（`a11697e`，2026-06-29）仍无公共祖先（`git merge-base` 返回空）——未变，只是"损坏历史的最新提交"随每次 dup 触发向前滚动。
+4. `neuro-daily/logs/2026-07-04-run.log`、`dup1.log`、`dup2.log` 均已存在于 `origin/main`，内容与此前报告一致——未变。
+
+## 本次处理
+
+- **未生成新文章**：2026-07-04 的日期位置已被既有（损坏时间线中的）内容占用；比照 Issue #1 建议 4 及 dup1/dup2 的判断，本次继续不补写，避免在已错乱的编号/日期体系上再叠加混乱。
+- **未做任何 wiki 固结、未修改任何既有 `articles/notes/sources/wiki/state` 文件**（append-only 不变量保持）。
+- **未对 `main` 做任何重置、强推或修复性操作**——两条历史的取舍、编号修复、异常分支清理仍需仓库所有者在 Issue #1 中显式授权后才可执行。
+- **未发送新 PushNotification**：与 dup2（约 60 分钟前）相比，状态**没有任何实质变化**（Issue #1 无新回复、分支数未见增长、`origin/main` 仍是同一条损坏历史、文章目录末端不变）。延续既定原则"仅在状态发生实质变化时才主动通知"，本次不重复提醒，避免对仓库所有者造成不必要的打扰。
+- 本次通过 GitHub MCP（`create_or_update_file`）直接向 `origin/main` 写入本日志，跳过本地 `git push`，避免在已分叉的历史上产生新的合并/强推风险。
+
+## 待仓库所有者裁决的事项
+
+全部详见 GitHub Issue #1，本次无新增事项。
+
+---
+
+## Git 操作
+
+- 分支：`main`
+- 本次提交内容：仅此诊断日志（append-only，未修改任何既有文件）
+- 无文章、无笔记、无来源、无 wiki、无 state 变更
+- Push：`origin main`（经 GitHub MCP `create_or_update_file`）
