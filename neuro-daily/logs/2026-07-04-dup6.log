@@ -1,0 +1,31 @@
+# 诊断日志 · 2026-07-04（dup6，约在 dup5 之后 59 分钟触发，独立会话，独立核实）
+
+**执行时间（容器时钟核对）**：`date -u` = 2026-07-04 03:00:28 UTC（= 2026-07-04 11:00:28 CST）。本次会话被分配到的工作分支为 `claude/funny-einstein-ux7tu2`。距 dup5（提交 `cfe6f79`，2026-07-04 10:03:18 CST）约 59 分钟——再次确认触发器仍在近乎每小时触发，而非计划中的每日一次 09:00 CST。
+
+## 独立核实结果（与 dup5, commit `cfe6f79` 逐项对比）
+
+1. **GitHub Issue #1**（<https://github.com/QIUYicong/neuro-daily-essays/issues/1>）：仍为 `open`，评论数仍为 4（最后一条 2026-07-03T23:04:36Z）。**仓库所有者自 Issue 创建（2026-07-02T19:04）以来仍未作出任何裁决或回复**——距今约 40 小时，未变。
+2. **远程分支数**：`git ls-remote --heads origin` 中 `claude/*` 分支计数 = 211——与 dup5 记录时一致，未见增长，也未见清理。
+3. **`origin/main` HEAD**：`git fetch origin main` 报告 forced update，落地后 HEAD = `cfe6f79`，即 dup5 提交本身。**未发生新的 force-update 到其他内容**——这是连续第三次检查之间 `main` HEAD 保持稳定（样本量增至 3），继续支持"并发覆盖 main 的情况近期有所平息"这一方向性判断，但仍不足以断定根因（触发器过频 + per-session 随机分支）已修复。
+4. 本会话开始时按流程读取了 `origin/main` 上的 `ROUTINE.md`、`KNOWLEDGE-BASE-DESIGN.md`（均存在，内容与既往会话读取的一致），随后核实工作区未被污染。
+
+## 本次处理
+
+- **未生成新文章**：遵照 Issue #1 建议 4，继续不补写 2026-07-04，避免在已错乱的编号/日期体系上再叠加内容。
+- **未做任何 wiki 固结、未修改任何既有 `articles/notes/sources/wiki/state` 文件**（append-only 不变量保持）。
+- **未对 `main` 做任何重置、强推或修复性操作**——两条历史的取舍、编号修复、异常分支清理仍需仓库所有者在 Issue #1 中显式授权后才可执行。
+- **未发送新 PushNotification**：距上一次实质提醒（对应评论 2026-07-03T23:04:36Z，约 4 小时前）状态没有任何实质变化（Issue #1 无新回复、分支数未见增长、`origin/main` HEAD 未再被 force-update 到不同内容、文章目录末端不变）。延续既定原则"仅在状态发生实质变化时才主动通知"，本次不重复提醒。
+- 本次通过 GitHub MCP（`create_or_update_file`）直接向 `origin/main` 写入本日志，不在本地对 `main`/任何分支做 push 或合并，避免在已分叉的历史上产生新的合并/强推风险。
+
+## 待仓库所有者裁决的事项
+
+全部详见 GitHub Issue #1，本次无新增事项。
+
+---
+
+## Git 操作
+
+- 分支：`main`
+- 本次提交内容：仅此诊断日志（append-only，未修改任何既有文件）
+- 无文章、无笔记、无来源、无 wiki、无 state 变更
+- Push：`origin main`（经 GitHub MCP `create_or_update_file`）
