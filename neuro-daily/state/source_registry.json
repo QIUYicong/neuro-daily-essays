@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-21",
+  "last_updated": "2026-07-07",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -17489,5 +17489,21 @@
     "new_additions": 4,
     "full_text_count": 2,
     "notes": "PMID:21482355/32866603/12062025/24600347/29858484/25279763 为既有wiki已引用的经典复用文献；新增4篇：PMID:40595477（Bae 2025, Nat Commun, PMC全文开放, 今日核心新证据）、PMID:24162651（Nguyen-Vu 2013, PMC全文可读）、PMID:12086647（Attwell 2002, 仅摘要）、PMID:16458438（Shutoh 2006, 仅摘要）"
+  },
+  "sources_2026-07-07-medial-septum-theta-pacemaker": {
+    "article": "#190 · 谁在给记忆打拍子：内侧隔核如何用起搏神经元合奏出海马θ振荡",
+    "date": "2026-07-07",
+    "pmids": [
+      "PMID:3185735",
+      "PMID:15456820",
+      "PMID:19553449",
+      "PMID:25982367",
+      "PMID:26961955",
+      "PMID:35926456",
+      "PMID:27174984"
+    ],
+    "new_additions": 6,
+    "full_text_count": 3,
+    "notes": "PMID:27174984为既有wiki已引用的经典复用文献（theta-oscillations.md）；新增6篇：PMID:15456820/19553449/26961955（PMC全文开放）、PMID:3185735/25982367/35926456（仅摘要）。全部PMID经NCBI E-utilities esearch/esummary直接核实真实性、标题、作者、期刊、年份。"
   }
 }

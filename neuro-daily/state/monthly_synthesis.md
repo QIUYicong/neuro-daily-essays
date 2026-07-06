@@ -2165,3 +2165,24 @@
 - 矛盾登记：0个（Bae 2025与既有证据线互补而非冲突，已在各页明确标注为非终局裁决）
 
 **层级**：synaptic × cellular × microcircuit × brain-region × behavior（延续小脑主题线：cerebellar-ltd(Oct 8)→MLI(Oct 9)→parallel-fiber(Oct 19)→今日的两级转移正规化原则，是该主题线在系统/计算层面的一次汇总与跃升，而非单纯的层级重复）
+
+---
+
+## 2026年7月（日期修复后）
+
+> **说明**：本知识库文章内部日期此前经历了一次日期漂移事件（Issue #1），从约2026-05-24持续推进至虚拟日期2026-10-21，而真实日历时间在此期间从2026-05-24前后走到2026-07-01前后。2026-07-07（真实日历日期）的会话决定恢复真实日期，详见 `wiki/CHANGELOG.md` 2026-07-07 条目。以下条目使用真实日历日期。
+
+### 2026-07-07（#190，日期修复后首篇）：谁在给记忆打拍子——内侧隔核如何用起搏神经元合奏出海马θ振荡
+
+**核心发现**：海马θ振荡的驱动源内侧隔核（MS-DBB）并非单一起搏细胞，而是三细胞分工系统：①PV+ GABA能神经元负责相位——通过类惠更斯同步机制（Kocsis 2022, PMID:35926456）相互耦合自发拉齐频率，分裂为两个反相位簇群（178°波谷/330°波峰，Borhegyi 2004, PMID:15456820），选择性投射至海马中间神经元实现去抑制（Freund & Antal 1988, PMID:3185735），放电领先海马场电位中位数79ms（Hangya 2009, PMID:19553449）；②VGluT2+谷氨酸能神经元负责频率——张力性兴奋与运动速度线性耦合（Fuhrmann 2015, PMID:25982367），光遗传学证实节律激活胞体可在6-10Hz范围内精确牵引θ频率（Robinson 2016, PMID:26961955）；③胆碱能神经元负责慢时间尺度编码/提取模式切换（复用本知识库[[septohippocampal-cholinergic]]页面已有内容）。REM睡眠期沉默GABA能神经元可消除θ并损害情境记忆（Boyce 2016, PMID:27174984，复用theta-oscillations.md已有引用），提供因果必要性证据。这套机制填补了本知识库两个已有页面（theta-oscillations、septohippocampal-cholinergic）明确标注但从未展开的空白。
+
+**知识地图贡献**：
+- 新建 medial-septum.md（systems/，established/high，rev1）：三细胞分工模型；惠更斯同步；反相位簇群；因果时序梯度；充分性/必要性双向因果证据；新增未解问题 Q-ms-01/02/03
+- theta-oscillations.md（rev5→rev6）：起搏器机制段落大幅扩展；新增 [[medial-septum]] 连接
+- septohippocampal-cholinergic.md（rev1→rev2）："真正的θ节奏发生器"表述具体化为指向新建专页
+- 新建图谱节点：medial-septum（+1节点；总346节点/2099边）
+- 图谱维护：订正 `_graph.json` 中2条过期悬空引用记录（orbitofrontal-cortex、endocannabinoid-system 早已建页但未同步标注 resolved）
+
+**层级**：cellular × synaptic × microcircuit × brain-region × cognition（从去抑制回路解剖学到网络同步涌现理论到因果时序/充分性/必要性三重实验证据，跨越5个分析层级）
+
+**文件命名说明**：本篇 notes/sources 因真实日期2026-07-07与既有虚拟日期文件（文章#75）撞期，采用"日期+slug"消歧命名，详见 wiki/CHANGELOG.md 说明。

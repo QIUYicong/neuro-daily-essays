@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-29
-updated: 2026-06-29
-revision_count: 5
+updated: 2026-07-07
+revision_count: 6
 dimensions: [whole-brain-network, brain-region, cellular, behavior, methods]
-related: [place-cells, grid-cells, hippocampal-circuit, ltp, btsp, sharp-wave-ripples, theta-phase-precession, memory-consolidation, rem-sleep, fear-extinction, emotional-memory-depotentiation, path-integration, entorhinal-cortex, theta-gamma-coupling, working-memory, gamma-oscillations, septohippocampal-cholinergic]
+related: [place-cells, grid-cells, hippocampal-circuit, ltp, btsp, sharp-wave-ripples, theta-phase-precession, memory-consolidation, rem-sleep, fear-extinction, emotional-memory-depotentiation, path-integration, entorhinal-cortex, theta-gamma-coupling, working-memory, gamma-oscillations, septohippocampal-cholinergic, medial-septum]
 prerequisites: [action-potential, hippocampal-circuit, place-cells]
 opens_questions: [Q-theta-primate, Q-theta-btsp-coordination, Q-theta-sufficiency-memory, Q-rem-01, Q-rem-03, Q-rem-05]
-source_articles: [2026-05-29-theta-oscillations-phase-coding, 2026-05-31-rem-sleep-emotional-memory, 2026-06-22-grid-cells-place-cells, 2026-07-21-theta-gamma-coupling-working-memory, 2026-06-29-acetylcholine-hippocampal-memory-gate]
-key_sources: ["PMID:23354386", "PMID:26135716", "PMID:37720546", "PMID:8353611", "PMID:28729826", "PMID:27174984", "PMID:19702380", "PMID:39721980"]
+source_articles: [2026-05-29-theta-oscillations-phase-coding, 2026-05-31-rem-sleep-emotional-memory, 2026-06-22-grid-cells-place-cells, 2026-07-21-theta-gamma-coupling-working-memory, 2026-06-29-acetylcholine-hippocampal-memory-gate, 2026-07-07-medial-septum-theta-pacemaker]
+key_sources: ["PMID:23354386", "PMID:26135716", "PMID:37720546", "PMID:8353611", "PMID:28729826", "PMID:27174984", "PMID:19702380", "PMID:39721980", "PMID:35926456", "PMID:19553449", "PMID:15456820", "PMID:25982367", "PMID:26961955", "PMID:3185735"]
 ---
 
 # θ振荡 (Theta Oscillations)
@@ -41,10 +41,11 @@ key_sources: ["PMID:23354386", "PMID:26135716", "PMID:37720546", "PMID:8353611",
 
 ### 1. 起搏器：内侧隔核–斜角带（MS-DBB）
 
-θ节律的主要驱动来自内侧隔核（Medial Septum, MS）和斜角带（Diagonal Band of Broca, DBB）：
+θ节律的主要驱动来自内侧隔核（Medial Septum, MS）和斜角带（Diagonal Band of Broca, DBB）——完整的三细胞分工机制与因果证据见专页[[medial-septum]]，此处仅概述：
 
-- **GABAergic 投射**：以θ频率节律性地抑制海马的PV+抑制性中间神经元 → 去抑制 → 锥体细胞θ节律性去极化 → 锥体细胞再受抑 → 循环振荡
-- **胆碱能（ACh）投射**：提供长效调制，影响海马整体兴奋性和θ振荡的稳定性
+- **GABAergic 投射（相位）**：PV+起搏神经元选择性投射至海马PV+抑制性中间神经元 → 节律性去抑制 → 锥体细胞θ节律性去极化 → 锥体细胞再受抑 → 循环振荡。这些起搏神经元并非同步放电的单一整体，而是通过局部轴突返侧支相互耦合，类似惠更斯摆钟的自发同步机制拉齐频率，并分裂为两个反相位（~178°/~330°）簇群（Kocsis 2022, PMID:35926456；Borhegyi 2004, PMID:15456820）。在体记录显示这些神经元放电领先海马场电位约79ms，形成清晰的因果时序梯度（Hangya 2009, PMID:19553449）。
+- **谷氨酸能投射（频率）**：VGluT2+神经元提供张力性兴奋，其活动强度与运动速度、θ频率线性耦合；光遗传学证实节律性激活这些神经元胞体足以在6–10 Hz范围内精确牵引θ频率（Fuhrmann 2015, PMID:25982367；Robinson 2016, PMID:26961955）。
+- **胆碱能（ACh）投射**：提供长效调制，影响海马整体兴奋性和θ振荡的稳定性，详见[[septohippocampal-cholinergic]]
 
 内嗅皮层和CA3的内在回路也参与，使θ不是单中心广播，而是**分布式共振网络**。
 
@@ -164,9 +165,11 @@ Hasselmo（2025，PMID:39721980）提出的 **SPEAR 模型**（Separate Phases o
 - 2026-07-21 · 修订 · 大幅扩充θ/γ嵌套机制节（Lisman-Idiart 1995容量分格 + Colgin 2009双通道路由，引入关键证据）；新增related: theta-gamma-coupling, working-memory, gamma-oscillations；source_articles增加2026-07-21 · 基于《海马的节律钟表》文章 #89
 - 2026-05-31 · 修订 · 整合REM睡眠θ内容：新增「REM睡眠θ：情绪记忆巩固的相位窗口」机制节（LA-VH θ相位差、Boyce 2016光遗传因果证据、清醒/REM θ功能对比表）；补充当前理解段落；关键证据表增加2行；连接增加rem-sleep/fear-extinction/emotional-memory-depotentiation；未解问题增加Q-rem-01/Q-rem-03/Q-rem-05 · 基于《REM睡眠与情绪记忆》文章
 - 2026-06-29 · 修订 rev5 · 基于《乙酰胆碱的双重使命》文章 · 新增「SPEAR 模型」机制节（θ相位编码/提取功能分离，双时间尺度 ACh/GABA 分工，Hasselmo 2025）；证据表新增1行（PMID:39721980）；连接新增 [[septohippocampal-cholinergic]]；related 新增 septohippocampal-cholinergic；key_sources 新增 PMID:39721980；source_articles 新增 2026-06-29
+- 2026-07-07 · 修订 rev6 · 基于《谁在给记忆打拍子：内侧隔核如何用起搏神经元合奏出海马θ振荡》· "起搏器"小节从概述扩展为GABA能（相位）/谷氨酸能（频率）/胆碱能（模式切换）三细胞分工模型，新增惠更斯同步机制、反相位簇群、79ms因果时序梯度等细节；新增 [[medial-septum]] 专页连接（related、prerequisites层面）；key_sources新增6个PMID；source_articles新增2026-07-07
 
 ## 来源文章
 
 - [[2026-05-29-theta-oscillations-phase-coding]]
 - [[2026-05-31-rem-sleep-emotional-memory]]
 - [[2026-06-29-acetylcholine-hippocampal-memory-gate]]
+- [[2026-07-07-medial-septum-theta-pacemaker]]

@@ -1058,5 +1058,13 @@
     "confidence": "high",
     "last_changed": "2026-10-19",
     "reason": "新建 rev1 · #179 · 平行纤维与小脑皮层计算架构：established（PF-LTD/LTP双向可塑性机制有Neuron高质量直接证据；Marr-Albus-Ito框架经50年验证）；confidence=high（解剖数据和LTD/LTP分子机制有多项独立复制；Xie 2023稀疏编码挑战为计算理论层面，不影响基础机制置信度）"
+  },
+  {
+    "slug": "medial-septum",
+    "page": "wiki/systems/medial-septum.md",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-07-07",
+    "reason": "新建 rev1 · #190 · MS-DBB三细胞θ起搏机制：established（去抑制回路解剖基础始于1988年Freund&Antal，因果时序/充分性/必要性证据均有独立直接实验支持）；confidence=high（Hangya 2009因果时序、Robinson 2016充分性、Boyce 2016必要性三条独立证据线相互印证；主要限制是全部证据来自啮齿类，Kocsis 2022惠更斯同步模型为较新颖理论，需更多独立复现）"
   }
 ]

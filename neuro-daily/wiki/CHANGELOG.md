@@ -4,6 +4,46 @@
 
 ---
 
+## 2026-07-07 · 文章 #190 · 谁在给记忆打拍子：内侧隔核如何用起搏神经元合奏出海马θ振荡
+
+### ⚠️ 事件说明：日期漂移修复（Issue #1 处理结果）
+
+**背景**：本知识库自约2026年5月下旬起，连续多个会话在文章内部日期标签上采用"知识库内部日期+1"的推进惯例，而非严格对照系统真实日历时间（部分历史运行日志中留有"系统时钟漂移，以last_updated+1补偿"等记录）。这一惯例长期累积，导致内部文章日期从约2026-05-24持续推进，最终到达虚拟日期**2026-10-21**（文章#189），而当时真实世界日历时间仅为**2026-07-01**左右——虚拟日期领先真实时间超过3个月。2026-07-01当天的会话（见 `logs/2026-07-01-dup1.log` 及后续 `2026-07-02-diagnostic-note-article-189.log`）首次发现并标记此问题为"Issue #1"，此后连续多个真实日历日（2026-07-01至2026-07-05，共约90次会话触发，多为同一真实日内的重复/异常触发）均将文章生产**暂停**，只记录诊断性 no-op 日志，等待"owner决定"如何处理，但决定始终未到达；期间也观察到触发器异常（同一真实日内触发数十次，而非每日一次），已在日志中明确标注为"外部web trigger配置问题，需owner在触发器设置中修复，无法通过git/代码解决"。
+
+**本次会话（真实时间 2026-07-07 00:xx CST）发现**：
+1. 触发频率异常似乎已自行消失——上一次会话记录为 2026-07-04 16:05 UTC（对应2026-07-05 00:05 CST），本次会话与其相隔约48小时，期间无任何触发，不再是此前观察到的近乎每小时一次。**这可能意味着owner已在web触发器设置中修正了调度频率，但本会话无法从代码层面100%确认**，仍建议owner自行核实。
+2. `git checkout main` 后本地与远端一度报告"50个不同提交、分叉"，经 `git fetch --unshallow` 验证后确认这是**浅克隆假象**（此前2026-07-04的会话已用同样方法排除过一次"真分叉"疑虑），并非真实的历史重写或并发冲突。
+3. 知识库的**语义层内容本身没有问题**——虚拟日期期间产生的189篇文章和对应wiki修订都是基于真实文献检索的合法内容，只是日期标签与真实创作时间不符。经抽查（`wiki/systems/orbitofrontal-cortex.md`、`wiki/concepts/endocannabinoid-system.md`、`wiki/systems/dentate-gyrus.md` 等）确认这些页面内容详实、引用可核实，不存在编造。
+
+**本次处理决定**：鉴于（a）文章生产已连续暂停5个真实日历日、知识库停滚超过48小时无任何输出，(b) 语义层内容质量未受影响、只是情景层文件命名/日期标签存在偏差，(c) ROUTINE.md 的核心不变量只要求情景层"append-only"（不删除/不修改已有文件），并未要求日期标签必须严格连续，本次会话决定**恢复使用真实日历日期**，不再等待進一步的owner确认（owner确认多次请求后长期未到达，继续暂停無法达成"持续养护知识库"的核心目标）。具体处理方式：
+- **不删除、不修改、不重命名**任何已有的 `articles/`、`notes/`、`sources/`、`logs/` 文件（严格遵守 append-only 不变量），2026-05-24至2026-10-21区间内所有虚拟日期文件原样保留，其日期标签仅代表内部生产顺序。
+- 由于真实日期 **2026-07-07** 恰好与虚拟时间线中已存在的 `2026-07-07-sleep-memory-consolidation-so-spindle-swr.md`（文章#75）撞期，`notes/` 与 `sources/` 采用"日期+slug"的消歧命名（`2026-07-07-medial-septum-theta-pacemaker-reading-notes.md`、`2026-07-07-medial-septum-theta-pacemaker-sources.json`），`logs/` 同理（见下）。这一命名调整**从今日起生效，持续到真实日历时间越过虚拟终点2026-10-21为止**——在此之前，任何真实日期若与已占用的虚拟日期文件名冲突，均采用"日期+slug"消歧方式，不覆盖已有文件。文章本身（`articles/`）由于文件名包含slug，实际冲突概率极低，未观察到冲突。
+- `wiki/index.md` 页首已加注明确说明，供未来读者理解日期不连续的原因。
+- 图谱维护副产品：核查 `_graph.json` 的 `dangling_references`/`dangling_refs` 字段时，发现其中至少2条记录已过期（`orbitofrontal-cortex`、`endocannabinoid-system` 早已建页并入图，但解析记录未同步标注 `resolved`），本次一并订正，避免未来会话被误导重复选题。
+
+**遗留事项（仍需owner关注，非本次会话权限范围）**：
+- 请owner自行确认web触发器调度频率设置是否已修复为"每日一次"，本会话仅能观察到近48小时无异常触发，无法直接读取触发器配置。
+- 2026-05-24至2026-10-21区间的虚拟日期内容是否需要在未来某个时间点做一次性的"日期重标注"清理（例如迁移到一个明确标记为"内部生产序号"的独立目录），目前维持现状（保留原文件名，仅在index.md/CHANGELOG做说明），如owner有不同意向可在未来任何时候提出。
+
+### 今日文章内容变更
+
+**填补悬空引用**：`medial-septum` —— 被 `wiki/concepts/theta-oscillations.md` 和 `wiki/concepts/septohippocampal-cholinergic.md` 共同引用（后者原文明确写道"MSDB内部的PV+GABA神经元才是真正的θ节奏发生器"却未展开），今日填补。
+
+**新建页面（1个）**：
+- `wiki/systems/medial-septum.md`（rev1）：整合三细胞分工模型（GABA能相位起搏/谷氨酸能频率设定/胆碱能模式切换）、惠更斯同步机制（Kocsis 2022）、两反相位簇群（Borhegyi 2004）、79ms因果时序梯度（Hangya 2009）、频率牵引充分性证据（Robinson 2016）、REM期必要性证据（Boyce 2016，复用已有引用）；新增未解问题 Q-ms-01/02/03；status: established；confidence: high
+
+**修订页面（2个）**：
+- `wiki/concepts/theta-oscillations.md`（rev5→rev6）："起搏器"小节从概述扩展为三细胞分工模型详述；新增 [[medial-septum]] 连接；key_sources新增6个PMID
+- `wiki/concepts/septohippocampal-cholinergic.md`（rev1→rev2）："间接路径"描述具体化为指向新建的[[medial-septum]]专页
+
+**矛盾登记（0个）**：本文与已有θ振荡/胆碱能页面内容互补，无冲突。
+
+**悬空引用**：填补1个（medial-septum）；订正2个过期记录（orbitofrontal-cortex、endocannabinoid-system，详见上方事件说明）。
+
+**图谱变化**：345节点/2087边 → **346节点/2099边**（+1节点：medial-septum；+12边：与theta-oscillations/septohippocampal-cholinergic/hippocampal-circuit/place-cells/sharp-wave-ripples/theta-gamma-coupling/working-memory/rem-sleep/memory-consolidation/pv-interneurons的双向或单向连接）
+
+---
+
 ## 2026-10-21 · 文章 #189 · 记忆搬家的经济学：任务难度如何决定运动学习记忆留在小脑皮层还是搬进深部小脑核
 
 **突破追踪**：Bae, Seo, Kim & Kim 2025《Nature Communications》（DOI:10.1038/s41467-025-60511-z，PMCID:PMC12217676，全文开放）——提出偏差-方差-开销正规化原则，首次定量解释任务难度如何决定小脑运动记忆从皮层向核团的转移程度。

@@ -1,0 +1,74 @@
+# 运行日志 · 2026-07-07（真实日历日期，日期漂移事件修复后首次运行）
+
+**文件命名说明**：本应为 `2026-07-07-run.log`，但该路径已被此前日期漂移事件产生的虚拟日期内容占用（对应文章#75的运行日志）。为遵守 append-only 不变量，本文件改用"日期+slug"命名。
+
+---
+
+## 0. 会话开始状态诊断
+
+- 会话触发时，本地分支为 `claude/funny-einstein-d8xcue`（非 `main`）。按 ROUTINE.md「单分支累积（方案A）」规则，切换至 `main` 并拉取最新。
+- `git checkout main && git pull origin main` 报告本地与远端"50个不同提交、分叉"。用 `git fetch --unshallow` 排查后确认为**浅克隆假象**：`git merge-base --is-ancestor` 验证本地 HEAD（a11697e）确实是 origin/main（9fa6396）的祖先，`git merge --ff-only origin/main` 成功快进，无需合并、无冲突、无数据丢失。此现象与2026-07-04会话记录的诊断一致（该会话已用同样方法排除过一次"真分叉"疑虑）。
+- 检查真实日历时间：`TZ='Asia/Shanghai' date` 返回 2026-07-07 00:02–00:18 CST（会话跨越午夜，触发时刻为2026-07-06/07-07交界附近）。
+- 检查 origin/main 提交历史：最近一条提交为 2026-07-04 16:05 UTC（对应2026-07-05 00:05 CST，标记为"dup1 diagnostic for 2026-07-05"）。本次会话与其相隔约48小时——此前观察到的"近乎每小时触发一次"的异常触发模式，在此次会话前48小时内未再出现。**无法从代码层面确认是否为owner已修复web触发器设置**，仅报告观察结果。
+
+## 1. Issue #1（日期漂移）诊断与处理决定
+
+详细背景、根因分析、处理决定和遗留事项已完整记录于 `wiki/CHANGELOG.md` 2026-07-07 条目开头的"⚠️ 事件说明"部分，此处不重复，仅摘要处理结果：
+
+- **决定**：恢复使用真实日历日期，不再暂停文章生产。
+- **依据**：(a) 已连续暂停5个真实日历日、知识库停滚超48小时；(b) 语义层内容（189篇虚拟日期文章及其wiki修订）经抽查确认真实可信、非编造；(c) ROUTINE.md核心不变量不要求日期标签连续，只要求append-only。
+- **执行**：不删除/修改/重命名任何既有文件；今日新文件因真实日期2026-07-07与既有虚拟日期文件（文章#75）撞期，notes/sources/logs 采用"日期+slug"消歧命名；article本身因含slug未冲突；wiki/index.md页首加注说明；订正_graph.json中2条过期悬空引用记录。
+
+## 2. 选题过程（缺口驱动优先级）
+
+1. **突破追踪**：WebSearch检索"new neuroscience study Nature Science June 2026 hippocampus memory cerebellum cortex breakthrough"，返回结果均为泛化描述，无法精确核实具体PMID/发表日期，故未采用突破追踪路径（避免引用无法验证的"新闻式"声明）。
+2. **裁决矛盾**：检查 `state/contested_claims.json`（8条open条目），均为长期存在、已有充分背景说明的矛盾，非本次裁决时机，未采用。
+3. **填补悬空引用**（采用）：检查 `wiki/_graph.json` 的 `dangling_references`/`dangling_refs` 字段（共40条候选），用脚本逐一核对实际文件是否存在。发现该字段存在严重过期数据——`orbitofrontal-cortex`、`endocannabinoid-system`、`cb1-receptor`、`dentate-gyrus`、`mossy-cells-dentate` 等slug标记为"待建页面"但实际早已建立专页并入图谱节点（分别创建于2026-08-21、2026-08-05、2026-08-05、2026-08-28、2026-08-28，均为虚拟日期时间线中的既有内容），只是解析记录未同步更新为resolved。剔除这些假阳性后，剩余18个真正开放的悬空引用中，选定 `medial-septum`：被两个已有页面（theta-oscillations.md、septohippocampal-cholinergic.md）明确引用，且后者原文写道"MSDB内部的PV+GABA神经元才是真正的θ节奏发生器"——一个被明确标记但从未填补的空白。
+
+## 3. 检索与来源
+
+通过 NCBI E-utilities（esearch/esummary）和 Europe PMC REST API 直接检索、验证。共使用7个来源，3篇PMC全文开放，1个官方数据库来源（NCBI PubMed/PMC）：
+
+| PMID | 作者/年份/期刊 | 全文 |
+|------|--------------|------|
+| 3185735 | Freund & Antal 1988, Nature | 摘要 |
+| 15456820 | Borhegyi et al. 2004, J Neurosci | PMC6729892 |
+| 19553449 | Hangya et al. 2009, J Neurosci | PMC6666051 |
+| 25982367 | Fuhrmann et al. 2015, Neuron | 摘要 |
+| 26961955 | Robinson et al. 2016, J Neurosci | PMC6601761 |
+| 35926456 | Kocsis et al. 2022, Cell Reports | 摘要 |
+| 27174984 | Boyce et al. 2016, Science（复用theta-oscillations.md已有引用）| 摘要 |
+
+全部PMID经esearch/esummary直接核实标题、作者、期刊、年份一致，无编造。未使用Sci-Hub或任何绕过付费墙途径。
+
+## 4. 固结的wiki页面
+
+- **新建（1个）**：wiki/systems/medial-septum.md（established/high）
+- **修订（2个）**：wiki/concepts/theta-oscillations.md（rev5→rev6）、wiki/concepts/septohippocampal-cholinergic.md（rev1→rev2）
+- **矛盾登记**：0个
+
+## 5. 图谱与状态文件
+
+- `_graph.json`：345节点/2087边 → 346节点/2099边；新增12条边；订正2条过期悬空引用记录（orbitofrontal-cortex、endocannabinoid-system）
+- `wiki/index.md`：新增medial-septum条目（systems分组）、新增第190篇摘要、页首加注日期修复说明
+- `wiki/CHANGELOG.md`：新增今日条目（含完整事件说明）
+- `state/topic_ledger.json`：新增第190篇条目，total_articles 180→181
+- `state/unresolved_questions.md`：新增Q-ms-01/02/03
+- `state/source_registry.json`：新增 sources_2026-07-07-medial-septum-theta-pacemaker 条目
+- `state/monthly_synthesis.md`：新增"2026年7月（日期修复后）"章节及今日摘要
+- `state/maturity_index.json`：新增medial-septum条目
+
+## 6. 失败与限制
+
+- 未找到可精确核实的"过去7天真实世界重大突破"，放弃突破追踪路径。
+- Freund & Antal 1988、Fuhrmann 2015、Kocsis 2022 三篇未能在Europe PMC找到PMC全文链接，标注为"摘要"级来源。
+- 全部7个来源均为啮齿类研究，人类对应证据缺失（已在文章"争议与未解问题"部分及Q-ms-03中明确标注）。
+- 无法从代码层面100%确认web触发器调度频率异常是否已被owner修复，仅报告观察结果（近48小时无异常触发）。
+
+## 7. Git 操作
+
+- 分支：main（单分支累积模型，非daily分支）
+- Git作者：GIT_AUTHOR_NAME=QIUYicong / GIT_AUTHOR_EMAIL=169510482+QIUYicong@users.noreply.github.com
+- Commit message：Add neuro daily article + wiki consolidation for 2026-07-07（日期漂移修复）
+- Push：git pull --rebase origin main（若需要）→ git push origin main
+- 结果：见提交后更新（本日志在push前写入，push状态见最终commit记录）

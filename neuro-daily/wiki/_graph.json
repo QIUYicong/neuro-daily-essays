@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-10-21",
-  "node_count": 339,
-  "edge_count": 2049,
+  "updated": "2026-07-07",
+  "node_count": 346,
+  "edge_count": 2099,
   "edge_types": [
     "is-a",
     "part-of",
@@ -3155,6 +3155,15 @@
       "status": "emerging",
       "confidence": "medium",
       "page": "wiki/concepts/cerebellar-memory-transfer.md"
+    },
+    {
+      "id": "medial-septum",
+      "title": "内侧隔核–斜角带",
+      "domain": "systems",
+      "type": "region",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/systems/medial-septum.md"
     }
   ],
   "edges": [
@@ -14870,6 +14879,66 @@
       "to": "forward-model",
       "type": "supports",
       "note": "转移完成后核团独立支撑前向预测行为"
+    },
+    {
+      "from": "medial-septum",
+      "to": "theta-oscillations",
+      "type": "mechanism-of"
+    },
+    {
+      "from": "theta-oscillations",
+      "to": "medial-septum",
+      "type": "related"
+    },
+    {
+      "from": "medial-septum",
+      "to": "septohippocampal-cholinergic",
+      "type": "related"
+    },
+    {
+      "from": "septohippocampal-cholinergic",
+      "to": "medial-septum",
+      "type": "related"
+    },
+    {
+      "from": "medial-septum",
+      "to": "hippocampal-circuit",
+      "type": "regulates"
+    },
+    {
+      "from": "medial-septum",
+      "to": "place-cells",
+      "type": "supports"
+    },
+    {
+      "from": "medial-septum",
+      "to": "sharp-wave-ripples",
+      "type": "regulates"
+    },
+    {
+      "from": "medial-septum",
+      "to": "theta-gamma-coupling",
+      "type": "supports"
+    },
+    {
+      "from": "medial-septum",
+      "to": "working-memory",
+      "type": "supports"
+    },
+    {
+      "from": "medial-septum",
+      "to": "rem-sleep",
+      "type": "regulates"
+    },
+    {
+      "from": "medial-septum",
+      "to": "memory-consolidation",
+      "type": "supports"
+    },
+    {
+      "from": "medial-septum",
+      "to": "pv-interneurons",
+      "type": "related"
     }
   ],
   "dangling_references": [
@@ -14992,7 +15061,8 @@
       "referenced_by": [
         "theta-oscillations"
       ],
-      "note": "内侧隔核（MS-DBB），θ振荡的主要起搏器；胆碱能+GABAergic投射；待建页面"
+      "note": "内侧隔核（MS-DBB），θ振荡的主要起搏器；胆碱能+GABAergic投射；待建页面；已于2026-07-07创建 wiki/systems/medial-septum.md 页面，填补 theta-oscillations 引用",
+      "resolved": "2026-07-07"
     },
     {
       "slug": "bdnf-trkb",
@@ -15180,7 +15250,8 @@
         "habitual-behavior",
         "habit-vs-goal-directed"
       ],
-      "note": "大麻素信号系统专页；CB1受体的逆行突触抑制；OFC→DLS CB1门控习惯形成；2-AG/AEA合成/降解通路；待建页面"
+      "note": "大麻素信号系统专页；CB1受体的逆行突触抑制；OFC→DLS CB1门控习惯形成；2-AG/AEA合成/降解通路；待建页面；核查发现该页面早已存在（wiki/concepts/endocannabinoid-system.md（created 2026-08-05，此前未同步标注 resolved）），本次修正登记状态",
+      "resolved": "2026-07-07 (bookkeeping correction)"
     },
     {
       "slug": "orbitofrontal-cortex",
@@ -15189,7 +15260,8 @@
         "habit-vs-goal-directed",
         "addiction"
       ],
-      "note": "眶额叶皮层专页；Gremel 2016 CB1门控的来源区域；OFC在结果价值评估中的作用；OFC异常与OCD/成瘾相关；待建页面"
+      "note": "眶额叶皮层专页；Gremel 2016 CB1门控的来源区域；OFC在结果价值评估中的作用；OFC异常与OCD/成瘾相关；待建页面；核查发现该页面早已存在（wiki/systems/orbitofrontal-cortex.md（created 2026-08-21，此前未同步标注 resolved）），本次修正登记状态",
+      "resolved": "2026-07-07 (bookkeeping correction)"
     }
   ]
 }

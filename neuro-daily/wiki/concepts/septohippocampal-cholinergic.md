@@ -6,13 +6,13 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-29
-updated: 2026-06-29
-revision_count: 1
+updated: 2026-07-07
+revision_count: 2
 dimensions: [molecular, cellular, synaptic, microcircuit, brain-region, cognition]
 related: [acetylcholine-cortex, theta-oscillations, sharp-wave-ripples, memory-consolidation, ltp, pattern-completion, hippocampal-circuit, medial-septum, working-memory]
 prerequisites: [hippocampal-circuit, synaptic-transmission, theta-oscillations]
 opens_questions: [Q-ach-encoding-01, Q-ach-encoding-02, Q-ach-encoding-03]
-source_articles: [2026-06-29-acetylcholine-hippocampal-memory-gate]
+source_articles: [2026-06-29-acetylcholine-hippocampal-memory-gate, 2026-07-07-medial-septum-theta-pacemaker]
 key_sources: ["PMID:39721980", "PMID:14747523", "PMID:17964734", "PMID:35453495", "PMID:33833054", "PMID:36866246", "PMID:9034856"]
 ---
 
@@ -50,7 +50,7 @@ key_sources: ["PMID:39721980", "PMID:14747523", "PMID:17964734", "PMID:35453495"
 
 **双路径模型**（Gu & Yakel 2022, PMID:35453495）：
 - **直接路径**：MSDB 胆碱能 → 海马 M1/α7 受体
-- **间接路径**：MSDB 胆碱能调控 MSDB 内部 PV+GABA 神经元（真正的 θ 节奏发生器）
+- **间接路径**：MSDB 胆碱能调控 MSDB 内部 PV+GABA 神经元（θ节律相位的实际发生器，完整的三细胞分工机制、惠更斯同步模型、因果时序与充分性/必要性证据见专页[[medial-septum]]）
 
 ### 受体类型特异性（2020年 KO 实验确认）
 
@@ -114,7 +114,9 @@ $$\text{ACh} \to \text{M1 mAChR} \to \text{G}_q/\text{G}_{11} \to \text{PLC} \to
 ## 修订历史
 
 - 2026-06-29 · 创建 · 基于《乙酰胆碱的双重使命》（文章#182）· 整合 Hasselmo 2025 SPEAR 模型、Rogers & Kesner 2004 双重解离、Kremin & Hasselmo 2007 层选择性、Zhang et al. 2021 光遗传学、Gu & Yakel 2022 受体特异性综述 · 初始置信度：高
+- 2026-07-07 · 修订 · 基于《谁在给记忆打拍子：内侧隔核如何用起搏神经元合奏出海马θ振荡》· "双路径模型"中"间接路径"描述由"真正的θ节奏发生器"具体化为指向新建的[[medial-septum]]专页（三细胞分工模型、惠更斯同步、因果时序梯度）；revision_count: 1→2
 
 ## 来源文章
 
 - [[2026-06-29-acetylcholine-hippocampal-memory-gate]]
+- [[2026-07-07-medial-septum-theta-pacemaker]]

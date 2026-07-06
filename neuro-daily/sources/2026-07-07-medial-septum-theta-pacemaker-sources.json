@@ -1,0 +1,89 @@
+{
+  "article": "#190 · 谁在给记忆打拍子：内侧隔核如何用起搏神经元合奏出海马θ振荡",
+  "date": "2026-07-07",
+  "filename_note": "notes/sources/logs 使用 slug 后缀命名，因日期 2026-07-07 已被此前日期漂移事件产生的虚拟日期内容（文章#75）占用，详见 wiki/CHANGELOG.md 今日条目",
+  "sources": [
+    {
+      "id": "PMID:3185735",
+      "type": "original_research",
+      "authors": "Freund TF, Antal M",
+      "title": "GABA-containing neurons in the septum control inhibitory interneurons in the hippocampus",
+      "journal": "Nature",
+      "year": 1988,
+      "full_text": false,
+      "note": "经典解剖学论文，仅摘要级信息；确立GABA能隔-海马投射选择性靶向中间神经元的去抑制回路逻辑"
+    },
+    {
+      "id": "PMID:15456820",
+      "type": "original_research",
+      "authors": "Borhegyi Z, Varga V, Szilagyi N, Fabo D, Freund TF",
+      "title": "Phase segregation of medial septal GABAergic neurons during hippocampal theta activity",
+      "journal": "Journal of Neuroscience",
+      "year": 2004,
+      "full_text": true,
+      "pmcid": "PMC6729892",
+      "note": "两反相位簇群（178°/330°）+ 返侧支同步机制"
+    },
+    {
+      "id": "PMID:19553449",
+      "type": "original_research",
+      "authors": "Hangya B, Borhegyi Z, Szilagyi N, Freund TF, Varga V",
+      "title": "GABAergic neurons of the medial septum lead the hippocampal network during theta activity",
+      "journal": "Journal of Neuroscience",
+      "year": 2009,
+      "full_text": true,
+      "pmcid": "PMC6666051",
+      "note": "PV+/HCN1+隔核神经元领先海马LFP 79ms（中位数）vs 海马中间神经元47ms；Z-shift圆形统计法"
+    },
+    {
+      "id": "PMID:25982367",
+      "type": "original_research",
+      "authors": "Fuhrmann F, Justus D, Sosulina L, et al.",
+      "title": "Locomotion, Theta Oscillations, and the Speed-Correlated Firing of Hippocampal Neurons Are Controlled by a Medial Septal Glutamatergic Circuit",
+      "journal": "Neuron",
+      "year": 2015,
+      "full_text": false,
+      "note": "谷氨酸能MS-DBB神经元活动先于运动起始，决定运动速度-θ频率耦合"
+    },
+    {
+      "id": "PMID:26961955",
+      "type": "original_research",
+      "authors": "Robinson J, Manseau F, Ducharme G, et al.",
+      "title": "Optogenetic Activation of Septal Glutamatergic Neurons Drive Hippocampal Theta Rhythms",
+      "journal": "Journal of Neuroscience",
+      "year": 2016,
+      "full_text": true,
+      "pmcid": "PMC6601761",
+      "note": "ChETA光遗传学，6-10Hz线性频率牵引，仅刺激胞体有效（非轴突末梢）"
+    },
+    {
+      "id": "PMID:35926456",
+      "type": "original_research",
+      "authors": "Kocsis B, et al.",
+      "title": "Huygens synchronization of medial septal pacemaker neurons generates hippocampal theta oscillation",
+      "journal": "Cell Reports",
+      "year": 2022,
+      "full_text": false,
+      "note": "惠更斯同步模型；光遗传学身份鉴定PV+GABA能起搏神经元；计算模型验证"
+    },
+    {
+      "id": "PMID:27174984",
+      "type": "original_research",
+      "authors": "Boyce R, Glasgow SD, Williams S, Adamantidis A",
+      "title": "Causal evidence for the role of REM sleep theta rhythm in contextual memory consolidation",
+      "journal": "Science",
+      "year": 2016,
+      "full_text": false,
+      "note": "本知识库theta-oscillations.md已引用；今日复用作为必要性因果证据锚点，未重新独立验证"
+    }
+  ],
+  "total_sources": 7,
+  "full_text_count": 3,
+  "abstract_only_count": 4,
+  "official_institution_sources": [
+    "NCBI PubMed E-utilities (esearch/esummary) — 用于验证全部7个PMID的真实性、标题、作者、期刊、年份",
+    "Europe PMC REST API — 用于核实开放全文可用性及PMCID"
+  ],
+  "no_scihub_or_paywall_bypass": true,
+  "no_fabricated_pmids": true
+}

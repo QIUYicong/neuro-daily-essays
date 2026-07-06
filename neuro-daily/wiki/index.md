@@ -5,7 +5,9 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-10-21（第189篇·记忆搬家的经济学：任务难度如何决定运动学习记忆留在小脑皮层还是搬进深部小脑核）· 主题页总数：**333**（新建1页：concepts/cerebellar-memory-transfer；修订4页：parallel-fiber rev2/cerebellar-ltd rev6/molecular-layer-interneuron rev2/deep-cerebellar-nuclei rev2；图谱345节点/2087边）
+> 最后更新：2026-07-07（第190篇·谁在给记忆打拍子：内侧隔核如何用起搏神经元合奏出海马θ振荡）· 主题页总数：**334**（新建1页：systems/medial-septum；修订2页：theta-oscillations rev6/septohippocampal-cholinergic rev2；图谱346节点/2099边）
+>
+> **重要说明（日期修复）**：本知识库此前经历过一次日期漂移事件——文章内部日期编号一度脱离真实日历时间，持续推进至虚拟日期"2026-10-21"，而真实世界时间当时仅为2026年7月初。从本条目（2026-07-07，第190篇）起，恢复使用真实日历日期。2026-05-24至2026-10-21区间内的所有既有文章/notes/sources/logs文件保留原样（append-only不变量，不做任何删除或改名），其日期标签仅代表内部生产顺序，不代表真实创作时间。完整说明见 `wiki/CHANGELOG.md` 2026-07-07 条目与对应 `logs/` 运行日志。
 
 ---
 
@@ -300,6 +302,7 @@
 - 🟢 [外侧膝状体（LGN）](systems/lateral-geniculate-nucleus.md) — 视网膜到V1的唯一皮层下中继站；六层结构（M/P/K通路）；受TRN注意门控（先4ms）+ CG反馈（M/P/K特异性）+ β振荡门控三重调控；注意效应量争议（1% vs 11%，见C-2026-09-15-01）**[NEW 2026-09-15]**
 - 🟢 [星形胶质细胞](systems/astrocyte.md) — 三方突触的第三方成员；PAPs 覆盖约 57% 海马兴奋性突触；EAAT2 清除 ~80% 突触谷氨酸；Ca²⁺ 信号（mGluR-IP₃-ER）门控 D-丝氨酸释放；LTP/LTD 不可或缺的第三方（Henneberger 2010）；人类星形胶质细胞覆盖约 200 万个突触 **[NEW 2026-07-02·知识库首次胶质细胞条目]**
 - 🟢 [内嗅皮层（EC）](systems/entorhinal-cortex.md) — MEC（网格细胞/联合细胞）+ LEC（情境感觉）构成海马主要输入门户；MEC Layer II是路径整合坐标输出层；Braak分期：EC Layer II是AD最早受损皮层区域；空间记忆障碍先于语言退化的神经解剖基础；**rev2新增**：嗅球→LEC→海马通路及梨状皮层→EC→海马三突触回路（修订2次）
+- 🟢 [内侧隔核–斜角带（MS-DBB）](systems/medial-septum.md) — 海马θ振荡的驱动源；PV+ GABA能起搏神经元经类惠更斯同步机制自发拉齐相位（分裂为178°/330°两反相位簇群），领先海马场电位约79ms；VGluT2+谷氨酸能神经元张力性兴奋线性设定θ频率（6–10Hz，与运动速度耦合）；胆碱能通路负责慢时间尺度编码/提取切换（见[[septohippocampal-cholinergic]]）；REM期沉默GABA能神经元消除θ并损害记忆（因果必要性）**[NEW 2026-07-07]**（填补 theta-oscillations/septohippocampal-cholinergic 悬空引用）
 - 🟢 [齿状回](systems/dentate-gyrus.md) — 海马三突触回路第一站；EC → DG 5–10倍扩张（~20–30万→~100–200万颗粒细胞）；约 2–5% 颗粒细胞同时激活（极端稀疏编码）；多层 GABA 能抑制网络（篮状/HIPP/MOPP）主动雕刻稀疏性；苔藓细胞反馈抑制机制；成体神经发生场所；模式分离的主要神经基底 **[NEW 2026-08-28]**
 - 🟢 [嗅球（主嗅觉球）](systems/olfactory-bulb.md) — 一受体一小球规则将OR激活映射为拓扑图；僧帽/簇状细胞经LOT直接投射至梨状皮层、杏仁核、内嗅皮层（无视丘中继，所有感觉系统唯一）；颗粒细胞树突-树突双向突触实现侧向抑制和对比度增强；β/γ振荡与梨状皮层同步 **[NEW 2026-07-26]**
 - 🟢 [听觉皮层](systems/auditory-cortex.md) — 核心（A1+R，Heschl回V形镜像）-带状-旁带状三级层级；11张音调拓扑场图；腹侧"What"流（声音身份）+ 背侧"Where/How"流（空间/运动）；STG群体响应编码被注意者谱时特征（鸡尾酒会效应）；pSTG STRF重建语音（词语精确率0.89） **[NEW 2026-07-28]**
@@ -459,3 +462,5 @@
 **第88篇（2026-07-20）**：**篮状细胞打出节拍：γ 振荡的双重生成机制与精神分裂症的细胞之谜**——从神经元网络的自发振荡到精神疾病的分子级联。核心贡献：(1) ING（Interneuron Network Gamma）完整机制——Whittington 1995体外实验奠基，GABA-A τ_decay 是振荡周期的分子时钟，纯 I-I 网络可自主产生 50-80 Hz 振荡；(2) PING（Pyramidal-Interneuron Network Gamma）的 E-I 反馈循环——锥体细胞→PV 细胞→回抑制，频率受 τ_decay + E→I 延迟共同决定；(3) Sohal 2009 和 Cardin 2009 的光遗传学因果证明——抑制 PV 细胞 → γ 功率减少+信噪比下降；40 Hz 驱动 FS 细胞 → 选择性 γ + 感觉相位门控；(4) SST+ 细胞的独立 γ 贡献（Antonoudiou 2020）——打破"γ 只依赖 PV+"的简化观点；(5) 精神分裂症完整分子级联——NMDA 低活（NR2A 偏好 PV 细胞）→ GAD67 mRNA 下调 → GABA 合成↓ → IPSP 幅度↓ → PING 时序精度崩溃 → γ 振荡减弱 → 工作记忆缺陷，是当前精神疾病-振荡机制研究中最清晰的多层次因果链。新建1个wiki页面（diseases/schizophrenia），修订2个wiki页面（concepts/gamma-oscillations rev3→rev4、circuits/pv-interneurons rev4→rev5），知识图谱160节点、977边，新增3个未解问题（Q-gamma-ping-ling-01、Q-gamma-sst-pv、Q-sz-dopamine-gaba-interface）。
 
 **第152篇（2026-09-22）**：**记忆的裁判官——SWR 如何在睡眠中挑选、过滤与泛化**——完成"学习三部曲"（BTSP→PKMζ→SWR）的系统固化章节。核心贡献：(1) Yang 2024（Science）清醒SWR主动标记当前经历，预测睡眠回放内容（R=0.86）；(2) Chang 2025（Nature）NREM睡眠含瞳孔振荡微结构——收缩期处理近期记忆，扩张期维护陈旧记忆，防止干扰；(3) Shin&Jadhav 2024（Current Biology）PFC 71.2%涟漪为"独立涟漪"，主动抑制CA1再激活（r=−0.71），实现负向筛选；(4) Liao 2024（Nature Neuroscience）PV+篮细胞抑制性STDP在SWR期间选择性压制干扰细胞（权重高38.9%），驱动从精确重演到统计抽象的泛化；(5) Robinson 2026（Neuron）大振幅SWR特异驱动海马-PFC同步再激活，学习后选择性增多（因果证据）。修订2个wiki页面（hippocampal-replay rev1→rev2、sharp-wave-ripples rev9→rev10），无新建页面；图谱296节点/1739边；新增未解问题Q-pfc-suppression-selectivity（高）和Q-inhibitory-plasticity-bounds（中）。
+
+**第190篇（2026-07-07，日期修复后首篇）**：**谁在给记忆打拍子：内侧隔核如何用起搏神经元合奏出海马θ振荡**——填补 theta-oscillations 与 septohippocampal-cholinergic 两页共同标注的悬空引用，讲清θ振荡起搏机制本身。核心贡献：(1) Freund & Antal 1988 解剖学基础——MS-DBB GABA能神经元选择性投射至海马中间神经元，构成去抑制回路；(2) Borhegyi 2004 两反相位簇群（178°/330°）+ 局部返侧支同步；(3) Hangya 2009 因果时序梯度——PV+/HCN1+隔核神经元领先海马LFP中位数79ms（海马中间神经元仅47ms）；(4) Kocsis 2022 惠更斯同步模型——起搏神经元通过弱耦合自发拉齐频率，无需中心指挥细胞；(5) Fuhrmann 2015 + Robinson 2016——谷氨酸能神经元张力性兴奋线性设定θ频率（6–10Hz），与运动速度耦合，光遗传学证实频率牵引仅在刺激胞体时有效；(6) Boyce 2016（复用已有引用）——REM期沉默GABA能神经元消除θ并损害记忆，因果必要性。新建1个wiki页面（systems/medial-septum），修订2个wiki页面（theta-oscillations rev5→rev6、septohippocampal-cholinergic rev1→rev2），图谱346节点/2099边，新增未解问题Q-ms-01/02/03。**本篇同时修复了此前的日期漂移事件（详见页首说明与CHANGELOG）并订正了图谱中2个过期的悬空引用记录（orbitofrontal-cortex、endocannabinoid-system 早已建页但未同步标注）。**

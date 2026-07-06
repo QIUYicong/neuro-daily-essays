@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-21",
-  "total_articles": 180,
+  "last_updated": "2026-07-07",
+  "total_articles": 181,
   "entries": [
     {
       "date": "2026-10-18",
@@ -11893,6 +11893,68 @@
         "global-workspace-theory (Priority B.4 frontier node, 33 edges, medium confidence)",
         "eyeblink-conditioning-task-difficulty (延伸Q-pf-03，若有新文献可直接检验Bae 2025框架在眼睑条件反射范式的预测)",
         "working-memory (Priority B.4 frontier node, related to goal-directed/prefrontal-cortex)"
+      ]
+    },
+    {
+      "date": "2026-07-07",
+      "title": "谁在给记忆打拍子：内侧隔核如何用起搏神经元合奏出海马θ振荡",
+      "filename": "2026-07-07-medial-septum-theta-pacemaker.md",
+      "article_number": 190,
+      "date_correction_note": "本篇标志日期漂移事件（Issue #1）修复完成，恢复使用真实日历日期。详见 wiki/CHANGELOG.md 2026-07-07 条目。notes/sources/logs 因日期与既有虚拟日期文件（文章#75）撞期，采用日期+slug消歧命名。",
+      "wiki_pages_created": [
+        "wiki/systems/medial-septum.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/theta-oscillations.md rev5→rev6",
+        "wiki/concepts/septohippocampal-cholinergic.md rev1→rev2"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "海马θ振荡的驱动源内侧隔核（MS-DBB）内部并没有单一起搏细胞，而是混杂GABA能、谷氨酸能、胆碱能至少三类神经元——它们各自贡献了θ节律的哪一部分（相位/频率/存在与否）？这个节律是由中心指挥产生的，还是数百个独立振荡单元自发同步涌现的结果？",
+      "open_questions_added": [
+        "Q-ms-01（高优先级）：惠更斯同步/网络涌现模型与核心起搏细胞模型的预测差异尚未在同一实验中直接比较",
+        "Q-ms-02（中优先级）：GABA能通路必要性证据（Boyce 2016, REM期）与谷氨酸能通路充分性证据（Robinson 2016, 清醒运动）尚未在同一行为范式下对比操控",
+        "Q-ms-03（中优先级）：三细胞分工系统的全部直接证据均来自啮齿类，人类对应证据缺失"
+      ],
+      "layer": [
+        "cellular",
+        "synaptic",
+        "microcircuit",
+        "brain-region",
+        "cognition"
+      ],
+      "curriculum_track": "learning-memory-hippocampal-rhythms",
+      "topic_tags": [
+        "medial-septum",
+        "theta-oscillations",
+        "pacemaker",
+        "GABAergic",
+        "glutamatergic",
+        "parvalbumin",
+        "Huygens-synchronization",
+        "phase-locking",
+        "hippocampus"
+      ],
+      "main_sources": [
+        "PMID:3185735",
+        "PMID:15456820",
+        "PMID:19553449",
+        "PMID:25982367",
+        "PMID:26961955",
+        "PMID:35926456",
+        "PMID:27174984"
+      ],
+      "unresolved_questions": [
+        "Q-ms-01",
+        "Q-ms-02",
+        "Q-ms-03"
+      ],
+      "next_suggested_topics": [
+        "predictive-coding (Priority B.4 frontier node, 58 edges, medium confidence, 已多次评估仍高度发展，持续观察)",
+        "global-workspace-theory (Priority B.4 frontier node, 33 edges, medium confidence)",
+        "eyeblink-conditioning-task-difficulty (延伸Q-pf-03，若有新文献可直接检验Bae 2025框架在眼睑条件反射范式的预测)",
+        "working-memory (Priority B.4 frontier node, related to goal-directed/prefrontal-cortex)",
+        "medial-septum 相关悬空引用清理：complexin/munc18/binding-problem/co-ripples/neural-population-coding/recurrent-network 等（见_graph.json dangling_references核查结果）"
       ]
     }
   ]
