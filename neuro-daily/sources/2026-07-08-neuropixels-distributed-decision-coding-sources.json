@@ -1,0 +1,100 @@
+{
+  "article": "#191 · 决策无处不在：神经像素探针如何终结\"一个脑区一个功能\"，又如何暴露出新的陷阱",
+  "date": "2026-07-08",
+  "filename_note": "notes/sources/logs 使用日期+slug后缀命名，因日期 2026-07-08 已被此前日期漂移事件产生的虚拟日期内容（文章#76，视交叉上核）占用，延续 2026-07-07 修复以来的既定消歧约定，详见 wiki/CHANGELOG.md 2026-07-07 条目。",
+  "sources": [
+    {
+      "id": "PMID:29120427",
+      "type": "original_research",
+      "authors": "Jun JJ, Steinmetz NA, Siegle JH, et al.",
+      "title": "Fully integrated silicon probes for high-density recording of neural activity",
+      "journal": "Nature",
+      "year": 2017,
+      "full_text": true,
+      "pmcid": "PMC5955206",
+      "doi": "10.1038/nature24636",
+      "note": "Neuropixels原始探针工程论文；960位点选384通道；两探针同时记录741神经元/5脑结构"
+    },
+    {
+      "id": "PMID:29444488",
+      "type": "review",
+      "authors": "Steinmetz NA, Koch C, Harris KD, Carandini M",
+      "title": "Challenges and opportunities for large-scale electrophysiology with Neuropixels probes",
+      "journal": "Current Opinion in Neurobiology",
+      "year": 2018,
+      "full_text": true,
+      "pmcid": "PMC5999351",
+      "note": "方法学综述；通道数跃升约一个数量级；尖峰分选无全自动算法、组织漂移是持续挑战"
+    },
+    {
+      "id": "PMID:31776518",
+      "type": "original_research",
+      "authors": "Steinmetz NA, Zatka-Haas P, Carandini M, Harris KD",
+      "title": "Distributed coding of choice, action and engagement across the mouse brain",
+      "journal": "Nature",
+      "year": 2019,
+      "full_text": true,
+      "pmcid": "PMC6913580",
+      "note": "核心发现论文；42脑区/3万神经元同步记录；动作信号遍布全脑，选择信号相对局限"
+    },
+    {
+      "id": "PMID:31551604",
+      "type": "original_research",
+      "authors": "Musall S, Kaufman MT, Juavinett AL, Gluf S, Churchland AK",
+      "title": "Single-trial neural dynamics are dominated by richly varied movements",
+      "journal": "Nature Neuroscience",
+      "year": 2019,
+      "full_text": true,
+      "pmcid": "PMC6768091",
+      "note": "方法论批判；主体为宽场钙成像+双光子成像，Neuropixels仅为辅助验证；非指令性运动解释皮层方差38.3%"
+    },
+    {
+      "id": "PMID:40903598",
+      "type": "original_research",
+      "authors": "International Brain Laboratory",
+      "title": "A brain-wide map of neural activity during complex behaviour",
+      "journal": "Nature",
+      "year": 2025,
+      "full_text": true,
+      "pmcid": "PMC12408349",
+      "license": "CC-BY 4.0",
+      "note": "12实验室标准化裁决论文；控制混杂后选择方向特异神经元仅约4%；动作/反馈信号广泛分布"
+    },
+    {
+      "id": "PMID:38589517",
+      "type": "original_research",
+      "authors": "Pachitariu M, Sridhar S, Pennington J, Stringer C",
+      "title": "Spike sorting with Kilosort4",
+      "journal": "Nature Methods",
+      "year": 2024,
+      "full_text": true,
+      "pmcid": "PMC11093732",
+      "note": "尖峰分选算法；漂移模拟恢复约80-90%真实神经元身份"
+    },
+    {
+      "id": "PMID:34980926",
+      "type": "review",
+      "authors": "Urai AE, Doiron B, Leifer AM, Churchland AK",
+      "title": "Large-scale neural recordings call for new insights to link brain and behavior",
+      "journal": "Nature Neuroscience",
+      "year": 2022,
+      "full_text": false,
+      "note": "仅摘要级信息；Nature.com登录墙+预印本/自托管PDF解析失败，未使用具体数字"
+    },
+    {
+      "id": "Allen-Institute-official",
+      "type": "official_institutional_source",
+      "title": "Visual Coding – Neuropixels",
+      "publisher": "Allen Institute",
+      "url": "https://brain-map.org/circuits-behavior/visual-coding-neuropixels",
+      "full_text": true,
+      "note": "官方机构数据门户，近十万神经元多脑区同步记录数据集说明"
+    }
+  ],
+  "summary": {
+    "total_sources": 8,
+    "full_text_count": 6,
+    "abstract_only_count": 1,
+    "official_institutional_count": 1
+  }
+}

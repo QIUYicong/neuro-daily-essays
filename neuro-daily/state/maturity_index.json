@@ -1066,5 +1066,21 @@
     "confidence": "high",
     "last_changed": "2026-07-07",
     "reason": "新建 rev1 · #190 · MS-DBB三细胞θ起搏机制：established（去抑制回路解剖基础始于1988年Freund&Antal，因果时序/充分性/必要性证据均有独立直接实验支持）；confidence=high（Hangya 2009因果时序、Robinson 2016充分性、Boyce 2016必要性三条独立证据线相互印证；主要限制是全部证据来自啮齿类，Kocsis 2022惠更斯同步模型为较新颖理论，需更多独立复现）"
+  },
+  {
+    "slug": "neuropixels",
+    "page": "wiki/methods/neuropixels.md",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-07-08",
+    "reason": "新建 rev1 · #191 · 高密度硅探针技术：established（技术本身已被数千个独立实验室复现使用，Allen研究所/IBL等大规模机构标准化采纳）；confidence=high（工程原理和性能指标有直接、可重复的验证；唯一软肋是尖峰分选仍需人工校验，非全自动）"
+  },
+  {
+    "slug": "distributed-decision-coding",
+    "page": "wiki/concepts/distributed-decision-coding.md",
+    "status": "mainstream",
+    "confidence": "medium",
+    "last_changed": "2026-07-08",
+    "reason": "新建 rev1 · #191 · 全脑分布式决策编码：mainstream（核心现象——动作/反馈信号广泛分布——已被多个独立大规模数据集复现，包括12实验室标准化的IBL图谱）；confidence=medium（选择方向信号的具体分布范围仍在被反复校准，从最初印象的\"局限于额叶/基底节/中脑\"到IBL严格控制后的\"约4%\"，估计本身可能仍含残留混杂，且全部证据来自小鼠简单任务，人类/复杂任务的推广尚未验证）"
   }
 ]

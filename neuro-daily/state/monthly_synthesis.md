@@ -2186,3 +2186,19 @@
 **层级**：cellular × synaptic × microcircuit × brain-region × cognition（从去抑制回路解剖学到网络同步涌现理论到因果时序/充分性/必要性三重实验证据，跨越5个分析层级）
 
 **文件命名说明**：本篇 notes/sources 因真实日期2026-07-07与既有虚拟日期文件（文章#75）撞期，采用"日期+slug"消歧命名，详见 wiki/CHANGELOG.md 说明。
+
+### 2026-07-08（#191）：决策无处不在——神经像素探针如何终结"一个脑区一个功能"，又如何暴露出新的陷阱
+
+**核心发现**：Neuropixels高密度硅探针（Jun & Steinmetz 2017, PMID:29120427）让同时记录数万神经元、跨越数十脑区成为常规操作，由此发现小鼠简单决策任务中动作/投入度信号几乎遍布全脑（Steinmetz 2019, PMID:31776518）；但这一"无处不在"图景随即受到方法论重击——大量看似任务相关的活动实为被试非指令性运动的混杂信号（Musall 2019, PMID:31551604，非指令性运动解释皮层方差38.3%，独有贡献是任务变量的5倍）；2025年国际脑实验室（IBL）12实验室联合标准化图谱在严格控制混杂后给出精细裁决：选择方向特异神经元全脑仅约4%，而动作/反馈信号仍广泛分布（PMID:40903598）。三者递进关系表明"分布式编码"未被推翻但边界被重新校准：运动/反馈信号是真正广播式的，选择这类抽象变量则相对收口。
+
+**知识地图贡献**：
+- 新建 methods/neuropixels.md（established/high，rev1）：技术本身——硬件设计、尖峰分选（Kilosort4）、认识论意义；新增 Q-npx-01/02
+- 新建 concepts/distributed-decision-coding.md（mainstream/medium，rev1）：发现→陷阱→裁决三层论证；新增 Q-ddc-01/02/03
+- neural-manifold.md（rev1→rev2）：新增流形分析全脑尺度扩展讨论
+- mixed-selectivity.md（rev2→rev3）：新增混合选择性可能是全脑默认组织原则的讨论
+- connectomics.md（rev4→rev5）：新增与Neuropixels的方法论镜像讨论（结构vs功能"全部看清"）
+- optogenetics.md（rev1→rev2）：呼应既有Q-opto-distributed-representation，讨论因果验证方向
+- 图谱：346节点/2099边 → 348节点/2107边（+2节点，+8边）
+- 矛盾登记：0个（Steinmetz与Musall的表面张力经IBL标准化分析定量裁决，非矛盾而是精度提升）
+
+**层级**：methods × cellular × brain-region × whole-brain-network × cognition（首次系统覆盖大规模电生理方法学，填补课程脊柱10长期薄弱分支；同时把已有的混合选择性/神经流形概念从局部脑区尺度扩展到全脑尺度）

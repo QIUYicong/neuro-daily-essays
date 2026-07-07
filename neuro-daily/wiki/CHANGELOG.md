@@ -4503,3 +4503,29 @@
 
 **新增悬空引用（待填补）**：`normalization-model`、`global-workspace-theory`（需深化专页）
 
+
+---
+
+## 2026-07-08 · 文章 #191 · 决策无处不在：神经像素探针如何终结"一个脑区一个功能"，又如何暴露出新的陷阱
+
+**课程脊柱10（方法革命）**；首次系统覆盖大规模电生理方法学（methods 域此前仅6页，长期薄弱分支）
+
+**新建页面（2个）**：
+
+- `wiki/methods/neuropixels.md`（rev1，established/high）：高密度硅探针技术本身——960位点/384通道设计、片上信号处理消除电缆噪声、Kilosort尖峰分选原理与局限、与连接组学/光遗传学的方法论关系；新增 Q-npx-01（分选人工校验标准化）/ Q-npx-02（组织漂移与长期追踪）
+- `wiki/concepts/distributed-decision-coding.md`（rev1，mainstream/medium）：全脑分布式决策编码发现（Steinmetz 2019）+ 运动混杂方法论批判（Musall 2019）+ IBL标准化裁决（2025）三层递进论证；新增 Q-ddc-01（4%估计是否仍含混杂）/ Q-ddc-02（能否推广至复杂任务/人类）/ Q-ddc-03（因果验证方向）
+
+**修订页面（4个）**：
+
+- `wiki/concepts/neural-manifold.md` rev1→rev2：新增"流形分析向全脑尺度扩展"讨论段落，新增与 [[neuropixels]]/[[distributed-decision-coding]] 交叉引用
+- `wiki/concepts/mixed-selectivity.md` rev2→rev3：新增"混合选择性可能是全脑默认组织原则而非PFC特权"的讨论，新增与 [[distributed-decision-coding]] 交叉引用
+- `wiki/methods/connectomics.md` rev4→rev5：新增与 Neuropixels 的方法论镜像讨论（结构"全部看清" vs 功能"全部看清"），提出"分布式功能对应怎样的接线模式"新问题
+- `wiki/methods/optogenetics.md` rev1→rev2：呼应既有未解问题 Q-opto-distributed-representation，讨论光遗传学作为裁决"可解码≠真计算"问题的因果工具
+
+**矛盾登记（0个）**：无新矛盾。Steinmetz 2019（分布式发现）与 Musall 2019（运动混杂批判）之间的张力，经 IBL 2025 的标准化控制分析给出定量裁决（非此即彼的矛盾，而是方法学精度提升带来的边界重新划定），故未登记为 contested_claim，而是在 distributed-decision-coding.md 的"当前理解"中如实呈现三者递进关系。
+
+**悬空引用（0个新增）**：无。所有新增 related 均指向已存在节点或本次新建节点。
+
+**图谱变化**：346节点/2099边 → **348节点/2107边**（+2节点：neuropixels, distributed-decision-coding；+8边：neuropixels→distributed-decision-coding prerequisite-for；neuropixels→connectomics related；neuropixels→optogenetics related；neuropixels→neural-manifold supports；distributed-decision-coding→mixed-selectivity related；distributed-decision-coding→neural-manifold related；distributed-decision-coding→optogenetics related；distributed-decision-coding→dopamine-reward-prediction-error related）
+
+**层级**：methods × cellular × brain-region × whole-brain-network × cognition

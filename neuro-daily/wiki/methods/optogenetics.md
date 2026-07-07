@@ -6,10 +6,10 @@ type: method
 status: established
 confidence: high
 created: 2026-06-09
-updated: 2026-06-09
-revision_count: 1
+updated: 2026-07-08
+revision_count: 2
 dimensions: [molecular, cellular, microcircuit, brain-region, behavior, cognition, methods]
-related: [channelrhodopsin, engram-cells, place-cell, hippocampal-circuit, pv-interneurons, ltp, dopamine-reward-prediction-error, alzheimers-disease]
+related: [channelrhodopsin, engram-cells, place-cell, hippocampal-circuit, pv-interneurons, ltp, dopamine-reward-prediction-error, alzheimers-disease, neuropixels, distributed-decision-coding]
 prerequisites: [action-potential, voltage-gated-sodium-channel, synaptic-transmission]
 opens_questions: [Q-opto-depth-limit, Q-opto-distributed-representation, Q-opto-clinical-ethics]
 source_articles: [2026-06-09-optogenetics-causal-neuroscience]
@@ -41,6 +41,8 @@ key_sources:
 3. 在同一动物中可逆切换状态，实现双向因果检验。
 
 这一技术使神经科学从"相关性科学"进化为"因果实验科学"（Fenno et al. 2011, PMID:21692661）。
+
+2026-07-08 补充：这一"相关性 vs 因果性"的区分，在 [[neuropixels]] 时代获得了新的紧迫性。大规模同步电生理记录（如 Steinmetz 2019 的全脑42脑区记录）能从几乎任何脑区解码出任务相关信息（见 [[distributed-decision-coding]]），但"能解码"不等于"该脑区真的参与了计算"——这正是 Q-opto-distributed-representation 提出的问题在全脑尺度上的具体化。光遗传学是目前裁决这一问题最直接的工具：对广泛分布、可解码的信号逐一进行选择性沉默，观察行为是否真的因此受损，才能把"到处都能读出"的相关性图景收窄为"真正在计算"的因果图景。
 
 ---
 
@@ -98,6 +100,8 @@ key_sources:
 - [[ltp]] — optogenetics 证明了诱导 LTP 的突触特异性，支持印迹细胞假说
 - [[dopamine-reward-prediction-error]] — 选择性激活 VTA DA 神经元触发奖励行为
 - [[channelrhodopsin]] — 待建立（ChR1/ChR2 的分子生物学页面）
+- [[neuropixels]] — 大规模同步记录提供相关性/可解码性证据，光遗传学提供因果验证，两者互补
+- [[distributed-decision-coding]] — 全脑分布式可解码信号是 Q-opto-distributed-representation 问题在全脑尺度的具体案例
 
 ---
 
@@ -112,9 +116,11 @@ key_sources:
 ## 修订历史
 
 - 2026-06-09 · 创建 · 基于《光遗传学：用一束光解开神经回路的因果之谜》一文 · methods 层第一个页面 · 初始置信度：高（established）
+- 2026-07-08 · 修订（rev2）· 基于文章 #191《决策无处不在：神经像素探针如何终结"一个脑区一个功能"，又如何暴露出新的陷阱》· 新增：与 [[neuropixels]]/[[distributed-decision-coding]] 的因果 vs 相关性讨论，呼应既有未解问题 Q-opto-distributed-representation
 
 ---
 
 ## 来源文章
 
 - [[2026-06-09-optogenetics-causal-neuroscience]]
+- [[2026-07-08-neuropixels-distributed-decision-coding]]

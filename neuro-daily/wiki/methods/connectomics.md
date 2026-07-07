@@ -6,10 +6,10 @@ type: method
 status: established
 confidence: high
 created: 2026-06-18
-updated: 2026-09-16
-revision_count: 4
+updated: 2026-07-08
+revision_count: 5
 dimensions: [methods, cellular, brain-region, whole-brain-network]
-related: [circuit-motifs, optogenetics, hippocampal-circuit, sharp-wave-ripples, small-world-network, like-to-like-connectivity, rich-club-organization]
+related: [circuit-motifs, optogenetics, hippocampal-circuit, sharp-wave-ripples, small-world-network, like-to-like-connectivity, rich-club-organization, neuropixels]
 prerequisites: [synaptic-transmission, action-potential]
 opens_questions: [Q-conn-01, Q-conn-02, Q-conn-03]
 source_articles: [2026-06-18-connectomics-wiring-diagram, 2026-08-06-connectomics-flywire-wiring-diagram, 2026-09-13-microns-mouse-cortex-functional-connectome]
@@ -124,7 +124,9 @@ Witvliet 2021（PMID:34349261）：线虫发育过程中接线图系统性前馈
 
 **局限3——个体差异与发育可塑性**：即使同基因型动物，接线图细节因个体而异。哺乳动物的突触权重因学习而持续变化，静态接线图无法捕捉。
 
-**结论原则**：连接组提供了神经计算可能的**结构空间边界**，但要理解在任何给定时刻实际发生了什么计算，需要将接线图与大规模神经活动记录（Neuropixels等）和计算建模三层整合。
+**结论原则**：连接组提供了神经计算可能的**结构空间边界**，但要理解在任何给定时刻实际发生了什么计算，需要将接线图与大规模神经活动记录（[[neuropixels]]等）和计算建模三层整合。
+
+2026-07-08 补充：连接组学与 Neuropixels 构成一组方法论镜像——前者一次性穷举"谁连谁"的静态结构，后者一次性同步记录"谁在何时放电"的动态活动，两者都把神经科学的采样单位从"少数几个"提升到了"几乎全部"。[[distributed-decision-coding]] 词条记录的发现（简单决策的神经表征弥漫全脑）提出了一个连接组学尚未系统回答的问题：这种功能上的弥漫分布，在结构连接层面对应着怎样的接线模式——是靠少数高连接度枢纽节点（rich-club）广播出去，还是靠大量弱连接的并行通路实现？这是连接组学与全脑功能记录未来整合的一个具体方向。
 
 ---
 
@@ -182,6 +184,8 @@ ssEM的核心原理是将三维神经组织信息转化为连续二维切片序�
 - [[predictive-coding]] — 结构约束的预测链（接线图→模型→实验）是连接组学功能研究的方法论核心，与预测编码的计算框架相互补充
 - [[spatial-transcriptomics]] — 整合路径：空间转录组学（MERFISH）为连接组学的神经元节点提供分子身份注释，Allen Brain Cell Atlas 与 MICrONS 的整合是实现"结构 + 分子 + 功能"三位一体的关键下一步
 - [[transcriptomic-cell-types]] — 突触极性（兴奋性 vs 抑制性）和细胞亚型分类需要转录组学信息，连接组学与转录组学互补才能完整描述回路
+- [[neuropixels]] — 结构（连接组）与功能（全脑同步电生理）两条"全部一次看清"路线的方法论镜像
+- [[distributed-decision-coding]] — 全脑功能分布式编码的发现，为连接组学提出了"结构如何支持功能广播"的新问题
 
 ---
 
@@ -201,6 +205,7 @@ ssEM的核心原理是将三维神经组织信息转化为连续二维切片序�
 - 2026-08-06 · 修订（rev2）· 基于《连接组学深化篇》文章 · 增加：(1) 功能连接组学新节（MICrONS 2025）；(2) "同类相连"布线规则（Ding 2025）；(3) Lin 2024 完整网络统计数据；(4) 更新 related 节点（+3个新页）；(5) 更新 key_sources 和 source_articles
 - 2026-09-13 · 修订（rev3）· 基于文章 #143《MICrONS小鼠视觉皮层功能-结构连接组》· 补充：(1) 完整配准方法（2,934基准点，3.8µm精度，100万+次编辑）；(2) 抑制性神经元普查（PMC11981935）作为伴随发现；(3) 功能数字孪生作为连接组学新维度；(4) 更新 key_sources（+PMC11981935）
 - 2026-09-16 · 修订（rev4）· 基于文章 #146《空间转录组学》· 在"连接"节增加 [[spatial-transcriptomics]] 和 [[transcriptomic-cell-types]] 条目，记录与空间转录组学的整合路径（Allen Brain Cell Atlas + MICrONS 未来整合方向）
+- 2026-07-08 · 修订（rev5）· 基于文章 #191《决策无处不在：神经像素探针如何终结"一个脑区一个功能"，又如何暴露出新的陷阱》· 新增：与 [[neuropixels]]/[[distributed-decision-coding]] 的方法论镜像讨论（结构"全部看清" vs 功能"全部看清"）；新增连接条目
 
 ---
 

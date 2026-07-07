@@ -1,0 +1,117 @@
+# 2026-07-08 运行日志
+
+## 基本信息
+- **文章编号**：#191
+- **真实执行日期**：2026-07-08（真实UTC+8触发时间约00:00-01:00，非预期的09:00 Asia/Shanghai）
+- **文件命名**：notes/sources/logs 使用"日期+slug"消歧命名，因 2026-07-08 已被此前日期漂移事件产生的虚拟日期内容（文章#76《大脑的24小时时钟：视交叉上核》，真实执行日期2026-06-04）占用；articles/ 因slug不同未冲突，直接使用标准命名。
+- **选题来源**：课程脊柱驱动（curriculum-spine，methods域长期薄弱分支）
+
+## 会话开始：Git/Issue状态核查
+
+1. `git checkout main && git pull origin main` 报告"divergent branches"，需手动 `git reset --hard origin/main` 同步（本地缓存的 main 停留在 2026-06-29 的 a11697e，而 origin/main 已推进到 2026-07-07 的 6cbfc22）。
+2. 核查 GitHub Issue #1（"main分支历史分叉+知识库日期漂移已延伸至2026-10-21，例程陷入每日多次空转"）：确认该 Issue 记录的决策点1（main历史分叉）和决策点2（是否需要破坏性重写）已被此前多次独立会话通过 `git fetch --unshallow` 证实为浅克隆伪影，不成立；决策点3（知识库日期漂移）已被 2026-07-07 的会话（commit 6cbfc22）非破坏性解决，恢复真实日历日期运作。唯一仍未解决的是决策点4（触发频率/时间点），需要在 Claude Code on the web 的触发器设置页面处理，无法通过本会话操作修复。
+3. 判断依据：`origin/main` HEAD 自上次真实内容提交（2026-07-07 00:31 CST，article #190）以来约23.5小时无变动，且今日（2026-07-08）尚无任何文章产出——这与此前"近乎每小时触发"的模式相比是显著改善，且不同于纯粹的"重复触发"情形（当天已有文章则应跳过）。据此判断本次触发是当天首次调用，遵循"恢复真实日历日期运作"后的正常每日流程继续写作，而非需要跳过的重复触发。
+
+## 选题决策
+
+**选题理由**：
+- 突破追踪：未发现可精确核实的过去7天重大突破。
+- 矛盾裁决：`contested_claims.json` 8条open矛盾均为长期存在的复杂张力，本次未直接裁决。
+- 悬空引用：脚本核查图谱（`from`/`to`及`source`/`target`两种边schema）仅3个真正悬空引用，均为既有概念命名变体，非实质缺口。
+- 前沿节点：predictive-coding、global-workspace-theory等已有充分修订历史（rev5+）。
+- **课程脊柱（采用）**：methods域仅6个页面（connectomics, optogenetics, single-cell-rna-seq, spatial-transcriptomics, adversarial-collaboration, perturbational-complexity-index），是"方法革命"课程脊柱长期薄弱分支；且Neuropixels这一具体主题恰好提供了一个"发现→方法论批判→标准化裁决"三层递进的完整证据链（Steinmetz 2019 → Musall 2019 → IBL 2025），是理想的高质量、可讲清的核心问题。
+
+**主题**：Neuropixels高密度硅探针与全脑分布式决策编码的方法论演化
+**核心问题**：全脑同步记录揭示的"决策无处不在"现象，究竟有多少是大脑真实计算方式，又有多少是运动混杂信号？严格控制混杂因素后，"分布式编码"这一说法还能剩下多少？
+
+## 检索过程
+
+**研究方式**：委托一个后台通用型子代理（general-purpose agent）执行文献检索，明确要求每个来源必须实际抓取验证（PubMed/PMC页面直接读取），禁止编造任何PMID/PMCID/DOI；子代理返回结构化的、逐条标注全文可用性的来源清单。
+
+**数据源**：PubMed/PMC全文页面直接抓取（WebFetch）、WebSearch定位候选文献
+
+**候选来源数**：8个（Jun 2017, Steinmetz 2018综述, Steinmetz 2019, Musall 2019, IBL 2025, Pachitariu 2024, Urai 2022综述, Allen Institute官方页面）
+
+**采用情况**：全部8个来源均采用，无排除项。
+
+**开放全文获取情况**：
+- PMID:29120427（Jun & Steinmetz 2017）✅ PMC全文
+- PMID:29444488（Steinmetz 2018综述）✅ PMC全文
+- PMID:31776518（Steinmetz 2019）✅ PMC全文
+- PMID:31551604（Musall 2019）✅ PMC全文
+- PMID:40903598（IBL 2025）✅ PMC全文（CC-BY开放获取）
+- PMID:38589517（Pachitariu 2024, Kilosort4）✅ PMC全文
+- PMID:34980926（Urai 2022综述）❌ 仅摘要（Nature.com登录墙+预印本/自托管PDF解析失败）
+- Allen Institute官方数据门户 ✅ 官方机构页面（非论文）
+
+6/8全文，1个仅摘要（已在文中和来源列表明确标注），1个官方机构来源。满足ROUTINE.md最低要求（≥5来源、≥2开放全文、≥1官方机构来源）。
+
+**特别核查**：Musall et al. 2019 论文主体实为宽场钙成像+双光子成像研究，Neuropixels电生理仅为辅助交叉验证记录——子代理在报告中主动澄清了这一点，本文写作时严格遵循这一澄清，未夸大该论文与Neuropixels的关联。Kilosort原始2016年算法论文（NeurIPS会议论文）未被PubMed索引，无法找到PMID，故未单独引用，改用有明确PMID的Kilosort4（2024）。
+
+## 产出物
+
+### 新建文件
+- `neuro-daily/articles/2026-07-08-neuropixels-distributed-decision-coding.md`（主文章，约5500字）
+- `neuro-daily/notes/2026-07-08-neuropixels-distributed-decision-coding-reading-notes.md`
+- `neuro-daily/sources/2026-07-08-neuropixels-distributed-decision-coding-sources.json`（8个来源，含完整元数据）
+- `neuro-daily/wiki/methods/neuropixels.md`（新建，established/high）
+- `neuro-daily/wiki/concepts/distributed-decision-coding.md`（新建，mainstream/medium）
+
+### 修订文件
+- `neuro-daily/wiki/concepts/neural-manifold.md`（rev1→rev2）
+- `neuro-daily/wiki/concepts/mixed-selectivity.md`（rev2→rev3）
+- `neuro-daily/wiki/methods/connectomics.md`（rev4→rev5）
+- `neuro-daily/wiki/methods/optogenetics.md`（rev1→rev2）
+- `neuro-daily/wiki/_graph.json`（346→348节点，2099→2107边）
+- `neuro-daily/wiki/index.md`（新增第191篇条目）
+- `neuro-daily/wiki/CHANGELOG.md`（新增2026-07-08条目）
+- `neuro-daily/state/topic_ledger.json`（total_articles 181→182，新增article_number 191条目）
+- `neuro-daily/state/unresolved_questions.md`（新增5个未解问题：Q-npx-01/02, Q-ddc-01/02/03）
+- `neuro-daily/state/source_registry.json`（新增sources_2026-07-08-neuropixels-distributed-decision-coding键）
+- `neuro-daily/state/monthly_synthesis.md`（新增2026-07-08条目）
+- `neuro-daily/state/maturity_index.json`（新增2条：neuropixels, distributed-decision-coding）
+
+## 知识图谱变化
+
+**新增节点（2个）**：
+- neuropixels（established, high confidence）
+- distributed-decision-coding（mainstream, medium confidence）
+
+**新增边（8条）**：
+- neuropixels → distributed-decision-coding (prerequisite-for)
+- neuropixels → connectomics (related)
+- neuropixels → optogenetics (related)
+- neuropixels → neural-manifold (supports)
+- distributed-decision-coding → mixed-selectivity (related)
+- distributed-decision-coding → neural-manifold (related)
+- distributed-decision-coding → optogenetics (related)
+- distributed-decision-coding → dopamine-reward-prediction-error (related)
+
+## 矛盾/争议处理
+
+**未登记新contested_claim**：Steinmetz 2019（分布式编码发现）与Musall 2019（运动混杂批判）之间存在表面张力，但IBL 2025提供了定量裁决证据（非此即彼的矛盾，而是方法学精度提升带来的边界重新划定），故按"矛盾被后续证据化解"的逻辑处理——在 `distributed-decision-coding.md` 的"当前理解"中如实呈现三者递进关系，未登记为open矛盾。
+
+## 自检（ROUTINE.md 第H节）
+
+**真实性**：
+- ✅ wiki每条新主张均可回溯到具体PMID/PMCID
+- ✅ 区分了直接观察（Steinmetz全脑记录、Musall运动解释方差）与需要谨慎推广的推断（选择性4%估计的稳健性、人类推广性——已列为Q-ddc-01/02）
+- ✅ 未将小鼠简单二选一任务结论当作对人类/复杂任务的定论，已在"争议与未解问题"明确标注推广限制
+
+**一致性**：
+- ✅ 无新矛盾需要走矛盾协议
+- ✅ 4个被修订页面的updated/revision_count/修订历史均已同步更新
+- ✅ 新增8条边均指向已存在节点（含本次新建的2个），无新增悬空边
+
+**可导航**：
+- ✅ index.md、CHANGELOG.md已反映今日变化
+- ✅ 2个新页均有related≥5、prerequisites≥1
+
+**情景层完整**：
+- ✅ 文章/笔记/来源/日志齐全，均使用append-only新文件（因文件名冲突采用日期+slug消歧，未覆盖任何已有文件）
+
+## Git/Push 状态
+
+- 分支模型：单分支累积（方案A），直接在 main 上工作
+- 提交前已执行 `git reset --hard origin/main` 同步到最新 `6cbfc22`
+- 详见本次commit的hash与push结果（见commit message）

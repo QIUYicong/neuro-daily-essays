@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-07",
+  "last_updated": "2026-07-08",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -11839,7 +11839,7 @@
       "key_contribution": "Marr-Ito-Albus三个经典模型的历史比较，共识与分歧"
     }
   ],
-  "total_sources": 714,
+  "total_sources": 721,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",
@@ -17505,5 +17505,52 @@
     "new_additions": 6,
     "full_text_count": 3,
     "notes": "PMID:27174984为既有wiki已引用的经典复用文献（theta-oscillations.md）；新增6篇：PMID:15456820/19553449/26961955（PMC全文开放）、PMID:3185735/25982367/35926456（仅摘要）。全部PMID经NCBI E-utilities esearch/esummary直接核实真实性、标题、作者、期刊、年份。"
+  },
+  "sources_2026-07-08-neuropixels-distributed-decision-coding": {
+    "article": "#191 · 决策无处不在：神经像素探针如何终结\"一个脑区一个功能\"，又如何暴露出新的陷阱",
+    "date": "2026-07-08",
+    "sources": [
+      {
+        "id": "PMID:29120427",
+        "pmcid": "PMC5955206",
+        "full_text": true,
+        "note": "Neuropixels原始探针论文 Jun & Steinmetz 2017 Nature"
+      },
+      {
+        "id": "PMID:29444488",
+        "pmcid": "PMC5999351",
+        "full_text": true,
+        "note": "Steinmetz 2018 Curr Opin Neurobiol 方法学综述"
+      },
+      {
+        "id": "PMID:31776518",
+        "pmcid": "PMC6913580",
+        "full_text": true,
+        "note": "Steinmetz 2019 Nature 全脑分布式编码发现"
+      },
+      {
+        "id": "PMID:31551604",
+        "pmcid": "PMC6768091",
+        "full_text": true,
+        "note": "Musall 2019 Nat Neurosci 运动混杂批判"
+      },
+      {
+        "id": "PMID:40903598",
+        "pmcid": "PMC12408349",
+        "full_text": true,
+        "note": "IBL 2025 Nature 标准化全脑图谱（CC-BY开放获取）"
+      },
+      {
+        "id": "PMID:38589517",
+        "pmcid": "PMC11093732",
+        "full_text": true,
+        "note": "Pachitariu 2024 Nat Methods Kilosort4尖峰分选算法"
+      },
+      {
+        "id": "PMID:34980926",
+        "full_text": false,
+        "note": "Urai 2022 Nat Neurosci 综述，仅摘要（登录墙限制未获全文）"
+      }
+    ]
   }
 }

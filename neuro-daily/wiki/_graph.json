@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-07-07",
+  "updated": "2026-07-08",
   "node_count": 346,
   "edge_count": 2099,
   "edge_types": [
@@ -3164,6 +3164,24 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/systems/medial-septum.md"
+    },
+    {
+      "id": "neuropixels",
+      "title": "神经像素探针",
+      "domain": "methods",
+      "type": "method",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/methods/neuropixels.md"
+    },
+    {
+      "id": "distributed-decision-coding",
+      "title": "全脑分布式决策编码",
+      "domain": "concepts",
+      "type": "concept",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/concepts/distributed-decision-coding.md"
     }
   ],
   "edges": [
@@ -14939,6 +14957,54 @@
       "from": "medial-septum",
       "to": "pv-interneurons",
       "type": "related"
+    },
+    {
+      "from": "neuropixels",
+      "to": "distributed-decision-coding",
+      "type": "prerequisite-for",
+      "note": "Neuropixels是发现全脑分布式决策编码现象的使能技术"
+    },
+    {
+      "from": "neuropixels",
+      "to": "connectomics",
+      "type": "related",
+      "note": "结构(连接组)与功能(全脑电生理)两条'全部一次看清'路线的方法论镜像"
+    },
+    {
+      "from": "neuropixels",
+      "to": "optogenetics",
+      "type": "related",
+      "note": "相关性/可解码性证据(Neuropixels)与因果操控证据(光遗传学)互补"
+    },
+    {
+      "from": "neuropixels",
+      "to": "neural-manifold",
+      "type": "supports",
+      "note": "全脑同步记录数据是流形分析扩展到全脑尺度的数据基础"
+    },
+    {
+      "from": "distributed-decision-coding",
+      "to": "mixed-selectivity",
+      "type": "related",
+      "note": "全脑尺度的混合编码现象,是PFC混合选择性的全脑延伸"
+    },
+    {
+      "from": "distributed-decision-coding",
+      "to": "neural-manifold",
+      "type": "related",
+      "note": "全脑流形结构因信号种类(运动/反馈 vs 选择)呈现不同分布广度"
+    },
+    {
+      "from": "distributed-decision-coding",
+      "to": "optogenetics",
+      "type": "related",
+      "note": "解码证据与操控证据的互补关系,是裁决分布式信号是否真参与计算的下一步"
+    },
+    {
+      "from": "distributed-decision-coding",
+      "to": "dopamine-reward-prediction-error",
+      "type": "related",
+      "note": "反馈(奖励/错误)信号是全脑分布最广、解释方差贡献最大的变量之一"
     }
   ],
   "dangling_references": [

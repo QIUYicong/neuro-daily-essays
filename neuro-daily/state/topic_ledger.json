@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-07-07",
-  "total_articles": 181,
+  "last_updated": "2026-07-08",
+  "total_articles": 182,
   "entries": [
     {
       "date": "2026-10-18",
@@ -11955,6 +11955,72 @@
         "eyeblink-conditioning-task-difficulty (延伸Q-pf-03，若有新文献可直接检验Bae 2025框架在眼睑条件反射范式的预测)",
         "working-memory (Priority B.4 frontier node, related to goal-directed/prefrontal-cortex)",
         "medial-septum 相关悬空引用清理：complexin/munc18/binding-problem/co-ripples/neural-population-coding/recurrent-network 等（见_graph.json dangling_references核查结果）"
+      ]
+    },
+    {
+      "article_number": 191,
+      "date": "2026-07-08",
+      "title": "决策无处不在：神经像素探针如何终结\"一个脑区一个功能\"，又如何暴露出新的陷阱",
+      "slug": "neuropixels-distributed-decision-coding",
+      "wiki_pages_created": [
+        "wiki/methods/neuropixels.md",
+        "wiki/concepts/distributed-decision-coding.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/neural-manifold.md rev1→rev2",
+        "wiki/concepts/mixed-selectivity.md rev2→rev3",
+        "wiki/methods/connectomics.md rev4→rev5",
+        "wiki/methods/optogenetics.md rev1→rev2"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "全脑同步记录揭示出的\"决策无处不在\"现象，究竟有多少是大脑真实的计算方式，又有多少只是记录到了被试身体不自主运动所产生的混杂信号？严格控制混杂因素后，\"分布式编码\"这个说法还能剩下多少？",
+      "open_questions_added": [
+        "Q-npx-01（中优先级）：尖峰分选中人工校验步骤的主观性如何量化和标准化？",
+        "Q-npx-02（中优先级）：下一代探针能否解决慢性记录中的组织漂移，实现真正的长期神经元追踪？",
+        "Q-ddc-01（高优先级）：IBL 2025估计的\"约4%选择特异神经元\"本身是否仍残留刺激-选择相关性混杂？",
+        "Q-ddc-02（高优先级）：小鼠简单二选一任务的分布式编码边界，能否推广到更复杂任务乃至人类？",
+        "Q-ddc-03（中优先级）：能否用光遗传学等因果操控手段，直接检验广泛可解码的运动/反馈信号中有多少是该脑区计算所必需的？"
+      ],
+      "layer": [
+        "methods",
+        "cellular",
+        "brain-region",
+        "whole-brain-network",
+        "cognition"
+      ],
+      "curriculum_track": "methods-large-scale-electrophysiology",
+      "topic_tags": [
+        "Neuropixels",
+        "silicon-probe",
+        "spike-sorting",
+        "distributed-coding",
+        "choice-signal",
+        "movement-confound",
+        "International-Brain-Laboratory"
+      ],
+      "main_sources": [
+        "PMID:29120427",
+        "PMID:29444488",
+        "PMID:31776518",
+        "PMID:31551604",
+        "PMID:40903598",
+        "PMID:38589517",
+        "PMID:34980926"
+      ],
+      "unresolved_questions": [
+        "Q-npx-01",
+        "Q-npx-02",
+        "Q-ddc-01",
+        "Q-ddc-02",
+        "Q-ddc-03"
+      ],
+      "next_suggested_topics": [
+        "predictive-coding (frontier node, 持续多次评估，仍待专门深化的重量级候选)",
+        "global-workspace-theory (frontier node, 持续多次评估)",
+        "single-cell-rna-seq / spatial-transcriptomics 与 Neuropixels 的整合方向 (细胞类型注释 + 大规模电生理)",
+        "IBL brain-wide map 数据集在其他认知任务(非2AFC)中的后续应用 (若有新文献)",
+        "光遗传学与Neuropixels联合实验(opto-tagging)：识别广播信号的因果必要性 (呼应Q-ddc-03)"
       ]
     }
   ]

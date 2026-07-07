@@ -6,10 +6,10 @@ type: mechanism
 status: mainstream
 confidence: high
 created: 2026-08-24
-updated: 2026-08-31
-revision_count: 2
-dimensions: [cellular, microcircuit, cognition]
-related: [dlpfc-cognitive-flexibility, prefrontal-cortex, working-memory, population-vector-coding, rotational-dynamics-motor, neural-manifold]
+updated: 2026-07-08
+revision_count: 3
+dimensions: [cellular, microcircuit, cognition, whole-brain-network]
+related: [dlpfc-cognitive-flexibility, prefrontal-cortex, working-memory, population-vector-coding, rotational-dynamics-motor, neural-manifold, distributed-decision-coding]
 prerequisites: [pyramidal-neuron, prefrontal-cortex]
 opens_questions: [Q-dlpfc-03]
 source_articles: [2026-08-24-dlpfc-cognitive-flexibility-rule-switching]
@@ -31,6 +31,8 @@ Rigotti 等 2013（Nature, PMID:23685452）在理论和实验两个层面证明�
 混合选择性与 Mante 等 2013（Nature, PMID:24201281）的"情境依赖群体动力学"框架高度吻合：不同任务背景下的计算沿不同正交子空间展开，即任务相关信息已被混合编码在高维神经流形上。
 
 Ostojic & Fusi（2024，PMC12177215）进一步提出了"弹性与泛化"的权衡框架：**高维混合选择性（如 PFC）支持弹性分类**（任意变量组合都可被线性读出），但对新刺激的泛化能力弱；**低维结构化表征**支持泛化（学会一个实例，自动推广到同类），但不能支持任意分类。大脑可能根据任务需求，通过神经调质或注意力信号动态调整 PFC 流形的维度和结构，在两种计算模式之间切换。
+
+2026-07-08 补充：[[distributed-decision-coding]] 词条记录的全脑 Neuropixels 记录发现，混合选择性式的"多变量交叉编码"现象可能不止存在于 PFC——全脑范围内几乎所有被记录的脑区，神经元活动都同时携带运动、反馈、任务背景等多个变量的混合信息，只是不同脑区混合的具体变量组合、混合强度不同。这提示混合选择性可能是神经系统跨脑区的默认组织原则，而不只是"高级"联合皮层（如 PFC）的特权——但这一推广目前仍主要基于小鼠简单任务的观察，人类/更复杂认知任务中是否成立尚待验证（对应 Q-ddc-02）。
 
 ## 关键机制
 
@@ -57,6 +59,7 @@ Ostojic & Fusi（2024，PMC12177215）进一步提出了"弹性与泛化"的权�
 - [[working-memory]] — 混合选择性支持多维度工作记忆内容的同时维持
 - [[population-vector-coding]] — 对比：运动皮层的群体向量编码倾向低混合选择性
 - [[neural-manifold]] — 混合选择性通过高维流形实现认知弹性；流形框架是混合选择性的几何语言
+- [[distributed-decision-coding]] — 全脑 Neuropixels 记录提示混合编码逻辑可能扩展到全脑尺度，而非局限于 PFC
 
 ## 未解问题
 - Q-dlpfc-03：人类 dlPFC 是否具有比猕猴更高程度的混合选择性？
@@ -64,7 +67,9 @@ Ostojic & Fusi（2024，PMC12177215）进一步提出了"弹性与泛化"的权�
 ## 修订历史
 - 2026-08-24 · 创建 · 基于《背外侧前额叶的认知弹性》文章 · 初始置信度：高
 - 2026-08-31 · 修订 · 基于《神经流形》(#130) · 新增：（1）Ostojic & Fusi 2024 的弹性-泛化权衡框架（高维表征支持弹性，低维支持泛化）；（2）新增与 neural-manifold 的连接；（3）更新 key_sources 加入 PMC12177215
+- 2026-07-08 · 修订 · 基于《决策无处不在：神经像素探针如何终结"一个脑区一个功能"，又如何暴露出新的陷阱》(#191) · 新增：混合选择性可能是全脑默认组织原则（而非PFC特权）的讨论；新增与 [[distributed-decision-coding]] 的连接
 
 ## 来源文章
 - [[2026-08-24-dlpfc-cognitive-flexibility-rule-switching]]
 - [[2026-08-31-neural-manifold-population-coding-geometry]]
+- [[2026-07-08-neuropixels-distributed-decision-coding]]

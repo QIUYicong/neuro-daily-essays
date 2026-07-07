@@ -6,10 +6,10 @@ type: mechanism
 status: mainstream
 confidence: high
 created: 2026-08-31
-updated: 2026-08-31
-revision_count: 1
-dimensions: [cellular, microcircuit, methods, cognition]
-related: [population-vector-coding, rotational-dynamics-motor, mixed-selectivity, ventral-visual-stream, dorsal-visual-stream, motor-cortex, prefrontal-cortex, basal-ganglia]
+updated: 2026-07-08
+revision_count: 2
+dimensions: [cellular, microcircuit, methods, cognition, whole-brain-network]
+related: [population-vector-coding, rotational-dynamics-motor, mixed-selectivity, ventral-visual-stream, dorsal-visual-stream, motor-cortex, prefrontal-cortex, basal-ganglia, neuropixels, distributed-decision-coding]
 prerequisites: [action-potential, population-vector-coding, dimensionality-reduction]
 opens_questions: [Q-manifold-01, Q-manifold-02, Q-manifold-03]
 source_articles: [2026-08-31-neural-manifold-population-coding-geometry]
@@ -29,6 +29,8 @@ Cunningham & Yu（2014，PMID:25151264）提出了"维度降维"框架：使用 
 流形由**神经模式**（neural modes）描述（Gallego et al. 2017，PMID:28595054）：每个神经模式是一个跨越全部神经元的特征激活向量，任意时刻的群体活动是有限个神经模式的加权叠加。这些模式由回路连接约束决定，因此流形形状直接反映底层神经回路的结构。
 
 重要的 2024 年发现（Fortunato et al.，PMID:37503015）：神经流形在运动皮层中本质上是**非线性**的，线性降维方法（PCA）系统性低估流形的维度和信息容量；任务越复杂，非线性程度越高；纹状体的流形非线性程度显著高于运动皮层。
+
+2026-07-08 补充：[[neuropixels]] 高密度探针带来的全脑同步记录数据（数万神经元/数十脑区），把流形分析的对象从单一脑区群体扩展到了全脑尺度——[[distributed-decision-coding]] 词条记录了这一扩展中的一个具体案例：全脑范围内，运动/反馈相关的流形结构近乎无差别地广播，而选择方向这类抽象变量的流形结构则局限在少数回路。这提示"流形维度/曲率"这套几何语言，未来需要在全脑尺度（而非单脑区）上重新审视——不同脑区各自的局部流形，如何被更高层级地组织成一个跨脑区的整体几何结构，是流形理论尚未系统回答的问题。
 
 ## 关键机制
 
@@ -67,6 +69,8 @@ Sadtler et al.（2014，PMID:25164754）的脑机接口实验证明：
 - [[motor-cortex]] — 旋转动力学的主要发现区域
 - [[prefrontal-cortex]] — 高维混合选择性流形
 - [[basal-ganglia]] — 纹状体流形比运动皮层更非线性（Fortunato 2024）
+- [[neuropixels]] — 全脑同步记录是流形分析扩展到全脑尺度的数据基础
+- [[distributed-decision-coding]] — 全脑尺度流形结构因信号种类（运动/反馈 vs 选择）而呈现不同的分布广度
 
 ## 未解问题
 
@@ -77,7 +81,9 @@ Sadtler et al.（2014，PMID:25164754）的脑机接口实验证明：
 ## 修订历史
 
 - 2026-08-31 · 创建 · 基于《神经流形：大脑如何用集体活动的几何形状携带意义》(#130) · 初始置信度：高
+- 2026-07-08 · 修订 · 基于《决策无处不在：神经像素探针如何终结"一个脑区一个功能"，又如何暴露出新的陷阱》(#191) · 新增：流形分析向全脑尺度扩展的讨论；新增与 [[neuropixels]]、[[distributed-decision-coding]] 的连接
 
 ## 来源文章
 
 - [[2026-08-31-neural-manifold-population-coding-geometry]]
+- [[2026-07-08-neuropixels-distributed-decision-coding]]
