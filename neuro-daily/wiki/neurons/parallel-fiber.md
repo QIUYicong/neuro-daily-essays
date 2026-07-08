@@ -6,8 +6,8 @@ type: structure
 status: established
 confidence: high
 created: 2026-10-19
-updated: 2026-10-21
-revision_count: 2
+updated: 2026-07-09
+revision_count: 3
 dimensions: [cellular, microcircuit, systems]
 related: [granule-cell-cerebellar, purkinje-cell, climbing-fiber, cerebellar-ltd, molecular-layer-interneuron, mossy-fiber, cerebellum, cerebellar-memory-transfer]
 prerequisites: [granule-cell-cerebellar, synaptic-transmission, action-potential]
@@ -67,6 +67,8 @@ key_sources: ["PMID:37671785", "PMID:17046686", "PMID:15541316", "PMID:30284678"
 2. **中间维度**：约690亿GC（人脑），产生等量PF
 3. **功能效果**：将低维感觉运动状态映射到极高维稀疏空间 → PC可用简单线性阈值区分复杂情景（Cover定理的神经实现）
 
+**输入层并非同质（2026-07-09新增）**：这条扩维链条的起点——[[mossy-fiber]]——本身携带可区分的"生物物理签名"：来自不同模态的苔藓纤维终扣在同一GC上具有系统性不同的突触强度与短时程动态（Chabrol et al. 2015，PMID:25821914），使GC在展开重编码之前，就已经能对多模态共激活做出时间编码响应。这意味着PF携带的高维表征，从上游input阶段起就不是对同质信号的纯粹扩维，而是叠加在一个已含通路身份信息的输入层之上。
+
 ### 波束假说 vs 微区块假说
 
 | 模型 | 预测 | 状态 |
@@ -124,8 +126,10 @@ Bae等人（2025，PMID:40595477）为规则2提供了首个定量、可预测�
 
 - 2026-10-19 · 创建 · 基于《平行纤维：小脑皮层最细的导线，如何传递误差学习的语言》（文章 #179）· 来源：PMID:37671785/17046686/15541316/30284678/32866603/30069835/24916288/32599123 · 初始置信度：高（解剖和LTD/LTP机制有扎实直接证据；稀疏编码争议和波束假说有高质量挑战数据）
 - 2026-10-21 · 修订 rev1→rev2 · 基于《记忆搬家的经济学：任务难度如何决定运动学习记忆留在小脑皮层还是搬进深部小脑核》（文章 #189）· 新增：Bae 2025正规化原则专节（两级存储的定量判据）；Nguyen-Vu 2013因果操控证据；关键证据表新增2行；连接新增cerebellar-memory-transfer；未解问题新增Q-pf-03、Q-pf-04，Q-pf-01标注部分推进（非终局裁决）· 新增key_sources：PMID:40595477、PMID:24162651
+- 2026-07-09 · 修订 rev2→rev3 · 基于《颗粒细胞的输入密码：苔藓纤维如何用突触多样性给感觉信号打上"身份标签"》一文（#192）· 新增"输入层并非同质"段落，说明PF携带的高维表征上游已由MF突触多样性预先携带通路身份信息；填补长期悬空引用mossy-fiber（本次已建页）
 
 ## 来源文章
 
 - [[2026-10-19-parallel-fiber-cerebellar-cortex-computation]]
 - [[2026-10-21-cerebellar-memory-transfer-task-difficulty]]
+- [[2026-07-09-mossy-fiber-synaptic-diversity-coding]]

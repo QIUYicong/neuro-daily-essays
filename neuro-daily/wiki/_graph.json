@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-07-08",
+  "updated": "2026-07-09",
   "node_count": 346,
   "edge_count": 2099,
   "edge_types": [
@@ -3182,6 +3182,15 @@
       "status": "mainstream",
       "confidence": "medium",
       "page": "wiki/concepts/distributed-decision-coding.md"
+    },
+    {
+      "id": "mossy-fiber",
+      "title": "苔藓纤维",
+      "domain": "neurons",
+      "type": "structure",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/neurons/mossy-fiber.md"
     }
   ],
   "edges": [
@@ -13625,7 +13634,7 @@
     },
     {
       "from": "gap-junction-electrical-synapse",
-      "to": "sharp-wave-ripple",
+      "to": "sharp-wave-ripples",
       "type": "related"
     },
     {
@@ -15005,6 +15014,48 @@
       "to": "dopamine-reward-prediction-error",
       "type": "related",
       "note": "反馈(奖励/错误)信号是全脑分布最广、解释方差贡献最大的变量之一"
+    },
+    {
+      "from": "mossy-fiber",
+      "to": "granule-cell-cerebellar",
+      "type": "mechanism-of",
+      "note": "苔藓纤维突触多样性是颗粒细胞多模态时间编码的上游基础"
+    },
+    {
+      "from": "granule-cell-cerebellar",
+      "to": "mossy-fiber",
+      "type": "related",
+      "note": "颗粒细胞是苔藓纤维的主要突触后靶点"
+    },
+    {
+      "from": "mossy-fiber",
+      "to": "parallel-fiber",
+      "type": "prerequisite-for",
+      "note": "MF→GC→PF构成小脑输入到输出计算链条的起点"
+    },
+    {
+      "from": "mossy-fiber",
+      "to": "cerebellum",
+      "type": "part-of",
+      "note": "苔藓纤维是小脑皮层最主要的兴奋性外部输入"
+    },
+    {
+      "from": "mossy-fiber",
+      "to": "climbing-fiber",
+      "type": "related",
+      "note": "MF与CF是小脑两条并列的主要输入，分别携带情景信号与误差/教学信号"
+    },
+    {
+      "from": "connectomics",
+      "to": "mossy-fiber",
+      "type": "supports",
+      "note": "Allen介观连接组系统追踪苔藓纤维前体核团（脑桥、前庭核等）的投射"
+    },
+    {
+      "from": "mossy-fiber",
+      "to": "pattern-separation",
+      "type": "related",
+      "note": "MF突触多样性驱动的时间编码与海马DG展开重编码是计算原则上的类比（非共享分子机制）"
     }
   ],
   "dangling_references": [

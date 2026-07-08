@@ -1,0 +1,74 @@
+# 运行日志 2026-07-09
+
+**触发时间（容器时钟核对）**：`date -u` = 2026-07-08 16:00 UTC = `TZ=Asia/Shanghai date` 2026-07-09 00:00 CST（北京时间刚跨入新日历日，非计划中的09:00触发；决策点4"触发频率/时间点异常"仍未解决，见Issue #1）。
+
+## 0. 前置核实
+
+- 已读取仓库根目录 `ROUTINE.md`、`KNOWLEDGE-BASE-DESIGN.md`，均存在，未触发"停止并报告"条件。
+- `git checkout main && git pull origin main`：从 `e251272` 快进到 `0b99c94`（11条2026-07-08的dup诊断no-op提交），非强推，无冲突。
+- 确认 `neuro-daily/wiki/`、`ROUTINE.md`、`KNOWLEDGE-BASE-DESIGN.md` 均在 main 上，基础架构完整。
+
+## 1. 日期核实：本次触发对应全新的真实日历日，非重复触发
+
+- 之前11次`dup1`-`dup11`诊断均针对2026-07-08（该日真实文章#191已于当天00:21 CST正常发布）。
+- 本次容器时钟显示北京时间已跨入 **2026-07-09 00:00**，是一个新的真实日历日，`articles/`、`logs/` 目录均无2026-07-09的**真实**产出记录（虽然存在同名的旧文件，见下）。
+- 判定：本次为2026-07-09的首次正常触发，应按ROUTINE.md完整流程生产文章，而非重复触发no-op。
+
+## 2. 命名冲突核实（历史日期漂移遗留问题）
+
+- 发现 `articles/2026-07-09-glucocorticoids-stress-memory-amygdala.md`（第77篇）已存在——来自本知识库2026-07-01前后"日期漂移"事件产生的虚拟时间线批次（commit `c7e0b40`，2026-07-01真实时间提交，标注为"2026-10-21"批次的一部分，但该批次内部文章日期从2026-05-24连续排到2026-10-21，2026-07-09这一天恰好被占用）。
+- 该文件已完整固结（notes/sources/wiki修订/CHANGELOG均已存在），不是本次会话遗留的半成品。
+- 依据2026-07-07修复事件（commit `6cbfc22`）确立的"日期+slug"消歧命名惯例：article文件名本身含slug，与旧文件（`glucocorticoids-stress-memory-amygdala`）自然不冲突；但 notes/sources/log 三类文件旧例是仅用日期命名，因此本次采用"日期+slug"后缀（`2026-07-09-mossy-fiber-synaptic-diversity-coding-{reading-notes.md,sources.json,run.log}`），不覆盖、不修改任何已有文件。
+
+## 3. GitHub Issue #1 状态核查
+
+- 读取Issue #1完整历史（21条评论）：决策点1/2（main历史"分叉"）已确认为浅克隆伪影，不成立；决策点3（知识库日期漂移）已于2026-07-07（commit `6cbfc22`）非破坏性修复，恢复真实日历日期运作，旧虚拟时间线文件保留为归档；决策点4（触发频率/时间点异常）仍未解决——本次触发同样落在计划外的00:00时段，而非09:00。
+- 未收到仓库所有者任何人工回复（21条评论均为自动化诊断会话在所有者账号下发出）。
+
+## 4. 选题（缺口驱动）
+
+- 读取 `state/unresolved_questions.md`、`state/contested_claims.json`、`wiki/_graph.json`、`wiki/index.md`、`state/monthly_synthesis.md`。
+- `_graph.json` 悬空引用扫描：发现2个——`mossy-fiber`（被 `granule-cell-cerebellar.md`、`parallel-fiber.md` 的 related 字段引用但无对应页面）、`sharp-wave-ripple`（拼写不一致，应为 `sharp-wave-ripples`）。
+- 按ROUTINE.md选题优先级第3位"填补悬空引用"，选定核心问题：小脑苔藓纤维突触多样性如何决定颗粒细胞层的多模态时间编码。
+- 未发现近7天重大突破需要突破追踪模式；`contested_claims.json` 中5条open矛盾均无新证据可裁决，本次不触碰。
+
+## 5. 检索
+
+- NCBI E-utilities esearch：4次检索（`cerebellar mossy fiber glomerulus granule cell`等），定向命中Chabrol 2015关键论文。
+- PMC全文获取：BioC API成功获取2篇（Chabrol 2015、Allen mesoscale connectome 2014）；BioC对2篇失败后改用 `efetch.fcgi?db=pmc&rettype=full&retmode=xml`，成功获取1篇（Holla 2026），1篇因出版方限制仅获得元数据框架（Xu-Friedman 2003，已在正文中如实标注"未读取全文"）。
+- 最终来源：8个（3个开放全文含1个官方机构来源Allen Institute，1个PMC记录存在但正文受限，4个仅摘要），满足ROUTINE.md最低要求（≥5来源，≥2开放全文，≥1官方机构来源）。
+
+## 6. 写作与固结
+
+- 文章：`articles/2026-07-09-mossy-fiber-synaptic-diversity-coding.md`（第192篇，约5500字）
+- 笔记：`notes/2026-07-09-mossy-fiber-synaptic-diversity-coding-reading-notes.md`
+- 来源：`sources/2026-07-09-mossy-fiber-synaptic-diversity-coding-sources.json`
+- Wiki固结：
+  - 新建 `wiki/neurons/mossy-fiber.md`（填补悬空引用）
+  - 修订 `wiki/neurons/granule-cell-cerebellar.md`（rev2→rev3）
+  - 修订 `wiki/neurons/parallel-fiber.md`（rev2→rev3）
+- 矛盾检查：今日新证据与既有wiki页无冲突，未触发矛盾协议，`contested_claims.json` 未新增登记。
+- 图谱：`_graph.json` 新增1节点（mossy-fiber）+7边；修复1条历史遗留悬空引用（sharp-wave-ripple→sharp-wave-ripples）。校验后确认图谱内无悬空引用（0个）。
+- 导航层维护：`index.md` 更新头部摘要行；新增mossy-fiber条目；**补录**2026-07-08会话（#191）遗漏同步的3个页面条目（methods/neuropixels、concepts/neural-manifold、concepts/distributed-decision-coding，此前只出现在文末流水记录，未进入领域分类列表）。
+- `wiki/CHANGELOG.md`、`state/topic_ledger.json`（新增条目#192，total_articles 182→183）、`state/unresolved_questions.md`（新增Q-mf-01/02/03）、`state/source_registry.json`、`state/monthly_synthesis.md` 均已更新。
+
+## 7. 自检结果
+
+- **真实性**：8条来源均有PMID/DOI，wiki新页与修订段落每条主张均标注来源；未将小鼠前庭小脑单一分区结果过度推广（已在"争议与未解问题"及Q-mf-02中明确标注普适性未知）；Xu-Friedman 2003正文XML未获取已如实标注。
+- **一致性**：无新证据与既有wiki页冲突，未触发矛盾协议；`granule-cell-cerebellar.md`/`parallel-fiber.md` 的 updated/revision_count/修订历史已同步更新；`_graph.json` 校验0悬空引用。
+- **可导航**：`index.md`与`CHANGELOG.md`已反映今日变化；新页`mossy-fiber.md`的related/prerequisites均≥1。
+- **情景层**：文章/笔记/来源/日志齐全，均使用消歧命名，未修改任何已有的articles/notes/sources/logs文件。
+
+## 8. Git操作
+
+- 分支：`main`（单分支累积方案，遵ROUTINE.md）
+- 提交前 `git pull --rebase origin main` 确认无新提交。
+- Commit message: "Add neuro daily article + wiki consolidation for 2026-07-09"
+- Push: `git push origin main`（结果见下方"提交后更新"）
+
+## 9. GitHub Issue #1 后续处理
+
+- 本次是main HEAD的实质性变化（新的真实内容产出），符合2026-07-05评论(#comment 4887895317)确立的"继续评论"例外条件之一；计划推送成功后追加一条简要状态评论，报告本次真实产出+重申决策点4仍待处理，不做实质性诊断重复。
+
+---
+（推送结果与commit hash见下方"提交后更新"追加段落）

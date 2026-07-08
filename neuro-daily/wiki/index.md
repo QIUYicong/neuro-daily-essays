@@ -5,7 +5,7 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
-> 最后更新：2026-07-07（第190篇·谁在给记忆打拍子：内侧隔核如何用起搏神经元合奏出海马θ振荡）· 主题页总数：**334**（新建1页：systems/medial-septum；修订2页：theta-oscillations rev6/septohippocampal-cholinergic rev2；图谱346节点/2099边）
+> 最后更新：2026-07-09（第192篇·颗粒细胞的输入密码：苔藓纤维如何用突触多样性给感觉信号打上"身份标签"）· 主题页总数：**346**（新建1页：neurons/mossy-fiber；修订2页：granule-cell-cerebellar rev2→rev3/parallel-fiber rev2→rev3；图谱349节点/2114边；本次同时补录了此前#191未同步进本页面的 methods/neuropixels 与 concepts/neural-manifold、concepts/distributed-decision-coding 条目，并修复了1处历史遗留的悬空引用拼写不一致 sharp-wave-ripple→sharp-wave-ripples）
 >
 > **重要说明（日期修复）**：本知识库此前经历过一次日期漂移事件——文章内部日期编号一度脱离真实日历时间，持续推进至虚拟日期"2026-10-21"，而真实世界时间当时仅为2026年7月初。从本条目（2026-07-07，第190篇）起，恢复使用真实日历日期。2026-05-24至2026-10-21区间内的所有既有文章/notes/sources/logs文件保留原样（append-only不变量，不做任何删除或改名），其日期标签仅代表内部生产顺序，不代表真实创作时间。完整说明见 `wiki/CHANGELOG.md` 2026-07-07 条目与对应 `logs/` 运行日志。
 
@@ -41,7 +41,8 @@
 - 🟢 [视丘放电模式（爆发/强直双模式）](neurons/thalamic-firing-modes.md) — 清醒VPm约15%感觉响应为爆发；爆发提高时序精度（非幅度）；爆发-强直连续谱：检测vs辨别；基于时序的感知门控 **[NEW 2026-06-30]**
 - 🟢 [缝隙连接与神经元电突触（Cx36）](neurons/gap-junction-electrical-synapse.md) — Connexin-36 缝隙连接是成年大脑 PV+ 中间神经元电突触的主要类型；亚毫秒同步；Cx36 KO 选择性消除伽马振荡（保留纹波）；可被多巴胺/CaMKII 动态调节；LinCx 2025 工程化电突触新突破 **[NEW 2026-10-06]**
 - 🟢 [分子层中间神经元（MLI）](neurons/molecular-layer-interneuron.md) — 小脑皮层的 GABA 能前馈抑制元件；MLI1（Cx36+，电偶联，同步抑制 PC）vs MLI2（Nxph1+，去抑制 PC via MLI1）；逆向可塑性（PF+CF→MLI LTP 同时 PC LTD）；反弹增强（RP）的前突触来源；VOR 学习必要因子 **[NEW 2026-10-09 · 修订 rev2 2026-10-21]**
-- 🟢 [平行纤维（PF）](neurons/parallel-fiber.md) — GC 轴突T字形分叉后在分子层水平延伸的纤维束（3–6 mm/条）；每 PC 接受 >100,000 条 PF 输入；PF-PC 突触双向可塑性（PF+CF→LTD；PF alone→LTP，Ca²⁺阈值开关，Coesmans 2004）；最优 GC 编码密度任务依赖（Xie 2023）；Marr-Albus-Ito 模型的情景载体；**新增**：Bae 2025正规化原则为两级存储提供定量判据 **[NEW 2026-10-19 · 修订 rev2 2026-10-21]**
+- 🟢 [平行纤维（PF）](neurons/parallel-fiber.md) — GC 轴突T字形分叉后在分子层水平延伸的纤维束（3–6 mm/条）；每 PC 接受 >100,000 条 PF 输入；PF-PC 突触双向可塑性（PF+CF→LTD；PF alone→LTP，Ca²⁺阈值开关，Coesmans 2004）；最优 GC 编码密度任务依赖（Xie 2023）；Marr-Albus-Ito 模型的情景载体；**新增**：Bae 2025正规化原则为两级存储提供定量判据；MF突触多样性预先携带通路身份信息 **[NEW 2026-10-19 · 修订 rev2→rev3 2026-07-09]**
+- 🔵 [苔藓纤维（MF）](neurons/mossy-fiber.md) — 小脑最主要兴奋性输入，起源脊髓/脑桥核/前庭核；小球超微结构数百释放位点相距0.46μm无胶质完全隔离（谷氨酸溢出→AMPA脱敏）；不同模态终扣携带可区分"生物物理签名"支持多模态时间编码（Chabrol 2015）；NMDA/mGluR依赖LTP会重塑该签名本身；2026年在体证据证明适应从MF这一级就已开始 **[NEW 2026-07-09]**
 - 🟢 [少突胶质细胞](neurons/oligodendrocyte.md) — CNS 产髓鞘胶质细胞，三重功能：绝缘（跳跃式传导/120m/s）+ 代谢支持（MCT1-乳酸轴）+ 经验依赖髓鞘化（Adaptive myelination）；运动/认知学习需要新 OL 生成（McKenzie 2014, Shimizu 2023）**[NEW 2026-10-05]**
 - 🟢 [小胶质细胞](neurons/microglia.md) — CNS 常驻免疫细胞，发育期突触剪枝执行者：CR3（C3b识别）+ TREM2（PS识别）双通路；活动依赖性（TTX→优先吞噬沉默突触）；AD中C1q重激活；精神分裂症C4A→过度剪枝；成年稳态P2RY12/TMEM119/CX3CR1分子签名；DAM两步激活（rev2新增） **[NEW 2026-06-03 · 修订 rev1→rev2 2026-09-17]**
 - 🔵 [TREM2（髓系细胞触发受体2）](neurons/trem2.md) — 小胶质细胞脂质传感器/危险信号受体；DAP12→PI3K→Akt→mTOR促细胞存活/增殖/吞噬；DAM Step 2激活的分子开关；R47H变异→AD风险OR≈3-5×；INVOKE-2 Phase 2（AL002c激动抗体）阴性结果 **[NEW 2026-09-17]**
@@ -127,6 +128,8 @@
 - 🔵 [Homer1a](concepts/homer1a.md) — 短亚型 Homer1 即早基因，mGluR1/5-IP3R 支架的显性负调控子；**双门控**：NA（清醒时排除 PSD）+ 腺苷 A1R（睡眠时引导入 PSD）；驱动睡眠依赖的 GluA1 特异性突触缩减（Diering 2017 Science）；与 Arc 协同实现 SHY 分子执行 **[NEW 2026-10-16]**
 - 🟢 [工作记忆](concepts/working-memory.md) — 容量~4项的临时信息维持系统；γ爆发（活动性编码）+ STP突触易化（静默储存）双机制；依赖dlPFC吸引子回路、PV-γ轴和多巴胺D1调节 **[NEW 2026-06-05]**
 - 🔵 [混合选择性](concepts/mixed-selectivity.md) — dlPFC 神经元对多变量交叉项的非线性响应；高维化表征支持任意规则组合的线性可读出；Rigotti 2013 证明维度降低预测行为错误；认知弹性的编码基础 **[NEW 2026-08-24]**
+- 🟢 [神经流形](concepts/neural-manifold.md) — 神经元群体在高维状态空间中实际探索的低维弯曲子空间；突触连接的结构化相关性约束群体活动；流形维度/曲率/容量决定系统能表征什么、学习什么；Neuropixels时代扩展至全脑尺度 **[NEW 2026-08-31（补录于2026-07-09）]**
+- 🔵 [全脑分布式决策编码](concepts/distributed-decision-coding.md) — 全脑同步记录显示动作/反馈信号近乎无差别广播全脑，但选择方向这类抽象变量的特异神经元经严格控制混杂因素后仅占约4%；分布式编码需按信号种类分别校准 **[NEW 2026-07-08（补录于2026-07-09）]**
 - 🔵 [认知稳定性—弹性权衡](concepts/stability-flexibility-tradeoff.md) — 工作记忆系统的基本计算约束；BG-PFC-dACC 网络的三角解决方案；OCD/ADHD/精神分裂症/PD 的四种失调模式 **[NEW 2026-08-24]**
 - 🟢 [任务切换代价](concepts/task-switching-cost.md) — 混合代价（维持多套规则）+ 残余切换代价（旧规则正向干扰）；额顶网络与切换预测误差（Sali 2024 fMRI+RL）；OCD 超大切换代价 **[NEW 2026-08-24]**
 - 🟢 [持续活动（延迟期放电）](concepts/persistent-activity.md) — PFC 延迟期的神经活动模式；实为间歇性 γ 爆发而非连续高频放电；依赖 NMDA 慢衰减和循环兴奋吸引子网络；2023/2024最新证据：持续放电神经元携带更多WM信息；Panichello 2024开-关状态 **[修订 rev2 2026-08-18]**
@@ -340,6 +343,7 @@
 - 🟡 [对抗性协作](methods/adversarial-collaboration.md) — 让对立理论家预注册具体预测与通过/失败标准，再按标准裁判；COGITATE 2025 是神经科学最大规模实践（256人，fMRI/MEG/iEEG，IIT vs GNWT）；同时挑战两理论核心机制预测 **[NEW 2026-05-31]**
 - 🟢 [单细胞RNA测序（scRNA-seq）](methods/single-cell-rna-seq.md) — 液滴微流控+条形码+UMI单细胞基因组测序；snRNA-seq解决脑组织分离难题；UMAP降维+Leiden聚类揭示神经元转录组多样性；神经元分类学革命的核心技术平台 **[修订 rev1→rev2 2026-09-16：补充空间转录组学互补关系]**
 - 🟢 [空间转录组学](methods/spatial-transcriptomics.md) — MERFISH：多轮序贯成像+纠错编码（MHD4）在保留空间坐标的前提下测量1000+基因；Chen 2015奠基（140→1001 RNA）；Zhang 2021（初级运动皮层，258基因，IT梯度，层级组织）；Allen Brain Cell Atlas 2023（34类/338亚类/5322簇；背腹侧分化；空间模块≠解剖区域；TF组合码）；填补 scRNA-seq 的空间信息缺口 **[NEW 2026-09-16]**
+- 🟢 [Neuropixels（神经像素探针）](methods/neuropixels.md) — 单硅轴960位点选384通道高密度电生理探针，片上放大滤波复用消除电缆噪声；两探针同时记录741神经元/5脑结构；八探针联合采样3000+位点；Kilosort尖峰分选无真正全自动算法，组织漂移持续挑战长期追踪 **[NEW 2026-07-08（补录于2026-07-09）]**
 
 ## theories（理论）
 

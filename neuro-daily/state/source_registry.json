@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-08",
+  "last_updated": "2026-07-09",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -17550,6 +17550,56 @@
         "id": "PMID:34980926",
         "full_text": false,
         "note": "Urai 2022 Nat Neurosci 综述，仅摘要（登录墙限制未获全文）"
+      }
+    ]
+  },
+  "sources_2026-07-09-mossy-fiber-synaptic-diversity-coding": {
+    "article": "#192 · 颗粒细胞的输入密码：苔藓纤维如何用突触多样性给感觉信号打上\"身份标签\"",
+    "date": "2026-07-09",
+    "sources": [
+      {
+        "id": "PMID:12657677",
+        "pmcid": "PMC6742013",
+        "full_text": false,
+        "note": "Xu-Friedman & Regehr 2003 J Neurosci 苔藓纤维小球超微结构；PMC记录存在但正文XML受出版方限制，引用基于摘要"
+      },
+      {
+        "id": "PMID:25821914",
+        "pmcid": "PMC4413433",
+        "full_text": true,
+        "note": "Chabrol et al. 2015 Nat Neurosci 苔藓纤维突触多样性支持多模态时间编码"
+      },
+      {
+        "id": "PMID:9914288",
+        "full_text": false,
+        "note": "D'Angelo et al. 1999 J Neurophysiol 苔藓纤维-颗粒细胞NMDA/mGluR依赖LTP，仅摘要"
+      },
+      {
+        "id": "PMID:21185357",
+        "full_text": false,
+        "note": "Andreescu et al. 2011 Neuroscience NR2A介导LTP对VOR适应必需，仅摘要"
+      },
+      {
+        "id": "PMID:16207782",
+        "full_text": false,
+        "note": "Nieus et al. 2006 J Neurophysiol LTP改写突触短时程动态，仅摘要"
+      },
+      {
+        "id": "PMID:31904871",
+        "full_text": false,
+        "note": "Ando et al. 2020 J Comp Neurol 前庭核苔藓纤维投射异质性，仅摘要"
+      },
+      {
+        "id": "PMID:24695228",
+        "pmcid": "PMC5102064",
+        "full_text": true,
+        "note": "Oh et al. 2014 Nature Allen小鼠脑连接组（官方机构来源）"
+      },
+      {
+        "id": "PMID:41381355",
+        "pmcid": "PMC12828877",
+        "full_text": true,
+        "note": "Holla, Brown & Raman 2026 J Neurosci 在体证据：苔藓纤维到小脑核传递短时程抑制"
       }
     ]
   }

@@ -4,6 +4,31 @@
 
 ---
 
+## 2026-07-09 · 文章 #192 · 颗粒细胞的输入密码：苔藓纤维如何用突触多样性给感觉信号打上"身份标签"
+
+**填补悬空引用**（缺口驱动选题优先级第3位）：`granule-cell-cerebellar.md` 与 `parallel-fiber.md` 的 `related` 字段此前已引用 `mossy-fiber` slug，但一直没有对应页面；今日创建。
+
+**新建页面（1个）**：
+
+- `wiki/neurons/mossy-fiber.md`（rev1，mainstream/medium）：小脑苔藓纤维——小球超微结构（数百释放位点相距0.46μm，无胶质完全隔离→谷氨酸溢出→AMPA脱敏）、突触多样性（不同模态终扣的"生物物理签名"支持多模态时间编码）、NMDA/mGluR依赖LTP会重塑该签名本身、起源异质性（Allen连接组+前庭核单轴突重建）、2026年在体证据证明适应从MF这一级就已开始；新增 Q-mf-01（分子机制）/ Q-mf-02（跨小脑分区普适性）/ Q-mf-03（在体机制区分）
+
+**修订页面（2个）**：
+
+- `wiki/neurons/granule-cell-cerebellar.md` rev2→rev3：新增"输入层的多模态时间编码"段落，整合MF突触多样性作为GC编码上游基础；关键证据表新增Chabrol 2015；related新增mossy-fiber；dimensions新增synaptic
+- `wiki/neurons/parallel-fiber.md` rev2→rev3：新增"输入层并非同质"段落，说明PF高维表征上游已由MF突触多样性预先携带通路身份信息
+
+**矛盾登记（0个）**：无新矛盾。
+
+**悬空引用修复（1个历史遗留）**：`_graph.json` 中 `sharp-wave-ripple`（拼写不一致，应为复数）→ 修正为 `sharp-wave-ripples`，指向既有页面 `wiki/concepts/sharp-wave-ripples.md`。
+
+**index.md 补录**：本次同时发现并修复了 2026-07-08（文章#191）会话遗留的 index.md 同步缺口——`methods/neuropixels.md`、`concepts/neural-manifold.md`、`concepts/distributed-decision-coding.md` 三个页面此前已创建/存在，但从未被加入 index.md 的领域分类列表（只出现在页面末尾的流水记录段落）；本次已补充对应条目。
+
+**图谱变化**：348节点/2107边 → **349节点/2114边**（+1节点：mossy-fiber；+7边：mossy-fiber↔granule-cell-cerebellar mechanism-of/related；mossy-fiber→parallel-fiber prerequisite-for；mossy-fiber→cerebellum part-of；mossy-fiber→climbing-fiber related；connectomics→mossy-fiber supports；mossy-fiber→pattern-separation related；另修复1条悬空边指向：gap-junction-electrical-synapse→sharp-wave-ripples）
+
+**层级**：cellular × synaptic × microcircuit × brain-region × behavior
+
+---
+
 ## 2026-07-07 · 文章 #190 · 谁在给记忆打拍子：内侧隔核如何用起搏神经元合奏出海马θ振荡
 
 ### ⚠️ 事件说明：日期漂移修复（Issue #1 处理结果）

@@ -2202,3 +2202,17 @@
 - 矛盾登记：0个（Steinmetz与Musall的表面张力经IBL标准化分析定量裁决，非矛盾而是精度提升）
 
 **层级**：methods × cellular × brain-region × whole-brain-network × cognition（首次系统覆盖大规模电生理方法学，填补课程脊柱10长期薄弱分支；同时把已有的混合选择性/神经流形概念从局部脑区尺度扩展到全脑尺度）
+
+### 2026-07-09（#192）：颗粒细胞的输入密码——苔藓纤维如何用突触多样性给感觉信号打上"身份标签"
+
+**核心发现**：小脑苔藓纤维（MF）-颗粒细胞（GC）突触长期被简化为均质的"传声筒"，但证据显示这条输入链条本身就在做计算：MF终扣构成的"小球"（glomerulus）超微结构极为拥挤——数百个释放位点相距仅0.46微米、无胶质完全隔离（Xu-Friedman & Regehr 2003, PMID:12657677），导致谷氨酸溢出与AMPA受体脱敏；在这一结构之上，同一GC上不同模态来源（前庭初级/前庭次级/视觉相关）的MF终扣表现出可区分的突触强度与短时程动态，构成"生物物理签名"，使GC能通过放电频率与首个动作电位潜伏期对多模态共激活做时间编码（Chabrol et al. 2015, PMID:25821914）；这套签名并非固定不变——NMDA/mGluR依赖的LTP（D'Angelo 1999, PMID:9914288）会重塑短时程动态本身（Nieus 2006, PMID:16207782），为VOR等前庭-眼动适应提供必需的分子基础（Andreescu 2011, PMID:21185357）；2026年在体证据（Holla, Brown & Raman, PMID:41381355）进一步证明，重复感觉刺激下的适应从MF到小脑核这一级就已开始，而非只发生在下游浦肯野细胞或核团。
+
+**知识地图贡献**：
+- 新建 neurons/mossy-fiber.md（mainstream/medium，rev1）：超微结构、突触多样性、可塑性、起源异质性、在体证据五层机制；新增 Q-mf-01/02/03；填补长期悬空引用
+- granule-cell-cerebellar.md（rev2→rev3）：新增"输入层的多模态时间编码"段落
+- parallel-fiber.md（rev2→rev3）：新增"输入层并非同质"段落
+- 图谱：348节点/2107边 → 349节点/2114边（+1节点，+7边）；同时修复1处历史遗留悬空引用拼写不一致（sharp-wave-ripple→sharp-wave-ripples）
+- 维护性修复：补录#191会话遗漏同步进index.md领域列表的3个页面（methods/neuropixels、concepts/neural-manifold、concepts/distributed-decision-coding）
+- 矛盾登记：0个
+
+**层级**：cellular × synaptic × microcircuit × brain-region × behavior（首次为"苔藓纤维→颗粒细胞→平行纤维→浦肯野细胞"这条小脑核心计算链条补齐输入端的wiki页面覆盖）
