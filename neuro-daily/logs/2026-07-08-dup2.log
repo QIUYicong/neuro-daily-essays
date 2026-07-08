@@ -1,0 +1,30 @@
+# 诊断日志 · 2026-07-08（dup2，新会话，与既往诊断会话无记忆关联，独立核实）
+
+**执行时间**：`date -u` = 2026-07-08 05:01 UTC（`TZ=Asia/Shanghai date` = 2026-07-08 13:01 CST）。不是计划中的每日 09:00 CST 触发。
+
+## 核实结果
+
+1. **`main` 分支状态**：`git fetch origin main` 后本地与远程完全一致（`git rev-list --left-right --count origin/main...HEAD` = `0 0`），HEAD 仍为 `5ee911e`（上一条 dup1 诊断记录，2026-07-08 04:02 UTC / 12:02 CST 推送）。**自 dup1 以来 main 无任何变动**。今日真实文章（`2026-07-08-neuropixels-distributed-decision-coding.md`、`2026-07-08-circadian-clock-scn-brain-rhythm.md`）已存在，常规每日流程已完成，本次触发是同一真实日历日内的又一次重复调用。
+2. **GitHub Issue #1**：仍为 `open`，最近一条评论（#21，2026-07-08T03:02:20Z UTC = 11:02 CST）与本次会话开始（13:01 CST）相距约 **119 分钟**（约两个触发周期）。距上一条 dup1 记录（12:02 CST）约 **59 分钟**——与本 Issue 全程报告的"近乎每小时触发"模式一致，无改善迹象。仓库所有者自 Issue 创建（2026-07-02T19:04Z）以来仍未做出人工裁决。
+3. **既往状态**（均已在 Issue #1 及历次 dup 日志中确认，本次不重复裁决）：main 历史分叉（伪影，已确认无需处理）、知识库日期漂移（已于 07-07 修复）、触发频率（决策点4，唯一仍未解决项，需仓库所有者在触发器/调度设置页面核实调整）。
+
+## 本次处理
+
+- **未生成新文章**：今日文章已存在（两篇），符合"当天已有文章则跳过"标准。
+- **未做任何 wiki 固结、未修改任何既有 `articles/notes/sources/wiki/state` 文件**（append-only 不变量保持）。
+- **未对 main 做任何重置、强推或破坏性操作**。
+- **未在 GitHub Issue #1 追加评论**：本次核实结果（main 未变化、Issue 未变化、触发间隔仍约 59 分钟，与上一条 dup1/评论#21 结论完全一致）未提供任何新信息，不满足"追加评论"的例外条件（所有者回复 / main 实质变化 / 触发频率持续性真实改善）。
+- **未发送 PushNotification**：同上——本次核实是纯粹的"一切如常、无新进展"确认，与 dup1 及 issue 评论 #21 内容重复，遵循"没有新东西就保持沉默"原则。
+
+## 待仓库所有者裁决的事项（不变）
+
+1. **触发频率/时间点**（唯一仍未解决的决策点）：详见 Issue #1（<https://github.com/QIUYicong/neuro-daily-essays/issues/1>），需在 Claude Code on the web 的触发器/调度设置页面核实调整，无法通过 git 或会话内操作修复。
+
+---
+
+## Git 操作
+
+- 分支：`main`
+- 本次提交内容：仅此诊断日志（append-only，未修改任何既有文件）
+- 无文章、无笔记、无来源、无 wiki、无 state 变更
+- Push：`git push origin main`
