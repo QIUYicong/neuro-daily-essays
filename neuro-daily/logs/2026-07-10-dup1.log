@@ -1,0 +1,35 @@
+# 诊断日志 · 2026-07-10（dup1，新会话，与既往诊断会话无记忆关联，独立核实）
+
+**执行时间**：`TZ=Asia/Shanghai date` = 2026-07-10 01:04 CST（`date -u` = 2026-07-09 17:04 UTC）。不是计划中的每日 09:00 CST 触发。
+
+## 核实结果
+
+1. **`main` 分支状态**：会话开始时本地/`origin/main` 分叉（本地在旧的 per-session 分支 `claude/funny-einstein-pwcahb` 上，含 dup12–dup20 诊断提交 + 2026-07-10 文章，共 33 个提交领先于当时的 `origin/main`）。会话中途重新 `git fetch origin main` 时发现 `origin/main` HEAD 已从 `e251272`（2026-07-08 文章 #191）**快进**为 `836abec`（2026-07-10 文章 #193《苔藓纤维终扣分子印记》），且这次快进是纯 fast-forward（无强推、无冲突、`e251272` 是 `836abec` 的祖先）。**这意味着 Issue #1 决策点 5（"真实内容滞留在易失 per-session 分支、main 落后"）目前已自行缓解**：2026-07-09 文章 #192（苔藓纤维突触多样性编码）与 2026-07-10 文章 #193 均已安全落在 `main` 上，dup8–dup20 的诊断记录也已并入 `main`，未见内容丢失。
+2. **本会话所在分支 `claude/funny-einstein-pwcahb` 现状**：其 HEAD（`836abec`）与刚刷新后的 `origin/main` HEAD 完全相同——该分支已被完整并入 `main`，无待合并的新内容，因此本会话未做任何合并/强推操作，只是切到 `main` 继续。
+3. **今日（2026-07-10）真实文章**：已存在（`articles/2026-07-10-mossy-fiber-terminal-molecular-signature.md`，commit `836abec`，提交时间 2026-07-10 00:26:43 CST，距本次会话约 38 分钟前）。已完成完整固结（wiki 修订、topic_ledger/source_registry/unresolved_questions/monthly_synthesis/_graph.json/index.md/CHANGELOG.md 均已同步）。**本次不重写、不重复生成。**
+4. **决策点4（触发频率/时间点）**：本次真实触发时间距上一次真实内容产出（`836abec`, 00:26:43 CST）仅约 **38 分钟**，再次确认触发器仍以远高于"每日一次 09:00 CST"的频率运行（近乎每小时甚至更密）。此为 Issue #1 决策点4持续 9 天以上仍未解决的又一数据点，问题只能在 Claude Code on the web 的触发器/调度设置页面处理，无法通过本会话的 git 操作修复。
+5. **决策点1/2（历史遗留的日期漂移/编号错乱）**：现状不变——`topic_ledger.json` 记录 `total_articles=184`，但最大 `article_number=193`，磁盘上 `articles/` 实际文件数 179，日期跨度仍到 2026-10-21。这是早前会话已确认的历史遗留问题，按既定共识不在无人工授权前做纠正性重写。
+
+## 本次处理
+
+- **未生成新文章**：今日真实文章已存在。
+- **未做任何 wiki 固结、未修改任何既有 `articles/notes/sources/wiki/state` 文件**（append-only 不变量保持）。
+- **未对 main 做任何合并/强推/重置**：本次只是 fast-forward pull，无冲突。
+- **未删除任何残留的 `claude/funny-einstein-*` 分支**（清理待 Issue #1 裁决后统一处理）。
+- **已在 Issue #1 追加评论**：本次满足续报条件（b）——`main` HEAD 发生实质性变化（`e251272`→`836abec`，含两天真实文章内容），故追加状态更新；核心待裁决事项（决策点4：触发频率）未变。
+- **未发送 PushNotification**：本次无需要仓库所有者立即决策的新事项——决策点5是缓解性的好消息（内容未丢失）而非新问题；决策点4的最近一次周期性提醒已在同一真实日历日内（dup19）发出过，遵循"避免重复提醒"原则不再重复发送。
+
+## 待仓库所有者裁决的事项（不变）
+
+1. **触发频率/时间点**（唯一持续未解决的决策点）：详见 Issue #1，需在 Claude Code on the web 的触发器/调度设置页面核实调整，无法通过 git 或会话内操作修复。
+2. 历史遗留的日期漂移/编号错乱：是否需要一次性纠正，或保留现状并标注为"非严格逐日的档案"。
+3. 208+ 个残留 `claude/funny-einstein-*` 分支的清理：待 1、2 裁决后一并处理。
+
+---
+
+## Git 操作
+
+- 分支：`main`
+- 本次提交内容：仅此诊断日志（append-only，未修改任何既有文件）
+- 无文章、无笔记、无来源、无 wiki、无 state 变更
+- Push：`git push origin main`
