@@ -4,6 +4,30 @@
 
 ---
 
+## 2026-07-10 · 文章 #193 · 苔藓纤维的分子笔迹：活动区蛋白的配比，能否写出终扣的"生物物理签名"？
+
+**选题依据**：延续 #192 的 Q-mf-01（苔藓纤维终扣"生物物理签名"分子基础，高优先级 open question，回收未解问题优先级第5位）；同时推进 `wiki/neurons/active-zone.md` 既有的 Q-active-zone-heterogeneity（高连接度节点[6条边]的开放问题，深挖前沿优先级第4位）。经核查，`predictive-coding.md`（rev10）与 `global-workspace-theory.md`（rev8）均已是充分发展的成熟页面，并非悬空引用，故未按初始建议选择该方向。
+
+**新建页面（1个）**：
+
+- `wiki/neurons/munc13.md`（rev1，mainstream/high）：Munc13蛋白家族——分子结构（C1/C2/MUN结构域）、RIM-Munc13激活轴、三个哺乳动物旁系同源基因的组织分布（Munc13-1全脑 vs Munc13-3几乎完全局限于小脑）、Munc13-3"超预激活"机制（位置性，耦合距离缩短~10-15nm，释放概率0.24→0.38）、体内行为学证据（快速小脑反射不可代偿）、果蝇Unc13亚型跨物种类比；新增引用 Q-mf-01、Q-active-zone-heterogeneity
+
+**修订页面（3个）**：
+
+- `wiki/neurons/active-zone.md` rev2→rev3：新增"分子配比原则"段落，整合 Nusser 2018 一般性框架、果蝇 BRP/Syd-1/Unc13A/B 分子指纹机制（Fulterer 2018 + Piao & Sigrist 2021 综述）、小脑 Munc13-3 超预激活案例；Q-active-zone-heterogeneity 标注为"部分推进"（哺乳动物中枢神经系统证据仍局限于颗粒细胞输出突触）；related 新增 munc13、mossy-fiber
+- `wiki/neurons/mossy-fiber.md` rev1→rev2：新增"Q-mf-01的推进"段落，确立 Munc13-3 为最具体的分子候选者，同时如实标注证据缺口（全部来自GC输出突触，MF输入突触未直接检验）；新增2025 bioRxiv预印本证据（MF终扣按VGluT1可分子分类，未经同行评审）；related新增munc13、active-zone
+- `wiki/neurons/granule-cell-cerebellar.md` rev3→rev4：新增"GC自身携带小脑特异性启动蛋白Munc13-3"段落，说明GC既是MF签名的读出者、其输出突触又携带小脑特有分子机器；related新增munc13
+
+**矛盾登记（0个）**：无新矛盾。今日证据未与既有wiki页冲突。轻触及但未裁决的既有争议：SNARE复合体预激活构象状态（C-2026-05-25-01）——在 `munc13.md` 与文章正文中明确标注这是与今日"位置性超预激活"机制正交、独立的问题，未做任何裁决尝试。
+
+**悬空引用（0个新增）**：无。所有新增 related 均指向已存在节点或本次新建节点（munc13）。
+
+**图谱变化**：349节点/2114边 → **350节点/2118边**（+1节点：munc13；+4边：munc13→active-zone part-of；munc13→mossy-fiber regulates（标注推测性，尚未直接验证）；munc13→granule-cell-cerebellar part-of；active-zone→mossy-fiber related）
+
+**层级**：molecular × synaptic × cellular × microcircuit × brain-region
+
+---
+
 ## 2026-07-09 · 文章 #192 · 颗粒细胞的输入密码：苔藓纤维如何用突触多样性给感觉信号打上"身份标签"
 
 **填补悬空引用**（缺口驱动选题优先级第3位）：`granule-cell-cerebellar.md` 与 `parallel-fiber.md` 的 `related` 字段此前已引用 `mossy-fiber` slug，但一直没有对应页面；今日创建。

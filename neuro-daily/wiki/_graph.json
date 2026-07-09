@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-07-09",
-  "node_count": 346,
-  "edge_count": 2099,
+  "updated": "2026-07-10",
+  "node_count": 350,
+  "edge_count": 2118,
   "edge_types": [
     "is-a",
     "part-of",
@@ -3191,6 +3191,15 @@
       "status": "mainstream",
       "confidence": "medium",
       "page": "wiki/neurons/mossy-fiber.md"
+    },
+    {
+      "id": "munc13",
+      "title": "Munc13蛋白家族",
+      "domain": "neurons",
+      "type": "mechanism",
+      "status": "mainstream",
+      "confidence": "high",
+      "page": "wiki/neurons/munc13.md"
     }
   ],
   "edges": [
@@ -15056,6 +15065,30 @@
       "to": "pattern-separation",
       "type": "related",
       "note": "MF突触多样性驱动的时间编码与海马DG展开重编码是计算原则上的类比（非共享分子机制）"
+    },
+    {
+      "from": "munc13",
+      "to": "active-zone",
+      "type": "part-of",
+      "note": "Munc13是活动区囊泡启动机器的核心组成部分，依赖RIM锌指域招募激活"
+    },
+    {
+      "from": "munc13",
+      "to": "mossy-fiber",
+      "type": "regulates",
+      "note": "Munc13-3是Q-mf-01（苔藓纤维生物物理签名分子基础）最具体的候选机制，但尚未在MF终扣本身直接检验，标注为推测性关联"
+    },
+    {
+      "from": "munc13",
+      "to": "granule-cell-cerebellar",
+      "type": "part-of",
+      "note": "Munc13-3 mRNA表达于颗粒细胞胞体，在其输出突触（PF-PC、GC-篮状细胞）中执行超预激活"
+    },
+    {
+      "from": "active-zone",
+      "to": "mossy-fiber",
+      "type": "related",
+      "note": "活动区分子配比决定突触性格的一般性原则，与苔藓纤维终扣生物物理签名的分子基础问题（Q-mf-01）直接相关，尚待验证"
     }
   ],
   "dangling_references": [

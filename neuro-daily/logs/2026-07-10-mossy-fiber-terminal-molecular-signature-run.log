@@ -1,0 +1,76 @@
+# 运行日志 2026-07-10
+
+**任务派发**：本次会话由编排会话（orchestrating session）明确指派，告知今日（北京时间2026-07-10）为真实新日历日，要求生产真实新文章（非诊断性no-op）。已知背景（由派发方提供，不再重新核实）：
+- Issue #1 决策点1/2（历史分叉）已确认RESOLVED，本次不touch任何历史遗留文件。
+- 决策点4（触发频率）为平台/调度配置问题，本次不处理、不touch。
+- 真实日期slot `2026-07-10-memory-reconsolidation-ptsd.md`（第78篇，历史fork时间线遗留）已被占用，本次文章使用不同slug，不覆盖、不引用该文件。
+- 本次不向Issue #1发表任何评论（该决策权保留给编排会话）。
+
+## 0. 前置核实
+
+- 已读取仓库根目录 `ROUTINE.md`、`KNOWLEDGE-BASE-DESIGN.md`，均存在，未触发"停止并报告"条件。
+- 确认 `neuro-daily/wiki/` 存在且结构完整。
+- 确认 `git config user.name` = QIUYicong，`git config user.email` = 169510482+QIUYicong@users.noreply.github.com（均已正确设置，未修改）。
+- `git status` 起始状态：working tree clean，位于 `main`，与 `origin/main` 同步。
+
+## 1. 命名冲突核实
+
+- 确认 `articles/2026-07-10-memory-reconsolidation-ptsd.md`（第78篇）已存在，为历史日期漂移事件产生的虚拟时间线文章（实际写作/提交于2026-07-02，标注日期2026-07-10）。本次严格遵循派发方指示：不touch、不覆盖、不引用该文件。
+- 本次真实文章采用全新slug `mossy-fiber-terminal-molecular-signature`，与该历史文件及知识库内所有其他现存slug均不重复（已用 `ls articles/` 核实）。
+- notes/sources/log 三类文件同样采用"日期+slug"命名（`2026-07-10-mossy-fiber-terminal-molecular-signature-{reading-notes.md,sources.json,run.log}`），延续2026-07-07确立的消歧命名惯例。
+
+## 2. 选题（缺口驱动）
+
+- 读取 `state/topic_ledger.json` 最后一条真实条目（#192，2026-07-09，mossy-fiber-synaptic-diversity-coding），获取其 `next_suggested_topics`：predictive-coding（前沿候选）、global-workspace-theory（前沿候选）、Q-mf-01/Q-mf-02（苔藓纤维分子机制与跨分区普适性）、单细胞测序+Neuropixels整合方向、IBL数据集后续应用。
+- **核查发现**：`wiki/theories/predictive-coding.md`（rev10，2026-06-15创建，2026-09-14最后修订）与 `wiki/theories/global-workspace-theory.md`（rev8，2026-05-30创建，2026-06-29最后修订）均已是充分发展、多次修订的成熟页面，并非任务简报中假设的"悬空引用/未建页"情况。因此未按该初始建议选择这两个方向，避免对已充分发展的页面做重复性、低信息增量的修订。
+- 改为选择 Q-mf-01（回收未解问题优先级第5位，直接延续#192工作）与 `wiki/neurons/active-zone.md` 既有的 Q-active-zone-heterogeneity（该页图谱连接度6条边，属于深挖前沿优先级第4位的高连接度节点，且其开放问题与Q-mf-01高度重合）。
+- 用python核查 `_graph.json` 悬空引用（`dangling_references`/`dangling_refs`字段）：全部条目要么已标注 `resolved`，要么与本次核心问题（活动区/Munc13/苔藓纤维）关联度低（如RIM-protein未被列入悬空引用目录、tarp-auxiliary-subunit、mglur-ltd等），不构成更优先的选题理由。
+- 核心问题确定：决定小脑苔藓纤维终扣"生物物理签名"（Chabrol 2015, #192）的具体分子基础是什么？活动区蛋白（Munc13、RIM-BP等）差异化配比这一已被证明的一般性原则，能否解释苔藓纤维终扣的输入层多样性？
+
+## 3. 检索
+
+- NCBI E-utilities esearch（约10次）：`mossy fiber terminal Munc13 isoform cerebellum`（0条）→`Munc13 isoform short-term plasticity synapse`（11条）→`Munc13-3 cerebellum granule cell`（4条）→`mossy fiber bouton Munc13`（13条，多为海马MF-CA3需甄别）→`P/Q-type calcium channel mossy fiber granule cell release`（2条）→`active zone molecular diversity synapse specific release probability review`（0条）→`Munc13 priming synaptic vesicle review`（26条）→`synapse diversity molecular heterogeneity review bouton`（4条，命中Nusser 2018关键综述）→`Unc13c cerebellum`（6条）。
+- Europe PMC REST API：逐一核实候选文献的 `isOpenAccess`/`pmcid` 字段，并对声称可获取全文的条目实际尝试PMC全文拉取验证（而非只信任标志位）。
+- WebSearch辅助：定位Allen Institute相关背景资料、Munc13-3综述性交叉描述、biorxiv预印本摘要（Europe PMC索引，因biorxiv.org本身返回403无法直接抓取全文）。
+- Allen Institute官方API（`api.brain-map.org`）：确认Unc13c基因条目存在（Gene ID 84031/94978），但`mouse.brain-map.org`前端为动态渲染SPA，WebFetch工具无法提取具体ISH表达定量数据，如实标注此项限制。
+- **重要甄别**：检索中发现大量"mossy fiber"文献实际指向海马齿状回-CA3的mossy fiber（不同于本文讨论的小脑苔藓纤维），包括PMID:41719128、39556620、36812326、34153028、31535974等，均属不同解剖结构，本文未采用，已在reading-notes中记录以避免未来会话混淆两个同名术语。
+- 最终采用来源：10个（5个开放全文，1个官方机构来源[Allen Institute]，1个预印本[未经同行评审、未获取全文]，3个仅摘要），满足ROUTINE.md最低要求（≥5来源，≥2开放全文，≥1官方机构来源），且综述（Nusser 2018、Piao & Sigrist 2021）与原始研究（Fulterer 2018、Augustin 2001、Ishiyama 2014、Netrakanti 2015等）搭配。
+
+## 4. 写作与固结
+
+- 文章：`articles/2026-07-10-mossy-fiber-terminal-molecular-signature.md`（第193篇，正文约4276个中文字符）
+- 笔记：`notes/2026-07-10-mossy-fiber-terminal-molecular-signature-reading-notes.md`
+- 来源：`sources/2026-07-10-mossy-fiber-terminal-molecular-signature-sources.json`
+- Wiki固结：
+  - 新建 `wiki/neurons/munc13.md`（rev1，mainstream/high）
+  - 修订 `wiki/neurons/active-zone.md`（rev2→rev3）
+  - 修订 `wiki/neurons/mossy-fiber.md`（rev1→rev2）
+  - 修订 `wiki/neurons/granule-cell-cerebellar.md`（rev3→rev4）
+- 矛盾检查：今日新证据与既有wiki页无冲突，未触发矛盾协议，`contested_claims.json` 未新增登记。轻触及但明确未裁决的既有争议：SNARE复合体预激活构象状态（C-2026-05-25-01）——在`munc13.md`与文章正文中均明确标注这是与今日"位置性超预激活"机制正交、独立的问题，不做任何裁决尝试。
+- 图谱：`_graph.json` 新增1节点（munc13）+4边（munc13→active-zone part-of；munc13→mossy-fiber regulates[标注推测性]；munc13→granule-cell-cerebellar part-of；active-zone→mossy-fiber related）。校验后确认未新增悬空边（复用python脚本核查from/to字段均指向既有节点id）。
+- 导航层维护：`wiki/index.md` 更新头部摘要行，新增munc13条目，更新active-zone/mossy-fiber/granule-cell-cerebellar三条既有条目的描述与修订标注；`wiki/CHANGELOG.md` 在顶部插入今日新条目（保持"新条目置顶"惯例）。
+- 治理层：`state/topic_ledger.json`（新增条目#193，total_articles 183→184）、`state/unresolved_questions.md`（追加2026-07-10新增section，含Q-mf-01进展记录+Q-az-01+Q-az-02，均为追加不修改原条目文本）、`state/source_registry.json`（新增key `sources_2026-07-10-mossy-fiber-terminal-molecular-signature`，total_sources 721→731）、`state/monthly_synthesis.md`（追加2026-07-10摘要段落）均已更新。
+
+## 5. 自检结果
+
+- **真实性**：10条来源均有明确标识（PMID/DOI/预印本DOI/官方数据库条目），wiki新页与修订段落每条主张均标注来源；未将小脑输出突触（PF-PC、GC-篮状细胞）的Munc13-3证据过度推广为苔藓纤维输入突触的直接证据——正文、wiki三处修订、unresolved_questions.md均反复明确标注这一证据缺口；预印本（Han/Meral/Lichtman 2025）明确标注"未经同行评审、未获取全文"；Allen Institute来源明确标注"基础设施确认，具体表达定量数据未提取"这一工具限制。
+- **一致性**：无新证据与既有wiki页冲突，未触发矛盾协议；`active-zone.md`/`mossy-fiber.md`/`granule-cell-cerebellar.md` 的 updated/revision_count/修订历史均已同步更新；`_graph.json` 校验确认本次新增边均指向既有节点，未产生新的悬空引用（历史遗留的fork时间线source/target字段命名不一致问题，属既定decision point 1/2范畴，本次不touch）。
+- **可导航**：`index.md` 与 `CHANGELOG.md` 已反映今日全部变化；新页 `munc13.md` 的 related（6个）/prerequisites（2个）均≥1。
+- **情景层**：文章/笔记/来源/日志齐全，均使用消歧命名，未修改任何已有的articles/notes/sources/logs文件（含未touch历史遗留的memory-reconsolidation-ptsd相关文件）。
+
+## 6. Git操作
+
+- 分支：`main`（单分支累积方案）
+- `git add neuro-daily/`
+- Commit message: "Add neuro daily article + wiki consolidation for 2026-07-10"（含Co-Authored-By: Claude <noreply@anthropic.com>）
+- 提交前 `git pull --rebase origin main`
+- Push: `git push origin main`
+（推送结果、commit hash见下方"提交后更新"追加段落）
+
+## 7. GitHub Issue #1
+
+- 依据任务简报明确指示：**本次不向Issue #1发表任何评论或采取任何操作**，该决策权保留给编排会话。
+- 决策点4（触发频率）依派发方说明为平台配置问题，本次不touch。
+
+---
+（推送结果与commit hash见下方"提交后更新"追加段落）

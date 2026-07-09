@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-09",
+  "last_updated": "2026-07-10",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -11839,7 +11839,7 @@
       "key_contribution": "Marr-Ito-Albus三个经典模型的历史比较，共识与分歧"
     }
   ],
-  "total_sources": 721,
+  "total_sources": 731,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",
@@ -17600,6 +17600,68 @@
         "pmcid": "PMC12828877",
         "full_text": true,
         "note": "Holla, Brown & Raman 2026 J Neurosci 在体证据：苔藓纤维到小脑核传递短时程抑制"
+      }
+    ]
+  },
+  "sources_2026-07-10-mossy-fiber-terminal-molecular-signature": {
+    "article": "#193 · 苔藓纤维的分子笔迹：活动区蛋白的配比，能否写出终扣的\"生物物理签名\"？",
+    "date": "2026-07-10",
+    "sources": [
+      {
+        "id": "PMID:29353084",
+        "full_text": false,
+        "note": "Nusser 2018 Curr Opin Neurobiol 综述：同分子不同配比造出不同突触性格的一般性原则，仅摘要"
+      },
+      {
+        "id": "PMID:35046788",
+        "pmcid": "PMC8762327",
+        "full_text": true,
+        "note": "Piao & Sigrist 2021 Front Synaptic Neurosci 综述：Unc13亚型驱动果蝇活动区多样性"
+      },
+      {
+        "id": "PMID:29719243",
+        "pmcid": "PMC6436828",
+        "full_text": true,
+        "note": "Fulterer et al. 2018 Cell Reports 果蝇NMJ BRP/Syd-1/Unc13A/B分子指纹机制"
+      },
+      {
+        "id": "PMID:11150314",
+        "pmcid": "PMC6762458",
+        "full_text": true,
+        "note": "Augustin et al. 2001 J Neurosci Munc13-3小脑特异性表达+PF-PC释放概率降低+运动学习受损"
+      },
+      {
+        "id": "PMID:25355221",
+        "pmcid": "PMC6608426",
+        "full_text": true,
+        "note": "Ishiyama et al. 2014 J Neurosci Munc13-3超预激活量化机制（位置性，~10-15nm）"
+      },
+      {
+        "id": "PMID:25617111",
+        "pmcid": "PMC4441738",
+        "full_text": true,
+        "note": "Netrakanti et al. 2015 Cerebellum Munc13-3缺失选择性损害快速小脑反射行为"
+      },
+      {
+        "id": "PMID:17582334",
+        "full_text": false,
+        "note": "Beierlein et al. 2007 Neuron 靶细胞特异性短时程可塑性，仅摘要，背景类比"
+      },
+      {
+        "id": "PMID:20554867",
+        "pmcid": "PMC6634587",
+        "full_text": false,
+        "note": "Bao, Reim & Sakaba 2010 J Neurosci 靶细胞特异性前馈抑制，PMC记录存在但本次仅提取摘要"
+      },
+      {
+        "id": "bioRxiv:10.1101/2025.10.02.679866",
+        "full_text": false,
+        "note": "Han, Meral & Lichtman 2025 预印本，未经同行评审，未获取全文，苔藓纤维终扣VGluT1分子分类"
+      },
+      {
+        "id": "AllenInstitute:Unc13c-GeneID-84031",
+        "full_text": false,
+        "note": "Allen Mouse Brain Atlas 官方基因数据库条目确认，具体表达定量数据受限于动态渲染页面未提取"
       }
     ]
   }

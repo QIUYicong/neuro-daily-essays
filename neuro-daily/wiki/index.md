@@ -5,6 +5,8 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
+> 最后更新：2026-07-10（第193篇·苔藓纤维的分子笔迹：活动区蛋白的配比，能否写出终扣的"生物物理签名"？）· 主题页总数：**347**（新建1页：neurons/munc13；修订3页：neurons/active-zone rev2→rev3、neurons/mossy-fiber rev1→rev2、neurons/granule-cell-cerebellar rev3→rev4；图谱350节点/2118边）
+>
 > 最后更新：2026-07-09（第192篇·颗粒细胞的输入密码：苔藓纤维如何用突触多样性给感觉信号打上"身份标签"）· 主题页总数：**346**（新建1页：neurons/mossy-fiber；修订2页：granule-cell-cerebellar rev2→rev3/parallel-fiber rev2→rev3；图谱349节点/2114边；本次同时补录了此前#191未同步进本页面的 methods/neuropixels 与 concepts/neural-manifold、concepts/distributed-decision-coding 条目，并修复了1处历史遗留的悬空引用拼写不一致 sharp-wave-ripple→sharp-wave-ripples）
 >
 > **重要说明（日期修复）**：本知识库此前经历过一次日期漂移事件——文章内部日期编号一度脱离真实日历时间，持续推进至虚拟日期"2026-10-21"，而真实世界时间当时仅为2026年7月初。从本条目（2026-07-07，第190篇）起，恢复使用真实日历日期。2026-05-24至2026-10-21区间内的所有既有文章/notes/sources/logs文件保留原样（append-only不变量，不做任何删除或改名），其日期标签仅代表内部生产顺序，不代表真实创作时间。完整说明见 `wiki/CHANGELOG.md` 2026-07-07 条目与对应 `logs/` 运行日志。
@@ -19,7 +21,7 @@
 - 🟢 [突触传递](neurons/synaptic-transmission.md) — 神经元间化学信号转化的核心机制，含突触后受体（修订2次）
 - 🟢 [突触结合蛋白 Synaptotagmin](neurons/synaptotagmin.md) — 突触囊泡上的钙传感器，触发融合的分子开关（修订3次）
 - 🟢 [就绪释放池（RRP）](neurons/readily-releasable-pool.md) — 突触活动区中处于停靠就绪状态的囊泡子集；RRP耗竭是短时程抑制的主要机制 **[NEW 2026-06-10]**
-- 🟢 [活动区（Active Zone）](neurons/active-zone.md) — 突触前终末的纳米级分子发射台
+- 🟢 [活动区（Active Zone）](neurons/active-zone.md) — 突触前终末的纳米级分子发射台；纳米域(10-30nm)vs微域(>100nm)耦合决定释放概率；"同分子不同配比"原则（Nusser 2018）+果蝇BRP/Syd-1/Unc13分子指纹+小脑Munc13-3超预激活案例 **[修订 rev2→rev3 2026-07-10]**
 - 🟢 [CaMKII（钙调蛋白依赖蛋白激酶 II）](neurons/camkii.md) — LTP 诱导和维持的核心激酶（快速局部模式）；LTP 中双底物：GluA1 S831 磷酸化（提高电导）+ TARP γ-2/γ-8 polybasic region 磷酸化（扩散陷阱捕获受体）；BTSP 中的延迟弥散随机激活（DDSC，IP₃→ER 驱动）；结构可塑性中通过 GEF→Rac1/RhoA→LIMK→cofilin 轴驱动棘头膨大 **[修订 rev4 2026-06-28]**
 - 🟢 [树突棘](neurons/dendritic-spine.md) — 兴奋性突触的突触后接受位点；棘头体积与突触强度和 AMPA 受体数量高度相关；LTP 诱导后 Ca²⁺→CaMKII→Rac1/RhoA→LIMK→cofilin 失活→F-actin 净聚合驱动棘头膨大 200–300%；大棘近饱和，小棘最具可塑性 **[NEW 2026-09-23]**
 - 🟢 [树突计算](neurons/dendritic-computation.md) — NMDA 棘波与 Ca²⁺ 棘波使单根树突成为独立计算单元，单神经元等价两层神经网络；Wilson 2016证明V1突触聚类增强方向选择性（修订4次）
@@ -32,7 +34,7 @@
 - 🟢 [中型多棘神经元（MSN）](neurons/medium-spiny-neuron.md) — 纹状体主导细胞（95%+）；D1型→直接通路→D1-cAMP-PKA-DARPP-32-LTP；D2型→间接通路→eCB-CB1-LTD；上行/下行双稳态；灵长类≥9种转录学亚型；**rev2新增**：HD选择性脆弱性四重机制（BDNF依赖性单点失效/NR2B兴奋毒性/转录失调靶向性/体细胞CAG不稳定） **[NEW 2026-09-01 · 修订 rev2 2026-09-07]**
 - 🟢 [浦肯野细胞](neurons/purkinje-cell.md) — 小脑皮层唯一输出神经元；接受 ~20 万 PF（运动情景）+ 1 CF（误差/奖励预测违反信号）；LTD（mGluR1→PKC→AMPAR 内吞）；多层可塑性（Schonewille 2011）；复杂放电梯度；奖励 CF 信号（Jin 2025，emerging） **[NEW 2026-09-03]**
 - 🟢 [攀爬纤维](neurons/climbing-fiber.md) — 来自下橄榄核；每根与单一 PC 形成 400–500 个强突触；触发复杂放电（1–4 个去极化波峰，3–30 ms）；梯度误差信号（Zang 2019）；外侧小脑携带奖励预测误差（Jin & Hull 2025，emerging） **[NEW 2026-09-03]**
-- 🟢 [小脑颗粒细胞](neurons/granule-cell-cerebellar.md) — 约 690 亿个（全脑 50–80%）；MF→GC→PF 感觉运动情景高维重编码；稀疏 vs 密集编码争议（Xie 2023：任务依赖最优）；Lee 2023 因果证明对运动功能不可或缺 **[NEW 2026-09-03]**
+- 🟢 [小脑颗粒细胞](neurons/granule-cell-cerebellar.md) — 约 690 亿个（全脑 50–80%）；MF→GC→PF 感觉运动情景高维重编码；稀疏 vs 密集编码争议（Xie 2023：任务依赖最优）；Lee 2023 因果证明对运动功能不可或缺；GC胞体表达小脑特异性Munc13-3，其输出突触执行超预激活 **[NEW 2026-09-03 · 修订 rev3→rev4 2026-07-10]**
 - 🟢 [网格细胞](neurons/grid-cell.md) — 内侧内嗅皮层的六角网格空间编码器，模块化组织（1.4:1间距比），为场所细胞提供坐标框架；人类fMRI六边形信号证实（修订2次）
 - 🟢 [头向细胞](neurons/head-direction-cells.md) — 对头部方向选择性放电的神经元，构成大脑方位罗盘；环形吸引子网络生成；PoS/ADN/LMN/RSC回路 **[NEW 2026-07-27]**
 - 🟢 [边界细胞](neurons/border-cells.md) — MEC/下托中对环境边界距离/方向编码的神经元，为路径积分提供空间锚点防止误差累积 **[NEW 2026-07-27]**
@@ -42,7 +44,8 @@
 - 🟢 [缝隙连接与神经元电突触（Cx36）](neurons/gap-junction-electrical-synapse.md) — Connexin-36 缝隙连接是成年大脑 PV+ 中间神经元电突触的主要类型；亚毫秒同步；Cx36 KO 选择性消除伽马振荡（保留纹波）；可被多巴胺/CaMKII 动态调节；LinCx 2025 工程化电突触新突破 **[NEW 2026-10-06]**
 - 🟢 [分子层中间神经元（MLI）](neurons/molecular-layer-interneuron.md) — 小脑皮层的 GABA 能前馈抑制元件；MLI1（Cx36+，电偶联，同步抑制 PC）vs MLI2（Nxph1+，去抑制 PC via MLI1）；逆向可塑性（PF+CF→MLI LTP 同时 PC LTD）；反弹增强（RP）的前突触来源；VOR 学习必要因子 **[NEW 2026-10-09 · 修订 rev2 2026-10-21]**
 - 🟢 [平行纤维（PF）](neurons/parallel-fiber.md) — GC 轴突T字形分叉后在分子层水平延伸的纤维束（3–6 mm/条）；每 PC 接受 >100,000 条 PF 输入；PF-PC 突触双向可塑性（PF+CF→LTD；PF alone→LTP，Ca²⁺阈值开关，Coesmans 2004）；最优 GC 编码密度任务依赖（Xie 2023）；Marr-Albus-Ito 模型的情景载体；**新增**：Bae 2025正规化原则为两级存储提供定量判据；MF突触多样性预先携带通路身份信息 **[NEW 2026-10-19 · 修订 rev2→rev3 2026-07-09]**
-- 🔵 [苔藓纤维（MF）](neurons/mossy-fiber.md) — 小脑最主要兴奋性输入，起源脊髓/脑桥核/前庭核；小球超微结构数百释放位点相距0.46μm无胶质完全隔离（谷氨酸溢出→AMPA脱敏）；不同模态终扣携带可区分"生物物理签名"支持多模态时间编码（Chabrol 2015）；NMDA/mGluR依赖LTP会重塑该签名本身；2026年在体证据证明适应从MF这一级就已开始 **[NEW 2026-07-09]**
+- 🔵 [苔藓纤维（MF）](neurons/mossy-fiber.md) — 小脑最主要兴奋性输入，起源脊髓/脑桥核/前庭核；小球超微结构数百释放位点相距0.46μm无胶质完全隔离（谷氨酸溢出→AMPA脱敏）；不同模态终扣携带可区分"生物物理签名"支持多模态时间编码（Chabrol 2015）；NMDA/mGluR依赖LTP会重塑该签名本身；2026年在体证据证明适应从MF这一级就已开始；分子基础候选者Munc13-3已确立但尚未在MF终扣本身直接检验（Q-mf-01部分推进） **[NEW 2026-07-09 · 修订 rev1→rev2 2026-07-10]**
+- 🟢 [Munc13蛋白家族](neurons/munc13.md) — 突触前囊泡启动蛋白，MUN结构域催化Syntaxin开放构象，被RIM锌指域招募激活；Munc13-1遍布全脑，Munc13-3几乎完全局限于小脑（颗粒细胞+浦肯野细胞），通过位置性"超预激活"（缩短钙通道-囊泡耦合距离~10-15nm）提升释放概率0.24→0.38；快速小脑反射回路中不可代偿 **[NEW 2026-07-10]**
 - 🟢 [少突胶质细胞](neurons/oligodendrocyte.md) — CNS 产髓鞘胶质细胞，三重功能：绝缘（跳跃式传导/120m/s）+ 代谢支持（MCT1-乳酸轴）+ 经验依赖髓鞘化（Adaptive myelination）；运动/认知学习需要新 OL 生成（McKenzie 2014, Shimizu 2023）**[NEW 2026-10-05]**
 - 🟢 [小胶质细胞](neurons/microglia.md) — CNS 常驻免疫细胞，发育期突触剪枝执行者：CR3（C3b识别）+ TREM2（PS识别）双通路；活动依赖性（TTX→优先吞噬沉默突触）；AD中C1q重激活；精神分裂症C4A→过度剪枝；成年稳态P2RY12/TMEM119/CX3CR1分子签名；DAM两步激活（rev2新增） **[NEW 2026-06-03 · 修订 rev1→rev2 2026-09-17]**
 - 🔵 [TREM2（髓系细胞触发受体2）](neurons/trem2.md) — 小胶质细胞脂质传感器/危险信号受体；DAP12→PI3K→Akt→mTOR促细胞存活/增殖/吞噬；DAM Step 2激活的分子开关；R47H变异→AD风险OR≈3-5×；INVOKE-2 Phase 2（AL002c激动抗体）阴性结果 **[NEW 2026-09-17]**
