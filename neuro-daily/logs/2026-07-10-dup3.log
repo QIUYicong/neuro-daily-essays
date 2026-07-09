@@ -1,0 +1,33 @@
+# 诊断日志 · 2026-07-10（dup3，新会话，与既往诊断会话无记忆关联，独立核实）
+
+**执行时间**：`TZ=Asia/Shanghai date` = 2026-07-10 03:01 CST（`date -u` = 2026-07-09 19:01 UTC）。不是计划中的每日 09:00 CST 触发。
+
+## 核实结果
+
+1. **`main` 分支状态**：会话开始时本地 `main` 引用落后于 `origin/main`（`e251272`→`b1690ec`，35 个提交），执行 `git checkout main && git pull origin main` 后**纯 fast-forward**，无冲突、无强推。当前 `main` 与 `origin/main` 完全一致，working tree clean。
+2. **距上一次检查（dup2, 2026-07-09 18:01 UTC / 02:01 CST）间隔约 59 分钟**——再次落入本 Issue 全程报告的"近乎每小时"触发模式，是决策点4（触发频率）持续未解决的又一数据点，**不是新信息**，不改变任何已有结论。
+3. **今日（2026-07-10）真实文章**：已存在（`articles/2026-07-10-mossy-fiber-terminal-molecular-signature.md`，commit `836abec`，文章 #193），已完成完整固结（wiki/state/图谱/index/CHANGELOG 均已同步，详见 dup1/dup2 与更早的 run.log）。**本次不重写、不重复生成。**
+4. **历史遗留问题**（main 曾疑似分叉——已确认为浅克隆伪影；知识库日期漂移——已于 2026-07-07 修复；`topic_ledger.json` 编号/磁盘文件数错乱——待人工裁决；208+ 残留 `claude/funny-einstein-*` 分支——待裁决后清理）：均无变化，不重复展开。
+
+## 本次处理
+
+- **未生成新文章**：今日真实文章已存在。
+- **未做任何 wiki 固结、未修改任何既有 `articles/notes/sources/wiki/state` 文件**（append-only 不变量保持）。
+- **未对 main 做任何合并/强推/重置**：本次仅执行标准 fast-forward pull，无冲突。
+- **未在 Issue #1 追加评论**：距上一条评论（dup1, 2026-07-09T17:05:21Z）约2小时，但距上一次会话核实（dup2）仅约59分钟且无任何新证据或状态变化，追加评论只会重复已记录信息，遵循"避免刷屏"原则跳过。
+- **未发送 PushNotification**：无新的、需要仓库所有者立即决策的事项；本次纯属同一已知问题（触发频率）的又一次重复触发，符合"运行结果无变化时保持沉默"的通知策略。
+
+## 待仓库所有者裁决的事项（不变，详见 Issue #1）
+
+1. 触发频率/时间点（唯一持续未解决的决策点，已开启 7+ 天）。
+2. 历史遗留的日期漂移已于 2026-07-07 修复，但 `topic_ledger.json` 编号与磁盘文件数不一致（total_articles 与实际 article_number/文件数）是否需要一次性纠正，仍待裁决。
+3. 208+ 个残留 `claude/funny-einstein-*` 分支的清理。
+
+---
+
+## Git 操作
+
+- 分支：`main`
+- 本次提交内容：仅此诊断日志（append-only，未修改任何既有文件）
+- 无文章、无笔记、无来源、无 wiki、无 state 变更
+- Push：`git push origin main`
