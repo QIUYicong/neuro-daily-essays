@@ -1,0 +1,39 @@
+# 诊断日志 · 2026-07-09（dup20，新会话，与既往诊断会话无记忆关联，独立核实）
+
+**执行时间**：`date -u` = 2026-07-09 14:01:00 UTC（`TZ=Asia/Shanghai` = 2026-07-09 22:01:00 CST）。距上一次诊断会话（dup19，2026-07-09 13:01:34 UTC）约 **60 分钟**，与既往观测到的近乎每小时基线一致。本次为今日第 **20** 次重复调用。
+
+## 核实结果（延续既定检查）
+
+1. **今日真实文章**：`articles/2026-07-09-mossy-fiber-synaptic-diversity-coding.md`（#192）已存在于当前分支，内容完整（wiki 固结、图谱更新、治理层文件均已同步）。本次不重写、不重复生成。
+2. **触发频率**（决策点4）：距 dup19 约60分钟，仍是近乎每小时基线，Issue #1 决策点4持续未获仓库所有者裁决。
+
+## ★ 新发现（本次核实的重点，此前从未被明确验证过）：`origin/main` 并未真正收到今日文章，此前"已快进推送到 main"的记录是误报
+
+- 独立执行 `git fetch origin main`，随后 `git rev-parse origin/main` = `e25127294d04165acebbc217e8353b95eac3691a`（"Add neuro daily article + wiki consolidation for 2026-07-08"）。
+- 用 `git merge-base --is-ancestor 882b8f2 main` 直接核实：**结果为"否"**——commit `882b8f2`（Issue #1 2026-07-08T16:26:35Z 评论中声称"快进推送、非强推、无冲突"落地到 main 的今日文章提交）**不是** `origin/main` 的祖先。
+- 同时用 `git merge-base --is-ancestor 882b8f2 claude/funny-einstein-nfim86` 核实：**结果为"是"**——该提交只存在于当前会话所在的 per-session 分支上。
+- 进一步核实：本分支相对 `main` 领先 **31 个提交**（`git log main..HEAD --oneline | wc -l` = 31），其中包含 dup8–dup19 全部诊断日志以及今日真实文章 #192，`main` 侧完全没有这些内容。反向核实 `main` 无任何领先当前分支的提交（`git log HEAD..main` 为空），确认这是纯粹的"main 落后"而非历史分叉。
+- **结论**：此前 Issue #1 中多次声称的"已快进推送到 origin/main，无冲突"（包括 07-07 的 `6cbfc22`、07-08 的 `e251272`、以及最关键的 07-09 的 `882b8f2`）中，至少 `882b8f2` 这一条与当前可验证的远程状态不符——它从未真正到达 `origin/main`。这与本 Issue 更早期（07-02～07-04）观测到的"会话误判自己在 main 上操作"模式高度相似：会话很可能一直被运行环境固定绑定在某个 per-session 分支（本例为 `claude/funny-einstein-nfim86`）上，`git push origin main` 要么从未真正执行、要么被环境静默重定向到了当前分支，但会话据此写下的日志/评论却描述为"已推送到 main"。
+- 这意味着：即使决策点3（知识库日期漂移）和决策点4之外的"内容层面"表面上看起来"连续三天健康交付"（07-07→07-08→07-09），这个"健康"目前只体现在**易失的、每次可能被重新分配的 per-session 分支**上，`main`（KNOWLEDGE-BASE-DESIGN.md 不变量4规定的唯一真相分支）实际仍停留在 07-08 那一篇，并不包含今天的文章。若这个 per-session 分支未来被平台清理/回收，07-09 的真实工作有丢失风险。
+
+## 本次处理
+
+- **未生成新文章、未做任何 wiki 固结、未修改任何既有 `articles/notes/sources/wiki/state` 文件**（append-only 不变量保持）。
+- **未尝试将当前分支合并或强推到 `main`**——这是本会话被明确限定只能操作 `claude/funny-einstein-nfim86` 分支（未经仓库所有者明确许可不得推送到其他分支），且是否/如何让积累的工作回到 main 属于需要人工裁决的事项。
+- 已在 GitHub Issue #1 追加一条评论，记录本次验证结果（`merge-base` 核实结果具体、可复现，属于"实质性新证据"，不同于此前重复性的"距上次约X分钟"式记录）。
+- 已发送一次 PushNotification，因为这是一个此前从未被明确指出、且有具体后果（真实内容滞留在易失分支、main 未更新）的新发现，不同于已发送过多次的"触发频率"提醒。
+
+## 待仓库所有者裁决的事项（更新）
+
+1. **触发频率/时间点**（既有决策点4，仍未解决）：需在 Claude Code on the web 的触发器/调度设置页面核实调整。
+2. **★ 新增决策点5：per-session 分支 → main 的回流机制缺失**：需要确认该例程的触发器配置的目标分支是否应该直接是 `main`（按 ROUTINE.md 设计），或者需要单独建立一个"合并回 main"的步骤/流程；在此裁决前，建议不要假设"已连续多天健康交付到 main"，因为可验证的 `origin/main` 状态显示并非如此。
+3. **分支清理**（非新决策点）：远程仓库已累积 208 个 `claude/funny-einstein-*` 残留分支（`git ls-remote` 共 218 个引用），待决策点1、5解决后一并处理。
+
+---
+
+## Git 操作
+
+- 分支：`claude/funny-einstein-nfim86`（本会话被分配/限定的分支，已通过 `merge-base` 验证仅比 `main` 领先，不存在冲突分叉）
+- 本次提交内容：仅此诊断日志（append-only，未修改任何既有文件）
+- 无文章、无笔记、无来源、无 wiki、无 state 变更
+- Push：`git push -u origin claude/funny-einstein-nfim86`
