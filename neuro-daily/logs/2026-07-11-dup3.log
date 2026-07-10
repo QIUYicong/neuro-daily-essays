@@ -1,0 +1,32 @@
+# 诊断日志 · 2026-07-11（dup3，新会话，与既往诊断会话无记忆关联，独立核实）
+
+**执行时间**：`date -u` = 2026-07-10 20:02:03 UTC（UTC+8 = 2026-07-11 04:02:03 CST）。
+
+## 核实结果
+
+1. **本次触发时间点观察**：距 dup2（2026-07-10 19:01:39 UTC / 2026-07-11 03:01:39 CST）约 **60 分钟**，回到"近乎每小时"的基线模式。距今天真实文章提交 `722532f`（2026-07-10T16:24:27Z UTC，"channelrhodopsin-molecular-mechanism"，文章 #194）约 **218 分钟**。这是跨入 2026-07-11 真实日历日后的**第 4 次触发**（第 1 次为正常生产真实文章 #194，第 2/3/4 次为纯诊断 no-op，本次编号 dup3）。
+2. **`main` 分支状态**：会话开始时本地分支为平台默认的 `claude/funny-einstein-ra5vrn`。`git checkout main` 后再次出现表面"50 vs 50"分叉提示（`git pull` 报 divergent branches），`git merge-base main origin/main` 为空、`git merge-base --is-ancestor` 对本地旧 main tip（`e251272`）返回"否"。这与 2026-07-05（dup5，commit `9fa6396`）首次定性、此后每次会话（包括 dup1、dup2）反复复核的"浅克隆本地 ref 滞后伪影"结论完全一致：本地 main 只有 50 个提交且工作区此前已 clean（无本地未提交内容），故直接 `git reset --hard origin/main` 对齐，不丢失任何数据，并非真实历史分叉或并发覆盖。
+3. **今日（2026-07-11）真实文章**：`articles/2026-07-11-channelrhodopsin-molecular-mechanism.md`（文章 #194，commit `722532f`）文件完好；配套 wiki 页 `wiki/methods/channelrhodopsin.md` 确认存在。历史遗留的 `2026-07-11-dopamine-lc-hippocampus-memory-tagging.md`（日期漂移旧文件，虚拟时间线第79篇）沿用既定消歧命名处理，未做任何改动。**本次不重写、不重复生成文章。**
+4. **未做任何 wiki 固结、未修改任何既有 `articles/notes/sources/wiki/state` 文件**（append-only 不变量保持）。
+5. **决策点4（触发频率）**：仍确认未解决——本次间隔（~60分钟）再次落回严格的近乎每小时基线。Issue #1 开启已第 9 天，仍未见仓库所有者（真人）处理迹象（GitHub API 核实：`state=open`，25 条评论，`updated_at=2026-07-10T16:25:24Z`，与 dup1/dup2 观测一致，无新评论、无新反应）。
+6. **决策点1/2/3/5**：状态不变（历史分叉再次确认为浅克隆伪影，如第2条；日期漂移已于 2026-07-07 修复并持续正常运作；per-session 分支与 main 的同步复核未见新的滞留风险）。
+7. **残留游离分支**：`git ls-remote --heads origin` 统计带 `claude/` 前缀分支合计 **217**，与 dup2 记录（217）一致，属预期范围，未做任何分支删除操作。
+8. **通知节流判断**：距上一次实际发送的 PushNotification（约 2026-07-10T16:25 UTC，随 commit `722532f` 一并发出）已约 **3小时37分钟**。本次核实未发现任何新的实质性信息（决策点1/2/3/5 已确认稳定，决策点4 是同一条已知事实的又一次重复观测，无 main 被覆盖、无内容丢失、无新裁决、Issue #1 无新评论）。按"避免对同一件已充分告知的事重复刷屏"的既定原则，本次**不追加 PushNotification，也不追加 Issue 评论**。
+
+## 本次处理
+
+- **未生成新文章**：今日（2026-07-11）真实文章已存在且固结完整。
+- **未做任何 wiki 固结、未修改任何既有文件**（append-only 不变量保持）。
+- **对 main 做了非破坏性同步**：`git fetch` + `git reset --hard origin/main` 仅用于消除本地浅克隆滞后伪影，working tree 此前已 clean，无数据丢失。
+- **未删除任何残留的 `claude/*` per-session 分支**。
+- **未在 Issue #1 追加评论**：核心情况相对上一条评论无实质性新变化，不构成续报条件。
+- **未发送 PushNotification**：距上一次实际发送约3小时37分钟，无新的、需要仓库所有者立即决策的事项。
+
+---
+
+## Git 操作
+
+- 分支：`main`（单分支累积方案）
+- 本次提交内容：仅此诊断日志（append-only，未修改任何既有文件）
+- 无文章、无笔记、无来源、无 wiki、无 state 变更
+- Push：`git push origin main`
