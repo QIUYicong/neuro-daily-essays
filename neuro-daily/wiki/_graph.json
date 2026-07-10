@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-07-10",
-  "node_count": 350,
-  "edge_count": 2118,
+  "updated": "2026-07-11",
+  "node_count": 351,
+  "edge_count": 2120,
   "edge_types": [
     "is-a",
     "part-of",
@@ -3200,6 +3200,15 @@
       "status": "mainstream",
       "confidence": "high",
       "page": "wiki/neurons/munc13.md"
+    },
+    {
+      "id": "channelrhodopsin",
+      "title": "通道视紫质",
+      "domain": "methods",
+      "type": "entity",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/methods/channelrhodopsin.md"
     }
   ],
   "edges": [
@@ -15089,6 +15098,18 @@
       "to": "mossy-fiber",
       "type": "related",
       "note": "活动区分子配比决定突触性格的一般性原则，与苔藓纤维终扣生物物理签名的分子基础问题（Q-mf-01）直接相关，尚待验证"
+    },
+    {
+      "from": "channelrhodopsin",
+      "to": "optogenetics",
+      "type": "prerequisite-for",
+      "note": "通道视紫质的分子结构与门控机制是光遗传学整个方法学工具箱的分子基础"
+    },
+    {
+      "from": "channelrhodopsin",
+      "to": "action-potential",
+      "type": "related",
+      "note": "ChR2介导的阳离子内流直接触发膜去极化，达到阈值即引发动作电位"
     }
   ],
   "dangling_references": [
@@ -15193,7 +15214,8 @@
       "referenced_by": [
         "grid-cell"
       ],
-      "note": "路径整合，网格细胞无外部地标时维持空间表征的内源机制，新增悬空引用"
+      "note": "路径整合，网格细胞无外部地标时维持空间表征的内源机制，新增悬空引用",
+      "resolved": "2026-06-22 (bookkeeping correction 2026-07-11: page already existed, graph record was stale)"
     },
     {
       "slug": "memory-consolidation",

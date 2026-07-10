@@ -4,6 +4,28 @@
 
 ---
 
+## 2026-07-11 · 文章 #194 · 光如何拧开一扇离子通道：通道视紫质的分子机制，从藻类眼点到神经科学的"开关"
+
+**选题依据**：`wiki/methods/optogenetics.md`"连接"一节长期标注 `[[channelrhodopsin]] — 待建立（ChR1/ChR2 的分子生物学页面）`，是一个明确、非过时的真实悬空引用（缺口驱动优先级第3位）。选题前核查发现 `_graph.json` 记录的另一个候选悬空引用 `path-integration` 实际上早于 2026-06-22 已建页（`wiki/index.md` 有 ✅ 记录），属图谱记录未同步的"假空缺"，本次未选用该方向，转而确认 channelrhodopsin 为真实缺口后选定。
+
+**新建页面（1个）**：
+
+- `wiki/methods/channelrhodopsin.md`（rev1，established/high）：通道视紫质分子结构（七跨膜+视黄醛发色团+希夫碱共价连接）、光激活动力学（Nagel 2003，~200μs无延迟）、孔道结构与门控机制（Kato 2012晶体结构，TM1/2/3/7构成孔道，12个极性残基，门控具体路径标注为推测）、工程变体谱系（Chronos快速动力学、Chrimson红移、ChRmine泵样折叠但为通道+非侵入式深脑控制）；新增 Q-chr-gating-pathway（门控路径是否有直接观测证据）、Q-chr-pump-fold-origin（ChRmine结构错位的演化起源）
+
+**修订页面（1个）**：
+
+- `wiki/methods/optogenetics.md` rev2→rev3：填补长期标注的悬空引用，"连接"一节 `channelrhodopsin` 条目从"待建立"更新为指向新页面；"ChR2 分子机制"小节末尾新增交叉引用说明系统层/分子层分工；source_articles 新增本文
+
+**矛盾登记（0个）**：无新矛盾。
+
+**悬空引用（0个新增；2个历史记录订正）**：本次新建页面未产生新悬空引用。核查中发现 `_graph.json` 的 `dangling_references` 记录的 `path-integration` 条目实际早已建页但未同步标注 `resolved`，本次已补充标注（未创建重复页面、未修改 path-integration.md 正文）。同时发现 `wiki/index.md` 的"待补的悬空引用"列表中 `tarp-auxiliary-subunit`（2026-06-28已建）与 `apical-tuft`（2026-09-18已建）同样存在页面已建但列表未同步的情况，本次一并订正列表标注（未修改对应页面正文）。经逐一核查磁盘文件确认，`complexin`、`munc18`、`bdnf-trkb`、`prc-prion-protein`、`basal-forebrain`、`locus-coeruleus-anatomy`、`wernicke-area`、`planum-temporale`、`binding-problem`、`co-ripples`、`neural-population-coding`、`recurrent-network`、`protein-aggregation`、`ubiquitin-proteasome`、`autophagy`、`nuclear-inclusions` 仍为真实悬空引用，供未来选题参考（详见今日 reading notes）。
+
+**图谱变化**：350节点/2118边 → **351节点/2120边**（+1节点：channelrhodopsin；+2边：channelrhodopsin→optogenetics prerequisite-for；channelrhodopsin→action-potential related）
+
+**层级**：molecular × cellular × methods
+
+---
+
 ## 2026-07-10 · 文章 #193 · 苔藓纤维的分子笔迹：活动区蛋白的配比，能否写出终扣的"生物物理签名"？
 
 **选题依据**：延续 #192 的 Q-mf-01（苔藓纤维终扣"生物物理签名"分子基础，高优先级 open question，回收未解问题优先级第5位）；同时推进 `wiki/neurons/active-zone.md` 既有的 Q-active-zone-heterogeneity（高连接度节点[6条边]的开放问题，深挖前沿优先级第4位）。经核查，`predictive-coding.md`（rev10）与 `global-workspace-theory.md`（rev8）均已是充分发展的成熟页面，并非悬空引用，故未按初始建议选择该方向。

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-10",
+  "last_updated": "2026-07-11",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -11839,7 +11839,7 @@
       "key_contribution": "Marr-Ito-Albus三个经典模型的历史比较，共识与分歧"
     }
   ],
-  "total_sources": 731,
+  "total_sources": 737,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",
@@ -17662,6 +17662,48 @@
         "id": "AllenInstitute:Unc13c-GeneID-84031",
         "full_text": false,
         "note": "Allen Mouse Brain Atlas 官方基因数据库条目确认，具体表达定量数据受限于动态渲染页面未提取"
+      }
+    ]
+  },
+  "sources_2026-07-11-channelrhodopsin-molecular-mechanism": {
+    "article": "#194 · 光如何拧开一扇离子通道：通道视紫质的分子机制，从藻类眼点到神经科学的\"开关\"",
+    "date": "2026-07-11",
+    "sources": [
+      {
+        "id": "PMID:14615590",
+        "pmcid": "PMC283525",
+        "full_text": true,
+        "note": "Nagel et al. 2003 PNAS ChR2发现论文，直接光门控阳离子通道，全文开放"
+      },
+      {
+        "id": "PMID:22266941",
+        "pmcid": "PMC4160518",
+        "full_text": true,
+        "note": "Kato et al. 2012 Nature C1C2晶体结构，孔道组成与门控推测机制，全文开放"
+      },
+      {
+        "id": "PMID:24509633",
+        "pmcid": "PMC3943671",
+        "full_text": true,
+        "note": "Klapoetke et al. 2014 Nat Methods Chronos/Chrimson双色变体，全文开放"
+      },
+      {
+        "id": "PMID:35114111",
+        "pmcid": "PMC7612760",
+        "full_text": true,
+        "note": "Kishi et al. 2022 Cell ChRmine泵样折叠结构，全文开放"
+      },
+      {
+        "id": "PMID:16116447",
+        "pmcid": null,
+        "full_text": false,
+        "note": "Boyden et al. 2005 Nat Neurosci，首次神经元光遗传学应用，仅摘要，已在optogenetics.md固结"
+      },
+      {
+        "id": "JAX:Strain-012569",
+        "pmcid": null,
+        "full_text": false,
+        "note": "Jackson Laboratory Ai32品系官方目录页，ChR2(H134R)/EYFP转基因报告鼠，官方机构来源"
       }
     ]
   }

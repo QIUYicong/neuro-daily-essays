@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-07-10",
-  "total_articles": 184,
+  "last_updated": "2026-07-11",
+  "total_articles": 185,
   "entries": [
     {
       "date": "2026-10-18",
@@ -12143,6 +12143,62 @@
         "single-cell-rna-seq / spatial-transcriptomics 与 Neuropixels 的整合方向（延续#192建议，仍未处理）",
         "IBL brain-wide map 数据集在其他认知任务(非2AFC)中的后续应用（延续#192建议，仍未处理）",
         "SNARE复合体预激活构象争议（C-2026-05-25-01）的新证据裁决（长期open，本次未处理）"
+      ]
+    },
+    {
+      "article_number": 194,
+      "date": "2026-07-11",
+      "title": "光如何拧开一扇离子通道：通道视紫质的分子机制，从藻类眼点到神经科学的\"开关\"",
+      "slug": "channelrhodopsin-molecular-mechanism",
+      "date_collision_note": "真实日期2026-07-11已被知识库历史日期漂移事件产生的虚拟时间线文章占用（2026-07-11-dopamine-lc-hippocampus-memory-tagging.md，第79篇）；依据2026-07-07修复事件确立的'日期+slug'消歧命名惯例，notes/sources/log均采用带slug后缀的文件名，article文件名因本身含slug而无冲突",
+      "wiki_pages_created": [
+        "wiki/methods/channelrhodopsin.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/methods/optogenetics.md rev2→rev3"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "光遗传学的分子基础——通道视紫质——在分子/结构层面究竟如何工作？光子如何在亚毫秒尺度让七跨膜蛋白从'关'变成'开'，工程师又是如何把这个天然分子改造成速度、颜色、深度各不相同的工具家族？",
+      "open_questions_added": [
+        "Q-chr-gating-pathway（新增）：Kato 2012提出的门控构象路径是推测模型，是否已有更高时间分辨率结构方法直接观测证实？",
+        "Q-chr-pump-fold-origin（新增）：ChRmine泵样折叠但功能为通道的结构错位，演化起源是什么？"
+      ],
+      "layer": [
+        "molecular",
+        "cellular",
+        "methods"
+      ],
+      "curriculum_track": "methods-revolution-optogenetics-molecular-basis",
+      "topic_tags": [
+        "channelrhodopsin",
+        "optogenetics",
+        "ion channel",
+        "structural biology",
+        "protein engineering",
+        "ChR2",
+        "ChRmine",
+        "Chronos",
+        "Chrimson"
+      ],
+      "main_sources": [
+        "PMID:14615590",
+        "PMID:22266941",
+        "PMID:24509633",
+        "PMID:35114111",
+        "PMID:16116447"
+      ],
+      "unresolved_questions": [
+        "Q-chr-gating-pathway",
+        "Q-chr-pump-fold-origin"
+      ],
+      "gap_filled": "填补 wiki/methods/optogenetics.md 长期标注的真实悬空引用（channelrhodopsin，缺口驱动优先级第3位）；选题前核查排除了一个已过时的'假空缺'（path-integration，早于2026-06-22已建页但_graph.json未同步），并顺带订正了_graph.json与index.md中另外2处同类型的过时悬空引用记录（tarp-auxiliary-subunit、apical-tuft均已建页但未同步标注）",
+      "next_suggested_topics": [
+        "complexin（复合素）——真实悬空引用，被SNARE-complex等多个页面引用",
+        "recurrent-network（循环神经网络）——真实悬空引用，与今日文章的AI对照部分及attractor-network.md直接相关",
+        "binding-problem/co-ripples——真实悬空引用，课程脊柱8（意识与自我）方向",
+        "SNARE复合体预激活构象争议（C-2026-05-25-01）的新证据裁决（长期open，本次未处理）",
+        "Q-chr-gating-pathway/Q-chr-pump-fold-origin 若未来能检索到时间分辨结构生物学新证据，可直接推进"
       ]
     }
   ]

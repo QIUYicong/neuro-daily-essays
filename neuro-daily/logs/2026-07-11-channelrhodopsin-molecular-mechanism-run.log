@@ -1,0 +1,62 @@
+# 运行日志 2026-07-11
+
+**触发上下文**：本次会话由平台调度触发（真实执行时间 UTC 2026-07-10 16:00 附近开始，跨越 UTC+8 午夜进入 2026-07-11 00:00 CST）。会话开始时 `origin/main` HEAD 为 `dbe66c7`（"Log dup20 diagnostic no-op for 2026-07-10"），当天（2026-07-10）已有20次触发记录（1次真实文章#193 + 19次纯诊断no-op）。本次执行时 `date -u` 已显示 2026-07-11，`TZ=Asia/Shanghai date` 显示 2026-07-11 00:00:05 CST——确认这是当天（2026-07-10）与新真实日历日（2026-07-11）的交界点触发，而非同一天内的重复触发。
+
+## 0. 前置核实
+
+- 读取仓库根目录 `ROUTINE.md`、`KNOWLEDGE-BASE-DESIGN.md`，均存在，未触发"停止并报告"条件。
+- 读取 Issue #1（`[需要人工决定] main 分支历史分叉 + 知识库日期漂移已延伸至 2026-10-21，例程陷入每日多次空转`）完整正文与全部24条评论：核实决策点1/2（main历史分叉）已于2026-07-05确认为浅克隆伪影、非真实分叉；决策点3（知识库日期漂移）已于2026-07-07（commit `6cbfc22`）修复，此后07-07/07-08/07-09/07-10四个真实日历日均已连续正常交付真实文章；决策点4（触发频率，近乎每小时）持续未解决，只能在Claude Code on the web触发器设置页面处理，本会话内工具（CronList/CronCreate等）确认无法触及外部调度器；决策点5（07-09发现的per-session分支与main同步滞后）已于07-10确认缓解。全部24条评论均由例程自身以仓库所有者账号自动发出，未见真人（仓库所有者）新回复。
+- `git status` 起始状态：working tree clean。`git checkout main && git pull origin main` 报告本地/远程"50 vs 50 互不包含提交"的表面分叉——按 Issue #1 已定性的"浅克隆本地ref滞后伪影"处理：执行 `git fetch --unshallow origin`（完整拉取历史），复核 `git merge-base --is-ancestor main origin/main` → true（确认是纯粹的本地落后，非真实分叉），`git merge --ff-only origin/main` 干净快进成功（`e251272..dbe66c7`），无冲突、无强推。
+- 确认 `neuro-daily/wiki/` 存在且结构完整。
+
+## 1. 命名冲突核实
+
+- 确认 `articles/2026-07-11-dopamine-lc-hippocampus-memory-tagging.md`（第79篇）已存在于 `main`（早于本次会话，由知识库历史"日期漂移"事件产生的虚拟时间线文章）。核实其对应的 `run.log`（`logs/2026-07-11-run.log`）自述"系统时钟实际日期：2026-06-18；知识库虚拟日期：2026-07-11"，确认这是漂移期间的旧内容，非本次会话产出。严格遵循2026-07-07确立的先例：不touch、不覆盖、不引用该文件。
+- 核实 `state/topic_ledger.json` 最新真实条目为 #193（2026-07-10，真实产出，commit `836abec`），确认真实日历2026-07-11当天**尚未**有真实新文章产出（区别于虚拟时间线的旧#79条目）。
+- 本次真实文章采用全新slug `channelrhodopsin-molecular-mechanism`，已用 `ls articles/` 核实与知识库内所有现存slug均不重复。notes/sources/log 三类文件同样采用"日期+slug"消歧命名，延续既定惯例。
+
+## 2. 选题（缺口驱动）
+
+- 读取 `state/unresolved_questions.md`：尾部主要为苔藓纤维/活动区蛋白相关问题（Q-mf-01、Q-az-01、Q-az-02），与近两日（#192、#193）主题高度重叠，若继续选择会连续三天同一narrow topic，不利于多样性。
+- 读取 `state/contested_claims.json`：7个open矛盾，多数为长期存在且需要专门新证据裁决的深度争议（consciousness理论、D-丝氨酸释放机制等），本次未选择该方向。
+- 核查 `wiki/_graph.json` 的 `dangling_references`/`dangling_refs`：用python脚本对比每条未标注`resolved`的slug与磁盘实际wiki文件是否存在，发现 `path-integration`（被grid-cell引用）实际上早已存在（`wiki/concepts/path-integration.md`，`wiki/index.md`记录created 2026-06-22），是图谱记录未同步的"假空缺"，本次未选用。同一核查还发现 `tarp-auxiliary-subunit`、`mglur-ltd`、`embodied-semantics`、`dentate-gyrus`、`excitotoxicity`、`mitochondrial-dysfunction`、`neuroinflammation` 同样已建页但未同步标注，本次仅订正了直接相关的3条（path-integration、tarp-auxiliary-subunit、apical-tuft），其余留待未来专门核查。
+- 真实悬空引用中选定 `channelrhodopsin`：`wiki/methods/optogenetics.md`"连接"一节明确标注 `[[channelrhodopsin]] — 待建立（ChR1/ChR2 的分子生物学页面）`，经核实磁盘确认无对应页面，是真实缺口；同时该主题层级（molecular/cellular/methods）与近两日的cerebellar synaptic molecular主题（07-09/07-10）及07-08的methods主题（Neuropixels）形成互补而非重复，符合"避免连续三天同一层级"的多样性要求。
+- 核心问题确定：光遗传学的分子基础——通道视紫质——在分子/结构层面究竟如何工作？光子如何触发孔道开合？工程师如何将其改造为速度/颜色/深度各异的工具家族？
+
+## 3. 检索
+
+- NCBI E-utilities esearch（约6次）：`path integration grid cells attractor network`（用于排除该方向，30条）→`channelrhodopsin structure mechanism gating`（51条）→`Nagel channelrhodopsin-2 directly light-gated cation-selective 2003`（定位发现论文）→`Kato crystal structure channelrhodopsin light-gated cation channel Nature 2012`（定位晶体结构论文）→`Klapoetke independent optical excitation distinct neural populations 2014`（定位Chronos/Chrimson论文）。
+- PMC ID Converter API（`pmc.ncbi.nlm.nih.gov/tools/idconv`）：逐一核实候选文献PMC全文可用性（而非仅信任elink返回，此前一次elink查询曾出现PMC ID与论文错配的异常，已改用idconv复核并确认矫正）。
+- 官方机构来源：先后尝试 nobelprize.org（403，代理拒绝）、www.nih.gov（403）、braininitiative.nih.gov（重定向后403）、alleninstitute.org/brain-map.org 相关猜测URL（404，已放弃猜测URL的做法，改为搜索确认真实URL）；最终通过搜索确认并成功访问 The Jackson Laboratory 官方品系目录页（jax.org/strain/012569，Ai32 ChR2(H134R)/EYFP品系），采用为本次官方机构来源。
+- 最终采用来源：6个（4个开放全文PMC、1个仅摘要[已在optogenetics.md固结的背景引用]、1个官方机构来源），满足ROUTINE.md最低要求（≥5来源、≥2开放全文、≥1官方机构来源）。
+
+## 4. 写作与固结
+
+- 文章：`articles/2026-07-11-channelrhodopsin-molecular-mechanism.md`（第194篇，约4800字）
+- 阅读笔记：`notes/2026-07-11-channelrhodopsin-molecular-mechanism-reading-notes.md`（4篇精读+1篇摘要级+1个官方来源，附带图谱核查发现记录）
+- 来源注册：`sources/2026-07-11-channelrhodopsin-molecular-mechanism-sources.json`
+- Wiki固结：新建 `wiki/methods/channelrhodopsin.md`（rev1）；修订 `wiki/methods/optogenetics.md`（rev2→rev3，填补长期悬空引用）
+- 图谱：`_graph.json` 350节点/2118边 → 351节点/2120边（+1节点channelrhodopsin，+2边），同时订正path-integration的过时dangling_references记录
+- `wiki/index.md`：新增channelrhodopsin条目至methods域列表；订正"待补的悬空引用"列表中3条过时记录（path-integration本身已正确标注，新增订正tarp-auxiliary-subunit、apical-tuft；新增channelrhodopsin已建记录）
+- `wiki/CHANGELOG.md`：新增2026-07-11条目
+- `state/topic_ledger.json`：新增第194条真实条目
+- `state/unresolved_questions.md`：新增Q-chr-gating-pathway、Q-chr-pump-fold-origin，及一条图谱维护性发现记录
+- `state/source_registry.json`：新增 `sources_2026-07-11-channelrhodopsin-molecular-mechanism` 条目
+- `state/monthly_synthesis.md`：追加2026-07-11条目
+- 矛盾登记：0个新增
+
+## 5. 自检
+
+- **真实性**：所有PMID/PMCID均通过NCBI E-utilities/PMC实时查询核实，非凭空引用；门控机制推测部分（Kato 2012）已明确标注"作者原文承认无法排除其他机制"，未将推测当作定论；官方机构来源（JAX）已如实标注未提取完整正文、仅确认基础设施记录。
+- **一致性**：optogenetics.md的updated/revision_count/修订历史已同步；`_graph.json`节点/边计数已与实际数组长度核对一致（351/2120）。
+- **可导航**：index.md与CHANGELOG.md已反映今日变化；新页面channelrhodopsin.md的related（optogenetics、action-potential）与prerequisites（action-potential、synaptic-transmission）均≥1。
+- **情景层**：article/notes/sources/log四类文件齐全，未修改任何已存在的历史文件（含2026-07-11-dopamine-lc-hippocampus-memory-tagging.md及其notes/sources/log）。
+
+## 6. Git 操作
+
+- 分支：`main`（单分支累积方案）
+- 提交前：`git add neuro-daily/`
+- 提交信息：`Add neuro daily article + wiki consolidation for 2026-07-11 (channelrhodopsin-molecular-mechanism)`
+- Push前：`git pull --rebase origin main`（防止推送期间main被更新）
+- Push：`git push origin main`
+- Push状态：见commit记录（本日志写入时尚未执行，实际结果以最终git log为准）

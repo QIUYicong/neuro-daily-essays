@@ -6,13 +6,13 @@ type: method
 status: established
 confidence: high
 created: 2026-06-09
-updated: 2026-07-08
-revision_count: 2
+updated: 2026-07-11
+revision_count: 3
 dimensions: [molecular, cellular, microcircuit, brain-region, behavior, cognition, methods]
 related: [channelrhodopsin, engram-cells, place-cell, hippocampal-circuit, pv-interneurons, ltp, dopamine-reward-prediction-error, alzheimers-disease, neuropixels, distributed-decision-coding]
 prerequisites: [action-potential, voltage-gated-sodium-channel, synaptic-transmission]
 opens_questions: [Q-opto-depth-limit, Q-opto-distributed-representation, Q-opto-clinical-ethics]
-source_articles: [2026-06-09-optogenetics-causal-neuroscience]
+source_articles: [2026-06-09-optogenetics-causal-neuroscience, 2026-07-08-neuropixels-distributed-decision-coding, 2026-07-11-channelrhodopsin-molecular-mechanism]
 key_sources:
   - "PMID:16116447"
   - "PMID:17375185"
@@ -55,6 +55,7 @@ key_sources:
 - **机制**：蓝光→视黄醛顺-反异构化→蛋白构象变化→阳离子通道开放→Na⁺/H⁺内流→去极化→动作电位
 - **时间常数**：开放 ~1-2 ms；自然关闭 ~10 ms
 - **优化变体**：ChETA（更快动力学，高频控制）；C1V1、ReaChR、Chrimson（红移，更深穿透）；CoChR（高光敏感性）
+- 2026-07-11 补充：ChR2 的孔道结构、发色团化学与门控机制的完整分子层解析，以及 Chronos/Chrimson/ChRmine 等变体谱系的结构基础，见新建专页 [[channelrhodopsin]]
 
 ### 抑制工具：NpHR（halorhodopsin）分子机制
 
@@ -99,7 +100,7 @@ key_sources:
 - [[place-cell]] — 光遗传学在体验证了场所细胞对空间导航的因果贡献
 - [[ltp]] — optogenetics 证明了诱导 LTP 的突触特异性，支持印迹细胞假说
 - [[dopamine-reward-prediction-error]] — 选择性激活 VTA DA 神经元触发奖励行为
-- [[channelrhodopsin]] — 待建立（ChR1/ChR2 的分子生物学页面）
+- [[channelrhodopsin]] — 分子结构、发色团化学、孔道组成与门控机制、工程变体谱系的完整专页（2026-07-11 已建立）
 - [[neuropixels]] — 大规模同步记录提供相关性/可解码性证据，光遗传学提供因果验证，两者互补
 - [[distributed-decision-coding]] — 全脑分布式可解码信号是 Q-opto-distributed-representation 问题在全脑尺度的具体案例
 
@@ -117,6 +118,7 @@ key_sources:
 
 - 2026-06-09 · 创建 · 基于《光遗传学：用一束光解开神经回路的因果之谜》一文 · methods 层第一个页面 · 初始置信度：高（established）
 - 2026-07-08 · 修订（rev2）· 基于文章 #191《决策无处不在：神经像素探针如何终结"一个脑区一个功能"，又如何暴露出新的陷阱》· 新增：与 [[neuropixels]]/[[distributed-decision-coding]] 的因果 vs 相关性讨论，呼应既有未解问题 Q-opto-distributed-representation
+- 2026-07-11 · 修订（rev3）· 基于文章 #194《光如何拧开一扇离子通道：通道视紫质的分子机制，从藻类眼点到神经科学的"开关"》· 填补长期标注的悬空引用：新建 [[channelrhodopsin]] 专页承载分子/结构层内容，本页"连接"与"ChR2分子机制"小节新增交叉引用
 
 ---
 
@@ -124,3 +126,4 @@ key_sources:
 
 - [[2026-06-09-optogenetics-causal-neuroscience]]
 - [[2026-07-08-neuropixels-distributed-decision-coding]]
+- [[2026-07-11-channelrhodopsin-molecular-mechanism]]

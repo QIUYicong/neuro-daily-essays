@@ -2230,3 +2230,15 @@
 - 矛盾登记：0个（轻触及但未裁决SNARE预激活构象争议C-2026-05-25-01，明确标注为正交问题）
 
 **层级**：molecular × synaptic × cellular × microcircuit × brain-region（首次为小脑输入层多样性问题引入具体的分子机制候选者，同时推进了活动区页面既有的高优先级异质性开放问题）
+
+### 2026-07-11（#194）：光如何拧开一扇离子通道——通道视紫质的分子机制，从藻类眼点到神经科学的"开关"
+
+**核心发现**：wiki 页面 optogenetics.md 长期标注一处真实悬空引用（channelrhodopsin，ChR1/ChR2 的分子生物学页面待建），本文补齐。通道视紫质最早于莱茵衣藻中被发现，作为单组件直接光门控阳离子通道（Nagel et al. 2003, PMID:14615590），光激活延迟仅约200微秒，无需第二信使级联放大。2012年晶体结构（Kato et al., PMID:22266941）首次在原子层面揭示孔道由TM1/2/3/7构成、12个极性残基形成带负电通路，并阐明其与同源质子泵（细菌视紫红质）的关键结构分野（TM1/TM2胞外端外倾3-4Å），但门控具体构象路径仍是作者明确标注的推测模型，未被直接观测证实。此后的定点突变工程沿速度（Chronos，PMID:24509633）、颜色（Chrimson，同文献）、敏感性/深度（ChRmine，PMID:35114111）三条路线并行推进，其中ChRmine呈现"泵样三聚体折叠、通道功能"的结构错位，支持非侵入式深脑光遗传学的概念验证。选题过程中核查发现并订正了_graph.json与index.md中3处过时的悬空引用记录（path-integration、tarp-auxiliary-subunit、apical-tuft均已建页但未同步标注resolved）。
+
+**知识地图贡献**：
+- 新建 methods/channelrhodopsin.md（established/high，rev1）：分子结构、发色团化学、孔道组成、门控机制（含未解决部分）、工程变体谱系；新增 Q-chr-gating-pathway、Q-chr-pump-fold-origin
+- optogenetics.md（rev2→rev3）：填补长期悬空引用，"连接"与"ChR2分子机制"小节新增交叉引用
+- 图谱：350节点/2118边 → 351节点/2120边（+1节点，+2边）；订正3处历史遗留悬空引用记录（不产生新页面）
+- 矛盾登记：0个
+
+**层级**：molecular × cellular × methods（首次为课程脊柱10"方法革命"补齐光遗传学的分子生物学底层，与07-08 Neuropixels形成"电生理读出 vs 光学写入"两大方法学支柱的呼应）

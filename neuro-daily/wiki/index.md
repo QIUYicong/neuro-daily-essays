@@ -347,6 +347,7 @@
 - 🟢 [单细胞RNA测序（scRNA-seq）](methods/single-cell-rna-seq.md) — 液滴微流控+条形码+UMI单细胞基因组测序；snRNA-seq解决脑组织分离难题；UMAP降维+Leiden聚类揭示神经元转录组多样性；神经元分类学革命的核心技术平台 **[修订 rev1→rev2 2026-09-16：补充空间转录组学互补关系]**
 - 🟢 [空间转录组学](methods/spatial-transcriptomics.md) — MERFISH：多轮序贯成像+纠错编码（MHD4）在保留空间坐标的前提下测量1000+基因；Chen 2015奠基（140→1001 RNA）；Zhang 2021（初级运动皮层，258基因，IT梯度，层级组织）；Allen Brain Cell Atlas 2023（34类/338亚类/5322簇；背腹侧分化；空间模块≠解剖区域；TF组合码）；填补 scRNA-seq 的空间信息缺口 **[NEW 2026-09-16]**
 - 🟢 [Neuropixels（神经像素探针）](methods/neuropixels.md) — 单硅轴960位点选384通道高密度电生理探针，片上放大滤波复用消除电缆噪声；两探针同时记录741神经元/5脑结构；八探针联合采样3000+位点；Kilosort尖峰分选无真正全自动算法，组织漂移持续挑战长期追踪 **[NEW 2026-07-08（补录于2026-07-09）]**
+- 🟢 [通道视紫质](methods/channelrhodopsin.md) — 藻类趋光性感光通道，七跨膜+视黄醛发色团，光子触发顺反异构化在约200μs内开启阳离子孔道；Kato 2012晶体结构揭示TM1/2/3/7构成孔道、与质子泵结构分野；Chronos（快速）/Chrimson（红移）/ChRmine（泵样折叠但为通道，支持非侵入式深脑控制）三条工程路线；填补 optogenetics 长期悬空引用 **[NEW 2026-07-11]**
 
 ## theories（理论）
 
@@ -444,11 +445,12 @@
 - ~~`entorhinal-cortex`（内嗅皮层）~~ ✅ **2026-06-22 已建立**
 - ~~`cognitive-map`（认知地图）~~ ✅ **2026-06-22 已建立**
 - ~~`synaptic-clustering`（突触聚类假说）~~ ✅ **2026-06-11 已建立**（Wilson 2016体内证据；V1雪貂，聚类程度与OSI正相关；普遍性待验证）
-- `apical-tuft`（顶端簇）— 被 [[树突计算]]、[[锥体神经元]] 引用，Ca²⁺ 棘波的主要发生地
+- ~~`apical-tuft`（顶端簇）~~ ✅ **2026-09-18 已建立**（被 [[树突计算]]、[[锥体神经元]] 引用，Ca²⁺ 棘波的主要发生地；本条目此前未同步标注，2026-07-11 核查订正）
 - ~~`three-factor-learning-rule`（三因素学习规则）~~ ✅ **2026-06-07 已建立**（同时建立 dopamine-reward-prediction-error 和 synaptic-tagging-capture，填补 hebbian-learning 悬空引用）
-- `tarp-auxiliary-subunit`（TARP 辅助亚基）— 被 [[ampa-receptor]] 引用，AMPA 受体突触锚定关键
+- ~~`tarp-auxiliary-subunit`（TARP 辅助亚基）~~ ✅ **2026-06-28 已建立**（被 [[ampa-receptor]] 引用，AMPA 受体突触锚定关键；本条目此前未同步标注，2026-07-11 核查订正）
 - ~~`readily-releasable-pool`（可释放池/RRP）~~ ✅ **2026-06-10 已建立**（填补突触传递页引用，新建 neurons/readily-releasable-pool 专页）
-- `complexin`（复合素）— 被 SNARE-complex 等引用
+- `complexin`（复合素）— 被 SNARE-complex 等引用，核查确认仍为真实悬空引用（2026-07-11 复核）
+- ~~`channelrhodopsin`（通道视紫质）~~ ✅ **2026-07-11 已建立**（被 [[optogenetics]] 引用，光遗传学分子机制核心，填补长期标注的悬空引用）
 
 ---
 
