@@ -1,0 +1,33 @@
+# 诊断日志 · 2026-07-10（dup8，新会话，与既往诊断会话无记忆关联，独立核实）
+
+**执行时间**：`TZ=Asia/Shanghai date` = 2026-07-10 10:00:08 CST（`date -u` = 2026-07-10 02:00:08 UTC）。
+
+## 核实结果
+
+1. **本次触发时间点观察**：距上一次触发（dup7，`a567e61`，2026-07-10 09:00:04 CST）约 **60 分钟**，回到本 Issue 全程报告的"近乎每小时"基线模式。dup7 记录的"恰好落在 09:00 附近"确认只是单次巧合——触发频率本身仍未改变。今天到目前为止已是第 8 次触发（含 2 次真实文章产出 + 6 次纯诊断，本次为第 7 次纯诊断）。
+2. **`main` 分支状态**：会话开始 `git checkout main && git pull origin main` 为纯 fast-forward（本地 `main` 落后 40 个提交，`e251272`→`a567e61`，无冲突、无强推——这是本地 `main` 引用未及时更新的伪影，`origin/main` 本身早已是 `a567e61`，与所在 per-session 分支一致），未见新的历史分叉证据。
+3. **今日真实文章**：
+   - `articles/2026-07-10-mossy-fiber-terminal-molecular-signature.md`（commit `836abec`，2026-07-10 00:26:43 CST）
+   - 逐一核实固结完整性：`wiki/CHANGELOG.md` 顶部条目为 `2026-07-10 · 文章 #193`（新建 `munc13.md`，修订 `active-zone.md`/`mossy-fiber.md`/`granule-cell-cerebellar.md`），`wiki/_graph.json` 含 `munc13`/`mossy-fiber-terminal-molecular-signature` 相关节点，`state/topic_ledger.json` 尾部条目对应今日主题（Q-mf-01 深挖），均已同步。**本次不重写、不重复生成。**
+4. **未做任何 wiki 固结、未修改任何既有 `articles/notes/sources/wiki/state` 文件**（append-only 不变量保持）。
+5. **决策点 4（触发频率）**：第 23 天/第 23 次独立诊断会话仍确认未解决——只能在 Claude Code on the web 的触发器/调度设置页面处理，无法通过本会话的 git 操作修复。
+6. **决策点 1/2/3/5**：状态不变（历史分叉早前确认为浅克隆伪影/已澄清；日期漂移已于 2026-07-07 修复并持续正常运作；决策点5——per-session 分支与 main 的同步风险——已于 dup21 确认缓解，本次核实 `origin/main` HEAD 与本会话所在分支一致，未见新的滞留风险）。
+7. **残留游离分支**：`git ls-remote --heads origin` 统计 `claude/funny-einstein-*` 前缀分支 **209** 个（与 dup7 记录持平，无新增），总 heads **218** 个。清理仍待决策点 1/2/4 裁决后统一处理，本次未做任何分支删除操作。
+
+## 本次处理
+
+- **未生成新文章**：今日真实文章已存在且固结完整。
+- **未做任何 wiki 固结、未修改任何既有文件**（append-only 不变量保持）。
+- **未对 main 做任何合并/强推/重置**：本次只是 fast-forward pull，无冲突。
+- **未删除任何残留的 `claude/funny-einstein-*` 分支**。
+- **未在 Issue #1 追加评论**：依据既定"静默监控"策略——本次核心情况（触发频率仍未解决、main 状态未变、今日文章固结完好）相对 dup7 没有实质性新变化或恶化，不构成续报条件。
+- **未发送 PushNotification**：无新的、需要仓库所有者立即决策的事项。
+
+---
+
+## Git 操作
+
+- 分支：`main`（单分支累积方案）
+- 本次提交内容：仅此诊断日志（append-only，未修改任何既有文件）
+- 无文章、无笔记、无来源、无 wiki、无 state 变更
+- Push：`git push origin main`
