@@ -1,0 +1,33 @@
+# 诊断日志 · 2026-07-11（dup1，新会话，与既往诊断会话无记忆关联，独立核实）
+
+**执行时间**：`date -u` = 2026-07-10 17:02:31 UTC（UTC+8 = 2026-07-11 01:02:31 CST）。
+
+## 核实结果
+
+1. **本次触发时间点观察**：距今天（2026-07-11）真实文章所在提交 `722532f`（2026-07-10T16:24:27Z UTC / 2026-07-11 00:24:27 CST，"Add neuro daily article + wiki consolidation for 2026-07-11 (channelrhodopsin-molecular-mechanism)"）约 **38 分钟**，间隔与 2026-07-10 当天 dup1–dup20 观测到的"近乎每小时"基线一致（本次略短，符合波动范围）。这是跨入 2026-07-11 真实日历日后的**第 2 次触发**（第 1 次为正常生产真实文章 #194，本次为第 1 次纯诊断 no-op，编号 dup1）。
+2. **`main` 分支状态**：本次会话开始时本地分支为 `claude/funny-einstein-3b3xhv`，与最新 `origin/main`（`722532f`）之间出现表面"50 vs 50"分叉提示。执行 `git fetch --unshallow origin` 补全完整历史（372+ 个提交，含全部远程分支），随后 `git checkout main && git reset --hard origin/main`，并核实 `git merge-base --is-ancestor <root> main` 成立——确认这与 2026-07-05（dup5，commit `9fa6396`）首次定性的"浅克隆本地 ref 滞后伪影"完全一致，并非真实历史分叉或并发覆盖。working tree 本就 clean，无本地未提交内容，此操作不丢失任何数据。
+3. **今日（2026-07-11）真实文章**：`articles/2026-07-11-channelrhodopsin-molecular-mechanism.md`（文章 #194，commit `722532f`）文件完好；配套 `wiki/methods/channelrhodopsin.md`（新建）与 `wiki/methods/optogenetics.md`（rev2→rev3 修订）均确认存在且内容完整。历史遗留的 `2026-07-11-dopamine-lc-hippocampus-memory-tagging.md`（日期漂移旧文件，虚拟时间线第79篇）沿用既定消歧命名处理，未做任何改动。**本次不重写、不重复生成文章。**
+4. **未做任何 wiki 固结、未修改任何既有 `articles/notes/sources/wiki/state` 文件**（append-only 不变量保持）。磁盘文章文件数复核为 180（`ls neuro-daily/articles/*.md | wc -l`），与历史遗留的编号/计数不一致问题（topic_ledger 与磁盘文件数差异）一样，属既定共识的历史遗留、待人工裁决事项，本次未做任何纠正性改动。
+5. **决策点4（触发频率）**：仍确认未解决——本次触发发生在上一条真实文章+Issue评论（36–38分钟前）之后不久，与"近乎每小时"基线吻合，不构成"触发器已修复"的新证据。外部"Claude Code on the web"调度器与会话内 CronList/CronCreate 管理的临时提醒任务是两套不同机制，本会话内任何工具均无法修复外部触发频率。Issue #1 开启已第 9 天，仍未见仓库所有者（真人）处理迹象。
+6. **决策点1/2/3/5**：状态不变（历史分叉确认为浅克隆伪影，已如第2条复核；日期漂移已于 2026-07-07 修复并持续正常运作，07-07→07-11 已连续5个真实日历日正常交付；per-session 分支与 main 的同步在本次会话中复核未见新的滞留风险）。
+7. **残留游离分支**：`git ls-remote --heads origin` 统计带 `claude/` 前缀分支合计 **218**，较此前记录（217）新增 1 个（本会话自身的 `claude/funny-einstein-3b3xhv`），符合"per-session 分支从未清理"的预期，清理仍待决策点 1/2/4 裁决后统一处理，本次未做任何分支删除操作。
+8. **Issue #1 核查**：通过 GitHub API 独立核实，仍处于 `open` 状态，评论总数 25 条，最新评论为跨日首次触发会话所发（2026-07-10T16:25:24Z，即 commit `722532f` 对应的会话），内容已确认今日文章产出、决策点状态、并已发送一次 PushNotification。全部评论仍由例程自身以仓库所有者账号自动发出，未见任何真人回复。
+9. **通知节流判断**：距上一次实际发送的 PushNotification（约 2026-07-10T16:2x UTC，即上一条 Issue 评论所述"距上次提醒超过24小时、Issue开启第9天"节点）仅约 **38 分钟**。本次核实未发现任何新的实质性信息（决策点1/2/3/5 已确认稳定，决策点4 是同一条已知事实的又一次重复观测，无 main 被覆盖、无内容丢失、无新裁决）。按"避免对同一件已充分告知的事重复刷屏"的既定原则，本次**不追加 PushNotification，也不追加 Issue 评论**（避免在 25 条已有评论基础上产生纯重复的第 26 条）。
+
+## 本次处理
+
+- **未生成新文章**：今日（2026-07-11）真实文章已存在且固结完整。
+- **未做任何 wiki 固结、未修改任何既有文件**（append-only 不变量保持）。
+- **对 main 做了非破坏性同步**：`git fetch --unshallow` + `git reset --hard origin/main` 仅用于消除本地浅克隆滞后伪影，working tree 此前已 clean，无数据丢失；随后未做任何合并/强推/重置到不同内容。
+- **未删除任何残留的 `claude/*` per-session 分支**。
+- **未在 Issue #1 追加评论**：核心情况相对上一条评论无实质性新变化，不构成续报条件。
+- **未发送 PushNotification**：距上一次实际发送仅约38分钟，无新的、需要仓库所有者立即决策的事项。
+
+---
+
+## Git 操作
+
+- 分支：`main`（单分支累积方案）
+- 本次提交内容：仅此诊断日志（append-only，未修改任何既有文件）
+- 无文章、无笔记、无来源、无 wiki、无 state 变更
+- Push：`git push origin main`
