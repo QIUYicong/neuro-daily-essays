@@ -1,0 +1,29 @@
+# 诊断日志 · 2026-07-12（dup1，新会话，独立核实）
+
+**执行时间**：`date -u` = 2026-07-11 20:03:33 UTC（UTC+8 = 2026-07-12 04:03:33 CST）。
+
+## 核实结果
+
+1. **本次触发时间点**：距今天真实文章提交 `7314408`（article #195，2026-07-11T19:19:42Z）约 **44 分钟**——这是跨入 2026-07-12 真实日历日、今天真实内容产出之后的第 1 次触发（本次编号 dup1），延续 hourly 触发基线（决策点4·触发频率问题依旧未解决，第 10 天）。
+2. **`main` 分支状态**：`git fetch origin main` 确认推送前 `origin/main` HEAD 仍是 `fcdd216`（dup4，2026-07-10），**落后于本会话所在分支 19 个提交**（含 dup5–dup22 全部诊断日志 + 今日真实文章 `7314408`）。用 `git merge-base --is-ancestor main claude/funny-einstein-1sp2g0` 确认为纯粹的"main 落后"而非历史分叉，属于决策点5已记录过的已知模式（per-session 分支领先、main 未同步）。本次已执行 `git push origin claude/funny-einstein-1sp2g0:main`，**纯快进、无强推、无冲突**，随后用独立 `git fetch` + `merge-base --is-ancestor 7314408 origin/main` 核实：`origin/main` 现已更新为 `7314408`，与本会话分支 HEAD 完全一致。
+3. **今日（2026-07-12）真实文章**：`neuro-daily/articles/2026-07-12-complexin-dual-function-vesicle-fusion.md`（文章 #195）文件完好存在，内容完整。**本次不重写、不重复生成文章。**（另有 `2026-07-12-dopamine-td-learning-brain-ai.md`，为 Issue #1 已记录的历史日期漂移遗留文件，不属于本次会话产出，未做任何处理，append-only 不变量保持。）
+4. **未做任何 wiki 固结、未修改任何既有 `articles/notes/sources/wiki/state` 文件**（append-only 不变量保持，仅此诊断日志为新增文件）。
+5. **Issue #1 状态核实**（GitHub MCP `issue_read`）：`state=open`，**26 条评论**，`updated_at=2026-07-11T19:20:13Z`，最新一条评论正是上一会话（article #195 会话）自动生成的状态汇报，内容已完整覆盖本次核实到的一切（今日文章、main 落后情况、决策点1–5、通知节流判断）。核实未发现任何新的、可辨识的人工回复；问题悬而未决进入第 10 天（自 2026-07-02 创建以来）。
+6. **通知节流判断**：距上一次实际发送的 PushNotification（约 2026-07-11T17:01 UTC，随 dup22 提交）约 **3 小时**，远低于 24 小时节流阈值；且 Issue #1 状态与上一条评论（19:20 UTC，仅 44 分钟前）逐字一致，无新的、需要仓库所有者立即决策的信息。**本次不发送 PushNotification，不追加 Issue 评论**（避免刷屏，延续既定节流策略）。
+
+## 本次处理
+
+- **未生成新文章**：今日（2026-07-12）真实文章已存在且固结完整。
+- **未做任何 wiki 固结、未修改任何既有文件**（append-only 不变量保持）。
+- **对 main 做了一次纯快进同步**（`fcdd216` → `7314408`，非强推、无冲突、已独立核实）：这是 ROUTINE.md 单分支累积模型要求的常规同步动作，不是修复性/破坏性操作。
+- **未在 Issue #1 追加评论**：核心情况相对上一条评论（44 分钟前）无实质性新变化，不构成续报条件。
+- **未发送 PushNotification**：距上一次实际发送约 3 小时，远低于 24 小时节流阈值，无新决策点。
+
+---
+
+## Git 操作
+
+- 分支：`main`（单分支累积方案，通过 `claude/funny-einstein-1sp2g0` → `main` 快进同步）
+- 本次提交内容：仅此诊断日志（append-only，未修改任何既有文件）
+- 无文章、无笔记、无来源、无 wiki、无 state 变更
+- Push：`git push origin claude/funny-einstein-1sp2g0:main`
