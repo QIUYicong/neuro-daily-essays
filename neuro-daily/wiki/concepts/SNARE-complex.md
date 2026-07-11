@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-25
-updated: 2026-05-25
-revision_count: 1
+updated: 2026-07-12
+revision_count: 2
 dimensions: [molecular, synaptic]
 related: [synaptic-transmission, synaptotagmin, active-zone, complexin, munc18, membrane-fusion]
 prerequisites: [synaptic-transmission]
 opens_questions: [Q-snare-partial-zipper, Q-snare-number-per-fusion]
-source_articles: [2026-05-25-synaptic-vesicle-exocytosis]
-key_sources: ["PMID:22026965", "PMID:23060190", "PMID:22068972"]
+source_articles: [2026-05-25-synaptic-vesicle-exocytosis, 2026-07-12-complexin-dual-function-vesicle-fusion]
+key_sources: ["PMID:22026965", "PMID:23060190", "PMID:22068972", "PMID:28813412"]
 ---
 
 # SNARE复合体 (SNARE Complex)
@@ -63,12 +63,13 @@ SNARE复合体的组装是高度放热反应，释放的自由能驱动膜融合
 | 从N→C端拉链式组装触发融合 | 截断突变、单分子力学测量 | PMID:23060190 | 高 |
 | 约1-3个复合体足以触发融合 | 单复合体实验+计算模型 | PMID:23060190 | 中 |
 | NSF/α-SNAP解体复合体为下一轮融合准备 | 生化实验、电子显微镜 | PMID:22026965 | 高 |
+| Complexin通过Syt1-SNARE-Cpx三方界面（990 Å²）锁定预融合态，Ca²⁺结合Syt1后解锁完成拉链 | X射线晶体学(1.85-2.5Å)+突变功能验证 | PMID:28813412（PMC全文） | 高 |
 
 ## 连接
 
 - [[synaptic-transmission]] — SNARE是突触传递的核心执行机器
 - [[synaptotagmin]] — 调控SNARE最终拉合的钙传感器
-- [[complexin]] — 锁住并超启动SNARE复合体的调控蛋白
+- [[complexin]] — 锁住并超启动SNARE复合体的调控蛋白；2017年晶体结构揭示其与Syt1共同锁定预融合态的三方界面机制（详见[[complexin]]）
 - [[active-zone]] — SNARE组装发生的特化位点
 - [[membrane-fusion]] — SNARE是普遍性膜融合机器（突触特化版）
 
@@ -80,6 +81,7 @@ SNARE复合体的组装是高度放热反应，释放的自由能驱动膜融合
 ## 修订历史
 
 - 2026-05-25 · 创建 · 基于《神经信号的化学渡口》一文 · 初始置信度：高
+- 2026-07-12 · 修订 · 基于《刹车还是油门？Complexin 如何用同一段螺旋同时钳制与催化囊泡融合》一文 · 新增complexin三方界面结构证据，"连接"中complexin条目更新为指向新建专页
 
 ## 来源文章
 

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-11",
+  "last_updated": "2026-07-12",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -11839,7 +11839,7 @@
       "key_contribution": "Marr-Ito-Albus三个经典模型的历史比较，共识与分歧"
     }
   ],
-  "total_sources": 737,
+  "total_sources": 747,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",
@@ -17704,6 +17704,72 @@
         "pmcid": null,
         "full_text": false,
         "note": "Jackson Laboratory Ai32品系官方目录页，ChR2(H134R)/EYFP转基因报告鼠，官方机构来源"
+      }
+    ]
+  },
+  "sources_2026-07-12-complexin-dual-function-vesicle-fusion": {
+    "article": "#195 · 刹车还是油门？Complexin 如何用同一段螺旋同时钳制与催化囊泡融合",
+    "date": "2026-07-12",
+    "sources": [
+      {
+        "id": "PMID:11163241",
+        "pmcid": null,
+        "full_text": false,
+        "note": "Reim et al. 2001 Cell，complexin I/II双敲除奠基性发现，仅摘要"
+      },
+      {
+        "id": "PMID:16794037",
+        "pmcid": null,
+        "full_text": false,
+        "note": "Giraudo et al. 2006 Science，体外脂质体钳制模型，仅摘要"
+      },
+      {
+        "id": "PMID:19164751",
+        "pmcid": "PMC3235366",
+        "full_text": true,
+        "note": "Maximov et al. 2009 Science，RNAi敲低量化双向脱靶表型，全文开放"
+      },
+      {
+        "id": "PMID:22068972",
+        "pmcid": "PMC3249630",
+        "full_text": true,
+        "note": "Südhof 2012 CSH Perspect综述，complexin-synaptotagmin协同共识，全文开放"
+      },
+      {
+        "id": "PMID:23238737",
+        "pmcid": "PMC3530744",
+        "full_text": true,
+        "note": "Jorquera et al. 2012 J Neurosci，果蝇NMJ独立证据，全文开放"
+      },
+      {
+        "id": "PMID:28813412",
+        "pmcid": "PMC5757840",
+        "full_text": true,
+        "note": "Zhou et al. 2017 Nature，三方界面晶体结构，全文开放（经BioC API获取）"
+      },
+      {
+        "id": "PMID:39627811",
+        "pmcid": "PMC11613576",
+        "full_text": true,
+        "note": "2024综述，四结构域功能划分+CPX1-4亚型分化，全文开放"
+      },
+      {
+        "id": "PMID:42364981",
+        "pmcid": null,
+        "full_text": true,
+        "note": "Chen et al. 2026 Nat Commun，脂肪细胞GLUT4通路complexin独立于Syt的原始功能，开放获取（Nature.com CC-BY），发表距今约15天"
+      },
+      {
+        "id": "UniProt:O14810",
+        "pmcid": null,
+        "full_text": true,
+        "note": "CPLX1人类基因官方注释，DEE63疾病关联，官方数据库来源"
+      },
+      {
+        "id": "PMID:26539891",
+        "pmcid": null,
+        "full_text": false,
+        "note": "Karaca et al. 2015 Neuron，CPLX1-DEE63关联的遗传学发现背景，仅摘要"
       }
     ]
   }

@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-07-11",
-  "node_count": 351,
-  "edge_count": 2120,
+  "updated": "2026-07-12",
+  "node_count": 352,
+  "edge_count": 2123,
   "edge_types": [
     "is-a",
     "part-of",
@@ -3209,6 +3209,15 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/methods/channelrhodopsin.md"
+    },
+    {
+      "id": "complexin",
+      "title": "复合素",
+      "domain": "neurons",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/complexin.md"
     }
   ],
   "edges": [
@@ -15110,6 +15119,24 @@
       "to": "action-potential",
       "type": "related",
       "note": "ChR2介导的阳离子内流直接触发膜去极化，达到阈值即引发动作电位"
+    },
+    {
+      "from": "complexin",
+      "to": "SNARE-complex",
+      "type": "regulates",
+      "note": "complexin结合并调控SNARE复合体的拉链组装状态，同时执行钳制自发融合与催化诱发融合两种相反效应"
+    },
+    {
+      "from": "complexin",
+      "to": "synaptotagmin",
+      "type": "related",
+      "note": "二者通过三方界面（Zhou 2017晶体结构）共同锁定预融合态；Ca²⁺触发Syt1后解除complexin钳制"
+    },
+    {
+      "from": "complexin",
+      "to": "active-zone",
+      "type": "part-of",
+      "note": "complexin的钳制/催化调控发生在活动区囊泡对接与预融合位点"
     }
   ],
   "dangling_references": [
@@ -15120,7 +15147,8 @@
         "SNARE-complex",
         "synaptotagmin"
       ],
-      "note": "双功能调控蛋白，可并入SNARE-complex"
+      "note": "双功能调控蛋白，可并入SNARE-complex；已于2026-07-12创建 wiki/neurons/complexin.md 页面，填补 SNARE-complex/synaptotagmin/active-zone 共同引用的悬空引用",
+      "resolved": "2026-07-12"
     },
     {
       "slug": "munc18",

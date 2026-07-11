@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-07-11",
-  "total_articles": 185,
+  "last_updated": "2026-07-12",
+  "total_articles": 186,
   "entries": [
     {
       "date": "2026-10-18",
@@ -12199,6 +12199,65 @@
         "binding-problem/co-ripples——真实悬空引用，课程脊柱8（意识与自我）方向",
         "SNARE复合体预激活构象争议（C-2026-05-25-01）的新证据裁决（长期open，本次未处理）",
         "Q-chr-gating-pathway/Q-chr-pump-fold-origin 若未来能检索到时间分辨结构生物学新证据，可直接推进"
+      ]
+    },
+    {
+      "article_number": 195,
+      "date": "2026-07-12",
+      "title": "刹车还是油门？Complexin 如何用同一段螺旋同时钳制与催化囊泡融合",
+      "slug": "complexin-dual-function-vesicle-fusion",
+      "date_collision_note": "真实日期2026-07-12已被知识库历史日期漂移事件产生的虚拟时间线文章占用（2026-07-12-dopamine-td-learning-brain-ai.md），依据2026-07-07修复事件确立的'日期+slug'消歧命名惯例，notes/sources/log均采用带slug后缀的文件名，article文件名因本身含slug而无冲突",
+      "wiki_pages_created": [
+        "wiki/neurons/complexin.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/SNARE-complex.md rev1→rev2",
+        "wiki/neurons/synaptotagmin.md rev3→rev4"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "同一个分子complexin，为什么能在同一个突触末梢里既阻止囊泡在钙离子到来前抢跑融合，又在动作电位到达的瞬间把融合速度推向亚毫秒级？2026年新证据进一步提出：这种双重能力是否比突触本身、甚至比synaptotagmin都更古老？",
+      "open_questions_added": [
+        "Q-cpx-tripartite-generality（新增）：Zhou 2017的三方界面结构是否对Syt2/Syt9/Syt7同样成立？",
+        "Q-cpx-retinal-dynamics（新增）：CPX3/4更低SNARE亲和力如何仍支持带状突触持续高频释放？",
+        "Q-cpx-primordial-evidence（新增）：complexin早于synaptotagmin演化出现的具体跨物种分子系统发生学证据是什么？",
+        "Q-cpx-disease-causality（新增）：CPX1/CPX2与阿尔茨海默病/精神分裂症的关联是相关性还是已验证的因果链条？"
+      ],
+      "layer": [
+        "molecular",
+        "synaptic"
+      ],
+      "curriculum_track": "neurons-how-they-work-synaptic-transmission-molecular-machinery",
+      "topic_tags": [
+        "complexin",
+        "SNARE complex",
+        "synaptotagmin",
+        "vesicle fusion",
+        "exocytosis",
+        "structural biology",
+        "evolution",
+        "active zone"
+      ],
+      "main_sources": [
+        "PMID:19164751",
+        "PMID:28813412",
+        "PMID:39627811",
+        "PMID:42364981",
+        "PMID:23238737"
+      ],
+      "unresolved_questions": [
+        "Q-cpx-tripartite-generality",
+        "Q-cpx-retinal-dynamics",
+        "Q-cpx-primordial-evidence",
+        "Q-cpx-disease-causality"
+      ],
+      "gap_filled": "填补 wiki/concepts/SNARE-complex.md、wiki/neurons/synaptotagmin.md、wiki/neurons/active-zone.md 三页共同标注的悬空引用（complexin，缺口驱动优先级第3位）；同时追踪一篇2026-06-27发表（距今约15天）的Nature Communications突破性研究，兼顾突破追踪优先级",
+      "next_suggested_topics": [
+        "recurrent-network（循环神经网络）——真实悬空引用，与population-clock/attractor-network直接相关",
+        "binding-problem/co-ripples——真实悬空引用，课程脊柱8（意识与自我）方向",
+        "memory-consolidation系统巩固专页——长期标注最高优先级但尚未建立",
+        "SNARE复合体预激活构象争议（C-2026-05-25-01）的新证据裁决（长期open，本次未处理）",
+        "Q-cpx-primordial-evidence 若未来能检索到Chen 2026论文的详细跨物种系统发生学数据，可直接推进"
       ]
     }
   ]

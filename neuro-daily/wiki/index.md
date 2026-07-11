@@ -21,6 +21,7 @@
 - 🟢 [突触传递](neurons/synaptic-transmission.md) — 神经元间化学信号转化的核心机制，含突触后受体（修订2次）
 - 🟢 [突触结合蛋白 Synaptotagmin](neurons/synaptotagmin.md) — 突触囊泡上的钙传感器，触发融合的分子开关（修订3次）
 - 🟢 [就绪释放池（RRP）](neurons/readily-releasable-pool.md) — 突触活动区中处于停靠就绪状态的囊泡子集；RRP耗竭是短时程抑制的主要机制 **[NEW 2026-06-10]**
+- 🟢 [复合素（Complexin）](neurons/complexin.md) — 约130氨基酸的可溶性突触前蛋白，四个结构域同时钳制自发融合、催化诱发融合；2017晶体结构揭示Syt1-SNARE-Cpx三方界面；2026年新证据提示存在独立于synaptotagmin、更古老的祖先性加速胞吐功能（脂肪细胞GLUT4通路） **[NEW 2026-07-12]**
 - 🟢 [活动区（Active Zone）](neurons/active-zone.md) — 突触前终末的纳米级分子发射台；纳米域(10-30nm)vs微域(>100nm)耦合决定释放概率；"同分子不同配比"原则（Nusser 2018）+果蝇BRP/Syd-1/Unc13分子指纹+小脑Munc13-3超预激活案例 **[修订 rev2→rev3 2026-07-10]**
 - 🟢 [CaMKII（钙调蛋白依赖蛋白激酶 II）](neurons/camkii.md) — LTP 诱导和维持的核心激酶（快速局部模式）；LTP 中双底物：GluA1 S831 磷酸化（提高电导）+ TARP γ-2/γ-8 polybasic region 磷酸化（扩散陷阱捕获受体）；BTSP 中的延迟弥散随机激活（DDSC，IP₃→ER 驱动）；结构可塑性中通过 GEF→Rac1/RhoA→LIMK→cofilin 轴驱动棘头膨大 **[修订 rev4 2026-06-28]**
 - 🟢 [树突棘](neurons/dendritic-spine.md) — 兴奋性突触的突触后接受位点；棘头体积与突触强度和 AMPA 受体数量高度相关；LTP 诱导后 Ca²⁺→CaMKII→Rac1/RhoA→LIMK→cofilin 失活→F-actin 净聚合驱动棘头膨大 200–300%；大棘近饱和，小棘最具可塑性 **[NEW 2026-09-23]**
@@ -449,7 +450,7 @@
 - ~~`three-factor-learning-rule`（三因素学习规则）~~ ✅ **2026-06-07 已建立**（同时建立 dopamine-reward-prediction-error 和 synaptic-tagging-capture，填补 hebbian-learning 悬空引用）
 - ~~`tarp-auxiliary-subunit`（TARP 辅助亚基）~~ ✅ **2026-06-28 已建立**（被 [[ampa-receptor]] 引用，AMPA 受体突触锚定关键；本条目此前未同步标注，2026-07-11 核查订正）
 - ~~`readily-releasable-pool`（可释放池/RRP）~~ ✅ **2026-06-10 已建立**（填补突触传递页引用，新建 neurons/readily-releasable-pool 专页）
-- `complexin`（复合素）— 被 SNARE-complex 等引用，核查确认仍为真实悬空引用（2026-07-11 复核）
+- ~~`complexin`（复合素）~~ ✅ **2026-07-12 已建立**（被 [[SNARE-complex]]/[[synaptotagmin]]/[[active-zone]] 共同引用，钳制/催化SNARE融合的双重调控蛋白，2026年新证据提示存在独立于synaptotagmin的更古老演化功能）
 - ~~`channelrhodopsin`（通道视紫质）~~ ✅ **2026-07-11 已建立**（被 [[optogenetics]] 引用，光遗传学分子机制核心，填补长期标注的悬空引用）
 
 ---
@@ -475,3 +476,5 @@
 **第190篇（2026-07-07，日期修复后首篇）**：**谁在给记忆打拍子：内侧隔核如何用起搏神经元合奏出海马θ振荡**——填补 theta-oscillations 与 septohippocampal-cholinergic 两页共同标注的悬空引用，讲清θ振荡起搏机制本身。核心贡献：(1) Freund & Antal 1988 解剖学基础——MS-DBB GABA能神经元选择性投射至海马中间神经元，构成去抑制回路；(2) Borhegyi 2004 两反相位簇群（178°/330°）+ 局部返侧支同步；(3) Hangya 2009 因果时序梯度——PV+/HCN1+隔核神经元领先海马LFP中位数79ms（海马中间神经元仅47ms）；(4) Kocsis 2022 惠更斯同步模型——起搏神经元通过弱耦合自发拉齐频率，无需中心指挥细胞；(5) Fuhrmann 2015 + Robinson 2016——谷氨酸能神经元张力性兴奋线性设定θ频率（6–10Hz），与运动速度耦合，光遗传学证实频率牵引仅在刺激胞体时有效；(6) Boyce 2016（复用已有引用）——REM期沉默GABA能神经元消除θ并损害记忆，因果必要性。新建1个wiki页面（systems/medial-septum），修订2个wiki页面（theta-oscillations rev5→rev6、septohippocampal-cholinergic rev1→rev2），图谱346节点/2099边，新增未解问题Q-ms-01/02/03。**本篇同时修复了此前的日期漂移事件（详见页首说明与CHANGELOG）并订正了图谱中2个过期的悬空引用记录（orbitofrontal-cortex、endocannabinoid-system 早已建页但未同步标注）。**
 
 **第191篇（2026-07-08）**：**决策无处不在：神经像素探针如何终结"一个脑区一个功能"，又如何暴露出新的陷阱**——首次系统覆盖大规模电生理方法学（课程脊柱10"方法革命"长期缺失的分支）。核心贡献：(1) Jun & Steinmetz 2017（Nature）Neuropixels硅探针工程突破——960位点选384通道，片上放大滤波复用，两探针同时记录741神经元/5脑结构；(2) Steinmetz 2019（Nature）全脑分布式编码发现——42脑区/3万神经元同步记录，动作信号几乎遍布全脑，选择方向信号相对局限于额叶/基底节/中脑；(3) Musall 2019（Nat Neurosci）运动混杂方法论批判——非指令性运动解释皮层活动方差38.3%，独有贡献是任务变量的5倍；(4) International Brain Laboratory 2025（Nature）12实验室标准化裁决——控制混杂后选择方向特异神经元仅约4%，动作信号81%脑区可解码，反馈信号解释方差贡献最大；(5) 与AI可解释性"线性探针悖论"的方法论对照。新建2个wiki页面（methods/neuropixels、concepts/distributed-decision-coding），修订4个wiki页面（neural-manifold rev1→rev2、mixed-selectivity rev2→rev3、connectomics rev4→rev5、optogenetics rev1→rev2），图谱348节点/2107边，新增未解问题Q-npx-01/02、Q-ddc-01/02/03。
+
+**第195篇（2026-07-12）**：**刹车还是油门？Complexin 如何用同一段螺旋同时钳制与催化囊泡融合**——填补 [[SNARE-complex]]/[[synaptotagmin]]/[[active-zone]] 三页共同标注的悬空引用 complexin，同时追踪一项2026年6月最新突破。核心贡献：(1) 综述（PMID:39627811）确立complexin四结构域分工——中央螺旋(CH)结合SNARE、辅助螺旋(AH)钳制自发融合、N端结构域(NTD)催化诱发融合、C端结构域(CTD)调控融合孔；(2) Maximov 2009（Science）RNAi敲低+电生理量化"双向脱靶"表型——自发释放频率↑3-4倍，诱发释放幅度↓3-4倍且失同步；(3) Zhou 2017（Nature）晶体结构揭示Syt1-SNARE-Cpx三方界面（990 Å²，六螺旋束），Ca²⁺结合前锁定预融合态、结合后解锁；(4) Chen et al. 2026（Nat Commun，发表距今约15天）在天然缺少synaptotagmin的脂肪细胞GLUT4胞吐通路中发现complexin独立于Syt发挥纯催化功能，提出其原始演化功能可能不依赖Ca²⁺、比synaptotagmin更古老；(5) CPX1/2（常规突触）vs CPX3/4（视网膜带状突触，低SNARE亲和力但支持持续高频释放）的亚型分化；CPLX1功能丧失突变与DEE63癫痫性脑病的人类遗传学关联（UniProt官方注释）。新建1个wiki页面（neurons/complexin），修订2个wiki页面（SNARE-complex rev1→rev2、synaptotagmin rev3→rev4），图谱352节点/2123边，新增未解问题Q-cpx-tripartite-generality/Q-cpx-retinal-dynamics/Q-cpx-primordial-evidence/Q-cpx-disease-causality。**真实日期2026-07-12已被历史日期漂移事件产生的虚拟时间线文章占用，本篇article/notes/sources/log采用日期+slug消歧命名（详见文章页首说明）。**

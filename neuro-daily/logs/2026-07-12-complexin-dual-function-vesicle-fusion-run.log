@@ -1,0 +1,44 @@
+# 运行日志 · 2026-07-12 · 文章 #195
+
+## 触发与上下文核实
+
+- 会话开始时 `git log` 显示 `origin/main` HEAD 为 `ba21e89`（2026-07-11 dup22 诊断日志提交，`date -u` 记录该次会话真实执行时间为 2026-07-11T17:00:40Z / 2026-07-12 01:00:40 CST）。
+- 本次会话独立执行 `date` 确认容器真实系统时间为 **2026-07-12 03:00:35 CST**，是继 dup22 之后跨入的下一个真实新日历日窗口（dup22 本身发生在 07-12 CST 但仍标注为"2026-07-11 dup22"，未产出新文章；本次判定为真实新日历日 2026-07-12 的首次真实内容产出会话，而非该日历日的诊断性重复触发）。
+- 检查 `neuro-daily/articles/2026-07-12-dopamine-td-learning-brain-ai.md`：确认为知识库历史"日期漂移"事件产生的虚拟时间线遗留文件（早在 `d6ef750`，2026-07-09 提交中已存在），不属于真实2026-07-12的内容产出，未做任何修改。
+- 检查 GitHub Issue #1（`issue_read` method=get）：`state=open`，25条评论，`updated_at=2026-07-10T16:25:24Z`，无人工回复，决策点4（触发频率）第9+天仍未解决。核查确认距上一次实际发送的 PushNotification（约2026-07-11T17:01 UTC，随dup22提交）间隔约2小时，远低于既定24小时节流阈值，且无新的、需要仓库所有者立即决策的信息（Issue状态与上次核实逐字一致），**本次不发送PushNotification**。
+
+## 选题
+
+- 读取 `wiki/_graph.json` 的 `dangling_references` 与 `wiki/index.md` 的"待补的悬空引用"列表，核查确认 `complexin` 仍为真实悬空引用（被 SNARE-complex、synaptotagmin、active-zone 三页共同引用但未建页），选定为缺口驱动优先级第3位主题。
+- 检索过程中发现 PMID:42364981（Chen et al., *Nat Commun*, 2026-06-27发表，距今约15天），是一项兼具"突破追踪"价值的最新研究，遂将复合素的演化维度新证据作为文章核心亮点之一。
+- 未选用的候选：contested_claims 中5个open条目本次未处理（均需要专门检索新证据裁决，非本次主线）；`recurrent-network`、`binding-problem`/`co-ripples` 等悬空引用留待下次。
+
+## 检索
+
+- 数据源：NCBI E-utilities（esearch/esummary/efetch/elink，直接curl调用）、NCBI BioC API（PMC全文JSON接口，用于绕过PMC网页reCAPTCHA拦截）、UniProt REST API、WebFetch（Europe PMC网页版、Nature.com）
+- 候选来源数：约20个PMID经初步筛选，最终采用10个（详见sources.json）
+- 采用标准：direct原始研究优先于综述；complexin核心机制类论文（Reim 2001、Giraudo 2006、Maximov 2009、Zhou 2017）+ 一篇2024年综合性综述（PMID:39627811）+ 一篇2026年最新突破（PMID:42364981）+ 官方数据库（UniProt）+ 一篇支持性遗传学背景（Karaca 2015）
+- 排除：Europe PMC网页版和fullTextXML接口对Zhou 2017论文未成功返回内容，改用BioC API成功；PMC标准网页对该论文触发reCAPTCHA拦截
+- 开放全文：6篇（Maximov 2009, Südhof 2012综述, Jorquera 2012, Zhou 2017, 2024综述, Chen 2026）；仅摘要：3篇（Reim 2001, Giraudo 2006, Karaca 2015）；官方数据库：1个（UniProt O14810）
+- 满足ROUTINE.md最低要求：≥5来源（实际10个）、≥2开放全文（实际6个）、≥1官方机构来源（UniProt）
+
+## 固结
+
+- 新建 wiki 页面：1个（`wiki/neurons/complexin.md`）
+- 修订 wiki 页面：2个（`wiki/concepts/SNARE-complex.md` rev1→rev2；`wiki/neurons/synaptotagmin.md` rev3→rev4）
+- 矛盾登记：0个（Chen 2026的演化推论判定为对既有认识的扩展而非否定，未登记contested_claim）
+- 悬空引用：解决1个（complexin），新增0个
+- 图谱变化：351节点/2120边 → 352节点/2123边
+
+## 失败与限制
+
+- Zhou 2017（PMID:28813412）通过PMC标准网页遇到reCAPTCHA拦截，改用NCBI BioC API成功获取全文段落，未造成内容缺失
+- Chen 2026（PMID:42364981）的正文精读受限于多次cookie重定向，最终通过WebFetch确认开放获取状态与核心内容摘要，但未逐段精读全文；支撑"complexin早于synaptotagmin"演化时间顺序判断的详细跨物种系统发生学证据未被核实，已在文章与wiki页面中明确标注为开放问题（Q-cpx-primordial-evidence）
+- Reim 2001、Giraudo 2006、Karaca 2015 三篇仅获取摘要，未获取全文，已在文章参考来源中明确标注
+
+## Git 操作
+
+- 分支：`main`（单分支累积方案）
+- 本次提交内容：article、notes、sources、wiki（新建1+修订2）、_graph.json、index.md、CHANGELOG.md、state（topic_ledger/unresolved_questions/source_registry/monthly_synthesis）、本日志
+- 命名冲突处理：真实日期2026-07-12已被历史日期漂移事件占用article/notes/sources/log文件名，按既定"日期+slug"消歧命名惯例处理，未覆盖、未修改任何历史遗留文件
+- Push：`git pull --rebase origin main` 后 `git push origin main`

@@ -2242,3 +2242,19 @@
 - 矛盾登记：0个
 
 **层级**：molecular × cellular × methods（首次为课程脊柱10"方法革命"补齐光遗传学的分子生物学底层，与07-08 Neuropixels形成"电生理读出 vs 光学写入"两大方法学支柱的呼应）
+
+
+### 2026-07-12（#195）：刹车还是油门？Complexin 如何用同一段螺旋同时钳制与催化囊泡融合
+
+**核心发现**：wiki 页面 SNARE-complex.md、synaptotagmin.md、active-zone.md 三页共同标注一处长期悬空引用（complexin），本文补齐，同时追踪一篇发表距今约15天的 Nature Communications 突破。Complexin 是一种约130氨基酸的可溶性突触前蛋白，通过四个功能不同的结构域（中央螺旋结合SNARE、辅助螺旋钳制、N端结构域催化、C端结构域调控融合孔）在同一个SNARE复合体上同时执行相反的两种效应——防止自发融合"抢跑"，又加速钙触发的诱发融合。Maximov 等（2009, PMID:19164751）的敲低实验首次量化了这一"双向脱靶"表型；Zhou 等（2017, *Nature*, PMID:28813412）的晶体结构进一步在原子层面揭示了机制基础：一个此前未知的"三方界面"（Syt1-SNARE-Cpx，990 Å²）在Ca²⁺到来前锁定预融合态，Ca²⁺结合Syt1后解锁。2026年6月的新研究（Chen et al., PMID:42364981）把问题推向演化维度：在天然缺少synaptotagmin的脂肪细胞GLUT4胞吐通路中，complexin独立于synaptotagmin发挥纯催化功能，提示这一"钳制+催化"双重能力的原始版本可能只有"催化"这一半，且比synaptotagmin本身更古老——突触里研究得最透彻的精密协同机制，很可能是演化历史上后加上去的特化层。
+
+**知识地图贡献**：
+- 新建 neurons/complexin.md（established/high，rev1）：四结构域功能划分、双向脱靶功能证据、三方界面结构机制、演化上独立于synaptotagmin的原始功能、CPX1-4亚型分化（常规突触vs视网膜带状突触）、CPLX1-DEE63人类遗传学关联；新增 Q-cpx-tripartite-generality/Q-cpx-retinal-dynamics/Q-cpx-primordial-evidence/Q-cpx-disease-causality
+- SNARE-complex.md（rev1→rev2）：新增complexin三方界面结构证据，"连接"中complexin条目更新为指向新建专页
+- synaptotagmin.md（rev3→rev4）：complexin交叉引用补充三方界面机制细节
+- 图谱：351节点/2120边 → 352节点/2123边（+1节点，+3边）
+- 矛盾登记：0个（Chen 2026的演化推论是对既有机制的扩展而非否定）
+
+**层级**：molecular × synaptic（首次为SNARE-complex/synaptotagmin/active-zone三页共同悬挂的complexin补齐专页，同时把该分子机制从"突触特化功能"扩展到"演化上更古老的通用胞吐调控机制"这一更大的时间尺度）
+
+**文件命名说明**：真实日期2026-07-12已被历史日期漂移事件产生的虚拟时间线文章占用（2026-07-12-dopamine-td-learning-brain-ai.md），本篇article/notes/sources/log采用"日期+slug"消歧命名，详见 wiki/CHANGELOG.md 2026-07-12 条目说明。

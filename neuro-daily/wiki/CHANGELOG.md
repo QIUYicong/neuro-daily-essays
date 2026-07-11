@@ -4,6 +4,31 @@
 
 ---
 
+## 2026-07-12 · 文章 #195 · 刹车还是油门？Complexin 如何用同一段螺旋同时钳制与催化囊泡融合
+
+**命名说明**：真实日期2026-07-12已被本知识库历史"日期漂移"事件产生的虚拟时间线文章占用（`2026-07-12-dopamine-td-learning-brain-ai.md`），依据2026-07-07修复事件确立的"日期+slug"消歧命名惯例，本篇article/notes/sources/log均采用带slug后缀的文件名，不覆盖、不修改、不引用该历史遗留文件。
+
+**选题依据**：`wiki/concepts/SNARE-complex.md`、`wiki/neurons/synaptotagmin.md`、`wiki/neurons/active-zone.md` 三页共同引用但长期未建页的悬空引用 `complexin`（缺口驱动优先级第3位）；检索过程中同时发现一篇2026-06-27发表（距今约15天）的Nature Communications突破性研究，兼顾了"突破追踪"优先级。
+
+**新建页面（1个）**：
+
+- `wiki/neurons/complexin.md`（rev1，established/high）：四结构域功能划分（CH结合SNARE/AH钳制/NTD催化/CTD融合孔调控）、Maximov 2009双向脱靶功能证据、Zhou 2017三方界面晶体结构机制、Chen 2026演化上可能独立于synaptotagmin的原始功能（脂肪细胞GLUT4胞吐）、CPX1-4亚型在常规突触与视网膜带状突触间的分化、CPLX1-DEE63人类遗传学关联；新增 Q-cpx-tripartite-generality、Q-cpx-retinal-dynamics、Q-cpx-primordial-evidence、Q-cpx-disease-causality
+
+**修订页面（2个）**：
+
+- `wiki/concepts/SNARE-complex.md` rev1→rev2：新增complexin三方界面结构证据行，"连接"一节complexin条目更新为指向新建专页，新增key_source（PMID:28813412）
+- `wiki/neurons/synaptotagmin.md` rev3→rev4：在complexin交叉引用后补充三方界面结构机制细节，新增key_source（PMID:28813412）
+
+**矛盾登记（0个）**：无新矛盾。Chen 2026提出的complexin"更古老、独立于synaptotagmin"的原始功能，是对既有认识的**扩展**而非**否定**——不推翻complexin-synaptotagmin协同机制在突触中的成立，而是补充了其演化起源的新维度，故不登记为contested_claim。
+
+**悬空引用（0个新增；1个解决）**：`complexin` 由本次新建页面解决。所有新增related均指向已存在节点或本次新建节点。
+
+**图谱变化**：351节点/2120边 → **352节点/2123边**（+1节点：complexin；+3边：complexin→SNARE-complex regulates；complexin→synaptotagmin related；complexin→active-zone part-of）
+
+**层级**：molecular × synaptic
+
+---
+
 ## 2026-07-11 · 文章 #194 · 光如何拧开一扇离子通道：通道视紫质的分子机制，从藻类眼点到神经科学的"开关"
 
 **选题依据**：`wiki/methods/optogenetics.md`"连接"一节长期标注 `[[channelrhodopsin]] — 待建立（ChR1/ChR2 的分子生物学页面）`，是一个明确、非过时的真实悬空引用（缺口驱动优先级第3位）。选题前核查发现 `_graph.json` 记录的另一个候选悬空引用 `path-integration` 实际上早于 2026-06-22 已建页（`wiki/index.md` 有 ✅ 记录），属图谱记录未同步的"假空缺"，本次未选用该方向，转而确认 channelrhodopsin 为真实缺口后选定。
