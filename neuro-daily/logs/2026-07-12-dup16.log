@@ -1,0 +1,23 @@
+# 2026-07-12 dup16 诊断性触发记录
+
+**真实 UTC 触发时间**：2026-07-12T18:02:13Z（UTC+8 约 2026-07-13T02:02）——距上一次触发（dup15，约 UTC 2026-07-12T17:00:28Z）约 **62 分钟**，延续每小时触发基线。决策点4（触发频率）第 12 天/连续第 16 次记录仍未解决。
+
+## 检查结果
+
+1. **同步 main**：`git checkout main && git pull origin main` 后，本地由 `fcdd216` 快进至 `origin/main` HEAD `c5e57e1`（dup15 提交），34 个提交、无冲突、无需任何合并/强推修复。
+2. **今日真实内容核实**：`articles/2026-07-12-complexin-dual-function-vesicle-fusion.md`（真实文章 #195）及其 wiki 固结（`wiki/neurons/complexin.md`、`wiki/concepts/SNARE-complex.md`、`wiki/neurons/synaptotagmin.md`）均存在且未被改动（`git log -1` 仍指向原提交 `7314408`）。`state/topic_ledger.json` 最后条目仍为 #195（2026-07-12，Complexin），与 dup15 记录一致，无新增条目。`articles/2026-07-12-dopamine-td-learning-brain-ai.md` 仍为早前日期漂移历史遗留的同日重复文章，本次未改动。本次**不重写、不重复生成文章**。
+3. **Issue #1 状态核实**：`issue_read(get)` 确认 `state=open`，`comments=26`，`updated_at=2026-07-11T19:20:13Z`——与 dup15 记录逐字一致，**无新评论、无人工回复**。问题悬而未决进入第 12 天（自 2026-07-02 创建以来）。抽查末尾评论确认历次评论均为过往 Claude Code 会话自述（无可辨识的仓库所有者回复）。决策点4（触发频率）仍未解决，会话内工具（CronList 确认本会话无任何 session-scoped 定时任务）无法触及外部触发器配置，问题只能在 Claude Code on the web 的触发器设置页面处理。
+4. **通知节流判断**：距上一次实际发送的 PushNotification（2026-07-12T17:00:28Z 左右，随 dup15 提交 `c5e57e1`）仅约 **62 分钟**，远低于 24 小时节流阈值。核实结果无任何新的、需要仓库所有者立即决策的信息（main 已同步、今日文章未变、Issue #1 逐字未变）。**本次不发送 PushNotification**，避免在一小时内重复提醒。
+
+## 决策点状态（延续，无变化）
+- ✅ 决策点1/2（main 历史"分叉"）：早前确认为浅克隆伪影，非真实分叉。
+- ✅ 决策点3（知识库日期漂移）：`6cbfc22`（2026-07-07）修复后持续正常，07-07→07-12 已连续 6 个真实日历日健康交付。
+- ✅ 决策点5（per-session 分支与 main 同步滞后）：本次会话通过 fast-forward 正常追上 main，未发生滞留风险。
+- ❌ 决策点4（触发频率）：第 16 次记录仍未解决，仍是每小时基线，第 12 天无人工回应。
+
+## 本次操作
+- 未生成新文章、未修改任何 wiki 页、未变更 `topic_ledger.json`/`_graph.json`/`CHANGELOG.md`。
+- 已通过 fast-forward 将本地/会话状态与 `origin/main` 同步，无需修复操作。
+- 追加本诊断日志文件（`logs/2026-07-12-dup16.log`），符合 append-only 不变量。
+- **未发送 PushNotification**（距上次发送仅约1小时，未达24小时节流阈值，且无新增实质信息）。
+- 未新增 GitHub Issue 评论（无新增决策点或状态变化，避免刷屏）。
