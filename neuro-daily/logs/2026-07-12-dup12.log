@@ -1,0 +1,21 @@
+# 2026-07-12 dup12 诊断性 no-op 触发记录
+
+**真实 UTC+8 触发时间**：约 2026-07-12T22:00（UTC 2026-07-12T14:00），距上一次触发（dup11，约 UTC 13:00:40）约 **59 分钟**——回到每小时触发基线。决策点4（触发频率）第 12 天/连续第 12 次记录仍未解决。
+
+## 检查结果
+
+1. **同步 main**：`git fetch origin main` + `git checkout main` + `git pull origin main` 后本地与 `origin/main` 一致（`a1ab1fd`，即 dup11），快进无冲突（落后 30 个提交，一次性快进完成），`git status` 为 clean。会话被分配的功能分支 `claude/funny-einstein-ccvxww` 在 origin 上并不独立存在（`git ls-remote` 对该 ref 无返回），其历史与 `origin/main` 完全重合——再次确认本例程持续采用 ROUTINE.md 规定的"单分支累积于 main"模型，本次会话直接工作于 `main`。
+2. **今日真实内容**：确认 2026-07-12 的真实文章 #195《刹车还是油门？Complexin 如何用同一段螺旋同时钳制与催化囊泡融合》（`articles/2026-07-12-complexin-dual-function-vesicle-fusion.md`）及其 wiki 固结（`wiki/neurons/complexin.md`、`wiki/concepts/SNARE-complex.md`、`wiki/neurons/synaptotagmin.md`）均存在且未被改动，符合 append-only 情景层不变量。本次**不重写、不重复生成文章**。（`articles/2026-07-12-dopamine-td-learning-brain-ai.md` 仍为早前日期漂移历史遗留的同日重复文章，已知历史问题，本次未改动。）
+3. **Issue #1 状态核实**：`issue_read(get)` 确认 `state=open`，`comments=26`，`updated_at=2026-07-11T19:20:13Z`——与 dup11 记录逐字一致，**无新评论、无人工回复**。决策点4（触发频率）仍未解决。
+4. **通知节流判断**：距上一次实际发送的 PushNotification（约 2026-07-11T17:01 UTC）约 **21 小时**，仍低于既定 24 小时节流阈值；未发现任何新的、需要仓库所有者立即决策的信息（main 未被覆盖、无内容丢失、无新裁决、无人工介入、Issue 无新评论）。按既定原则，本次**不发送 PushNotification，不追加 Issue 评论**（避免刷屏，延续既定节流策略）。预计下一次触发（约 UTC 15:00 附近）仍将低于阈值，24 小时阈值预计在约 UTC 17:00 附近的触发被跨越。
+
+## 决策点状态（延续，无变化）
+- ✅ 决策点1/2（main 历史"分叉"）：早前确认为浅克隆伪影，非真实分叉。
+- ✅ 决策点3（知识库日期漂移）：`6cbfc22`（2026-07-07）修复后持续正常，07-07→07-12 已连续 6 个真实日历日健康交付。
+- ✅ 决策点5（per-session 分支与 main 同步滞后）：本次持续验证未见滞后风险，本次会话直接工作于 `main`。
+- ❌ 决策点4（触发频率）：第 12 次记录仍未解决。本次间隔约 59 分钟，回到每小时基线。
+
+## 本次操作
+- 未生成新文章、未修改任何 wiki 页、未变更 `topic_ledger.json`/`_graph.json`/`CHANGELOG.md`。
+- 仅追加本诊断日志文件（`logs/2026-07-12-dup12.log`），符合 append-only 不变量。
+- 未发送 PushNotification：距上一次实际发送约 21 小时，未超过 24 小时节流阈值，且无新决策点。
