@@ -1,0 +1,23 @@
+# 2026-07-12 dup13 诊断性触发记录（含一次 main 同步修复）
+
+**真实 UTC+8 触发时间**：约 2026-07-12T23:00（UTC 2026-07-12T15:00），距上一次触发（dup12，约 UTC 14:01:45）约 **59 分钟**——延续每小时触发基线。决策点4（触发频率）第 12 天/连续第 13 次记录仍未解决。
+
+## 检查结果
+
+1. **同步 main（本次发现并修复了真实滞后，非伪影）**：会话起始时 `origin/main` HEAD 为 `fcdd216`（2026-07-11 dup4），而本会话本地分支 `claude/funny-einstein-609qaa`（单一 reflog 条目 "Created from HEAD"，说明容器由已包含到 dup12 的状态直接初始化，而非从 `origin/main` 全新克隆）领先 31 个提交，包含：2026-07-12 真实文章 #195（Complexin 双功能囊泡融合，commit 内含）、dup5–dup22（2026-07-11）、dup1–dup12（2026-07-12）全部诊断日志。用 `git ls-remote origin refs/heads/claude/funny-einstein-609qaa` 确认该分支在 origin 上**不存在**——这与决策点5此前多次记录的"per-session 分支与 main 同步滞后"模式一致：今天的真实内容此前只停留在易失的本地/会话分支上，`origin/main` 尚未吸收。
+2. **修复动作**：`git checkout main` → `git merge --ff-only claude/funny-einstein-609qaa`（纯快进，无冲突，44 files changed）→ `git pull --rebase origin main`（确认无新增远程提交，`Already up to date`）→ `git push -u origin main`。推送后用 `git ls-remote origin refs/heads/main` 独立核实远程 HEAD 确实等于本地 HEAD（`6edc3a8`，即 dup12 那次提交，含文章 #195）。**未做任何合并冲突处理、未强推、未重置**，是标准快进。
+3. **今日真实内容**：确认 2026-07-12 真实文章 #195《刹车还是油门？Complexin 如何用同一段螺旋同时钳制与催化囊泡融合》（`articles/2026-07-12-complexin-dual-function-vesicle-fusion.md`）及其 wiki 固结（`wiki/neurons/complexin.md`、`wiki/concepts/SNARE-complex.md`、`wiki/neurons/synaptotagmin.md`）均存在且未被改动，现已确认存在于 `origin/main`。本次**不重写、不重复生成文章**。（`articles/2026-07-12-dopamine-td-learning-brain-ai.md` 仍为早前日期漂移历史遗留的同日重复文章，已知历史问题，本次未改动。）
+4. **Issue #1 状态核实**：`issue_read(get)` 确认 `state=open`，`comments=26`，`updated_at=2026-07-11T19:20:13Z`——与 dup12 记录逐字一致，**无新评论、无人工回复**。决策点4（触发频率）仍未解决。
+5. **通知节流判断**：距上一次实际发送的 PushNotification（约 2026-07-11T17:01 UTC）约 **22 小时**，仍低于既定 24 小时节流阈值（与 dup12 的预测一致：预计约 UTC 17:00 附近的触发才会跨越阈值）。本次发现的"main 滞后"问题已在本次会话内自行修复、无内容丢失，属于缓解性操作而非需要仓库所有者立即决策的新事项。按既定原则，本次**不发送 PushNotification**。
+
+## 决策点状态（延续，含本次更新）
+- ✅ 决策点1/2（main 历史"分叉"）：早前确认为浅克隆伪影，非真实分叉。
+- ✅ 决策点3（知识库日期漂移）：`6cbfc22`（2026-07-07）修复后持续正常，07-07→07-12 已连续 6 个真实日历日健康交付。
+- ⚠️ 决策点5（per-session 分支与 main 同步滞后）：本次**再次出现**（继 dup20 之后第二次实测证据），已在本次会话内通过纯快进 push 修复，无内容丢失。该模式反复出现提示：per-session 分支不会自动回流 main，依赖每次会话手动核实与快进，存在"若某次会话在推送前被回收则内容丢失"的残余风险。
+- ❌ 决策点4（触发频率）：第 13 次记录仍未解决。本次间隔约 59 分钟，仍是每小时基线。
+
+## 本次操作
+- 未生成新文章、未修改任何 wiki 页、未变更 `topic_ledger.json`/`_graph.json`/`CHANGELOG.md`。
+- 执行了一次 `main` 快进同步修复（`fcdd216` → `6edc3a8`），并推送到 `origin/main`，已独立核实远程 HEAD 一致。
+- 追加本诊断日志文件（`logs/2026-07-12-dup13.log`），符合 append-only 不变量。
+- 未发送 PushNotification：距上一次实际发送约 22 小时，未超过 24 小时节流阈值；本次唯一新发现（main 滞后）已自行修复、无数据丢失，不构成需要立即人工决策的新信息。
