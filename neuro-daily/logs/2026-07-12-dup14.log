@@ -1,0 +1,22 @@
+# 2026-07-12 dup14 诊断性触发记录
+
+**真实 UTC 触发时间**：2026-07-12T16:02:31Z（UTC+8 约 2026-07-13T00:02），距上一次触发（dup13，约 UTC 2026-07-12T15:00）约 **62 分钟**——延续每小时触发基线。决策点4（触发频率）第 12 天/连续第 14 次记录仍未解决。
+
+## 检查结果
+
+1. **同步 main**：`git fetch origin main` 后确认 `origin/main` HEAD = `406ba24`（dup13 提交），与本会话分支 `claude/funny-einstein-qj1f0f` 的 HEAD 完全一致（`git merge-base --is-ancestor origin/main HEAD` 为真，且 `origin/main..HEAD` 为 0 个提交）。本次**未发现** main 滞后问题（与 dup13 不同，dup13 那次会话是从落后于 main 的本地分支起步；本次会话的本地分支起步时已经就是最新 main）。无需任何合并/快进修复操作。
+2. **今日真实内容核实**：`articles/2026-07-12-complexin-dual-function-vesicle-fusion.md`（真实文章 #195）及其 wiki 固结（`wiki/neurons/complexin.md`、`wiki/concepts/SNARE-complex.md`、`wiki/neurons/synaptotagmin.md`）均存在且未被改动。`state/topic_ledger.json`：`total_articles=186`，最后条目为 #195（2026-07-12，Complexin），与 dup13 记录一致，无新增条目。`articles/2026-07-12-dopamine-td-learning-brain-ai.md` 仍为早前日期漂移历史遗留的同日重复文章，已知历史问题，本次未改动。本次**不重写、不重复生成文章**。
+3. **Issue #1 状态核实**：`issue_read(get)` 确认 `state=open`，`comments=26`，`updated_at=2026-07-11T19:20:13Z`——与 dup13 记录逐字一致，**无新评论、无人工回复**。决策点4（触发频率）仍未解决。
+4. **通知节流判断**：距上一次实际发送的 PushNotification（约 2026-07-11T17:01 UTC）约 **23 小时**，仍略低于既定 24 小时节流阈值。本次未发现任何新信息（main 已同步、今日文章未变、Issue #1 无新回复），不构成需要立即人工决策的新事项。按既定原则，本次**不发送 PushNotification**。预计下一次触发（约 UTC 17:00 附近）将跨越 24 小时阈值。
+
+## 决策点状态（延续，无变化）
+- ✅ 决策点1/2（main 历史"分叉"）：早前确认为浅克隆伪影，非真实分叉。
+- ✅ 决策点3（知识库日期漂移）：`6cbfc22`（2026-07-07）修复后持续正常，07-07→07-12 已连续 6 个真实日历日健康交付。
+- ✅ 决策点5（per-session 分支与 main 同步滞后）：本次会话未出现（起步分支已与 main 一致）。
+- ❌ 决策点4（触发频率）：第 14 次记录仍未解决，仍是每小时基线。**本次运行本身就是该问题第 14 次实测证据**：距离预定的"每天 09:00 一次"仍相差甚远。
+
+## 本次操作
+- 未生成新文章、未修改任何 wiki 页、未变更 `topic_ledger.json`/`_graph.json`/`CHANGELOG.md`。
+- 未执行任何 main 同步修复（本次起步即与 origin/main 一致，无需修复）。
+- 追加本诊断日志文件（`logs/2026-07-12-dup14.log`），符合 append-only 不变量。
+- 未发送 PushNotification：距上一次实际发送约 23 小时，未超过 24 小时节流阈值；本次唯一检查结果均与 dup13 一致，无新信息。
