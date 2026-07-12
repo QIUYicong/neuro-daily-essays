@@ -1,0 +1,84 @@
+{
+  "date": "2026-07-13",
+  "article_slug": "recurrent-network-line-attractor",
+  "article_number": 196,
+  "sources": [
+    {
+      "id": "PMID:24201281",
+      "pmcid": "PMC4121670",
+      "doi": "10.1038/nature12742",
+      "title": "Context-dependent computation by recurrent dynamics in prefrontal cortex",
+      "authors": "Mante V, Sussillo D, Shenoy KV, Newsome WT",
+      "journal": "Nature",
+      "year": 2013,
+      "full_text": true,
+      "role": "core evidence — primary comparison of trained RNN vs macaque PFC population dynamics",
+      "note": "全文通过PMC阅读，line attractor与selection vector核心证据来源"
+    },
+    {
+      "id": "PMID:21048899",
+      "pmcid": "PMC2967380",
+      "doi": "10.3389/fncom.2010.00024",
+      "title": "Internal representation of task rules by recurrent dynamics: the importance of the diversity of neural responses",
+      "authors": "Rigotti M, Ben Dayan Rubin DD, Wang XJ, Fusi S",
+      "journal": "Frontiers in Computational Neuroscience",
+      "year": 2010,
+      "full_text": true,
+      "role": "theoretical background — necessity of mixed selectivity for context-dependent tasks",
+      "note": "全文通过PMC阅读，XOR型任务与混合选择性数学必要性论证"
+    },
+    {
+      "id": "PMID:32640928",
+      "pmcid": "PMC7402639",
+      "doi": "10.1146/annurev-neuro-092619-094115",
+      "title": "Computation Through Neural Population Dynamics",
+      "authors": "Vyas S, Golub MD, Sussillo D, Shenoy KV",
+      "journal": "Annual Review of Neuroscience",
+      "year": 2020,
+      "full_text": true,
+      "role": "review — dynamical systems framework, cross-system evidence, RNN-as-hypothesis-generator methodology",
+      "note": "全文通过PMC阅读，综述框架与跨系统证据来源"
+    },
+    {
+      "id": "PMID:32782422",
+      "pmcid": "PMC7416639",
+      "doi": null,
+      "title": "Universality and individuality in neural dynamics across large populations of recurrent networks",
+      "authors": "Maheswaranathan N, Williams AH, Golub MD, Ganguli S, Sussillo D",
+      "journal": "Advances in Neural Information Processing Systems (NeurIPS) 32",
+      "year": 2019,
+      "full_text": true,
+      "role": "counter-evidence / caveat — limits confidence in geometric similarity as biological evidence",
+      "note": "全文通过PMC阅读，争议与未解问题部分核心来源"
+    },
+    {
+      "id": "PMID:34430809",
+      "pmcid": "PMC8367843",
+      "doi": "10.1016/j.isci.2021.102919",
+      "title": "A geometric framework for understanding dynamic information integration in context-dependent computation",
+      "authors": "Zhang X, Liu S, Chen ZS",
+      "journal": "iScience",
+      "year": 2021,
+      "full_text": true,
+      "role": "supplementary cross-check — confirms Mante 2013 framework remains active in follow-up theory literature",
+      "note": "全文开放已确认，本文未深入摘录正文细节，供未来选题参考"
+    },
+    {
+      "id": "NIMH-BRAIN-Initiative-official-page",
+      "pmcid": null,
+      "doi": null,
+      "title": "The Brain Research Through Advancing Innovative Neurotechnologies (BRAIN) Initiative",
+      "authors": "National Institute of Mental Health (NIMH)",
+      "journal": "official institutional webpage",
+      "year": 2026,
+      "full_text": true,
+      "role": "official institutional source requirement",
+      "note": "官方机构来源，非同行评议论文，用于满足≥1官方来源要求"
+    }
+  ],
+  "breakthrough_tracking_check": {
+    "window": "2026-06-15 to 2026-07-13",
+    "method": "Europe PMC REST API search for recurrent neural network + cortex + dynamics within date range",
+    "result": "no sufficiently on-topic high-relevance breakthrough found; closest match PMID:42299851 (gustatory cortex population dynamics, eLife, 2026-06-16) judged insufficiently central to justify breakthrough-tracking framing; article driven by gap-filling priority (ROUTINE.md priority 3) instead"
+  }
+}

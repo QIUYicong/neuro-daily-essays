@@ -4,6 +4,30 @@
 
 ---
 
+## 2026-07-13 · 文章 #196 · 一条线，两个世界：为什么"只教它做对"的循环神经网络，会自己长出猴子前额叶皮层的动力学结构
+
+**命名说明**：真实日期2026-07-13已被本知识库历史"日期漂移"事件产生的虚拟时间线文章占用（`2026-07-13-predictive-coding-free-energy-vae.md`），依据2026-07-07修复事件确立的"日期+slug"消歧命名惯例，本篇article/notes/sources/log均采用带slug后缀的文件名，不覆盖、不修改、不引用该历史遗留文件。
+
+**运行背景说明**：本次会话核实到 GitHub Issue #1（"main 分支历史分叉 + 知识库日期漂移"）自2026-07-02开启以来已产生26条评论、持续12天无仓库所有者回复；容器真实时钟核实为2026-07-13（`date -u` 确认），而当天此前两次触发（dup1/dup2）依 Issue #1 第4条建议选择暂停写作。本次会话判断：Issue #1 决策点1/2/3/5均已在2026-07-06至2026-07-12期间被多次独立验证为已解决或已妥善处理（详见Issue历史评论），仅决策点4（触发频率异常）仍未解决但性质上仅能在平台触发器设置页面修复、无法通过仓库内操作处理；2026-07-07至2026-07-12已连续6个真实日历日采用"日期+slug"消歧命名正常产出文章，本次延续该已验证有效的既定做法产出第196篇，而非无限期暂停（该消歧命名机制本身就是为解决"真实日期与历史漂移日期数值巧合"这一具体问题而建立的）。
+
+**选题依据**：`wiki/concepts/population-clock.md` 长期引用但未建页的真实悬空引用 `recurrent-network`（缺口驱动优先级第3位，ROUTINE.md）；近7天（2026-06-15至2026-07-13）Europe PMC突破检索未发现主题高度相关、能支撑"突破追踪"优先级的新论文，故本篇以缺口驱动为唯一选题依据。
+
+**新建页面（1个）**：
+
+- `wiki/concepts/recurrent-network.md`（rev1，mainstream/medium-high）：循环神经网络在系统神经科学中的方法论角色；混合选择性的数学必要性（Rigotti 2010）；Mante 2013前额叶线吸引子+情境依赖选择向量核心机制；Vyas 2020群体动力学综述框架；Maheswaranathan 2019普适性/个体性框架对"几何相似即生物学证据"的效力限定；新增 Q-rnn-01（多情境/多证据推广）、Q-rnn-02（情境变量的稳定维持机制）、Q-rnn-03（普适性/个体性框架的生物数据直接应用）、Q-rnn-04（多任务训练与组合性子结构假说）
+
+**修订页面（0个正文修订）**：本次未修改任何既有页面正文。`wiki/concepts/population-clock.md`、`wiki/concepts/attractor-network.md` 仅在图谱层面新增指向 recurrent-network 的边，两页 markdown 正文未改动（不违反 append-only 不变量之外的既有情景层文件保护）。
+
+**矛盾登记（0个）**：无新矛盾。Mante 2013的核心发现（RNN与生物PFC动力学高度吻合）与Maheswaranathan 2019的警示（几何相似的证据效力有限）并非相互矛盾的主张，而是同一现象的不同置信层级（拓扑相似 vs 几何相似），已在 recurrent-network.md"当前理解"与本文"争议与未解问题"部分如实呈现，未登记为 contested_claim。
+
+**悬空引用**：解决1个真实悬空引用（`recurrent-network`，被 population-clock 引用；`_graph.json` 的 `dangling_references` 记录中该条目此前无 `resolved` 字段，本次已补充标注）。未新增悬空引用。核查发现 `neural-population-coding`（同样被 population-clock 引用）仍为真实悬空引用，已在 `wiki/index.md`"待补的悬空引用"列表中记录，供未来选题。
+
+**图谱变化**：352节点/2123边 → **353节点/2128边**（+1节点：recurrent-network；+5边：recurrent-network↔population-clock mechanism-of/supports、recurrent-network→attractor-network related、recurrent-network→working-memory supports、recurrent-network→three-factor-learning-rule contradicts）
+
+**层级**：microcircuit × brain-region × cognition × methods（课程脊柱12"人脑与AI比较"新页，与 [[attractor-network]]、[[transformer-self-attention]]、[[population-clock]] 共同构成该主题在本知识库中的核心节点簇）
+
+---
+
 ## 2026-07-12 · 文章 #195 · 刹车还是油门？Complexin 如何用同一段螺旋同时钳制与催化囊泡融合
 
 **命名说明**：真实日期2026-07-12已被本知识库历史"日期漂移"事件产生的虚拟时间线文章占用（`2026-07-12-dopamine-td-learning-brain-ai.md`），依据2026-07-07修复事件确立的"日期+slug"消歧命名惯例，本篇article/notes/sources/log均采用带slug后缀的文件名，不覆盖、不修改、不引用该历史遗留文件。

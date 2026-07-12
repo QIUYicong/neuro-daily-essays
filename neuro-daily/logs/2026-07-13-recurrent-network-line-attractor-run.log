@@ -1,0 +1,58 @@
+# 运行日志 · 2026-07-13 · 第196篇 · recurrent-network-line-attractor
+
+**执行时间**：`date -u` 核实为 2026-07-12 21:00:24 UTC（UTC+8 = 2026-07-13 05:00:24 CST）。
+
+## 运行背景（Issue #1 相关）
+
+会话开始时核实：GitHub Issue #1（"main 分支历史分叉 + 知识库日期漂移"，自2026-07-02开启，26条评论，`updated_at=2026-07-11T19:20:13Z`，持续至今约12天无仓库所有者人工回复）。当天（2026-07-13）此前已有2次触发（dup1约03:00 CST、dup2约04:00 CST），均判断"今日位置已有内容（历史漂移遗留文章#81 predictive-coding-free-energy-vae）"并遵循 Issue #1 第4条暂停建议，未生成新文章。
+
+本会话重新核实 Issue #1 全部评论历史后判断：
+- 决策点1/2（main历史"分叉"）：已被6次以上独立会话通过 `git fetch --unshallow` + `merge-base` 确认为浅克隆伪影，非真实分叉，无需处理。
+- 决策点3（知识库日期漂移）：已于2026-07-07（commit `6cbfc22`）由中间会话非破坏性解决——恢复真实日历日期运作，历史虚构时间线文章保留（append-only），真实日期与历史文件数值冲突时采用"日期+slug"消歧命名。2026-07-07至2026-07-12已连续6个真实日历日（#190-#195）据此正常产出文章。
+- 决策点5（per-session分支与main同步滞后）：已缓解，本会话核实 `origin/main` 与当前分支（`claude/funny-einstein-tjum6u`）HEAD 完全一致（`02569d9`），无滞后。
+- 决策点4（触发频率异常）：**唯一仍未解决的决策点**。本会话核实触发确实频繁（当天已第3次触发），但该问题的性质是"只能在 Claude Code on the web 的触发器/schedule 设置页面处理，无法通过仓库内操作修复"（此前会话已用 `CronList` 确认无可管理的会话内定时任务）。
+
+**结论**：dup1/dup2 将"今日位置已被历史漂移文件占用"等同于"应当暂停"，与2026-07-07至2026-07-12已验证6天的既定"日期+slug消歧命名"解决方案不一致——该方案的存在本身就是为处理"真实日期与历史漂移日期数值巧合"这一具体情形而设计的。本会话判断应延续已验证有效的既定做法，正常产出第196篇，而非无限期暂停（暂停应针对未解决的触发频率问题本身，而非每天都重新触发的"日期占用"这一已有标准解法的旧问题）。
+
+## 选题过程
+
+1. 读取 `state/topic_ledger.json`（最后条目#195的next_suggested_topics）、`state/unresolved_questions.md`、`wiki/_graph.json`（悬空引用检查）、`wiki/index.md`。
+2. `_graph.json` 的 `dangling_references` 列表核实到 `recurrent-network`（被 population-clock、历史上曾被attractor-network引用）无 `resolved` 字段，为真实悬空引用；`neural-population-coding` 同样为真实悬空引用（本次未处理，留待未来）。
+3. 按 ROUTINE.md 选题优先级：突破追踪（近7天Europe PMC检索未发现足够相关的新论文）→ 矛盾裁决（本次未涉及）→ **填补悬空引用（recurrent-network，优先级第3位，本次采用）**。
+
+## 检索与来源
+
+- NCBI E-utilities esearch/esummary：定位 Mante 2013、Rigotti 2010、Vyas 2020、Maheswaranathan 2019 准确PMID。
+- PMC idconv批量ID转换：核实PMID→PMCID→DOI映射（首次elink查询出现模型总结误差，已用idconv交叉验证订正，未采信错误映射）。
+- PMC全文页面直接抓取：Mante 2013（PMC4121670）、Vyas 2020（PMC7402639）、Rigotti 2010（PMC2967380）、Maheswaranathan 2019（PMC7416639）——均完整阅读全文。
+- Europe PMC REST API：近7天（2026-06-15至2026-07-13）突破检索，未发现足够主题相关的新论文；发现的最接近结果（PMID:42299851，味觉皮层群体动力学，eLife）判断相关度不足，未纳入正文。
+- WebSearch + NIMH官网：BRAIN Initiative官方页面，满足"至少一个官方机构来源"要求。
+- 共采用6个来源（5篇论文全文开放 + 1个官方机构页面），满足ROUTINE.md"≥5来源、≥2开放全文、≥1官方来源"要求。
+
+## 产出
+
+- `articles/2026-07-13-recurrent-network-line-attractor.md`（约5500字，完整12段落结构）
+- `notes/2026-07-13-recurrent-network-line-attractor-reading-notes.md`
+- `sources/2026-07-13-recurrent-network-line-attractor-sources.json`
+- `wiki/concepts/recurrent-network.md`（新建，rev1）
+- `wiki/_graph.json`：+1节点、+5边（352→353节点，2123→2128边）；`dangling_references` 中 recurrent-network 条目标注 resolved
+- `wiki/index.md`：新增顶部"最后更新"行、concepts列表条目、课程路线进度表12行更新、第196篇叙事段落、待补悬空引用列表更新
+- `wiki/CHANGELOG.md`：新增2026-07-13条目（含运行背景说明）
+- `state/topic_ledger.json`：新增条目#196（total_articles 186→187）
+- `state/unresolved_questions.md`：新增Q-rnn-01/02/03/04
+- `state/source_registry.json`：新增key `sources_2026-07-13-recurrent-network-line-attractor`
+- `state/monthly_synthesis.md`：2026年7月章节追加#196条目
+
+## 自检（ROUTINE.md 第H节）
+
+- **真实性**：每条wiki新主张均有来源（PMID/PMCID标注）；区分了事实（Mante 2013直接实验）/模型（RNN训练结果）/推测（Q-rnn系列开放问题）/争议（Maheswaranathan 2019对几何相似证据效力的限定）；未把单一研究当定论（正文明确标注Mante 2013"充分但未必唯一"的作者原话）；未把猴子研究结论过度推广到人类（未做此类推广）。
+- **一致性**：本次未产生矛盾登记，理由已在CHANGELOG中说明；未修订任何既有页面（0处），故revision_count/updated同步问题不适用；`_graph.json` 无新增未记录的悬空边（新增5边均指向既有节点或新建节点）。
+- **可导航**：`wiki/index.md` 与 `wiki/CHANGELOG.md` 均已反映今日变化；新页 recurrent-network.md 的 related（6个）与 prerequisites（2个）均≥1。
+- **情景层**：article/notes/sources/log四件套齐全；未修改任何既有情景层文件（append-only不变量保持）。
+
+## Git 操作
+
+- 分支：`main`（单分支累积方案；本地分支`claude/funny-einstein-tjum6u`当前与`origin/main`完全一致，HEAD `02569d9`）
+- 提交前将执行 `git pull --rebase origin main` 防止运行期间main被更新
+- 提交内容：`neuro-daily/` 下本次新增/修改的全部文件（article, notes, sources, wiki×3, state×4, log）
+- Push状态：见commit记录（本日志写入后执行push，若失败将在后续追加说明，不改写本节已完成部分）

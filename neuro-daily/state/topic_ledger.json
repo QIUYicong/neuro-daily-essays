@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-07-12",
-  "total_articles": 186,
+  "last_updated": "2026-07-13",
+  "total_articles": 187,
   "entries": [
     {
       "date": "2026-10-18",
@@ -12258,6 +12258,62 @@
         "memory-consolidation系统巩固专页——长期标注最高优先级但尚未建立",
         "SNARE复合体预激活构象争议（C-2026-05-25-01）的新证据裁决（长期open，本次未处理）",
         "Q-cpx-primordial-evidence 若未来能检索到Chen 2026论文的详细跨物种系统发生学数据，可直接推进"
+      ]
+    },
+    {
+      "article_number": 196,
+      "date": "2026-07-13",
+      "title": "一条线，两个世界：为什么\"只教它做对\"的循环神经网络，会自己长出猴子前额叶皮层的动力学结构",
+      "slug": "recurrent-network-line-attractor",
+      "date_collision_note": "真实日期2026-07-13已被知识库历史日期漂移事件产生的虚拟时间线文章占用（2026-07-13-predictive-coding-free-energy-vae.md），依据2026-07-07修复事件确立的'日期+slug'消歧命名惯例，article/notes/sources/log均采用带slug后缀的文件名",
+      "wiki_pages_created": [
+        "wiki/concepts/recurrent-network.md"
+      ],
+      "wiki_pages_revised": [],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "一个仅被训练'输出正确性'、对大脑一无所知的循环神经网络，在解决情境依赖决策任务时，为什么会自发涌现出和真实猴脑前额叶皮层几乎相同的动力学结构（线吸引子+选择向量）？这种跨越硅基和碳基的'算法收敛'能作为多强的证据，又在哪些地方开始站不住脚？",
+      "open_questions_added": [
+        "Q-rnn-01（新增，高优先级）：线吸引子+选择向量框架能否推广到两个以上情境、两个以上证据来源的更高维决策任务？",
+        "Q-rnn-02（新增，中优先级）：前额叶如何稳定维持情境这一内部变量本身、不被感觉噪声冲刷掉？",
+        "Q-rnn-03（新增，高优先级）：Maheswaranathan 2019的普适性/个体性框架尚未直接应用于真实生物神经数据，如果应用会发现什么？",
+        "Q-rnn-04（新增，中优先级）：多任务训练涌现的组合性子结构假说，能否解释大脑同时处理成百上千项任务约束下涌现的电路结构？"
+      ],
+      "layer": [
+        "microcircuit",
+        "brain-region",
+        "cognition"
+      ],
+      "curriculum_track": "human-brain-vs-ai-comparison",
+      "topic_tags": [
+        "recurrent neural network",
+        "prefrontal cortex",
+        "line attractor",
+        "mixed selectivity",
+        "dynamical systems",
+        "context-dependent computation",
+        "universality"
+      ],
+      "main_sources": [
+        "PMID:24201281",
+        "PMID:21048899",
+        "PMID:32640928",
+        "PMID:32782422",
+        "PMID:34430809"
+      ],
+      "unresolved_questions": [
+        "Q-rnn-01",
+        "Q-rnn-02",
+        "Q-rnn-03",
+        "Q-rnn-04"
+      ],
+      "gap_filled": "填补 wiki/concepts/population-clock.md 长期标注的真实悬空引用 recurrent-network（缺口驱动优先级第3位）；近7天Europe PMC突破检索未发现足以支撑突破追踪优先级的新论文",
+      "next_suggested_topics": [
+        "neural-population-coding（神经群体编码）——真实悬空引用，同样被 population-clock 引用",
+        "memory-consolidation系统巩固专页——经核查该页面实际已存在（established/high），此前topic_ledger中的建议为过时信息，本次订正",
+        "binding-problem/co-ripples——真实悬空引用，课程脊柱8（意识与自我）方向",
+        "SNARE复合体预激活构象争议（C-2026-05-25-01）的新证据裁决（长期open，本次未处理）",
+        "Q-rnn-03 若未来能检索到普适性/个体性框架应用于真实生物神经数据的新论文，可直接推进"
       ]
     }
   ]

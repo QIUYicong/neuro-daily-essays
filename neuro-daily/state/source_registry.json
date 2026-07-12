@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-12",
+  "last_updated": "2026-07-13",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -11839,7 +11839,7 @@
       "key_contribution": "Marr-Ito-Albus三个经典模型的历史比较，共识与分歧"
     }
   ],
-  "total_sources": 747,
+  "total_sources": 753,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",
@@ -17772,5 +17772,43 @@
         "note": "Karaca et al. 2015 Neuron，CPLX1-DEE63关联的遗传学发现背景，仅摘要"
       }
     ]
-  }
+  },
+  "sources_2026-07-13-recurrent-network-line-attractor": [
+    {
+      "id": "PMID:24201281",
+      "pmcid": "PMC4121670",
+      "full_text": true,
+      "note": "Mante et al. 2013 Nature，前额叶线吸引子+选择向量核心证据，全文开放"
+    },
+    {
+      "id": "PMID:21048899",
+      "pmcid": "PMC2967380",
+      "full_text": true,
+      "note": "Rigotti et al. 2010 Front Comput Neurosci，混合选择性数学必要性理论，全文开放"
+    },
+    {
+      "id": "PMID:32640928",
+      "pmcid": "PMC7402639",
+      "full_text": true,
+      "note": "Vyas et al. 2020 Annu Rev Neurosci，群体动力学综述框架，全文开放"
+    },
+    {
+      "id": "PMID:32782422",
+      "pmcid": "PMC7416639",
+      "full_text": true,
+      "note": "Maheswaranathan et al. 2019 NeurIPS，普适性/个体性框架，全文开放"
+    },
+    {
+      "id": "PMID:34430809",
+      "pmcid": "PMC8367843",
+      "full_text": true,
+      "note": "Zhang et al. 2021 iScience，后续理论延伸，全文开放已确认，正文未深入摘录"
+    },
+    {
+      "id": "NIMH-BRAIN-Initiative-official-page",
+      "pmcid": null,
+      "full_text": true,
+      "note": "NIMH BRAIN Initiative官方项目页面，满足官方机构来源要求"
+    }
+  ]
 }

@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-07-12",
-  "node_count": 352,
-  "edge_count": 2123,
+  "updated": "2026-07-13",
+  "node_count": 353,
+  "edge_count": 2128,
   "edge_types": [
     "is-a",
     "part-of",
@@ -3218,6 +3218,15 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/neurons/complexin.md"
+    },
+    {
+      "id": "recurrent-network",
+      "title": "循环神经网络",
+      "domain": "concepts",
+      "type": "theory",
+      "status": "mainstream",
+      "confidence": "medium-high",
+      "page": "wiki/concepts/recurrent-network.md"
     }
   ],
   "edges": [
@@ -15137,6 +15146,36 @@
       "to": "active-zone",
       "type": "part-of",
       "note": "complexin的钳制/催化调控发生在活动区囊泡对接与预融合位点"
+    },
+    {
+      "from": "recurrent-network",
+      "to": "population-clock",
+      "type": "mechanism-of",
+      "note": "RNN训练于计时任务时自发涌现的递归动力学，是内在计时理论的核心证据来源"
+    },
+    {
+      "from": "population-clock",
+      "to": "recurrent-network",
+      "type": "supports",
+      "note": "种群时钟理论依赖RNN作为可解析的模型系统类比"
+    },
+    {
+      "from": "recurrent-network",
+      "to": "attractor-network",
+      "type": "related",
+      "note": "线吸引子是吸引子网络家族的一个特例；两页共同构成循环连接产生稳定/半稳定状态这一主题"
+    },
+    {
+      "from": "recurrent-network",
+      "to": "working-memory",
+      "type": "supports",
+      "note": "前额叶对情境等内部变量的持续维持，被认为依赖与循环网络动力学同源的机制"
+    },
+    {
+      "from": "recurrent-network",
+      "to": "three-factor-learning-rule",
+      "type": "contradicts",
+      "note": "RNN训练依赖全局反向传播，与大脑推测的局部、神经调质门控可塑性规则形成对照"
     }
   ],
   "dangling_references": [
@@ -15371,7 +15410,8 @@
         "population-clock",
         "attractor-network"
       ],
-      "note": "循环神经网络（RNN）专页；训练执行计时任务后自发涌现与生物大脑相似的高维轨迹；种群时钟/内在计时的计算模型系统；Hopfield 网络相关；待建页面"
+      "note": "循环神经网络（RNN）专页；训练执行计时任务后自发涌现与生物大脑相似的高维轨迹；种群时钟/内在计时的计算模型系统；Hopfield 网络相关；待建页面；已于2026-07-13创建 wiki/concepts/recurrent-network.md 页面，填补 population-clock（及历史上attractor-network曾引用过）的悬空引用",
+      "resolved": "2026-07-13"
     },
     {
       "slug": "excitotoxicity",

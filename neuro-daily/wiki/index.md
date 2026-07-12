@@ -5,6 +5,8 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
+> 最后更新：2026-07-13（第196篇·一条线，两个世界：为什么"只教它做对"的循环神经网络，会自己长出猴子前额叶皮层的动力学结构）· 主题页总数：**348**（新建1页：concepts/recurrent-network；无既有页面正文修订；图谱353节点/2128边；填补 [[population-clock]] 长期标注的悬空引用 recurrent-network；注：index.md 头部记录此前在 #194/#195 两篇未同步更新，本条目为最新状态，历史缺口留待未来核查）
+>
 > 最后更新：2026-07-10（第193篇·苔藓纤维的分子笔迹：活动区蛋白的配比，能否写出终扣的"生物物理签名"？）· 主题页总数：**347**（新建1页：neurons/munc13；修订3页：neurons/active-zone rev2→rev3、neurons/mossy-fiber rev1→rev2、neurons/granule-cell-cerebellar rev3→rev4；图谱350节点/2118边）
 >
 > 最后更新：2026-07-09（第192篇·颗粒细胞的输入密码：苔藓纤维如何用突触多样性给感觉信号打上"身份标签"）· 主题页总数：**346**（新建1页：neurons/mossy-fiber；修订2页：granule-cell-cerebellar rev2→rev3/parallel-fiber rev2→rev3；图谱349节点/2114边；本次同时补录了此前#191未同步进本页面的 methods/neuropixels 与 concepts/neural-manifold、concepts/distributed-decision-coding 条目，并修复了1处历史遗留的悬空引用拼写不一致 sharp-wave-ripple→sharp-wave-ripples）
@@ -87,6 +89,7 @@
 - 🟢 [模式补全](concepts/pattern-completion.md) — CA3吸引子动力学从部分线索恢复完整记忆；Nakazawa 2002 CA3-NR1 KO因果证据 **[NEW 2026-06-24]**
 - 🟢 [模式分离](concepts/pattern-separation.md) — DG扩张重编码+稀疏激活把相似输入变成不相似表征；苔藓细胞悖论：兴奋性苔藓细胞净效果为抑制颗粒细胞（Jinde 2012）；维度框架（Cayco-Gajic 2019）；Sahay 2011神经发生因果证据 **[修订 rev2→rev3 2026-08-28]**
 - 🔵 [吸引子网络](concepts/attractor-network.md) — Hopfield网络数学基础；CA3生物实现；现代Hopfield网络=Transformer注意力的数学等价 **[NEW 2026-06-24]**
+- 🔵 [循环神经网络](concepts/recurrent-network.md) — 仅训练"输出正确性"的RNN，在情境依赖决策任务中自发涌现出与猕猴前额叶群体活动几乎相同的动力学结构（线吸引子+情境依赖选择向量）；Maheswaranathan 2019警示：拓扑结构跨架构普适，但几何细节是架构依赖的"个体化"特征，限定了几何相似作为生物学证据的效力 **[NEW 2026-07-13]**
 - 🔵 [互补学习系统（CLS）](concepts/complementary-learning-systems.md) — 海马快/稀疏学习+新皮层慢/分布式学习；SWR重放是知识转移机制；深度学习经验回放缓冲区的神经科学先驱 **[NEW 2026-06-24]**
 - 🟢 [Hebbian 学习](concepts/hebbian-learning.md) — "共同激发的神经元连接在一起"，NMDA 受体实现其分子逻辑；皮层拓扑地图的经验依赖重组（Merzenich 1983–1993）是其在全脑图谱尺度的直接证明 **[修订 rev6 2026-07-29]**
 - 🟢 [皮层可塑性](concepts/cortical-plasticity.md) — 成年初级感觉皮层（S1/A1/V1）的经验依赖拓扑重组；Merzenich系列实验；需行为相关性（注意门控）；感觉剥夺重启关键期状态；多时间尺度机制（GABA解除/LTP/轴突出芽）**[NEW 2026-07-29]**
@@ -398,7 +401,7 @@
 | 10. 方法革命 | 🔵 开始（已覆盖：**光遗传学**；待覆盖：电生理、fMRI、钙成像、单细胞测序、空间转录组）|
 | 9. Connectomics | 🔵 开始（已覆盖：**连接组学基础（C. elegans + Drosophila）**；待覆盖：小鼠皮层连接组、人脑功能连接组、Connectomics×AI集成）|
 | 2, 7 | ⚪ 待开始 |
-| 12. 人脑与AI比较 | 🔵 进行中（已覆盖：**多巴胺TD学习与深度RL的平行演化（2026-07-12）**；Actor-Critic基底节架构；分布式RL与DA群体编码；MB-MF双系统；**预测编码×自由能×VAE（2026-07-13）**：ELBO=变分自由能数学等价，局部赫布规则≈反向传播；待覆盖：Transformer注意力与大脑注意回路、大型语言模型与语言网络）|
+| 12. 人脑与AI比较 | 🔵 进行中（已覆盖：**多巴胺TD学习与深度RL的平行演化（2026-07-12）**；Actor-Critic基底节架构；分布式RL与DA群体编码；MB-MF双系统；**预测编码×自由能×VAE（历史日期漂移遗留条目，内部日期2026-07-13）**：ELBO=变分自由能数学等价，局部赫布规则≈反向传播；**循环神经网络×前额叶线吸引子（真实2026-07-13，第196篇）**：仅训练输出正确性的RNN自发涌现与猕猴PFC几乎相同的动力学结构，Maheswaranathan 2019普适性/个体性框架限定几何相似的证据效力；待覆盖：Transformer注意力与大脑注意回路、大型语言模型与语言网络）|
 
 **第7篇（2026-05-30）**：**第一周综合**——归纳嵌套时间编码层级（Nested Temporal Coding Hierarchy）框架，连接前 6 篇文章的核心机制，指向第二周方向（印迹细胞、记忆巩固系统、钙通道）。
 
@@ -452,6 +455,8 @@
 - ~~`readily-releasable-pool`（可释放池/RRP）~~ ✅ **2026-06-10 已建立**（填补突触传递页引用，新建 neurons/readily-releasable-pool 专页）
 - ~~`complexin`（复合素）~~ ✅ **2026-07-12 已建立**（被 [[SNARE-complex]]/[[synaptotagmin]]/[[active-zone]] 共同引用，钳制/催化SNARE融合的双重调控蛋白，2026年新证据提示存在独立于synaptotagmin的更古老演化功能）
 - ~~`channelrhodopsin`（通道视紫质）~~ ✅ **2026-07-11 已建立**（被 [[optogenetics]] 引用，光遗传学分子机制核心，填补长期标注的悬空引用）
+- ~~`recurrent-network`（循环神经网络）~~ ✅ **2026-07-13 已建立**（被 [[population-clock]] 引用，真实悬空引用；线吸引子+情境依赖选择向量核心机制，课程脊柱12"人脑与AI比较"新页）
+- `neural-population-coding`（神经群体编码）— 被 [[population-clock]] 引用，仍为真实悬空引用，供未来选题（种群向量解码、高维状态空间表征、种群时钟的理论前提）
 
 ---
 
@@ -478,3 +483,5 @@
 **第191篇（2026-07-08）**：**决策无处不在：神经像素探针如何终结"一个脑区一个功能"，又如何暴露出新的陷阱**——首次系统覆盖大规模电生理方法学（课程脊柱10"方法革命"长期缺失的分支）。核心贡献：(1) Jun & Steinmetz 2017（Nature）Neuropixels硅探针工程突破——960位点选384通道，片上放大滤波复用，两探针同时记录741神经元/5脑结构；(2) Steinmetz 2019（Nature）全脑分布式编码发现——42脑区/3万神经元同步记录，动作信号几乎遍布全脑，选择方向信号相对局限于额叶/基底节/中脑；(3) Musall 2019（Nat Neurosci）运动混杂方法论批判——非指令性运动解释皮层活动方差38.3%，独有贡献是任务变量的5倍；(4) International Brain Laboratory 2025（Nature）12实验室标准化裁决——控制混杂后选择方向特异神经元仅约4%，动作信号81%脑区可解码，反馈信号解释方差贡献最大；(5) 与AI可解释性"线性探针悖论"的方法论对照。新建2个wiki页面（methods/neuropixels、concepts/distributed-decision-coding），修订4个wiki页面（neural-manifold rev1→rev2、mixed-selectivity rev2→rev3、connectomics rev4→rev5、optogenetics rev1→rev2），图谱348节点/2107边，新增未解问题Q-npx-01/02、Q-ddc-01/02/03。
 
 **第195篇（2026-07-12）**：**刹车还是油门？Complexin 如何用同一段螺旋同时钳制与催化囊泡融合**——填补 [[SNARE-complex]]/[[synaptotagmin]]/[[active-zone]] 三页共同标注的悬空引用 complexin，同时追踪一项2026年6月最新突破。核心贡献：(1) 综述（PMID:39627811）确立complexin四结构域分工——中央螺旋(CH)结合SNARE、辅助螺旋(AH)钳制自发融合、N端结构域(NTD)催化诱发融合、C端结构域(CTD)调控融合孔；(2) Maximov 2009（Science）RNAi敲低+电生理量化"双向脱靶"表型——自发释放频率↑3-4倍，诱发释放幅度↓3-4倍且失同步；(3) Zhou 2017（Nature）晶体结构揭示Syt1-SNARE-Cpx三方界面（990 Å²，六螺旋束），Ca²⁺结合前锁定预融合态、结合后解锁；(4) Chen et al. 2026（Nat Commun，发表距今约15天）在天然缺少synaptotagmin的脂肪细胞GLUT4胞吐通路中发现complexin独立于Syt发挥纯催化功能，提出其原始演化功能可能不依赖Ca²⁺、比synaptotagmin更古老；(5) CPX1/2（常规突触）vs CPX3/4（视网膜带状突触，低SNARE亲和力但支持持续高频释放）的亚型分化；CPLX1功能丧失突变与DEE63癫痫性脑病的人类遗传学关联（UniProt官方注释）。新建1个wiki页面（neurons/complexin），修订2个wiki页面（SNARE-complex rev1→rev2、synaptotagmin rev3→rev4），图谱352节点/2123边，新增未解问题Q-cpx-tripartite-generality/Q-cpx-retinal-dynamics/Q-cpx-primordial-evidence/Q-cpx-disease-causality。**真实日期2026-07-12已被历史日期漂移事件产生的虚拟时间线文章占用，本篇article/notes/sources/log采用日期+slug消歧命名（详见文章页首说明）。**
+
+**第196篇（2026-07-13）**：**一条线，两个世界：为什么"只教它做对"的循环神经网络，会自己长出猴子前额叶皮层的动力学结构**——填补 [[population-clock]] 长期标注的悬空引用 recurrent-network（真实存在的悬空引用，此前仅在正文与图谱边中被引用，无对应页面）。核心贡献：(1) Rigotti 2010（Front Comput Neurosci）理论证明——情境依赖（XOR型）任务在原理上要求混合选择性神经元，纯前馈单变量选择性表征无法求解，未训练随机网络已自发表现出所需维度的混合选择性；(2) Mante, Sussillo, Shenoy & Newsome 2013（Nature）——仅训练"输出正确性"的循环网络，在情境依赖决策任务中自发涌现出与猕猴前额叶群体活动几乎相同的动力学结构：线吸引子（每种情境一条）+ 情境依赖选择向量，且无证据支持"早期过滤无关输入"假说，选择发生在与证据累积同一套回路内的驰豫动力学中；(3) Vyas, Golub, Sussillo & Shenoy 2020（Annu Rev Neurosci）综述确立"动力系统视角"作为统一运动皮层/前额叶/计时脑区群体活动的框架，及RNN作为"假说生成"工具的方法论；(4) Maheswaranathan 2019（NeurIPS）——2880个RNN跨架构比较显示不动点拓扑结构普适，但表征几何形状是架构依赖的"个体化"特征，限定了几何相似作为生物学证据的效力，是本文"争议与未解问题"部分的核心依据。新建1个wiki页面（concepts/recurrent-network），无既有页面正文修订（仅在"连接"层面新增双向图谱边，未改动 population-clock/attractor-network 正文），图谱353节点/2128边，新增未解问题Q-rnn-01/02/03/04。近7天（2026-06-15至2026-07-13）Europe PMC突破检索未发现足以支撑"突破追踪"优先级的高相关性新论文，本篇以缺口驱动（ROUTINE.md优先级第3项）为主要选题依据。
