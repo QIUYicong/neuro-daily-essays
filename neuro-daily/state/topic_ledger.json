@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-07-13",
-  "total_articles": 187,
+  "last_updated": "2026-07-14",
+  "total_articles": 188,
   "entries": [
     {
       "date": "2026-10-18",
@@ -12314,6 +12314,70 @@
         "binding-problem/co-ripples——真实悬空引用，课程脊柱8（意识与自我）方向",
         "SNARE复合体预激活构象争议（C-2026-05-25-01）的新证据裁决（长期open，本次未处理）",
         "Q-rnn-03 若未来能检索到普适性/个体性框架应用于真实生物神经数据的新论文，可直接推进"
+      ]
+    },
+    {
+      "article_number": 197,
+      "date": "2026-07-14",
+      "title": "一把先关上的锁：Munc18-1 如何在\"堵住\"SNARE的同时，充当组装它的模板",
+      "slug": "munc18-stxbp1-template-mechanism",
+      "date_collision_note": "真实日期2026-07-14已被知识库历史日期漂移事件产生的虚拟时间线文章占用（2026-07-14-cnn-visual-cortex-hierarchy.md），依据2026-07-07修复事件确立的'日期+slug'消歧命名惯例，article/notes/sources/log均采用带slug后缀的文件名",
+      "wiki_pages_created": [
+        "wiki/neurons/munc18.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/concepts/SNARE-complex.md (rev2->rev3)",
+        "wiki/neurons/synaptotagmin.md (rev4->rev5)",
+        "wiki/neurons/complexin.md (rev1->rev2, 轻量交叉链接)"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "一个蛋白，如果它的已知结构显示它把SNARE复合体组装所必需的那段螺旋'盖'了起来，为什么敲除这个蛋白反而会让神经递质释放彻底消失，而不是让释放变得更容易？",
+      "open_questions_added": [
+        "Q-munc18-doc2-contribution（中优先级）：Doc2耗竭与模板功能损伤，哪个是STXBP1脑病表型异质性的主因？",
+        "Q-munc18-template-in-vivo（中优先级）：单分子光镊观测到的'态7'模板中间体，在活细胞拥挤环境中是否同样稳定存在？",
+        "Q-stxbp1-genotype-phenotype-gap（中优先级）：STXBP1突变类型与临床表型为何缺乏清晰对应关系？"
+      ],
+      "layer": [
+        "molecular",
+        "synaptic",
+        "cellular",
+        "disease"
+      ],
+      "curriculum_track": "how-neurons-work",
+      "topic_tags": [
+        "munc18-1",
+        "stxbp1",
+        "snare-complex",
+        "syntaxin",
+        "synaptic-vesicle-fusion",
+        "template-mechanism",
+        "epileptic-encephalopathy",
+        "haploinsufficiency"
+      ],
+      "main_sources": [
+        "PMID:10746715",
+        "PMID:10657302",
+        "PMID:21499244",
+        "PMID:26030875",
+        "PMID:32643828",
+        "PMID:30540253",
+        "PMID:38242640",
+        "PMID:32073399"
+      ],
+      "unresolved_questions": [
+        "Q-munc18-doc2-contribution",
+        "Q-munc18-template-in-vivo",
+        "Q-stxbp1-genotype-phenotype-gap"
+      ],
+      "gap_filled": "填补 wiki/concepts/SNARE-complex.md 长期标注的真实悬空引用 munc18（缺口驱动优先级第3位）；完成'突触囊泡融合机器'系列第四篇（SNARE-complex→synaptotagmin→complexin→munc18）；同时订正_graph.json中9处'页面已建但resolved字段未同步'的记录漂移",
+      "next_suggested_topics": [
+        "neural-population-coding（神经群体编码）——真实悬空引用，仍待推进（被population-clock引用）",
+        "binding-problem/co-ripples——真实悬空引用，课程脊柱8（意识与自我）方向",
+        "wernicke-area/planum-temporale/embodied-semantics相关的语言网络悬空引用——课程脊柱7（语言与抽象思维）",
+        "bdnf-trkb/prc-prion-protein——被alzheimers-disease/amyloid-beta-oligomers共同引用的悬空引用",
+        "SNARE复合体预激活构象争议（C-2026-05-25-01）的新证据裁决（长期open，本次未处理）",
+        "Q-munc18-doc2-contribution 若未来检索到系统性突变-表型数据可直接推进裁决"
       ]
     }
   ]

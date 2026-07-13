@@ -2273,3 +2273,21 @@
 **层级**：microcircuit × brain-region × cognition × methods（课程脊柱12"人脑与AI比较"新页，与 attractor-network、transformer-self-attention、population-clock 共同构成该主题核心节点簇）
 
 **运行背景说明**：本篇产出于 GitHub Issue #1（触发频率异常，2026-07-02开启，持续12天无仓库所有者回复）仍未解决的背景下。经核实，Issue #1 的其余决策点（main历史分叉、是否需要破坏性重写、日期漂移修复方案）均已在此前会话中被多次独立验证为已解决或已按既定"日期+slug消歧命名"方案妥善处理，2026-07-07至2026-07-12已连续6个真实日历日据此正常产出文章；仅触发频率本身（决策点4）仍待仓库所有者在平台触发器设置页面处理，无法通过仓库内操作修复。本次会话延续已验证有效的既定做法产出第196篇。
+
+### 2026-07-14（#197）：一把先关上的锁——Munc18-1 如何在"堵住"SNARE的同时，充当组装它的模板
+
+**核心发现**：wiki 页面 SNARE-complex.md 长期标注一处真实悬空引用（munc18），本文补齐，同时完成"突触囊泡融合机器"系列第四篇（SNARE-complex→synaptotagmin→complexin→munc18）。Misura 等（2000, *Nature*, PMID:10746715，仅摘要）的晶体结构一度制造了一个持续近二十年的悖论：Munc18-1 把 Syntaxin-1 的 SNARE 基序物理包裹在闭合构象内部，看起来应当阻碍组装；同年 Verhage 等（2000, *Science*, PMID:10657302，仅摘要）的敲除小鼠研究却显示，缺失 Munc18-1 会让神经递质分泌彻底消失而非增强。2011-2020 年间的一系列结构生化研究（Ma 2011, PMID:21499244；Yang 2015, PMID:26030875；Wang 2020, PMID:32643828）逐步确立了 Munc13 MUN 结构域在其中的加速作用，而 Jiao 等（2018, *eLife*, PMID:30540253）的单分子光镊实验给出了最终解答：Munc18-1 在 Syntaxin 仍处闭合构象时，已通过第3a结构域将 Syntaxin 与 Synaptobrevin-2 的 SNARE 基序 N 端预先对齐成"模板态"中间体（态7），C端仍分离——闭合构象不是"堵门"，而是一种受控的预组装平台。2024年的新证据（Guiberson et al., PMID:38242640）进一步揭示 Munc18-1 具有超出模板功能的分子伴侣式稳定器角色。人类 STXBP1 基因新发突变（单倍剂量不足）是最常见的婴儿期发育性癫痫性脑病病因之一，机制上选择性损害 PV/SST 抑制性中间神经元（Chen & Cai 2020, PMID:32073399），GeneReviews 官方综述（NBK396561）确认这一遗传学图景但也指出突变类型与表型缺乏清晰对应关系，仍是开放问题。
+
+**知识地图贡献**：
+- 新建 neurons/munc18.md（established/high，rev1）：模板机制核心（态7中间体、Munc13协同）、分子伴侣式稳定器功能（Doc2耗竭）、STXBP1脑病作为疾病窗口（单倍剂量不足、PV/SST选择性损害）；新增 Q-munc18-doc2-contribution/Q-munc18-template-in-vivo/Q-stxbp1-genotype-phenotype-gap
+- SNARE-complex.md（rev2→rev3）：修正"防止过早组装"简化表述为"模板机制"，新增2条证据行
+- synaptotagmin.md（rev4→rev5）、complexin.md（rev1→rev2，轻量）：新增munc18交叉链接，明确三者在囊泡融合链路中的分工
+- 图谱：353节点/2128边 → 354节点/2133边（+1节点，+5边）
+- 悬空引用：解决1个真实悬空引用（munc18）；**额外订正_graph.json中9处记录漂移**（页面早已存在但resolved字段未同步：munc18/tarp-auxiliary-subunit/mglur-ltd/channelrhodopsin/embodied-semantics/dentate-gyrus/excitotoxicity/mitochondrial-dysfunction/neuroinflammation），响应此前会话记录的"未来应做全量核查"待办
+- 矛盾登记：0个
+
+**层级**：molecular × synaptic × cellular × disease（"突触囊泡融合机器"系列第四篇，四篇合起来现在基本覆盖从"拉链本身"到"钙触发解锁"再到"组装前模板定位"的完整分子链路，是知识库目前在突触分子机制维度上刻画最完整的一条主线）
+
+**文件命名说明**：真实日期2026-07-14已被历史日期漂移事件产生的虚拟时间线文章占用（2026-07-14-cnn-visual-cortex-hierarchy.md，2026-07-11会话遗留），本篇article/notes/sources/log采用"日期+slug"消歧命名，详见 wiki/CHANGELOG.md 2026-07-14 条目说明。
+
+**运行背景说明**：本篇是真实日历从2026-07-13跨入2026-07-14后的首次触发，产出于 GitHub Issue #1（触发频率异常，2026-07-02开启，第12天仍未解决）持续存在的背景下；Issue #1 其余决策点已在此前会话中多次验证为已解决或已妥善处理，本次延续既定做法正常产出。会话开始时本地`main`与`origin/main`再次出现"50 vs 50"表象分叉，经`git reset --hard origin/main`对齐（已知浅克隆伪影模式，未丢失任何本地独有提交）。

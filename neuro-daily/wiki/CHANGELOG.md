@@ -4,6 +4,34 @@
 
 ---
 
+## 2026-07-14 · 文章 #197 · 一把先关上的锁：Munc18-1 如何在"堵住"SNARE的同时，充当组装它的模板
+
+**命名说明**：真实日期2026-07-14已被本知识库历史"日期漂移"事件产生的虚拟时间线文章占用（`2026-07-14-cnn-visual-cortex-hierarchy.md`，2026-07-11会话commit `fa00a2d` 留存），依据2026-07-07修复事件确立的"日期+slug"消歧命名惯例，本篇article/notes/sources/log均采用带slug后缀的文件名，不覆盖、不修改、不引用该历史遗留文件。
+
+**运行背景说明**：本次会话在真实UTC+8 2026-07-14 00:00左右触发（`date -u`确认容器真实时钟为2026-07-13T16:00 UTC，即UTC+8 2026-07-14 00:00），是真实日历从2026-07-13跨入2026-07-14后的首次触发。会话开始时`main`本地缓存与`origin/main`出现"50 vs 50"表象分叉，经`git reset --hard origin/main`对齐（Issue #1决策点1/2早已确认此为浅克隆伪影模式，非真实分叉，未丢失任何本地独有提交）。核实`origin/main`当前HEAD（`b9e78bb`，2026-07-13 dup17诊断日志）已包含2026-07-13真实文章#196，本次判定为2026-07-14这一真实日历日的首次内容产出会话，按ROUTINE.md正常流程生产真实新文章，而非诊断性no-op。
+
+**选题依据**：`wiki/concepts/SNARE-complex.md` 长期引用但未建页的真实悬空引用 `munc18`（缺口驱动优先级第3位，ROUTINE.md），同时是"突触囊泡融合机器"系列（SNARE-complex→synaptotagmin→complexin）的自然延续第四篇。
+
+**新建页面（1个）**：
+
+- `wiki/neurons/munc18.md`（rev1，established/high）：Munc18-1 (STXBP1) 的模板机制——闭合构象结合Syntaxin-1时充当组装模板（Jiao 2018单分子光镊"态7"中间体），Munc13 MUN结构域协同加速转化，2024年新证据揭示的分子伴侣式稳定器功能（Doc2耗竭），以及STXBP1脑病作为疾病窗口（单倍剂量不足选择性损害PV/SST抑制性中间神经元）；新增 Q-munc18-doc2-contribution、Q-munc18-template-in-vivo、Q-stxbp1-genotype-phenotype-gap
+
+**修订页面（2个）+ 轻量交叉链接（1个）**：
+
+- `wiki/concepts/SNARE-complex.md` rev2→rev3：修正"关键调控"段落中Munc18-1"防止过早组装"的简化表述为"模板机制"，新增2条关键证据行（态7模板中间体、Munc13 MUN结构域加速），"连接"新增munc18条目
+- `wiki/neurons/synaptotagmin.md` rev4→rev5：新增munc18交叉链接，说明二者在囊泡融合链路中的分工（组装启动模板 vs 钙触发解锁）
+- `wiki/neurons/complexin.md` rev1→rev2（轻量）：新增munc18交叉链接，说明二者分工（组装启动模板 vs 拉链后期钳制/催化）
+
+**矛盾登记（0个）**：无新矛盾。
+
+**悬空引用**：解决1个真实悬空引用（`munc18`，被SNARE-complex引用）。**额外订正9处`_graph.json`记录漂移**（页面早已存在但`dangling_references`条目缺少`resolved`字段）：`munc18`、`tarp-auxiliary-subunit`（2026-06-28已建）、`mglur-ltd`（已拆分独立页但note文本未更新）、`channelrhodopsin`（2026-07-11已建，note文本已提及但resolved字段缺失）、`embodied-semantics`、`dentate-gyrus`、`excitotoxicity`、`mitochondrial-dysfunction`、`neuroinflammation`（后5项均为index.md已正确记录但_graph.json未同步）。响应2026-07-11会话笔记中记录的"未来某次会话应做全量核查"待办，本次核查未发现新增悬空引用之外的其他漂移。`wiki/index.md`"待补的悬空引用"列表已相应更新，并新记录`mglur-ltd`在index.md中尚缺对应展示条目（页面本身完整，仅索引展示缺失，供未来补录）。
+
+**图谱变化**：353节点/2128边 → **354节点/2133边**（+1节点：munc18；+5边：munc18→SNARE-complex mechanism-of、munc13→munc18 regulates、munc18→synaptotagmin related、munc18→complexin related、munc18→active-zone part-of）
+
+**层级**：molecular × synaptic × cellular × disease
+
+---
+
 ## 2026-07-13 · 文章 #196 · 一条线，两个世界：为什么"只教它做对"的循环神经网络，会自己长出猴子前额叶皮层的动力学结构
 
 **命名说明**：真实日期2026-07-13已被本知识库历史"日期漂移"事件产生的虚拟时间线文章占用（`2026-07-13-predictive-coding-free-energy-vae.md`），依据2026-07-07修复事件确立的"日期+slug"消歧命名惯例，本篇article/notes/sources/log均采用带slug后缀的文件名，不覆盖、不修改、不引用该历史遗留文件。

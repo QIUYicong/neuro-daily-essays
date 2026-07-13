@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-13",
+  "last_updated": "2026-07-14",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -11839,7 +11839,7 @@
       "key_contribution": "Marr-Ito-Albus三个经典模型的历史比较，共识与分歧"
     }
   ],
-  "total_sources": 753,
+  "total_sources": 763,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",
@@ -17809,6 +17809,68 @@
       "pmcid": null,
       "full_text": true,
       "note": "NIMH BRAIN Initiative官方项目页面，满足官方机构来源要求"
+    }
+  ],
+  "sources_2026-07-14-munc18-stxbp1-template-mechanism": [
+    {
+      "id": "PMID:10746715",
+      "pmcid": null,
+      "full_text": false,
+      "note": "Misura et al. 2000 Nature，Munc18-1/Syntaxin-1闭合构象晶体结构，仅摘要"
+    },
+    {
+      "id": "PMID:10657302",
+      "pmcid": null,
+      "full_text": false,
+      "note": "Verhage et al. 2000 Science，Munc18-1敲除小鼠神经递质分泌完全消失，仅摘要"
+    },
+    {
+      "id": "PMID:21499244",
+      "pmcid": "PMC3087822",
+      "full_text": true,
+      "note": "Ma et al. 2011 Nat Struct Mol Biol，Munc13 MUN结构域加速闭合复合物转化，全文开放"
+    },
+    {
+      "id": "PMID:26030875",
+      "pmcid": "PMC4809529",
+      "full_text": true,
+      "note": "Yang et al. 2015 Nat Struct Mol Biol，MUN结构域独立撬开Syntaxin闭合构象，全文开放"
+    },
+    {
+      "id": "PMID:32643828",
+      "pmcid": "PMC7429736",
+      "full_text": true,
+      "note": "Wang et al. 2020 EMBO J，Munc13直接激活Munc18-1催化能力，全文开放"
+    },
+    {
+      "id": "PMID:30540253",
+      "pmcid": null,
+      "full_text": true,
+      "note": "Jiao et al. 2018 eLife，单分子光镊识别'态7'模板中间体，核心机制突破，全文开放（期刊自身开放获取）"
+    },
+    {
+      "id": "PMID:38242640",
+      "pmcid": "PMC11146428",
+      "full_text": true,
+      "note": "Guiberson et al. 2024 Brain，致病突变继发耗竭Doc2，全文开放"
+    },
+    {
+      "id": "PMID:32073399",
+      "pmcid": "PMC7056272",
+      "full_text": true,
+      "note": "Chen & Cai 2020 eLife，Stxbp1单倍剂量不足选择性损害PV/SST中间神经元，全文开放"
+    },
+    {
+      "id": "PMID:38137001",
+      "pmcid": "PMC10742812",
+      "full_text": true,
+      "note": "Freibauer et al. 2023 Genes，STXBP1相关疾病综述，背景交叉核实，全文开放"
+    },
+    {
+      "id": "GeneReviews:NBK396561",
+      "pmcid": null,
+      "full_text": true,
+      "note": "STXBP1 Encephalopathy with Epilepsy，NCBI Bookshelf官方机构来源，最后更新2023-09-28，全文开放"
     }
   ]
 }

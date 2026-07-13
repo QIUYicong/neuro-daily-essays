@@ -6,10 +6,10 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-07-12
-updated: 2026-07-12
-revision_count: 1
+updated: 2026-07-14
+revision_count: 2
 dimensions: [molecular, synaptic]
-related: [SNARE-complex, synaptotagmin, active-zone, synaptic-transmission, munc13]
+related: [SNARE-complex, synaptotagmin, active-zone, synaptic-transmission, munc13, munc18]
 prerequisites: [SNARE-complex, synaptic-transmission]
 opens_questions: [Q-cpx-tripartite-generality, Q-cpx-retinal-dynamics, Q-cpx-primordial-evidence, Q-cpx-disease-causality]
 source_articles: [2026-07-12-complexin-dual-function-vesicle-fusion]
@@ -72,6 +72,7 @@ Maximov 等（2009，PMID:19164751，PMC全文）用 RNAi 敲低+拯救实验及
 - [[active-zone]] — complexin 的调控作用发生在活动区囊泡对接/预融合位点
 - [[synaptic-transmission]] — complexin 是决定突触传递时间精度的关键调控蛋白之一
 - [[munc13]] — 与 complexin 分属不同调控层（囊泡启动 vs 融合钳制/催化），共同构成活动区"同分子不同配比造出不同突触性格"这一更大原则下的实例
+- [[munc18]] — 作用于组装链路的更上游阶段：Munc18-1 在 Syntaxin 闭合构象下充当模板、预先对齐 SNARE 基序；complexin 则在组装接近完成后介入，钳制并催化最后的拉链/融合步骤
 
 ## 未解问题
 
@@ -83,6 +84,7 @@ Maximov 等（2009，PMID:19164751，PMC全文）用 RNAi 敲低+拯救实验及
 ## 修订历史
 
 - 2026-07-12 · 创建 · 基于《刹车还是油门？Complexin 如何用同一段螺旋同时钳制与催化囊泡融合》一文 · 初始置信度：高
+- 2026-07-14 · 修订 · 基于《一把先关上的锁：Munc18-1 如何在"堵住"SNARE的同时，充当组装它的模板》一文 · 新增munc18交叉链接，说明二者在囊泡融合链路中的分工（组装启动模板 vs 拉链后期钳制/催化）
 
 ## 来源文章
 

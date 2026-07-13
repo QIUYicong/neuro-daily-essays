@@ -1,0 +1,57 @@
+# 运行日志 · 2026-07-14 · 第197篇 · munc18-stxbp1-template-mechanism
+
+**执行时间**：`date -u` 核实为 2026-07-13 16:00:25 UTC（UTC+8 = 2026-07-14 00:00:25 CST）。是真实日历从2026-07-13跨入2026-07-14后的首次触发。
+
+## 运行背景（Issue #1 相关）
+
+会话开始时核实：GitHub Issue #1（"main 分支历史分叉 + 知识库日期漂移"，自2026-07-02开启，27条评论，`updated_at=2026-07-12T21:17:45Z`，持续至今约12天无仓库所有者人工回复）。origin/main 当前HEAD为`b9e78bb`（2026-07-13 dup17诊断日志），内含2026-07-13真实文章#196（recurrent-network-line-attractor）。本地`main`分支缓存出现"50 vs 50"表象分叉（浅克隆伪影，已被此前16次以上独立会话反复验证的已知模式），执行`git reset --hard origin/main`对齐（核实前本地无待推送内容，未丢失任何本地独有提交）。
+
+判断依据：origin/main HEAD日期为2026-07-13，当前真实时间已跨入2026-07-14，且磁盘上尚无2026-07-14的**真实**内容产出（虽存在同名的历史漂移遗留文件`2026-07-14-cnn-visual-cortex-hierarchy.md`，经`git log --follow`核实该文件实际创建于commit `fa00a2d`，2026-07-11 dup8诊断提交时期，是旧未来时间线的遗留产物，非本日真实产出）。据此判定本次为2026-07-14这一真实日历日的首次触发，应按ROUTINE.md正常流程生产真实新文章，而非诊断性no-op。
+
+Issue #1决策点状态复核：决策点1/2/3/5均已在此前多次独立会话中验证为已解决/已妥善处理；决策点4（触发频率异常）第12天仍未解决，性质上仅能在Claude Code on the web触发器/schedule设置页面处理，无法通过仓库内操作修复。
+
+## 选题过程
+
+1. 读取 `state/topic_ledger.json`（#196条目的next_suggested_topics）、`state/unresolved_questions.md`、`state/contested_claims.json`（7条open矛盾，均非本次可快速裁决的新证据可及范围）、`wiki/_graph.json`（悬空引用检查）、`wiki/index.md`。
+2. `_graph.json` 的 `dangling_references` 列表核实到 `munc18`（被SNARE-complex引用）无`resolved`字段，为真实悬空引用；同时发现9处"页面已建但resolved字段未同步"的记录漂移（详见下）。
+3. 按 ROUTINE.md 选题优先级：突破追踪（本次未做近7天专项检索，选择缺口驱动路径）→ 矛盾裁决（本次未处理，7条open矛盾均非本篇可及范围）→ **填补悬空引用（munc18，优先级第3位，本次采用）**，同时是"突触囊泡融合机器"系列（SNARE-complex→synaptotagmin→complexin）的自然延续第四篇。
+
+## 检索与来源
+
+- NCBI E-utilities esearch/esummary：定位 Misura 2000、Verhage 2000、Ma 2011、Yang 2015、Wang 2020、Jiao 2018、Guiberson 2024、Chen&Cai 2020 准确PMID/PMCID/DOI。
+- Europe PMC REST API：交叉核实STXBP1相关综述与开放获取状态，确认Misura 2000/Verhage 2000无PMC全文（isOpenAccess=false）。
+- PMC全文页面直接抓取：Ma 2011（PMC3087822）、Chen&Cai 2020（PMC7056272）、Guiberson 2024（PMC11146428）——均完整阅读全文提取具体数据。
+- eLife官网直接抓取：Jiao 2018全文（核心机制证据，"态7"模板中间体细节）。
+- NCBI Bookshelf（GeneReviews）：STXBP1 Encephalopathy with Epilepsy（NBK396561），满足"至少一个官方机构来源"要求，最后更新2023-09-28。
+- 共采用10个来源（7篇全文开放，含1篇官方机构综述；2篇仅摘要，均为2000年经典文献并已在正文明确标注），满足ROUTINE.md"≥5来源、≥2开放全文、≥1官方来源"要求，大幅超出。
+
+## 产出
+
+- `articles/2026-07-14-munc18-stxbp1-template-mechanism.md`（约4600汉字，完整12段落结构）
+- `notes/2026-07-14-munc18-stxbp1-template-mechanism-reading-notes.md`
+- `sources/2026-07-14-munc18-stxbp1-template-mechanism-sources.json`
+- `wiki/neurons/munc18.md`（新建，rev1）
+- `wiki/concepts/SNARE-complex.md`（rev2→rev3）：修正"防止过早组装"简化表述、新增2条证据行、连接新增munc18
+- `wiki/neurons/synaptotagmin.md`（rev4→rev5）：新增munc18交叉链接
+- `wiki/neurons/complexin.md`（rev1→rev2，轻量）：新增munc18交叉链接
+- `wiki/_graph.json`：+1节点、+5边（353→354节点，2128→2133边）；munc18条目标注resolved；**额外订正9处记录漂移**（munc18/tarp-auxiliary-subunit/mglur-ltd/channelrhodopsin/embodied-semantics/dentate-gyrus/excitotoxicity/mitochondrial-dysfunction/neuroinflammation）
+- `wiki/index.md`：新增顶部"最后更新"行、neurons列表条目、第197篇叙事段落、待补悬空引用列表更新（munc18已解决、新记录mglur-ltd索引展示缺口）
+- `wiki/CHANGELOG.md`：新增2026-07-14条目（含运行背景说明、记录漂移订正说明）
+- `state/topic_ledger.json`：新增条目#197（total_articles 187→188）
+- `state/unresolved_questions.md`：新增Q-munc18-doc2-contribution/Q-munc18-template-in-vivo/Q-stxbp1-genotype-phenotype-gap
+- `state/source_registry.json`：新增key `sources_2026-07-14-munc18-stxbp1-template-mechanism`（total_sources 753→763）
+- `state/monthly_synthesis.md`：2026年7月章节追加#197条目
+
+## 自检（ROUTINE.md 第H节）
+
+- **真实性**：每条wiki新主张均有来源（PMID/PMCID/官方机构标注）；区分了事实（Jiao 2018单分子光镊直接观测）/模型（模板机制作为解释框架）/推测（Guiberson 2024演化/表型异质性关联，已标注"中高置信度，新发现"）/争议（无新增contested_claims，但正文"争议与未解问题"如实列出3个开放问题）；未把小鼠模型结论直接等同人类（Chen&Cai 2020结论明确标注"小鼠模型，向人类表型外推需谨慎"）；Misura 2000/Verhage 2000两篇仅读摘要，正文与来源列表均明确标注"未获取全文"。
+- **一致性**：本次未产生新矛盾登记；SNARE-complex.md修订已同步更新updated/revision_count/修订历史；synaptotagmin.md/complexin.md轻量修订同样同步了这些字段；`_graph.json`本次新增边均指向既有节点或新建节点，无新增未记录悬空边；額外主动订正了9处历史遗留的记录漂移（非本次产生，属于此前会话遗留待办）。
+- **可导航**：`wiki/index.md`与`wiki/CHANGELOG.md`均已反映今日变化；新页munc18.md的related（6个）与prerequisites（2个）均≥1。
+- **情景层**：article/notes/sources/log四件套齐全；未修改任何既有情景层文件（append-only不变量保持，本log文件为本次运行内首次写入，git操作详情将在push完成后于本节以下追加，不改动以上已完成内容）。
+
+## Git 操作
+
+- 分支：`main`（单分支累积方案；已执行`git reset --hard origin/main`对齐已知浅克隆伪影，随后在此基础上进行本次全部文件修改）
+- 提交前将执行 `git pull --rebase origin main` 防止运行期间main被更新
+- 提交内容：`neuro-daily/` 下本次新增/修改的全部文件（article, notes, sources, wiki×4, state×4, log）
+- Push状态：（见下方追加）

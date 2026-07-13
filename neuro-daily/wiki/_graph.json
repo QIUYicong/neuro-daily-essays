@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-07-13",
-  "node_count": 353,
-  "edge_count": 2128,
+  "updated": "2026-07-14",
+  "node_count": 354,
+  "edge_count": 2133,
   "edge_types": [
     "is-a",
     "part-of",
@@ -3227,6 +3227,15 @@
       "status": "mainstream",
       "confidence": "medium-high",
       "page": "wiki/concepts/recurrent-network.md"
+    },
+    {
+      "id": "munc18",
+      "title": "Munc18-1 (STXBP1)",
+      "domain": "neurons",
+      "type": "mechanism",
+      "status": "established",
+      "confidence": "high",
+      "page": "wiki/neurons/munc18.md"
     }
   ],
   "edges": [
@@ -15176,6 +15185,36 @@
       "to": "three-factor-learning-rule",
       "type": "contradicts",
       "note": "RNN训练依赖全局反向传播，与大脑推测的局部、神经调质门控可塑性规则形成对照"
+    },
+    {
+      "from": "munc18",
+      "to": "SNARE-complex",
+      "type": "mechanism-of",
+      "note": "Munc18-1通过模板机制预先对齐SNARE基序N端，是SNARE复合体组装启动阶段的必需催化组件"
+    },
+    {
+      "from": "munc13",
+      "to": "munc18",
+      "type": "regulates",
+      "note": "Munc13的MUN结构域协同加速Munc18-1介导的模板态向开放态转化，并直接激活Munc18-1本身的组装催化能力"
+    },
+    {
+      "from": "munc18",
+      "to": "synaptotagmin",
+      "type": "related",
+      "note": "分工互补：Munc18-1作用于SNARE组装启动阶段，Synaptotagmin作用于组装完成后的钙触发解锁阶段"
+    },
+    {
+      "from": "munc18",
+      "to": "complexin",
+      "type": "related",
+      "note": "分工互补：Munc18-1在组装启动阶段充当模板，Complexin在拉链后期钳制并催化最后的融合步骤"
+    },
+    {
+      "from": "munc18",
+      "to": "active-zone",
+      "type": "part-of",
+      "note": "Munc18-1介导的SNARE模板化组装发生在活动区囊泡对接位点"
     }
   ],
   "dangling_references": [
@@ -15194,7 +15233,8 @@
       "referenced_by": [
         "SNARE-complex"
       ],
-      "note": "SM蛋白，SNARE调控，次要"
+      "note": "已于2026-07-14创建 wiki/neurons/munc18.md 页面（第197篇文章），填补 SNARE-complex 长期标注的悬空引用",
+      "resolved": "2026-07-14"
     },
     {
       "slug": "calcium-channel",
@@ -15249,7 +15289,8 @@
       "referenced_by": [
         "ampa-receptor"
       ],
-      "note": "TARP（如Stargazin），AMPA受体辅助亚基，待建页面"
+      "note": "TARP（如Stargazin），AMPA受体辅助亚基；已于2026-06-28创建 wiki/concepts/tarp-auxiliary-subunit.md，此前记录未同步标注resolved，本次订正",
+      "resolved": "2026-06-28 (bookkeeping correction 2026-07-14: page already existed, graph record was stale)"
     },
     {
       "slug": "mglur-ltd",
@@ -15257,7 +15298,8 @@
         "ltd",
         "arc-arg31"
       ],
-      "note": "mGluR 依赖型 LTD 可单独建页，包含 mGluR5、FMRP、翻译依赖等细节；目前合并于 ltd 页面"
+      "note": "mGluR依赖型LTD；已拆分为独立页面 wiki/concepts/mglur-ltd.md（此前note描述\"目前合并于ltd页面\"已过时），本次订正记录状态",
+      "resolved": "bookkeeping correction 2026-07-14: standalone page already exists, graph record was stale"
     },
     {
       "slug": "synaptic-clustering",
@@ -15324,7 +15366,8 @@
       "referenced_by": [
         "optogenetics"
       ],
-      "note": "通道视紫质（ChR1/ChR2）分子生物学专页；莱茵衣藻七跨膜光门控阳离子通道；光子→视黄醛异构→通道开放的完整结构基础；待建页面"
+      "note": "通道视紫质（ChR1/ChR2）分子生物学专页；已于2026-07-11创建 wiki/methods/channelrhodopsin.md（第194篇文章），填补optogenetics悬空引用；此前note文本已提及但resolved字段缺失，本次订正",
+      "resolved": "2026-07-11 (bookkeeping correction 2026-07-14: resolved field was missing despite note text)"
     },
     {
       "slug": "basal-forebrain",
@@ -15354,7 +15397,8 @@
       "referenced_by": [
         "ventral-language-stream"
       ],
-      "note": "具身语义理论专页；词义与感觉运动皮层的链接；待建页面"
+      "note": "具身语义理论；已创建 wiki/concepts/embodied-semantics.md，此前记录未同步标注resolved，本次订正",
+      "resolved": "bookkeeping correction 2026-07-14: page already existed, graph record was stale"
     },
     {
       "slug": "planum-temporale",
@@ -15379,7 +15423,8 @@
         "pattern-separation",
         "pattern-completion"
       ],
-      "note": "齿状回专页；目前功能描述合并在 hippocampal-circuit.md；若DG内容增长可拆分独立页面；扩张重编码、稀疏激活竞争、苔状纤维突触等机制；待建页面"
+      "note": "齿状回；已创建 wiki/systems/dentate-gyrus.md 独立页面（此前note描述\"目前功能描述合并在hippocampal-circuit.md\"已过时），本次订正记录状态",
+      "resolved": "bookkeeping correction 2026-07-14: page already existed, graph record was stale"
     },
     {
       "slug": "binding-problem",
@@ -15418,21 +15463,24 @@
       "referenced_by": [
         "huntingtons-disease"
       ],
-      "note": "兴奋毒性专页；NMDA受体过激活→Ca²⁺内流→细胞死亡；HD中MSN慢性兴奋毒性；谷氨酸清除障碍（GLT1/GLAST↓）；NR2B敏感性"
+      "note": "兴奋毒性；已创建 wiki/concepts/excitotoxicity.md，此前记录未同步标注resolved，本次订正",
+      "resolved": "bookkeeping correction 2026-07-14: page already existed, graph record was stale"
     },
     {
       "slug": "mitochondrial-dysfunction",
       "referenced_by": [
         "huntingtons-disease"
       ],
-      "note": "线粒体功能障碍专页；PGC-1α轴损伤→线粒体生物合成↓→能量代谢崩溃；HD中mHTT/CBP轴的下游靶点"
+      "note": "线粒体功能障碍；已创建 wiki/diseases/mitochondrial-dysfunction.md，此前记录未同步标注resolved，本次订正",
+      "resolved": "bookkeeping correction 2026-07-14: page already existed, graph record was stale"
     },
     {
       "slug": "neuroinflammation",
       "referenced_by": [
         "huntingtons-disease"
       ],
-      "note": "神经炎症专页；HD星形胶质细胞功能障碍+小胶质细胞激活；tominersen高剂量安全信号可能部分源于神经炎症"
+      "note": "神经炎症；已创建 wiki/concepts/neuroinflammation.md，此前记录未同步标注resolved，本次订正",
+      "resolved": "bookkeeping correction 2026-07-14: page already existed, graph record was stale"
     },
     {
       "slug": "protein-aggregation",

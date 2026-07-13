@@ -5,6 +5,8 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
+> 最后更新：2026-07-14（第197篇·一把先关上的锁：Munc18-1 如何在"堵住"SNARE的同时，充当组装它的模板）· 主题页总数：**349**（新建1页：neurons/munc18；修订2页：concepts/SNARE-complex rev2→rev3、neurons/synaptotagmin rev4→rev5；轻量交叉链接1页：neurons/complexin rev1→rev2；图谱354节点/2133边；填补 [[SNARE-complex]] 长期标注的悬空引用 munc18；同时订正图谱中9处"页面已建但resolved字段未同步"的记录漂移（munc18/tarp-auxiliary-subunit/mglur-ltd/channelrhodopsin/embodied-semantics/dentate-gyrus/excitotoxicity/mitochondrial-dysfunction/neuroinflammation））
+>
 > 最后更新：2026-07-13（第196篇·一条线，两个世界：为什么"只教它做对"的循环神经网络，会自己长出猴子前额叶皮层的动力学结构）· 主题页总数：**348**（新建1页：concepts/recurrent-network；无既有页面正文修订；图谱353节点/2128边；填补 [[population-clock]] 长期标注的悬空引用 recurrent-network；注：index.md 头部记录此前在 #194/#195 两篇未同步更新，本条目为最新状态，历史缺口留待未来核查）
 >
 > 最后更新：2026-07-10（第193篇·苔藓纤维的分子笔迹：活动区蛋白的配比，能否写出终扣的"生物物理签名"？）· 主题页总数：**347**（新建1页：neurons/munc13；修订3页：neurons/active-zone rev2→rev3、neurons/mossy-fiber rev1→rev2、neurons/granule-cell-cerebellar rev3→rev4；图谱350节点/2118边）
@@ -24,6 +26,7 @@
 - 🟢 [突触结合蛋白 Synaptotagmin](neurons/synaptotagmin.md) — 突触囊泡上的钙传感器，触发融合的分子开关（修订3次）
 - 🟢 [就绪释放池（RRP）](neurons/readily-releasable-pool.md) — 突触活动区中处于停靠就绪状态的囊泡子集；RRP耗竭是短时程抑制的主要机制 **[NEW 2026-06-10]**
 - 🟢 [复合素（Complexin）](neurons/complexin.md) — 约130氨基酸的可溶性突触前蛋白，四个结构域同时钳制自发融合、催化诱发融合；2017晶体结构揭示Syt1-SNARE-Cpx三方界面；2026年新证据提示存在独立于synaptotagmin、更古老的祖先性加速胞吐功能（脂肪细胞GLUT4通路） **[NEW 2026-07-12]**
+- 🟢 [Munc18-1 (STXBP1)](neurons/munc18.md) — SM家族蛋白，闭合构象结合Syntaxin-1时即通过3a结构域充当模板，预先对齐SNARE基序N端（Jiao 2018单分子光镊"态7"中间体）；Munc13-MUN结构域协同加速转化；人类STXBP1新发突变（单倍剂量不足）选择性损害PV/SST抑制性中间神经元，是最常见的婴儿期发育性癫痫性脑病病因之一 **[NEW 2026-07-14]**（填补SNARE-complex长期标注的悬空引用）
 - 🟢 [活动区（Active Zone）](neurons/active-zone.md) — 突触前终末的纳米级分子发射台；纳米域(10-30nm)vs微域(>100nm)耦合决定释放概率；"同分子不同配比"原则（Nusser 2018）+果蝇BRP/Syd-1/Unc13分子指纹+小脑Munc13-3超预激活案例 **[修订 rev2→rev3 2026-07-10]**
 - 🟢 [CaMKII（钙调蛋白依赖蛋白激酶 II）](neurons/camkii.md) — LTP 诱导和维持的核心激酶（快速局部模式）；LTP 中双底物：GluA1 S831 磷酸化（提高电导）+ TARP γ-2/γ-8 polybasic region 磷酸化（扩散陷阱捕获受体）；BTSP 中的延迟弥散随机激活（DDSC，IP₃→ER 驱动）；结构可塑性中通过 GEF→Rac1/RhoA→LIMK→cofilin 轴驱动棘头膨大 **[修订 rev4 2026-06-28]**
 - 🟢 [树突棘](neurons/dendritic-spine.md) — 兴奋性突触的突触后接受位点；棘头体积与突触强度和 AMPA 受体数量高度相关；LTP 诱导后 Ca²⁺→CaMKII→Rac1/RhoA→LIMK→cofilin 失活→F-actin 净聚合驱动棘头膨大 200–300%；大棘近饱和，小棘最具可塑性 **[NEW 2026-09-23]**
@@ -456,7 +459,9 @@
 - ~~`complexin`（复合素）~~ ✅ **2026-07-12 已建立**（被 [[SNARE-complex]]/[[synaptotagmin]]/[[active-zone]] 共同引用，钳制/催化SNARE融合的双重调控蛋白，2026年新证据提示存在独立于synaptotagmin的更古老演化功能）
 - ~~`channelrhodopsin`（通道视紫质）~~ ✅ **2026-07-11 已建立**（被 [[optogenetics]] 引用，光遗传学分子机制核心，填补长期标注的悬空引用）
 - ~~`recurrent-network`（循环神经网络）~~ ✅ **2026-07-13 已建立**（被 [[population-clock]] 引用，真实悬空引用；线吸引子+情境依赖选择向量核心机制，课程脊柱12"人脑与AI比较"新页）
+- ~~`munc18`（Munc18-1/STXBP1）~~ ✅ **2026-07-14 已建立**（被 [[SNARE-complex]] 引用，真实悬空引用；模板机制解开"闭合构象却是释放绝对必需组件"的结构悖论，STXBP1脑病作为疾病窗口）
 - `neural-population-coding`（神经群体编码）— 被 [[population-clock]] 引用，仍为真实悬空引用，供未来选题（种群向量解码、高维状态空间表征、种群时钟的理论前提）
+- `mglur-ltd`（mGluR依赖型LTD，已拆分为独立页面 concepts/mglur-ltd.md，但本索引尚未补充对应条目，2026-07-14核查发现，供未来补录）
 
 ---
 
@@ -485,3 +490,5 @@
 **第195篇（2026-07-12）**：**刹车还是油门？Complexin 如何用同一段螺旋同时钳制与催化囊泡融合**——填补 [[SNARE-complex]]/[[synaptotagmin]]/[[active-zone]] 三页共同标注的悬空引用 complexin，同时追踪一项2026年6月最新突破。核心贡献：(1) 综述（PMID:39627811）确立complexin四结构域分工——中央螺旋(CH)结合SNARE、辅助螺旋(AH)钳制自发融合、N端结构域(NTD)催化诱发融合、C端结构域(CTD)调控融合孔；(2) Maximov 2009（Science）RNAi敲低+电生理量化"双向脱靶"表型——自发释放频率↑3-4倍，诱发释放幅度↓3-4倍且失同步；(3) Zhou 2017（Nature）晶体结构揭示Syt1-SNARE-Cpx三方界面（990 Å²，六螺旋束），Ca²⁺结合前锁定预融合态、结合后解锁；(4) Chen et al. 2026（Nat Commun，发表距今约15天）在天然缺少synaptotagmin的脂肪细胞GLUT4胞吐通路中发现complexin独立于Syt发挥纯催化功能，提出其原始演化功能可能不依赖Ca²⁺、比synaptotagmin更古老；(5) CPX1/2（常规突触）vs CPX3/4（视网膜带状突触，低SNARE亲和力但支持持续高频释放）的亚型分化；CPLX1功能丧失突变与DEE63癫痫性脑病的人类遗传学关联（UniProt官方注释）。新建1个wiki页面（neurons/complexin），修订2个wiki页面（SNARE-complex rev1→rev2、synaptotagmin rev3→rev4），图谱352节点/2123边，新增未解问题Q-cpx-tripartite-generality/Q-cpx-retinal-dynamics/Q-cpx-primordial-evidence/Q-cpx-disease-causality。**真实日期2026-07-12已被历史日期漂移事件产生的虚拟时间线文章占用，本篇article/notes/sources/log采用日期+slug消歧命名（详见文章页首说明）。**
 
 **第196篇（2026-07-13）**：**一条线，两个世界：为什么"只教它做对"的循环神经网络，会自己长出猴子前额叶皮层的动力学结构**——填补 [[population-clock]] 长期标注的悬空引用 recurrent-network（真实存在的悬空引用，此前仅在正文与图谱边中被引用，无对应页面）。核心贡献：(1) Rigotti 2010（Front Comput Neurosci）理论证明——情境依赖（XOR型）任务在原理上要求混合选择性神经元，纯前馈单变量选择性表征无法求解，未训练随机网络已自发表现出所需维度的混合选择性；(2) Mante, Sussillo, Shenoy & Newsome 2013（Nature）——仅训练"输出正确性"的循环网络，在情境依赖决策任务中自发涌现出与猕猴前额叶群体活动几乎相同的动力学结构：线吸引子（每种情境一条）+ 情境依赖选择向量，且无证据支持"早期过滤无关输入"假说，选择发生在与证据累积同一套回路内的驰豫动力学中；(3) Vyas, Golub, Sussillo & Shenoy 2020（Annu Rev Neurosci）综述确立"动力系统视角"作为统一运动皮层/前额叶/计时脑区群体活动的框架，及RNN作为"假说生成"工具的方法论；(4) Maheswaranathan 2019（NeurIPS）——2880个RNN跨架构比较显示不动点拓扑结构普适，但表征几何形状是架构依赖的"个体化"特征，限定了几何相似作为生物学证据的效力，是本文"争议与未解问题"部分的核心依据。新建1个wiki页面（concepts/recurrent-network），无既有页面正文修订（仅在"连接"层面新增双向图谱边，未改动 population-clock/attractor-network 正文），图谱353节点/2128边，新增未解问题Q-rnn-01/02/03/04。近7天（2026-06-15至2026-07-13）Europe PMC突破检索未发现足以支撑"突破追踪"优先级的高相关性新论文，本篇以缺口驱动（ROUTINE.md优先级第3项）为主要选题依据。
+
+**第197篇（2026-07-14）**：**一把先关上的锁：Munc18-1 如何在"堵住"SNARE的同时，充当组装它的模板**——填补 [[SNARE-complex]] 长期标注的悬空引用 munc18（真实悬空引用，"突触囊泡融合机器"系列第四篇：SNARE-complex→synaptotagmin→complexin→munc18）。核心贡献：(1) Misura 2000（Nature，仅摘要）晶体结构确立结构悖论——Munc18-1包裹闭合构象Syntaxin-1，SNARE基序被物理"藏"起来；(2) Verhage 2000（Science，仅摘要）敲除小鼠显示神经递质分泌完全消失但突触形态学连接正常建立，把悖论推向不可回避；(3) Ma 2011/Yang 2015/Wang 2020（Nat Struct Mol Biol ×2, EMBO J）NMR+FRET+重构体系证明Munc13 MUN结构域协同加速闭合复合物转化25-240倍，并直接激活Munc18-1本身；(4) Jiao 2018（eLife）单分子光镊核心突破——识别"态7"模板中间体，Munc18-1 3a结构域将SNARE基序N端预先对齐、C端仍分离，平衡力约5.1pN，解开结构悖论；(5) Guiberson 2024（Brain）揭示Munc18-1的分子伴侣式稳定器功能（致病突变继发耗竭Doc2）；(6) Chen & Cai 2020（eLife）+ GeneReviews NBK396561（官方机构来源）连接到人类疾病——STXBP1单倍剂量不足选择性损害PV/SST抑制性中间神经元，是最常见婴儿期发育性癫痫性脑病病因之一。新建1个wiki页面（neurons/munc18），修订2个wiki页面（SNARE-complex rev2→rev3、synaptotagmin rev4→rev5），轻量交叉链接1页（complexin rev1→rev2），图谱354节点/2133边，新增未解问题Q-munc18-doc2-contribution/Q-munc18-template-in-vivo/Q-stxbp1-genotype-phenotype-gap。**同时对_graph.json中9处"页面已建但resolved字段未同步"的记录漂移做了订正**（munc18/tarp-auxiliary-subunit/mglur-ltd/channelrhodopsin/embodied-semantics/dentate-gyrus/excitotoxicity/mitochondrial-dysfunction/neuroinflammation），响应此前#194会话记录的"未来某次会话应做全量核查"待办。**真实日期2026-07-14已被历史日期漂移事件产生的虚拟时间线文章占用（2026-07-14-cnn-visual-cortex-hierarchy.md），本篇article/notes/sources/log采用日期+slug消歧命名（详见文章页首说明）。**

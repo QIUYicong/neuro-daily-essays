@@ -6,10 +6,10 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-05-25
-updated: 2026-07-12
-revision_count: 4
+updated: 2026-07-14
+revision_count: 5
 dimensions: [molecular, synaptic]
-related: [SNARE-complex, synaptic-transmission, active-zone, complexin, voltage-gated-calcium-channels, short-term-synaptic-plasticity]
+related: [SNARE-complex, synaptic-transmission, active-zone, complexin, munc18, voltage-gated-calcium-channels, short-term-synaptic-plasticity]
 prerequisites: [SNARE-complex, synaptic-transmission, voltage-gated-calcium-channels]
 opens_questions: [Q-syt7-facilitation-mechanism, Q-syt-isoform-specificity]
 source_articles: [2026-05-25-synaptic-vesicle-exocytosis, 2026-06-01-voltage-gated-calcium-channels, 2026-06-10-stp-short-term-plasticity, 2026-07-12-complexin-dual-function-vesicle-fusion]
@@ -82,6 +82,7 @@ Jackman & Regehr（2017，PMID:28472650，PMC:PMC5865607）通过4种突触类�
 - [[complexin]] — Syt1与Complexin协同：Syt解除Complexin锁定；2017年晶体结构（PMID:28813412）揭示二者通过"三方界面"（第二个Syt1 C2B的HA螺旋直接拼接进complexin中央螺旋末端，与SNARE共同形成六螺旋束，界面990 Å²）在Ca²⁺到来前共同锁定预融合态，界面不涉及Ca²⁺结合位点本身，解释了[[synaptotagmin]]激活后如何具体"解锁"complexin
 - [[voltage-gated-calcium-channels]] — CaV2.1（P/Q型）/CaV2.2（N型）开放产生局部Ca²⁺浓度暴升是Syt1激活的直接上游；Syt1的C2B域与CaV2通道的synprint位点预结合，实现纳米域预组织
 - [[short-term-synaptic-plasticity]] — Syt7是STP易化（facilitation）的主要分子传感器；Syt1是快速同步释放的传感器，两者分工明确
+- [[munc18]] — 作用于SNARE组装的更上游阶段：Munc18-1在Syntaxin闭合构象下充当模板、预先对齐SNARE基序N端；Synaptotagmin则在组装完成后的钙触发阶段介导最终解锁，二者分工覆盖囊泡融合"组装启动→钙触发解锁"的完整链路
 
 ## 未解问题
 
@@ -95,6 +96,7 @@ Jackman & Regehr（2017，PMID:28472650，PMC:PMC5865607）通过4种突触类�
 - 2026-06-01 · 修订 · 基于《神经元的三重钙门》一文 · 明确钙通道（CaV2.1/2.2）通过synprint位点与Syt1 C2B域的预结合机制（约20 μM Ca²⁺时最强）；将悬空引用 calcium-channel 更新为 voltage-gated-calcium-channels
 - 2026-06-10 · 修订 · 基于《瞬息之变：短时程突触可塑性》一文 · 大幅扩展Syt7机制：加入4种突触PPF KO实验（Jackman & Regehr 2017）、Syt7的钙亲和力/慢解离特性、频率不变传输（Turecek 2017）；将 short-term-synaptic-plasticity 加入 related；解答了悬挂已久的 Q-syt7-facilitation-mechanism（主体机制确立，精确构象仍open）
 - 2026-07-12 · 修订 · 基于《刹车还是油门？Complexin 如何用同一段螺旋同时钳制与催化囊泡融合》一文 · 在complexin连接条目中补充Zhou 2017三方界面结构机制细节，新增key_source（PMID:28813412）
+- 2026-07-14 · 修订 · 基于《一把先关上的锁：Munc18-1 如何在"堵住"SNARE的同时，充当组装它的模板》一文 · 新增munc18交叉链接，说明其与Synaptotagmin在囊泡融合链路中的分工（组装启动 vs 钙触发解锁）
 
 ## 来源文章
 
