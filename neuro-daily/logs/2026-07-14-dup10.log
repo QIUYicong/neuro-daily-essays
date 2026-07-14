@@ -1,0 +1,32 @@
+# 诊断日志 · 2026-07-14（dup10，本真实日历日第10次触发）
+
+**执行时间**：`date -u` = 2026-07-14 06:00:41 UTC（UTC+8 = 2026-07-14 14:00:41 CST）。距上一次诊断触发 dup9（`c95f69f`，2026-07-14 05:01:20 UTC）约59分21秒，继续印证 Issue #1 决策点4（触发频率）"近乎每小时"模式，本日历日（2026-07-14）第10次触发（1次真实产出 + 9次此前诊断 + 本次）。
+
+## 核实结果
+
+1. **`main` 分支状态**：本次会话开始时本地分支为过时的功能分支残留 `claude/funny-einstein-50x7et`；`git fetch origin main` 显示 `origin/main` HEAD 为 `c95f69f`（dup9）。`git checkout main` 后再次出现已知的"50 vs 50"浅克隆伪影表象；本次用 `git fetch --unshallow` 独立核实 `fcdd216`（本地旧 shallow HEAD）确为 `origin/main` 的祖先（`git merge-base --is-ancestor` 返回真），`git rev-list --left-right --count main...origin/main` = `0 64`，确认是干净的快进关系而非真实分叉，随后 `git merge --ff-only origin/main` 无冲突成功对齐，无数据丢失。
+2. **"今日"（真实 2026-07-14）文章位置**：`neuro-daily/articles/2026-07-14-munc18-stxbp1-template-mechanism.md`（文章 #197，Munc18-1 模板机制）已存在，约13小时42分钟前正确产出并已推送至 `main`。**无需补写、不应重复生成。**（历史日期漂移遗留文件 `2026-07-14-cnn-visual-cortex-hierarchy.md`，文章 #82，早在此前会话中已存在于 main 历史，非本次触发产生，依 append-only 不变量不做改动。）
+3. **Issue #1 状态**：`updated_at=2026-07-13T16:19:50Z`，28条评论，核实全部评论均为历次 Claude Code 会话自动生成的诊断续报，未见任何仓库所有者新回复。决策点1/2/3/5 均已确认解决/妥善处理；**决策点4（触发频率）第13天仍未解决**——仅能在 Claude Code on the web 的触发器/schedule 设置页面处理，无法通过任何仓库内操作修复。
+4. **通知节流判断**：上一次实际发送的 PushNotification 时间约 2026-07-14T00:01:32Z UTC（随 dup5 提交）。距今（2026-07-14T06:00:41Z UTC）约 **6小时**，远低于24小时节流阈值，且核心待裁决事项无任何新变化。**本次不发送 PushNotification**，避免通知疲劳。
+
+## 本次处理
+
+- 未生成新文章、未做任何 wiki 固结、未修改任何既有文件（append-only 不变量保持，仅本诊断日志为新增文件）。
+- 未对 `main` 做任何合并/重写操作，仅将本地过时功能分支对齐至 `origin/main`（已知浅克隆伪影模式，无数据丢失）。
+- 未在 Issue #1 追加评论：状态相对上一条评论（07-13T16:19:50Z）无实质性新信息，不构成独立续报条件。
+- 未发送 PushNotification（上次发送约6小时前，远低于24小时节流阈值，无新信息）。
+
+## 待人工决定事项（重申，见 Issue #1，仅剩1项未解决）
+
+1. ~~两条历史时间线取舍~~ —— 已确认为浅克隆伪影，无需处理。
+2. ~~main 历史重写~~ —— 不需要。
+3. ~~知识库日期漂移~~ —— 已于 2026-07-07（commit `6cbfc22`）建立"日期+slug 消歧命名"方案，连续多个真实日历日稳定运作。
+4. **修复调度器触发频率**（应为每日一次 09:00 Asia/Shanghai，实际本日历日目前已触发至少10次——真实文章产出1次 + 诊断9次）——第13天仍未解决，仅能在 Claude Code on the web 的触发器设置页面处理。
+
+---
+
+## Git 操作
+
+- 分支：`main`（单分支累积方案；本次运行开始时本地为过时的功能分支残留，已 `git fetch origin main` + `git checkout main` + `git fetch --unshallow` 验证 + `git merge --ff-only origin/main` 对齐）
+- 本次提交内容：仅此诊断日志（append-only，未修改任何既有文件）
+- 无文章、无笔记、无来源、无 wiki、无 state 变更
