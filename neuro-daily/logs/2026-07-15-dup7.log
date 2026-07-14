@@ -1,0 +1,40 @@
+# 2026-07-15 dup7 诊断日志（本日第8次触发）
+
+真实 UTC 时间：2026-07-14T23:02:09Z（UTC+8 2026-07-15 07:02:09）。
+距上一次触发（dup6，commit `64150be`，2026-07-14T22:01:27Z）约61分钟，延续近乎每小时的触发模式
+（Issue #1 决策点4，第15天仍未解决）。
+
+## 检查结果
+
+- 今日（2026-07-15）真实文章 #198《免疫系统认得出"太吵"的突触吗？抗体如何把神经元的过度活跃翻译成补体系统能读懂的删除信号》
+  （`neuro-daily/articles/2026-07-15-antibody-c1q-adult-synapse-pruning.md`）已存在，已于本日早些时候正确写入并推送
+  （commit `0dd65ea` 正文 + `0f5b11d` 补记 push 状态）。
+- 本次触发**不生成新文章、不修改任何 articles/notes/sources/wiki/state 文件**，延续既定策略（每个真实日历日只产出一篇正式文章）。
+- 会话开始时本地分支为 harness 分配的 per-session 分支 `claude/funny-einstein-7vse3n`，与 `origin/main` 完全同步
+  （0 commits ahead/behind，`git merge-base --is-ancestor HEAD origin/main` 验证为干净祖先关系）。随后切换到本地 `main`
+  并执行 `git pull origin main`，干净快进（`fcdd216` → `64150be`，无冲突、无强推），本地历史沿用既定的"直接在 main 上工作、
+  推送回 origin main"惯例（历次会话一致采用，与 ROUTINE.md 单分支累积模型一致）。
+- `origin/main` 自 dup6（`64150be`）以来 HEAD 未变，无新内容产出。
+- 核对 GitHub Issue #1：共29条评论，最新一条仍是 2026-07-14T16:21:50Z（第198篇产出记录），
+  无新的实质信息，未见仓库所有者的人工回复。未追加评论。
+
+## 决策点状态（沿用既定裁决，未见新变化）
+
+- 决策点1/2/3/5：均已确认解决/妥善处理，本次未见异常。
+- 决策点4（触发频率）：第15天仍未解决。今日截至目前已知至少8次触发
+  （1次真实产出 #198 + dup1 + dup2 + dup3 + dup4 + dup5 + dup6 + 本次dup7），
+  仍是近乎每小时模式，只能在 Claude Code on the web 的触发器/schedule 设置页面处理，无法通过仓库内操作修复。
+
+## 通知/评论节流
+
+- 未新增 Issue #1 评论：核心待裁决事项与上一条评论完全一致，无新的实质信息。
+- 未发送 PushNotification：距上一次实际发送（约2026-07-14T13:02Z，随 dup16 会话）约10小时，远低于24小时节流阈值，
+  且无新的、需要仓库所有者立即决策的事项。
+
+## Git 状态
+
+- 分支：本次会话工作分支为 `claude/funny-einstein-7vse3n`（harness 分配），确认与 `origin/main` 完全同步后，
+  切换到本地 `main` 并同步、推送（沿用既定"直接在 main 上工作"惯例）
+- 起始状态：`claude/funny-einstein-7vse3n` 与 `origin/main` 无分叉；本地 `main` 落后 82 个提交，经 `git pull origin main`
+  干净快进对齐
+- 本次提交：仅本日志文件（无文章/wiki/state 变更）
