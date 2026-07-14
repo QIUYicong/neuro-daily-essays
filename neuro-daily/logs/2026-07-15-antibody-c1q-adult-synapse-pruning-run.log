@@ -1,0 +1,60 @@
+# 运行日志 · 2026-07-15 · 第198篇 · antibody-c1q-adult-synapse-pruning
+
+**执行时间**：`date -u` 核实为 2026-07-14 16:00:08 UTC（UTC+8 = 2026-07-15 00:00:08 CST）。是真实日历从2026-07-14跨入2026-07-15后的首次触发。
+
+## 运行背景（Issue #1 相关）
+
+会话开始时核实：GitHub Issue #1（"main 分支历史分叉 + 知识库日期漂移"，自2026-07-02开启，28条评论，最新评论`2026-07-13T16:19:50Z`，第197篇产出记录，持续至今约13天无仓库所有者人工回复）。origin/main 当前HEAD为`59b44d0`（2026-07-14 dup18诊断日志，第19次触发记录），内含2026-07-14真实文章#197（munc18-stxbp1-template-mechanism）。
+
+本地`main`分支缓存出现"50 vs 50"表象分叉（`fcdd216` vs `59b44d0`），经排查确认是浅克隆导致的历史截断假象（已被此前多次独立会话反复验证的已知模式），执行`git fetch --unshallow` + `git merge --ff-only origin/main`干净解决（核实前本地无待推送内容，未丢失任何本地独有提交）。**注意**：本次会话最初误执行了`git checkout main -- .`（在浅克隆分叉状态下，把旧`main`内容checkout进工作区并暂存），产生了一批误导性的staged diff；随即通过`git restore --staged .` + `git restore .`撤销，未提交、未推送，未造成实际影响，特此记录以供未来会话参考（避免在处理分叉疑虑时直接对工作区做`checkout <branch> -- .`，应先用`git merge-base --is-ancestor`等只读命令诊断，确认后再用`git merge --ff-only`等安全操作对齐分支）。
+
+判断依据：origin/main HEAD日期为2026-07-14，当前真实时间已跨入2026-07-15（UTC+8 00:00），且磁盘上尚无2026-07-15的**真实**内容产出（虽存在同名的历史漂移遗留文件`2026-07-15-brain-attention-transformer-qkv.md`，经`git log --all -- <path>`核实该文件实际创建于commit `d0bd186`，2026-06-18，是旧未来时间线的遗留产物，非本日真实产出）。据此判定本次为2026-07-15这一真实日历日的首次触发，应按ROUTINE.md正常流程生产真实新文章，而非诊断性no-op。
+
+Issue #1决策点状态复核：决策点1/2/3/5均已在此前多次独立会话中验证为已解决/已妥善处理；决策点4（触发频率异常）第14天仍未解决，当天（07-14）已知至少19次触发，性质上仅能在Claude Code on the web触发器/schedule设置页面处理，无法通过仓库内操作修复。
+
+## 选题过程
+
+1. 读取 `state/topic_ledger.json`（#197条目的next_suggested_topics）、`state/unresolved_questions.md`（Q-complement-01高优先级悬而未决）、`state/contested_claims.json`（7条open矛盾，均非本次可快速裁决）、`wiki/_graph.json`（悬空引用检查）。
+2. 按 ROUTINE.md 选题优先级第1位（突破追踪）：用 NCBI E-utilities esearch 检索近7天（2026-07-07至2026-07-15）Nature/Science/Cell/Nature Neuroscience/Neuron/Nature Medicine/eLife发表的神经科学相关论文，返回34条结果，esummary批量获取标题后逐条评估。
+3. 锁定 PMID:42424464（Crowley/Hong et al. 2026, *Science*, 2026-07-09）——"C1q and immunoglobulins mediate activity-dependent synapse loss in the adult brain"——因其直接回应 `wiki/concepts/complement-cascade-cns.md` 记录在案的高优先级未解问题 Q-complement-01（"C1q结合突触膜的具体配体是什么？是否通过抗体样分子间接识别？"），同时部分回应 `synaptic-pruning.md` 的 Q-pruning-02（成年大脑是否仍有周期性剪枝），是"突破追踪"与"回收未解问题"两条选题优先级的交汇点。
+
+## 检索与来源
+
+- NCBI E-utilities esearch/esummary：定位近7天候选论文清单，确认PMID:42424464及其配发评论PMID:42424475的题录信息。
+- Europe PMC REST API：确认PMID:42424464/42424475均为`isOpenAccess=N`、无PMCID（付费墙内）；进一步检索到对应bioRxiv预印本（DOI:10.1101/2024.12.18.629085，PPR956868，标注为开放获取）。
+- 尝试获取预印本全文：`biorxiv.org/content/.../v1`、`.../v2/full`、JATS XML源文件、Europe PMC全文PDF端点，**全部返回HTTP 403拒绝访问**，未能获取全文。
+- 通过WebSearch定位第三方讨论：s4me.info公开预印本讨论帖（含免疫学者Jonathan Edwards的具体质疑）、sciety.org（未见额外评审内容）。
+- PMC全文页面直接抓取：Schafer et al. 2012（PMC3528177）、Hong et al. 2016（PMC5094372）——均完整阅读全文提取具体数据，作为经典背景与今日新证据的对照基线。
+- NCBI E-utilities efetch：获取PMID:42424464/42424475的结构化摘要与完整作者/期刊元数据。
+- 尝试获取NIA官方页面（作为官方机构来源）：直接抓取返回HTTP 405，改用WebSearch获取该页部分表述作为背景引用，并在正文/来源清单明确标注此访问限制。
+- 共采用7个来源（2篇全文开放的经典对照文献；本次核心新研究及其配发评论仅摘要/题录，全文未获取；1个官方机构来源受限访问；1个非正式论坛讨论作为呈现争议的辅助材料）。满足ROUTINE.md"≥5来源、≥2开放全文、≥1官方来源"最低标准，但核心突破论文本身开放全文覆盖率低于近期多数文章，已在正文与来源清单中如实标注并作为限制讨论。
+
+## 产出
+
+- `articles/2026-07-15-antibody-c1q-adult-synapse-pruning.md`（约4800汉字，完整12段落结构）
+- `notes/2026-07-15-antibody-c1q-adult-synapse-pruning-reading-notes.md`
+- `sources/2026-07-15-antibody-c1q-adult-synapse-pruning-sources.json`
+- `wiki/concepts/complement-cascade-cns.md`（rev1→rev2）：新增"抗体作为可能的活动信息翻译者"小节、新增关键证据行、Q-complement-01更新为"部分推进"
+- `wiki/concepts/synaptic-pruning.md`（rev1→rev2）：新增"成年大脑活动过度触发剪枝"证据行、Q-pruning-02更新为"部分推进"
+- `wiki/diseases/alzheimers-disease.md`：**评估后判断不修订**（frontmatter updated字段已是未来时间线遗留日期2026-09-17，回溯修改会打乱既有修订时序，详见文章"今日认知地图更新"与CHANGELOG说明）
+- `wiki/_graph.json`：无新节点/边（新证据并入既有节点），仅刷新`updated`字段至2026-07-15
+- `wiki/index.md`：synaptic-pruning与complement-cascade-cns两条目追加修订标注
+- `wiki/CHANGELOG.md`：新增2026-07-15条目（含运行背景说明、未修订alzheimers-disease.md的决策记录）
+- `state/topic_ledger.json`：新增条目#198（total_articles 188→189）
+- `state/unresolved_questions.md`：Q-complement-01、Q-pruning-02状态更新段（非新增问题，为既有问题状态更新）
+- `state/source_registry.json`：新增key `sources_2026-07-15-antibody-c1q-adult-synapse-pruning`
+- `state/monthly_synthesis.md`：2026年7月（日期修复后）章节追加#198条目
+
+## 自检（ROUTINE.md 第H节）
+
+- **真实性**：每条wiki新主张均有来源标注；明确区分了事实（Schafer 2012/Hong 2016经PMC全文核实的具体数据）/候选机制（本次核心研究提出的抗体协同假说，标注emerging）/争议（Jonathan Edwards的公开质疑，标注为非正式来源、仅呈现争议本身）；未把单篇未经独立重复的新研究写成定论——正文"关键证据"表与"争议与未解问题"section反复标注证据强度"中-低"；未将小鼠化学遗传学结果直接等同人类生理/病理状态。核心限制（本次突破论文全文未获取）已在文章末尾"参考来源"section及正文多处显式标注"未读取全文"。
+- **一致性**：complement-cascade-cns.md/synaptic-pruning.md修订均同步更新了updated/revision_count/修订历史/source_articles/key_sources；未对既有主张做删除式覆盖，新旧证据在页面内并列呈现并标注状态差异（不构成矛盾协议意义上的正面冲突，故未登记contested_claims，而是采用"未解问题状态更新"处理，此判断已在文章与topic_ledger中说明理由）；`_graph.json`无新增未记录悬空边（本次未新建节点）。alzheimers-disease.md的"评估后不修订"决定已在三处（文章正文、CHANGELOG、topic_ledger）一致记录，避免不同文件间状态不一致。
+- **可导航**：`wiki/index.md`与`wiki/CHANGELOG.md`均已反映今日变化。
+- **情景层**：article/notes/sources/log四件套齐全；未修改任何既有情景层文件（append-only不变量保持）；命名采用"日期+slug"消歧惯例，不覆盖2026-07-15既有的历史漂移遗留文件。
+
+## Git 操作
+
+- 分支：`main`（单分支累积方案；已通过`git fetch --unshallow` + `git merge --ff-only origin/main`干净对齐已知浅克隆伪影，随后在此基础上进行本次全部文件修改）
+- 提交前将执行 `git pull --rebase origin main` 防止运行期间main被更新
+- 提交内容：`neuro-daily/` 下本次新增/修改的全部文件（article, notes, sources, wiki×3含图谱, state×4, log）
+- Push状态：见本文件末尾追加（commit hash / push结果将在完成后补记）

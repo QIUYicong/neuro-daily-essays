@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-14",
+  "last_updated": "2026-07-15",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -17871,6 +17871,50 @@
       "pmcid": null,
       "full_text": true,
       "note": "STXBP1 Encephalopathy with Epilepsy，NCBI Bookshelf官方机构来源，最后更新2023-09-28，全文开放"
+    }
+  ],
+  "sources_2026-07-15-antibody-c1q-adult-synapse-pruning": [
+    {
+      "id": "PMID:18083105",
+      "pmcid": null,
+      "full_text": false,
+      "note": "Stevens et al. 2007 Cell，经典补体级联介导CNS突触消除的奠基文献，仅摘要"
+    },
+    {
+      "id": "PMID:22632727",
+      "pmcid": "PMC3528177",
+      "full_text": true,
+      "note": "Schafer et al. 2012 Neuron，TTX/forskolin证明发育期活动依赖补体剪枝，全文开放"
+    },
+    {
+      "id": "PMID:27033548",
+      "pmcid": "PMC5094372",
+      "full_text": true,
+      "note": "Hong et al. 2016 Science，AD模型中C1q早于斑块病理性重激活，全文开放"
+    },
+    {
+      "id": "PMID:42424464",
+      "pmcid": null,
+      "full_text": false,
+      "note": "Crowley/Hong et al. 2026 Science，成年海马过度活跃触发C1q依赖突触丢失+抗体协同机制候选，仅结构化摘要，全文（含bioRxiv预印本）403拒绝访问，已受同行公开质疑"
+    },
+    {
+      "id": "PMID:42424475",
+      "pmcid": null,
+      "full_text": false,
+      "note": "Miarka & Prinz 2026 Science Perspective，PMID:42424464配发评论，仅题录信息"
+    },
+    {
+      "id": null,
+      "pmcid": null,
+      "full_text": false,
+      "note": "NIA官方页面 What Happens to the Brain in Alzheimer's Disease，官方机构来源，直接抓取405受限，仅经检索摘要读取部分表述"
+    },
+    {
+      "id": null,
+      "pmcid": null,
+      "full_text": "informal",
+      "note": "s4me.info预印本讨论平台关于PMID:42424464的公开讨论（Jonathan Edwards等），非正式来源，仅用于呈现争议本身"
     }
   ]
 }

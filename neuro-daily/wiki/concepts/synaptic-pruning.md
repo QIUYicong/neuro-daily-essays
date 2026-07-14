@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-03
-updated: 2026-06-03
-revision_count: 1
+updated: 2026-07-15
+revision_count: 2
 dimensions: [synaptic, cellular, microcircuit, brain-region, cognition, disease]
 related: [microglia, complement-cascade-cns, homeostatic-plasticity, synaptic-scaling, critical-period, ltp, ltd]
 prerequisites: [synaptic-transmission, action-potential, long-term-potentiation]
 opens_questions: [Q-pruning-01, Q-pruning-02, Q-pruning-03]
-source_articles: [2026-06-03-microglia-synaptic-pruning]
-key_sources: ["PMID:18083105", "PMID:22632727", "PMID:26814963", "PMID:27033548", "PMID:32657463", "PMID:34738335"]
+source_articles: [2026-06-03-microglia-synaptic-pruning, 2026-07-15-antibody-c1q-adult-synapse-pruning]
+key_sources: ["PMID:18083105", "PMID:22632727", "PMID:26814963", "PMID:27033548", "PMID:32657463", "PMID:34738335", "PMID:42424464"]
 ---
 
 # 突触剪枝 (Synaptic Pruning)
@@ -27,6 +27,8 @@ key_sources: ["PMID:18083105", "PMID:22632727", "PMID:26814963", "PMID:27033548"
 突触剪枝的活动依赖性体现在：神经活动水平通过"吃我"信号（C3b、磷脂酰丝氨酸）和"别吃我"信号（CD47）的动态平衡，将突触的使用频率转化为保留/删除的分子决策。活跃突触积累更多的"别吃我"信号（CD47），而沉默突触则积累更多的"吃我"信号，最终被小胶质细胞识别并吞噬。
 
 这套机制在不同脑区和时间点展现不同的分子特征：补体-CR3 通路在视网膜膝状核发育期最为突出；PS-TREM2 通路在海马早期发育中起重要作用；前额叶皮层的突触剪枝则在青春期最为活跃，且其失调与精神分裂症密切相关。
+
+**2026-07-15 更新（回应 Q-pruning-02）**：一项新研究（Crowley、Hong 等 2026，*Science*，单篇未经独立重复，已受同行公开质疑，详见 [[complement-cascade-cns]] 及文章 [[2026-07-15-antibody-c1q-adult-synapse-pruning]]）报告，成年小鼠海马确实存在活动依赖的补体介导突触丢失，部分回答了 Q-pruning-02（"成年大脑是否仍有周期性突触剪枝"）——但触发方向与发育期经典模型相反：不是"沉默突触被剪除"，而是人为提高活动（过度活跃）触发局部 C1q 依赖的突触末梢丢失。这提示成年大脑里至少可能存在一条独立于发育期"沉默优先"逻辑的触发路径，而不是发育期机制在成年的简单延续。该结论目前证据强度中等偏低，Q-pruning-02 仍应视为部分推进而非解决。
 
 ## 关键机制
 
@@ -74,6 +76,7 @@ key_sources: ["PMID:18083105", "PMID:22632727", "PMID:26814963", "PMID:27033548"
 | PS 是独立的"吃我"信号 | Annexin V 屏蔽 PS → 剪枝减少约 50% | PMID:32657463 | 中高 |
 | C4A 过度表达→过度剪枝→精神分裂症 | 遗传关联 N=64,000+；C4 敲入小鼠树突棘减少 | PMID:26814963 | 高 |
 | AD 早期 C1q 重激活先于斑块 | AD 小鼠 1 月龄 C1q 突触↑；Aβ 低聚体触发；阻断 C1q 保护突触 | PMID:27033548 | 高 |
+| 成年海马**过度活跃**触发局部 C1q 依赖突触丢失，可能由脑膜 B 细胞/抗体介导 | 化学遗传学 + 空间转录组学（**全文未获取，仅摘要及预印本讨论转述**） | PMID:42424464 | 中-低（单篇新研究，未见独立重复，已受质疑） |
 
 ## 连接
 
@@ -89,13 +92,15 @@ key_sources: ["PMID:18083105", "PMID:22632727", "PMID:26814963", "PMID:27033548"
 ## 未解问题
 
 - Q-pruning-01（高优先）：PS 外翻的精确上游触发器是什么？是 LTD 相关的 caspase-3 局部激活，还是其他机制？
-- Q-pruning-02（中优先）：成年大脑是否仍有周期性突触剪枝？如果有，时间尺度和分子机制与发育期是否相同？
+- Q-pruning-02（中优先，**2026-07-15 部分推进**）：成年大脑是否仍有周期性突触剪枝？如果有，时间尺度和分子机制与发育期是否相同？——新证据提示成年海马存在活动依赖突触丢失，但由过度活跃而非发育期式的沉默触发，机制细节（尤其是否涉及抗体）未经独立重复，问题仍未完全解决。
 - Q-pruning-03（中优先）：不同脑区（dLGN vs 海马 vs 前额叶皮层）的剪枝机制差异来自何处？SRPX2 等局部调节因子的完整图谱是什么？
 
 ## 修订历史
 
 - 2026-06-03 · 创建 · 基于《大脑的"质检员"》(#70) · 初始置信度：高（多个独立实验室的直接证据）
+- 2026-07-15 · 修订 · 基于《免疫系统认得出"太吵"的突触吗？》(#198) · 新增成年大脑活动过度触发剪枝的证据行；Q-pruning-02 更新为"部分推进"；revision_count 1→2
 
 ## 来源文章
 
 - [[2026-06-03-microglia-synaptic-pruning]]
+- [[2026-07-15-antibody-c1q-adult-synapse-pruning]]

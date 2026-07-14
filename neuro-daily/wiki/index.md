@@ -78,8 +78,8 @@
 ## concepts（概念/框架）
 
 - 🟢 [发育关键期](concepts/critical-period.md) — GABA 阈值触发开启；三道刹车（PNN/OTX2/Lynx1）主动关闭；ChABC/氟西汀/催产素可重开；MeCP2 KO 使 Rett 综合征关键期错位；弱视与语言习得的发育窗口 **[NEW 2026-06-03]**
-- 🟢 [突触剪枝](concepts/synaptic-pruning.md) — 先多建再精删策略；C1q/C3b"吃我"+CD47"别吃我"双向博弈；活动依赖（TTX实验）；dLGN/海马/前额叶分窗口；精神分裂症（C4A过度剪枝）与AD（C1q重激活）疾病连接 **[NEW 2026-06-03]**
-- 🟢 [补体级联（CNS突触功能）](concepts/complement-cascade-cns.md) — C1q→C4→C3b经典通路；TGF-β（星形胶质细胞）诱导神经元C1q；CR3识别C3b触发吞噬；发育期/病理期的表达差异 **[NEW 2026-06-03]**
+- 🟢 [突触剪枝](concepts/synaptic-pruning.md) — 先多建再精删策略；C1q/C3b"吃我"+CD47"别吃我"双向博弈；活动依赖（TTX实验）；dLGN/海马/前额叶分窗口；精神分裂症（C4A过度剪枝）与AD（C1q重激活）疾病连接；2026年新证据提示成年海马**过度活跃**（而非仅沉默）也可触发剪枝，emerging待验证 **[NEW 2026-06-03 · 修订 rev2 2026-07-15]**
+- 🟢 [补体级联（CNS突触功能）](concepts/complement-cascade-cns.md) — C1q→C4→C3b经典通路；TGF-β（星形胶质细胞）诱导神经元C1q；CR3识别C3b触发吞噬；发育期/病理期的表达差异；2026年新证据提出抗体/IgM可能是C1q识别活动信息的"翻译者"（emerging，未经独立重复，已受同行质疑） **[NEW 2026-06-03 · 修订 rev2 2026-07-15]**
 - 🟢 [Hodgkin-Huxley 模型](concepts/hodgkin-huxley-model.md) — 动作电位的定量数学框架
 - 🟢 [SNARE复合体](concepts/SNARE-complex.md) — 突触囊泡融合的核心分子机器（四螺旋束拉链）
 - 🟢 [NMDA 受体](concepts/nmda-receptor.md) — 突触巧合检测器 + 树突 NMDA 棘波 + PFC 吸引子时间积分器 + AD中突触外NR2B逆转LTP + 脊髓中枢敏化触发器 + **兴奋毒性的主要Ca²⁺入口（突触内/外位置决定存活或死亡，修订rev7 2026-09-08）**（修订7次）

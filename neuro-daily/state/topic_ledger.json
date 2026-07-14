@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-07-14",
-  "total_articles": 188,
+  "last_updated": "2026-07-15",
+  "total_articles": 189,
   "entries": [
     {
       "date": "2026-10-18",
@@ -12378,6 +12378,69 @@
         "bdnf-trkb/prc-prion-protein——被alzheimers-disease/amyloid-beta-oligomers共同引用的悬空引用",
         "SNARE复合体预激活构象争议（C-2026-05-25-01）的新证据裁决（长期open，本次未处理）",
         "Q-munc18-doc2-contribution 若未来检索到系统性突变-表型数据可直接推进裁决"
+      ]
+    },
+    {
+      "article_number": 198,
+      "date": "2026-07-15",
+      "title": "免疫系统认得出\"太吵\"的突触吗？抗体如何把神经元的过度活跃翻译成补体系统能读懂的删除信号",
+      "slug": "antibody-c1q-adult-synapse-pruning",
+      "date_collision_note": "真实日期2026-07-15已被知识库历史日期漂移事件产生的虚拟时间线文章占用（2026-07-15-brain-attention-transformer-qkv.md，article_number=83），依据2026-07-07修复事件确立的'日期+slug'消歧命名惯例，article/notes/sources/log均采用带slug后缀的文件名",
+      "wiki_pages_created": [],
+      "wiki_pages_revised": [
+        "wiki/concepts/complement-cascade-cns.md (rev1->rev2)",
+        "wiki/concepts/synaptic-pruning.md (rev1->rev2)"
+      ],
+      "wiki_pages_evaluated_not_revised": [
+        "wiki/diseases/alzheimers-disease.md (frontmatter updated字段已是未来时间线遗留日期2026-09-17，为避免打乱修订时间顺序本次未回溯修改，详见CHANGELOG)"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "补体系统本身不会感知神经活动，那么'突触太活跃'这一信息是怎样被翻译成C1q能读懂的删除标记的？新证据把抗体放到了这条翻译链的中间，但这一机制本身尚未经独立重复且已受同行公开质疑。",
+      "open_questions_added": [],
+      "open_questions_updated": [
+        "Q-complement-01（部分推进，未解决）：新证据提出'抗体作为翻译者'的具体候选机制，但核心上游信号转导环节仍未知，且已受同行质疑",
+        "Q-pruning-02（部分推进，未解决）：成年海马确认存在活动依赖突触丢失，但由过度活跃（而非发育期式沉默）触发，机制细节未经独立重复"
+      ],
+      "layer": [
+        "molecular",
+        "synaptic",
+        "cellular",
+        "disease"
+      ],
+      "curriculum_track": "how-networks-are-built",
+      "topic_tags": [
+        "complement",
+        "c1q",
+        "antibody",
+        "immunoglobulin",
+        "synaptic-pruning",
+        "microglia",
+        "alzheimers-disease",
+        "meningeal-immunity",
+        "breakthrough-tracking"
+      ],
+      "main_sources": [
+        "PMID:18083105",
+        "PMID:22632727",
+        "PMID:27033548",
+        "PMID:42424464",
+        "PMID:42424475"
+      ],
+      "unresolved_questions": [
+        "Q-complement-01",
+        "Q-pruning-02"
+      ],
+      "gap_filled": "突破追踪模式（ROUTINE.md选题优先级第1位）：2026-07-09发表于Science的新研究直接回应complement-cascade-cns.md记录在案超一个月的高优先级未解问题Q-complement-01；同时本次是本知识库首次系统性记录一项'发表一周内、已在预印本阶段引发具体同行公开质疑'的新研究，作为证据链检验过程本身的记录样本",
+      "evidence_access_note": "本次突破解析的核心论文（PMID:42424464）全文未能获取，bioRxiv预印本与Europe PMC全文/PDF端点均返回HTTP 403；文章正文与来源清单已详细标注此限制，证据强度评级相应下调为中-低",
+      "next_suggested_topics": [
+        "neural-population-coding（神经群体编码）——真实悬空引用，仍待推进（被population-clock引用）",
+        "binding-problem/co-ripples——真实悬空引用，课程脊柱8（意识与自我）方向",
+        "bdnf-trkb/prc-prion-protein——被alzheimers-disease/amyloid-beta-oligomers共同引用的悬空引用",
+        "wernicke-area/planum-temporale/embodied-semantics相关语言网络悬空引用——课程脊柱7",
+        "SNARE复合体预激活构象争议（C-2026-05-25-01）的新证据裁决（长期open，本次未处理）",
+        "若Crowley/Hong 2026研究后续有独立重复或作者回应同行质疑的新进展，可直接跟进裁决",
+        "本知识库'未来时间线遗留页面'（updated日期晚于真实当前日期）的统一处理原则，建议专门会话制定（本次在alzheimers-disease.md上遇到但未解决，见CHANGELOG遗留待办）"
       ]
     }
   ]
