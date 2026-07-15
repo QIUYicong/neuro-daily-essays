@@ -6,14 +6,14 @@ type: theory
 status: mainstream
 confidence: high
 created: 2026-06-22
-updated: 2026-06-22
-revision_count: 1
+updated: 2026-07-16
+revision_count: 2
 dimensions: [brain-region, whole-brain-network, behavior, cognition]
-related: [place-cells, grid-cells, path-integration, entorhinal-cortex, hippocampal-circuit, memory-consolidation, sharp-wave-ripples, theta-oscillations, world-model]
+related: [place-cells, grid-cells, path-integration, entorhinal-cortex, hippocampal-circuit, memory-consolidation, sharp-wave-ripples, theta-oscillations, world-model, goal-directed-theta-sweeps]
 prerequisites: [place-cells, grid-cells, hippocampal-circuit]
 opens_questions: [Q-gc-01, Q-cogmap-01, Q-cogmap-02]
-source_articles: [2026-06-22-grid-cells-place-cells]
-key_sources: ["PMID:5124915", "PMID:15965463", "PMID:23354386", "PMID:27572056", "PMID:38065931", "PMID:41887217"]
+source_articles: [2026-06-22-grid-cells-place-cells, 2026-07-16-hippocampal-theta-sweeps-goal-direction]
+key_sources: ["PMID:5124915", "PMID:15965463", "PMID:23354386", "PMID:27572056", "PMID:38065931", "PMID:41887217", "PMID:42386948", "PMID:42386950"]
 ---
 
 # 认知地图 (Cognitive Map)
@@ -29,6 +29,8 @@ key_sources: ["PMID:5124915", "PMID:15965463", "PMID:23354386", "PMID:27572056",
 3. **抽象概念层**：最新证据表明，EC在心理模拟（Bellmund 2016）、视觉空间（Nau 2018）、概念关系（Viganò 2023）中均出现六边形对称编码，暗示网格-场所系统是大脑处理**任何连续、结构化信息空间**的通用格式
 
 从这个视角，阿尔茨海默病早期的EC损伤不只是"迷路"，而是**整个结构化世界模型的基础设施损坏**——这解释了为什么AD患者的情节记忆、空间导航和结构性知识同步衰退。
+
+**2026-07-16 新增**：Tolman（1948）提出"认知地图"概念时，核心论证证据是行为学层面的——动物能走此前从未走过的捷径，暗示脑中存在某种可被查询、计算出"到目标方向"的内部表征。这一推论近八十年来始终缺少逐时间尺度的直接神经证据。两项独立研究（Tang et al.、Yu et al. 2026, *Nat Neurosci*）首次在单个θ振荡周期（约125毫秒）的分辨率上，直接测量到了这样一个指向记忆目标的方向向量——它独立于运动方向、随学习增强、能预测行为表现，详见 [[goal-directed-theta-sweeps]]。这是"认知地图"里"认知"二字首次获得逐周期尺度的直接神经对应物，而不再只是行为层面的推论。
 
 ## 关键机制
 
@@ -67,6 +69,7 @@ key_sources: ["PMID:5124915", "PMID:15965463", "PMID:23354386", "PMID:27572056",
 | 心理模拟中EC出现六边形信号 | 人类fMRI+MVPA | PMID:27572056（PMC5005038） | 中-高 |
 | 概念空间搜索时EC和PFC出现网格样编码 | 人类fMRI | PMID:38065931 | 中（新兴） |
 | 非空间网格码强度预测流体智力（发育研究） | 203名青少年fMRI，Cell 2026 | PMID:41887217 | 中（新发现） |
+| θ周期分辨率下海马直接编码指向记忆目标的方向向量，独立于运动/头部朝向 | 蜂窝迷宫+开放场地任务对比，两独立实验室 | PMID:42386948、PMID:42386950（均bioRxiv全文） | 高（独立交叉验证，首个逐周期直接神经证据） |
 
 ## 连接
 
@@ -76,6 +79,7 @@ key_sources: ["PMID:5124915", "PMID:15965463", "PMID:23354386", "PMID:27572056",
 - [[hippocampal-circuit]] — 认知地图的主要神经底物
 - [[memory-consolidation]] — 认知地图（场所序列）通过SWR重播转写为新皮层长期记忆
 - [[world-model]] — 认知地图是"世界模型"在空间/结构层面的神经实现
+- [[goal-directed-theta-sweeps]] — 为"认知地图承载指向目标的认知向量"这一Tolman行为学推论，提供首个逐θ周期分辨率的直接神经证据
 
 ## 未解问题
 
@@ -85,8 +89,10 @@ key_sources: ["PMID:5124915", "PMID:15965463", "PMID:23354386", "PMID:27572056",
 
 ## 修订历史
 
+- 2026-07-16 · 修订（rev2）· 基于《脚还没动，海马已经指向了目标》一文（#199）· "当前理解"新增段落：θ扫描目标方向向量为认知地图的"认知向量"推论提供首个逐周期直接神经证据；证据表新增1行；related新增goal-directed-theta-sweeps
 - 2026-06-22 · 创建 · 基于《六边形的秘密》文章 · 初始置信度：高
 
 ## 来源文章
 
 - [[2026-06-22-grid-cells-place-cells]]
+- [[2026-07-16-hippocampal-theta-sweeps-goal-direction]]

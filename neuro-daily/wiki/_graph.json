@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-07-15",
-  "node_count": 354,
-  "edge_count": 2133,
+  "updated": "2026-07-16",
+  "node_count": 355,
+  "edge_count": 2139,
   "edge_types": [
     "is-a",
     "part-of",
@@ -3236,6 +3236,15 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/neurons/munc18.md"
+    },
+    {
+      "id": "goal-directed-theta-sweeps",
+      "title": "目标导向θ扫描",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "emerging",
+      "confidence": "high",
+      "page": "wiki/concepts/goal-directed-theta-sweeps.md"
     }
   ],
   "edges": [
@@ -15215,6 +15224,42 @@
       "to": "active-zone",
       "type": "part-of",
       "note": "Munc18-1介导的SNARE模板化组装发生在活动区囊泡对接位点"
+    },
+    {
+      "from": "goal-directed-theta-sweeps",
+      "to": "theta-phase-precession",
+      "type": "part-of",
+      "note": "目标导向θ扫描是θ序列/θ扫描这一更广泛现象在目标导向任务中的一种学习依赖具体表现形式"
+    },
+    {
+      "from": "goal-directed-theta-sweeps",
+      "to": "place-cells",
+      "type": "mechanism-of",
+      "note": "目标导向扫描的计算发生在场所细胞群体编码层面，与侧向交替扫描共用同一群编码单元"
+    },
+    {
+      "from": "goal-directed-theta-sweeps",
+      "to": "sharp-wave-ripples",
+      "type": "related",
+      "note": "静息期SWR重播同样偏向目标方向，为SWR页已记录的'新颖路径重播'观察提供量化机制解释"
+    },
+    {
+      "from": "goal-directed-theta-sweeps",
+      "to": "cognitive-map",
+      "type": "supports",
+      "note": "为Tolman 1948'认知地图承载指向目标的认知向量'这一行为学推论，提供首个逐θ周期分辨率的直接神经证据"
+    },
+    {
+      "from": "goal-directed-theta-sweeps",
+      "to": "prefrontal-cortex",
+      "type": "related",
+      "note": "目标导向扫描期间CA1-PFC θ序列协同显著增强，随学习发展，是清醒在线阶段的跨脑区协同证据"
+    },
+    {
+      "from": "goal-directed-theta-sweeps",
+      "to": "path-integration",
+      "type": "related",
+      "note": "两者都涉及向量化的空间方向计算，路径整合基于自身运动连续积分，目标导向扫描基于记忆检索的目标方向读出，机制不同但概念互补"
     }
   ],
   "dangling_references": [

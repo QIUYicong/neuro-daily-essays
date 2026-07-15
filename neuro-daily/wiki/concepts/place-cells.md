@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-22
-updated: 2026-09-24
-revision_count: 3
+updated: 2026-07-16
+revision_count: 4
 dimensions: [cellular, microcircuit, brain-region, behavior, cognition]
-related: [grid-cells, theta-oscillations, sharp-wave-ripples, theta-phase-precession, memory-consolidation, hippocampal-circuit, cognitive-map, remapping, path-integration, pattern-separation, pattern-completion, entorhinal-ca1-circuit, temporoammonic-path, btsp]
+related: [grid-cells, theta-oscillations, sharp-wave-ripples, theta-phase-precession, memory-consolidation, hippocampal-circuit, cognitive-map, remapping, path-integration, pattern-separation, pattern-completion, entorhinal-ca1-circuit, temporoammonic-path, btsp, goal-directed-theta-sweeps]
 prerequisites: [hippocampal-circuit, action-potential, synaptic-transmission]
 opens_questions: [Q-gc-01, Q-gc-03]
-source_articles: [2026-06-22-grid-cells-place-cells, 2026-06-24-hippocampal-ca3-pattern-completion]
-key_sources: ["PMID:5124915", "PMID:8353611", "PMID:23354386", "PMID:16858394"]
+source_articles: [2026-06-22-grid-cells-place-cells, 2026-06-24-hippocampal-ca3-pattern-completion, 2026-07-16-hippocampal-theta-sweeps-goal-direction]
+key_sources: ["PMID:5124915", "PMID:8353611", "PMID:23354386", "PMID:16858394", "PMID:42386948", "PMID:42386950"]
 ---
 
 # 场所细胞 (Place Cells)
@@ -56,6 +56,8 @@ key_sources: ["PMID:5124915", "PMID:8353611", "PMID:23354386", "PMID:16858394"]
 
 这产生了"θ序列"：单个θ周期（约125 ms）内编码了时间压缩的空间轨迹，为突触可塑性（STDP）提供时间压缩框架。
 
+**2026-07-16 新增**：θ序列并非单一现象。除了上述侧向交替扫描外，两项独立研究（Tang et al.、Yu et al. 2026, *Nat Neurosci*）确认存在第二种学习依赖的"目标导向θ扫描"——同一群场所细胞在θ周期内系统性地指向记忆中的目标位置，独立于动物当下的运动方向和头部朝向，随训练增强，并与前额叶协同。详见独立页面 [[goal-directed-theta-sweeps]]。
+
 ### 5. EC 双流输入对场所场的差异化贡献
 
 CA1 场所场的生成和精准度依赖两条来自内嗅皮层的平行输入（Brun et al. 2002, 2008）：
@@ -88,6 +90,7 @@ CA1 场所场的生成和精准度依赖两条来自内嗅皮层的平行输入�
 | LEC 也编码空间位置（打破 LEC=非空间假设） | 体内 2P 轴突成像（VR 导航） | PMID:37816349，PMC:11490304 | 高 |
 | SWR期间场所序列以20倍速重播 | 多单元记录+Bayesian解码 | PMID:26135716 | 高 |
 | 人类海马（fMRI/ECoG）有类似空间选择性响应 | 人类神经外科iEEG | 多篇 | 中-高 |
+| θ扫描存在学习依赖的目标导向类型，独立于运动/头部朝向 | 蜂窝迷宫+开放场地任务对比，两独立实验室 | PMID:42386948、PMID:42386950（均bioRxiv全文） | 高（独立交叉验证） |
 
 ## 连接
 
@@ -102,6 +105,7 @@ CA1 场所场的生成和精准度依赖两条来自内嗅皮层的平行输入�
 - [[entorhinal-ca1-circuit]] — EC-CA1 双流回路是场所场生成的解剖基础；直接 TA path 提供精准锚定，三突触 CA3 通路提供联想预测
 - [[temporoammonic-path]] — EC-III 直接输入维持 CA1 场所场空间精准度的回路实体
 - [[btsp]] — BTSP 是场所场写入的主要突触机制；EC 双流输入驱动 BTSP 的触发和内容
+- [[goal-directed-theta-sweeps]] — 场所细胞群体θ扫描中的学习依赖子类型，编码指向记忆目标的方向向量
 
 ## 未解问题
 
@@ -110,6 +114,7 @@ CA1 场所场的生成和精准度依赖两条来自内嗅皮层的平行输入�
 
 ## 修订历史
 
+- 2026-07-16 · 修订（rev4）· 基于《脚还没动，海马已经指向了目标》一文（#199）· "θ相位前移与时间编码"小节新增目标导向θ扫描的简述；证据表新增1行；related新增goal-directed-theta-sweeps
 - 2026-06-24 · 修订 · 基于"记忆不混淆的秘密"文章 · 加入模式分离/补全视角：场所细胞的"重映射"行为是模式分离在空间记忆中的具体体现；Leutgeb 2004 的 CA3 vs CA1 不同计算策略与场所细胞的率重映射 vs 全局重映射直接相关；related 新增 pattern-separation、pattern-completion
 - 2026-06-22 · 创建 · 填补长期悬空引用（被theta-oscillations、sharp-wave-ripples等多页引用但无对应页面） · 基于《六边形的秘密》文章 · 初始置信度：高
 - 2026-09-24 · 修订（rev3）· 基于《时序之门》一文（#154）· 新增"EC 双流输入对场所场的差异化贡献"机制小节（Brun 2002 CA3 切断实验；Brun 2008 MEC-III 损伤实验；Hales 2014 MEC 大面积损伤）；证据表新增 3 行；连接新增 entorhinal-ca1-circuit、temporoammonic-path、btsp
@@ -119,3 +124,4 @@ CA1 场所场的生成和精准度依赖两条来自内嗅皮层的平行输入�
 - [[2026-06-22-grid-cells-place-cells]]
 - [[2026-06-24-hippocampal-ca3-pattern-completion]]
 - [[2026-09-24-entorhinal-ca1-dual-stream-theta-gate]]
+- [[2026-07-16-hippocampal-theta-sweeps-goal-direction]]

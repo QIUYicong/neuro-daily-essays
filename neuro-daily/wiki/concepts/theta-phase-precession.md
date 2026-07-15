@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-06-22
-updated: 2026-06-22
-revision_count: 1
+updated: 2026-07-16
+revision_count: 2
 dimensions: [cellular, microcircuit, brain-region, behavior, cognition]
-related: [theta-oscillations, place-cells, grid-cells, hippocampal-circuit, ltp, memory-consolidation]
+related: [theta-oscillations, place-cells, grid-cells, hippocampal-circuit, ltp, memory-consolidation, goal-directed-theta-sweeps]
 prerequisites: [theta-oscillations, place-cells, action-potential]
 opens_questions: [Q-theta-btsp-coordination]
-source_articles: [2026-06-22-grid-cells-place-cells]
-key_sources: ["PMID:8353611", "PMID:23354386"]
+source_articles: [2026-06-22-grid-cells-place-cells, 2026-07-16-hippocampal-theta-sweeps-goal-direction]
+key_sources: ["PMID:8353611", "PMID:23354386", "PMID:42386948", "PMID:42386950"]
 ---
 
 # θ相位前移 (Theta Phase Precession)
@@ -44,6 +44,10 @@ key_sources: ["PMID:8353611", "PMID:23354386"]
 
 时间压缩比：约20:1；行为尺度5–10秒的路径压缩进约125 ms的θ周期内。
 
+### 2.1 θ序列的两种类型：侧向交替 vs 目标导向（2026-07-16 新增）
+
+2026年的两项独立研究（Tang et al.、Yu et al., *Nat Neurosci*）表明，θ序列/θ扫描并非单一现象，而是至少存在两种可在同一群场所细胞上共存的类型：**侧向交替扫描**（不依赖学习经验，主要受运动方向调制）与**目标导向扫描**（学习依赖，编码指向记忆目标位置的方向向量，独立于运动方向和头部朝向）。这一区分回答了此前的一个悬而未决的分歧：早前一项研究曾提出θ扫描主要是经验独立的无偏局部采样机制，与目标或认知需求无关；2026年的新证据表明这一结论在自由觅食（无明确目标）范式下依然成立，但当任务存在明确的记忆目标时，会额外涌现出目标导向类型——两者是互补而非矛盾的图景。详细机制见独立页面 [[goal-directed-theta-sweeps]]。
+
 ### 3. 突触可塑性的含义
 
 时间压缩后，前后相邻位置的场所细胞激活间隔约10–30 ms——正好落入**STDP（突触时序依赖可塑性）**的关联窗口。因此θ序列天然地提供了"哪些细胞应该被联合强化"的时间框架：路径上前后相邻位置的场所细胞，在θ序列中以正确的时序激活，满足Hebbian学习的条件。
@@ -63,6 +67,7 @@ key_sources: ["PMID:8353611", "PMID:23354386"]
 | 相位与位置相关，与时间弱相关 | 速度控制实验+相关分析 | PMID:8353611 | 高 |
 | θ序列编码前/当/后位置 | 多单元记录+贝叶斯解码 | PMID:23354386综述 | 高 |
 | 两机制模型均不完整 | 综述与模型比较 | PMID:23354386 | 高（争议本身） |
+| θ序列存在侧向交替与学习依赖的目标导向两种共存类型 | 蜂窝迷宫+开放场地任务对比，两独立实验室 | PMID:42386948、PMID:42386950（均bioRxiv全文） | 高（独立交叉验证） |
 
 ## 连接
 
@@ -71,6 +76,7 @@ key_sources: ["PMID:8353611", "PMID:23354386"]
 - [[grid-cells]] — MEC网格细胞也显示类似的θ相位前移（振荡干涉模型的基础）
 - [[ltp]] — θ序列压缩后的时序激活恰好落入STDP/LTP的关联窗口
 - [[memory-consolidation]] — θ序列提供了路径学习的神经时间框架
+- [[goal-directed-theta-sweeps]] — θ序列的一种学习依赖子类型，编码指向记忆目标的方向向量
 
 ## 未解问题
 
@@ -78,8 +84,10 @@ key_sources: ["PMID:8353611", "PMID:23354386"]
 
 ## 修订历史
 
+- 2026-07-16 · 修订（rev2）· 基于《脚还没动，海马已经指向了目标》一文（#199）· 新增"θ序列的两种类型：侧向交替 vs 目标导向"小节，澄清此前"经验独立无偏采样"研究与新证据的互补关系（非矛盾）；证据表新增1行；related新增goal-directed-theta-sweeps；key_sources新增PMID:42386948/42386950
 - 2026-06-22 · 创建 · 填补theta-oscillations页面引用的 phase-precession 悬空slug · 基于《六边形的秘密》文章 · 初始置信度：高
 
 ## 来源文章
 
 - [[2026-06-22-grid-cells-place-cells]]
+- [[2026-07-16-hippocampal-theta-sweeps-goal-direction]]

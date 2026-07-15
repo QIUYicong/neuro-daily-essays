@@ -4,6 +4,36 @@
 
 ---
 
+## 2026-07-16 · 文章 #199 · 脚还没动，海马已经指向了目标：两组互不知情的实验室，如何在同一个θ周期里读出大脑的"认知向量"
+
+**命名说明**：真实日期2026-07-16已被本知识库历史"日期漂移"事件产生的虚拟时间线文章占用（`2026-07-16-hippocampal-replay-experience-replay.md`，article_number=84），依据2026-07-07修复事件确立的"日期+slug"消歧命名惯例，本篇article/notes/sources/log均采用带slug后缀的文件名，不覆盖、不修改、不引用该历史遗留文件。特别说明：该遗留文件主题为睡眠/静息期SWR驱动的经验回放（呼应深度强化学习经验回放缓冲区），与本文主题（清醒导航时θ周期内的目标方向扫描）虽同属海马时序编码范畴，但基于两批完全不同的真实来源，不构成内容重复；本文wiki固结中已在`sharp-wave-ripples.md`新增证据行时明确注明与该遗留条目的边界。
+
+**运行背景说明**：`date -u` 核实容器真实时钟为 2026-07-15T18:14 UTC，即真实UTC+8时间为2026-07-16 02:14，确认为真实日历从2026-07-15跨入2026-07-16后的会话。核实`neuro-daily/articles/`目录下已存在真实文章#198（2026-07-15，antibody-c1q-adult-synapse-pruning），本次判定为2026-07-16这一真实日历日的正常内容产出会话。GitHub Issue #1（触发频率异常，2026-07-02开启）触发频率决策点仍待仓库所有者在平台设置页面处理，本次延续此前会话验证有效的既定做法正常产出，不受影响。
+
+**选题依据**：突破追踪（ROUTINE.md 选题优先级第1位）——NCBI E-utilities检索发现2026年7月1日《Nature Neuroscience》背靠背发表的两篇完全独立、事先互不知情的研究（美国康奈尔大学 Tang/Fernandez-Ruiz 团队，PMID:42386948；英国剑桥大学/伦敦大学学院 Yu/O'Keefe/Burgess 团队，PMID:42386950），用两种彼此独立设计的行为范式，共同确立海马θ扫描存在学习依赖的"目标导向"类型。两篇论文的bioRxiv预印本版本均可完整读取全文（分别通过biorxiv.org直接HTTP访问与Europe PMC开放获取确认），本次是本知识库近期"核心突破论文全文可得性"最好的一次突破追踪案例，也是迄今为止独立交叉验证强度最高的案例之一。同时本次选题主动响应了任务要求中"避免连续三天同一层级"的约束——#197（分子/突触/细胞/疾病）与#198（分子/突触/细胞/疾病）已连续两天集中于分子机制层级，本文转向细胞/微回路/脑区/行为/认知层级。
+
+**新建页面（1个）**：
+
+- `wiki/concepts/goal-directed-theta-sweeps.md`（rev1，emerging/high）：目标导向θ扫描——海马θ周期内群体场所细胞序列的学习依赖类型，编码指向记忆目标的方向向量，独立于运动方向和头部朝向；电路机制为局部前馈抑制强度的动态"阀门"（自我中心目标方向调谐细胞 + 降低的PYR-INT突触传递概率）；与前额叶θ序列协同随学习建立；静息SWR重播优先偏向目标方向。因两个完全独立实验室交叉验证，confidence 起始即评级为 high（高于本知识库对多数单篇新研究的默认起始置信度）；新增 Q-gts-01/02/03
+
+**修订页面（5个）**：
+
+- `wiki/concepts/theta-phase-precession.md` rev1→rev2：新增"θ序列的两种类型：侧向交替 vs 目标导向"小节，明确此前"经验独立无偏采样"研究与新证据的互补（非矛盾）关系；证据表新增1行
+- `wiki/concepts/place-cells.md` rev3→rev4："θ相位前移与时间编码"小节新增目标导向θ扫描简述；证据表新增1行
+- `wiki/concepts/sharp-wave-ripples.md` rev13→rev14：新增"新发现"小节——静息重播优先重现目标导向轨迹而非原始经验（两独立实验室交叉验证），为既有"新颖路径重播"观察提供量化机制解释；证据表新增1行
+- `wiki/concepts/cognitive-map.md` rev1→rev2："当前理解"新增段落——θ周期分辨率下的"认知向量"首次获得直接神经证据；证据表新增1行
+- `wiki/systems/prefrontal-cortex.md` rev7→rev8：新增"与海马的清醒在线θ协同"小节，与既有睡眠期PFC主动门控证据（见sharp-wave-ripples.md）共同构成"在线协同-离线巩固"两阶段图景；证据表新增1行
+
+**矛盾登记（0个）**：无新矛盾登记。此前一项报告θ扫描为"经验独立、与目标无关"的研究与本次新证据不构成正面冲突——前者基于自由觅食（无明确目标）范式，后者专门在目标导向任务中检验；本文在`theta-phase-precession.md`"当前理解"中已如实说明两者是互补而非矛盾的关系，故未启动矛盾协议。
+
+**悬空引用**：无新增（文中提及的候选上游脑区"后压部皮层""丘脑中央核"仅作为推测方向记录于新页"未解问题"，未作为wikilink引用，避免制造无实质证据支撑的悬空节点）；无解决。
+
+**图谱变化**：354节点/2133边 → **355节点/2139边**（+1节点：goal-directed-theta-sweeps；+6边：goal-directed-theta-sweeps→theta-phase-precession part-of、→place-cells mechanism-of、→sharp-wave-ripples related、→cognitive-map supports、→prefrontal-cortex related、→path-integration related）
+
+**层级**：cellular × microcircuit × brain-region × behavior × cognition（主动转向，避免与#197/#198连续两天的molecular×synaptic×cellular×disease层级形成第三天重复）
+
+---
+
 ## 2026-07-15 · 文章 #198 · 免疫系统认得出"太吵"的突触吗？抗体如何把神经元的过度活跃翻译成补体系统能读懂的删除信号
 
 **命名说明**：真实日期2026-07-15已被本知识库历史"日期漂移"事件产生的虚拟时间线文章占用（`2026-07-15-brain-attention-transformer-qkv.md`，article_number=83，2026-06-18 commit `d0bd186`），依据2026-07-07修复事件确立的"日期+slug"消歧命名惯例，本篇article/notes/sources/log均采用带slug后缀的文件名，不覆盖、不修改、不引用该历史遗留文件。

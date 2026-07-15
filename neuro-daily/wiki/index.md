@@ -5,6 +5,8 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
+> 最后更新：2026-07-16（第199篇·脚还没动，海马已经指向了目标：两组互不知情的实验室，如何在同一个θ周期里读出大脑的"认知向量"）· 主题页总数：**350**（新建1页：concepts/goal-directed-theta-sweeps；修订5页：concepts/theta-phase-precession rev1→rev2、concepts/place-cells rev3→rev4、concepts/sharp-wave-ripples rev13→rev14、concepts/cognitive-map rev1→rev2、systems/prefrontal-cortex rev7→rev8；图谱355节点/2139边；突破追踪：2026-07-01《Nature Neuroscience》背靠背发表的两篇完全独立、互不知情的论文（康奈尔大学 Tang/Fernandez-Ruiz 团队；剑桥/UCL O'Keefe/Burgess 团队）会师确立海马"目标导向θ扫描"机制；注：#198（2026-07-15）未同步在本区添加头部摘要行，仅做了内联条目更新，此处一并说明以避免连续性误读，详见该篇 wiki/CHANGELOG.md 条目）
+>
 > 最后更新：2026-07-14（第197篇·一把先关上的锁：Munc18-1 如何在"堵住"SNARE的同时，充当组装它的模板）· 主题页总数：**349**（新建1页：neurons/munc18；修订2页：concepts/SNARE-complex rev2→rev3、neurons/synaptotagmin rev4→rev5；轻量交叉链接1页：neurons/complexin rev1→rev2；图谱354节点/2133边；填补 [[SNARE-complex]] 长期标注的悬空引用 munc18；同时订正图谱中9处"页面已建但resolved字段未同步"的记录漂移（munc18/tarp-auxiliary-subunit/mglur-ltd/channelrhodopsin/embodied-semantics/dentate-gyrus/excitotoxicity/mitochondrial-dysfunction/neuroinflammation））
 >
 > 最后更新：2026-07-13（第196篇·一条线，两个世界：为什么"只教它做对"的循环神经网络，会自己长出猴子前额叶皮层的动力学结构）· 主题页总数：**348**（新建1页：concepts/recurrent-network；无既有页面正文修订；图谱353节点/2128边；填补 [[population-clock]] 长期标注的悬空引用 recurrent-network；注：index.md 头部记录此前在 #194/#195 两篇未同步更新，本条目为最新状态，历史缺口留待未来核查）
@@ -105,12 +107,13 @@
 - 🟢 [θ振荡](concepts/theta-oscillations.md) — 海马4–12 Hz探索节律；提供相位编码时间框架；θ序列压缩路径；θ/γ嵌套承载5-9项目序列；REM期LA-VH θ同步驱动情绪记忆巩固（Boyce 2016, Totty 2017）**[修订 2026-07-21 rev4]**
 - 🔵 [θ-γ跨频率耦合](concepts/theta-gamma-coupling.md) — Lisman-Idiart 1995容量分格模型：每个θ周期嵌套约4–6个γ爆发，每个γ爆发承载一项工作记忆（对应4±1容量上限）；Colgin 2009慢γ（θ波峰，CA3）/快γ（θ波谷，MEC）双通道时分路由；Axmacher 2010人类颅内PAC证据；Huang 2026序列规划扩展 **[NEW 2026-07-21]**
 - 🟢 [α振荡（8–12 Hz）](concepts/alpha-oscillations.md) — 视丘-皮层回路（TRN-TC）与皮层L5协同生成的最强神经振荡；抑制-时序假说：ERS=主动压制无关感觉输入；Worden 2000/Foxe 2011确立差异化α拓扑门控；枕核/LP复合体为α广播器（Bourgeois 2020）；α-γ PAC在工作记忆三阶段（编码/维持/提取）的分格机制（Roux 2014双代码模型×Wianda 2019三阶段证据）；Q-theta-primate的α-γ替代假说 **[NEW 2026-07-22]**
-- 🟢 [尖波涟漪（SWR）](concepts/sharp-wave-ripples.md) — CA3→CA1高频群体事件；20倍速序列重播；记忆固化的离线物理载体；大振幅亚集专门驱动海马-PFC同步再激活（Robinson 2026）；清醒SWR是记忆标记机制（Yang 2024）；SWR嵌套在纺锤波内（SO-spindle-SWR三重耦合）；Maingret 2016 闭环因果证据**[修订 2026-07-07]**
-- 🟢 [场所细胞](concepts/place-cells.md) — 海马CA1/CA3位置特异放电神经元；稀疏编码（1–5%激活）；重映射（不同环境正交表征）；θ相位前移实现双重位置编码；SWR期间序列以20倍速重播；是认知地图基本编码单元 **[NEW 2026-06-22]**（填补长期悬空引用）
+- 🟢 [尖波涟漪（SWR）](concepts/sharp-wave-ripples.md) — CA3→CA1高频群体事件；20倍速序列重播；记忆固化的离线物理载体；大振幅亚集专门驱动海马-PFC同步再激活（Robinson 2026）；清醒SWR是记忆标记机制（Yang 2024）；SWR嵌套在纺锤波内（SO-spindle-SWR三重耦合）；Maingret 2016 闭环因果证据；**rev14新增**：静息重播优先偏向目标方向而非原始经验（Tang/Yu 2026两独立实验室交叉验证）**[修订 rev13→rev14 2026-07-16]**
+- 🟢 [场所细胞](concepts/place-cells.md) — 海马CA1/CA3位置特异放电神经元；稀疏编码（1–5%激活）；重映射（不同环境正交表征）；θ相位前移实现双重位置编码；SWR期间序列以20倍速重播；是认知地图基本编码单元；**rev4新增**：θ扫描含学习依赖的目标导向子类型 **[NEW 2026-06-22 · 修订 rev3→rev4 2026-07-16]**（填补长期悬空引用）
 - 🟢 [网格细胞](concepts/grid-cells.md) — 内侧内嗅皮层MEC以六边形格点激活的神经元；三参数（间距/方向/相位）完全描述；4–7离散模块比√2；背腹向间距梯度（20cm–1.5m）；路径整合的坐标输出；活跃于心理模拟和概念空间（Qu 2026 Cell：发育成熟预测流体智力）**[NEW 2026-06-22]**（填补长期悬空引用）
 - 🟢 [路径整合](concepts/path-integration.md) — 通过持续积累速度矢量估计当前位置；不依赖外部地标；联合细胞（位置+方向+速度）实现；随时间漂移需地标锚定；是黑暗导航的神经机制 **[NEW 2026-06-22]**
-- 🟢 [θ相位前移](concepts/theta-phase-precession.md) — 场所细胞放电相位随穿越场所场系统性提前约100–355°；产生θ序列（125ms内压缩数秒路径）；为STDP提供时间压缩框架；O'Keefe & Recce 1993经典发现；CAN vs OI两机制模型仍未决 **[NEW 2026-06-22]**（填补theta-oscillations页面的phase-precession悬空引用）
-- 🔵 [认知地图](concepts/cognitive-map.md) — 海马-EC构建的空间（及概念）关系内部模型；从Tolman 1948捷径行为到场所/网格双系统；扩展至时间序列（情节记忆）、心理模拟（Bellmund 2016）、概念空间（Viganò 2023）；发育研究证据（Qu 2026）**[NEW 2026-06-22]**
+- 🟢 [θ相位前移](concepts/theta-phase-precession.md) — 场所细胞放电相位随穿越场所场系统性提前约100–355°；产生θ序列（125ms内压缩数秒路径）；为STDP提供时间压缩框架；O'Keefe & Recce 1993经典发现；CAN vs OI两机制模型仍未决；**rev2新增**：θ序列存在侧向交替与学习依赖的目标导向两种共存类型 **[NEW 2026-06-22 · 修订 rev1→rev2 2026-07-16]**（填补theta-oscillations页面的phase-precession悬空引用）
+- 🔵 [认知地图](concepts/cognitive-map.md) — 海马-EC构建的空间（及概念）关系内部模型；从Tolman 1948捷径行为到场所/网格双系统；扩展至时间序列（情节记忆）、心理模拟（Bellmund 2016）、概念空间（Viganò 2023）；发育研究证据（Qu 2026）；**rev2新增**：θ周期分辨率下的"认知向量"首个直接神经证据（Tang/Yu 2026）**[NEW 2026-06-22 · 修订 rev1→rev2 2026-07-16]**
+- 🟡 [目标导向θ扫描](concepts/goal-directed-theta-sweeps.md) — 海马θ周期内群体场所细胞序列的学习依赖类型，编码指向记忆目标的方向向量，独立于运动/头部朝向；与前额叶θ序列协同随学习建立；静息SWR重播优先偏向目标方向；两个完全独立实验室（康奈尔+剑桥/UCL）背靠背交叉验证 **[NEW 2026-07-16]**
 - 🟢 [睡眠纺锤波](concepts/sleep-spindles.md) — TRN CaV3.3→TRN↔TC振荡→12–15 Hz梭形波；皮层树突L型Ca²⁺预热窗口；SO-spindle-SWR三重奏中间层；CACNA1I变异→精神分裂症纺锤波缺陷；三重耦合因果实验（Latchoumane 2017）；老龄化相位偏移 46.3°→记忆损害（Helfrich 2018）**[修订 2026-07-07]**
 - 🟢 [皮层慢振荡（SO）](concepts/cortical-slow-oscillation.md) — NREM 深睡眠~0.75 Hz UP/DOWN态交替；起源PFC向后传播；SO上行相是纺锤波和SWR的最高时间框架；三重奏顶层 **[NEW 2026-06-19]**
 - 🟢 [SO-纺锤波-SWR 三重耦合](concepts/so-spindle-swr-coupling.md) — NREM 睡眠中 SO（主时钟）→纺锤波（皮层预热）→SWR（记忆写入）精确时间嵌套；Maingret 2016 闭环刺激因果证明；老龄化耦合精度下降（d=1.19，mPFC 萎缩机制）；DA/NE/ACh 神经调质调节 **[NEW 2026-07-07]**
@@ -334,7 +337,7 @@
 - 🟢 [眶额皮层（OFC）](systems/orbitofrontal-cortex.md) — 额叶最腹侧的新皮层区域；三类功能神经元（提案/选定/效用价值细胞）构成决策流水线；BLA-OFC双向回路是目标导向价值学习的神经基础（lOFC→BLA写入/mOFC→BLA读取）；OFC→DMS投射将价值信号转化为行动（Gore 2023光遗传学因果）；lOFC驱动感觉皮层重映射支持逆向学习；价值代码纵向稳定（Zhang 2024双光子）**[NEW 2026-08-21]**
 - 🟡 [屏状核（Claustrum）](systems/claustrum.md) — 藏于外侧裂最深处的薄层灰质，具有几乎全皮层的双向连接；Francis Crick 的"意识指挥家"候选；注意过滤（Atlan 2018 光遗传因果）+慢波协调（Narikiyo 2020 光遗传因果）；κ-阿片受体密度全脑最高（Salvinorin A 链接）；Koubeissi 2014 电刺激→意识中断（单例，有争议）；Duffau 2007 切除→功能完全恢复（挑战"必不可少"论）**[NEW 2026-10-02]**
 - 🟢 [岛叶皮层（Insular Cortex）](systems/insular-cortex.md) — 藏于外侧裂深处的多层级内感觉处理中枢；四区功能分化（后颗粒岛体感拓扑/中岛预测误差/前岛主观感受生成/前岛极沉默性顶端控制）；VMpo→后岛专属内感觉通路（区别于 VPM→S1）；前岛含 VENs（体积4.6×，快速远程同步，与 alexithymia 关联）；EPIC 预测编码模型（Barrett 2015）与 IMAC 三层计算模型（Fermin 2022）；显著性网络（岛叶-ACC）；躯体标记（岛叶→OFC/vmPFC）；精神疾病共同病理节点（抑郁/精分/成瘾）**[NEW 2026-08-22]**
-- 🟢 [前额叶皮层（PFC）](systems/prefrontal-cortex.md) — dlPFC 第2/3/5层循环回路是工作记忆的关键脑区；PV-γ轴是认知控制的时序基础；rIFG/preSMA反应抑制（超直接通路）；vmPFC/OFC价值决策腹侧亚区；dlPFC认知弹性三重机制（混合选择性/群体动力学/振荡选通）；**rev7新增**：vmPFC作为情绪调节腹侧亚区（认知重评三层级+IL消退同源+sgACC轴+抑郁回路）**[修订 rev6→rev7 2026-08-25]**
+- 🟢 [前额叶皮层（PFC）](systems/prefrontal-cortex.md) — dlPFC 第2/3/5层循环回路是工作记忆的关键脑区；PV-γ轴是认知控制的时序基础；rIFG/preSMA反应抑制（超直接通路）；vmPFC/OFC价值决策腹侧亚区；dlPFC认知弹性三重机制（混合选择性/群体动力学/振荡选通）；vmPFC作为情绪调节腹侧亚区（认知重评三层级+IL消退同源+sgACC轴+抑郁回路）；**rev8新增**：清醒导航时PFC-海马θ序列协同随目标导向扫描增强、随学习发展（Tang et al. 2026）**[修订 rev7→rev8 2026-07-16]**
 - 🟢 [腹内侧前额叶皮层（vmPFC）](systems/vmPFC.md) — PFC情绪调节枢纽（BA10/11/12/25/32腹侧）；vlPFC→vmPFC→杏仁核三层级认知重评回路；IL/vmPFC→腹侧ITC→CeM恐惧消退回路；sgACC（BA25）"内脏运动皮层"自主神经调节轴；抑郁症vmPFC灰质减少+sgACC超激活；Mayberg 2005 BA25 DBS治疗TRD **[NEW 2026-08-25]**
 - 🔵 [背外侧前额叶认知弹性](systems/dlpfc-cognitive-flexibility.md) — dlPFC 三重认知弹性机制：混合选择性（Rigotti 2013）高维编码支持任意规则组合；群体动力学（Mante 2013）正交子空间分离不同背景下的决策轨迹；振荡选通（Buschman 2012）beta激活/alpha抑制动态路由规则集群；BG门控（O'Reilly 2006）控制WM更新时机；前额叶前后轴层级（Badre 2009）；OCD认知僵化的系统级网络失调机制 **[NEW 2026-08-24]**
 - 🟢 [初级视觉皮层（V1）](systems/v1-primary-visual-cortex.md) — 视觉信息皮层第一站；方向选择性从LGN非定向输入的从头计算；猫/猴方向柱 vs 小鼠盐-胡椒型组织均可达精确方向选择性；树突突触聚类增益层（Wilson 2016）；ACh通过肌碱受体放大V1注意调制（Herrero 2008）（修订2次）
