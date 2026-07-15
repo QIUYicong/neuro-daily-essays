@@ -1,0 +1,31 @@
+# 推送状态补记 — 2026-07-16（文章 #199）
+
+本文件补记 `2026-07-16-hippocampal-theta-sweeps-goal-direction-run.log` 中未包含的 git 操作结果（该日志创建时 git 操作尚未执行，按分工由后续流程处理）。
+
+## Git 操作结果
+
+- 分支：`main`
+- 提交：`5fe114c1206018319b86e5121b71d692fffe9d5d`
+- 推送前：`git fetch --unshallow` 解决本地 main 与 origin/main 表象分叉（`merge-base --is-ancestor` 确认为浅克隆伪影，本地 main 是 origin/main 的祖先，无内容丢失），随后 `git merge --ff-only origin/main`
+- 推送：`git pull --rebase origin main`（无冲突，"Current branch main is up to date"）→ `git push -u origin main`（干净快进，`9d5cbde..5fe114c`）
+- 独立核实：`git ls-remote origin main` 返回 `5fe114c1206018319b86e5121b71d692fffe9d5d`，与本地 `git rev-parse HEAD` 完全一致
+- 状态：✅ 成功
+
+## Issue #1 更新
+
+- 新增状态评论：https://github.com/QIUYicong/neuro-daily-essays/issues/1#issuecomment-4984025236
+- 决策点1/2/3/5：确认延续已解决状态
+- 决策点4（触发频率）：第14天仍未解决，2026-07-15当天记录到dup1–dup24共24次纯诊断空转触发（本 Issue 迄今单日最高记录）
+
+## PushNotification 节流判断（含一次自我更正）
+
+- 初次判断（评论 4984025236）误引用了较旧的时间戳（2026-07-11T17:01 UTC），错误地认为已超过24小时节流阈值
+- 核对 `neuro-daily/logs/2026-07-15-dup21.log` 后发现：上一次实际发送的 PushNotification 是 dup21，真实时间约 2026-07-15T13:00:57 UTC；本次会话真实时间约 2026-07-15T18:00 UTC，间隔仅约5小时，远低于24小时节流阈值
+- 已在 Issue #1 发布更正评论：https://github.com/QIUYicong/neuro-daily-essays/issues/1#issuecomment-4984032189
+- **最终决定：本次未发送 PushNotification**（决策点4无新性质变化，沿用既定节流策略）
+- 提醒后续会话：判断节流窗口应以 `neuro-daily/logs/` 中各 dup 日志记录的真实时间戳为准，不要仅凭 Issue 评论文本中散落提及的时间
+
+## 分支清理（未处理，仅记录）
+
+- `git fetch --unshallow` 过程中确认远程存在 229+ 个 `claude/funny-einstein-*` / `claude/pensive-archimedes-*` 残留会话分支
+- 本次会话未做任何分支删除操作（清理属破坏性操作，需人工授权，且不在本次任务范围内）
