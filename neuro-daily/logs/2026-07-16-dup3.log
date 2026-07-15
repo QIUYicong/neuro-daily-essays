@@ -1,0 +1,19 @@
+# 2026-07-16 dup3 诊断日志（无内容变更）
+
+真实容器时间（date -u）：2026-07-15 22:02:05 UTC = 2026-07-16 06:02:05 CST
+距上次运行提交 64d3f43（dup2，2026-07-15 21:02:10 UTC ≈ 2026-07-16 05:02:10 CST）约 1 小时，Issue #1 决策点4（触发频率）第16天仍未解决，今天第3次多余触发（真实日期仍为 2026-07-16，本次会话默认工作分支为 claude/funny-einstein-5b79xd，按 ROUTINE.md 单分支累积模型直接在 main 上操作）。
+
+## 本次核实
+- `git fetch --unshallow origin` + `git merge --ff-only origin/main`：本地与 `origin/main` 出现的"50 vs 50"表象为已知浅克隆伪影，`merge-base --is-ancestor` 确认本地 HEAD 确为 origin/main 祖先，ff-only 合并无冲突、无强推、无内容丢失。合并后本地 HEAD = origin/main = `64d3f43`。
+- 确认 `origin/main` HEAD 已含 2026-07-16 真实文章 #199（hippocampal-theta-sweeps-goal-direction）：`state/topic_ledger.json` 中 `total_articles=190`、`last_updated=2026-07-16`，今日正式产出位置已被正确填满，无需补写、无需重新检索资料。
+- 复核 Issue #1：`comments=31`，`updated_at=2026-07-15T18:31:32Z`，与上次会话（dup2）核实结果完全一致——无新增人工回复，无新增自动评论。核心待裁决事项（决策点4：触发器调度频率）无变化，第16天仍未获得仓库所有者裁决。
+- 决策点 1/2/3/5：延续此前多次独立会话确认结论（浅克隆伪影/日期漂移消歧命名方案/分支同步），本次未发现新异常。
+
+## 本次采取的行动
+- 未生成新文章、未做任何 wiki 固结、未修改任何既有 articles/notes/sources/wiki/state 文件（append-only 不变量保持）。
+- 仅新增本条诊断日志。
+- 未发送 PushNotification：距上一次实际发送（dup21，约 2026-07-15T13:00:57 UTC）约 9 小时，远低于 24 小时节流阈值，且核心待决事项（决策点4）无新变化，无新证据需要升级提醒。
+- 未新增 Issue #1 评论：无新的实质性信息（内容较上次会话（dup2）无变化）。
+
+## 仍待仓库所有者裁决
+- 决策点4（触发频率/时间点）：需在 Claude Code on the web 的该例程触发器/schedule 设置页面核实并调整为"每天一次 09:00 Asia/Shanghai"。这是唯一无法通过 git/会话内操作解决的一环。内容产出侧（决策点1/2/3/5）已连续稳定运作超过两周，无需继续关注。
