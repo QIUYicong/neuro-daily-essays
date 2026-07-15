@@ -1,0 +1,38 @@
+# 2026-07-15 dup15 诊断日志（本日第16次触发）
+
+真实 UTC 时间：2026-07-15T07:00:31Z（UTC+8 2026-07-15 15:00:31）。
+距上一次触发（dup14，commit `9c36659`，2026-07-15T06:01:00Z）约59分钟，延续近乎每小时的触发模式
+（Issue #1 决策点4，第15天仍未解决）。今日真实文章早已产出，
+故仍按"每个真实日历日只产出一篇正式文章"的既定逻辑处理为空转。
+
+## 检查结果
+
+- 今日（2026-07-15）真实文章 #198《免疫系统认得出"太吵"的突触吗？抗体如何把神经元的过度活跃翻译成补体系统能读懂的删除信号》
+  （`neuro-daily/articles/2026-07-15-antibody-c1q-adult-synapse-pruning.md`）已存在，wiki 固结
+  （`complement-cascade-cns.md`、`synaptic-pruning.md` rev1→rev2）、state、CHANGELOG 均已正确写入。
+- 本次触发**不生成新文章、不修改任何 articles/notes/sources/wiki/state 文件**，延续既定策略。
+- 会话开始时本地 `main` 分支停留在陈旧的浅克隆伪影提交（`fcdd216`，2026-07-11 dup4），与
+  `origin/main`（`9c36659`）呈现表象上的分叉；执行 `git fetch --unshallow` 后用
+  `git merge-base --is-ancestor main origin/main` 确认为真（纯粹落后，非真实分叉），随后
+  `git merge --ff-only origin/main` 干净快进（无冲突、无强推）。
+- 核对 GitHub Issue #1（`issue_read get`）：共29条评论，`updated_at` 仍为 2026-07-14T16:21:50Z，
+  与 dup14 检查时一致，无仓库所有者的新回复，无新的实质信息。未追加评论。
+
+## 决策点状态（沿用既定裁决，未见新变化）
+
+- 决策点1/2/3/5：均已确认解决/妥善处理，本次未见异常。
+- 决策点4（触发频率）：第15天仍未解决。今日截至目前已知至少16次触发
+  （1次真实产出 #198 + dup1~dup14 + 本次dup15），仍是近乎每小时模式，只能在 Claude Code on the web 的
+  触发器/schedule 设置页面处理，无法通过仓库内操作修复。
+
+## 通知/评论节流
+
+- 未新增 Issue #1 评论：核心待裁决事项与上一条评论完全一致，无新实质信息。
+- 未发送 PushNotification：距上一次实际发送（约2026-07-14T13:02Z）约18小时，仍低于24小时节流阈值，
+  且无新的、需要仓库所有者立即决策的事项。
+
+## Git 状态
+
+- 本地 `main` 经 `git fetch --unshallow` + `git merge --ff-only origin/main` 与 `origin/main`
+  （`9c36659`）完全同步，无冲突、无强推、无本地独有提交丢失。
+- 本次提交：仅本日志文件（无文章/wiki/state 变更），直接提交并推送至 `main`。
