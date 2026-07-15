@@ -1,0 +1,46 @@
+# 2026-07-15 dup12 诊断日志（本日第13次触发）
+
+真实 UTC 时间：2026-07-15T04:00:36Z（UTC+8 2026-07-15 12:00:36）。
+距上一次触发（dup11，commit `247e396`，2026-07-15T03:01:59Z）约59分钟，延续近乎每小时的触发模式
+（Issue #1 决策点4，第15天仍未解决）。今日真实文章早已产出，
+故仍按"每个真实日历日只产出一篇正式文章"的既定逻辑处理为空转。
+
+## 检查结果
+
+- 今日（2026-07-15）真实文章 #198《免疫系统认得出"太吵"的突触吗？抗体如何把神经元的过度活跃翻译成补体系统能读懂的删除信号》
+  （`neuro-daily/articles/2026-07-15-antibody-c1q-adult-synapse-pruning.md`）已存在，wiki 固结（recurrent-network.md 等）、
+  state、CHANGELOG 均已正确写入。
+- 本次触发**不生成新文章、不修改任何 articles/notes/sources/wiki/state 文件**，延续既定策略。
+- 会话开始时本次会话的独立分支（`claude/funny-einstein-xevzs5`，本次触发器分配的工作分支）**并非**基于最新
+  `main`，而是一条比 `main` 更早分叉出的历史：其本地 `main` 引用停留在 `fcdd216`（2026-07-11 dup4），
+  与 `origin/main`（`247e396`，2026-07-15 dup11）相差 50 个提交，经 `git fetch --unshallow` 核实为
+  **浅克隆祖先关系**（非真实分叉、无数据丢失），已用 `git merge --ff-only origin/main` 对齐。
+- 附带发现：本会话分支自身（`claude/funny-einstein-xevzs5`，独立于 main）此前已有一次未合并到 main 的
+  本地提交 `d0bd186`——"Add neuro daily article + wiki consolidation for 2026-07-15"，产出了另一篇
+  独立的"今日文章"《brain-attention-transformer-qkv》。该提交只存在于此会话分支，从未合并进 `main`，
+  与 main 上已确立的真实文章 #198 是两条互不相关的产出线。按"single-branch 累积于 main"的既定分支模型
+  （ROUTINE.md），main 上的 #198 才是权威记录；本会话分支上的孤立产出**不予合并**，保持原样不删除
+  （非破坏性，不影响 main 的 append-only 不变量），仅在此记录以便后续人工排查触发器是否偶尔把"真实产出"
+  路由到了非 main 的临时分支。
+- 核对 GitHub Issue #1：共29条评论，最新一条仍是 2026-07-14T16:21:50Z，无新的实质信息，
+  未见仓库所有者的人工回复。未追加评论。
+
+## 决策点状态（沿用既定裁决，未见新变化）
+
+- 决策点1/2/3/5：均已确认解决/妥善处理，本次未见异常。
+- 决策点4（触发频率）：第15天仍未解决。今日截至目前已知至少13次触发
+  （1次真实产出 #198 + dup1~dup11 + 本次dup12），仍是近乎每小时模式，只能在 Claude Code on the web 的
+  触发器/schedule 设置页面处理，无法通过仓库内操作修复。
+
+## 通知/评论节流
+
+- 未新增 Issue #1 评论：核心待裁决事项与上一条评论基本一致；附带发现（会话分支孤立产出）不改变任何
+  决策点结论，不构成需要仓库所有者立即介入的新实质信息。
+- 未发送 PushNotification：距上一次实际发送（约2026-07-14T13:02Z）约15小时，远低于24小时节流阈值，
+  且无新的、需要仓库所有者立即决策的事项。
+
+## Git 状态
+
+- 本次会话最初分配的分支（`claude/funny-einstein-xevzs5`）本地 `main` 引用为浅克隆祖先，已通过
+  `git fetch --unshallow` + `git merge --ff-only origin/main` 安全对齐至最新 `main`，无数据丢失。
+- 本次提交：仅本日志文件（无文章/wiki/state 变更），直接提交并推送至 `main`。
