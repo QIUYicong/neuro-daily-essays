@@ -1,0 +1,20 @@
+# 2026-07-16 dup1 诊断日志（无内容变更）
+
+真实容器时间（date -u）：2026-07-15 19:01:32 UTC = 2026-07-16 03:01:32 CST
+距上次运行提交 7d37cda（2026-07-15 18:32:05 UTC ≈ 2026-07-16 02:32 CST）约 29 分钟，Issue #1 决策点4（触发频率）第16天仍未解决，今天第1次多余触发（真实日期已从 2026-07-15 进入 2026-07-16）。
+
+## 本次核实
+- `git fetch origin main` + `git rev-list --left-right --count HEAD...origin/main` = `0 0`：本地 `main`（当前会话分支 HEAD）与 `origin/main` 完全一致，无浅克隆分叉、无需 ff-only/unshallow 处理。
+- 确认 `origin/main` HEAD（`7d37cda`）已含 2026-07-16 真实文章 #199（hippocampal-theta-sweeps-goal-direction，海马θ扫描目标方向向量突破追踪）：`state/topic_ledger.json` 第199条完整，`total_articles=190`、`last_updated=2026-07-16`，今日正式产出位置已被正确填满，无需补写。
+- 确认 `2026-07-16-hippocampal-replay-experience-replay.md`（article_number=84）仍是此前多次会话已核实过的历史日期漂移遗留文件，未触碰；新文章按既定"日期+slug"消歧命名惯例落盘，两文件并存无冲突。
+- 复核 Issue #1：`comments=31`，`updated_at=2026-07-15T18:31:32Z`，与上次会话（7d37cda 对应的 push-status 记录，含两条自动评论 4984025236/4984032189）完全一致——无新增人工回复，无新增自动评论。核心待裁决事项（决策点4：触发器调度频率）无变化，第16天仍未获得仓库所有者裁决。
+- 决策点 1/2/3/5：延续此前多次独立会话确认结论，本次未发现新异常。
+
+## 本次采取的行动
+- 未生成新文章、未做任何 wiki 固结、未修改任何既有 articles/notes/sources/wiki/state 文件（append-only 不变量保持）。
+- 仅新增本条诊断日志。
+- 未发送 PushNotification：距上一次实际发送（dup21，约 2026-07-15T13:00:57 UTC）约 6 小时，远低于 24 小时节流阈值，且核心待决事项（决策点4）无新变化，无新证据需要升级提醒。
+- 未新增 Issue #1 评论：无新的实质性信息（内容较上次会话的两条评论无变化）。
+
+## 仍待仓库所有者裁决
+- 决策点4（触发频率/时间点）：需在 Claude Code on the web 的该例程触发器/schedule 设置页面核实并调整为"每天一次 09:00 Asia/Shanghai"。这是唯一无法通过 git/会话内操作解决的一环。内容产出侧（决策点1/2/3/5）已连续稳定运作超过两周，无需继续关注。
