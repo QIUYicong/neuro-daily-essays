@@ -1,0 +1,41 @@
+# 2026-07-15 dup13 诊断日志（本日第14次触发）
+
+真实 UTC 时间：2026-07-15T05:01:16Z（UTC+8 2026-07-15 13:01:16）。
+距上一次触发（dup12，commit `f3c14c7`，2026-07-15T04:01:21Z）约60分钟，延续近乎每小时的触发模式
+（Issue #1 决策点4，第15天仍未解决）。今日真实文章早已产出，
+故仍按"每个真实日历日只产出一篇正式文章"的既定逻辑处理为空转。
+
+## 检查结果
+
+- 今日（2026-07-15）真实文章 #198《免疫系统认得出"太吵"的突触吗？抗体如何把神经元的过度活跃翻译成补体系统能读懂的删除信号》
+  （`neuro-daily/articles/2026-07-15-antibody-c1q-adult-synapse-pruning.md`）已存在，wiki 固结
+  （`complement-cascade-cns.md`、`synaptic-pruning.md` rev1→rev2）、state、CHANGELOG 均已正确写入。
+- 本次触发**不生成新文章、不修改任何 articles/notes/sources/wiki/state 文件**，延续既定策略。
+- 会话开始时本次会话被分配到的分支（`claude/funny-einstein-lx3xqi`）经核实其 HEAD 已与
+  `origin/main`（`f3c14c7`，dup12）**完全一致**（`git merge-base --is-ancestor` 双向均为真），
+  无需 unshallow 或 ff-only 合并；尝试切换到本地 `main` 分支时发现该本地引用是陈旧的浅克隆伪影
+  （停留在 `fcdd216`，2026-07-11 dup4），与 `origin/main` 呈现表象上的"50 vs 50 分叉"，
+  但由于工作分支本身内容已与 `origin/main` 完全同步，未对本地 `main` 做任何重置操作，
+  直接在与 `origin/main` 一致的工作分支上追加本条日志并推送。
+- 核对 GitHub Issue #1（`issue_read get` + `get_comments`）：共29条评论，最新一条仍是
+  2026-07-14T16:21:50Z（随文章 #198 一并发出），issue.updated_at 与之一致，无仓库所有者的新回复，
+  无新的实质信息。未追加评论。
+
+## 决策点状态（沿用既定裁决，未见新变化）
+
+- 决策点1/2/3/5：均已确认解决/妥善处理，本次未见异常。
+- 决策点4（触发频率）：第15天仍未解决。今日截至目前已知至少14次触发
+  （1次真实产出 #198 + dup1~dup12 + 本次dup13），仍是近乎每小时模式，只能在 Claude Code on the web 的
+  触发器/schedule 设置页面处理，无法通过仓库内操作修复。
+
+## 通知/评论节流
+
+- 未新增 Issue #1 评论：核心待裁决事项与上一条评论完全一致，无新实质信息。
+- 未发送 PushNotification：距上一次实际发送（约2026-07-14T13:02Z）约16小时，仍低于24小时节流阈值，
+  且无新的、需要仓库所有者立即决策的事项。
+
+## Git 状态
+
+- 工作分支（`claude/funny-einstein-lx3xqi`）在本次会话开始时内容已与最新 `origin/main` 完全一致，
+  无需任何合并操作。
+- 本次提交：仅本日志文件（无文章/wiki/state 变更），直接提交并推送至 `main`。
