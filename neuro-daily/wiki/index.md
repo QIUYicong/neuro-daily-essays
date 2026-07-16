@@ -5,6 +5,8 @@
 >
 > 成熟度图例：🟢 established · 🔵 mainstream · 🟡 emerging · ⚪ speculative · 🔴 contested
 >
+> 最后更新：2026-07-17（第200篇·占位胜过刹车：当SynGAP1的"刹车"活性被证明并非必需，最常见的单基因智力障碍还剩下什么解释？）· 主题页总数：**352**（新建2页：concepts/syngap1、diseases/intellectual-disability；修订4页：diseases/autism-spectrum-disorder rev1→rev2、diseases/fragile-x-syndrome rev1→rev2、circuits/pv-interneurons rev8→rev9、concepts/ei-balance rev2→rev3；图谱357节点/2153边；填补长期悬空引用 intellectual-disability（此前被autism-spectrum-disorder.md/fragile-x-syndrome.md引用却无独立页面）；同时补录diseases/fragile-x-syndrome.md本身此前从未被添加进本索引的历史遗漏；矛盾登记C-2026-07-17-01（open）：Ras-ERK下调疗法理论基础 vs SynGAP催化活性非必需新证据；新发现悬空引用 shank3（被autism-spectrum-disorder.md引用，本次未填补，留待后续）；详见 wiki/CHANGELOG.md 2026-07-17 条目）
+>
 > 最后更新：2026-07-16（第199篇·脚还没动，海马已经指向了目标：两组互不知情的实验室，如何在同一个θ周期里读出大脑的"认知向量"）· 主题页总数：**350**（新建1页：concepts/goal-directed-theta-sweeps；修订5页：concepts/theta-phase-precession rev1→rev2、concepts/place-cells rev3→rev4、concepts/sharp-wave-ripples rev13→rev14、concepts/cognitive-map rev1→rev2、systems/prefrontal-cortex rev7→rev8；图谱355节点/2139边；突破追踪：2026-07-01《Nature Neuroscience》背靠背发表的两篇完全独立、互不知情的论文（康奈尔大学 Tang/Fernandez-Ruiz 团队；剑桥/UCL O'Keefe/Burgess 团队）会师确立海马"目标导向θ扫描"机制；注：#198（2026-07-15）未同步在本区添加头部摘要行，仅做了内联条目更新，此处一并说明以避免连续性误读，详见该篇 wiki/CHANGELOG.md 条目）
 >
 > 最后更新：2026-07-14（第197篇·一把先关上的锁：Munc18-1 如何在"堵住"SNARE的同时，充当组装它的模板）· 主题页总数：**349**（新建1页：neurons/munc18；修订2页：concepts/SNARE-complex rev2→rev3、neurons/synaptotagmin rev4→rev5；轻量交叉链接1页：neurons/complexin rev1→rev2；图谱354节点/2133边；填补 [[SNARE-complex]] 长期标注的悬空引用 munc18；同时订正图谱中9处"页面已建但resolved字段未同步"的记录漂移（munc18/tarp-auxiliary-subunit/mglur-ltd/channelrhodopsin/embodied-semantics/dentate-gyrus/excitotoxicity/mitochondrial-dysfunction/neuroinflammation））
@@ -67,7 +69,7 @@
 - 🔵 [纹状体直接/间接通路](circuits/striatal-direct-indirect-pathway.md) — dMSN→GPi/SNr（直接，促进行动）；iMSN→GPe→STN→GPi/SNr（间接，抑制行动）；DMS/DLS功能分化；行为证据：DMS损伤→习惯化，DLS损伤→无法习惯化 **[NEW 2026-09-01]**
 - 🟢 [丘脑-皮层回路](circuits/thalamocortical-circuit.md) — TRN（CaV3.3 T型）↔TC（CaV3.1）振荡环路是睡眠纺锤波起搏器；Core/Matrix双通路；CT反馈在清醒/睡眠切换中起关键作用；**新增**：一次/高次视丘核（Sherman框架）、驱动/调制型突触、PFC→TRN大型端钮（2026-06-03更新）
 - 🟢 [丘脑网状核（TRN）](circuits/thalamic-reticular-nucleus.md) — 纯GABAergic外套层；接受所有TC/CT轴突侧支监听全部丘脑信号；PFC大型驱动型端钮（命令）vs 感觉皮层小型调制型端钮（请求）的权力不对称；注意门控先于LGN约4ms（McAlonan 2008）；PFC→BG→TRN跨模态抑制（Nakajima 2019）；NREM纺锤波起搏器 **[NEW 2026-09-15]**
-- 🟢 [PV+ 中间神经元](circuits/pv-interneurons.md) — 快速放电篮状/吊灯细胞，控制 gamma 振荡与精确输出时序；Sohal 2009 光遗传学因果证明 PV→γ；GAD67 下调→PING 崩溃→WM 缺陷（精神分裂症核心机制）**[NEW 2026-06-03 · 修订 rev5 2026-07-20]**
+- 🟢 [PV+ 中间神经元](circuits/pv-interneurons.md) — 快速放电篮状/吊灯细胞，控制 gamma 振荡与精确输出时序；Sohal 2009 光遗传学因果证明 PV→γ；GAD67 下调→PING 崩溃→WM 缺陷（精神分裂症核心机制）**[NEW 2026-06-03 · 修订 rev9 2026-07-17，新增SynGAP1经D型钾电流独立损害PV+兴奋性]**
 - 🟢 [SST+ 中间神经元](circuits/sst-interneurons.md) — Martinotti 细胞靶向远端树突，O-LM 细胞 theta 期门控 EC 输入 **[NEW 2026-06-03]**
 - 🟢 [VIP+ 中间神经元](circuits/vip-interneurons.md) — CGE 来源的去抑制专家，被行为显著信号激活 **[NEW 2026-06-03]**
 - 🟢 [去抑制回路](circuits/disinhibitory-circuit.md) — VIP→SST/PV→锥体细胞的三级去抑制架构，学习与注意调制的皮层通用模块 **[NEW 2026-06-03]**
@@ -197,7 +199,8 @@
 - 🟢 [突触稳态缩放](concepts/synaptic-scaling.md) — Hebbian 可塑性的负反馈稳定器；乘法性等比调节所有 AMPA 受体（GluA2 通路，不同于 LTP 的 GluA1）；TNFα（星形胶质细胞）许可；视黄酸树突局部信号；Wu 2021 证明稳态缩放主动雕刻记忆特异性 **[NEW 2026-07-03]**
 - 🟢 [AQP4（水通道蛋白4）](concepts/aqp4.md) — 脑内表达量最高的水通道；高度极化富集于星形胶质细胞终足（密度约10倍于其他胶质膜区）；CSF-ISF 对流的分子水门；AQP4 KO→70% 清除效率下降；AQP4 去极化是衰老脑胶质淋巴功能下降的分子基础；SNTA1/M23亚型维持极化分布 **[NEW 2026-07-06]**
 - 🟢 [稳态可塑性](concepts/homeostatic-plasticity.md) — 突触缩放+内在兴奋性+突触前稳态三大类型；时间尺度隔离（小时/天 vs 秒/分）；为 Hebbian 规则提供运行前提；是 E/I 平衡的慢速补偿机制 **[NEW 2026-07-03 · 修订 2026-07-04]**
-- 🔵 [兴奋-抑制平衡（E/I 平衡）](concepts/ei-balance.md) — 皮层回路信噪比控制机制；PV+/SST+/VIP+ 三类中间神经元分工维持；失衡是 ASD/精神分裂症/癫痫的共同汇流点；多维度（不同细胞类型→不同靶点），非单一数字 **[NEW 2026-07-04]**
+- 🔵 [兴奋-抑制平衡（E/I 平衡）](concepts/ei-balance.md) — 皮层回路信噪比控制机制；PV+/SST+/VIP+ 三类中间神经元分工维持；失衡是 ASD/精神分裂症/癫痫的共同汇流点；多维度（不同细胞类型→不同靶点），非单一数字 **[NEW 2026-07-04 · 修订 rev2→rev3 2026-07-17，新增SYNGAP1双向独立路径案例]**
+- 🟡 [SynGAP1](concepts/syngap1.md) — PSD富集蛋白，单倍剂量不足是已知最常见单基因智力障碍病因之一；2024年分离功能实验证明其经典RasGAP催化"刹车"活性对LTP/AMPA受体插入/认知行为非必需，真正机制是C端结构域经LLPS与TARP竞争PSD-95结合位点的占位竞争；独立地，PV+（非SST+）中间神经元中存在D型钾电流相关的兴奋性缺陷路径 **[NEW 2026-07-17]**
 - 🟢 [围神经元网（PNNs）](concepts/perineuronal-nets.md) — 包裹 PV+ 细胞的细胞外基质网络（aggrecan+透明质酸+连接蛋白）；OTX2 正反馈驱动 PV 成熟；固化 AMPA 受体、关闭发育关键期；ChABC 处理可逆转（动物） **[NEW 2026-07-04]**
 
 - 🟢 [注意力](concepts/attention.md) — 三级联动门控系统：DAN（高级控制层）→ TRN（皮层前 4ms 门控）→ α 振荡（持续抑制维持）；规范化模型统一对比度增益/反应增益矛盾（Reynolds & Heeger 2009）；DAN/VAN 双系统（Corbetta & Shulman 2002）；填补图谱悬空引用 **[NEW 2026-06-28]**
@@ -385,7 +388,9 @@
 - 🟢 [成瘾（物质使用障碍）](diseases/addiction.md) — 成瘾是习惯系统被病理性招募的极端案例；Koob-Volkow三阶段模型（狂欢→戒断负性情感→执念期待）；腹侧→背侧纹状体控制权迁移（Everitt-Robbins框架）；Berridge-Robinson激励敏化：wanting↑/liking↓解耦；ΔFosB分子棘轮（每次用药阶梯式蓄积，数周不降解）；渴望孵化现象；Zapata 2010 DLS直接因果证据；习惯易感性预测严重度（Giuliano 2021）**[NEW 2026-09-27]**
 - 🟢 [肌萎缩侧索硬化症（ALS）](diseases/als-amyotrophic-lateral-sclerosis.md) — TDP-43 核清除是 ALS 统一病理标志（>97%）；C9orf72 三叉毒矛（LOF/RNA foci/DPR）；poly-GR/PR 毒性最强且与 TDP-43 特异共定位；UNC13A/STMN2 隐蔽外显子是 TDP-43 LOF 的关键下游；运动神经元四重脆弱性（超长轴突/低钙缓冲/高Ca²⁺通透AMPA/持续皮质驱动）；tofersen-SOD1-ALS 临床里程碑 **[NEW 2026-09-11]**
 - 🟢 [发作性睡病 1 型（NT1）](diseases/narcolepsy.md) — 外侧下丘脑食欲素神经元 T 细胞介导自身免疫选择性毁损（85–95%）→ 翻转开关失去稳定器 → 清醒-睡眠-REM 边界溶解；HLA-DQB1*06:02 携带者风险升高 251 倍（82–99% 患者阳性）；Latorre 2018 Nature 19/19 CD4+ T 细胞直接证据；Ollila 2023 GWAS 13 新位点（PRF1/CD207/IFNAR1/TCR）；猝倒机制（VMM 路径）；CSF Hcrt-1 ≤110 pg/mL 诊断标准；OX2R 激动剂 Phase II/III **[NEW 2026-10-15]**
-- 🔵 [自闭症谱系障碍（ASD）](diseases/autism-spectrum-disorder.md) — 遗传异质性极高（>100风险基因）；五大分子集群（突触黏附/PSD支架/GABA能发育/翻译调控/染色质重塑）通过不同路径汇聚于E/I失衡；NLGN3 R451C的方向悖论（同一突变在不同回路E/I方向相反）；SHANK3模块化（S685I选择性破坏ABI1/WAVE通路）；CNTNAP2路径：PV+细胞减少→光遗传救治社交行为；非特异性GABA增强有时恶化ASD行为 **[NEW 2026-10-18]**
+- 🔵 [自闭症谱系障碍（ASD）](diseases/autism-spectrum-disorder.md) — 遗传异质性极高（>100风险基因）；五大分子集群（突触黏附/PSD支架/GABA能发育/翻译调控/染色质重塑）通过不同路径汇聚于E/I失衡；NLGN3 R451C的方向悖论（同一突变在不同回路E/I方向相反）；SHANK3模块化（S685I选择性破坏ABI1/WAVE通路）；CNTNAP2路径：PV+细胞减少→光遗传救治社交行为；非特异性GABA增强有时恶化ASD行为 **[NEW 2026-10-18 · 修订 rev1→rev2 2026-07-17，新增SYNGAP1作为离子通道/受体执行元件路径]**
+- 🟢 [脆性X综合征（FXS）](diseases/fragile-x-syndrome.md) — 已知最常见的遗传性智力障碍病因（男性约1/4000）；FMR1 CGG重复扩增→FMRP缺失→mGluR-LTD过度增强→AMPA受体系统性内吞→突触权重弥漫下调；mGluR5拮抗剂临床试验（mavoglurant）未达终点，提示简单阻断不足以逆转复杂发育后果 **[补录于index，页面创建于2026-10-17 · 修订 rev1→rev2 2026-07-17，新增与SYNGAP1的AMPA受体调控机制对比]**
+- 🔵 [智力障碍（ID）](diseases/intellectual-disability.md) — 数百上千条独立遗传路径汇聚的功能性诊断类别；与ASD广泛遗传重叠和临床共病；两条本知识库详细记录的单基因路径：脆性X（翻译调控失调）与SYNGAP1（突触结构性占位失衡），机制方向相反但均破坏AMPA受体调控精确性和发育关键期时序 **[NEW 2026-07-17 · 填补长期悬空引用]**
 - 🟢 [多发性硬化（MS）](diseases/multiple-sclerosis.md) — CNS 自身免疫性炎性脱髓鞘病；T/B 细胞攻击髓鞘/OL → 传导延迟/时序离散/STDP 窗口失配；双相：炎症期（RRMS，ocrelizumab 有效 PMID:27248601）→ 神经退行期（SEL/小胶质慢性活化/脑萎缩）；OL-MCT1 乳酸支持中断是轴突退化独立机制；EBV 血清转化↑32 倍 MS 风险（Bjornevik 2022）；CRISPR-OPC 克服趋化排斥实现再髓鞘化（Wagstaff 2024）；sNfL Z>1.5 个体化预后工具 **[NEW 2026-06-28]**
 
 - 🟢 [tau 蛋白病理](concepts/tau-pathology.md) — Aβ诱发CDK5/p25+GSK-3β激酶风暴→tau过磷酸化（约25倍）→树突棘错位（TTLL6-spastin微管破坏）→突触毒性；PHF/SF cryo-EM结构（R3+R4核心，3.4Å）；Braak I-VI分期与朊蛋白样跨突触传播；FTD-MAPT证明tau独立神经毒性 **[NEW 2026-06-29]**
@@ -465,6 +470,8 @@
 - ~~`munc18`（Munc18-1/STXBP1）~~ ✅ **2026-07-14 已建立**（被 [[SNARE-complex]] 引用，真实悬空引用；模板机制解开"闭合构象却是释放绝对必需组件"的结构悖论，STXBP1脑病作为疾病窗口）
 - `neural-population-coding`（神经群体编码）— 被 [[population-clock]] 引用，仍为真实悬空引用，供未来选题（种群向量解码、高维状态空间表征、种群时钟的理论前提）
 - `mglur-ltd`（mGluR依赖型LTD，已拆分为独立页面 concepts/mglur-ltd.md，但本索引尚未补充对应条目，2026-07-14核查发现，供未来补录）
+- ~~`intellectual-disability`（智力障碍）~~ ✅ **2026-07-17 已建立**（被 [[autism-spectrum-disorder]]、[[fragile-x-syndrome]] 引用，长期真实悬空引用，此次以SYNGAP1为具体案例建立疾病类别专页并填补）
+- `shank3`（SHANK3/Phelan-McDermid综合征）— 被 [[autism-spectrum-disorder]] 的 related 字段引用，2026-07-17核查新发现的悬空引用（既无独立页面也无图谱节点），供未来选题
 
 ---
 

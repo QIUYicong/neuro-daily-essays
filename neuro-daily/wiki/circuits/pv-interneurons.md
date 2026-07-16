@@ -6,15 +6,14 @@ type: entity
 status: established
 confidence: high
 created: 2026-06-03
-updated: 2026-10-06
-revision_count: 8
+updated: 2026-07-17
+revision_count: 9
 dimensions: [cellular, synaptic, microcircuit, cognition, disease, molecular]
-related: [chandelier-cell, sst-interneurons, vip-interneurons, disinhibitory-circuit, theta-oscillations, dendritic-computation, hippocampal-circuit, working-memory, gamma-oscillations, prefrontal-cortex, ei-balance, perineuronal-nets, critical-period, bdnf, microglia, transcriptomic-cell-types, single-cell-rna-seq, cntnap2, gap-junction-electrical-synapse]
+related: [chandelier-cell, sst-interneurons, vip-interneurons, disinhibitory-circuit, theta-oscillations, dendritic-computation, hippocampal-circuit, working-memory, gamma-oscillations, prefrontal-cortex, ei-balance, perineuronal-nets, critical-period, bdnf, microglia, transcriptomic-cell-types, single-cell-rna-seq, cntnap2, gap-junction-electrical-synapse, syngap1]
 prerequisites: [action-potential, synaptic-transmission, axon-initial-segment]
-opens_questions: [Q-pv-schizophrenia-causal, Q-pv-gamma-necessary, Q-ei-balance-01, Q-cp-01]
-source_articles: [2026-06-03-inhibitory-interneuron-diversity, 2026-06-05-prefrontal-working-memory, 2026-07-04-ei-balance-pv-interneuron, 2026-06-03-critical-period-plasticity]
-key_sources: ["PMID:27477017", "PMID:18599766", "PMID:24429630", "PMID:22219337", "PMID:25863358", "PMID:26996084", "PMID:39381500", "PMID:41478518", "PMID:31089192", "PMID:36598942", "PMID:37143468", "PMID:19396159", "PMID:19396156", "PMID:22355184", "PMID:7854418", "PMID:11516403", "PMID:12574431"]
-source_articles: [2026-06-03-inhibitory-interneuron-diversity, 2026-06-05-prefrontal-working-memory, 2026-07-04-ei-balance-pv-interneuron, 2026-06-03-critical-period-plasticity, 2026-07-20-gamma-oscillations-ping-ing-mechanism]
+opens_questions: [Q-pv-schizophrenia-causal, Q-pv-gamma-necessary, Q-ei-balance-01, Q-cp-01, Q-syngap-03]
+source_articles: [2026-06-03-inhibitory-interneuron-diversity, 2026-06-05-prefrontal-working-memory, 2026-07-04-ei-balance-pv-interneuron, 2026-06-03-critical-period-plasticity, 2026-07-20-gamma-oscillations-ping-ing-mechanism, 2026-07-17-syngap1-intellectual-disability-mechanism]
+key_sources: ["PMID:27477017", "PMID:18599766", "PMID:24429630", "PMID:22219337", "PMID:25863358", "PMID:26996084", "PMID:39381500", "PMID:41478518", "PMID:31089192", "PMID:36598942", "PMID:37143468", "PMID:19396159", "PMID:19396156", "PMID:22355184", "PMID:7854418", "PMID:11516403", "PMID:12574431", "PMID:40810392", "PMID:39406516"]
 ---
 
 # PV+ 中间神经元（Parvalbumin-expressing Interneurons）
@@ -65,6 +64,13 @@ PV+ 细胞通过围胞体的强力、精确抑制实现两项关键计算：（1
 - 快速亚型（τ ≈ 5 ms）→ 70–80 Hz；慢速亚型（τ ≈ 15 ms）→ 30–40 Hz（Keeley et al. 2017, PMID:27927782）
 - 胞体靶向（perisomatic shunting）使 GABA-A 的每次抑制对锥体细胞输出产生全面、精确的"时序门"效果
 
+**SYNGAP1单倍剂量不足的独立致病路径（2026-07-17更新）**：
+
+Syngap1单倍剂量不足会独立损害PV+细胞（而非SST+细胞）的突触驱动和内在兴奋性，机制与SynGAP1在兴奋性神经元中调控AMPA受体占位竞争的机制完全不同（详见 [[syngap1]]）：
+- 突触层面：自发兴奋性突触后电流幅度降低、丘脑皮层AMPA介导传递电荷转移和效力降低、配对脉冲易化增强（提示突触前释放概率降低）、兴奋性突触密度（vGlut1+PSD95共定位）降低（Francavilla et al. 2025, PMID:40810392）
+- 内在膜特性：动作电位阈值升高、峰值幅度降低、给定电流注入下发放数量减少；选择性阻断D型电压门控钾电流可将内在膜特性挽救至野生型水平，提示这是一条独立于AMPA受体占位机制的钾通道相关路径
+- 细胞类型特异性：MGE来源中间神经元中，仅PV+特异性单倍剂量不足损害听觉皮层活动、社交行为和恐惧消退，SST+未表现出同等程度缺陷（Jadhav et al. 2024, PMID:39406516）
+
 **精神分裂症分子级联（Gonzalez-Burgos & Lewis 2012, PMID:22355184）**：
 - PV 细胞高密度 NR2A 型 NMDA 受体 → 对 NMDA 低活（如 PCP/氯胺酮诱导）特别敏感
 - NMDA 低活 → GAD67 mRNA 下调（GABA 合成限速酶）→ GABA 储量减少
@@ -84,6 +90,7 @@ PV+ 细胞通过围胞体的强力、精确抑制实现两项关键计算：（1
 | 精神分裂症前额叶 PV+ 细胞 GAD67 mRNA 下调 | 原位杂交（死后脑组织）| PMID:22219337 | 高 |
 | 精神分裂症患者工作记忆任务期间前额叶 γ 功率下降 | MEG/EEG | PMID:25863358 | 高 |
 | 篮状细胞在 SWR 期间强烈放电，相位锁定到涟漪周期 | 清醒大鼠 CA1 体内记录 | PMID:18599766 | 高 |
+| Syngap1单倍剂量不足独立损害PV+细胞突触驱动+内在兴奋性，阻断D型钾电流可挽救 | 全细胞膜片钳+药理学 | PMID:40810392 | 高（药理学挽救提供因果链） |
 
 ## 连接
 
@@ -97,6 +104,7 @@ PV+ 细胞通过围胞体的强力、精确抑制实现两项关键计算：（1
 - [[axon-initial-segment]] — 吊灯细胞（PV+ 亚类）靶向 AIS
 - [[ei-balance]] — PV+ 细胞是 E/I 平衡的主要实时执行者（毫秒反馈抑制）
 - [[perineuronal-nets]] — PNNs 特异性包裹 PV+ 细胞，关键期末固化回路状态
+- [[syngap1]] — Syngap1单倍剂量不足经D型钾电流相关机制独立损害PV+细胞兴奋性，是单基因智力障碍/自闭症中PV+细胞受累的又一具体案例
 
 ## 未解问题
 
@@ -114,6 +122,7 @@ PV+ 细胞通过围胞体的强力、精确抑制实现两项关键计算：（1
 - 2026-07-25 · 修订 rev6 · 基于《神经元类型的分子宇宙》一文 (#93) · 新增转录组视角：scRNA-seq揭示PV细胞内部包含篮状细胞/吊灯细胞/其他亚型在转录组层面各有标记基因；Tasic 2018（PMID:30382198）中PV亚类在视觉/运动皮层高度保守（约70%跨区共享）；更新related添加transcriptomic-cell-types、single-cell-rna-seq
 - 2026-08-15 · 修订 rev7 · 基于《CNTNAP2：语言、社会与癫痫三角共病》(#114) · 新增：CNTNAP2缺失导致PV+中间神经元减少是ASD/CDFE核心病理（Peñagarikano 2011, PMID:21962519）；mPFC E/I突触输入双降低伴振荡协调崩溃（Lazaro 2019, PMID:31141683）；CR+中间神经元减少也见于尾壳核/体感皮层（Sáfár 2026, PMID:42249747）；母体抗CASPR2抗体→子代PV功能异常（Bagnall-Moreau 2026, PMID:41271186）；related新增cntnap2；key_sources新增PMID:21962519, PMID:31141683
 - 2026-10-06 · 修订 rev8 · 基于《缝隙连接与神经元电突触》(#166) · 扩充"回路层面"电突触条目：具体化 Cx36 分子身份，补充偶联系数（0.05–0.15）、亚毫秒延迟、KO 表型（>90% 偶联消失 + 选择性消除伽马）；related 新增 gap-junction-electrical-synapse；key_sources 新增 PMID:11516403, PMID:12574431
+- 2026-07-17 · 修订 rev9 · 基于《占位胜过刹车：当SynGAP1的"刹车"活性被证明并非必需，最常见的单基因智力障碍还剩下什么解释？》(#200) · 新增"SYNGAP1单倍剂量不足的独立致病路径"小节：PV+（非SST+）细胞特异性突触驱动降低+D型钾电流相关内在兴奋性降低，与SynGAP1在兴奋性神经元中的AMPA受体占位竞争机制完全独立；关键证据表新增1行；related新增syngap1；key_sources新增PMID:40810392, PMID:39406516（修订同时修正了本页frontmatter中此前存在的重复source_articles字段）
 
 ## 转录组亚型注记（2026-07-25新增）
 
@@ -131,3 +140,4 @@ scRNA-seq研究（Tasic 2018，PMID:30382198）表明，"PV细胞"在转录组�
 - [[2026-07-20-gamma-oscillations-ping-ing-mechanism]]
 - [[2026-07-25-scrna-seq-neural-cell-type-diversity]]
 - [[2026-08-15-cntnap2-language-social-autism-circuit]]
+- [[2026-07-17-syngap1-intellectual-disability-mechanism]]

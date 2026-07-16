@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-16",
+  "last_updated": "2026-07-17",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -11837,9 +11837,125 @@
       ],
       "open_access": false,
       "key_contribution": "Marr-Ito-Albus三个经典模型的历史比较，共识与分歧"
+    },
+    {
+      "pmid": "23141534",
+      "pmcid": "PMC3500766",
+      "doi": "10.1016/j.cell.2012.08.045",
+      "title": "Pathogenic SYNGAP1 mutations impair cognitive development by disrupting maturation of dendritic spine synapses",
+      "authors_short": "Clement JP, Aceti M, Creson TK, et al.",
+      "journal": "Cell",
+      "year": 2012,
+      "first_used": "2026-07-17",
+      "used_in_articles": [
+        "2026-07-17-syngap1-intellectual-disability-mechanism.md"
+      ],
+      "aspects_covered": [
+        "杂合Syngap1敲除关键发育窗口内树突棘提前成熟",
+        "AMPA/NMDA比值升高",
+        "早期海马过度兴奋",
+        "工作记忆/恐惧条件反射受损",
+        "奠基性经典GAP刹车模型"
+      ]
+    },
+    {
+      "pmid": "38422154",
+      "pmcid": "PMC11188940",
+      "doi": "10.1126/science.adk1291",
+      "title": "SynGAP regulates synaptic plasticity and cognition independently of its catalytic activity",
+      "authors_short": "Araki Y, Rajkovich KE, Gerber EE, et al.",
+      "journal": "Science",
+      "year": 2024,
+      "first_used": "2026-07-17",
+      "used_in_articles": [
+        "2026-07-17-syngap1-intellectual-disability-mechanism.md"
+      ],
+      "aspects_covered": [
+        "GAP催化失活敲入小鼠(F484A/R485L)LTP/AMPA受体插入/认知行为均正常",
+        "C端结构域LLPS与TARP竞争PSD-95占位机制",
+        "5名人类GAP失活变异携带者未诊断神经系统疾病",
+        "Ras-ERK下调疗法可能不足以作为治疗手段"
+      ]
+    },
+    {
+      "id": "PMID:30789692",
+      "pmcid": null,
+      "full_text": true,
+      "note": "Holder/Hamdan/Michaud GeneReviews《SYNGAP1-Related Intellectual Disability》，NCBI Bookshelf NBK537721，官方机构来源（NIH/NCBI），2025-08-14最后更新，首次用于2026-07-17-syngap1-intellectual-disability-mechanism.md"
+    },
+    {
+      "pmid": "40810392",
+      "pmcid": "PMC12352866",
+      "doi": "10.7554/eLife.97100",
+      "title": "Syngap1 regulates the synaptic drive and membrane excitability of Parvalbumin-positive interneurons in mouse auditory cortex",
+      "authors_short": "Francavilla R, Chattopadhyaya B, Damo Kamda JL, et al.",
+      "journal": "eLife",
+      "year": 2025,
+      "first_used": "2026-07-17",
+      "used_in_articles": [
+        "2026-07-17-syngap1-intellectual-disability-mechanism.md"
+      ],
+      "aspects_covered": [
+        "PV+细胞突触驱动降低（sEPSC/丘脑皮层AMPA传递/配对脉冲易化）",
+        "PV+细胞内在兴奋性降低（AP阈值/幅度/发放数）",
+        "D型钾电流阻断药理学挽救",
+        "SST+受累程度弱于PV+"
+      ]
+    },
+    {
+      "pmid": "39406516",
+      "pmcid": "PMC11622180",
+      "doi": "10.1523/JNEUROSCI.0946-24.2024",
+      "title": "Developmental Syngap1 Haploinsufficiency in Medial Ganglionic Eminence-Derived Interneurons Impairs Auditory Cortex Activity, Social Behavior, and Extinction of Fear Memory",
+      "authors_short": "Jadhav V, Carreno-Munoz MI, Chehrazi P, et al.",
+      "journal": "Journal of Neuroscience",
+      "year": 2024,
+      "first_used": "2026-07-17",
+      "used_in_articles": [
+        "2026-07-17-syngap1-intellectual-disability-mechanism.md"
+      ],
+      "aspects_covered": [
+        "MGE来源中间神经元(PV+非SST+)特异性单倍剂量不足",
+        "听觉皮层活动/社交行为/恐惧消退受损",
+        "摘要级信息，未逐段通读全文"
+      ]
+    },
+    {
+      "pmid": "37558489",
+      "pmcid": "PMC10476640",
+      "doi": "10.1523/JNEUROSCI.1997-22.2023",
+      "title": "Interneuron-Targeted Disruption of SYNGAP1 Alters Sensory Representations in the Neocortex and Impairs Sensory Learning",
+      "authors_short": "Zhao M, Kwon SE.",
+      "journal": "Journal of Neuroscience",
+      "year": 2023,
+      "first_used": "2026-07-17",
+      "used_in_articles": [
+        "2026-07-17-syngap1-intellectual-disability-mechanism.md"
+      ],
+      "aspects_covered": [
+        "最早提出中间神经元自主性SYNGAP1功能独立贡献感觉学习的研究之一",
+        "摘要级信息，未逐段通读全文"
+      ]
+    },
+    {
+      "pmid": "41767012",
+      "pmcid": "PMC12935682",
+      "doi": "10.3389/fneur.2026.1773363",
+      "title": "Research progress in SYNGAP1-related neurodevelopmental disorders: from pathogenesis to therapeutic strategies",
+      "authors_short": "Zhang J, Xue G, Wang X, et al.",
+      "journal": "Frontiers in Neurology",
+      "year": 2026,
+      "first_used": "2026-07-17",
+      "used_in_articles": [
+        "2026-07-17-syngap1-intellectual-disability-mechanism.md"
+      ],
+      "aspects_covered": [
+        "SYNGAP1相关疾病约占智力障碍病例0.7%-1%",
+        "治疗策略全景：AAV基因补充/ASO剪接调控(CMP-SYNGAP-01)/taRNA/小分子(perampanel/他汀类)"
+      ]
     }
   ],
-  "total_sources": 763,
+  "total_sources": 770,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",
@@ -18011,5 +18127,21 @@
       "full_text": "official_institution",
       "note": "NINDS Brain Basics: Know Your Brain 官方页面，直接HTTP GET成功读取全文，用于支持海马作为'记忆索引器'的一般性背景表述，首次用于2026-07-16-hippocampal-theta-sweeps-goal-direction.md"
     }
-  ]
+  ],
+  "sources_2026-07-17-syngap1-intellectual-disability-mechanism": {
+    "article": "#200 · 占位胜过刹车：当SynGAP1的\"刹车\"活性被证明并非必需，最常见的单基因智力障碍还剩下什么解释？",
+    "date": "2026-07-17",
+    "pmids": [
+      "PMID:23141534",
+      "PMID:38422154",
+      "PMID:30789692",
+      "PMID:40810392",
+      "PMID:39406516",
+      "PMID:37558489",
+      "PMID:41767012"
+    ],
+    "new_additions": 7,
+    "full_text_count": 5,
+    "notes": "PMID:39406516/37558489为PMC开放但仅读取摘要级信息；PMID:30789692为官方机构来源(NIH GeneReviews)；其余5篇（含官方来源）均完整读取全文"
+  }
 }

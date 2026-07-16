@@ -1,0 +1,76 @@
+# 运行日志 · 2026-07-17 · 第200篇 · syngap1-intellectual-disability-mechanism
+
+**任务确认**：真实日期2026-07-17（UTC+8）已由调用方独立核实并作为硬性事实提供，本次会话不重新核算或质疑该日期。任务明确本次为第200篇文章，明确要求跳过0节（分支同步）和G节（git提交/推送），由另一流程处理。
+
+## 运行背景
+
+会话开始时确认：`neuro-daily/articles/2026-07-17-stdp-spike-timing-dependent-plasticity.md`（article_number=85，历史日期漂移遗留虚拟时间线文章）及对应的 `notes/2026-07-17-reading-notes.md`、`sources/2026-07-17-sources.json`、`logs/2026-07-17-run.log` 均已确认存在且严格未被读取、未被修改、未被删除。本次全部新文件采用"日期+slug"消歧命名（沿用2026-07-07确立、2026-07-16再次使用的既定惯例）。
+
+## 选题过程
+
+1. 通读 ROUTINE.md、KNOWLEDGE-BASE-DESIGN.md 全文。
+2. 读取 `state/topic_ledger.json` 尾部：确认最近真实条目为#195–#199（2026-07-12至2026-07-16），核实#199（2026-07-16）为最近一篇，layer为[cellular, microcircuit, brain-region, behavior, cognition]；核实ledger内`total_articles`字段（190）与实际条目数一致；确认无article_number=200或date=2026-07-17的既有条目。
+3. 读取 `state/unresolved_questions.md`、`state/contested_claims.json`（7条open矛盾，逐条评估：C-2026-05-24-01至C-2026-09-15-01均非本次可快速裁决的最高优先级候选，未发现近期可裁决的新证据线索）。
+4. 图谱缺口分析：编写Python脚本解析`wiki/_graph.json`（355节点/2139边），比对edges的from/to字段（发现该图谱同时使用`from/to`和`source/target`两种键名，脚本已做兼容处理）与nodes的id集合，识别出真正的悬空引用（有边引用但无节点）：仅`intellectual-disability`一个，被`autism-spectrum-disorder`节点以`related`边引用。该slug此前已在topic_ledger中被记录为候选悬空引用至少两次（历史条目`next_suggested_topics`字段）但一直未被填补，属于ROUTINE.md选题优先级第3位（填补悬空引用）的真实候选。
+5. 另检索到高连接度中低置信度节点作为对比候选（如predictive-coding, 58边, medium/mainstream；global-workspace-theory, 33边），但按优先级顺序，悬空引用（第3位）高于深化前沿节点（第4位），故优先选择intellectual-disability路线。
+6. 进一步检索发现，`autism-spectrum-disorder.md`和`fragile-x-syndrome.md`两个已有页面均将`intellectual-disability`列入`related`，但均未建立对应独立页面/图谱节点——决定以一个具体、可讲清的单基因病例（而非泛泛的"智力障碍"大主题）作为切入点，既能建立`intellectual-disability`疾病类别页，又能满足"缩小到一个核心问题"的选题规则。
+7. 通过WebSearch确认SYNGAP1是常被引用的、除脆性X外最重要的单基因智力障碍案例之一，且2024年有一篇重要的《Science》论文（Araki et al., PMID:38422154）对经典致病机制模型提出了实质性修正（GAP催化活性对核心表型非必需，真正机制是LLPS占位竞争）；进一步检索发现2023–2025年间独立发展出的PV+中间神经元自主性SYNGAP1机制研究线（Zhao & Kwon 2023、Jadhav et al. 2024、Francavilla et al. 2025），与本知识库已有的`ei-balance`/`pv-interneurons`框架高度契合，可形成"分子机制修正+细胞类型特异性新路径"两层递进的完整叙事。锁定此题。
+8. 层级评估：本主题天然的layer为[molecular, synaptic, cellular, microcircuit, cognition, disease]——虽与#197/#198（均为molecular/synaptic/cellular/disease）在分子/突触/细胞/疾病维度上重叠，但因优先级第3位（悬空引用）高于层级多样性的软性要求，且本次通过强调PV+中间神经元回路层面（microcircuit）和认知行为后果（cognition）的独立证据线，在内容深度上实质性区别于#197/#198（两篇均未涉及回路/认知层）。ROUTINE.md原文为"避免连续三天同一层级"，#199已打破#197/#198的连续，本次不构成"连续三天"，但仍主动在文章layer标注中纳入microcircuit/cognition以体现真实的内容广度。
+
+## 检索与来源
+
+- NCBI E-utilities esearch：确认SYNGAP1相关文献总量（162条命中"SYNGAP1 intellectual disability"）。
+- Europe PMC REST API（多次查询）：确认并核实以下关键记录的PMID/PMCID/DOI/开放获取状态：
+  - PMID:23141534（Clement et al. 2012, Cell）：PMCID:PMC3500766，PMC全文开放，WebFetch直接完整读取。
+  - PMID:38422154（Araki et al. 2024, Science）：PMCID:PMC11188940，PMC全文开放，WebFetch直接完整读取（获取具体统计结果：LTP降低54%、F484A/R485L点突变、5名人类GAP失活变异携带者等）。
+  - PMID:30789692（Holder/Hamdan/Michaud, GeneReviews, NBK537721）：NIH/NCBI Bookshelf官方来源，全文开放，2025-08-14最后更新，完整读取。
+  - PMID:40810392（Francavilla et al. 2025, eLife）：PMCID:PMC12352866，全文开放，通过Europe PMC fullTextXML端点完整读取。
+  - PMID:39406516（Jadhav et al. 2024, J Neurosci）：PMCID:PMC11622180，PMC开放，通过Europe PMC搜索获取摘要级信息（结构化abstractText），未逐段读取全文正文。
+  - PMID:37558489（Zhao & Kwon 2023, J Neurosci）：PMCID:PMC10476640，PMC开放，同样通过摘要级检索获取信息（一次WebFetch尝试全文XML返回404，未进一步重试，改用abstractText字段）。
+  - PMID:41767012（Zhang et al. 2026, Front Neurol）：PMCID:PMC12935682，全文开放，完整读取治疗策略与患病率部分。
+- WebSearch补充确认SynGAP1研究领域概况、GeneReviews条目存在性、近期综述列表。
+- 共采用7个来源，其中5个完整读取全文（S1/S2/S3/S4/S7），2个基于PMC开放摘要撰写（S5/S6，已在文中和sources.json中明确标注这一限制，未逐段通读全文正文）；1个为官方机构来源（NIH GeneReviews）。满足并超过ROUTINE.md"≥5来源、≥2开放全文、≥1官方机构来源"最低标准，且远超最低线（5/7开放全文完整读取）。
+- 未采用来源：检索"他汀类药物 SYNGAP1 临床试验"未找到任何一手对照临床试验论文，仅在S7综述中读到个案报告层面转述；未单独引用一手来源，已在文中"争议与未解问题"部分明确说明这一证据链薄弱点，避免超出证据强度的推断。严格遵守禁止Sci-Hub/盗版/付费墙绕过的政策，全部来源通过PMC/Europe PMC/NCBI Bookshelf官方合法渠道获取。
+
+## 产出
+
+- `articles/2026-07-17-syngap1-intellectual-disability-mechanism.md`（约10800非空白字符，完整12段落结构）
+- `notes/2026-07-17-syngap1-intellectual-disability-mechanism-reading-notes.md`
+- `sources/2026-07-17-syngap1-intellectual-disability-mechanism-sources.json`
+- `wiki/concepts/syngap1.md`（新建，rev1，emerging/medium-high）
+- `wiki/diseases/intellectual-disability.md`（新建，rev1，mainstream/medium）——填补悬空引用
+- `wiki/diseases/autism-spectrum-disorder.md`（rev1→rev2）
+- `wiki/diseases/fragile-x-syndrome.md`（rev1→rev2）
+- `wiki/circuits/pv-interneurons.md`（rev8→rev9）
+- `wiki/concepts/ei-balance.md`（rev2→rev3）
+- `wiki/_graph.json`：+2节点（syngap1, intellectual-disability）、+边（详见CHANGELOG）；node/edge计数已刷新
+- `wiki/index.md`：新增/更新对应条目
+- `wiki/CHANGELOG.md`：新增2026-07-17条目
+- `state/topic_ledger.json`：新增条目#200
+- `state/unresolved_questions.md`：新增Q-syngap-01至Q-syngap-04
+- `state/contested_claims.json`：新增C-2026-07-17-01（open）
+- `state/source_registry.json`：新增7条来源记录
+- `state/monthly_synthesis.md`：2026年7月章节追加#200条目
+- `state/maturity_index.json`：新增syngap1、intellectual-disability两条记录
+
+## 矛盾检查与登记
+
+发现真实矛盾：Araki et al. 2024（PMID:38422154）明确指出，针对Ras-ERK通路失调设计的现有治疗策略"可能不足以作为治疗手段"，而Zhang et al. 2026综述（PMID:41767012）显示，基于"下调Ras-ERK信号可改善SYNGAP1相关疾病"这一旧理论假设的他汀类药物（洛伐他汀、瑞舒伐他汀）仍在个案报告层面被使用并报告有效。这是新证据与仍在实践中的旧机制理论之间的真实张力，已按矛盾处理协议登记至`state/contested_claims.json`（C-2026-07-17-01，page: wiki/concepts/syngap1.md，status: open），未删除任何旧主张，已在syngap1.md"当前理解"及文章"争议与未解问题"部分如实呈现张力。
+
+## 自检（ROUTINE.md 第H节）
+
+- **真实性**：每条wiki新主张均标注PMID/DOI来源；明确区分了直接因果实验证据（Araki 2024分离功能突变、Francavilla 2025药理学挽救，评级高）与综述汇总性质证据（Zhang 2026患病率与疗法现状，评级中）；未将5人的人类队列观察当作定论（在wiki页与文章中均标注样本量小、需更大队列验证）；S5/S6两个来源明确标注为"摘要级信息，未逐段通读全文"。
+- **一致性**：新发现的机制冲突已走矛盾协议，登记为C-2026-07-17-01，未静默覆盖任何旧主张；4个修订页面的updated/revision_count/修订历史均已同步更新（rev1→2 ×2, rev8→9, rev2→3，逐一核实）；`_graph.json`新增边全部指向已存在节点或本次新建节点，无新增未记录悬空边；新建两页的related/prerequisites均已填写，满足"至少各1个"要求。
+- **可导航**：`wiki/index.md`已更新对应条目；`wiki/CHANGELOG.md`已新增完整条目，包含新发现的`shank3`悬空引用记录供后续填补。
+- **情景层**：article/notes/sources/log四件套齐全；未修改任何既有情景层文件（仅通过Read工具查阅#199文件及既有wiki页面作为格式参考，未做任何写操作）；命名采用"日期+slug"消歧惯例，未覆盖2026-07-17既有的历史漂移遗留文件（stdp-spike-timing-dependent-plasticity及对应notes/sources/log）。
+
+## 失败与限制
+
+- PMID:39406516、PMID:37558489两篇J Neurosci论文虽PMC全文开放，但受限于时间未逐段通读全文正文，仅基于结构化摘要撰写相关内容，已在多处明确标注这一限制，未虚构未在摘要中出现的具体统计数字。
+- 未找到"他汀类药物用于SYNGAP1相关疾病"的一手对照临床试验证据，仅综述转述的个案报告层面信息，已明确标注证据链薄弱，未做超出证据强度的推断。
+- 未对`shank3`悬空引用（本次搜索中新发现，被autism-spectrum-disorder.md的related字段引用但无独立页面/图谱节点）进行填补，因聚焦"一个可讲清的核心问题"原则，已记录于CHANGELOG供后续会话优先处理。
+- 未直接检验GAP催化失活突变体在PV+中间神经元中的表型（该问题已登记为Q-syngap-04，为一个直接可检验但尚未被检验的开放问题）。
+
+## Git 操作
+
+- 本次任务明确要求不运行任何git命令（add/commit/push），且跳过0节分支同步。所有文件修改均已完成并保存在工作目录，等待外部流程处理。

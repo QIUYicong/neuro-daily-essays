@@ -6,14 +6,14 @@ type: concept
 status: mainstream
 confidence: medium
 created: 2026-07-04
-updated: 2026-10-18
-revision_count: 2
+updated: 2026-07-17
+revision_count: 3
 dimensions: [molecular, cellular, synaptic, microcircuit, brain-region, cognition, disease]
-related: [pv-interneurons, sst-interneurons, vip-interneurons, gamma-oscillations, homeostatic-plasticity, synaptic-scaling, synaptic-pruning, perineuronal-nets, working-memory, competition-selection-principle, autism-spectrum-disorder, cntnap2, fragile-x-syndrome]
+related: [pv-interneurons, sst-interneurons, vip-interneurons, gamma-oscillations, homeostatic-plasticity, synaptic-scaling, synaptic-pruning, perineuronal-nets, working-memory, competition-selection-principle, autism-spectrum-disorder, cntnap2, fragile-x-syndrome, syngap1, intellectual-disability]
 prerequisites: [synaptic-transmission, action-potential, pv-interneurons]
 opens_questions: [Q-ei-balance-01, Q-ei-balance-02, Q-ei-balance-03]
-source_articles: [2026-07-04-ei-balance-pv-interneuron, 2026-10-18-autism-synaptopathy-ei-balance]
-key_sources: ["PMID:31089192", "PMID:37143468", "PMID:36598942", "PMID:34887320", "PMID:36008036", "PMID:18923512", "PMID:34690695", "PMID:26289574"]
+source_articles: [2026-07-04-ei-balance-pv-interneuron, 2026-10-18-autism-synaptopathy-ei-balance, 2026-07-17-syngap1-intellectual-disability-mechanism]
+key_sources: ["PMID:31089192", "PMID:37143468", "PMID:36598942", "PMID:34887320", "PMID:36008036", "PMID:18923512", "PMID:34690695", "PMID:26289574", "PMID:38422154", "PMID:40810392"]
 ---
 
 # 兴奋-抑制平衡 (Excitation-Inhibition Balance, E/I Balance)
@@ -67,6 +67,7 @@ E→I→E 的反馈回路：锥体细胞激活 PV+，PV+ 反馈抑制锥体细�
 | 非特异性抑制增强有时恶化 ASD 行为；需靶向特定细胞类型 | VPA 暴露模型 mPFC 非特异性抑制 → 社交行为恶化 | PMID:31089192 | 高（临床启示重要）|
 | ASD 风险基因通过五大分子集群汇聚于 E/I 失衡终点 | 遗传学综述+多模型汇聚分析 | PMID:26289574（综述，摘要） | 中-高（框架成熟） |
 | NLGN3 R451C 在 CA1 增强 AMPAR 传递但在纹状体 D1+ 减少 mIPSC — 同一突变方向相反 | KI 小鼠+膜片钳 | PMID:34690695 | 高（小鼠）|
+| SYNGAP1单倍剂量不足从兴奋（AMPAR占位竞争失衡）和抑制（PV+细胞兴奋性降低）两侧独立破坏E/I平衡 | 分离功能敲入小鼠+细胞类型特异性敲低+电生理 | PMID:38422154, PMID:40810392 | 高（两条独立机制均有直接因果证据） |
 
 ## 连接
 
@@ -82,6 +83,8 @@ E→I→E 的反馈回路：锥体细胞激活 PV+，PV+ 反馈抑制锥体细�
 - [[autism-spectrum-disorder]] — E/I 失衡是 ASD 多种分子路径汇聚的共同功能终点
 - [[cntnap2]] — GABA 能发育路径破坏 E/I 平衡的典型机制
 - [[fragile-x-syndrome]] — 翻译调控失调路径破坏 E/I 平衡的典型机制
+- [[syngap1]] — 同时从兴奋（AMPAR占位竞争）和抑制（PV+细胞兴奋性）两侧独立破坏E/I平衡的单基因案例，机制证据链本知识库目前最完整
+- [[intellectual-disability]] — E/I失衡是SYNGAP1、FMRP等多种单基因智力障碍病因汇聚的共同功能终点之一
 
 ## 未解问题
 
@@ -93,8 +96,10 @@ E→I→E 的反馈回路：锥体细胞激活 PV+，PV+ 反馈抑制锥体细�
 
 - 2026-07-04 · 创建 · 基于《信号与噪声之间：皮层 E/I 平衡的回路逻辑》一文 · 初始置信度：中（框架成熟，但异质性和精确测量方法仍有争议）
 - 2026-10-18 · rev2 · 基于《突触病的汇聚：ASD 如何将一千条分子路径折叠成同一张失衡的天平》(#178) · 新增：ASD 五大分子路径汇聚证据表；NLGN3 R451C 回路特异性 E/I 方向差异；related 扩展（autism-spectrum-disorder/cntnap2/fragile-x-syndrome）；新增 3 项 key_sources
+- 2026-07-17 · rev3 · 基于《占位胜过刹车：当SynGAP1的"刹车"活性被证明并非必需，最常见的单基因智力障碍还剩下什么解释？》(#200) · 新增SYNGAP1作为"双向独立路径汇聚于E/I失衡"的第三个典型案例（与NLGN3、ASD五大集群并列），证据表新增1行；related新增syngap1、intellectual-disability；key_sources新增PMID:38422154, PMID:40810392
 
 ## 来源文章
 
 - [[2026-07-04-ei-balance-pv-interneuron]]
 - [[2026-10-18-autism-synaptopathy-ei-balance]]
+- [[2026-07-17-syngap1-intellectual-disability-mechanism]]

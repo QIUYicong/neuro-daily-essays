@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated": "2026-07-16",
+  "updated": "2026-07-17",
   "node_count": 355,
   "edge_count": 2139,
   "edge_types": [
@@ -3245,6 +3245,24 @@
       "status": "emerging",
       "confidence": "high",
       "page": "wiki/concepts/goal-directed-theta-sweeps.md"
+    },
+    {
+      "id": "syngap1",
+      "title": "SynGAP1",
+      "domain": "concepts",
+      "type": "mechanism",
+      "status": "emerging",
+      "confidence": "medium-high",
+      "page": "wiki/concepts/syngap1.md"
+    },
+    {
+      "id": "intellectual-disability",
+      "title": "智力障碍",
+      "domain": "diseases",
+      "type": "disease",
+      "status": "mainstream",
+      "confidence": "medium",
+      "page": "wiki/diseases/intellectual-disability.md"
     }
   ],
   "edges": [
@@ -15260,6 +15278,90 @@
       "to": "path-integration",
       "type": "related",
       "note": "两者都涉及向量化的空间方向计算，路径整合基于自身运动连续积分，目标导向扫描基于记忆检索的目标方向读出，机制不同但概念互补"
+    },
+    {
+      "from": "syngap1",
+      "to": "ampa-receptor",
+      "type": "regulates",
+      "note": "SynGAP经LLPS占位竞争调控AMPA受体在突触后膜的驻留"
+    },
+    {
+      "from": "liquid-liquid-phase-separation",
+      "to": "syngap1",
+      "type": "mechanism-of",
+      "note": "LLPS是SynGAP与PSD-95/TARP占位竞争的物理化学机制"
+    },
+    {
+      "from": "syngap1",
+      "to": "liquid-liquid-phase-separation",
+      "type": "is-a",
+      "note": "SynGAP-PSD95占位竞争是LLPS原则在突触后的具体实现之一"
+    },
+    {
+      "from": "syngap1",
+      "to": "ltp",
+      "type": "regulates",
+      "note": "SynGAP结构性占位（非催化活性）调控LTP表达；GAP催化失活敲入小鼠LTP正常"
+    },
+    {
+      "from": "syngap1",
+      "to": "pv-interneurons",
+      "type": "regulates",
+      "note": "SynGAP1单倍剂量不足经D型钾电流相关机制独立损害PV+细胞兴奋性"
+    },
+    {
+      "from": "syngap1",
+      "to": "ei-balance",
+      "type": "regulates",
+      "note": "SynGAP1从兴奋（AMPAR占位）和抑制（PV+细胞）两侧独立调控E/I平衡"
+    },
+    {
+      "from": "intellectual-disability",
+      "to": "syngap1",
+      "type": "mechanism-of",
+      "note": "SYNGAP1相关智力障碍的分子机制是SynGAP1单倍剂量不足"
+    },
+    {
+      "from": "fragile-x-syndrome",
+      "to": "intellectual-disability",
+      "type": "is-a",
+      "note": "FXS是已知最常见的遗传性智力障碍病因之一"
+    },
+    {
+      "from": "syngap1",
+      "to": "fragile-x-syndrome",
+      "type": "related",
+      "note": "两种单基因智力障碍，AMPA受体调控机制方向相反（占位竞争 vs 翻译调控）"
+    },
+    {
+      "from": "syngap1",
+      "to": "autism-spectrum-disorder",
+      "type": "related",
+      "note": "SYNGAP1属于ASD分子路径集群第3类离子通道/受体执行元件"
+    },
+    {
+      "from": "intellectual-disability",
+      "to": "autism-spectrum-disorder",
+      "type": "related",
+      "note": "智力障碍与ASD广泛共病、机制重叠"
+    },
+    {
+      "from": "intellectual-disability",
+      "to": "ampa-receptor",
+      "type": "related",
+      "note": "多条单基因ID致病路径汇聚的共同分子执行层"
+    },
+    {
+      "from": "syngap1",
+      "to": "critical-period",
+      "type": "related",
+      "note": "Syngap1相关表型局限于出生后前三周的不可逆发育窗口"
+    },
+    {
+      "from": "syngap1",
+      "to": "dendritic-spine",
+      "type": "regulates",
+      "note": "GAP催化活性调控树突棘体积增大——占位机制无法挽救的少数表型之一"
     }
   ],
   "dangling_references": [

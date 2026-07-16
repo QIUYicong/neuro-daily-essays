@@ -6,13 +6,13 @@ type: disease
 status: established
 confidence: high
 created: 2026-10-17
-updated: 2026-10-17
-revision_count: 1
+updated: 2026-07-17
+revision_count: 2
 dimensions: [molecular, synaptic, cellular, cognition, disease]
-related: [fmrp, mglur-ltd, arc-arg31, ampa-receptor, mglur5, autism-spectrum-disorder, intellectual-disability]
+related: [fmrp, mglur-ltd, arc-arg31, ampa-receptor, mglur5, autism-spectrum-disorder, intellectual-disability, syngap1]
 prerequisites: [fmrp, mglur-ltd, ampa-receptor]
 opens_questions: [Q-fxs-01, Q-fxs-02]
-source_articles: [2026-10-17-mglur5-ltd-fragile-x-fmrp]
+source_articles: [2026-10-17-mglur5-ltd-fragile-x-fmrp, 2026-07-17-syngap1-intellectual-disability-mechanism]
 key_sources: ["PMID:15219735", "PMID:18093519", "PMC:2199268", "PMID:33608673", "PMID:39483619", "PMID:32606374"]
 ---
 
@@ -71,6 +71,8 @@ FXS 小鼠和人死亡后组织均显示：树突棘密度增高（多）但棘�
 - [[arc-arg31]] — FMRP 靶标之一，FXS 中 Arc 基础翻译过高参与 mGluR-LTD 过激
 - [[ampa-receptor]] — AMPAR 内吞异常是 FXS 突触权重失调的表现层
 - [[alzheimers-disease]] — AD 中 Aβ 也可通过 mGluR-LTD 样机制引起 AMPAR 移除（不同疾病共享通路）
+- [[intellectual-disability]] — FXS 是已知最常见的遗传性智力障碍病因
+- [[syngap1]] — 另一种以AMPA受体调控失调为核心的单基因智力障碍：FXS通过翻译速率调控（mGluR-LTD过度增强→AMPAR内吞下调），SynGAP1通过结构性占位竞争（PSD-95位点失衡→AMPAR提前上调），机制方向相反但同样破坏AMPA受体调控的精确性和发育关键期时序
 
 ## 未解问题
 
@@ -80,7 +82,9 @@ FXS 小鼠和人死亡后组织均显示：树突棘密度增高（多）但棘�
 ## 修订历史
 
 - 2026-10-17 · 创建 · 基于《mGluR5 依赖的长时程抑制：突触削减的精密设计与脆性X综合征的分子悲剧》(#177) · 初始置信度：高 · 综合 Bear et al. 2004、Dölen et al. 2007、Richter 2021、Thomazeau et al. 2021
+- 2026-07-17 · 修订 rev2 · 基于《占位胜过刹车：当SynGAP1的"刹车"活性被证明并非必需，最常见的单基因智力障碍还剩下什么解释？》(#200) · "连接"新增intellectual-disability、syngap1；补充与SYNGAP1相关疾病在AMPA受体调控层面的机制对比（翻译速率调控 vs 结构性占位竞争，方向相反但同样破坏发育关键期时序）
 
 ## 来源文章
 
 - [[2026-10-17-mglur5-ltd-fragile-x-fmrp]]
+- [[2026-07-17-syngap1-intellectual-disability-mechanism]]

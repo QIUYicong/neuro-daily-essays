@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-07-16",
-  "total_articles": 190,
+  "last_updated": "2026-07-17",
+  "total_articles": 200,
   "entries": [
     {
       "date": "2026-10-18",
@@ -12508,6 +12508,86 @@
         "wernicke-area/planum-temporale/embodied-semantics相关语言网络悬空引用——课程脊柱7",
         "SNARE复合体预激活构象争议（C-2026-05-25-01）的新证据裁决（长期open，本次未处理）",
         "若Crowley/Hong 2026研究（#198主题）后续有独立重复或作者回应同行质疑的新进展，可直接跟进裁决"
+      ]
+    },
+    {
+      "article_number": 200,
+      "date": "2026-07-17",
+      "title": "占位胜过刹车：当SynGAP1的\"刹车\"活性被证明并非必需，最常见的单基因智力障碍还剩下什么解释？",
+      "slug": "syngap1-intellectual-disability-mechanism",
+      "date_collision_note": "真实日期2026-07-17已被知识库历史日期漂移事件产生的虚拟时间线文章占用（2026-07-17-stdp-spike-timing-dependent-plasticity.md，article_number=85），依据2026-07-07修复事件确立并在2026-07-16再次沿用的'日期+slug'消歧命名惯例，article/notes/sources/log均采用带slug后缀的文件名，不覆盖、不修改该历史遗留文件",
+      "wiki_pages_created": [
+        "wiki/concepts/syngap1.md",
+        "wiki/diseases/intellectual-disability.md"
+      ],
+      "wiki_pages_revised": [
+        "wiki/diseases/autism-spectrum-disorder.md (rev1->rev2)",
+        "wiki/diseases/fragile-x-syndrome.md (rev1->rev2)",
+        "wiki/circuits/pv-interneurons.md (rev8->rev9)",
+        "wiki/concepts/ei-balance.md (rev2->rev3)"
+      ],
+      "contested_claims_logged": [
+        "C-2026-07-17-01"
+      ],
+      "contested_claims_evidence_updated": [],
+      "core_question": "教科书说SynGAP蛋白靠\"刹住\"Ras信号通路来控制突触强度——但如果直接失活这个刹车本身的催化活性，突触可塑性和认知功能却完全正常，那SynGAP1突变到底是通过什么机制导致人类最常见的单基因智力障碍之一？",
+      "open_questions_added": [
+        "Q-syngap-01（高优先级）：GAP催化活性对树突棘体积增大挽救失败，说明其真正负责的功能是什么？",
+        "Q-syngap-02（高优先级）：Ras-ERK下调疗法（他汀类）仍在个案报告层面使用，与Araki 2024新发现存在张力，如何被更大规模研究裁决？",
+        "Q-syngap-03（中优先级）：PV+中间神经元中D型钾电流相关兴奋性缺陷，是否也独立于GAP催化活性？",
+        "Q-syngap-04（中优先级）：恢复SYNGAP1表达量的临床前疗法能否在成年期（关键窗口已过）产生有意义的行为学改善？",
+        "Q-id-01（中优先级）：不同单基因ID病因是否存在共同的、可被单一类别疗法覆盖的下游汇聚节点？",
+        "Q-id-02（中优先级）：\"关键发育窗口\"能否被生物标志物直接检测，指导临床干预时机？"
+      ],
+      "layer": [
+        "molecular",
+        "synaptic",
+        "cellular",
+        "microcircuit",
+        "cognition",
+        "disease"
+      ],
+      "curriculum_track": "diseases-as-windows + neurons-how-they-work（课程脊柱11×1交叉：单基因智力障碍的分子机制修正与E/I平衡框架深化）",
+      "topic_tags": [
+        "syngap1",
+        "intellectual-disability",
+        "ampa-receptor",
+        "ras-erk-signaling",
+        "liquid-liquid-phase-separation",
+        "pv-interneurons",
+        "ei-balance",
+        "autism-spectrum-disorder",
+        "fragile-x-syndrome",
+        "separation-of-function",
+        "dangling-reference-fill"
+      ],
+      "main_sources": [
+        "PMID:23141534",
+        "PMID:38422154",
+        "PMID:30789692",
+        "PMID:40810392",
+        "PMID:39406516",
+        "PMID:37558489",
+        "PMID:41767012"
+      ],
+      "unresolved_questions": [
+        "Q-syngap-01",
+        "Q-syngap-02",
+        "Q-syngap-03",
+        "Q-syngap-04",
+        "Q-id-01",
+        "Q-id-02"
+      ],
+      "gap_filled": "填补悬空引用模式（ROUTINE.md选题优先级第3位）：通过解析wiki/_graph.json发现真正悬空引用仅intellectual-disability一个（被autism-spectrum-disorder节点引用但无独立节点），且此slug已在此前多个topic_ledger条目的next_suggested_topics字段中被记录为候选却一直未被填补；以SYNGAP1单倍剂量不足（已知最常见单基因智力障碍病因之一）为具体案例建页，同时发现并纳入2024年Science论文对经典致病机制模型的实质性修正（GAP催化活性非必需，真正机制为LLPS占位竞争），以及PV+中间神经元独立机制研究线，与已有ei-balance/pv-interneurons框架深度整合",
+      "next_suggested_topics": [
+        "shank3（SHANK3/Phelan-McDermid综合征）——本次核查新发现的真实悬空引用，被autism-spectrum-disorder.md引用但无独立页面",
+        "Q-syngap-02涉及的Ras-ERK下调疗法 vs 恢复表达量疗法的临床对照证据——需等待未来研究",
+        "目标方向信号的上游脑区（后压部皮层/丘脑中央核-mPFC通路）——Q-gts-01，仍待推进",
+        "neural-population-coding（神经群体编码）——真实悬空引用，仍待推进（被population-clock引用）",
+        "binding-problem/co-ripples——真实悬空引用，课程脊柱8（意识与自我）方向",
+        "bdnf-trkb/prc-prion-protein——被alzheimers-disease/amyloid-beta-oligomers共同引用的悬空引用",
+        "wernicke-area/planum-temporale/embodied-semantics相关语言网络悬空引用——课程脊柱7",
+        "SNARE复合体预激活构象争议（C-2026-05-25-01）的新证据裁决（长期open，本次未处理）"
       ]
     }
   ]

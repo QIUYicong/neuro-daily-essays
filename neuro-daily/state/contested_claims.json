@@ -1,6 +1,6 @@
 {
   "description": "矛盾登记册。当新证据与既有 wiki 主张冲突时登记于此，防止静默覆盖，确保知识库会学习而非腐烂。详见 KNOWLEDGE-BASE-DESIGN.md 第 6 节。",
-  "last_updated": "2026-09-01",
+  "last_updated": "2026-07-17",
   "schema": {
     "id": "C-YYYY-MM-DD-NN",
     "page": "wiki/<domain>/<slug>.md",
@@ -12,7 +12,7 @@
     "resolved": null,
     "resolution": null
   },
-  "open_count": 5,
+  "open_count": 6,
   "resolved_count": 0,
   "claims": [
     {
@@ -104,6 +104,20 @@
       "source_article": "2026-09-15-lgn-thalamic-reticular-nucleus-attention-gate",
       "priority": "medium",
       "note": "已在LGN专页中明确标注两种测量结果并列，降低该主张的confidence至中，不改变TRN先于LGN4ms的时序事实（两研究对这一机制无争议）"
+    },
+    {
+      "id": "C-2026-07-17-01",
+      "page": "wiki/concepts/syngap1.md",
+      "claim_A": "SynGAP作为RasGAP，通过其催化结构域抑制Ras/Rap-ERK信号来控制突触可塑性和认知功能是核心致病机制；该模型自2012年确立以来（Clement et al. 2012, PMID:23141534）是SYNGAP1领域的标准解释，并为下调Ras-ERK信号的疗法（他汀类药物洛伐他汀、瑞舒伐他汀）提供理论基础，这类疗法仍在个案报告层面被使用并报告行为改善（据Zhang et al. 2026综述转述，PMID:41767012）",
+      "claim_B": "精确的分离功能实验（GAP结构域催化失活敲入小鼠，F484A/R485L点突变）证明：GAP催化活性对LTP（θ簇刺激诱导）、AMPA受体插入（cLTP诱导的SEP-GluA1信号）、工作记忆（Y迷宫）、恐惧条件反射均非必需——这些指标在GAP失活小鼠中与野生型无统计学差异，而在杂合完全敲除小鼠中则显著受损（LTP降低54%）。真正必需的机制是SynGAP C端卷曲螺旋结构域经液-液相分离与TARP竞争PSD-95结合位点的结构性占位机制。论文明确指出，针对Ras-ERK通路失调的现有治疗策略'可能不足以作为治疗手段'（Araki et al. 2024, Science, PMID:38422154）",
+      "nature": "机制归因差异 + 方法差异（完全杂合敲除同时破坏催化活性与蛋白结构完整性 vs 精确点突变仅破坏催化活性，两种模型此前从未被同时对照检验）；同时是新机制证据与仍在临床实践中的旧理论假设之间的真实张力",
+      "status": "open",
+      "opened": "2026-07-17",
+      "resolved": null,
+      "resolution": null,
+      "priority": "high",
+      "source_article": "2026-07-17-syngap1-intellectual-disability-mechanism",
+      "note": "不影响'SYNGAP1单倍剂量不足导致智力障碍'这一核心事实，但直接挑战了目前仍在个案层面使用的他汀类Ras-ERK下调疗法的机制理论基础；claim_B未能挽救树突棘体积增大这一表型，说明GAP催化活性可能仍对其他未被完全定位的功能是必需的，claim_A与claim_B并非完全互斥，而是'哪些具体表型依赖哪种机制'这一问题尚未被完全厘清；建议后续跟踪Zhang 2026综述中提及的基因治疗/ASO/taRNA等以恢复表达量为目标的疗法临床进展，以及是否有对照临床试验直接检验他汀类疗法的有效性"
     }
   ]
 }

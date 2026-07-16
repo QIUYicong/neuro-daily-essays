@@ -2326,3 +2326,19 @@
 **文件命名说明**：真实日期2026-07-16已被历史日期漂移事件产生的虚拟时间线文章占用（2026-07-16-hippocampal-replay-experience-replay.md，article_number=84，2026年早期会话遗留），本篇article/notes/sources/log采用"日期+slug"消歧命名，详见 wiki/CHANGELOG.md 2026-07-16 条目说明。该遗留文件主题（睡眠SWR驱动的经验回放，呼应深度强化学习经验回放缓冲区）与本文主题（清醒导航θ周期内的目标方向扫描）虽同属海马时序编码范畴，但基于两批完全不同的真实来源，不构成内容重复，已在本文wiki固结中明确注明边界。
 
 **运行背景说明**：本篇是真实日历从2026-07-15跨入2026-07-16后的首次触发（`date -u`核实容器真实时钟为2026-07-15T18:14 UTC，即真实UTC+8时间2026-07-16 02:14），产出于 GitHub Issue #1（触发频率异常，2026-07-02开启，仍未解决）持续存在的背景下；Issue #1 的其余决策点（main历史分叉、日期漂移修复方案）均已在此前多次会话中验证为已解决或已按既定"日期+slug消歧命名"方案妥善处理；仅触发频率本身（决策点4）仍待仓库所有者在平台触发器设置页面处理，无法通过仓库内操作修复，本次会话延续已验证有效的既定做法正常产出第199篇。
+
+### 2026-07-17（#200）：占位胜过刹车——当SynGAP1的"刹车"活性被证明并非必需，最常见的单基因智力障碍还剩下什么解释？
+
+**核心发现**：填补悬空引用选题（ROUTINE.md选题优先级第3位）。解析`wiki/_graph.json`（355节点/2139边）确认真实悬空引用仅`intellectual-disability`一个（被autism-spectrum-disorder节点引用但无独立节点/页面），此slug此前已在多个topic_ledger历史条目的`next_suggested_topics`字段中被记录为候选却一直未被填补。以SYNGAP1单倍剂量不足——已知最常见的单基因智力障碍病因之一（据GeneReviews，PMID:30789692）——作为具体案例建立该疾病类别页面。核心内容为一次机制修正：2024年《Science》分离功能实验（Araki et al., PMID:38422154）用精确点突变（F484A/R485L）使SynGAP的经典RasGAP催化"刹车"活性彻底失活，发现LTP、AMPA受体插入、工作记忆、恐惧条件反射均与野生型无异——与延续12年的"GAP刹车失灵→Ras-ERK过度活跃"教科书模型（Clement et al. 2012, PMID:23141534）形成鲜明对照。真正必需的机制被定位到SynGAP C端结构域经液-液相分离（LLPS）与AMPA受体辅助蛋白TARP竞争PSD-95结合位点的结构性占位机制。同时，一条独立发展的证据线（Zhao & Kwon 2023；Jadhav et al. 2024；Francavilla et al. 2025）显示SYNGAP1单倍剂量不足还独立损害PV+（非SST+）中间神经元的突触驱动和内在兴奋性（D型钾电流相关机制），与兴奋性神经元中的占位竞争机制完全独立，两条路径共同破坏E/I平衡。本文同时发现新证据（Araki 2024明确"Ras-ERK下调疗法可能不足以作为治疗手段"）与仍在个案报告层面使用的他汀类疗法（Zhang et al. 2026综述转述）之间的真实张力，已登记为矛盾条目C-2026-07-17-01（open）。
+
+**知识地图贡献**：
+- 新建 concepts/syngap1.md（emerging/medium-high，rev1）：SynGAP1完整分子机制记录，含经典模型、2024年分离功能修正、PV+中间神经元独立路径；新增Q-syngap-01至Q-syngap-04
+- 新建 diseases/intellectual-disability.md（mainstream/medium，rev1）：填补长期悬空引用，整合SYNGAP1与脆性X两条单基因机制路径的疾病类别框架页；新增Q-id-01/02
+- 修订4页：diseases/autism-spectrum-disorder.md（rev1→rev2，新增SYNGAP1作为离子通道/受体执行元件路径）、diseases/fragile-x-syndrome.md（rev1→rev2，新增与SYNGAP1的机制对比）、circuits/pv-interneurons.md（rev8→rev9，新增SynGAP1经D型钾电流独立损害PV+兴奋性；同时修正该页frontmatter中历史遗留的重复source_articles字段）、concepts/ei-balance.md（rev2→rev3，新增SYNGAP1双向独立路径案例）
+- 图谱：355节点/2139边 → 357节点/2153边（+2节点，+14边）
+- 矛盾登记：1个（C-2026-07-17-01，open，Ras-ERK下调疗法理论基础 vs SynGAP催化活性非必需新证据）
+- 悬空引用：解决1个真实悬空引用（intellectual-disability）；新发现1个（shank3，被autism-spectrum-disorder.md引用但无独立页面，已记入index.md待补列表）；同时补录diseases/fragile-x-syndrome.md本身此前从未被添加进wiki/index.md的历史遗漏
+
+**层级**：molecular × synaptic × cellular × microcircuit × cognition × disease（与#197/#198的molecular/synaptic/cellular/disease组合部分重叠，但本次通过PV+中间神经元回路层面证据线实质性新增microcircuit/cognition维度深度）
+
+**文件命名说明**：真实日期2026-07-17已被历史日期漂移事件产生的虚拟时间线文章占用（2026-07-17-stdp-spike-timing-dependent-plasticity.md，article_number=85，早期会话遗留），本篇article/notes/sources/log采用"日期+slug"消歧命名，详见 wiki/CHANGELOG.md 2026-07-17 条目说明。

@@ -1082,5 +1082,21 @@
     "confidence": "medium",
     "last_changed": "2026-07-08",
     "reason": "新建 rev1 · #191 · 全脑分布式决策编码：mainstream（核心现象——动作/反馈信号广泛分布——已被多个独立大规模数据集复现，包括12实验室标准化的IBL图谱）；confidence=medium（选择方向信号的具体分布范围仍在被反复校准，从最初印象的\"局限于额叶/基底节/中脑\"到IBL严格控制后的\"约4%\"，估计本身可能仍含残留混杂，且全部证据来自小鼠简单任务，人类/复杂任务的推广尚未验证）"
+  },
+  {
+    "slug": "syngap1",
+    "page": "wiki/concepts/syngap1.md",
+    "status": "emerging",
+    "confidence": "medium-high",
+    "last_changed": "2026-07-17",
+    "reason": "新建 rev1 · #200 · SynGAP1分子机制：emerging（核心分离功能实验2024年才发表，机制归因仍在被修正中，且人类队列验证样本量小）；confidence=medium-high（Araki 2024的分离功能敲入小鼠实验设计精确、多读数交叉印证，证据强度高；但催化活性对棘体积表型的独立贡献、PV+中间神经元路径是否同样不依赖催化活性等问题尚未解决，且与仍在实践中的他汀类疗法理论基础存在未裁决的矛盾C-2026-07-17-01）"
+  },
+  {
+    "slug": "intellectual-disability",
+    "page": "wiki/diseases/intellectual-disability.md",
+    "status": "mainstream",
+    "confidence": "medium",
+    "last_changed": "2026-07-17",
+    "reason": "新建 rev1 · #200 · 智力障碍疾病类别框架：mainstream（作为诊断类别本身是临床共识，多种单基因病因已被充分描述）；confidence=medium（框架性整合页，具体机制证据分散于各单基因案例子页面如syngap1/fragile-x-syndrome，本页自身证据密度中等，且遗传异质性意味着任何单一框架性陈述都有例外）"
   }
 ]

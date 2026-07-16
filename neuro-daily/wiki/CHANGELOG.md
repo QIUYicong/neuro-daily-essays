@@ -4,6 +4,41 @@
 
 ---
 
+## 2026-07-17 · 文章 #200 · 占位胜过刹车：当SynGAP1的"刹车"活性被证明并非必需，最常见的单基因智力障碍还剩下什么解释？
+
+**命名说明**：真实日期2026-07-17已被本知识库历史"日期漂移"事件产生的虚拟时间线文章占用（`2026-07-17-stdp-spike-timing-dependent-plasticity.md`，article_number=85），依据2026-07-07修复事件确立并在2026-07-16再次沿用的"日期+slug"消歧命名惯例，本篇article/notes/sources/log均采用带slug后缀的文件名，不覆盖、不修改、不引用该历史遗留文件（含对应notes/sources/log）。
+
+**选题依据**：填补悬空引用（ROUTINE.md 选题优先级第3位）——通过解析`wiki/_graph.json`（355节点/2139边）发现真正的悬空引用仅`intellectual-disability`一个（被`autism-spectrum-disorder`节点的related边引用但无独立节点/页面），且该slug此前已在`state/topic_ledger.json`历史条目的`next_suggested_topics`字段中被记录为候选至少两次而一直未被填补。以SYNGAP1单倍剂量不足——已知最常见的单基因智力障碍病因之一——作为具体切入点建立该疾病类别页面，同时发现并纳入2024年一项对经典致病机制模型提出实质性修正的《Science》论文（Araki et al., PMID:38422154：SynGAP的RasGAP催化"刹车"活性被证明对LTP/AMPA受体插入/多项认知行为并非必需，真正机制是C端结构域经液-液相分离与TARP竞争PSD-95结合位点的占位竞争），以及2023–2025年间独立发展的PV+中间神经元自主性SYNGAP1机制研究线（与本知识库已有的[[ei-balance]]/[[pv-interneurons]]框架高度契合）。
+
+**新建页面（2个）**：
+
+- `wiki/concepts/syngap1.md`（rev1，emerging/medium-high）：SynGAP1分子机制完整记录——经典RasGAP催化模型 vs 2024年分离功能实验证明的非催化占位竞争机制；PV+中间神经元中独立的钾通道相关兴奋性缺陷路径；两条机制共同破坏E/I平衡。新增 Q-syngap-01至Q-syngap-04
+- `wiki/diseases/intellectual-disability.md`（rev1，mainstream/medium）：填补长期悬空引用；疾病类别框架页，整合SYNGAP1（结构性占位失衡）与脆性X（翻译调控失调）两条本知识库详细记录的单基因机制路径。新增 Q-id-01/02
+
+**修订页面（4个）**：
+
+- `wiki/diseases/autism-spectrum-disorder.md` rev1→rev2：分子路径集群第3类新增SYNGAP1；新增"突触结构性占位失衡"小节；related新增syngap1；key_sources新增PMID:38422154
+- `wiki/diseases/fragile-x-syndrome.md` rev1→rev2：连接新增intellectual-disability、syngap1；补充与SYNGAP1相关疾病在AMPA受体调控层面的机制对比（翻译速率调控 vs 结构性占位竞争，方向相反）
+- `wiki/circuits/pv-interneurons.md` rev8→rev9：新增"SYNGAP1单倍剂量不足的独立致病路径"小节（PV+特异性突触驱动降低+D型钾电流相关内在兴奋性降低，独立于AMPA受体占位机制）；关键证据表新增1行；related新增syngap1；key_sources新增2个PMID；同时修正本页frontmatter中此前存在的重复`source_articles`字段（历史遗留格式错误）
+- `wiki/concepts/ei-balance.md` rev2→rev3：新增SYNGAP1作为"双向独立路径汇聚于E/I失衡"第三个典型案例（与NLGN3、ASD五大集群并列）；证据表新增1行；related新增syngap1、intellectual-disability
+
+**矛盾登记（1个）**：
+
+- `C-2026-07-17-01`（登记于`wiki/concepts/syngap1.md`，status: open）：claim_A为经典"SynGAP作为RasGAP通过下调Ras-ERK信号控制突触可塑性"模型及其催化的他汀类疗法个案实践（Clement et al. 2012, PMID:23141534；Zhang et al. 2026综述转述的个案报告，PMID:41767012）；claim_B为Araki et al. 2024（PMID:38422154）的直接分离功能证据——GAP催化失活敲入小鼠LTP/AMPA受体插入/多项认知行为均正常，真正必需机制为结构性占位竞争，论文明确指出"Ras-ERK下调疗法可能不足以作为治疗手段"。这是新机制证据与仍在实践中的旧理论假设之间的真实张力，未删除任何旧主张，已在两处（syngap1.md"当前理解"、文章"争议与未解问题"）如实呈现。
+
+**悬空引用**：
+
+- **填补1个**：`intellectual-disability`（被autism-spectrum-disorder.md、fragile-x-syndrome.md引用，长期真实悬空引用，本次建立独立页面）
+- **新发现1个**：`shank3`——本次核查中发现被`autism-spectrum-disorder.md`的`related`字段引用（Phelan-McDermid综合征/PSD支架蛋白），但既无独立wiki页面也无图谱节点，此前未被记录在`wiki/index.md`"待补的悬空引用"清单中。已补充记录于该清单，供后续会话优先处理。
+
+**图谱变化**：355节点/2139边 → **357节点/2153边**（+2节点：syngap1, intellectual-disability；+14边：syngap1↔ampa-receptor/liquid-liquid-phase-separation/ltp/pv-interneurons/ei-balance/fragile-x-syndrome/autism-spectrum-disorder/critical-period/dendritic-spine，intellectual-disability↔syngap1/fragile-x-syndrome/autism-spectrum-disorder/ampa-receptor）
+
+**层级**：molecular × synaptic × cellular × microcircuit × cognition × disease（与#197/#198的molecular/synaptic/cellular/disease组合部分重叠，但本次通过PV+中间神经元回路层面证据线新增microcircuit/cognition维度的实质内容深度，区别于#197/#198）
+
+**索引补录**：本次同时发现并修复`wiki/diseases/fragile-x-syndrome.md`（页面创建于2026-10-17）此前从未被添加进`wiki/index.md`的历史遗漏，已在本次一并补录。
+
+---
+
 ## 2026-07-16 · 文章 #199 · 脚还没动，海马已经指向了目标：两组互不知情的实验室，如何在同一个θ周期里读出大脑的"认知向量"
 
 **命名说明**：真实日期2026-07-16已被本知识库历史"日期漂移"事件产生的虚拟时间线文章占用（`2026-07-16-hippocampal-replay-experience-replay.md`，article_number=84），依据2026-07-07修复事件确立的"日期+slug"消歧命名惯例，本篇article/notes/sources/log均采用带slug后缀的文件名，不覆盖、不修改、不引用该历史遗留文件。特别说明：该遗留文件主题为睡眠/静息期SWR驱动的经验回放（呼应深度强化学习经验回放缓冲区），与本文主题（清醒导航时θ周期内的目标方向扫描）虽同属海马时序编码范畴，但基于两批完全不同的真实来源，不构成内容重复；本文wiki固结中已在`sharp-wave-ripples.md`新增证据行时明确注明与该遗留条目的边界。
