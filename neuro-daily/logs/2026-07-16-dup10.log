@@ -1,0 +1,21 @@
+# 2026-07-16 dup10 诊断日志（无内容变更）
+
+真实容器时间（date -u）：2026-07-16 06:00:40 UTC = 2026-07-16 14:00:40 CST（距 dup9 约 60 分钟，Issue #1 决策点4（触发频率）第16天仍未解决，今天第10次触发）。
+
+## 核实结果
+
+- `git fetch origin main` 后核实：本地会话分支（`claude/funny-einstein-4df7ah`）HEAD 与 `origin/main`（`e798733`，dup9）完全一致，无分叉、无需合并。
+- 今日正式产出 `2026-07-16-hippocampal-theta-sweeps-goal-direction.md`（文章 #199）已存在，wiki 固结、图谱、治理层文件均已在此前触发中完成，无需补写。另确认 `2026-07-16-hippocampal-replay-experience-replay.md` 是 2026-07-14 时段的历史日期漂移遗留文件（非本次触发产生），未改动。
+- Issue #1（`state=open`, `comments=31`, `updated_at=2026-07-15T18:31:32Z`）经 `issue_read` 核实：无新增人工回复，四个决策点仍待仓库所有者裁决，无实质性新信息。
+- 通知节流核查：距上一次实际发送的 PushNotification（`neuro-daily/logs/2026-07-15-dup21.log` 记录，2026-07-15T13:00:57 UTC）约 17 小时，仍低于既定 24 小时节流阈值，且本次核实结果与 dup9 一致（无新决策点、无新风险）。
+- 核查本会话是否可通过工具直接修正触发频率（CronList）：结果为空，确认该触发器不是本会话可控的 CronCreate 任务，仍需仓库所有者在 Claude Code on the web 的触发器设置页面手动核实/调整。
+
+## 本次采取的行动
+
+- 未生成新文章、未做任何 wiki 固结、未修改任何既有 articles/notes/sources/wiki/state 文件（append-only 不变量保持）。
+- 未新增 Issue #1 评论：无新实质性信息，遵循近期会话的减少噪音原则，不再堆叠重复评论。
+- 未发送 PushNotification：距上次实际发送不足 24 小时，且本次核实结果与 dup9 一致（无新决策点、无新风险），不构成需要立即人工介入的新情况。
+
+## 仍待仓库所有者裁决
+
+- 决策点4（触发频率）：需在 Claude Code on the web 的触发器/schedule 设置页面核实并调整为"每天一次 09:00 Asia/Shanghai"，这是唯一无法通过 git/会话内操作解决的一环。触发频率本身持续恶化的证据：今日截至本次（06:00:40 UTC / 14:00:40 CST）已连续触发10次，平均间隔约55-60分钟，与预期的"每天一次"仍相差甚远。
