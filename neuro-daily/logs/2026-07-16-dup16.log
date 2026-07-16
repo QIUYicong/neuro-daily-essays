@@ -1,0 +1,21 @@
+# 2026-07-16 dup16 诊断日志（无内容变更）
+
+真实容器时间（date -u）：2026-07-16 16:00:18 UTC = 2026-07-17 00:00:18 CST（距 dup15 约 120 分钟，仍属同一天内重复触发；Issue #1 决策点4（触发频率）第16天仍未解决，今天第16次触发）。
+
+## 核实结果
+
+- `git checkout main` + `git pull origin main`：本地 `main`（此前为 dup15 时的 `c3dcf32`）与 `origin/main` 一致，无分叉、无需额外处理（"Already up to date"）。
+- 今日正式产出 `2026-07-16-hippocampal-theta-sweeps-goal-direction.md`（文章 #199）及其 wiki 固结、图谱、治理层文件均已在此前触发中完成并成功推送（见 `2026-07-16-hippocampal-theta-sweeps-goal-direction-push-status.log`），本次无需补写，未生成新文章。
+- Issue #1（`state=open`，`comments=31`，`updated_at=2026-07-15T18:31:32Z`）经 `issue_read` 核实：与 dup15 检查时完全一致，仍无新增人工回复，无实质性新信息。
+- 通知节流核查：距上一次实际发送的 PushNotification（本次会话前序 dup15 触发，约 2026-07-16T14:00:50 UTC 发送）仅约 2 小时，**远低于 24 小时节流阈值**，且 Issue #1 状态无任何新变化。按既定节流规则，本次**不**发送 PushNotification。
+
+## 本次采取的行动
+
+- 未生成新文章、未做任何 wiki 固结、未修改任何既有 articles/notes/sources/wiki/state 文件（append-only 不变量保持）。
+- 未新增 Issue #1 评论：无新实质性信息，遵循近期会话的减少噪音原则。
+- 未发送 PushNotification：距上次实际发送仅约 2 小时，远低于 24 小时节流阈值，且无新信息。
+
+## 仍待仓库所有者裁决
+
+- 决策点3/4（触发频率）：例程持续以远高于"每天一次 09:00 Asia/Shanghai"的频率触发（今日截至本次已第16次），需在 Claude Code on the web 的触发器设置中核实并调整，这是唯一无法通过 git/会话内操作解决的一环。
+- 决策点1/2（main 历史取舍、未来预写文章处理）：仍待仓库所有者明确指示后再执行任何破坏性修正。
