@@ -74,3 +74,11 @@
 ## Git 操作
 
 - 本次任务明确要求不运行任何git命令（add/commit/push），且跳过0节分支同步。所有文件修改均已完成并保存在工作目录，等待外部流程处理。
+
+## Push 状态（外部流程补记）
+
+- 审核方（主会话）复核全部文件后执行：分支 main，`git add neuro-daily/` → commit `28d2390`（"Add neuro daily article + wiki consolidation for 2026-07-17"）→ `git pull --rebase origin main`（无远程新提交，无需变基）→ `git push origin main`。
+- commit hash: `28d2390ba1f199739fac2ad258d810e2a79a31d6`
+- push: 成功，干净快进（`ed41bf8..28d2390 main -> main`），无冲突、无强推
+- 独立核实：`git ls-remote origin main` 返回 `28d2390...`，与本地 HEAD 一致
+- 状态：✅ 完成
