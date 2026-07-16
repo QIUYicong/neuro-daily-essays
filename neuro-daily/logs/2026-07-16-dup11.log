@@ -1,0 +1,22 @@
+# 2026-07-16 dup11 诊断日志（无内容变更）
+
+真实容器时间（date -u）：2026-07-16 07:01:39 UTC = 2026-07-16 15:01:39 CST（距 dup10 约 61 分钟，Issue #1 决策点4（触发频率）第16天仍未解决，今天第11次触发）。
+
+## 核实结果
+
+- 本次会话启动时本地 `main` 分支处于浅克隆（shallow clone）产生的分叉状态（与 `origin/main` 显示 50 vs 50 个互不包含的提交）。经 `git fetch --unshallow origin` 核实后确认：本地 `main`（`fcdd216`，来自 2026-07-11 dup4 会话遗留）是 `origin/main` 的**真实祖先**，非独立分叉，用 `git merge --ff-only origin/main` 安全快进，无数据丢失、无需处理冲突。
+- 今日正式产出 `2026-07-16-hippocampal-theta-sweeps-goal-direction.md`（文章 #199）及其 wiki 固结（`wiki/CHANGELOG.md` 顶部 `## 2026-07-16 · 文章 #199 · ...` 一节）、图谱、治理层文件均已在此前触发中完成，无需补写。
+- 另确认 `2026-07-16-hippocampal-replay-experience-replay.md`（及对应的 `2026-07-16-reading-notes.md`/`2026-07-16-sources.json`/`CHANGELOG.md` 中 `## 2026-07-16（文章 #84 ...）`一节）是历史日期漂移遗留文件（真实产出于更早会话，非本次或今日新触发产生），未改动，符合 append-only 不变量。
+- Issue #1（`state=open`, `comments=31`, `updated_at=2026-07-15T18:31:32Z`）经 `issue_read` 核实：无新增人工回复，四个决策点仍待仓库所有者裁决，无实质性新信息。
+- 通知节流核查：距上一次实际发送的 PushNotification（`neuro-daily/logs/2026-07-15-dup21.log` 记录，2026-07-15T13:00:57 UTC）约 18 小时，仍低于既定 24 小时节流阈值，且本次核实结果与 dup10 一致（无新决策点、无新风险）。
+
+## 本次采取的行动
+
+- 未生成新文章、未做任何 wiki 固结、未修改任何既有 articles/notes/sources/wiki/state 文件（append-only 不变量保持）。
+- 解决了浅克隆导致的本地/远程分叉表象（`fetch --unshallow` + `merge --ff-only`），无破坏性操作，无数据丢失。
+- 未新增 Issue #1 评论：无新实质性信息，遵循近期会话的减少噪音原则，不再堆叠重复评论。
+- 未发送 PushNotification：距上次实际发送不足 24 小时，且本次核实结果与 dup10 一致（无新决策点、无新风险），不构成需要立即人工介入的新情况。
+
+## 仍待仓库所有者裁决
+
+- 决策点4（触发频率）：需在 Claude Code on the web 的触发器/schedule 设置页面核实并调整为"每天一次 09:00 Asia/Shanghai"，这是唯一无法通过 git/会话内操作解决的一环。触发频率本身持续恶化的证据：今日截至本次（07:01:39 UTC / 15:01:39 CST）已连续触发11次，平均间隔约55-60分钟，与预期的"每天一次"仍相差甚远。
