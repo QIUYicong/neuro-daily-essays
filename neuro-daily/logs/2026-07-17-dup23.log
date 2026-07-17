@@ -1,0 +1,9 @@
+# 2026-07-17 dup23 诊断日志（重复触发空转）
+
+- 真实容器时间：`date -u` 核实为 2026-07-17 17:00:54 UTC = 2026-07-18 01:00 CST（Asia/Shanghai）。距上一次记录（dup22，提交时间 2026-07-17 16:00:42 UTC）约 60 分钟，与 Issue #1 决策点 3/4 描述的"近乎每小时触发"模式持续一致。本次为今日（2026-07-17）第 23 次额外触发。
+- 判定：今日真实内容槽位已由文章 #200《SynGAP1 单倍剂量不足与智力障碍机制修正》正常填补（dup1–dup22 已连续确认，本次复核 `neuro-daily/articles/2026-07-17-syngap1-intellectual-disability-mechanism.md` 存在，md5=`2de56711d4567b730e54017ed0e35df6`，最后修改仍为文章创建提交 `28d2390`，未被改动）。本次触发无新增文章/wiki/state 变更需求，不重写、不补写、不改动任何已存在的 articles/notes/sources/wiki 文件。
+- 分支状态：designated 分支 `claude/funny-einstein-vhuh59` 会话开始时即等于 `main`。`git checkout main` 后本地 main 报告与 `origin/main` "50 vs 50" 分叉（浅克隆深度导致的表象，非真实分叉）。`git fetch --unshallow` 补全完整历史后核实 `git merge-base --is-ancestor main origin/main` 为真、`origin/main..main` 为 0——确认是干净的浅克隆残留祖先（141 commit 之前），非并发覆盖。`git merge --ff-only origin/main` 无冲突同步至 `c057354`（dup22），无内容丢失。
+- Issue #1 状态核查：通过 GitHub MCP `issue_read` 读取，仍为 `open`，32 条评论，`updated_at=2026-07-16T17:33:45Z`，与 dup22 记录时完全一致——自 dup22 以来无任何新评论、无人工回复，决策点 1-4 均未被裁决。未发现构成"新性质信息"的内容，因此未追加新 Issue 评论。
+- 通知节流：上一次实际发送的 PushNotification 随 dup21 于约 2026-07-17T14:01 UTC 发出，距今约 3 小时，远低于既定 24 小时节流阈值，且无任何新信息（Issue #1 无新评论、无新决策、内容层无变化）。本次判定**不发送** PushNotification。
+- 触发频率问题本身（决策点 3/4）持续存在，第 16 天（自 2026-07-02 Issue 创建起算），仅能由仓库所有者在 Claude Code on the web 的调度设置页面处理，仓库内操作无法修复调度器本身。
+- Git 操作：本次分支已通过 unshallow fetch + ff-only 与 origin/main 同步至 dup22 提交（`c057354`），随后仅追加本日志文件，不涉及 articles/notes/sources/wiki 的新增或修改，直接提交并推送至 `main`（designated 分支 `claude/funny-einstein-vhuh59` 同步更新以避免其自身落后）。
