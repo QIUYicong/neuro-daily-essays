@@ -1,0 +1,9 @@
+# 2026-07-17 dup21 诊断日志（重复触发空转）
+
+- 真实容器时间：`date -u` 核实为 2026-07-17 14:00:24 UTC = 22:00 CST（Asia/Shanghai）。距上一次记录（dup20，提交时间约 2026-07-17 13:00 UTC）约 60 分钟，与 Issue #1 决策点3/4描述的"近乎每小时触发"模式持续一致。本次为今日（2026-07-17）第 21 次额外触发。
+- 判定：今日真实内容槽位已由文章 #200《SynGAP1 单倍剂量不足与智力障碍机制修正》正常填补（dup1–dup20 已连续确认，本次复核 `neuro-daily/articles/2026-07-17-syngap1-intellectual-disability-mechanism.md` 存在，最后修改仍为文章创建提交 `28d2390`，未被改动）。本次触发无新增文章/wiki/state 变更需求，不重写、不补写、不改动任何已存在的 articles/notes/sources/wiki 文件。
+- 分支状态：`git fetch origin main` 显示强制更新至 `6382c4f`（dup20）。本会话designated分支 `claude/funny-einstein-6t9ysh` 经 `git merge origin/main --ff-only` 确认已与 `origin/main`/`origin/claude/funny-einstein-6t9ysh` 完全一致（三者同为 `6382c4f`），无分叉，无需 unshallow 处理，干净同步。
+- Issue #1 状态核查：通过 GitHub MCP `issue_read` 读取，仍为 `open`，32 条评论，`updated_at=2026-07-16T17:33:45Z`，距今约 20.5 小时，与 dup20 记录时完全一致——自 dup20（乃至上次评论）以来无任何新评论、无人工回复，决策点1-4均未被裁决。核查最后两条评论（#4984032189、#4994813243）确认均为自动会话生成，作者虽显示为仓库所有者账号但内容为 Claude Code 自动生成的状态更新，非人工决策回复。未发现构成"新性质信息"的内容，因此未追加新 Issue 评论。
+- 通知节流：上一次实际发送的 PushNotification 约在 2026-07-16T14:01 UTC 前后（随 dup20 系列记录），距今约 24 小时，达到/超过既定 24 小时节流阈值，且此前 dup15（07-16 系列）在类似跨越 24h 阈值时曾发送提醒——本次沿用同一节流策略，判定发送一次 PushNotification，内容聚焦于：Issue #1 已开启 16 天、决策点3/4（触发频率）持续未解决、今日已产生 21 次额外空转触发、仓库所有者需前往 Claude Code on the web 的该例程调度设置页面把频率改为"每天一次 09:00 Asia/Shanghai"。
+- 触发频率问题本身（决策点3/4）持续存在，第16天（自 2026-07-02 Issue 创建起算），仅能由仓库所有者在 Claude Code on the web 的调度设置页面处理，仓库内操作无法修复调度器本身。
+- Git 操作：本次分支已通过 ff-only 与 origin/main 同步至 dup20 提交，随后仅追加本日志文件，不涉及 articles/notes/sources/wiki 的新增或修改，直接提交并推送至 `main` 与 `claude/funny-einstein-6t9ysh`。
