@@ -1,0 +1,135 @@
+{
+  "article": "2026-07-18-oxytocin-amygdala-cataplexy.md",
+  "article_number": 201,
+  "date": "2026-07-18",
+  "title": "甜到瘫软：催产素如何在杏仁核里把奖赏信号翻译成猝倒的开关",
+  "core_question": "猝倒几乎只被强烈的正性情绪或奖赏刺激触发——十几年前的解剖学因果研究已经证明中央杏仁核的GABA能神经元通过抑制脑干'抗猝倒'神经元来引发这一过程，但'情绪/奖赏信号'具体经由哪个分子信使被翻译成这条抑制通路的开关，此前未知。",
+  "sources": [
+    {
+      "label": "S1",
+      "role": "核心突破来源（摘要级）",
+      "pmid": "42449131",
+      "pmcid": null,
+      "doi": "10.1038/s41593-026-02352-7",
+      "title": "Oxytocin promotes socially triggered cataplexy",
+      "authors_short": "Mahoney CE, De Luca R, Joyal AA, et al. (Scammell lab, Beth Israel Deaconess Medical Center / Harvard Medical School)",
+      "journal": "Nature Neuroscience",
+      "year": 2026,
+      "publication_date": "2026-07-14",
+      "open_access": false,
+      "full_text_read": false,
+      "access_note": "订阅制期刊；Europe PMC 记录 isOpenAccess=N、inEPMC=N，无 PMC 存档；本次仅读取 PubMed 摘要，未获取全文，文中已明确标注'摘要级信息'",
+      "aspects_covered": [
+        "社会重聚触发发作性睡病小鼠猝倒",
+        "催产素受体拮抗剂阻断社交诱发猝倒",
+        "催产素张力/CeA催产素受体阳性神经元活动在猝倒前上升",
+        "化学遗传学/光遗传学证明CeA催产素响应神经元抑制脑干抗猝倒神经元驱动猝倒",
+        "巧克力（非社交奖赏刺激）同样激活该通路并触发猝倒"
+      ]
+    },
+    {
+      "label": "S2",
+      "role": "同期配套文章（仅题录，未获取内容）",
+      "pmid": "42449133",
+      "pmcid": null,
+      "doi": "10.1038/s41593-026-02349-2",
+      "title": "Oxytocin in the amygdala links social and reward signals to cataplexy in mice",
+      "authors_short": "[No authors listed in PubMed record]",
+      "journal": "Nature Neuroscience",
+      "year": 2026,
+      "publication_date": "2026-07-14",
+      "open_access": false,
+      "full_text_read": false,
+      "access_note": "仅确认题录信息（标题/DOI/期刊/日期），未获取摘要或正文；据无作者列表推测可能是S1的编辑评述/研究简报，但本次未验证，未据推测虚构具体内容",
+      "aspects_covered": []
+    },
+    {
+      "label": "S3",
+      "role": "核心开放全文（奠基性一手研究，因果电路证据）",
+      "pmid": "23739970",
+      "pmcid": "PMC3704329",
+      "doi": "10.1523/JNEUROSCI.5632-12.2013",
+      "title": "Amygdala lesions reduce cataplexy in orexin knock-out mice",
+      "authors_short": "Burgess CR, Oishi Y, Mochizuki T, Peever JH, Scammell TE",
+      "journal": "Journal of Neuroscience",
+      "year": 2013,
+      "open_access": true,
+      "full_text_read": true,
+      "access_note": "PMC author manuscript，经 NCBI BioC API 完整读取全文",
+      "aspects_covered": [
+        "CeA GABA能神经元投射至vlPAG/LPT、LC、DR（脑干抗猝倒/抗atonia区域）",
+        "双侧CeA兴奋性毒性损毁使基线猝倒减少，跑轮诱发猝倒减少58%，跑轮+巧克力诱发猝倒减少42%",
+        "损毁不影响正常REM睡眠肌张力弛缓（特异性证据）",
+        "损毁不能完全消除猝倒，提示存在其他并行通路"
+      ]
+    },
+    {
+      "label": "S4",
+      "role": "核心开放全文（综述，2026年新证据发表前的知识边界）",
+      "pmid": "37266541",
+      "pmcid": "PMC10230954",
+      "doi": null,
+      "title": "Amygdala neurocircuitry at the interface between emotional regulation and narcolepsy with cataplexy",
+      "authors_short": "(Frontiers in Neuroscience review, 2023)",
+      "journal": "Frontiers in Neuroscience",
+      "year": 2023,
+      "open_access": true,
+      "full_text_read": true,
+      "access_note": "Frontiers 开放获取期刊，经 NCBI BioC API 完整读取全文",
+      "aspects_covered": [
+        "人类NT1患者杏仁核体积/代谢/连接异常的影像学证据汇总",
+        "2017年两个独立团队化学遗传学（Gq-DREADD）操控CeA GABA能神经元改变猝倒发作率（据综述转引，未核实原始PMID）",
+        "背侧中缝5-HT能投射抑制CeA活动减少猝倒样发作",
+        "BLA多巴胺信号与Drd2神经元光遗传抑制诱发猝倒",
+        "杏仁核-食欲素神经元双向投射（食欲素兴奋杏仁核，杏仁核反向调控食欲素神经元）"
+      ]
+    },
+    {
+      "label": "S5",
+      "role": "背景一致性核对来源（本知识库既有来源）",
+      "pmid": "26721620",
+      "pmcid": "PMC5114175",
+      "doi": null,
+      "title": "Challenges in the development of therapeutics for narcolepsy",
+      "authors_short": "(Progress in Neurobiology review, 2016)",
+      "journal": "Progress in Neurobiology",
+      "year": 2016,
+      "open_access": true,
+      "full_text_read": false,
+      "access_note": "此前会话（narcolepsy.md/orexin-hypocretin.md创建时）已完整读取，本次仅用于核对NT1病理生理学既有事实的一致性，未重新逐段通读",
+      "aspects_covered": [
+        "食欲素神经元85-95%丢失",
+        "CSF Hcrt-1 ≤110 pg/mL 诊断阈值",
+        "HLA-DQB1*06:02 遗传关联"
+      ]
+    },
+    {
+      "label": "S6",
+      "role": "官方机构来源",
+      "pmid": null,
+      "pmcid": null,
+      "doi": null,
+      "url": "https://www.ninds.nih.gov/health-information/disorders/narcolepsy",
+      "title": "Narcolepsy",
+      "authors_short": "National Institute of Neurological Disorders and Stroke (NINDS)",
+      "journal": "官方机构页面",
+      "year": 2026,
+      "open_access": true,
+      "full_text_read": true,
+      "access_note": "直接HTTP GET成功读取全文，访问日期2026-07-17",
+      "aspects_covered": [
+        "猝倒的临床定义与鉴别特征（发作中意识清醒、时长数秒至数分钟）",
+        "约10%病例中猝倒为首发症状",
+        "REM睡眠正常肌张力弛缓机制的科普性说明"
+      ]
+    }
+  ],
+  "summary": {
+    "total_sources": 6,
+    "open_full_text_count": 3,
+    "official_institution_count": 1,
+    "abstract_only_or_metadata_only_count": 2,
+    "meets_routine_minimum": true,
+    "notes": "S1为核心突破证据但仅摘要级（订阅期刊，未见PMC存档）；S2仅题录，未据其标题虚构内容；S3/S4/S5三篇开放全文提供了扎实的因果电路基础与综述背景，S6为NINDS官方机构来源。满足ROUTINE.md≥5来源/≥2开放全文/≥1官方机构来源的最低标准。"
+  }
+}

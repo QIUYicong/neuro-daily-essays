@@ -1098,5 +1098,37 @@
     "confidence": "medium",
     "last_changed": "2026-07-17",
     "reason": "新建 rev1 · #200 · 智力障碍疾病类别框架：mainstream（作为诊断类别本身是临床共识，多种单基因病因已被充分描述）；confidence=medium（框架性整合页，具体机制证据分散于各单基因案例子页面如syngap1/fragile-x-syndrome，本页自身证据密度中等，且遗传异质性意味着任何单一框架性陈述都有例外）"
+  },
+  {
+    "slug": "narcolepsy",
+    "page": "wiki/diseases/narcolepsy.md",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-07-18",
+    "reason": "修订 rev1→rev2 · #201 · 猝倒机制描述精确化：由笼统\"杏仁核→VMM\"改为具体解剖电路（CeA GABA能神经元→vlPAG/LPT/LC/DR，Burgess 2013因果证据，开放全文）+ 2026年新确立分子信使（CeA催产素受体阳性神经元，Mahoney 2026，摘要级）；status/confidence维持established/high（核心病理链条——食欲素自身免疫丢失→翻转开关失稳——证据充分且未变，本次只是猝倒子机制的精确化，新证据本身摘要级、尚待独立重复，故不因此上调confidence）"
+  },
+  {
+    "slug": "orexin-hypocretin",
+    "page": "wiki/concepts/orexin-hypocretin.md",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-07-18",
+    "reason": "修订 rev2→rev3 · #201 · 新增\"猝倒电路与食欲素的拮抗关系\"小节，阐明食欲素兴奋性输出与CeA抑制性输出在vlPAG/LPT等区域的正常拮抗关系；status/confidence维持established/high（核心生理功能与NT1病理链条证据充分，本次为新增交叉连接与机制细化）"
+  },
+  {
+    "slug": "amygdala",
+    "page": "wiki/systems/amygdala.md",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-07-18",
+    "reason": "修订 rev8→rev9 · #201 · 新增\"CeA对脑干运动控制的直接投射\"机制节：CeA GABA能/催产素受体阳性神经元→vlPAG/LPT/LC/DR是发作性睡病猝倒的电路节点；status/confidence维持established/high（杏仁核经典恐惧/消退/奖赏功能证据充分不变；新增维度——运动张力控制输出——本身的因果基础Burgess 2013证据强，分子信使层面Mahoney 2026为摘要级新发现，尚待独立重复）"
+  },
+  {
+    "slug": "oxytocin",
+    "page": "wiki/concepts/oxytocin.md",
+    "status": "established",
+    "confidence": "high",
+    "last_changed": "2026-07-18",
+    "reason": "修订 rev3→rev4 · #201 · 新增第六条专化投射路径（→CeA催产素受体阳性神经元→脑干，食欲素缺失背景下触发猝倒）；status/confidence维持established/high（前五条路径证据充分不变；第六条路径本身仅有摘要级证据、且是本页首次记录一条\"正常生理功能未知、仅在病理状态下被系统检验\"的路径，故该条路径本身单独评级为中，但不拉低整页established/high的总体评级，因主体内容不受影响）"
   }
 ]

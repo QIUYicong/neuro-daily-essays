@@ -4,6 +4,33 @@
 
 ---
 
+## 2026-07-18 · 文章 #201 · 甜到瘫软：催产素如何在杏仁核里把奖赏信号翻译成猝倒的开关
+
+**命名说明**：真实日期2026-07-18已被本知识库历史"日期漂移"事件产生的虚拟时间线文章占用（`2026-07-18-cortical-canonical-microcircuit.md`），依据2026-07-07修复事件确立并连续沿用的"日期+slug"消歧命名惯例，本篇article/notes/sources/log均采用带slug后缀的文件名，不覆盖、不修改、不引用该历史遗留文件（含对应notes/sources/log）。
+
+**选题依据**：突破追踪（ROUTINE.md 选题优先级第1位）与加深既有高连接度节点（第4位）的交汇。检索 PubMed/Europe PMC 近7天（2026-07-10至2026-07-17）神经科学顶刊新发表论文，发现2026-07-14《Nature Neuroscience》新论文（Mahoney et al., PMID:42449131，摘要级，全文未读——订阅制期刊，Europe PMC 显示无开放获取/PMC存档）：首次确证中央杏仁核（CeA）中表达催产素受体的GABA能神经元亚群，是发作性睡病模型中"猝倒被正性情绪/奖赏触发"这一现象的具体分子-细胞开关，并将触发范围从"社交"明确扩展到"社交+一般奖赏"（用巧克力验证）。该主题直接命中本知识库四个已建立的高连接度节点——`narcolepsy`、`orexin-hypocretin`、`amygdala`、`oxytocin`——是新证据将既有电路框架"精确化"而非"推翻"的典型固结案例。本次同时主动选择偏离过去两日（#199/#200）以分子/突触为主的层级组合，锚定在系统/回路/疾病层面，兼顾层级多样性。
+
+**新建页面（0个）**：本次为既有节点的深化，未新建独立页面（催产素CeA-猝倒通路被判断为四个既有页面的自然延伸，而非需要独立页面的新概念）。
+
+**修订页面（4个）**：
+
+- `wiki/diseases/narcolepsy.md` rev1→rev2：猝倒机制由笼统的"杏仁核→腹内侧延髓"描述精确化为具体解剖电路（CeA GABA能神经元→vlPAG/LPT/LC/DR→SLD失抑制，Burgess et al. 2013, PMID:23739970，开放全文）与2026年新确立的分子信使（催产素/CeA催产素受体阳性神经元，Mahoney et al. 2026，摘要级）；关键证据表新增2行；连接新增amygdala、oxytocin；新增未解问题Q-narc-05；dimensions新增microcircuit
+- `wiki/concepts/orexin-hypocretin.md` rev2→rev3：新增"猝倒电路与食欲素的拮抗关系"小节，阐明食欲素兴奋性输出与CeA抑制性输出在vlPAG/LPT等区域正常相互拮抗；关键证据表新增2行；related新增amygdala、oxytocin
+- `wiki/systems/amygdala.md` rev8→rev9：新增"CeA 对脑干运动控制的直接投射：情绪/奖赏触发猝倒"机制节；关键证据表新增2行；连接新增narcolepsy、oxytocin、rem-sleep；这是本页首次记录一条连接至运动张力控制系统（而非经典恐惧/消退/奖赏认知功能）的杏仁核输出通路
+- `wiki/concepts/oxytocin.md` rev3→rev4：新增第六条专化投射路径（→CeA催产素受体阳性神经元→脑干，食欲素缺失背景下触发猝倒）；"一句话定义"与"当前理解"开篇段同步更新为六条路径；关键证据表新增2行；连接新增amygdala、narcolepsy；dimensions新增disease
+
+**矛盾登记（0个）**：无新矛盾。新证据（CeA催产素受体阳性神经元是具体分子信使）是对既有电路框架（CeA GABA能神经元整体参与，Burgess 2013）的精确化，方向完全一致，不构成矛盾协议意义上的冲突；narcolepsy.md原有"VMM"表述判断为对下游脑干/脊髓中继站的简化提法而非与新证据矛盾，已在修订中一并精确化为完整电路链条。
+
+**悬空引用**：无新增，无解决——本次全部连接均指向已存在的图谱节点（narcolepsy、orexin-hypocretin、amygdala、oxytocin均为既有established节点）。
+
+**图谱变化**：357节点/2153边 → **356节点/2159边**（+0新节点，**-1**为订正1处历史节点重复：`narcolepsy`节点此前被意外重复记录两次，本次合并为一条；+6边：oxytocin↔amygdala mechanism-of/related；amygdala→narcolepsy mechanism-of；oxytocin→narcolepsy mechanism-of；narcolepsy↔amygdala/oxytocin related）
+
+**层级**：molecular × cellular × microcircuit × brain-region × whole-brain-network × behavior × disease（有意识地区别于#199/#200以molecular/synaptic/cellular为主的组合，本次锚定在杏仁核-脑干回路与疾病表型层面，是近期首次以"情绪如何直接接管身体运动控制"为主线的固结）
+
+**运行背景说明**：本篇是真实日历从2026-07-17跨入2026-07-18后的首次触发，产出于 GitHub Issue #1（触发频率异常，2026-07-02开启，持续存在）背景下；Issue #1 其余决策点均已在此前多次会话中验证为已解决或已妥善处理，本次延续既定做法正常产出第201篇。
+
+---
+
 ## 2026-07-17 · 文章 #200 · 占位胜过刹车：当SynGAP1的"刹车"活性被证明并非必需，最常见的单基因智力障碍还剩下什么解释？
 
 **命名说明**：真实日期2026-07-17已被本知识库历史"日期漂移"事件产生的虚拟时间线文章占用（`2026-07-17-stdp-spike-timing-dependent-plasticity.md`，article_number=85），依据2026-07-07修复事件确立并在2026-07-16再次沿用的"日期+slug"消歧命名惯例，本篇article/notes/sources/log均采用带slug后缀的文件名，不覆盖、不修改、不引用该历史遗留文件（含对应notes/sources/log）。

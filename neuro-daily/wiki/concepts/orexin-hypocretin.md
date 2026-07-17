@@ -6,14 +6,14 @@ type: mechanism
 status: established
 confidence: high
 created: 2026-08-10
-updated: 2026-10-15
-revision_count: 2
-dimensions: [molecular, cellular, brain-region, whole-brain-network, disease]
-related: [ascending-arousal-system, flip-flop-switch-sleep-wake, neuromodulator-systems, rem-sleep, disorders-of-consciousness]
+updated: 2026-07-18
+revision_count: 3
+dimensions: [molecular, cellular, microcircuit, brain-region, whole-brain-network, disease]
+related: [ascending-arousal-system, flip-flop-switch-sleep-wake, neuromodulator-systems, rem-sleep, disorders-of-consciousness, amygdala, oxytocin]
 prerequisites: [neuromodulator-systems, synaptic-transmission]
 opens_questions: [Q-orexin-gene-therapy-timeline, Q-orexin-NT2-conversion]
-source_articles: [2026-08-10-ascending-arousal-system-brainstem-wakefulness, 2026-10-15-narcolepsy-type1-orexin-autoimmune-flipflop]
-key_sources: ["PMID:41076550", "PMID:35878679", "PMID:21280045", "PMID:37188663", "PMID:30232458", "PMID:26721620"]
+source_articles: [2026-08-10-ascending-arousal-system-brainstem-wakefulness, 2026-10-15-narcolepsy-type1-orexin-autoimmune-flipflop, 2026-07-18-oxytocin-amygdala-cataplexy]
+key_sources: ["PMID:41076550", "PMID:35878679", "PMID:21280045", "PMID:37188663", "PMID:30232458", "PMID:26721620", "PMID:23739970", "PMID:42449131"]
 ---
 
 # 食欲素（下丘脑泌素）与发作性睡病 (Orexin/Hypocretin & Narcolepsy)
@@ -55,9 +55,11 @@ NT1是食欲素神经元被T细胞介导的自身免疫选择性摧毁的结果�
 | 症状 | 神经机制 |
 |------|---------|
 | 日间过度嗜睡 | 翻转开关清醒谷谷壁坍塌，随机噪声触发意外入睡 |
-| 猝倒（情绪触发肌无力） | 正面情绪→杏仁核→VMM激活→REM肌张力弛缓回路被误激活 |
+| 猝倒（情绪触发肌无力） | 正面情绪/奖赏→中央杏仁核（CeA）催产素受体阳性GABA能神经元激活→抑制脑干抗猝倒区域（vlPAG/LPT/LC/DR）→SLD失抑制→REM肌张力弛缓回路被误激活（详见 [[amygdala]]、[[oxytocin]]，2026-07-18更新） |
 | 入睡期幻觉 | REM的视觉梦境溢出至半清醒状态 |
 | 睡眠瘫痪 | REM肌张力弛缓延迟恢复至清醒状态 |
+
+**猝倒电路与食欲素的拮抗关系（2026-07-18新增）**：Burgess et al.（2013, PMID:23739970，开放全文）首次用因果损毁实验证明，中央杏仁核（CeA）中>90%投射至vlPAG/LPT的神经元为GABA能，双侧CeA损毁使食欲素敲除小鼠的跑轮诱发猝倒减少58%、跑轮+巧克力诱发猝倒减少42%，且不影响正常REM睡眠本身——这说明CeA的抑制性输出与食欲素的兴奋性输出，正常情况下在vlPAG/LPT等区域相互拮抗，食欲素丢失打破了这一平衡。Mahoney et al.（2026, PMID:42449131，摘要级，全文未读）进一步将CeA这一抑制性输出的分子信使精确到催产素：CeA中表达催产素受体的神经元亚群是被正性情绪/奖赏（不仅是社交，也包括如巧克力等非社交奖赏）招募的具体细胞群体。
 
 ### 治疗前景
 
@@ -80,6 +82,8 @@ NT1是食欲素神经元被T细胞介导的自身免疫选择性摧毁的结果�
 | Rauf et al. 2025, 综述 | NT1中95%食欲素神经元丢失；HLA-DQB1*06:02 | 高（基于多项研究） |
 | Danavorexton 2024试验 | MWT改善11.1分 | 高（Phase 2/3 RCT） |
 | 动物基因敲除模型 | 食欲素缺失→发作性睡病表型 | 非常高（因果确立） |
+| CeA GABA能神经元→vlPAG/LPT/LC/DR；双侧CeA损毁减少猝倒58%/42%（Burgess 2013, PMID:23739970） | 顺/逆行示踪+损毁+EEG/EMG，食欲素KO小鼠 | 高（开放全文） |
+| CeA催产素受体阳性神经元是猝倒的分子-细胞开关，被社交与非社交奖赏共同激活（Mahoney 2026, PMID:42449131） | 药理/化学遗传学/光遗传学，食欲素缺失小鼠 | 中（摘要级，全文未读，单一实验室新发现） |
 
 ## 修订历史
 
@@ -87,3 +91,4 @@ NT1是食欲素神经元被T细胞介导的自身免疫选择性摧毁的结果�
 |------|------|------|---------|
 | rev1 | 2026-08-10 | 初始页面；食欲素生理/NT1病理/治疗前景 | #109 |
 | rev2 | 2026-10-15 | 补充NT1自身免疫直接证据（Latorre 2018: 19/19 CD4+ T细胞）；完整GWAS遗传架构（Ollila 2023, 13新位点, PRF1/CD207/IFNAR1/TCR偏倚）；猝倒回路机制细化（VMM路径）；CSF Hcrt-1诊断数据精确化；添加 [[narcolepsy]] 交叉引用 | #175 |
+| rev3 | 2026-07-18 | 猝倒电路描述由笼统的"杏仁核→VMM"修正为具体解剖通路（CeA GABA能神经元→vlPAG/LPT/LC/DR，Burgess 2013）+ 2026年新确立分子信使（催产素/CeA催产素受体阳性神经元，Mahoney 2026，摘要级）；新增"猝倒电路与食欲素的拮抗关系"小节；关键证据表新增2行；related新增amygdala、oxytocin；dimensions新增microcircuit | #201 |

@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-07-17",
-  "total_articles": 200,
+  "last_updated": "2026-07-18",
+  "total_articles": 201,
   "entries": [
     {
       "date": "2026-10-18",
@@ -12588,6 +12588,71 @@
         "bdnf-trkb/prc-prion-protein——被alzheimers-disease/amyloid-beta-oligomers共同引用的悬空引用",
         "wernicke-area/planum-temporale/embodied-semantics相关语言网络悬空引用——课程脊柱7",
         "SNARE复合体预激活构象争议（C-2026-05-25-01）的新证据裁决（长期open，本次未处理）"
+      ]
+    },
+    {
+      "article_number": 201,
+      "date": "2026-07-18",
+      "title": "甜到瘫软：催产素如何在杏仁核里把奖赏信号翻译成猝倒的开关",
+      "slug": "oxytocin-amygdala-cataplexy",
+      "date_collision_note": "真实日期2026-07-18已被知识库历史日期漂移事件产生的虚拟时间线文章占用（2026-07-18-cortical-canonical-microcircuit.md），依据2026-07-07修复事件确立并持续沿用的'日期+slug'消歧命名惯例，article/notes/sources/log均采用带slug后缀的文件名，不覆盖、不修改该历史遗留文件",
+      "wiki_pages_created": [],
+      "wiki_pages_revised": [
+        "wiki/diseases/narcolepsy.md (rev1->rev2)",
+        "wiki/concepts/orexin-hypocretin.md (rev2->rev3)",
+        "wiki/systems/amygdala.md (rev8->rev9)",
+        "wiki/concepts/oxytocin.md (rev3->rev4)"
+      ],
+      "contested_claims_logged": [],
+      "contested_claims_evidence_updated": [],
+      "core_question": "猝倒几乎只被强烈的正性情绪或奖赏刺激触发——2013年的因果解剖学研究已经证明中央杏仁核的GABA能神经元通过抑制脑干'抗猝倒'神经元引发这一过程，但'情绪/奖赏信号'具体经由哪个分子信使被翻译成这条抑制通路的开关，此前未知。2026年7月的新研究首次把催产素及其受体阳性神经元锁定为这条翻译链路的关键节点。",
+      "open_questions_added": [
+        "Q-narc-05（高优先级）：催产素-CeA猝倒通路与5-HT能、多巴胺能等其他候选通路的相对权重和交互关系是什么？催产素具体来源（PVN长程投射 vs CeA局部释放）尚未厘清。"
+      ],
+      "open_questions_updated": [],
+      "layer": [
+        "molecular",
+        "cellular",
+        "microcircuit",
+        "brain-region",
+        "whole-brain-network",
+        "behavior",
+        "disease"
+      ],
+      "curriculum_track": "diseases-as-windows + emotion-and-motivation（课程脊柱11×6交叉：发作性睡病猝倒机制精确化与杏仁核-脑干情绪具身化通路）",
+      "topic_tags": [
+        "oxytocin",
+        "amygdala",
+        "central-amygdala",
+        "cataplexy",
+        "narcolepsy",
+        "orexin-hypocretin",
+        "rem-sleep-atonia",
+        "vlpag-lpt",
+        "breakthrough-tracking",
+        "circuit-refinement"
+      ],
+      "main_sources": [
+        "PMID:42449131",
+        "PMID:42449133",
+        "PMID:23739970",
+        "PMID:37266541",
+        "PMID:26721620"
+      ],
+      "unresolved_questions": [
+        "Q-narc-05"
+      ],
+      "gap_filled": "突破追踪模式（ROUTINE.md选题优先级第1位）与加深既有高连接度节点（第4位）交汇：2026-07-14发表于《Nature Neuroscience》的新研究（Mahoney et al.，摘要级，全文未读）首次确证CeA催产素受体阳性神经元是猝倒被正性情绪/奖赏触发的分子-细胞开关，直接命中本知识库四个已建立的高连接度节点（narcolepsy/orexin-hypocretin/amygdala/oxytocin），是新证据精确化既有电路框架（Burgess et al. 2013因果损毁研究）而非推翻的典型固结案例；本次同时主动偏离#199/#200以分子/突触为主的层级组合，锚定系统/回路/疾病层面",
+      "evidence_access_note": "本次突破解析的核心论文（PMID:42449131）及其同期配套文章（PMID:42449133）均未能获取全文（Nature Neuroscience订阅制期刊，Europe PMC记录显示均无开放获取/PMC存档），仅基于PubMed摘要（S1）和题录信息（S2）撰写，已在文章、wiki修订、sources.json中一致标注这一限制；文章主体论证依赖2013年（Burgess et al.）和2023年（综述）两篇开放全文支撑，确保结论有据、不超出摘要级证据强度做推断",
+      "next_suggested_topics": [
+        "Q-narc-05涉及的催产素/5-HT/多巴胺三条候选通路相对权重——需等待未来直接比较性研究",
+        "shank3（SHANK3/Phelan-McDermid综合征）——此前(#200)发现的真实悬空引用，被autism-spectrum-disorder.md引用但无独立页面，本次未处理",
+        "neural-population-coding（神经群体编码）——真实悬空引用，仍待推进（被population-clock引用）",
+        "binding-problem/co-ripples——真实悬空引用，课程脊柱8（意识与自我）方向",
+        "bdnf-trkb/prc-prion-protein——被alzheimers-disease/amyloid-beta-oligomers共同引用的悬空引用",
+        "wernicke-area/planum-temporale/embodied-semantics相关语言网络悬空引用——课程脊柱7",
+        "SNARE复合体预激活构象争议（C-2026-05-25-01）的新证据裁决（长期open，本次未处理）",
+        "若Mahoney et al. 2026全文后续可获取（订阅到期/机构存档/作者预印本），应回填今日文章与wiki页的具体统计数字与图表细节"
       ]
     }
   ]

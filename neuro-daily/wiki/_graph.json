@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "updated": "2026-07-17",
-  "node_count": 355,
-  "edge_count": 2139,
+  "updated": "2026-07-18",
+  "node_count": 356,
+  "edge_count": 2159,
   "edge_types": [
     "is-a",
     "part-of",
@@ -2940,15 +2940,6 @@
       "status": "established",
       "confidence": "high",
       "page": "wiki/concepts/two-process-model.md"
-    },
-    {
-      "id": "narcolepsy",
-      "title": "发作性睡病 1 型（NT1）",
-      "domain": "diseases",
-      "type": "disease",
-      "status": "established",
-      "confidence": "high",
-      "page": "wiki/diseases/narcolepsy.md"
     },
     {
       "id": "homer1a",
@@ -15362,6 +15353,40 @@
       "to": "dendritic-spine",
       "type": "regulates",
       "note": "GAP催化活性调控树突棘体积增大——占位机制无法挽救的少数表型之一"
+    },
+    {
+      "from": "oxytocin",
+      "to": "amygdala",
+      "type": "mechanism-of",
+      "note": "CeA催产素受体阳性神经元是催产素第六条投射路径（猝倒触发）的具体细胞靶点（Mahoney et al. 2026, PMID:42449131，摘要级）"
+    },
+    {
+      "from": "amygdala",
+      "to": "oxytocin",
+      "type": "related",
+      "note": "CeA是催产素路径③（恐惧抑制/情绪辨别）与路径⑥（猝倒触发）共同的解剖靶区"
+    },
+    {
+      "from": "amygdala",
+      "to": "narcolepsy",
+      "type": "mechanism-of",
+      "note": "CeA GABA能神经元→vlPAG/LPT/LC/DR是猝倒的解剖学电路基础（Burgess et al. 2013, PMID:23739970，开放全文）"
+    },
+    {
+      "from": "oxytocin",
+      "to": "narcolepsy",
+      "type": "mechanism-of",
+      "note": "CeA催产素受体阳性神经元是猝倒的分子-细胞开关（Mahoney et al. 2026, PMID:42449131，摘要级，全文未读）"
+    },
+    {
+      "from": "narcolepsy",
+      "to": "amygdala",
+      "type": "related"
+    },
+    {
+      "from": "narcolepsy",
+      "to": "oxytocin",
+      "type": "related"
     }
   ],
   "dangling_references": [

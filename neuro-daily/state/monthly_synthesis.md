@@ -2342,3 +2342,23 @@
 **层级**：molecular × synaptic × cellular × microcircuit × cognition × disease（与#197/#198的molecular/synaptic/cellular/disease组合部分重叠，但本次通过PV+中间神经元回路层面证据线实质性新增microcircuit/cognition维度深度）
 
 **文件命名说明**：真实日期2026-07-17已被历史日期漂移事件产生的虚拟时间线文章占用（2026-07-17-stdp-spike-timing-dependent-plasticity.md，article_number=85，早期会话遗留），本篇article/notes/sources/log采用"日期+slug"消歧命名，详见 wiki/CHANGELOG.md 2026-07-17 条目说明。
+
+### 2026-07-18（#201）：甜到瘫软——催产素如何在杏仁核里把奖赏信号翻译成猝倒的开关
+
+**核心发现**：突破追踪选题（ROUTINE.md选题优先级第1位）与加深既有高连接度节点（第4位）交汇。2026-07-14《Nature Neuroscience》发表新研究（Mahoney et al.，PMID:42449131，**摘要级，全文未读**——订阅制期刊，Europe PMC记录显示无开放获取/PMC存档），首次确证中央杏仁核（CeA）中表达催产素受体的GABA能神经元亚群，是发作性睡病模型中猝倒（cataplexy）被正性情绪/奖赏触发的分子-细胞开关，并用巧克力这一非社交奖赏刺激将触发范围从"社交"明确扩展为更一般的"奖赏"。这一发现建立在Burgess et al.（2013, PMID:23739970，开放全文）确立的解剖学因果框架之上——CeA中>90%投射至vlPAG/LPT的神经元为GABA能，同时投射LC/DR，双侧CeA损毁使食欲素敲除小鼠的跑轮/跑轮+巧克力诱发猝倒分别减少58%/42%，且不影响正常REM睡眠——新研究第一次为这一已知十余年的电路框架指认了具体分子信使。本文同时综合2023年系统综述（PMID:37266541，开放全文）梳理的其他候选通路（5-HT能中缝投射、BLA多巴胺/Drd2信号），呈现杏仁核对猝倒调控的多受体系统汇聚图景。
+
+**知识地图贡献**：
+- 无新建页面（新证据判断为四个既有页面的自然延伸，而非独立新概念）
+- diseases/narcolepsy.md（rev1→rev2）：猝倒机制由笼统"杏仁核→VMM"精确化为具体解剖电路+分子信使；关键证据表新增2行；新增Q-narc-05
+- concepts/orexin-hypocretin.md（rev2→rev3）：新增"猝倒电路与食欲素的拮抗关系"小节
+- systems/amygdala.md（rev8→rev9）：新增"CeA对脑干运动控制的直接投射"机制节——杏仁核首次被记录连接至运动张力控制系统
+- concepts/oxytocin.md（rev3→rev4）：新增第六条专化投射路径（→CeA催产素受体阳性神经元→脑干，猝倒触发）
+- 图谱：357节点/2153边 → 356节点/2159边（订正1处历史节点重复：narcolepsy曾被重复记录，本次合并；+6边）
+- 矛盾登记：0个（新证据是既有电路框架的精确化而非冲突，未触发矛盾协议）
+- 悬空引用：无新增、无解决（本次连接均指向已存在节点）
+
+**层级**：molecular × cellular × microcircuit × brain-region × whole-brain-network × behavior × disease（有意识区别于#199/#200以molecular/synaptic/cellular为主的组合，本次锚定杏仁核-脑干回路与疾病表型层面，首次以"情绪如何直接接管身体运动控制"为主线）
+
+**文件命名说明**：真实日期2026-07-18已被历史日期漂移事件产生的虚拟时间线文章占用（2026-07-18-cortical-canonical-microcircuit.md，早期会话遗留），本篇article/notes/sources/log采用"日期+slug"消歧命名，详见 wiki/CHANGELOG.md 2026-07-18 条目说明。
+
+**局限说明**：本文核心突破证据（PMID:42449131）及其同期配套文章（PMID:42449133）均仅能获取摘要/题录信息，未获取全文；文章、wiki修订、sources.json中均已一致标注此限制，论证主体依赖两篇可获取全文的开放来源（Burgess 2013、2023年综述）支撑，避免超出摘要级证据强度做推断。

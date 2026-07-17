@@ -6,14 +6,14 @@ type: region
 status: established
 confidence: high
 created: 2026-05-30
-updated: 2026-08-26
-revision_count: 8
+updated: 2026-07-18
+revision_count: 9
 dimensions: [cellular, microcircuit, brain-region, behavior, cognition, disease]
-related: [fear-conditioning, fear-extinction, ltp, hippocampal-circuit, dopamine-reward-prediction-error, norepinephrine-locus-coeruleus, basal-ganglia, glucocorticoid-stress-memory, hpa-axis, memory-consolidation, memory-reconsolidation, olfactory-bulb, piriform-cortex, orbitofrontal-cortex, value-based-decision-making, vmPFC, emotion-regulation, cognitive-reappraisal, ptsd, fear-generalization]
+related: [fear-conditioning, fear-extinction, ltp, hippocampal-circuit, dopamine-reward-prediction-error, norepinephrine-locus-coeruleus, basal-ganglia, glucocorticoid-stress-memory, hpa-axis, memory-consolidation, memory-reconsolidation, olfactory-bulb, piriform-cortex, orbitofrontal-cortex, value-based-decision-making, vmPFC, emotion-regulation, cognitive-reappraisal, ptsd, fear-generalization, narcolepsy, oxytocin, rem-sleep]
 prerequisites: [ltp, synaptic-transmission, nmda-receptor]
-opens_questions: [Q-fear-human-amygdala-specificity, Q-fear-low-road-function, Q-fear-itc-bidirectionality, Q-vmPFC-03]
-source_articles: [2026-05-30-amygdala-fear-memory, 2026-07-09-glucocorticoids-stress-memory-amygdala, 2026-07-10-memory-reconsolidation-ptsd, 2026-07-24-amygdala-fear-engram-extinction-reward-neurons, 2026-07-26-olfactory-coding-smell-memory-limbic, 2026-08-21-orbitofrontal-cortex-value-decision-circuit, 2026-08-25-vmPFC-sgACC-emotion-regulation, 2026-08-26-ptsd-fear-circuit-vmPFC-hippocampus-amygdala]
-key_sources: ["PMID:24908482", "PMID:22129456", "PMID:20393190", "PMID:30877244", "PMID:16310958", "PMID:23968228", "PMID:34168140", "PMID:31952856", "PMID:38396226", "PMID:25162525", "PMID:37620443", "PMID:32278646", "DOI:10.7554/eLife.80926", "PMID:40068869", "PMID:19693001", "PMID:12495527", "PMID:26617500", "PMID:19748076", "PMID:16891563", "PMID:40881229"]
+opens_questions: [Q-fear-human-amygdala-specificity, Q-fear-low-road-function, Q-fear-itc-bidirectionality, Q-vmPFC-03, Q-narc-05]
+source_articles: [2026-05-30-amygdala-fear-memory, 2026-07-09-glucocorticoids-stress-memory-amygdala, 2026-07-10-memory-reconsolidation-ptsd, 2026-07-24-amygdala-fear-engram-extinction-reward-neurons, 2026-07-26-olfactory-coding-smell-memory-limbic, 2026-08-21-orbitofrontal-cortex-value-decision-circuit, 2026-08-25-vmPFC-sgACC-emotion-regulation, 2026-08-26-ptsd-fear-circuit-vmPFC-hippocampus-amygdala, 2026-07-18-oxytocin-amygdala-cataplexy]
+key_sources: ["PMID:24908482", "PMID:22129456", "PMID:20393190", "PMID:30877244", "PMID:16310958", "PMID:23968228", "PMID:34168140", "PMID:31952856", "PMID:38396226", "PMID:25162525", "PMID:37620443", "PMID:32278646", "DOI:10.7554/eLife.80926", "PMID:40068869", "PMID:19693001", "PMID:12495527", "PMID:26617500", "PMID:19748076", "PMID:16891563", "PMID:40881229", "PMID:23739970", "PMID:42449131", "PMID:37266541"]
 ---
 
 # 杏仁核 (Amygdala)
@@ -103,11 +103,22 @@ CRH 不只是 HPA 轴的启动分子，也作为神经肽在 CeA **独立于外�
 - 肾上腺切除动物（无外周 GC）仍存在 CRH-CeA 介导的行为反应
 - 慢性 CRH₁R 过激活是 PTSD 和广泛性焦虑的候选机制
 
+### CeA 对脑干运动控制的直接投射：情绪/奖赏触发猝倒（2026-07-18 新增）
+
+杏仁核的输出不止于经典的恐惧/防御行为通路（CeM→PAG/下丘脑/BNST），CeA 还通过一条独立通路直接接入脑干的运动张力控制系统：
+
+- **解剖基础**（Burgess et al. 2013, PMID:23739970，开放全文）：CeA 中 >90% 投射至腹外侧导水管周围灰质/外侧脑桥被盖（vlPAG/LPT）的神经元为 GABA 能，这些神经元同时密集投射至蓝斑（LC）和中缝背核（DR）——三者均为清醒期维持肌张力、抑制脊髓下核（SLD）的关键区域
+- **因果证据**：在发作性睡病（食欲素敲除）小鼠模型中，双侧 CeA 兴奋性毒性损毁使跑轮诱发的猝倒（cataplexy，情绪触发的清醒期肌张力丧失，详见 [[narcolepsy]]）减少 58%，跑轮+巧克力诱发的猝倒减少 42%，但不影响正常 REM 睡眠本身，证明这是一条特异性通路而非笼统扰乱睡眠结构
+- **分子信使（2026 年新确立）**：Mahoney et al.（2026, PMID:42449131，**摘要级，全文未读**）报告，CeA 中表达催产素受体的 GABA 能神经元亚群是这条通路的具体分子-细胞开关——催产素张力和这群神经元的活动在猝倒发生前上升，拮抗剂可阻断社交诱发的猝倒，化学/光遗传学操控可双向调节猝倒；巧克力这类非社交但强奖赏性的刺激同样能激活该通路（详见 [[oxytocin]]）
+- **意义**：这是杏仁核连接"情绪评估"（经典功能）与"身体运动状态控制"（脑干/脊髓）两个此前研究上分离领域的具体证据，且揭示食欲素神经元与 CeA 输出在 vlPAG/LPT 等区域正常情况下相互拮抗——食欲素丢失（NT1）打破了这一平衡，使 CeA 的抑制性输出畅通无阻地触发猝倒
+
 ## 关键证据
 
 | 主张 | 证据/方法 | 来源 | 置信度 |
 |------|---------|------|--------|
 | LA突触LTP是恐惧记忆因果底物 | 光遗传LTP→恐惧；LTD→消除恐惧；再LTP→恢复恐惧 | PMID:24896183 | 高 |
+| CeA中>90%投射至vlPAG/LPT的神经元为GABA能；双侧CeA损毁使食欲素KO小鼠猝倒减少58%/42%，不影响REM本身 | 顺/逆行示踪+兴奋性毒性损毁+EEG/EMG，小鼠 | PMID:23739970（PMC3704329，开放全文） | 高（因果证据，n较小，损毁范围不完全局限CeA） |
+| CeA催产素受体阳性神经元是猝倒的分子-细胞开关，被社交与非社交奖赏共同激活 | 药理学阻断+化学遗传学+光遗传学，食欲素缺失小鼠 | PMID:42449131（**摘要级，全文未读**） | 中（多手段互证，单一实验室新发现，尚待独立重复） |
 | 条件反射后约20% LA神经元发展CS响应（稀疏代码） | 多通道电极记录+行为范式 | PMID:24908482 (PMC4103014) | 高 |
 | ITC神经元是消退表达的必要条件 | 选择性免疫毒素损毁ITC→消退表达缺陷 | PMID:18615014 | 高 |
 | BA中恐惧/消退神经元双群切换 | 多单元记录+逆行标记 | PMID:18615015 | 高 |
@@ -139,6 +150,9 @@ CRH 不只是 HPA 轴的启动分子，也作为神经肽在 CeA **独立于外�
 - [[cognitive-reappraisal]] — 认知重评通过 vlPFC→vmPFC→杏仁核三层级回路减少杏仁核激活（Ochsner 2002, PMID:12495527；He 2023, PMID:37507228）
 - [[ptsd]] — PTSD 中杏仁核（BLA/CeA）过度激活，与症状严重程度正相关（Shin 2006, PMID:16891563）；BLA LTP 异常增强是创伤记忆高度巩固的分子基础；CeA CRH₁R 过激活是 PTSD 焦虑亢进的候选机制
 - [[fear-generalization]] — BLA 是泛化恐惧的共同输出节点；PTSD 中原本编码特定威胁的 BLA 回路被扩展至日常刺激（Milad 2009, PMID:19748076）；海马苔藓细胞受损（Xu 2025, PMID:40881229）导致传入杏仁核的情景输入失去精确性
+- [[narcolepsy]] — CeA GABA能/催产素受体阳性神经元投射至脑干抗猝倒区域是发作性睡病核心症状"猝倒"的关键电路节点 **[NEW 2026-07-18]**
+- [[oxytocin]] — 催产素及其CeA受体阳性神经元是猝倒被正性情绪/奖赏触发的分子信使；是催产素"功能由投射靶区决定"这一原则的第六条已知专化路径 **[NEW 2026-07-18]**
+- [[rem-sleep]] — 猝倒借用了REM睡眠原本的肌张力弛缓机制（SLD失抑制），CeA通路是这一"错误时刻触发"的情绪端入口 **[NEW 2026-07-18]**
 
 ## 未解问题
 
@@ -147,6 +161,7 @@ CRH 不只是 HPA 轴的启动分子，也作为神经肽在 CeA **独立于外�
 - Q-fear-itc-bidirectionality（中优先级）：ITC在恐惧重现时的具体再平衡机制
 - Q-extinction-reward-overlap（高优先级，2026-07-24新增）：BLA消退印迹细胞与奖励响应细胞的重叠率精确值；阻断BLA奖励通路是否导致消退失败（因果方向性验证）
 - Q-vmPFC-03（高优先级，2026-08-25新增）：PTSD 中 vmPFC/IL 消退回忆功能失败的精确机制——连接减弱、PNNs 异常还是情景信号错误提取？（见 state/unresolved_questions.md）
+- Q-narc-05（高优先级，2026-07-18新增，与narcolepsy.md共享）：催产素-CeA猝倒通路与5-HT能、多巴胺能等其他候选通路的相对权重和交互关系是什么？催产素具体来源（PVN长程投射 vs CeA局部释放）尚未厘清。
 
 ## 修订历史
 
@@ -158,6 +173,7 @@ CRH 不只是 HPA 轴的启动分子，也作为神经肽在 CeA **独立于外�
 - 2026-05-30 · 创建 · 基于《当杏仁核学会恐惧》一文 · 初始置信度：高
 - 2026-08-25 · 修订 rev7 · 基于《驯化杏仁核：vmPFC 与 sgACC》(#123) · 连接节新增 vmPFC（vmPFC 通过 GABAergic 中间神经元抑制 CeM、情绪调节和认知重评的核心通路）、emotion-regulation、cognitive-reappraisal；未解问题新增 Q-vmPFC-03；related 新增 vmPFC/emotion-regulation/cognitive-reappraisal；key_sources 新增 PMID:19693001/12495527/26617500；source_articles 新增 2026-08-25
 - 2026-08-26 · 修订 rev8 · 基于《PTSD 中的记忆囚笼》(#124) · 连接节新增 ptsd（BLA/CeA 过度激活与症状严重程度正相关；Shin 2006 PMID:16891563；CRH₁R 过激活候选机制）、fear-generalization（BLA 是泛化恐惧的共同输出节点；海马苔藓细胞受损导致情景输入失去精确性）；related 新增 ptsd/fear-generalization；key_sources 新增 PMID:19748076/16891563/40881229；source_articles 新增 2026-08-26
+- 2026-07-18 · 修订 rev9 · 基于《甜到瘫软：催产素如何在杏仁核里把奖赏信号翻译成猝倒的开关》(#201) · 新增"CeA 对脑干运动控制的直接投射：情绪/奖赏触发猝倒"机制节（Burgess 2013 解剖因果证据 + Mahoney 2026 催产素分子信使，摘要级）；关键证据表新增2行；连接节新增 narcolepsy、oxytocin、rem-sleep；未解问题新增 Q-narc-05（与narcolepsy.md共享）；related/key_sources/source_articles相应更新；这是杏仁核首次被记录直接连接至运动张力控制系统（此前7次修订均围绕恐惧/消退/奖赏/情绪调节等认知-情感功能）
 
 ## 来源文章
 
@@ -169,3 +185,4 @@ CRH 不只是 HPA 轴的启动分子，也作为神经肽在 CeA **独立于外�
 - [[2026-08-21-orbitofrontal-cortex-value-decision-circuit]]
 - [[2026-08-25-vmPFC-sgACC-emotion-regulation]]
 - [[2026-08-26-ptsd-fear-circuit-vmPFC-hippocampus-amygdala]]
+- [[2026-07-18-oxytocin-amygdala-cataplexy]]

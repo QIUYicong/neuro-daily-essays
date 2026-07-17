@@ -1,0 +1,70 @@
+# 运行日志 · 2026-07-18 · 第201篇 · oxytocin-amygdala-cataplexy
+
+**任务确认**：真实日期2026-07-18（UTC+8，容器`date -u`核实为2026-07-17T21:xx UTC）已由调用方独立核实并作为硬性事实提供，本次会话不重新核算或质疑该日期。任务明确本次为第201篇文章，明确要求跳过0节（分支同步）和G节（git提交/推送），由另一流程处理，本会话不运行任何git命令。
+
+## 运行背景
+
+会话开始时确认：`neuro-daily/articles/2026-07-18-cortical-canonical-microcircuit.md`（历史日期漂移遗留虚拟时间线文章，其内容涉及规范微回路，本次未读取其正文、未参考其选题）及对应的（若存在）`notes/2026-07-18-reading-notes.md`、`sources/2026-07-18-sources.json`、`logs/2026-07-18-run.log`均已确认视为不可触碰的既有文件，本次全部新文件采用"日期+slug"消歧命名（沿用2026-07-07确立、此后连续多日使用的既定惯例）。
+
+## 选题过程
+
+1. 通读 `ROUTINE.md`、`KNOWLEDGE-BASE-DESIGN.md` 全文。
+2. 读取 `state/topic_ledger.json` 尾部（因文件过大，用 `tail`/Python 分段读取）：确认最近真实条目为#196–#200（2026-07-13至2026-07-17），核实#200（2026-07-17）layer为[molecular, synaptic, cellular, microcircuit, cognition, disease]、#199（2026-07-16）为[cellular, microcircuit, brain-region, behavior, cognition]、#198/#197均为[molecular, synaptic, cellular, disease]；`total_articles`字段（200）与实际条目数一致。
+3. 读取 `state/unresolved_questions.md`、`state/contested_claims.json`（8条open矛盾，逐条评估，均非本次可快速裁决的最高优先级候选，未发现近期新证据线索能裁决其中任何一条）。
+4. 图谱缺口分析：Python脚本解析 `wiki/_graph.json`（357节点/2153边，兼容`from/to`与`source/target`两种历史键名），核对`dangling_references`/`dangling_refs`两个数组，确认真实未解决的悬空引用为：bdnf-trkb、prc-prion-protein、basal-forebrain、locus-coeruleus-anatomy、wernicke-area、planum-temporale、binding-problem、co-ripples、neural-population-coding、protein-aggregation、ubiquitin-proteasome、autophagy、nuclear-inclusions，以及#200新发现但未填补的`shank3`（被autism-spectrum-disorder.md引用）。
+5. 用 PubMed E-utilities（esearch，限定顶刊Nature/Science/Nature Neuroscience/Neuron/Cell，日期窗口2026-07-10至2026-07-17）检索近7天神经科学突破。命中19条记录，逐条 esummary 核实标题与期刊，候选包括：(a) "Microglia prune developing cortical blood vessels through PD-1 signaling"（Nat Neurosci）；(b) "Parallel independent voltage computing along dendrites of CA3 pyramidal neurons"（Science）；(c) "Rarely categorical, highly separable representations along the cortical hierarchy"（Nature）；(d) "Oxytocin promotes socially triggered cataplexy" + "Oxytocin in the amygdala links social and reward signals to cataplexy in mice"（两篇同期Nat Neurosci论文，2026-07-14）；(e) "Canonical decision computations underlie behavioral and neural signatures of cooperation in primates" + "Decide when to cooperate"（Neuron）。
+6. 候选排除理由：(a)(b) 均为分子/突触/细胞层级的新发现，与#197/#198/#200已有的molecular/synaptic/cellular/disease组合高度重叠，不利于层级多样性；(c)(e) 认知/系统层级候选，但检索发现摘要信息有限、无法在合理时间内确认充足的开放全文背景支撑；(d) 因直接命中本知识库已建立的四个高连接度节点（narcolepsy/orexin-hypocretin/amygdala/oxytocin），且层级组合（cellular/microcircuit/brain-region/whole-brain-network/behavior/disease）与近两日形成有意义的区别，同时能提供"新证据精确化既有电路框架"这一清晰、可讲透的核心问题，最终锁定此题。
+7. 核实PMID:42449131/42449133均为2026-07-14发表、订阅制期刊、Europe PMC记录均显示isOpenAccess=N/inEPMC=N（无PMC存档），确认这是一次"摘要级突破+开放全文背景支撑"的组合，符合ROUTINE.md"若开放全文不足需明确标注"的要求，决定继续推进而非放弃此题。
+8. 检索到Burgess et al. 2013（PMID:23739970，J Neurosci）为该领域奠基性因果研究，且开放全文可读（PMC3704329，author manuscript），进一步检索到2023年系统综述（PMID:37266541，Frontiers in Neuroscience，开放全文，PMC10230954）完整覆盖2026年新证据发表前的知识边界，两篇合计提供了扎实的、可支撑本文论证主体的开放全文基础，即使核心突破证据本身只有摘要。
+9. 层级评估：本主题天然的layer为[molecular, cellular, microcircuit, brain-region, whole-brain-network, behavior, disease]——与#199（cellular/microcircuit/brain-region/behavior/cognition）有相当重叠但主线不同（本次是杏仁核-脑干回路与运动控制的交叉，而非海马空间导航），与#197/#198/#200（molecular/synaptic/cellular/disease为主）区别明显（本次不涉及突触囊泡分子机制，而是系统/回路/疾病层面），判断满足"避免连续三天同一层级"的软性要求。
+
+## 检索与来源
+
+- NCBI E-utilities esearch/esummary：确认近7天顶刊命中列表（19条），逐条核实标题/期刊/PMID。
+- NCBI E-utilities efetch（abstract格式）：获取PMID:42449131、42449133的PubMed摘要/题录；42449133确认"[No authors listed]"，判断可能为配套评述/研究简报但未验证。
+- Europe PMC REST API（`resultType=core`）：核实PMID:42449131/42449133的isOpenAccess/inEPMC状态（均为N），核实PMID:23739970（PMCID:PMC3704329）、PMID:37266541（PMCID:PMC10230954）、PMID:26721620（PMCID:PMC5114175）均inEPMC=Y。
+- NCBI BioC API（`pmcoa.cgi/BioC_xml`）：完整读取PMC3704329（Burgess 2013全文，含Methods/Results/Discussion各段）与PMC10230954（2023综述全文，含Introduction/Conclusion各段）。
+- NINDS官方页面（`https://www.ninds.nih.gov/health-information/disorders/narcolepsy`）：直接HTTP GET（默认User-Agent返回403，改用浏览器UA后200成功）读取全文，提取猝倒临床定义与鉴别特征。
+- 共采用6个来源，其中3个完整读取开放全文（Burgess 2013、2023综述、NINDS官方页面），1个既有来源仅作背景核对未重新通读全文（PMID:26721620），2个仅摘要/题录级别（PMID:42449131摘要、PMID:42449133题录）。满足并超过ROUTINE.md"≥5来源、≥2开放全文、≥1官方机构来源"最低标准。
+- 未采用来源：综述（PMID:37266541）中转引的2017年两个独立团队Gq-DREADD研究、DRN-5HT调控研究、Hasegawa等BLA多巴胺研究，因综述正文未提供其原始PMID且本次未做进一步检索核实，故均以"据该综述转引，未核实原始PMID"的方式明确标注，未虚构任何具体引用。
+
+## 产出
+
+- `articles/2026-07-18-oxytocin-amygdala-cataplexy.md`（约6500非空白字符，完整12节结构）
+- `notes/2026-07-18-oxytocin-amygdala-cataplexy-reading-notes.md`
+- `sources/2026-07-18-oxytocin-amygdala-cataplexy-sources.json`
+- `wiki/diseases/narcolepsy.md`（rev1→rev2）
+- `wiki/concepts/orexin-hypocretin.md`（rev2→rev3）
+- `wiki/systems/amygdala.md`（rev8→rev9）
+- `wiki/concepts/oxytocin.md`（rev3→rev4）
+- `wiki/_graph.json`：+6边（oxytocin↔amygdala mechanism-of/related；amygdala→narcolepsy mechanism-of；oxytocin→narcolepsy mechanism-of；narcolepsy↔amygdala/oxytocin related）；**额外订正1处历史节点重复**（`narcolepsy`节点此前被意外重复记录两次，合并为一条，node_count由357变为356）
+- `wiki/index.md`：新增头部摘要行；更新narcolepsy/orexin-hypocretin/amygdala/oxytocin四条既有条目
+- `wiki/CHANGELOG.md`：新增2026-07-18条目
+- `state/topic_ledger.json`：新增条目#201，`total_articles`更新为201
+- `state/unresolved_questions.md`：新增Q-narc-05
+- `state/contested_claims.json`：**未修改**（本次无新矛盾登记，无既有矛盾裁决）
+- `state/source_registry.json`：新增4条来源记录（PMID:42449131/42449133/23739970/37266541），更新PMID:26721620的`used_in_articles`/`articles`字段
+- `state/monthly_synthesis.md`：2026年7月章节追加#201条目
+- `state/maturity_index.json`：新增4条记录（narcolepsy/orexin-hypocretin/amygdala/oxytocin，均status/confidence维持established/high不变，记录本次修订内容与理由）
+
+## 矛盾检查与登记
+
+评估后判断**本次无需登记新矛盾**：2026年新证据（CeA催产素受体阳性神经元是猝倒的具体分子信使）与2013年既有电路框架（CeA GABA能神经元整体参与，Burgess 2013）方向完全一致，是"整体→具体亚群"的精确化关系，不构成矛盾协议意义上的"新旧证据冲突"。narcolepsy.md原有对猝倒机制"正面情绪→杏仁核→腹内侧延髓（VMM）→脊髓运动神经元抑制"的表述，判断为对完整电路链条（CeA→脑干抗猝倒区域→SLD失抑制→脊髓/延髓抑制性中间神经元→VMM/脊髓运动神经元）的简化提法，而非与新证据矛盾——本次修订已将其精确化为完整链条，视为常规固结修订而非矛盾裁决。
+
+## 自检（ROUTINE.md 第H节）
+
+- **真实性**：每条wiki新主张均标注PMID/DOI/来源，且明确区分"开放全文已读"（Burgess 2013、2023综述）与"摘要级/题录级，未读全文"（Mahoney 2026及其配套文章）两类证据强度；未将单一实验室、尚未独立重复的最新发现（PMID:42449131）当作定论，文章"争议与未解问题"section与相关wiki页均已如实标注这一限制；未对PMID:42449133的具体内容做任何超出题录信息的推测性陈述。
+- **一致性**：判断本次为精确化而非矛盾，理由已在CHANGELOG与本日志中说明；4个修订页面的updated/revision_count/修订历史均已同步更新（rev1→2、rev2→3、rev8→9、rev3→4，逐一核实）；`_graph.json`新增边全部指向已存在节点（narcolepsy/orexin-hypocretin/amygdala/oxytocin均为既有established节点），无新增未记录悬空边；额外订正1处历史节点重复（narcolepsy）。
+- **可导航**：`wiki/index.md`头部摘要行与四条既有条目均已更新；`wiki/CHANGELOG.md`已新增完整条目。
+- **情景层**：article/notes/sources/log四件套齐全；未修改任何既有情景层文件（仅通过Read/Bash工具查阅既有wiki页面与历史文件作为格式参考及内容核对，未做任何写操作到历史文件）；命名采用"日期+slug"消歧惯例，未覆盖2026-07-18既有的历史漂移遗留文件（cortical-canonical-microcircuit及其可能的notes/sources/log）。
+
+## 失败与限制
+
+- 核心突破论文（PMID:42449131）及其同期配套文章（PMID:42449133）均未能获取全文——Nature Neuroscience为订阅制期刊，Europe PMC记录显示两者均无开放获取标记、无PMC存档；本次仅基于PubMed摘要（S1）和题录信息（S2）撰写相关内容，已在文章、reading notes、sources.json中一致、明确标注这一限制，未虚构摘要之外的具体统计数字、样本量或图表细节。
+- 2023年综述（PMID:37266541）中转引的2017年两个独立团队Gq-DREADD研究、DRN-5HT调控研究、BLA多巴胺研究（Hasegawa等），因综述正文未在本次提取的段落中提供其原始PMID，本次未做进一步检索核实，均已明确标注为"据该综述转引，未核实原始PMID"，不构成对未见文献的直接引用。
+- 未能确认PMID:42449133的确切性质（是否为编辑评述/研究简报），仅基于"无作者列表"这一间接线索做出推测性判断，已在多处明确标注这是未经验证的推测。
+- 催产素在这条通路中的具体来源（PVN长程投射释放 vs CeA局部释放）无法从摘要判断，已记录为新未解问题Q-narc-05的一部分，留待未来全文可获取或后续研究澄清。
+
+## Git 操作
+
+- 本次任务明确要求不运行任何git命令（add/commit/push），且跳过0节分支同步。所有文件修改均已完成并保存在工作目录，等待外部流程处理。

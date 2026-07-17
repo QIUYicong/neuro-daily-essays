@@ -6,14 +6,14 @@ type: disease
 status: established
 confidence: high
 created: 2026-10-15
-updated: 2026-10-15
-revision_count: 1
-dimensions: [molecular, cellular, brain-region, whole-brain-network, behavior, cognition, disease]
-related: [orexin-hypocretin, flip-flop-switch-sleep-wake, rem-sleep, ascending-arousal-system, two-process-model, adenosine, hla-autoimmunity]
+updated: 2026-07-18
+revision_count: 2
+dimensions: [molecular, cellular, microcircuit, brain-region, whole-brain-network, behavior, cognition, disease]
+related: [orexin-hypocretin, flip-flop-switch-sleep-wake, rem-sleep, ascending-arousal-system, two-process-model, adenosine, hla-autoimmunity, amygdala, oxytocin]
 prerequisites: [orexin-hypocretin, flip-flop-switch-sleep-wake, rem-sleep]
-opens_questions: [Q-narc-01, Q-narc-02, Q-narc-03, Q-narc-04]
-source_articles: [2026-10-15-narcolepsy-type1-orexin-autoimmune-flipflop]
-key_sources: ["PMID:37188663", "PMID:26721620", "PMID:30232458", "PMID:29855798"]
+opens_questions: [Q-narc-01, Q-narc-02, Q-narc-03, Q-narc-04, Q-narc-05]
+source_articles: [2026-10-15-narcolepsy-type1-orexin-autoimmune-flipflop, 2026-07-18-oxytocin-amygdala-cataplexy]
+key_sources: ["PMID:37188663", "PMID:26721620", "PMID:30232458", "PMID:29855798", "PMID:23739970", "PMID:37266541", "PMID:42449131"]
 ---
 
 # 发作性睡病 1 型 (Narcolepsy Type 1, NT1)
@@ -66,7 +66,7 @@ HLA-DQB1*06:02 基因型
 
 食欲素神经元丢失后，睡眠-清醒双稳触发器（[[flip-flop-switch-sleep-wake]]）的清醒端"谷壁高度"下降：
 - **日间嗜睡**：随机生理噪声可将系统从清醒推入 REM（SOREMP，入睡即进 REM）
-- **猝倒**：正面情绪（杏仁核→腹内侧延髓 VMM→脊髓运动神经元抑制）激活 REM 肌肉弛缓回路，食欲素无法再拮抗这条通路 → 肌张力丧失（意识完全清醒）
+- **猝倒**：正面情绪/奖赏激活 REM 肌肉弛缓回路，食欲素无法再拮抗这条通路 → 肌张力丧失（意识完全清醒）。具体电路（**2026-07-18 精确化**，详见 [[amygdala]]）：中央杏仁核（CeA）中表达催产素受体的 GABA 能神经元亚群被催产素信号招募 → 抑制脑干抗猝倒区域（vlPAG/LPT、蓝斑 LC、中缝背核 DR）→ 脊髓下核（SLD）失抑制 → 脊髓/延髓抑制性中间神经元激活 → 骨骼肌运动神经元兴奋性输入被切断。健康大脑中，食欲素神经元持续兴奋 vlPAG/LPT 等区域，抵消这条抑制性输出；NT1 患者因食欲素神经元丢失而失去这层保护，使该通路畅通无阻地触发猝倒
 - **睡眠麻痹**：REM 肌肉弛缓延伸进入清醒意识状态
 - **入睡前/醒后幻觉**：REM 梦境内容渗入半清醒状态
 
@@ -95,6 +95,8 @@ HLA-DQB1*06:02 基因型
 | DTA 小鼠：95%丢失→猝倒，>97%→20–60次/暗期 | 条件性消融 + 行为分析 | PMID:26721620 | 高 |
 | Sodium oxybate RCT：猝倒减少 57–85% | 228例，4.5/6/9g，双盲安慰剂对照 | PMID:26721620 | 高 |
 | OX2R 激动剂（Danavorexton）改善 MWT +11.1 min | Phase II/III RCT | Danavorexton 2024 | 高（新） |
+| CeA中>90%投射至vlPAG/LPT的神经元为GABA能，双侧CeA损毁使跑轮/跑轮+巧克力诱发猝倒分别减少58%/42%，不影响REM本身 | 顺/逆行示踪+兴奋性毒性损毁+EEG/EMG，食欲素KO小鼠 | PMID:23739970（PMC3704329，开放全文） | 高（因果证据，但n较小且损毁范围不完全局限CeA） |
+| CeA催产素受体阳性神经元活动在猝倒前上升；拮抗剂阻断社交诱发猝倒；化学/光遗传操控可双向调节猝倒；巧克力（非社交奖赏）同样激活该通路 | 药理学阻断+化学遗传学+光遗传学，食欲素缺失小鼠 | PMID:42449131（**摘要级，全文未读**）**[NEW 2026-07-18]** | 中（多手段互证，单一实验室尚未独立重复） |
 
 ## 治疗选项
 
@@ -116,6 +118,8 @@ HLA-DQB1*06:02 基因型
 - [[ascending-arousal-system]] — 觉醒系统：食欲素神经元是其上游稳定器
 - [[two-process-model]] — Borbély 两进程模型：NT1 患者 Process C 相对完整（昼夜节律保留），Process S 内稳态机制保留，但触发器稳定器缺失，使得清醒端维持失败
 - [[adenosine]] — 腺苷作为睡眠稳态驱动力，在 NT1 中仍正常积累，但食欲素的对抗作用消失
+- [[amygdala]] — 中央杏仁核（CeA）GABA能神经元是猝倒情绪触发的关键电路节点，直接投射至脑干抗猝倒区域（vlPAG/LPT/LC/DR）**[NEW 2026-07-18]**
+- [[oxytocin]] — 催产素及其在CeA的受体阳性神经元是猝倒被正性情绪/奖赏触发的分子信使 **[NEW 2026-07-18]**
 
 ## 未解问题
 
@@ -123,13 +127,16 @@ HLA-DQB1*06:02 基因型
 - **Q-narc-02**：NT2（无猝倒、正常 CSF Hcrt-1）的独立机制——是食欲素信号通路的部分损伤（受体或下游）而非神经元丢失？还是不同的疾病？
 - **Q-narc-03**：OX2R 激动剂对猝倒的有效性——猝倒需要 OX1R 还是 OX2R 介导？现有 OX2R 激动剂能否完全替代内源食欲素的防猝倒功能？
 - **Q-narc-04**：基因治疗的昼夜节律挑战——AAV 介导的组成型食欲素表达是否会因失去正常的清醒期放电-睡眠期沉默模式而带来副作用（慢性失眠或昼夜节律紊乱）？
+- **Q-narc-05**（高优先级，2026-07-18新增）：催产素-CeA猝倒通路与5-HT能、多巴胺能等其他候选通路（据综述PMID:37266541转引）之间的相对权重和交互关系是什么？催产素的具体来源（PVN长程投射 vs CeA局部释放）尚未厘清，且该发现目前仅有摘要可读、尚待独立重复和全文核实。
 
 ## 修订历史
 
 | 版本 | 日期 | 变化 | 来源文章 |
 |------|------|------|---------|
 | rev1 | 2026-10-15 | 初始页面建立：NT1 完整病理机制（免疫→神经元丢失→翻转开关失稳）、临床诊断、治疗选项（含最新 OX2R 激动剂）、关键证据表、未解问题 | #175 |
+| rev2 | 2026-07-18 | 将猝倒机制从笼统的"杏仁核→腹内侧延髓"描述，精确化为具体解剖电路（CeA GABA能神经元→vlPAG/LPT/LC/DR→SLD失抑制，Burgess 2013, PMID:23739970）与2026年新确立的分子信使（催产素/CeA催产素受体阳性神经元，Mahoney et al. 2026, PMID:42449131，摘要级）；关键证据表新增2行；连接新增 amygdala、oxytocin；未解问题新增 Q-narc-05；dimensions新增microcircuit | #201 |
 
 ## 来源文章
 
 - [[2026-10-15-narcolepsy-type1-orexin-autoimmune-flipflop]]
+- [[2026-07-18-oxytocin-amygdala-cataplexy]]

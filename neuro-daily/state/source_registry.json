@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-17",
+  "last_updated": "2026-07-18",
   "description": "已使用来源注册表，防止重复使用同一来源而不说明原因",
   "sources": [
     {
@@ -11317,7 +11317,8 @@
       "full_text": true,
       "first_used": "2026-10-15",
       "articles": [
-        "2026-10-15-narcolepsy-type1-orexin-autoimmune-flipflop"
+        "2026-10-15-narcolepsy-type1-orexin-autoimmune-flipflop",
+        "2026-07-18-oxytocin-amygdala-cataplexy.md"
       ],
       "covers": [
         "NT1流行病学 DTA小鼠模型 CSF Hcrt-1诊断 sodium oxybate RCT 食欲素系统综述"
@@ -11953,9 +11954,84 @@
         "SYNGAP1相关疾病约占智力障碍病例0.7%-1%",
         "治疗策略全景：AAV基因补充/ASO剪接调控(CMP-SYNGAP-01)/taRNA/小分子(perampanel/他汀类)"
       ]
+    },
+    {
+      "pmid": "42449131",
+      "pmcid": null,
+      "doi": "10.1038/s41593-026-02352-7",
+      "title": "Oxytocin promotes socially triggered cataplexy",
+      "authors_short": "Mahoney CE, De Luca R, Joyal AA, et al.",
+      "journal": "Nature Neuroscience",
+      "year": 2026,
+      "first_used": "2026-07-18",
+      "used_in_articles": [
+        "2026-07-18-oxytocin-amygdala-cataplexy.md"
+      ],
+      "aspects_covered": [
+        "社会重聚触发发作性睡病小鼠猝倒，催产素受体拮抗剂阻断",
+        "催产素张力/CeA催产素受体阳性神经元活动在猝倒前上升",
+        "化学遗传学/光遗传学证明CeA催产素响应神经元抑制脑干抗猝倒神经元驱动猝倒",
+        "巧克力（非社交奖赏）同样激活该通路并触发猝倒",
+        "摘要级信息，全文未读（订阅制期刊，未见开放获取/PMC存档）"
+      ]
+    },
+    {
+      "pmid": "42449133",
+      "pmcid": null,
+      "doi": "10.1038/s41593-026-02349-2",
+      "title": "Oxytocin in the amygdala links social and reward signals to cataplexy in mice",
+      "authors_short": "[No authors listed in PubMed record]",
+      "journal": "Nature Neuroscience",
+      "year": 2026,
+      "first_used": "2026-07-18",
+      "used_in_articles": [
+        "2026-07-18-oxytocin-amygdala-cataplexy.md"
+      ],
+      "aspects_covered": [
+        "仅确认题录信息（标题/DOI/期刊/日期），未获取摘要或正文，推测为S1的配套评述/研究简报但未验证"
+      ]
+    },
+    {
+      "pmid": "23739970",
+      "pmcid": "PMC3704329",
+      "doi": "10.1523/JNEUROSCI.5632-12.2013",
+      "title": "Amygdala lesions reduce cataplexy in orexin knock-out mice",
+      "authors_short": "Burgess CR, Oishi Y, Mochizuki T, Peever JH, Scammell TE",
+      "journal": "Journal of Neuroscience",
+      "year": 2013,
+      "first_used": "2026-07-18",
+      "used_in_articles": [
+        "2026-07-18-oxytocin-amygdala-cataplexy.md"
+      ],
+      "aspects_covered": [
+        "CeA中>90%投射至vlPAG/LPT的神经元为GABA能，同时投射LC/DR",
+        "双侧CeA损毁使跑轮/跑轮+巧克力诱发猝倒分别减少58%/42%，不影响REM本身",
+        "损毁不能完全消除猝倒，提示存在其他并行通路",
+        "开放全文（PMC author manuscript，经BioC API完整读取）"
+      ]
+    },
+    {
+      "pmid": "37266541",
+      "pmcid": "PMC10230954",
+      "doi": null,
+      "title": "Amygdala neurocircuitry at the interface between emotional regulation and narcolepsy with cataplexy",
+      "authors_short": "(Frontiers in Neuroscience review)",
+      "journal": "Frontiers in Neuroscience",
+      "year": 2023,
+      "first_used": "2026-07-18",
+      "used_in_articles": [
+        "2026-07-18-oxytocin-amygdala-cataplexy.md"
+      ],
+      "aspects_covered": [
+        "人类NT1患者杏仁核体积/代谢/连接异常影像学证据汇总",
+        "2017年两个独立团队Gq-DREADD操控CeA GABA能神经元改变猝倒发作率（据综述转引）",
+        "背侧中缝5-HT能投射、BLA多巴胺/Drd2信号参与猝倒调控",
+        "杏仁核-食欲素神经元双向投射",
+        "开放全文（Frontiers开放获取，完整读取）"
+      ]
     }
   ],
-  "total_sources": 770,
+  "total_sources": 721,
   "additions_2026-07-02": [
     {
       "pmid": "10322493",
@@ -18143,5 +18219,22 @@
     "new_additions": 7,
     "full_text_count": 5,
     "notes": "PMID:39406516/37558489为PMC开放但仅读取摘要级信息；PMID:30789692为官方机构来源(NIH GeneReviews)；其余5篇（含官方来源）均完整读取全文"
+  },
+  "sources_2026-07-18-oxytocin-amygdala-cataplexy": {
+    "article": "#201 · 甜到瘫软：催产素如何在杏仁核里把奖赏信号翻译成猝倒的开关",
+    "date": "2026-07-18",
+    "pmids": [
+      "PMID:42449131",
+      "PMID:42449133",
+      "PMID:23739970",
+      "PMID:37266541",
+      "PMID:26721620"
+    ],
+    "institutional_sources": [
+      "NINDS Narcolepsy (https://www.ninds.nih.gov/health-information/disorders/narcolepsy)"
+    ],
+    "new_additions": 4,
+    "full_text_count": 3,
+    "notes": "PMID:42449131为核心突破证据但仅摘要级（订阅期刊，无PMC存档）；PMID:42449133仅题录信息；PMID:23739970/37266541为开放全文，完整读取；PMID:26721620为本知识库既有来源，本次仅作背景核对；另有1个官方机构来源（NINDS）"
   }
 }
