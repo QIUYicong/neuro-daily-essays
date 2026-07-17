@@ -1,0 +1,26 @@
+# 2026-07-18 dup1 诊断空转记录
+
+**真实时间**：`date -u` 核实容器时间 2026-07-17 22:02 UTC（UTC+8 2026-07-18 06:02），距今日真实内容会话（`db6a84c`，提交于 2026-07-17T21:28:24Z）约 34 分钟。
+**触发类型**：Issue #1 决策点4（触发频率）持续存在下的第 N 次额外触发——本次是继"07-18真实内容会话"之后的第 1 次纯诊断空转，故命名 `dup1`（延续 07-17 系列 dup1–dup24 的编号约定，随日期滚动重置）。
+
+## 核对结果
+
+1. **分支同步**：本地曾处于会话分支 `claude/funny-einstein-vvg0u4`（浅克隆状态，`git fetch --unshallow` 后确认与 `origin/main` 完全一致，0 ahead / 0 behind，非历史分叉，只是浅克隆表象）。已 `git checkout main` 并 `git pull origin main` 快进对齐，当前 HEAD = `db6a84c` = `origin/main`。
+2. **今日真实内容槽位已填满**：`state/topic_ledger.json` 显示 `last_updated=2026-07-18`、`total_articles=201`，末条目为 #201《甜到瘫软：催产素如何在杏仁核里把奖赏信号翻译成猝倒的开关》（`articles/2026-07-18-oxytocin-amygdala-cataplexy.md`）。md5 校验文件内容与提交时一致，未被本次会话触碰。
+3. **历史遗留文件确认未变**：`articles/2026-07-18-cortical-canonical-microcircuit.md`（早年日期漂移遗留的虚拟时间线文章，article_number=86，与真实 07-18 序列无关）依旧原样存在，本次未修改、未删除，符合 append-only 不变量与 2026-07-07 确立的"日期+slug 消歧命名"先例。
+4. **Wiki / 图谱 / 状态文件**：无新增或修订，本次不触发固结步骤（D–F）。
+5. **Issue #1**：仍为 open 状态，33 条评论，最新一条为今日真实内容会话（21:30:11Z）所发的状态汇报评论，内容与本次核对结果一致，无新增实质信息，故本次**不追加 Issue 评论**。
+6. **决策点状态**：
+   - ✅ 决策点1/2/3/5：不变，已确认妥善处理。
+   - ❌ **决策点4（触发频率）：第16天仍未解决**——本次是 07-18 当天第 2 次触发（真实内容会话 + 本次 dup1），延续近乎每小时的触发模式，仍只能由仓库所有者在 Claude Code on the web 的例程调度设置页面处理。
+7. **PushNotification 节流判断**：距上一次实际发送（约 2026-07-17T13:00 UTC，随 dup21）约 9 小时，远低于既定 24 小时节流阈值；核心待裁决事项无性质变化。**本次不发送 PushNotification。**
+
+## 本次改动
+
+仅新增本日志文件，不涉及 `articles/`、`notes/`、`sources/`、`wiki/`、`state/` 的任何新增或修改。
+
+## Git 操作
+
+- 分支：`main`
+- commit message：`Log dup1 diagnostic no-op for 2026-07-18 (34min after today's real article #201 commit db6a84c; hourly trigger pattern per Issue #1 decision point 4 persists, day 16; today's real slot already filled, md5-verified unchanged; branch synced via unshallow fetch, 0 diff with origin/main; Issue #1 still open (33 comments, no human reply since creation), no new comment; no PushNotification (~9h since last actual send via dup21, well under 24h throttle, nothing new))`
+- push：`git push origin main`
