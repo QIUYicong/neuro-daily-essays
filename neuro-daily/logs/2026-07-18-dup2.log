@@ -1,0 +1,26 @@
+# 2026-07-18 dup2 诊断空转记录
+
+**真实时间**：`date -u` 核实容器时间 2026-07-17 23:02 UTC（UTC+8 2026-07-18 07:02），距 `dup1`（提交 `408d4f3`，本地记录容器时间 2026-07-17 22:02 UTC）约 60 分钟，延续近乎每小时的触发间隔。
+
+**触发类型**：Issue #1 决策点4（触发频率）持续存在下的第 N 次额外触发——继"07-18 真实内容会话"（`db6a84c`）与"dup1"（`408d4f3`）之后本日第 3 次触发，故命名 `dup2`。
+
+## 核对结果
+
+1. **分支同步**：`git checkout main && git pull origin main` 后确认 0 ahead / 0 behind，HEAD = `408d4f3` = `origin/main`，非分叉。
+2. **今日真实内容槽位已填满**：`state/topic_ledger.json` 显示 `last_updated=2026-07-18`、`total_articles=201`，末条目为 #201《甜到瘫软：催产素如何在杏仁核里把奖赏信号翻译成猝倒的开关》（`articles/2026-07-18-oxytocin-amygdala-cataplexy.md`）。未修改。
+3. **历史遗留文件确认未变**：`articles/2026-07-18-cortical-canonical-microcircuit.md`（article_number=86，早年虚拟时间线遗留）与 `articles/2026-07-19-beta-oscillations-cortical-prediction.md`（article_number=87，同一遗留时间线）均原样存在，本次未触碰，符合 append-only 不变量。
+4. **Wiki / 图谱 / 状态文件**：无新增或修订，本次不触发固结步骤（D–F）。
+5. **Issue #1**：仍为 open 状态，33 条评论（经 `issue_read` 核实，`updated_at` 未晚于 dup1 检查时刻），无新增人工评论，故本次不追加 Issue 评论。
+6. **决策点状态**：
+   - 决策点1/2/3/5：不变，已确认妥善处理。
+   - **决策点4（触发频率）：第16天仍未解决**——本次是 07-18 当天第 3 次触发，间隔约 60 分钟，与历史 dup1–dup24 模式一致，仍需仓库所有者在 Claude Code on the web 的例程调度设置页面核实并调整触发频率（本会话内 `CronList` 仅能查询本会话通过 `CronCreate` 建立的任务，无法读取或修改平台级例程触发配置）。
+7. **PushNotification 节流判断**：距上一次实际发送（约 2026-07-17T13:00 UTC，随 dup21）约 10 小时，仍远低于 24 小时节流阈值；核心待裁决事项无性质变化，Issue #1 无新回复。**本次不发送 PushNotification。**
+
+## 本次改动
+
+仅新增本日志文件，不涉及 `articles/`、`notes/`、`sources/`、`wiki/`、`state/` 的任何新增或修改。
+
+## Git 操作
+
+- 分支：`main`
+- push：`git push origin main`
