@@ -1,0 +1,9 @@
+# 2026-07-17 dup8 诊断日志（重复触发空转）
+
+- 真实容器时间：本会话检测到写入本日志时约为 2026-07-17 01:01 UTC = 09:01 CST（Asia/Shanghai）。距上一次记录（dup7，提交时间 2026-07-17 00:03:47 UTC）约 57 分钟，与 Issue #1 决策点3描述的"近乎每小时触发"模式一致。
+- 判定：今日（2026-07-17）真实内容槽位已由文章 #200《SynGAP1 单倍剂量不足与智力障碍机制修正》正常填补（commit 28d2390，push 状态见 dea9f82）。本次触发无新增文章/wiki/state 变更需求，不重写、不补写、不改动任何已存在的 articles/notes/sources/wiki 文件。
+- 分支状态：本会话开始时 `origin/main` 与本地设计分支 `claude/funny-einstein-l5ytjb` 完全一致，HEAD=1feae44（dup7），working tree clean，无需 reset/rebase。
+- Issue #1 状态核查：通过 GitHub MCP 读取，仍为 open，32 条评论，`updated_at=2026-07-16T17:33:45Z`，与 dup7 记录时完全一致 —— 自 dup7 以来无任何新评论、无人工回复、决策点1-4均未被裁决。未发现构成"新性质信息"的内容，因此未追加新 Issue 评论。
+- 通知节流：上一次实际发送的 PushNotification 约在 2026-07-16T14:01 UTC，距今约 11 小时，仍低于既定的 24 小时节流阈值，且无新信息可报告。本次未发送 PushNotification。
+- 触发频率问题本身（决策点3）持续存在（本次为今日第 8 次额外触发），仅能由仓库所有者在 Claude Code on the web 的调度设置页面处理，仓库内操作无法修复调度器本身。
+- Git 操作：本次仅追加本日志文件，不涉及 articles/notes/sources/wiki 的新增或修改。
