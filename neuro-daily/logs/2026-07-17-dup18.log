@@ -1,0 +1,9 @@
+# 2026-07-17 dup18 诊断日志（重复触发空转）
+
+- 真实容器时间：`date -u` 核实约为 2026-07-17 11:01 UTC = 19:01 CST（Asia/Shanghai）。距上一次记录（dup17，提交时间约 2026-07-17 10:01:33 UTC）约 60 分钟，与 Issue #1 决策点3/4描述的"近乎每小时触发"模式持续一致。本次为今日（2026-07-17）第 18 次额外触发。
+- 判定：今日真实内容槽位已由文章 #200《SynGAP1 单倍剂量不足与智力障碍机制修正》正常填补（dup1-dup17 已连续确认，本次复核 `neuro-daily/articles/2026-07-17-syngap1-intellectual-disability-mechanism.md` 存在且未被改动）。本次触发无新增文章/wiki/state 变更需求，不重写、不补写、不改动任何已存在的 articles/notes/sources/wiki 文件。
+- 分支状态：本会话开始时本地分支（`claude/funny-einstein-qs8abp`）位于旧 `main` 提交 `fcdd216`（浅克隆祖先产物），`git pull` 因分叉历史（50 vs 50 表象）报错。执行 `git fetch --unshallow` 后核实 `merge-base main origin/main` = `fcdd216`，即本地历史确为 `origin/main`（`4deeec1`，dup17 提交）的真祖先（0 ahead / 137 behind），无本地独有内容风险。`git merge --ff-only origin/main` 干净快进成功。
+- Issue #1 状态核查：通过 GitHub MCP `issue_read` 读取，仍为 `open`，32 条评论，`updated_at=2026-07-16T17:33:45Z`，与 dup17 记录时完全一致——自 dup17 以来无任何新评论、无人工回复，决策点1-4均未被裁决。未发现构成"新性质信息"的内容，因此未追加新 Issue 评论。
+- 通知节流：上一次实际发送的 PushNotification 约在 2026-07-16T14:01 UTC，距今约 21 小时，仍低于既定的 24 小时节流阈值，且无新信息可报告（Issue #1 无变化、无人工回复、决策点4仍未处理），本次未发送 PushNotification。
+- 触发频率问题本身（决策点3/4）持续存在，第16天（自 2026-07-02 Issue 创建起算），仅能由仓库所有者在 Claude Code on the web 的调度设置页面处理，仓库内操作无法修复调度器本身。
+- Git 操作：本次分支已通过 ff-only 与 origin/main 同步至 dup17 提交，随后仅追加本日志文件，不涉及 articles/notes/sources/wiki 的新增或修改，直接提交并推送至 `main`。
