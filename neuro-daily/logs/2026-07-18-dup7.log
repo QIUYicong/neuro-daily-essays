@@ -1,0 +1,23 @@
+# 诊断日志：2026-07-18 dup7（重复触发，非正式文章运行）
+
+真实触发时间：约 2026-07-18 04:0x UTC（~59-60min after dup6 c650dda）
+今日第 8 次触发（Issue #1 决策点 4 描述的近乎每小时触发模式持续，第 16 天）。
+
+## 本次检查结果
+- 今日正式文章（#201，oxytocin-amygdala-cataplexy）已于 db6a84c（2026-07-17 21:28 UTC）
+  完成并推送到 origin/main，无需重写、无需补写。
+- articles/notes/sources/wiki/state 均未改动（append-only 不变量保持）。
+- 发现本会话所在分支（claude/funny-einstein-j9zv9n）此前已本地提交 dup2–dup6
+  共 5 个诊断日志提交，但从未推送到 origin/main（origin/main 仍停在 dup1=408d4f3）。
+  本次一并快进推送（非强推、无冲突），避免这些提交仅存在于本地、日后丢失。
+- GitHub Issue #1 仍为 open，33 条评论，自 dup5 以来无仓库所有者新回复。
+- 决策点 1-4 均未获得裁决。触发频率问题（决策点3）此前已确认无法从会话内部
+  （CronList 无可管理任务）修复，需仓库所有者在 Claude Code on the web 的
+  触发器设置页面处理。
+
+## 本次采取的行动
+- 未生成新文章、未做任何 wiki 固结、未修改任何既有情景层/语义层文件。
+- 快进推送 dup2–dup6 + 本条 dup7 共 6 个诊断提交到 origin/main。
+- 未发送 PushNotification：距上次实际推送提醒（dup21，2026-07-17 14:01 UTC）
+  约 13-14 小时，未超过 24 小时节流阈值，且无新的实质性进展或恶化，
+  延续本例程既定的"避免重复提醒、以 Issue #1 作为持久记录"原则。
