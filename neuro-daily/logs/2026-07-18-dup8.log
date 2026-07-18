@@ -1,0 +1,31 @@
+# 诊断日志：2026-07-18 dup8（重复触发，非正式文章运行）
+
+真实触发时间：约 2026-07-18 06:00 UTC（UTC+8 14:00），距 dup7（427ad02，约 04:0x UTC）约 2 小时。
+今日第 9 次触发（Issue #1 决策点 4 描述的近乎每小时触发模式持续，第 16 天）。
+
+## 本次检查结果
+- 今日正式文章（#201，oxytocin-amygdala-cataplexy）已于 db6a84c（2026-07-17 21:28 UTC）
+  完成并推送到 origin/main，md5 校验（0ec3cd0674c3e35ee8a61b8416e867d3）与此前记录一致，无需重写、无需补写。
+- articles/notes/sources/wiki/state 均未改动（append-only 不变量保持）。
+- 发现本会话所在本地分支（claude/funny-einstein-lssel4）此前已本地提交 dup2–dup7
+  共 6 个诊断日志提交，且对应远程分支（origin/claude/funny-einstein-lssel4）在本次
+  会话的 git fetch 中报"couldn't find remote ref"（不存在/已被回收），即这些提交
+  此前从未真正推送到任何持久位置。本次已确认 origin/main（408d4f3=dup1）是本地
+  HEAD（427ad02=dup7）的直接祖先，快进无冲突，故直接 `git push origin HEAD:main`
+  一并推送 dup2–dup8 共 7 个诊断提交到 origin/main，避免它们仅存在于易失的本地
+  容器中、下次会话换用新的临时分支名后再度"孤儿化"。
+- GitHub Issue #1 仍为 open，33 条评论，自 2026-07-17T21:30 UTC（第 201 篇文章的
+  更新评论）以来无仓库所有者新回复，也无新评论。决策点 1/2/3/5 状态不变（已妥善
+  处理/无需继续关注）；决策点 4（触发频率）第 16 天仍未解决——本例程无法从仓库
+  内部（CronList 显示当前会话无可管理的定时任务）修复触发器配置，需要仓库所有者
+  在 Claude Code on the web 的该例程触发器/schedule 设置页面，把频率改为
+  "每天一次 09:00 Asia/Shanghai"。
+
+## 本次采取的行动
+- 未生成新文章、未做任何 wiki 固结、未修改任何既有情景层/语义层文件。
+- 快进推送 dup2–dup8 共 7 个诊断提交到 origin/main（非强推、无冲突）。
+- 未发送 PushNotification：距上次实际推送提醒（约 2026-07-17T13:00 UTC 前后，
+  随 dup21 提交）约 17 小时，未超过 24 小时节流阈值，且无新的实质性进展或恶化
+  （决策点 4 现状与此前完全一致），延续本例程既定的"避免重复提醒、以 Issue #1
+  作为持久记录"原则。
+- 未在 Issue #1 追加评论：无新增信息，此前评论已完整覆盖当前状态。
