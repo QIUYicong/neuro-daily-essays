@@ -1,0 +1,26 @@
+# 2026-07-18 dup4 诊断空转记录
+
+**真实时间**：`date -u` 核实容器时间 2026-07-18 01:00:04 UTC（UTC+8 2026-07-18 09:00），距 `dup3`（提交 `11be595`，容器时间 2026-07-18 00:01 UTC）约 59 分钟，延续近乎每小时的触发间隔。值得注意：本次触发时刻恰好是例程原本预期的"每天一次 09:00 Asia/Shanghai"窗口，但今日真实内容早已在约 05:02 UTC+8（远早于 09:00）由另一次触发产出（article #201），说明触发频率异常不仅带来重复空转，也使得"09:00"这个预期时间点本身失去了唯一性意义。
+
+**触发类型**：Issue #1 决策点4（触发频率）持续存在下的第 N 次额外触发——继"07-18 真实内容会话"（`db6a84c`）、`dup1`（`408d4f3`）、`dup2`（`7ee0ecc`）、`dup3`（`11be595`）之后本日第 5 次触发，故命名 `dup4`。
+
+## 核对结果
+
+1. **分支同步**：会话启动分支为 `claude/funny-einstein-w2zgkq`；`git checkout main && git pull origin main` 后确认本地 `main` 与 `origin/main` 一致（快进至 `11be595`，无分叉）。
+2. **今日真实内容槽位已填满**：`state/topic_ledger.json` 末条目仍为 #201《甜到瘫软：催产素如何在杏仁核里把奖赏信号翻译成猝倒的开关》（`articles/2026-07-18-oxytocin-amygdala-cataplexy.md`）。md5 校验（`topic_ledger.json`=`52ffcaabf062b1d9e79f3e5e6d84c561`，文章=`0ec3cd0674c3e35ee8a61b8416e867d3`）与 dup3 记录一致，未被本次会话触碰。
+3. **历史遗留文件确认未变**：`articles/2026-07-18-cortical-canonical-microcircuit.md`（早年日期漂移遗留的虚拟时间线文章，article_number=86）依旧原样存在，本次未修改、未删除，符合 append-only 不变量。
+4. **Wiki / 图谱 / 状态文件**：`wiki/_graph.json` 可正常解析（356 节点 / 2159 边），无新增或修订，本次不触发固结步骤（D–F）。
+5. **Issue #1**：`issue_read` 核实 `updated_at=2026-07-17T21:30:11Z`，与 dup1/dup2/dup3 检查时刻相同，仍为 33 条评论，无新增人工评论或回复，故本次**不追加 Issue 评论**。
+6. **决策点状态**：
+   - ✅ 决策点1/2/3/5：不变，已确认妥善处理。
+   - ❌ **决策点4（触发频率）：第16天仍未解决**——本次是 07-18 当天第 5 次触发（真实内容会话 + dup1 + dup2 + dup3 + 本次 dup4），间隔约 59–60 分钟，与历史 dup 序列模式一致，仍需仓库所有者在 Claude Code on the web 的例程调度设置页面核实并调整触发频率（本会话内无法读取或修改平台级例程触发配置）。
+7. **PushNotification 节流判断**：距上一次实际发送（约 2026-07-17T13:00 UTC，随 dup21）约 12 小时，仍远低于 24 小时节流阈值；核心待裁决事项无性质变化，Issue #1 无新回复，今日内容槽位无变化。**本次不发送 PushNotification。**
+
+## 本次改动
+
+仅新增本日志文件，不涉及 `articles/`、`notes/`、`sources/`、`wiki/`、`state/` 的任何新增或修改。
+
+## Git 操作
+
+- 分支：`main`
+- push：`git push origin main`
